@@ -40,5 +40,6 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "chore: update version history $(date -u +'%Y-%m-%d')"
+            git pull --rebase origin main
             git push
           fi
