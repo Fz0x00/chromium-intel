@@ -6598,5 +6598,485 @@
     "cl_number": 754084,
     "subject": "[BlobStorage] Fixing potential overflow",
     "commit_message": ""
+  },
+  "699028": null,
+  "765858": null,
+  "780312": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/753205",
+    "cl_number": 753205,
+    "subject": "Resource Timing: Do not report subsequent navigations within subframes",
+    "commit_message": ""
+  },
+  "777419": null,
+  "774382": null,
+  "778101": null,
+  "756226": null,
+  "756456": null,
+  "756735": null,
+  "768910": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/685638",
+    "cl_number": 685638,
+    "subject": "Strip JavaScript schemas on Linux text drop",
+    "commit_message": ""
+  },
+  "782145": null,
+  "788453": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/795096",
+    "cl_number": 795096,
+    "subject": "[wasm] Use correct bindings APIs",
+    "commit_message": ""
+  },
+  "780484": null,
+  "673170": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/909297",
+    "cl_number": 909297,
+    "subject": "Fix an issue with speculative frame cleanup in OOPIFs",
+    "commit_message": ""
+  },
+  "671102": null,
+  "668552": null,
+  "667504": null,
+  "663476": null,
+  "662859": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/770511",
+    "cl_number": 770511,
+    "subject": "DevTools: validate remote front-end URLs",
+    "commit_message": ""
+  },
+  "681843": null,
+  "677716": null,
+  "675332": null,
+  "673971": null,
+  "673163": null,
+  "676975": null,
+  "666714": null,
+  "663726": null,
+  "663620": null,
+  "651443": null,
+  "643951": null,
+  "643950": null,
+  "661126": null,
+  "653555": null,
+  "676623": null,
+  "682020": null,
+  "668724": null,
+  "669086": null,
+  "678461": null,
+  "691371": null,
+  "679640": null,
+  "679649": null,
+  "691323": null,
+  "642490": null,
+  "671932": null,
+  "688987": null,
+  "667079": null,
+  "680409": null,
+  "679653": null,
+  "679647": null,
+  "679646": null,
+  "679645": null,
+  "679641": null,
+  "662767": null,
+  "702058": null,
+  "699166": null,
+  "698622": null,
+  "705445": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/5152823",
+    "cl_number": 5152823,
+    "subject": "Remove xpath-nodetab security patch",
+    "commit_message": ""
+  },
+  "695826": null,
+  "694382": null,
+  "684684": null,
+  "683314": null,
+  "672847": null,
+  "700836": null,
+  "693974": null,
+  "704560": null,
+  "690821": null,
+  "648117": null,
+  "679306": null,
+  "691726": null,
+  "715582": null,
+  "709417": null,
+  "716474": null,
+  "700040": null,
+  "678776": null,
+  "719199": null,
+  "716311": null,
+  "711020": null,
+  "713686": null,
+  "708819": null,
+  "714849": null,
+  "702030": null,
+  "722639": null,
+  "725032": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/531775",
+    "cl_number": 531775,
+    "subject": "[IndexedDB] Fixed transaction use-after-free vuln",
+    "commit_message": ""
+  },
+  "729991": null,
+  "714196": null,
+  "725660": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/540917",
+    "cl_number": 540917,
+    "subject": "[M59] Block U+0620 on Mac from being shown in Unicode in IDN",
+    "commit_message": ""
+  },
+  "728887": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/531774",
+    "cl_number": 531774,
+    "subject": "[IndexedDB] Fix Cursor UAF",
+    "commit_message": ""
+  },
+  "733549": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/538908",
+    "cl_number": 538908,
+    "subject": "Validate in-process plugin instance messages.",
+    "commit_message": ""
+  },
+  "550017": null,
+  "732661": null,
+  "714442": null,
+  "740789": null,
+  "740803": null,
+  "733548": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/538908",
+    "cl_number": 538908,
+    "subject": "Validate in-process plugin instance messages.",
+    "commit_message": ""
+  },
+  "718292": null,
+  "681740": null,
+  "727678": null,
+  "726199": null,
+  "729105": null,
+  "729979": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/540716",
+    "cl_number": 540716,
+    "subject": "[M60] Disallow Arabic/Hebrew NSMs to come after an unrelated base char.",
+    "commit_message": ""
+  },
+  "714628": null,
+  "686253": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/574741",
+    "cl_number": 574741,
+    "subject": "Use ARCH_CPU_X86_FAMILY instead of SSE, for subnormal float disabler",
+    "commit_message": ""
+  },
+  "695830": null,
+  "710400": null,
+  "737023": null,
+  "740603": null,
+  "747043": null,
+  "752829": null,
+  "744584": null,
+  "759624": null,
+  "739190": null,
+  "747847": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/640379",
+    "cl_number": 640379,
+    "subject": "Inherit CSP when we inherit the security origin",
+    "commit_message": ""
+  },
+  "725127": null,
+  "718676": null,
+  "765433": null,
+  "752423": null,
+  "772848": null,
+  "762930": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/657248",
+    "cl_number": 657248,
+    "subject": "Use DocumentInit::WithOwnerDocument() to set up transformed Documents.",
+    "commit_message": ""
+  },
+  "749147": null,
+  "760455": null,
+  "765384": null,
+  "765469": null,
+  "765495": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/682102",
+    "cl_number": 682102,
+    "subject": "Fix compile error",
+    "commit_message": ""
+  },
+  "722079": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/535233",
+    "cl_number": 535233,
+    "subject": "Roll libxml to 3939178e4cb797417ff033b1e04ab4b038e224d9",
+    "commit_message": ""
+  },
+  "744109": null,
+  "718858": null,
+  "762106": null,
+  "797461": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/870470",
+    "cl_number": 870470,
+    "subject": "Set \"chrome-search://local-ntp\" initiator on local NTP OGB requests",
+    "commit_message": ""
+  },
+  "867776": null,
+  "847570": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1104347",
+    "cl_number": 1104347,
+    "subject": "Do not crash while reentrantly appending to style element.",
+    "commit_message": ""
+  },
+  "860522": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1138974",
+    "cl_number": 1138974,
+    "subject": "Audio thread should not access destination node",
+    "commit_message": ""
+  },
+  "877182": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1196554",
+    "cl_number": 1196554,
+    "subject": "[mojo-core] Validate data pipe endpoint metadata",
+    "commit_message": ""
+  },
+  "848238": null,
+  "848716": null,
+  "855211": null,
+  "864283": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1142691",
+    "cl_number": 1142691,
+    "subject": "Fix HasSingleSecurityOrigin for HLS",
+    "commit_message": ""
+  },
+  "863069": null,
+  "863623": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1142389",
+    "cl_number": 1142389,
+    "subject": "Avoid sharing process for blob URLs with null origin.",
+    "commit_message": ""
+  },
+  "788936": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/795717",
+    "cl_number": 795717,
+    "subject": "Restrict `file:` stylesheets to `.css` extensions.",
+    "commit_message": ""
+  },
+  "867501": null,
+  "377995": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/983558",
+    "cl_number": 983558,
+    "subject": "Prevent sandboxed documents from reusing the default window",
+    "commit_message": ""
+  },
+  "723503": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1117577",
+    "cl_number": 1117577,
+    "subject": "Add Web Bluetooth and WebUSB device chooser smoke tests",
+    "commit_message": ""
+  },
+  "858929": null,
+  "666299": null,
+  "851398": null,
+  "856823": null,
+  "865202": null,
+  "856578": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1114617",
+    "cl_number": 1114617,
+    "subject": "Fix heap-use-after-free by using weak factory instead of Unretained",
+    "commit_message": ""
+  },
+  "844428": null,
+  "848535": null,
+  "848531": null,
+  "848306": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1138722",
+    "cl_number": 1138722,
+    "subject": "Inform destination handler if execution context is gone.",
+    "commit_message": ""
+  },
+  "875322": null,
+  "880759": null,
+  "696446": null,
+  "874359": null,
+  "888926": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1302101",
+    "cl_number": 1302101,
+    "subject": "Add appcache_fuzzer",
+    "commit_message": ""
+  },
+  "887273": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1249819",
+    "cl_number": 1249819,
+    "subject": "Invalidate associated WKBackForwardListItem after replace state.",
+    "commit_message": ""
+  },
+  "870226": null,
+  "880906": null,
+  "844881": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1188589",
+    "cl_number": 1188589,
+    "subject": "Start rendering timer after first navigation",
+    "commit_message": ""
+  },
+  "876822": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1186215",
+    "cl_number": 1186215,
+    "subject": "Do not forward resource timing to parent frame after back-forward navigation",
+    "commit_message": ""
+  },
+  "880675": null,
+  "877874": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/4876849",
+    "cl_number": 4876849,
+    "subject": "Remove GPU workarounds and entries.",
+    "commit_message": ""
+  },
+  "873080": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1174640",
+    "cl_number": 1174640,
+    "subject": "Revert \"Security drop fullscreen for any nested WebContents level.\"",
+    "commit_message": ""
+  },
+  "822518": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1147861",
+    "cl_number": 1147861,
+    "subject": "Block URLs with Chrome Bundle URL scheme from Launching in iframes.",
+    "commit_message": ""
+  },
+  "882078": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1232679",
+    "cl_number": 1232679,
+    "subject": "[M70] Add additional Lao character to IDN confusables",
+    "commit_message": ""
+  },
+  "843151": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1270199",
+    "cl_number": 1270199,
+    "subject": "Merge \"Speculative fix for crashes in HTMLImportsController::Dispose().\" to M70 branch",
+    "commit_message": ""
+  },
+  "852634": null,
+  "812769": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/923227",
+    "cl_number": 923227,
+    "subject": "Mac: Keep the fullscreen notification on top of other windows.",
+    "commit_message": ""
+  },
+  "863703": null,
+  "897512": null,
+  "905336": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1336520",
+    "cl_number": 1336520,
+    "subject": "Harden gpu::SizedResult against overflow",
+    "commit_message": ""
+  },
+  "901654": null,
+  "895362": null,
+  "898531": null,
+  "886753": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1242463",
+    "cl_number": 1242463,
+    "subject": "Avoid crash when setting rel=stylesheet on <link> in shadow root.",
+    "commit_message": ""
+  },
+  "890576": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1318175",
+    "cl_number": 1318175,
+    "subject": "Fix *StaticBitmapImage ThreadChecker and unaccelerated SkImage destroy",
+    "commit_message": ""
+  },
+  "891187": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1304114",
+    "cl_number": 1304114,
+    "subject": "Use ref counting for automatic nodes in DeferredTaskHandler",
+    "commit_message": ""
+  },
+  "896736": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1331142",
+    "cl_number": 1331142,
+    "subject": "Check context is attached before creating MediaRecorder",
+    "commit_message": ""
+  },
+  "901030": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1318731",
+    "cl_number": 1318731,
+    "subject": "Add bounds CHECK to UTF-8 decoder memory allocation.",
+    "commit_message": ""
+  },
+  "906313": null,
+  "882423": null,
+  "866426": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1270007",
+    "cl_number": 1270007,
+    "subject": "[DevTools] Do not allow Page.setDownloadBehavior for extensions",
+    "commit_message": ""
+  },
+  "886976": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1235343",
+    "cl_number": 1235343,
+    "subject": "Lock down blob/filesystem URL creation with a stronger CPSP::CanCommitURL()",
+    "commit_message": ""
+  },
+  "606104": null,
+  "850824": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1257863",
+    "cl_number": 1257863,
+    "subject": "DRAFT: Don't navigate to invalid URLs.",
+    "commit_message": ""
+  },
+  "881659": null,
+  "894399": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1315531",
+    "cl_number": 1315531,
+    "subject": "Merge to M71: Add a check for disallowing remote frame navigations to local resources.",
+    "commit_message": ""
+  },
+  "799747": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1234337",
+    "cl_number": 1234337,
+    "subject": "Inherit CSP when self-navigating to local-scheme URL",
+    "commit_message": ""
+  },
+  "833847": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1025772",
+    "cl_number": 1025772,
+    "subject": "Check ancestors when setting an <iframe> navigation's \"site for cookies\".",
+    "commit_message": ""
+  },
+  "849942": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1238098",
+    "cl_number": 1238098,
+    "subject": "Simplify \"WouldTaintOrigin\" concept in media/blink",
+    "commit_message": ""
+  },
+  "884179": null,
+  "889459": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1256208",
+    "cl_number": 1256208,
+    "subject": "Validate external protocols before launching on Windows",
+    "commit_message": ""
+  },
+  "896717": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1318544",
+    "cl_number": 1318544,
+    "subject": "[Merge M-71] Block modifier-letter-voicing character from domain names",
+    "commit_message": ""
+  },
+  "883666": null,
+  "895207": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1307844",
+    "cl_number": 1307844,
+    "subject": "Map U+10DE to 3 when checking for confusables",
+    "commit_message": ""
+  },
+  "899126": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1324880",
+    "cl_number": 1324880,
+    "subject": "Bypass proxy for localhost and link-local addresses when using PAC scripts.",
+    "commit_message": ""
+  },
+  "907714": null,
+  "851821": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1244367",
+    "cl_number": 1244367,
+    "subject": "Change TemporaryAddressSpoof test to not depend on PDF OpenActions.",
+    "commit_message": ""
   }
 }
