@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T06:16:46.086654Z",
+  "generated_at": "2026-06-15T06:19:22.204620Z",
   "summary": {
     "total_cves": 4761,
     "in_kev": 72,
@@ -1183,8 +1183,10 @@
         "149.0.7827.115"
       ],
       "in_kev": false,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01962725236.html",
+      "blog_published": "",
       "in_the_wild": false,
-      "severity": "",
+      "severity": null,
       "risk_score": 0
     },
     {
@@ -1196,8 +1198,10 @@
         "149.0.7827.115"
       ],
       "in_kev": false,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01962725236.html",
+      "blog_published": "",
       "in_the_wild": false,
-      "severity": "",
+      "severity": null,
       "risk_score": 0
     },
     {
@@ -1209,8 +1213,10 @@
         "149.0.7827.115"
       ],
       "in_kev": false,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01962725236.html",
+      "blog_published": "",
       "in_the_wild": false,
-      "severity": "",
+      "severity": null,
       "risk_score": 0
     },
     {
@@ -1222,8 +1228,10 @@
         "149.0.7827.115"
       ],
       "in_kev": false,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01962725236.html",
+      "blog_published": "",
       "in_the_wild": false,
-      "severity": "",
+      "severity": null,
       "risk_score": 0
     },
     {
@@ -1235,8 +1243,10 @@
         "149.0.7827.115"
       ],
       "in_kev": false,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01962725236.html",
+      "blog_published": "",
       "in_the_wild": false,
-      "severity": "",
+      "severity": null,
       "risk_score": 0
     },
     {
@@ -1248,8 +1258,10 @@
         "149.0.7827.115"
       ],
       "in_kev": false,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01962725236.html",
+      "blog_published": "",
       "in_the_wild": false,
-      "severity": "",
+      "severity": null,
       "risk_score": 0
     },
     {
@@ -1261,8 +1273,10 @@
         "149.0.7827.115"
       ],
       "in_kev": false,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01962725236.html",
+      "blog_published": "",
       "in_the_wild": false,
-      "severity": "",
+      "severity": null,
       "risk_score": 0
     },
     {
@@ -1274,8 +1288,10 @@
         "149.0.7827.115"
       ],
       "in_kev": false,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01962725236.html",
+      "blog_published": "",
       "in_the_wild": false,
-      "severity": "",
+      "severity": null,
       "risk_score": 0
     },
     {
@@ -1287,8 +1303,10 @@
         "149.0.7827.115"
       ],
       "in_kev": false,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01962725236.html",
+      "blog_published": "",
       "in_the_wild": false,
-      "severity": "",
+      "severity": null,
       "risk_score": 0
     },
     {
@@ -1300,8 +1318,10 @@
         "149.0.7827.115"
       ],
       "in_kev": false,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01962725236.html",
+      "blog_published": "",
       "in_the_wild": false,
-      "severity": "",
+      "severity": null,
       "risk_score": 0
     },
     {
@@ -1313,8 +1333,10 @@
         "149.0.7827.115"
       ],
       "in_kev": false,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01962725236.html",
+      "blog_published": "",
       "in_the_wild": false,
-      "severity": "",
+      "severity": null,
       "risk_score": 0
     },
     {
@@ -1326,8 +1348,10 @@
         "149.0.7827.115"
       ],
       "in_kev": false,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01962725236.html",
+      "blog_published": "",
       "in_the_wild": false,
-      "severity": "",
+      "severity": null,
       "risk_score": 0
     },
     {
@@ -1339,8 +1363,10 @@
         "149.0.7827.115"
       ],
       "in_kev": false,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01962725236.html",
+      "blog_published": "",
       "in_the_wild": false,
-      "severity": "",
+      "severity": null,
       "risk_score": 0
     },
     {
@@ -1352,8 +1378,10 @@
         "149.0.7827.115"
       ],
       "in_kev": false,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01962725236.html",
+      "blog_published": "",
       "in_the_wild": false,
-      "severity": "",
+      "severity": null,
       "risk_score": 0
     },
     {
@@ -1365,8 +1393,10 @@
         "149.0.7827.115"
       ],
       "in_kev": false,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01962725236.html",
+      "blog_published": "",
       "in_the_wild": false,
-      "severity": "",
+      "severity": null,
       "risk_score": 0
     },
     {
@@ -1378,8 +1408,10 @@
         "149.0.7827.115"
       ],
       "in_kev": false,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01962725236.html",
+      "blog_published": "",
       "in_the_wild": false,
-      "severity": "",
+      "severity": null,
       "risk_score": 0
     },
     {
@@ -1391,8 +1423,10 @@
         "149.0.7827.115"
       ],
       "in_kev": false,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01962725236.html",
+      "blog_published": "",
       "in_the_wild": false,
-      "severity": "",
+      "severity": null,
       "risk_score": 0
     },
     {
@@ -1404,8 +1438,10 @@
         "149.0.7827.115"
       ],
       "in_kev": false,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01962725236.html",
+      "blog_published": "",
       "in_the_wild": false,
-      "severity": "",
+      "severity": null,
       "risk_score": 0
     },
     {
@@ -1417,8 +1453,10 @@
         "149.0.7827.115"
       ],
       "in_kev": false,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01962725236.html",
+      "blog_published": "",
       "in_the_wild": false,
-      "severity": "",
+      "severity": null,
       "risk_score": 0
     },
     {
@@ -1430,8 +1468,10 @@
         "149.0.7827.115"
       ],
       "in_kev": false,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01962725236.html",
+      "blog_published": "",
       "in_the_wild": false,
-      "severity": "",
+      "severity": null,
       "risk_score": 0
     },
     {
@@ -1443,8 +1483,10 @@
         "149.0.7827.115"
       ],
       "in_kev": false,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01962725236.html",
+      "blog_published": "",
       "in_the_wild": false,
-      "severity": "",
+      "severity": null,
       "risk_score": 0
     },
     {
@@ -1456,8 +1498,10 @@
         "149.0.7827.115"
       ],
       "in_kev": false,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01962725236.html",
+      "blog_published": "",
       "in_the_wild": false,
-      "severity": "",
+      "severity": null,
       "risk_score": 0
     },
     {
@@ -1469,8 +1513,10 @@
         "149.0.7827.115"
       ],
       "in_kev": false,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01962725236.html",
+      "blog_published": "",
       "in_the_wild": false,
-      "severity": "",
+      "severity": null,
       "risk_score": 0
     },
     {
@@ -1482,8 +1528,10 @@
         "149.0.7827.115"
       ],
       "in_kev": false,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01962725236.html",
+      "blog_published": "",
       "in_the_wild": false,
-      "severity": "",
+      "severity": null,
       "risk_score": 0
     },
     {
@@ -1495,8 +1543,10 @@
         "149.0.7827.115"
       ],
       "in_kev": false,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01962725236.html",
+      "blog_published": "",
       "in_the_wild": false,
-      "severity": "",
+      "severity": null,
       "risk_score": 0
     },
     {
@@ -1508,8 +1558,10 @@
         "149.0.7827.115"
       ],
       "in_kev": false,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01962725236.html",
+      "blog_published": "",
       "in_the_wild": false,
-      "severity": "",
+      "severity": null,
       "risk_score": 0
     },
     {
@@ -1521,8 +1573,10 @@
         "149.0.7827.115"
       ],
       "in_kev": false,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01962725236.html",
+      "blog_published": "",
       "in_the_wild": false,
-      "severity": "",
+      "severity": null,
       "risk_score": 0
     },
     {
@@ -1534,8 +1588,10 @@
         "149.0.7827.115"
       ],
       "in_kev": false,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01962725236.html",
+      "blog_published": "",
       "in_the_wild": false,
-      "severity": "",
+      "severity": null,
       "risk_score": 0
     },
     {
