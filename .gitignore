@@ -1,0 +1,7 @@
+# Cloned data repos (too large for git)
+data/cvelistV5/
+data/kev-data/
+
+# Python
+__pycache__/
+*.pyc

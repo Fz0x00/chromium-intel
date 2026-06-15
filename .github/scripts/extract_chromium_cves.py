@@ -1,156 +1,136 @@
 #!/usr/bin/env python3
-"""从 cvelistV5 提取 Chromium 相关 CVE"""
+"""从 cvelistV5 提取 Chromium 相关 CVE（精简版）"""
 
 import json
 from datetime import datetime
 from pathlib import Path
 
 
-# Chromium 相关关键词
-CHROMIUM_KEYWORDS = [
-    'google chrome', 'chromium', 'microsoft edge',
-    'electron', 'cef', 'blink', 'v8 engine', 'skia',
-    'webrtc', 'pdfium', 'angle', 'weblayer',
-    'chrome os', 'android webview',
-]
+# Chrome 指派者以外的 Chromium 产品关键词（用于描述匹配）
+# 描述匹配仅用作辅助，避免全量扫描
+BROWSER_KEYWORDS = ['google chrome', 'chromium browser']
 
 
 def extract_chromium_cves():
-    """从 cvelistV5 提取 Chromium 相关 CVE"""
-    
+    """从 cvelistV5 提取 Chromium CVE，输出精简数据"""
+
     cve_dir = Path('data/cvelistV5/cves')
-    
     if not cve_dir.exists():
-        print(f"Error: {cve_dir} not found. Please run: git clone --depth=1 https://github.com/CVEProject/cvelistV5.git data/cvelistV5")
+        print(f"Error: {cve_dir} not found")
         return []
-    
+
     print(f"Scanning {cve_dir}...")
     chromium_cves = []
-    
+
     for year_dir in sorted(cve_dir.iterdir()):
         if not year_dir.is_dir():
             continue
-        
         for subsection in year_dir.iterdir():
             if not subsection.is_dir():
                 continue
-            
             for cve_file in subsection.glob('*.json'):
                 try:
                     cve_data = json.loads(cve_file.read_text())
                     if is_chromium_cve(cve_data):
-                        chromium_cves.append(parse_cve(cve_data))
-                except Exception as e:
-                    print(f"  Error processing {cve_file}: {e}")
-    
+                        parsed = parse_cve(cve_data)
+                        if parsed:
+                            chromium_cves.append(parsed)
+                except Exception:
+                    pass
+
     print(f"Found {len(chromium_cves)} Chromium CVEs")
     return chromium_cves
 
 
 def is_chromium_cve(cve_data):
-    """判断是否是 Chromium CVE"""
-    
-    # 方法1: 通过 assignerShortName
+    """精确判断是否是 Chrome/Chromium CVE"""
+
     metadata = cve_data.get('cveMetadata', {})
+
+    # 方法1: assignerShortName == 'Chrome' (最可靠的判断)
     if metadata.get('assignerShortName') == 'Chrome':
         return True
-    
-    # 方法2: 通过 affected 产品
+
+    # 方法2: affected 产品为 Chrome/Chromium，vendor 为 Google
     cna = cve_data.get('containers', {}).get('cna', {})
     for affected in cna.get('affected', []):
         product = (affected.get('product') or '').lower()
         vendor = (affected.get('vendor') or '').lower()
-        
-        # 检查产品和供应商
-        if ('chrome' in product or 'chromium' in product) and 'google' in vendor:
+
+        if vendor == 'google' and ('chrome' in product or 'chromium' in product):
             return True
-        
-        # 旧版 CVE (2018年前) 使用 n/a 标记
-        if product == 'n/a' and vendor == 'n/a':
-            return True
-    
-    # 方法3: 通过描述中的关键词
-    for desc in cna.get('descriptions', []):
-        desc_value = (desc.get('value') or '').lower()
-        if any(kw in desc_value for kw in CHROMIUM_KEYWORDS):
-            return True
-    
+
     return False
 
 
 def parse_cve(cve_data):
-    """解析 CVE 数据"""
-    
+    """解析 CVE 数据，只保留关键字段"""
+
     metadata = cve_data.get('cveMetadata', {})
     cna = cve_data.get('containers', {}).get('cna', {})
-    
-    # 提取受影响版本
-    affected_versions = []
+
+    cve_id = metadata.get('cveId', '')
+    if not cve_id:
+        return None
+
+    # CVSS 分数
+    cvss_score = 0
+    for metric in cna.get('metrics', []):
+        for key in ('cvssV3_1', 'cvssV3_0', 'cvssV4_0'):
+            if key in metric:
+                cvss_score = metric[key].get('baseScore', 0)
+                break
+        if cvss_score > 0:
+            break
+
+    # 描述（截断）
+    desc = ''
+    for d in cna.get('descriptions', []):
+        if d.get('lang') == 'en':
+            desc = d.get('value', '')
+            break
+    if len(desc) > 120:
+        desc = desc[:117] + '...'
+
+    # 受影响版本（只保留版本范围）
+    versions = []
     for affected in cna.get('affected', []):
         product = (affected.get('product') or '').lower()
         if 'chrome' in product or 'chromium' in product:
-            for version in affected.get('versions', []):
-                affected_versions.append({
-                    'version': version.get('version', ''),
-                    'less_than': version.get('lessThan', ''),
-                    'less_than_or_equal': version.get('versionEndIncluding', ''),
-                })
-    
-    # 提取参考链接
-    references = []
-    for ref in cna.get('references', []):
-        references.append({
-            'url': ref.get('url', ''),
-            'name': ref.get('name', ''),
-            'tags': ref.get('tags', []),
-        })
-    
-    # 提取 CVSS 分数
-    cvss_score = 0
-    for metric in cna.get('metrics', []):
-        if 'cvssV3_1' in metric:
-            cvss_score = metric['cvssV3_1'].get('baseScore', 0)
-            break
-        elif 'cvssV3_0' in metric:
-            cvss_score = metric['cvssV3_0'].get('baseScore', 0)
-            break
-    
-    # 提取 CWE
-    cwe_ids = []
-    for problem in cna.get('problemTypes', []):
-        for desc in problem.get('descriptions', []):
-            if desc.get('cweId'):
-                cwe_ids.append(desc['cweId'])
-    
+            for v in affected.get('versions', []):
+                lt = v.get('lessThan', '') or v.get('versionEndExcluding', '')
+                lte = v.get('versionEndIncluding', '')
+                ver = v.get('version', '')
+                versions.append(lt or lte or ver)
+    versions = list(set(versions))[:5]  # 最多5个
+
     return {
-        'cve_id': metadata.get('cveId', ''),
+        'id': cve_id,
         'published': metadata.get('datePublished', ''),
-        'description': cna.get('descriptions', [{}])[0].get('value', ''),
-        'affected_versions': affected_versions,
-        'references': references,
-        'cvss_score': cvss_score,
-        'cwe_ids': cwe_ids,
+        'cvss': cvss_score,
+        'description': desc,
+        'versions': versions,
     }
 
 
 def main():
-    """主函数"""
     cves = extract_chromium_cves()
-    
-    # 创建输出目录
+
     output_dir = Path('data')
     output_dir.mkdir(exist_ok=True)
-    
-    # 保存结果
+
+    # 按发布时间排序
+    cves.sort(key=lambda x: x.get('published', ''), reverse=True)
+
     output = {
         'generated_at': datetime.utcnow().isoformat() + 'Z',
         'total_cves': len(cves),
         'cves': cves,
     }
-    
+
     output_file = output_dir / 'chromium-cves.json'
     output_file.write_text(json.dumps(output, indent=2, ensure_ascii=False))
-    
+
     print(f"\nSaved {len(cves)} CVEs to {output_file}")
     return output
 

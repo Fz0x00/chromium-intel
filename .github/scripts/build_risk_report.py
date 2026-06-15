@@ -48,7 +48,7 @@ def build_risk_report():
     # 4. 关联数据
     print("\nCorrelating data...")
     for cve in cves:
-        cve_id = cve['cve_id']
+        cve_id = cve['id']
         
         # 关联 KEV
         kev_entry = kev_index.get(cve_id)
@@ -66,8 +66,10 @@ def build_risk_report():
             cve['blog_url'] = release_info[0].get('url', '')
             cve['blog_published'] = release_info[0].get('published', '')
             cve['in_the_wild'] = release_info[0].get('in_the_wild', False)
+            cve['severity'] = release_info[0].get('severity', '')
         else:
             cve['in_the_wild'] = False
+            cve['severity'] = ''
         
         # 计算风险评分
         cve['risk_score'] = calculate_risk_score(cve)
@@ -118,8 +120,8 @@ def calculate_risk_score(cve):
         score += 30
     
     # 3. 严重程度 (20%)
-    severity = cve.get('severity', '').lower() if cve.get('severity') else ''
-    cvss = cve.get('cvss_score', 0)
+    severity = cve.get('severity', '') or ''
+    cvss = cve.get('cvss', 0)
     
     if severity == 'critical' or cvss >= 9.0:
         score += 20
