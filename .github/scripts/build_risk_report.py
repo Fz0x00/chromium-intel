@@ -25,6 +25,7 @@ def build_risk_report():
     chromium_cves = load_json('data/chromium-cves.json')
     kev = load_json('data/kev.json')
     version_history = load_json('data/version-history.json')
+    gerrit_cache = load_json('data/gerrit-cache.json')
     
     cves = chromium_cves.get('cves', [])
     kev_list = kev.get('kev', [])
@@ -81,7 +82,14 @@ def build_risk_report():
             cve['bug_url'] = None
             cve['crbug_url'] = None
         
-        # Gerrit 补丁链接直接来自 CVE 数据
+        # Gerrit 补丁链接 — 从缓存读取
+        bug_id = cve.get('bug_id')
+        if bug_id and bug_id in gerrit_cache and gerrit_cache[bug_id]:
+            gerrit = gerrit_cache[bug_id]
+            if gerrit.get('gerrit_url'):
+                cve['gerrit_url'] = gerrit['gerrit_url']
+                cve['gerrit_cl'] = gerrit.get('cl_number')
+                cve['gerrit_subject'] = gerrit.get('subject', '')
         
         # 计算风险评分
         cve['risk_score'] = calculate_risk_score(cve)

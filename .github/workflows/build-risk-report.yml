@@ -31,7 +31,7 @@ jobs:
           pip install requests
       
       - name: Enrich Gerrit links (batch 200)
-        run: python .github/scripts/enrich_gerrit.py 200 --enrich
+        run: python .github/scripts/enrich_gerrit.py 200
       
       - name: Build risk report
         run: python .github/scripts/build_risk_report.py
