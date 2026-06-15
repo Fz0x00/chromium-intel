@@ -2,11 +2,12 @@ name: Sync Chromium CVEs
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # 每 30 分钟
+    - cron: '*/30 * * * *'
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths: ['.github/scripts/extract_chromium_cves.py']
+
+concurrency:
+  group: data-push
+  cancel-in-progress: false
 
 jobs:
   sync:

@@ -6,6 +6,10 @@ on:
     types: [completed]
   workflow_dispatch:
 
+concurrency:
+  group: data-push
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -36,3 +40,114 @@ jobs:
             git pull --rebase origin main
             git push
           fi
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      
+      - name: Prepare site
+        run: |
+          mkdir -p _site
+          cp data/risk-report.json _site/
+          cp data/releases.json _site/
+          cp data/chromium-cves.json _site/
+          cp data/kev.json _site/
+      
+      - name: Generate dashboard
+        run: |
+          cat > _site/index.html << 'HTML'
+          <!DOCTYPE html>
+          <html>
+          <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Chromium Intel Dashboard</title>
+            <style>
+              * { box-sizing: border-box; margin: 0; padding: 0; }
+              body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 1200px; margin: 0 auto; padding: 20px; background: #f8f9fa; color: #202124; }
+              h1 { color: #1a73e8; margin-bottom: 8px; }
+              .updated { color: #5f6368; font-size: 14px; margin-bottom: 24px; }
+              .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 16px; margin-bottom: 24px; }
+              .card { background: white; border: 1px solid #dadce0; border-radius: 8px; padding: 16px; text-align: center; }
+              .card .num { font-size: 32px; font-weight: 700; }
+              .card .label { font-size: 12px; color: #5f6368; text-transform: uppercase; }
+              .card.critical { border-left: 4px solid #d93025; }
+              .card.high { border-left: 4px solid #f9ab00; }
+              .card.medium { border-left: 4px solid #1a73e8; }
+              .card.low { border-left: 4px solid #34a853; }
+              table { border-collapse: collapse; width: 100%; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+              th, td { padding: 10px 14px; text-align: left; border-bottom: 1px solid #dadce0; font-size: 14px; }
+              th { background: #f8f9fa; font-weight: 600; color: #5f6368; }
+              .tag { display: inline-block; padding: 2px 6px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+              .tag-kev { background: #fce8e6; color: #c5221f; }
+              .tag-wild { background: #fef7e0; color: #ea8600; }
+              .score-bar { display: inline-block; width: 60px; height: 6px; background: #dadce0; border-radius: 3px; vertical-align: middle; }
+              .score-fill { height: 100%; border-radius: 3px; }
+              .score-crit { background: #d93025; } .score-high { background: #f9ab00; } .score-med { background: #1a73e8; } .score-low { background: #34a853; }
+            </style>
+          </head>
+          <body>
+            <h1>Chromium Intel Dashboard</h1>
+            <p class="updated">Generated: <span id="generated-at"></span></p>
+            <div id="summary" class="cards"></div>
+            <h2 style="margin-bottom:12px">Risk Report</h2>
+            <div id="risk-table"></div>
+            
+            <script>
+            fetch('risk-report.json')
+              .then(r => r.json())
+              .then(data => {
+                const s = data.summary;
+                document.getElementById('generated-at').textContent = data.generated_at;
+                document.getElementById('summary').innerHTML = `
+                  <div class="card"><div class="num">${s.total_cves}</div><div class="label">Total CVEs</div></div>
+                  <div class="card critical"><div class="num" style="color:#d93025">${s.in_kev}</div><div class="label">In KEV</div></div>
+                  <div class="card high"><div class="num" style="color:#f9ab00">${s.in_the_wild}</div><div class="label">In the Wild</div></div>
+                  <div class="card critical"><div class="num" style="color:#d93025">${s.critical}</div><div class="label">Critical</div></div>
+                  <div class="card high"><div class="num" style="color:#f9ab00">${s.high}</div><div class="label">High</div></div>
+                  <div class="card medium"><div class="num" style="color:#1a73e8">${s.medium}</div><div class="label">Medium</div></div>
+                  <div class="card low"><div class="num" style="color:#34a853">${s.low}</div><div class="label">Low</div></div>
+                `;
+                
+                let html = '<table><tr><th>CVE</th><th>Risk</th><th>KEV</th><th>Wild</th><th>Description</th></tr>';
+                for (const cve of data.cves.slice(0, 20)) {
+                  const s = cve.risk_score;
+                  const cls = s >= 70 ? 'crit' : s >= 50 ? 'high' : s >= 30 ? 'med' : 'low';
+                  html += `<tr>
+                    <td><strong>${cve.id}</strong></td>
+                    <td><span class="score-bar"><span class="score-fill score-${cls}" style="width:${s}%"></span></span> ${s}</td>
+                    <td>${cve.in_kev ? '<span class="tag tag-kev">KEV</span>' : '—'}</td>
+                    <td>${cve.in_the_wild ? '<span class="tag tag-wild">Wild</span>' : '—'}</td>
+                    <td>${(cve.description || '').substring(0, 80)}</td>
+                  </tr>`;
+                }
+                html += '</table>';
+                document.getElementById('risk-table').innerHTML = html;
+              });
+            </script>
+          </body>
+          </html>
+          HTML
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '_site'
+      
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
