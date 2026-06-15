@@ -37,6 +37,8 @@ def collect_releases():
         update_links = []
         for a in all_links:
             text = a.get_text(strip=True).lower()
+            if 'chromeos' in text:
+                continue  # Skip ChromeOS updates
             if any(kw in text for kw in [
                 'stable channel update',
                 'extended stable channel update',
@@ -50,15 +52,15 @@ def collect_releases():
 
         for a in update_links:
             title = a.get_text(strip=True)
+            # Skip ChromeOS-only posts
+            if 'chromeos' in title.lower() and 'desktop' not in title.lower():
+                continue
+
             link = a['href']
             if link.startswith('/'):
                 link = 'https://chromereleases.googleblog.com' + link
 
-            version = extract_version(title)
-            if not version:
-                continue
-
-            # Fetch the individual post for content
+            # Fetch the individual post for content and version
             content = ''
             try:
                 post_resp = requests.get(link, timeout=30, headers={
@@ -70,8 +72,13 @@ def collect_releases():
                     content = body.get_text(strip=True)
                 else:
                     content = post_soup.body.get_text(strip=True) if post_soup.body else ''
+
+                # Extract version from post content
+                version = extract_version(title + ' ' + content)
+                if not version:
+                    continue
             except:
-                pass
+                continue
 
             release = {
                 'title': title,
