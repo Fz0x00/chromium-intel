@@ -63,13 +63,25 @@ def build_risk_report():
         # 关联 Chrome Releases Blog
         release_info = releases_by_cve.get(cve_id, [])
         if release_info:
-            cve['blog_url'] = release_info[0].get('url', '')
-            cve['blog_published'] = release_info[0].get('published', '')
             cve['in_the_wild'] = release_info[0].get('in_the_wild', False)
             cve['severity'] = release_info[0].get('severity', '')
+            # Use release blog URL if CVE doesn't have one
+            if not cve.get('blog_url'):
+                cve['blog_url'] = release_info[0].get('url', '')
         else:
             cve['in_the_wild'] = False
             cve['severity'] = ''
+        
+        # 构造追踪链接
+        bug_id = cve.get('bug_id')
+        if bug_id:
+            cve['bug_url'] = f'https://issues.chromium.org/issues/{bug_id}'
+            cve['crbug_url'] = f'https://crbug.com/{bug_id}'
+        else:
+            cve['bug_url'] = None
+            cve['crbug_url'] = None
+        
+        # Gerrit 补丁链接直接来自 CVE 数据
         
         # 计算风险评分
         cve['risk_score'] = calculate_risk_score(cve)

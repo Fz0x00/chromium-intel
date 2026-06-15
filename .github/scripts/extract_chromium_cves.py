@@ -2,13 +2,9 @@
 """从 cvelistV5 提取 Chromium 相关 CVE（精简版）"""
 
 import json
+import re
 from datetime import datetime
 from pathlib import Path
-
-
-# Chrome 指派者以外的 Chromium 产品关键词（用于描述匹配）
-# 描述匹配仅用作辅助，避免全量扫描
-BROWSER_KEYWORDS = ['google chrome', 'chromium browser']
 
 
 def extract_chromium_cves():
@@ -83,16 +79,16 @@ def parse_cve(cve_data):
         if cvss_score > 0:
             break
 
-    # 描述（截断）
+    # 描述（截断至 200 字符，足够展示漏洞类型）
     desc = ''
     for d in cna.get('descriptions', []):
         if d.get('lang') == 'en':
             desc = d.get('value', '')
             break
-    if len(desc) > 120:
-        desc = desc[:117] + '...'
+    if len(desc) > 200:
+        desc = desc[:197] + '...'
 
-    # 受影响版本（只保留版本范围）
+    # 受影响版本
     versions = []
     for affected in cna.get('affected', []):
         product = (affected.get('product') or '').lower()
@@ -102,7 +98,26 @@ def parse_cve(cve_data):
                 lte = v.get('versionEndIncluding', '')
                 ver = v.get('version', '')
                 versions.append(lt or lte or ver)
-    versions = list(set(versions))[:5]  # 最多5个
+    versions = list(set(versions))[:5]
+
+    # 提取 references：bug tracker ID / Gerrit / Release Blog
+    bug_id = None
+    gerrit_url = None
+    blog_url = None
+    for ref in cna.get('references', []):
+        url = ref.get('url', '')
+        if not url:
+            continue
+        # Chromium bug tracker
+        m = re.search(r'(?:crbug\.com/|issues\.chromium\.org/issues/)(\d+)', url)
+        if m and not bug_id:
+            bug_id = m.group(1)
+        # Gerrit
+        if 'chromium-review.googlesource.com' in url and not gerrit_url:
+            gerrit_url = url
+        # Release blog
+        if 'chromereleases.googleblog.com' in url and not blog_url:
+            blog_url = url
 
     return {
         'id': cve_id,
@@ -110,6 +125,9 @@ def parse_cve(cve_data):
         'cvss': cvss_score,
         'description': desc,
         'versions': versions,
+        'bug_id': bug_id,
+        'gerrit_url': gerrit_url,
+        'blog_url': blog_url,
     }
 
 
