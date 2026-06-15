@@ -51,8 +51,7 @@
   
   function makeLinks(cve) {
     let html = '<span class="links">';
-    if (cve.bug_url) html += `<a href="${cve.bug_url}" target="_blank">Bug</a>`;
-    if (cve.crbug_url) html += `<a href="${cve.crbug_url}" target="_blank">crbug</a>`;
+    if (cve.bug_url) html += `<a href="${cve.bug_url}" target="_blank">Issue</a>`;
     if (cve.gerrit_url) html += `<a href="${cve.gerrit_url}" target="_blank">Patch</a>`;
     if (cve.blog_url) html += `<a href="${cve.blog_url}" target="_blank">Blog</a>`;
     html += '</span>';
