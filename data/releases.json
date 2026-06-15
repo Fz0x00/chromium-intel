@@ -1,7 +1,51 @@
 {
-  "generated_at": "2026-06-15T06:16:25.779335Z",
-  "latest_version": null,
-  "latest_release_date": null,
-  "total_releases": 0,
-  "releases": []
+  "generated_at": "2026-06-15T06:19:07.678632Z",
+  "latest_version": "149.0.7827.114",
+  "latest_release_date": "",
+  "total_releases": 1,
+  "releases": [
+    {
+      "title": "Stable Channel Update for Desktop",
+      "published": "",
+      "url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01962725236.html",
+      "content": "The Stable channel has been updated to 149.0.7827.114/.115 for Windows andMac and149.0.7827.114 for Linux, which will roll out over the coming days/weeks. A full list of changes in this build is available in theLogSecurity Fixes and RewardsNote: Access to bug details and links may be kept restricted until a majority of users are updated with a fix. We will also retain restrictions if the bug exists in a third party library that other projects similarly depend on, but haven’t yet fixed.This update includes28security fixes. Below, we highlight fixes that were contributed by external researchers. Please see theChrome Security Pagefor more information.[N/A][516731749]CriticalCVE-2026-12007: Use after free  Core.Reported by Google on 2026-05-26[N/A][516942828]CriticalCVE-2026-12008: Use after free  DigitalCredentials.Reported by Google on 2026-05-27[N/A][517332006]CriticalCVE-2026-12009: Insufficient validation of untrusted input  Accessibility.Reported by Google on 2026-05-28[N/A][517531647]CriticalCVE-2026-12010: Heap buffer overflow  GPU.Reported by Google on 2026-05-28[N/A][518108291]CriticalCVE-2026-12011: Use after free  WebMIDI.Reported by Google on 2026-05-30[N/A][499182801]HighCVE-2026-12012: Use after free  Network.Reported by Google on 2026-04-03[TBD][514229805]HighCVE-2026-12013: Use after free  Media.Reported by Henock Habte, Independent Security Researcher on 2026-05-18[N/A][514742747]HighCVE-2026-12014: Use after free  Cast.Reported by Google on 2026-05-19[N/A][515463295]HighCVE-2026-12015: Use after free  Autofill.Reported by Google on 2026-05-21[N/A][516482138]HighCVE-2026-12016: Insufficient validation of untrusted input  DevTools.Reported by Google on 2026-05-25[N/A][516797143]HighCVE-2026-12017: Insufficient validation of untrusted input  Extensions.Reported by Google on 2026-05-26[N/A][516808201]HighCVE-2026-12018: Inappropriate implementation  Mojo.Reported by Google on 2026-05-26[N/A][516872067]HighCVE-2026-12019: Out of bounds write  Codecs.Reported by Google on 2026-05-26[N/A][516907083]HighCVE-2026-12020: Use after free  Autofill.Reported by Google on 2026-05-27[N/A][516929496]HighCVE-2026-12022: Race  Safe Browsing.Reported by Google on 2026-05-27[N/A][517018374]HighCVE-2026-12023: Use after free  GPU.Reported by Google on 2026-05-27[N/A][517086161]HighCVE-2026-12024: Insufficient policy enforcement  DevTools.Reported by Google on 2026-05-27[N/A][517153191]HighCVE-2026-12025: Insufficient validation of untrusted input  Network.Reported by Google on 2026-05-27[N/A][517347084]HighCVE-2026-12026: Out of bounds read  Video.Reported by Google on 2026-05-28[N/A][517517155]HighCVE-2026-12027: Insufficient policy enforcement  Headless.Reported by Google on 2026-05-28[N/A][517555461]HighCVE-2026-12028: Use after free  GPU.Reported by Google on 2026-05-28[N/A][518002958]HighCVE-2026-12029: Use after free  Video.Reported by Google on 2026-05-29[N/A][518007423]HighCVE-2026-12030: Heap buffer overflow  GPU.Reported by Google on 2026-05-29[N/A][518045638]HighCVE-2026-12031: Inappropriate implementation  Views.Reported by Google on 2026-05-30[N/A][518128953]HighCVE-2026-12032: Inappropriate implementation  Passwords.Reported by Google on 2026-05-30[N/A][519248779]HighCVE-2026-12033: Out of bounds read  VideoCapture.Reported by Google on 2026-06-02[N/A][519258799]HighCVE-2026-12034: Insufficient validation of untrusted input  Linux Toolkit Theming.Reported by Google on 2026-06-02[N/A][520210566]HighCVE-2026-12035: Use after free  Views.Reported by Google on 2026-06-05We would also like to thank all security researchers that worked with us during the development cycle to prevent security bugs from ever reaching the stable channel.Many of our security bugs are detected usingAddressSanitizer,MemorySanitizer,UndefinedBehaviorSanitizer,Control Flow Integrity,libFuzzer, orAFL.Interested in switching release channels? Find out howhere. If you find a new issue, please let us know byfiling a bug. Thecommunity help forumis also a great place to reach out for help or learn about common issues.Srinivas SistaGoogle Chrome",
+      "version": "149.0.7827.114",
+      "cves": [
+        "CVE-2026-12027",
+        "CVE-2026-12010",
+        "CVE-2026-12023",
+        "CVE-2026-12014",
+        "CVE-2026-12032",
+        "CVE-2026-12017",
+        "CVE-2026-12018",
+        "CVE-2026-12007",
+        "CVE-2026-12019",
+        "CVE-2026-12025",
+        "CVE-2026-12012",
+        "CVE-2026-12013",
+        "CVE-2026-12024",
+        "CVE-2026-12008",
+        "CVE-2026-12033",
+        "CVE-2026-12020",
+        "CVE-2026-12034",
+        "CVE-2026-12022",
+        "CVE-2026-12015",
+        "CVE-2026-12026",
+        "CVE-2026-12029",
+        "CVE-2026-12031",
+        "CVE-2026-12035",
+        "CVE-2026-12028",
+        "CVE-2026-12009",
+        "CVE-2026-12011",
+        "CVE-2026-12030",
+        "CVE-2026-12016"
+      ],
+      "in_the_wild": false,
+      "severity": null,
+      "platforms": [
+        "Windows",
+        "Mac/Linux"
+      ]
+    }
+  ]
 }
