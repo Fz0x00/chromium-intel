@@ -48,6 +48,7 @@ def build_risk_report():
     
     # 4. 关联数据
     print("\nCorrelating data...")
+    gerrit_count = 0
     for cve in cves:
         cve_id = cve['id']
         
@@ -90,9 +91,12 @@ def build_risk_report():
                 cve['gerrit_url'] = gerrit['gerrit_url']
                 cve['gerrit_cl'] = gerrit.get('cl_number')
                 cve['gerrit_subject'] = gerrit.get('subject', '')
+                gerrit_count += 1
         
         # 计算风险评分
         cve['risk_score'] = calculate_risk_score(cve)
+    
+    print(f"  Enriched {gerrit_count} CVEs with Gerrit links")
     
     # 5. 按风险评分排序
     cves.sort(key=lambda x: x.get('risk_score', 0), reverse=True)
