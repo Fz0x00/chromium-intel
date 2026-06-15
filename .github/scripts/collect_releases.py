@@ -34,7 +34,24 @@ def collect_releases():
 
         # Debug
         print(f"  HTML length: {len(resp.text)}")
-        print(f"  Title: {soup.title.string if soup.title else 'N/A'}")
+        title_tag = soup.title.string if soup.title else 'N/A'
+        print(f"  Title: {title_tag}")
+        # Print first 300 chars of body text
+        body = soup.body
+        body_text = body.get_text(strip=True)[:300] if body else 'N/A'
+        print(f"  Body text start: {body_text}")
+        # Print all h2/h3 to find post titles
+        headings = soup.find_all(['h2', 'h3'])
+        print(f"  Headings found: {len(headings)}")
+        for h in headings[:5]:
+            print(f"    - {h.get_text(strip=True)[:80]}")
+        # Print all links with 'stable' in text
+        links = soup.find_all('a')
+        print(f"  Links found: {len(links)}")
+        stable_links = [a for a in links if 'stable' in (a.get_text() or '').lower()]
+        print(f"  Links with 'stable': {len(stable_links)}")
+        for a in stable_links[:3]:
+            print(f"    - {a.get_text(strip=True)[:80]}")
 
         posts = soup.find_all(class_='post')
 
