@@ -36,6 +36,30 @@ jobs:
       - name: Build risk report
         run: python .github/scripts/build_risk_report.py
       
+      - name: Generate inline data
+        run: |
+          python3 -c "
+          import json
+          with open('data/risk-report.json') as f:
+              data = json.load(f)
+          # 取 top 300 + 摘要，内嵌到 JS 中
+          s = data['summary']
+          cves = data['cves'][:300]
+          for c in cves:
+              keys = list(c.keys())
+              for k in keys:
+                  if c[k] is None or c[k] == '' or c[k] == []:
+                      del c[k]
+              if 'exploitability' in c:
+                  e = c.pop('exploitability')
+                  c['el'] = e.get('label','?')
+                  c['er'] = e.get('reason','')[:80]
+          js = 'window.CI=' + json.dumps({'s':s,'c':cves}, separators=(',',':')) + ';'
+          with open('docs/top-data.js', 'w') as f:
+              f.write(js)
+          print(f'Inline data: {len(js)} bytes, {len(cves)} CVEs')
+          "
+      
       - name: Build site
         run: |
           mkdir -p docs
@@ -85,6 +109,7 @@ jobs:
             <p class="sub">Electron/CEF Exploitability Assessment · Generated: <span id="generated-at"></span></p>
             <div id="summary" class="cards"></div>
             <div id="risk-table"></div>
+            <script src="top-data.js"></script>
             
             <script>
             let allCves = [];
@@ -157,7 +182,16 @@ jobs:
               .then(r => r.json())
               .then(data => {
                 allCves = data.cves;
-                const s = data.summary;
+                render(data);
+              })
+              .catch(() => {
+                // 如果 fetch 失败，用内嵌数据
+                if (window.CI && window.CI.c) render(window.CI);
+              });
+            
+            function render(data) {
+              allCves = data.c;
+              const s = data.s;
                 document.getElementById('generated-at').textContent = data.generated_at;
                 
                 let cards = '<div class="card"><div class="num">' + s.total_cves + '</div><div class="label">Total CVEs</div></div>';
@@ -178,7 +212,7 @@ jobs:
                   ${renderTable(allCves, 1)}
                   <div id="pagination">${renderPagination(allCves.length)}</div>
                 `;
-              });
+              }
             </script>
           </body>
           </html>
