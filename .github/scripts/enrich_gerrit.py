@@ -139,7 +139,16 @@ def enrich_risk_report():
 
 def main():
     import sys
-    args = set(sys.argv[1:])
+    argv = sys.argv[1:]
+
+    # 解析参数
+    dry_run = "--dry-run" in argv
+    do_enrich = "--enrich" in argv
+    max_fetch = 200
+    for a in argv:
+        if a.isdigit():
+            max_fetch = int(a)
+            break
 
     bug_ids = get_bug_ids_from_cves()
     print(f"Found {len(bug_ids)} bug IDs from CVEs")
@@ -150,12 +159,11 @@ def main():
     print(f"  Already cached: {len(bug_ids) - len(to_fetch)}")
     print(f"  Need to fetch: {len(to_fetch)}")
 
-    if to_fetch and "--dry-run" not in args:
+    if to_fetch and not dry_run:
         # 优先查最近的（bug ID 越大越新）
         to_fetch.sort(key=lambda x: int(x), reverse=True)
 
         # 限制每轮查询数量，避免工作流超时
-        max_fetch = int(args[0]) if args and args[0].isdigit() else 200
         if len(to_fetch) > max_fetch:
             print(f"  Limiting to {max_fetch} (batch mode)")
             to_fetch = to_fetch[:max_fetch]
@@ -166,7 +174,7 @@ def main():
     else:
         print("  Skipping fetch")
 
-    if "--enrich" in args or "enrich" in args:
+    if do_enrich:
         enrich_risk_report()
 
 
