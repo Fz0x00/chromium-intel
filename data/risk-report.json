@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T07:28:56.424954Z",
+  "generated_at": "2026-06-15T07:40:12.224135Z",
   "summary": {
     "total_cves": 4761,
     "in_kev": 72,
@@ -41,7 +41,7 @@
         "146.0.7680.178"
       ],
       "bug_id": "491518608",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7669409",
       "blog_url": "https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_31.html",
       "in_kev": true,
       "kev_date": "2026-04-01",
@@ -51,6 +51,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/491518608",
       "crbug_url": "https://crbug.com/491518608",
+      "gerrit_cl": 7669409,
+      "gerrit_subject": "Roll Dawn from 24d032f9897c to 3c890398bda4 (4 revisions)",
       "risk_score": 40
     },
     {
@@ -83,7 +85,7 @@
         "146.0.7680.75"
       ],
       "bug_id": "491421267",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7666261",
       "blog_url": "https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_13.html",
       "in_kev": true,
       "kev_date": "2026-03-13",
@@ -93,6 +95,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/491421267",
       "crbug_url": "https://crbug.com/491421267",
+      "gerrit_cl": 7666261,
+      "gerrit_subject": "Roll Skia from 50841da4a7b7 to 248acd90d9a3",
       "risk_score": 40
     },
     {
@@ -104,7 +108,7 @@
         "145.0.7632.75"
       ],
       "bug_id": "483569511",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7607381",
       "blog_url": "https://chromereleases.googleblog.com/2026/02/stable-channel-update-for-desktop_13.html",
       "in_kev": true,
       "kev_date": "2026-02-17",
@@ -114,6 +118,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/483569511",
       "crbug_url": "https://crbug.com/483569511",
+      "gerrit_cl": 7607381,
+      "gerrit_subject": "Remove const in FontFeatureValuesMap iteration source",
       "risk_score": 40
     },
     {
@@ -125,7 +131,7 @@
         "143.0.7499.110"
       ],
       "bug_id": "466192044",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7916726",
       "blog_url": "https://chromereleases.googleblog.com/2025/12/stable-channel-update-for-desktop_10.html",
       "in_kev": true,
       "kev_date": "2025-12-12",
@@ -135,6 +141,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/466192044",
       "crbug_url": "https://crbug.com/466192044",
+      "gerrit_cl": 7916726,
+      "gerrit_subject": "Roll ANGLE from f5e8b9c7c428 to 25a3d02c8865 (7 revisions)",
       "risk_score": 40
     },
     {
@@ -188,7 +196,7 @@
         "138.0.7204.157"
       ],
       "bug_id": "427162086",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/6719011",
       "blog_url": "https://chromereleases.googleblog.com/2025/07/stable-channel-update-for-desktop_15.html",
       "in_kev": true,
       "kev_date": "2025-07-22",
@@ -198,6 +206,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/427162086",
       "crbug_url": "https://crbug.com/427162086",
+      "gerrit_cl": 6719011,
+      "gerrit_subject": "Don't allow writes to active transform feedback buffer.",
       "risk_score": 40
     },
     {
@@ -251,7 +261,7 @@
         "134.0.6998.177"
       ],
       "bug_id": "405143032",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/6383570",
       "blog_url": "https://chromereleases.googleblog.com/2025/03/stable-channel-update-for-desktop_25.html",
       "in_kev": true,
       "kev_date": "2025-03-27",
@@ -261,6 +271,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/405143032",
       "crbug_url": "https://crbug.com/405143032",
+      "gerrit_cl": 6383570,
+      "gerrit_subject": "Avoid receiving or sending sentinel handle values",
       "risk_score": 40
     },
     {
@@ -377,7 +389,7 @@
         "124.0.6367.201"
       ],
       "bug_id": "339266700",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/5527521",
       "blog_url": "https://chromereleases.googleblog.com/2024/05/stable-channel-update-for-desktop_9.html",
       "in_kev": true,
       "kev_date": "2024-05-13",
@@ -387,6 +399,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/339266700",
       "crbug_url": "https://crbug.com/339266700",
+      "gerrit_cl": 5527521,
+      "gerrit_subject": "[M120-LTS] Viz: Tolerate SinkGroup destruction during submit",
       "risk_score": 40
     },
     {
@@ -398,7 +412,7 @@
         "120.0.6099.224"
       ],
       "bug_id": "1517354",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/5199621",
       "blog_url": "https://chromereleases.googleblog.com/2024/01/stable-channel-update-for-desktop_16.html",
       "in_kev": true,
       "kev_date": "2024-01-17",
@@ -408,6 +422,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/1517354",
       "crbug_url": "https://crbug.com/1517354",
+      "gerrit_cl": 5199621,
+      "gerrit_subject": "Roll v8 11.4 from d47acda203d5 to bfb03399ff6c (6 revisions)",
       "risk_score": 40
     },
     {
@@ -419,7 +435,7 @@
         "120.0.6099.129"
       ],
       "bug_id": "1513170",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/5217332",
       "blog_url": "https://chromereleases.googleblog.com/2023/12/stable-channel-update-for-desktop_20.html",
       "in_kev": true,
       "kev_date": "2024-01-02",
@@ -429,6 +445,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/1513170",
       "crbug_url": "https://crbug.com/1513170",
+      "gerrit_cl": 5217332,
+      "gerrit_subject": "[CfM-R114] WebRtcAudioSink: Stop on invalid configuration",
       "risk_score": 40
     },
     {
@@ -440,7 +458,7 @@
         "119.0.6045.199"
       ],
       "bug_id": "1505053",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/5060263",
       "blog_url": "https://chromereleases.googleblog.com/2023/11/stable-channel-update-for-desktop_28.html",
       "in_kev": true,
       "kev_date": "2023-11-30",
@@ -450,6 +468,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/1505053",
       "crbug_url": "https://crbug.com/1505053",
+      "gerrit_cl": 5060263,
+      "gerrit_subject": "Roll Skia from 7c6b9495b415 to 0eea0b277d7d (1 revision)",
       "risk_score": 40
     },
     {
@@ -482,7 +502,7 @@
         "116.0.5845.187"
       ],
       "bug_id": "1479274",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/4869056",
       "blog_url": "https://chromereleases.googleblog.com/2023/09/stable-channel-update-for-desktop_11.html",
       "in_kev": true,
       "kev_date": "2023-09-13",
@@ -492,6 +512,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/1479274",
       "crbug_url": "https://crbug.com/1479274",
+      "gerrit_cl": 4869056,
+      "gerrit_subject": "Roll src/third_party/libwebp/src/ fd7b5d484..a450afed4 (1 commit)",
       "risk_score": 40
     },
     {
@@ -503,7 +525,7 @@
         "116.0.5845.179"
       ],
       "bug_id": "1473247",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/4883141",
       "blog_url": "https://chromereleases.googleblog.com/2023/09/stable-channel-update-for-desktop.html",
       "in_kev": true,
       "kev_date": "2024-02-06",
@@ -513,6 +535,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/1473247",
       "crbug_url": "https://crbug.com/1473247",
+      "gerrit_cl": 4883141,
+      "gerrit_subject": "Roll v8 11.4 from a8a50370e695 to 7350617e56ce (2 revisions)",
       "risk_score": 40
     },
     {
@@ -524,7 +548,7 @@
         "114.0.5735.110"
       ],
       "bug_id": "1450481",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/4617831",
       "blog_url": "https://chromereleases.googleblog.com/2023/06/stable-channel-update-for-desktop.html",
       "in_kev": true,
       "kev_date": "2023-06-07",
@@ -534,6 +558,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/1450481",
       "crbug_url": "https://crbug.com/1450481",
+      "gerrit_cl": 4617831,
+      "gerrit_subject": "Roll v8 10.8 from 7f410a7d32f3 to 34fd15ec82f6 (2 revisions)",
       "risk_score": 40
     },
     {
@@ -545,7 +571,7 @@
         "112.0.5615.137"
       ],
       "bug_id": "1432603",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/4653053",
       "blog_url": "https://chromereleases.googleblog.com/2023/04/stable-channel-update-for-desktop_18.html",
       "in_kev": true,
       "kev_date": "2023-04-21",
@@ -555,6 +581,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/1432603",
       "crbug_url": "https://crbug.com/1432603",
+      "gerrit_cl": 4653053,
+      "gerrit_subject": "Roll Skia from 5b2dcde227d8 to b967be971791 (16 revisions)",
       "risk_score": 40
     },
     {
@@ -566,7 +594,7 @@
         "112.0.5615.121"
       ],
       "bug_id": "1432210",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/4457451",
       "blog_url": "https://chromereleases.googleblog.com/2023/04/stable-channel-update-for-desktop_14.html",
       "in_kev": true,
       "kev_date": "2023-04-17",
@@ -576,6 +604,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/1432210",
       "crbug_url": "https://crbug.com/1432210",
+      "gerrit_cl": 4457451,
+      "gerrit_subject": "Roll v8 10.8 from 56ed868fc3d8 to f205fed0b719 (2 revisions)",
       "risk_score": 40
     },
     {
@@ -587,7 +617,7 @@
         "108.0.5359.94"
       ],
       "bug_id": "1394403",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/4101401",
       "blog_url": "https://chromereleases.googleblog.com/2022/12/stable-channel-update-for-desktop.html",
       "in_kev": true,
       "kev_date": "2022-12-05",
@@ -597,6 +627,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/1394403",
       "crbug_url": "https://crbug.com/1394403",
+      "gerrit_cl": 4101401,
+      "gerrit_subject": "Roll v8 10.2 from 819b6859dee5 to 4a4c2bd96e29 (2 revisions)",
       "risk_score": 40
     },
     {
@@ -608,7 +640,7 @@
         "107.0.5304.121"
       ],
       "bug_id": "1392715",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/4055567",
       "blog_url": "https://chromereleases.googleblog.com/2022/11/stable-channel-update-for-desktop_24.html",
       "in_kev": true,
       "kev_date": "2022-11-28",
@@ -618,6 +650,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/1392715",
       "crbug_url": "https://crbug.com/1392715",
+      "gerrit_cl": 4055567,
+      "gerrit_subject": "[M102-LTS] Fix potential OOB problem with validating command decoder",
       "risk_score": 40
     },
     {
@@ -650,7 +684,7 @@
         "105.0.5195.102"
       ],
       "bug_id": "1358134",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/3864274",
       "blog_url": "https://chromereleases.googleblog.com/2022/09/stable-channel-update-for-desktop.html",
       "in_kev": true,
       "kev_date": "2022-09-08",
@@ -660,6 +694,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/1358134",
       "crbug_url": "https://crbug.com/1358134",
+      "gerrit_cl": 3864274,
+      "gerrit_subject": "Mojo: Validate response message type",
       "risk_score": 40
     },
     {
@@ -671,7 +707,7 @@
         "105.0.5195.52"
       ],
       "bug_id": "1340253",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/3867358",
       "blog_url": "https://chromereleases.googleblog.com/2022/08/stable-channel-update-for-desktop_30.html",
       "in_kev": true,
       "kev_date": "2023-03-30",
@@ -681,6 +717,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/1340253",
       "crbug_url": "https://crbug.com/1340253",
+      "gerrit_cl": 3867358,
+      "gerrit_subject": "[M102-LTS] Fix UAF on network::URLLoader",
       "risk_score": 40
     },
     {
@@ -692,7 +730,7 @@
         "104.0.5112.101"
       ],
       "bug_id": "1345630",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/3828890",
       "blog_url": "https://chromereleases.googleblog.com/2022/08/stable-channel-update-for-desktop_16.html",
       "in_kev": true,
       "kev_date": "2022-08-18",
@@ -702,6 +740,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/1345630",
       "crbug_url": "https://crbug.com/1345630",
+      "gerrit_cl": 3828890,
+      "gerrit_subject": "Ensure prompt is shown for any data intents targeting other browsers",
       "risk_score": 40
     },
     {
@@ -713,7 +753,7 @@
         "103.0.5060.114"
       ],
       "bug_id": "1341043",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/3742704",
       "blog_url": "https://chromereleases.googleblog.com/2022/07/stable-channel-update-for-desktop.html",
       "in_kev": true,
       "kev_date": "2022-08-25",
@@ -723,6 +763,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/1341043",
       "crbug_url": "https://crbug.com/1341043",
+      "gerrit_cl": 3742704,
+      "gerrit_subject": "Adds a test for simulcast munging",
       "risk_score": 40
     },
     {
@@ -734,7 +776,7 @@
         "100.0.4896.127"
       ],
       "bug_id": "1315901",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/3753434",
       "blog_url": "https://chromereleases.googleblog.com/2022/04/stable-channel-update-for-desktop_14.html",
       "in_kev": true,
       "kev_date": "2022-04-15",
@@ -744,6 +786,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/1315901",
       "crbug_url": "https://crbug.com/1315901",
+      "gerrit_cl": 3753434,
+      "gerrit_subject": "Roll v8 10.3 from 9612bf8fb900 to 9abdc4cc595e (2 revisions)",
       "risk_score": 40
     },
     {
@@ -776,7 +820,7 @@
         "98.0.4758.102"
       ],
       "bug_id": "1296150",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/3475376",
       "blog_url": "https://chromereleases.googleblog.com/2022/02/stable-channel-update-for-desktop_14.html",
       "in_kev": true,
       "kev_date": "2022-02-15",
@@ -786,6 +830,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/1296150",
       "crbug_url": "https://crbug.com/1296150",
+      "gerrit_cl": 3475376,
+      "gerrit_subject": "[M97 merge - requested by matthewjoseph@] Code health cleanup: replacing animations.",
       "risk_score": 40
     },
     {
@@ -839,7 +885,7 @@
         "95.0.4638.69"
       ],
       "bug_id": "1249962",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/3232895",
       "blog_url": "https://chromereleases.googleblog.com/2021/10/stable-channel-update-for-desktop_28.html",
       "in_kev": true,
       "kev_date": "2021-11-03",
@@ -849,6 +895,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/1249962",
       "crbug_url": "https://crbug.com/1249962",
+      "gerrit_cl": 3232895,
+      "gerrit_subject": "[M95] Merge fixes for silently redirecting to other browsers",
       "risk_score": 40
     },
     {
@@ -860,7 +908,7 @@
         "94.0.4606.71"
       ],
       "bug_id": "1251787",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/3197813",
       "blog_url": "https://chromereleases.googleblog.com/2021/09/stable-channel-update-for-desktop_30.html",
       "in_kev": true,
       "kev_date": "2021-11-03",
@@ -870,6 +918,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/1251787",
       "crbug_url": "https://crbug.com/1251787",
+      "gerrit_cl": 3197813,
+      "gerrit_subject": "[M90-LTS] Prevents non-browser processes from requesting memory dumps.",
       "risk_score": 40
     },
     {
@@ -881,7 +931,7 @@
         "94.0.4606.61"
       ],
       "bug_id": "1251727",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/3179441",
       "blog_url": "https://chromereleases.googleblog.com/2021/09/stable-channel-update-for-desktop_24.html",
       "in_kev": true,
       "kev_date": "2021-11-03",
@@ -891,6 +941,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/1251727",
       "crbug_url": "https://crbug.com/1251727",
+      "gerrit_cl": 3179441,
+      "gerrit_subject": "Only allow a subset of FrameOwnerElementTypes to be sent over IPC",
       "risk_score": 40
     },
     {
@@ -902,7 +954,7 @@
         "93.0.4577.82"
       ],
       "bug_id": "1247766",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/3163121",
       "blog_url": "https://chromereleases.googleblog.com/2021/09/stable-channel-update-for-desktop.html",
       "in_kev": true,
       "kev_date": "2021-11-03",
@@ -912,6 +964,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/1247766",
       "crbug_url": "https://crbug.com/1247766",
+      "gerrit_cl": 3163121,
+      "gerrit_subject": "[IndexedDB] Don't kill the renderer for IPCs on finished transactions.",
       "risk_score": 40
     },
     {
@@ -986,7 +1040,7 @@
         "91.0.4472.114"
       ],
       "bug_id": "1219857",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/2975447",
       "blog_url": "https://chromereleases.googleblog.com/2021/06/stable-channel-update-for-desktop_17.html",
       "in_kev": true,
       "kev_date": "2021-11-03",
@@ -996,6 +1050,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/1219857",
       "crbug_url": "https://crbug.com/1219857",
+      "gerrit_cl": 2975447,
+      "gerrit_subject": "[M86-LTS] Ensure that XRLayer includes base EventTarget in Trace",
       "risk_score": 40
     },
     {
@@ -1028,7 +1084,7 @@
         "91.0.4472.77"
       ],
       "bug_id": "1145553",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/2915720",
       "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html",
       "in_kev": true,
       "kev_date": "2022-06-27",
@@ -1038,6 +1094,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/1145553",
       "crbug_url": "https://crbug.com/1145553",
+      "gerrit_cl": 2915720,
+      "gerrit_subject": "[M86-LTS] Prevent sandboxed frames escaping user-gesture intervention",
       "risk_score": 40
     },
     {
@@ -1070,7 +1128,7 @@
         "89.0.4389.128"
       ],
       "bug_id": "1196781",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/2811736",
       "blog_url": "https://chromereleases.googleblog.com/2021/04/stable-channel-update-for-desktop.html",
       "in_kev": true,
       "kev_date": "2021-11-03",
@@ -1080,6 +1138,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/1196781",
       "crbug_url": "https://crbug.com/1196781",
+      "gerrit_cl": 2811736,
+      "gerrit_subject": "Forbid script execution while updating the paint lifecycle.",
       "risk_score": 40
     },
     {
@@ -1112,7 +1172,7 @@
         "89.0.4389.90"
       ],
       "bug_id": "1186287",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/2749541",
       "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop_12.html",
       "in_kev": true,
       "kev_date": "2021-11-03",
@@ -1122,6 +1182,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/1186287",
       "crbug_url": "https://crbug.com/1186287",
+      "gerrit_cl": 2749541,
+      "gerrit_subject": "Mark additional RootInlineBox dirty when culled inline box is removed",
       "risk_score": 40
     },
     {
@@ -1133,7 +1195,7 @@
         "89.0.4389.72"
       ],
       "bug_id": "1177465",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/2727696",
       "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html",
       "in_kev": true,
       "kev_date": "2021-11-03",
@@ -1143,6 +1205,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/1177465",
       "crbug_url": "https://crbug.com/1177465",
+      "gerrit_cl": 2727696,
+      "gerrit_subject": "Introduce AudioBuffers for user access in ScriptProcessorNode",
       "risk_score": 40
     },
     {
@@ -1175,7 +1239,7 @@
         "81.0.4044.92"
       ],
       "bug_id": "1066893",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/2133173",
       "blog_url": "https://chromereleases.googleblog.com/2020/04/stable-channel-update-for-desktop_7.html",
       "in_kev": true,
       "kev_date": "2022-01-10",
@@ -1185,6 +1249,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/1066893",
       "crbug_url": "https://crbug.com/1066893",
+      "gerrit_cl": 2133173,
+      "gerrit_subject": "media: Disallow CDM reset in mojo media services",
       "risk_score": 40
     },
     {
@@ -1196,7 +1262,7 @@
         "86.0.4240.198"
       ],
       "bug_id": "1146709",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/2530189",
       "blog_url": "https://chromereleases.googleblog.com/2020/11/stable-channel-update-for-desktop_11.html",
       "in_kev": true,
       "kev_date": "2021-11-03",
@@ -1206,6 +1272,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/1146709",
       "crbug_url": "https://crbug.com/1146709",
+      "gerrit_cl": 2530189,
+      "gerrit_subject": "Ignore RenderFrameHostImpl::Detach() for speculative RFHs.",
       "risk_score": 40
     },
     {
@@ -1238,7 +1306,7 @@
         "86.0.4240.185"
       ],
       "bug_id": "1144368",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/2513107",
       "blog_url": "https://chromereleases.googleblog.com/2020/11/chrome-for-android-update.html",
       "in_kev": true,
       "kev_date": "2021-11-03",
@@ -1248,6 +1316,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/1144368",
       "crbug_url": "https://crbug.com/1144368",
+      "gerrit_cl": 2513107,
+      "gerrit_subject": "Avoid bitmap overflow.",
       "risk_score": 40
     },
     {
@@ -1280,7 +1350,7 @@
         "86.0.4240.111"
       ],
       "bug_id": "1139963",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/2485583",
       "blog_url": "https://chromereleases.googleblog.com/2020/10/stable-channel-update-for-desktop_20.html",
       "in_kev": true,
       "kev_date": "2021-11-03",
@@ -1290,6 +1360,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/1139963",
       "crbug_url": "https://crbug.com/1139963",
+      "gerrit_cl": 2485583,
+      "gerrit_subject": "Roll src/third_party/freetype/src/ 80389cab7..6a2b3e400 (2 commits)",
       "risk_score": 40
     },
     {
@@ -1343,7 +1415,7 @@
         "78.0.3904.87"
       ],
       "bug_id": "1019226",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1890711",
       "blog_url": "https://chromereleases.googleblog.com/2019/10/stable-channel-update-for-desktop_31.html",
       "in_kev": true,
       "kev_date": "2022-05-23",
@@ -1353,6 +1425,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/1019226",
       "crbug_url": "https://crbug.com/1019226",
+      "gerrit_cl": 1890711,
+      "gerrit_subject": "Obtain graph/process lock when nullifying the buffer in Reverb",
       "risk_score": 40
     },
     {
@@ -1364,7 +1438,7 @@
         "72.0.3626.121"
       ],
       "bug_id": "936448",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1495209",
       "blog_url": "https://chromereleases.googleblog.com/2019/03/stable-channel-update-for-desktop.html",
       "in_kev": true,
       "kev_date": "2022-05-23",
@@ -1374,6 +1448,8 @@
       "severity": "",
       "bug_url": "https://issues.chromium.org/issues/936448",
       "crbug_url": "https://crbug.com/936448",
+      "gerrit_cl": 1495209,
+      "gerrit_subject": "Merge M72: FileReader: Make a copy of the ArrayBuffer when returning partial results.",
       "risk_score": 40
     },
     {
@@ -4614,13 +4690,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "499051898",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7808247",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/499051898",
       "crbug_url": "https://crbug.com/499051898",
+      "gerrit_cl": 7808247,
+      "gerrit_subject": "Fix BackgroundContents logic bugs",
       "risk_score": 0
     },
     {
@@ -4632,13 +4710,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "498856565",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7736355",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/498856565",
       "crbug_url": "https://crbug.com/498856565",
+      "gerrit_cl": 7736355,
+      "gerrit_subject": "gpu: Upgrade DCHECKs to CHECKs in GLES2Implementation",
       "risk_score": 0
     },
     {
@@ -4650,13 +4730,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "498417152",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7733321",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/498417152",
       "crbug_url": "https://crbug.com/498417152",
+      "gerrit_cl": 7733321,
+      "gerrit_subject": "[SAA] Remove mojo navigation params that convey renderer's SAA status",
       "risk_score": 0
     },
     {
@@ -4668,13 +4750,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "498405554",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7735621",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/498405554",
       "crbug_url": "https://crbug.com/498405554",
+      "gerrit_cl": 7735621,
+      "gerrit_subject": "[permissions] Fix OnTimePermissionProvider::ClearAllContentSettingsRules",
       "risk_score": 0
     },
     {
@@ -4686,13 +4770,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "498397912",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7734931",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/498397912",
       "crbug_url": "https://crbug.com/498397912",
+      "gerrit_cl": 7734931,
+      "gerrit_subject": "[permissions] Store url in ContentSettingsStorageAccessBubbleModel",
       "risk_score": 0
     },
     {
@@ -4704,13 +4790,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "498373018",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7734965",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/498373018",
       "crbug_url": "https://crbug.com/498373018",
+      "gerrit_cl": 7734965,
+      "gerrit_subject": "ContentSettings: Fix index lookup for secondary URL",
       "risk_score": 0
     },
     {
@@ -4722,13 +4810,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "498301853",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7735722",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/498301853",
       "crbug_url": "https://crbug.com/498301853",
+      "gerrit_cl": 7735722,
+      "gerrit_subject": "Fix potential Incognito and policy bypass via DCHECK in OnPresaveGeneratedPassword",
       "risk_score": 0
     },
     {
@@ -4740,13 +4830,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "498281224",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7722581",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/498281224",
       "crbug_url": "https://crbug.com/498281224",
+      "gerrit_cl": 7722581,
+      "gerrit_subject": "Fix raw headers access leak in DevTools.",
       "risk_score": 0
     },
     {
@@ -4758,13 +4850,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497989379",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7735462",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497989379",
       "crbug_url": "https://crbug.com/497989379",
+      "gerrit_cl": 7735462,
+      "gerrit_subject": "SocketDataPump: Don't destroy the data pipe while a write is pending",
       "risk_score": 0
     },
     {
@@ -4776,13 +4870,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497946941",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7729157",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497946941",
       "crbug_url": "https://crbug.com/497946941",
+      "gerrit_cl": 7729157,
+      "gerrit_subject": "[Lens] Fix Side Panel CSRF and context dropping",
       "risk_score": 0
     },
     {
@@ -4794,13 +4890,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497865734",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7772429",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497865734",
       "crbug_url": "https://crbug.com/497865734",
+      "gerrit_cl": 7772429,
+      "gerrit_subject": "CCT: Disable pre-warming logic for incognito intents",
       "risk_score": 0
     },
     {
@@ -4812,13 +4910,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497660733",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7716739",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497660733",
       "crbug_url": "https://crbug.com/497660733",
+      "gerrit_cl": 7716739,
+      "gerrit_subject": "IDB: Handle reported blob size differing from actual size",
       "risk_score": 0
     },
     {
@@ -4848,13 +4948,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497609145",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7737001",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497609145",
       "crbug_url": "https://crbug.com/497609145",
+      "gerrit_cl": 7737001,
+      "gerrit_subject": "[WebAuthn] Remove ChallengeURL prototype",
       "risk_score": 0
     },
     {
@@ -4866,13 +4968,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497394061",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7807927",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497394061",
       "crbug_url": "https://crbug.com/497394061",
+      "gerrit_cl": 7807927,
+      "gerrit_subject": "Fix bitwise logic error in insecure download blocking",
       "risk_score": 0
     },
     {
@@ -4884,13 +4988,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497385823",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7737858",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497385823",
       "crbug_url": "https://crbug.com/497385823",
+      "gerrit_cl": 7737858,
+      "gerrit_subject": "Remove origin input parameter from mojom.PluginInfoHost.GetPluginInfo()",
       "risk_score": 0
     },
     {
@@ -4902,13 +5008,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497203741",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7718683",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497203741",
       "crbug_url": "https://crbug.com/497203741",
+      "gerrit_cl": 7718683,
+      "gerrit_subject": "[Media Router] Fix message authorization bypass",
       "risk_score": 0
     },
     {
@@ -4920,13 +5028,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497030032",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7724821",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497030032",
       "crbug_url": "https://crbug.com/497030032",
+      "gerrit_cl": 7724821,
+      "gerrit_subject": "Harden `SubresourceSignedExchangeURLLoaderFactory::CreateLoaderAndStart`",
       "risk_score": 0
     },
     {
@@ -4938,13 +5048,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497025738",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7748669",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497025738",
       "crbug_url": "https://crbug.com/497025738",
+      "gerrit_cl": 7748669,
+      "gerrit_subject": "[Extensions] Harden Declarative Content API against spoofed IPCs",
       "risk_score": 0
     },
     {
@@ -4956,13 +5068,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "496705691",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7776999",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/496705691",
       "crbug_url": "https://crbug.com/496705691",
+      "gerrit_cl": 7776999,
+      "gerrit_subject": "Remove unused processPseudoId field from DevTools tracing events.",
       "risk_score": 0
     },
     {
@@ -4974,13 +5088,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "496617698",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7735911",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/496617698",
       "crbug_url": "https://crbug.com/496617698",
+      "gerrit_cl": 7735911,
+      "gerrit_subject": "Verify renderer authorization for browser audibility bypass",
       "risk_score": 0
     },
     {
@@ -4992,13 +5108,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "496427030",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7747414",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/496427030",
       "crbug_url": "https://crbug.com/496427030",
+      "gerrit_cl": 7747414,
+      "gerrit_subject": "Web Bluetooth: Apply blocklist in requestLEScan",
       "risk_score": 0
     },
     {
@@ -5010,13 +5128,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "496419374",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7771169",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/496419374",
       "crbug_url": "https://crbug.com/496419374",
+      "gerrit_cl": 7771169,
+      "gerrit_subject": "Reland \"[Paint] Harden SkSL shader deserialization\"",
       "risk_score": 0
     },
     {
@@ -5028,13 +5148,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "496095145",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7763896",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/496095145",
       "crbug_url": "https://crbug.com/496095145",
+      "gerrit_cl": 7763896,
+      "gerrit_subject": "device-posture: Remove posture override mechanism from mojo.",
       "risk_score": 0
     },
     {
@@ -5046,13 +5168,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "496088449",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7763896",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/496088449",
       "crbug_url": "https://crbug.com/496088449",
+      "gerrit_cl": 7763896,
+      "gerrit_subject": "device-posture: Remove posture override mechanism from mojo.",
       "risk_score": 0
     },
     {
@@ -5064,13 +5188,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "495981782",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7763504",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/495981782",
       "crbug_url": "https://crbug.com/495981782",
+      "gerrit_cl": 7763504,
+      "gerrit_subject": "Clear Tabs Missing Groups in SharedTabGroupDataSyncBridge",
       "risk_score": 0
     },
     {
@@ -5082,13 +5208,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "495840862",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7808264",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/495840862",
       "crbug_url": "https://crbug.com/495840862",
+      "gerrit_cl": 7808264,
+      "gerrit_subject": "Fix logic errors in DMGAnalyzer skipping nested archives",
       "risk_score": 0
     },
     {
@@ -5100,13 +5228,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "493225428",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7801635",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/493225428",
       "crbug_url": "https://crbug.com/493225428",
+      "gerrit_cl": 7801635,
+      "gerrit_subject": "[extensions] Fix Use-After-Free in UserScriptSet::UpdateUserScripts",
       "risk_score": 0
     },
     {
@@ -5118,13 +5248,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "482713603",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7764606",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/482713603",
       "crbug_url": "https://crbug.com/482713603",
+      "gerrit_cl": 7764606,
+      "gerrit_subject": "Ensure chrome://policy restartBrowser message ignored when not supported",
       "risk_score": 0
     },
     {
@@ -5136,13 +5268,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "454484864",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7154160",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/454484864",
       "crbug_url": "https://crbug.com/454484864",
+      "gerrit_cl": 7154160,
+      "gerrit_subject": "[SxS] Cancel file picker if active tab changes",
       "risk_score": 0
     },
     {
@@ -5154,13 +5288,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "448421954",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7762370",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/448421954",
       "crbug_url": "https://crbug.com/448421954",
+      "gerrit_cl": 7762370,
+      "gerrit_subject": "[Hovercards] Use the correct directionality for hovercard domains",
       "risk_score": 0
     },
     {
@@ -5172,13 +5308,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "385662278",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7766064",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/385662278",
       "crbug_url": "https://crbug.com/385662278",
+      "gerrit_cl": 7766064,
+      "gerrit_subject": "[PreviewTab] Fix SameSite Strict Cookie bypass",
       "risk_score": 0
     },
     {
@@ -5230,13 +5368,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "494800494",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7760510",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/494800494",
       "crbug_url": "https://crbug.com/494800494",
+      "gerrit_cl": 7760510,
+      "gerrit_subject": "OOR-CORS: Enforce extra forbidden Sec- header checks",
       "risk_score": 0
     },
     {
@@ -5248,13 +5388,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "458442542",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7761368",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/458442542",
       "crbug_url": "https://crbug.com/458442542",
+      "gerrit_cl": 7761368,
+      "gerrit_subject": "hovercard: Fix hover card domain label for about:blank tabs",
       "risk_score": 0
     },
     {
@@ -5266,13 +5408,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "492211919",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7761269",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/492211919",
       "crbug_url": "https://crbug.com/492211919",
+      "gerrit_cl": 7761269,
+      "gerrit_subject": "Fix missing browser-side sandbox enforcement for kPointerLock",
       "risk_score": 0
     },
     {
@@ -5284,13 +5428,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "487300831",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7794327",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/487300831",
       "crbug_url": "https://crbug.com/487300831",
+      "gerrit_cl": 7794327,
+      "gerrit_subject": "Don't use precursors for error page origins for kCurrentProcess.",
       "risk_score": 0
     },
     {
@@ -5302,13 +5448,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "480074849",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7805947",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/480074849",
       "crbug_url": "https://crbug.com/480074849",
+      "gerrit_cl": 7805947,
+      "gerrit_subject": "Check lifecycle state on renderer-initiated navigation IPCs",
       "risk_score": 0
     },
     {
@@ -5320,13 +5468,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "476862276",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7784892",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/476862276",
       "crbug_url": "https://crbug.com/476862276",
+      "gerrit_cl": 7784892,
+      "gerrit_subject": "Reland \"Add regression test for path resolution from ShellExecute\"",
       "risk_score": 0
     },
     {
@@ -5338,13 +5488,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "487564032",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7607320",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/487564032",
       "crbug_url": "https://crbug.com/487564032",
+      "gerrit_cl": 7607320,
+      "gerrit_subject": "Use opaque initiator_origin for _unfencedTop navigations",
       "risk_score": 0
     },
     {
@@ -5356,13 +5508,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "474583539",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7154160",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/474583539",
       "crbug_url": "https://crbug.com/474583539",
+      "gerrit_cl": 7154160,
+      "gerrit_subject": "[SxS] Cancel file picker if active tab changes",
       "risk_score": 0
     },
     {
@@ -8370,13 +8524,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "499051067",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7740566",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/499051067",
       "crbug_url": "https://crbug.com/499051067",
+      "gerrit_cl": 7740566,
+      "gerrit_subject": "webnn: reject slice with scalar input in mojo validation",
       "risk_score": 0
     },
     {
@@ -8388,13 +8544,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "499033012",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7735708",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/499033012",
       "crbug_url": "https://crbug.com/499033012",
+      "gerrit_cl": 7735708,
+      "gerrit_subject": "[Extensions] Harden CSP enforcement for sandboxed service workers.",
       "risk_score": 0
     },
     {
@@ -8406,13 +8564,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "499031961",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7746896",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/499031961",
       "crbug_url": "https://crbug.com/499031961",
+      "gerrit_cl": 7746896,
+      "gerrit_subject": "Roll ANGLE from 838c9be2bc21 to 173441b958b1 (8 revisions)",
       "risk_score": 0
     },
     {
@@ -8424,13 +8584,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "499018355",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7729681",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/499018355",
       "crbug_url": "https://crbug.com/499018355",
+      "gerrit_cl": 7729681,
+      "gerrit_subject": "media: Fix data race in CdmProxyImpl",
       "risk_score": 0
     },
     {
@@ -8442,13 +8604,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "498991983",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7788271",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/498991983",
       "crbug_url": "https://crbug.com/498991983",
+      "gerrit_cl": 7788271,
+      "gerrit_subject": "Harden WidgetBaseInputHandler::HandleTouchEvent",
       "risk_score": 0
     },
     {
@@ -8460,13 +8624,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "498986406",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7728224",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/498986406",
       "crbug_url": "https://crbug.com/498986406",
+      "gerrit_cl": 7728224,
+      "gerrit_subject": "[GCPW] Fix integer wrap in domain extraction",
       "risk_score": 0
     },
     {
@@ -8496,13 +8662,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "498887785",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7728123",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/498887785",
       "crbug_url": "https://crbug.com/498887785",
+      "gerrit_cl": 7728123,
+      "gerrit_subject": "Guard against unwanted path traversal with dot-dot-space in CPSP.",
       "risk_score": 0
     },
     {
@@ -8532,13 +8700,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "498845284",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7735123",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/498845284",
       "crbug_url": "https://crbug.com/498845284",
+      "gerrit_cl": 7735123,
+      "gerrit_subject": "Use CrossThreadPersistent for RTCSessionDescriptionRequest",
       "risk_score": 0
     },
     {
@@ -8550,13 +8720,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "498834967",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7741562",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/498834967",
       "crbug_url": "https://crbug.com/498834967",
+      "gerrit_cl": 7741562,
+      "gerrit_subject": "gpu: Use EXPECT_DEATH_IF_SUPPORTED in GetSharedMemoryPixmaps_ChecksOnWrongBackingType test",
       "risk_score": 0
     },
     {
@@ -8568,13 +8740,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "498828605",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7809140",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/498828605",
       "crbug_url": "https://crbug.com/498828605",
+      "gerrit_cl": 7809140,
+      "gerrit_subject": "Roll ANGLE from 7b5b2509b037 to c1db297b2554 (5 revisions)",
       "risk_score": 0
     },
     {
@@ -8604,13 +8778,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "498815068",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7913606",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/498815068",
       "crbug_url": "https://crbug.com/498815068",
+      "gerrit_cl": 7913606,
+      "gerrit_subject": "[Autofill] Eliminate custom auto-reset in PasswordGenerationAgent",
       "risk_score": 0
     },
     {
@@ -8622,13 +8798,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "498808432",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7724881",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/498808432",
       "crbug_url": "https://crbug.com/498808432",
+      "gerrit_cl": 7724881,
+      "gerrit_subject": "Adjust extensions' CSP parser's whitespace list.",
       "risk_score": 0
     },
     {
@@ -8640,13 +8818,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "498768132",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7785464",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/498768132",
       "crbug_url": "https://crbug.com/498768132",
+      "gerrit_cl": 7785464,
+      "gerrit_subject": "Reland \"Do not follow reparse points in base::DeletePathRecursively on Windows\"",
       "risk_score": 0
     },
     {
@@ -8658,13 +8838,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "498728857",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7792238",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/498728857",
       "crbug_url": "https://crbug.com/498728857",
+      "gerrit_cl": 7792238,
+      "gerrit_subject": "media: Fix missing validation in MojoDecryptorService",
       "risk_score": 0
     },
     {
@@ -8676,13 +8858,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "498727111",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7738780",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/498727111",
       "crbug_url": "https://crbug.com/498727111",
+      "gerrit_cl": 7738780,
+      "gerrit_subject": "Remove Pepper3D support from gles2_cmd_decoder.cc",
       "risk_score": 0
     },
     {
@@ -8712,13 +8896,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "498721316",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7807418",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/498721316",
       "crbug_url": "https://crbug.com/498721316",
+      "gerrit_cl": 7807418,
+      "gerrit_subject": "Roll ANGLE from 5cc145613fb6 to 8aeccf777d36 (5 revisions)",
       "risk_score": 0
     },
     {
@@ -8730,13 +8916,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "498720094",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7759981",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/498720094",
       "crbug_url": "https://crbug.com/498720094",
+      "gerrit_cl": 7759981,
+      "gerrit_subject": "views: Fix UAF in RootView::HandleMouseEnteredOrMoved",
       "risk_score": 0
     },
     {
@@ -8748,13 +8936,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "498700369",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7782949",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/498700369",
       "crbug_url": "https://crbug.com/498700369",
+      "gerrit_cl": 7782949,
+      "gerrit_subject": "media: Validate DecoderBuffer subsample metadata from untrusted sources",
       "risk_score": 0
     },
     {
@@ -8802,13 +8992,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "498080391",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7734936",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/498080391",
       "crbug_url": "https://crbug.com/498080391",
+      "gerrit_cl": 7734936,
+      "gerrit_subject": "[SRI Message Signatures] Require an enforceable `Unencoded-Digest`.",
       "risk_score": 0
     },
     {
@@ -8820,13 +9012,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497971287",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7729258",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497971287",
       "crbug_url": "https://crbug.com/497971287",
+      "gerrit_cl": 7729258,
+      "gerrit_subject": "media: Implement lazy configuration evaluation in H264 decoder",
       "risk_score": 0
     },
     {
@@ -8838,13 +9032,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497964917",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7736582",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497964917",
       "crbug_url": "https://crbug.com/497964917",
+      "gerrit_cl": 7736582,
+      "gerrit_subject": "DOM: Fix frame desynchronization bug",
       "risk_score": 0
     },
     {
@@ -8856,13 +9052,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497936421",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7773489",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497936421",
       "crbug_url": "https://crbug.com/497936421",
+      "gerrit_cl": 7773489,
+      "gerrit_subject": "[CCT] Apply RemoteView inflation filter for night mode",
       "risk_score": 0
     },
     {
@@ -8874,13 +9072,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497934980",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7738373",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497934980",
       "crbug_url": "https://crbug.com/497934980",
+      "gerrit_cl": 7738373,
+      "gerrit_subject": "[Tab Group Sync] Harden invalid URL handling",
       "risk_score": 0
     },
     {
@@ -8892,13 +9092,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497926664",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7747644",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497926664",
       "crbug_url": "https://crbug.com/497926664",
+      "gerrit_cl": 7747644,
+      "gerrit_subject": "[ios blink] Fix kIOReturnSuccess build error in WebNN CoreML",
       "risk_score": 0
     },
     {
@@ -8910,13 +9112,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497831111",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7748326",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497831111",
       "crbug_url": "https://crbug.com/497831111",
+      "gerrit_cl": 7748326,
+      "gerrit_subject": "Verify origin before filling the form during http auth",
       "risk_score": 0
     },
     {
@@ -8928,13 +9132,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497748760",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7757181",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497748760",
       "crbug_url": "https://crbug.com/497748760",
+      "gerrit_cl": 7757181,
+      "gerrit_subject": "[PasswordSharing] The origin should match the signon realm",
       "risk_score": 0
     },
     {
@@ -8946,13 +9152,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497722502",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7718765",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497722502",
       "crbug_url": "https://crbug.com/497722502",
+      "gerrit_cl": 7718765,
+      "gerrit_subject": "Re-look-up the stream id after EnqueueResetStreamFrame() at ResetStreamIterator()",
       "risk_score": 0
     },
     {
@@ -8964,13 +9172,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497651688",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7762535",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497651688",
       "crbug_url": "https://crbug.com/497651688",
+      "gerrit_cl": 7762535,
+      "gerrit_subject": "Sanitize file extension in DragDataToDropData to prevent path traversal",
       "risk_score": 0
     },
     {
@@ -8982,13 +9192,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497627277",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7766309",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497627277",
       "crbug_url": "https://crbug.com/497627277",
+      "gerrit_cl": 7766309,
+      "gerrit_subject": "[media//]Unregister gpu channel observer on service destruction",
       "risk_score": 0
     },
     {
@@ -9000,13 +9212,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497604407",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7744663",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497604407",
       "crbug_url": "https://crbug.com/497604407",
+      "gerrit_cl": 7744663,
+      "gerrit_subject": "glic: check tab profile before returning data",
       "risk_score": 0
     },
     {
@@ -9018,13 +9232,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497599683",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7808324",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497599683",
       "crbug_url": "https://crbug.com/497599683",
+      "gerrit_cl": 7808324,
+      "gerrit_subject": "Extensions: Fix logic bug in ExtensionNavigationRegistry::CanRedirect",
       "risk_score": 0
     },
     {
@@ -9036,13 +9252,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497595264",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7719744",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497595264",
       "crbug_url": "https://crbug.com/497595264",
+      "gerrit_cl": 7719744,
+      "gerrit_subject": "PendingNavigation should own the keep-alive handle.",
       "risk_score": 0
     },
     {
@@ -9054,13 +9272,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497591594",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7773712",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497591594",
       "crbug_url": "https://crbug.com/497591594",
+      "gerrit_cl": 7773712,
+      "gerrit_subject": "Roll Skia from 13314a1f2dd6 to 6e12daa9ab10 (2 revisions)",
       "risk_score": 0
     },
     {
@@ -9072,13 +9292,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497538899",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7761315",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497538899",
       "crbug_url": "https://crbug.com/497538899",
+      "gerrit_cl": 7761315,
+      "gerrit_subject": "[dPWA] Fix wildcard scope extension matching to check port properly",
       "risk_score": 0
     },
     {
@@ -9090,13 +9312,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497532918",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7817674",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497532918",
       "crbug_url": "https://crbug.com/497532918",
+      "gerrit_cl": 7817674,
+      "gerrit_subject": "Allow UTF-16 session ID matching in DevToolsSession.",
       "risk_score": 0
     },
     {
@@ -9108,13 +9332,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497487755",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7738282",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497487755",
       "crbug_url": "https://crbug.com/497487755",
+      "gerrit_cl": 7738282,
+      "gerrit_subject": "[viz] Clamp DComp overlay content rect",
       "risk_score": 0
     },
     {
@@ -9126,13 +9352,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497440270",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7759453",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497440270",
       "crbug_url": "https://crbug.com/497440270",
+      "gerrit_cl": 7759453,
+      "gerrit_subject": "extension downloader: Remove authentication header on redirects",
       "risk_score": 0
     },
     {
@@ -9144,13 +9372,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497344640",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7758421",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497344640",
       "crbug_url": "https://crbug.com/497344640",
+      "gerrit_cl": 7758421,
+      "gerrit_subject": "Ensure RenderFrameHost is active in ChromePaymentsRequestFactory.java.",
       "risk_score": 0
     },
     {
@@ -9162,13 +9392,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497342466",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7727485",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497342466",
       "crbug_url": "https://crbug.com/497342466",
+      "gerrit_cl": 7727485,
+      "gerrit_subject": "Add LoadAndExtractContent's tabs to ActorTask's tab set",
       "risk_score": 0
     },
     {
@@ -9180,13 +9412,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497336872",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7893576",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497336872",
       "crbug_url": "https://crbug.com/497336872",
+      "gerrit_cl": 7893576,
+      "gerrit_subject": "LinkPreview: Remove mojo binder policy code",
       "risk_score": 0
     },
     {
@@ -9198,13 +9432,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497278395",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7807517",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497278395",
       "crbug_url": "https://crbug.com/497278395",
+      "gerrit_cl": 7807517,
+      "gerrit_subject": "DataPipeElementReader: Adjust size of data requested over pipe.",
       "risk_score": 0
     },
     {
@@ -9216,13 +9452,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497183443",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7737852",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497183443",
       "crbug_url": "https://crbug.com/497183443",
+      "gerrit_cl": 7737852,
+      "gerrit_subject": "Do not allow resizable arrays when converting PassAsSpan arguments",
       "risk_score": 0
     },
     {
@@ -9234,13 +9472,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497058611",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7728286",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497058611",
       "crbug_url": "https://crbug.com/497058611",
+      "gerrit_cl": 7728286,
+      "gerrit_subject": "Don't unconditionally disable ORB in extensions with HTTP permission.",
       "risk_score": 0
     },
     {
@@ -9252,13 +9492,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497056412",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7808287",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497056412",
       "crbug_url": "https://crbug.com/497056412",
+      "gerrit_cl": 7808287,
+      "gerrit_subject": "ChunkedDataPipeUploadDataStream: Add initialization status code check.",
       "risk_score": 0
     },
     {
@@ -9270,13 +9512,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497000161",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7748827",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497000161",
       "crbug_url": "https://crbug.com/497000161",
+      "gerrit_cl": 7748827,
+      "gerrit_subject": "Fix potential data race by using SequencedTaskRunner.",
       "risk_score": 0
     },
     {
@@ -9288,13 +9532,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "496702621",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7735124",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/496702621",
       "crbug_url": "https://crbug.com/496702621",
+      "gerrit_cl": 7735124,
+      "gerrit_subject": "Fix potential CPSP bypass in PasswordManager",
       "risk_score": 0
     },
     {
@@ -9306,13 +9552,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "496266444",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7791704",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/496266444",
       "crbug_url": "https://crbug.com/496266444",
+      "gerrit_cl": 7791704,
+      "gerrit_subject": "[WebShare] Fix threading violations and race conditions in Android",
       "risk_score": 0
     },
     {
@@ -9324,13 +9572,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "496233132",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7710634",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/496233132",
       "crbug_url": "https://crbug.com/496233132",
+      "gerrit_cl": 7710634,
+      "gerrit_subject": "usb: Prevent UAF in UsbDeviceHandleWin on Close",
       "risk_score": 0
     },
     {
@@ -9342,13 +9592,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "495864099",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7789542",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/495864099",
       "crbug_url": "https://crbug.com/495864099",
+      "gerrit_cl": 7789542,
+      "gerrit_subject": "Valid Manifest start_url, id, scope, share_target->action are same origin in the browser process",
       "risk_score": 0
     },
     {
@@ -9360,13 +9612,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "495834228",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7726801",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/495834228",
       "crbug_url": "https://crbug.com/495834228",
+      "gerrit_cl": 7726801,
+      "gerrit_subject": "[SAA] Disallow renderer-based 3PCD policy bypass",
       "risk_score": 0
     },
     {
@@ -9378,13 +9632,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "495489174",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7809634",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/495489174",
       "crbug_url": "https://crbug.com/495489174",
+      "gerrit_cl": 7809634,
+      "gerrit_subject": "Roll Dawn from d5b54e37c676 to b64fc1768c2d (24 revisions)",
       "risk_score": 0
     },
     {
@@ -9396,13 +9652,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "495052581",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7767115",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/495052581",
       "crbug_url": "https://crbug.com/495052581",
+      "gerrit_cl": 7767115,
+      "gerrit_subject": "Roll ANGLE from e24b8693b5e4 to 942c07d0c8a6 (1 revision)",
       "risk_score": 0
     },
     {
@@ -9414,13 +9672,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "494823889",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7763362",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/494823889",
       "crbug_url": "https://crbug.com/494823889",
+      "gerrit_cl": 7763362,
+      "gerrit_subject": "Roll ANGLE from 7217eaf9834a to c83175b85bf9 (1 revision)",
       "risk_score": 0
     },
     {
@@ -9432,13 +9692,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "494823867",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7748044",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/494823867",
       "crbug_url": "https://crbug.com/494823867",
+      "gerrit_cl": 7748044,
+      "gerrit_subject": "Remove accelerated pool for RGB texture readback in webrtc.",
       "risk_score": 0
     },
     {
@@ -9450,13 +9712,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "494740162",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7743400",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/494740162",
       "crbug_url": "https://crbug.com/494740162",
+      "gerrit_cl": 7743400,
+      "gerrit_subject": "Fix use-after-free of std::list iterator in FormFiller::UndoAutofill",
       "risk_score": 0
     },
     {
@@ -9468,13 +9732,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "493691489",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7756830",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/493691489",
       "crbug_url": "https://crbug.com/493691489",
+      "gerrit_cl": 7756830,
+      "gerrit_subject": "Protect against enterjacking on the Payment Sheet",
       "risk_score": 0
     },
     {
@@ -9486,13 +9752,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "492374380",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7694752",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/492374380",
       "crbug_url": "https://crbug.com/492374380",
+      "gerrit_cl": 7694752,
+      "gerrit_subject": "Fix ownership of mapped_font_files_ values",
       "risk_score": 0
     },
     {
@@ -9522,13 +9790,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "486536242",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7747040",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/486536242",
       "crbug_url": "https://crbug.com/486536242",
+      "gerrit_cl": 7747040,
+      "gerrit_subject": "Fix Global-Buffer-Overflow in Cast Remoting proto handling",
       "risk_score": 0
     },
     {
@@ -9540,13 +9810,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "464217867",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7746569",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/464217867",
       "crbug_url": "https://crbug.com/464217867",
+      "gerrit_cl": 7746569,
+      "gerrit_subject": "[DNR] Require file access for file URL redirects",
       "risk_score": 0
     },
     {
@@ -9558,13 +9830,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "40051700",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7832007",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/40051700",
       "crbug_url": "https://crbug.com/40051700",
+      "gerrit_cl": 7832007,
+      "gerrit_subject": "Enable opaque origin for data: URL workers by default",
       "risk_score": 0
     },
     {
@@ -9634,13 +9908,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "493534964",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7792295",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/493534964",
       "crbug_url": "https://crbug.com/493534964",
+      "gerrit_cl": 7792295,
+      "gerrit_subject": "Fix division by zero in clip path paint definition",
       "risk_score": 0
     },
     {
@@ -11040,13 +11316,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "498977444",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7873218",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/498977444",
       "crbug_url": "https://crbug.com/498977444",
+      "gerrit_cl": 7873218,
+      "gerrit_subject": "[M148] [WebShare] Add URL scheme validation in browser process",
       "risk_score": 0
     },
     {
@@ -11058,13 +11336,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "498872764",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7740535",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/498872764",
       "crbug_url": "https://crbug.com/498872764",
+      "gerrit_cl": 7740535,
+      "gerrit_subject": "Roll ANGLE from a5d0c5607a84 to 7b35f701dad8 (7 revisions)",
       "risk_score": 0
     },
     {
@@ -11076,13 +11356,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "498259721",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7926680",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/498259721",
       "crbug_url": "https://crbug.com/498259721",
+      "gerrit_cl": 7926680,
+      "gerrit_subject": "[M148] [TreesInViz] set_needs_update_draw_properties() when update fails.",
       "risk_score": 0
     },
     {
@@ -11094,13 +11376,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497929481",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7759383",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497929481",
       "crbug_url": "https://crbug.com/497929481",
+      "gerrit_cl": 7759383,
+      "gerrit_subject": "[M148] media: Validate EncryptionPattern bounds during deserialization",
       "risk_score": 0
     },
     {
@@ -11112,13 +11396,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "497643690",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7824346",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497643690",
       "crbug_url": "https://crbug.com/497643690",
+      "gerrit_cl": 7824346,
+      "gerrit_subject": "Move script_to_evaluate_on_load within BrowserMaintainedSessionState",
       "risk_score": 0
     },
     {
@@ -11184,13 +11470,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "496614553",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7882217",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/496614553",
       "crbug_url": "https://crbug.com/496614553",
+      "gerrit_cl": 7882217,
+      "gerrit_subject": "[M148] [Extensions] Add extra validation and bad messages to EventRouter",
       "risk_score": 0
     },
     {
@@ -11202,13 +11490,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "495819067",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7873762",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/495819067",
       "crbug_url": "https://crbug.com/495819067",
+      "gerrit_cl": 7873762,
+      "gerrit_subject": "[M149] media: Validate mappable SharedImage in video frame mojo traits",
       "risk_score": 0
     },
     {
@@ -11278,13 +11568,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "489071023",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7770151",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/489071023",
       "crbug_url": "https://crbug.com/489071023",
+      "gerrit_cl": 7770151,
+      "gerrit_subject": "Roll ANGLE from 905918456461 to 6ee4d31c38d7 (2 revisions)",
       "risk_score": 0
     },
     {
@@ -11316,13 +11608,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "487357841",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7914124",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/487357841",
       "crbug_url": "https://crbug.com/487357841",
+      "gerrit_cl": 7914124,
+      "gerrit_subject": "[M144-LTS] Fix reentrancy issue in ThrottlingP2PNetworkInterceptor",
       "risk_score": 0
     },
     {
@@ -11786,13 +12080,15 @@
         "149.0.7827.53"
       ],
       "bug_id": "498904293",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7797960",
       "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/498904293",
       "crbug_url": "https://crbug.com/498904293",
+      "gerrit_cl": 7797960,
+      "gerrit_subject": "Roll ANGLE from 7f1d7f4b5a0c to d5d76f88af19 (5 revisions)",
       "risk_score": 0
     },
     {
@@ -11822,13 +12118,15 @@
         "148.0.7778.216"
       ],
       "bug_id": "497327715",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7864825",
       "blog_url": "https://chromereleases.googleblog.com/2026/05/stable-channel-update-for-desktop_0877304591.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497327715",
       "crbug_url": "https://crbug.com/497327715",
+      "gerrit_cl": 7864825,
+      "gerrit_subject": "[M148] usb: Reject forbidden Standard control transfers",
       "risk_score": 0
     },
     {
@@ -11840,13 +12138,15 @@
         "148.0.7778.216"
       ],
       "bug_id": "496565479",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7869430",
       "blog_url": "https://chromereleases.googleblog.com/2026/05/stable-channel-update-for-desktop_0877304591.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/496565479",
       "crbug_url": "https://crbug.com/496565479",
+      "gerrit_cl": 7869430,
+      "gerrit_subject": "[M148] Validate YCbCr info enum values",
       "risk_score": 0
     },
     {
@@ -14082,13 +14382,15 @@
         "148.0.7778.216"
       ],
       "bug_id": "499005260",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7875826",
       "blog_url": "https://chromereleases.googleblog.com/2026/05/stable-channel-update-for-desktop_0877304591.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/499005260",
       "crbug_url": "https://crbug.com/499005260",
+      "gerrit_cl": 7875826,
+      "gerrit_subject": "[M144-LTS] Reject program relinks if transform feedback is active.",
       "risk_score": 0
     },
     {
@@ -14100,13 +14402,15 @@
         "148.0.7778.216"
       ],
       "bug_id": "498883610",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7876281",
       "blog_url": "https://chromereleases.googleblog.com/2026/05/stable-channel-update-for-desktop_0877304591.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/498883610",
       "crbug_url": "https://crbug.com/498883610",
+      "gerrit_cl": 7876281,
+      "gerrit_subject": "[M148] Revert \"Reland \"[A11yPerformance] Enable fast rundown for accessibility objects\"\"",
       "risk_score": 0
     },
     {
@@ -14118,13 +14422,15 @@
         "148.0.7778.216"
       ],
       "bug_id": "498804020",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7816752",
       "blog_url": "https://chromereleases.googleblog.com/2026/05/stable-channel-update-for-desktop_0877304591.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/498804020",
       "crbug_url": "https://crbug.com/498804020",
+      "gerrit_cl": 7816752,
+      "gerrit_subject": "Roll ANGLE from ee4f62444796 to 997936e81bd4 (2 revisions)",
       "risk_score": 0
     },
     {
@@ -14136,13 +14442,15 @@
         "148.0.7778.216"
       ],
       "bug_id": "498783665",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7920647",
       "blog_url": "https://chromereleases.googleblog.com/2026/05/stable-channel-update-for-desktop_0877304591.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/498783665",
       "crbug_url": "https://crbug.com/498783665",
+      "gerrit_cl": 7920647,
+      "gerrit_subject": "[M144-LTS] Fix Site Isolation bypass via MHTML subframe origin spoofing",
       "risk_score": 0
     },
     {
@@ -14154,13 +14462,15 @@
         "148.0.7778.216"
       ],
       "bug_id": "498205735",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7870686",
       "blog_url": "https://chromereleases.googleblog.com/2026/05/stable-channel-update-for-desktop_0877304591.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/498205735",
       "crbug_url": "https://crbug.com/498205735",
+      "gerrit_cl": 7870686,
+      "gerrit_subject": "[M144-LTS] Validate AXNodeID from the renderer.",
       "risk_score": 0
     },
     {
@@ -14172,13 +14482,15 @@
         "148.0.7778.216"
       ],
       "bug_id": "497737770",
-      "gerrit_url": null,
+      "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7812981",
       "blog_url": "https://chromereleases.googleblog.com/2026/05/stable-channel-update-for-desktop_0877304591.html",
       "in_kev": false,
       "in_the_wild": false,
       "severity": null,
       "bug_url": "https://issues.chromium.org/issues/497737770",
       "crbug_url": "https://crbug.com/497737770",
+      "gerrit_cl": 7812981,
+      "gerrit_subject": "Roll ANGLE from a469cc1501fd to ca3d0ccbebb5 (1 revision)",
       "risk_score": 0
     },
     {
