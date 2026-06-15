@@ -1,0 +1,1097 @@
+{
+  "520210566": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7914084",
+    "cl_number": 7914084,
+    "subject": "[M149 7827_102] win: Handle window closing during move",
+    "commit_message": ""
+  },
+  "519258799": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7933769",
+    "cl_number": 7933769,
+    "subject": "[M144-LTS] Validate and sanitize icon theme names in GTK and Qt backends.",
+    "commit_message": ""
+  },
+  "519248779": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7934168",
+    "cl_number": 7934168,
+    "subject": "[M144-LTS] Ensure strides are valid in VideoCaptureImpl",
+    "commit_message": ""
+  },
+  "518237527": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7895014",
+    "cl_number": 7895014,
+    "subject": "[M150] Fix UAF in BluetoothDeviceInquiryDelegate on macOS",
+    "commit_message": ""
+  },
+  "518235412": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7893639",
+    "cl_number": 7893639,
+    "subject": "[M149] Fix UAF in BluetoothRfcommChannelMac and BluetoothL2capChannelMac delegates on macOS",
+    "commit_message": ""
+  },
+  "518128953": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7914083",
+    "cl_number": 7914083,
+    "subject": "[M149 7827_102] [PasswordManager] Use committed origin for TouchToFill",
+    "commit_message": ""
+  },
+  "518108291": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7915250",
+    "cl_number": 7915250,
+    "subject": "[M149 7827_102] [WebMIDI] Resolve instance binding lifetime issue in MidiManagerWinrt",
+    "commit_message": ""
+  },
+  "518105731": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7895318",
+    "cl_number": 7895318,
+    "subject": "[M148] Add validation to cursor theme name to prevent path traversal.",
+    "commit_message": ""
+  },
+  "518045638": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7914592",
+    "cl_number": 7914592,
+    "subject": "[M149 7827_102] win: Add detection for native move loops",
+    "commit_message": ""
+  },
+  "518043597": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7894677",
+    "cl_number": 7894677,
+    "subject": "[M144-LTS] Fix use-after-free in DesktopWindowTreeHostPlatform::Restore.",
+    "commit_message": ""
+  },
+  "518007423": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7913924",
+    "cl_number": 7913924,
+    "subject": "[M149 7827_102] Clear and check GL errors around GLTextureHolder allocations.",
+    "commit_message": ""
+  },
+  "518006379": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7901351",
+    "cl_number": 7901351,
+    "subject": "[M144-LTS] Fix context lifetime in ProxyResolverV8 callbacks",
+    "commit_message": ""
+  },
+  "518002958": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7915284",
+    "cl_number": 7915284,
+    "subject": "[M149 7827_102] Avoid UAF of texture resources by D3D12 accelerator on destruction.",
+    "commit_message": ""
+  },
+  "517993381": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7899242",
+    "cl_number": 7899242,
+    "subject": "[M149] media: Fix uninitialized GPU VRAM leak in MFVEA NV12 copy paths",
+    "commit_message": ""
+  },
+  "517762104": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7898680",
+    "cl_number": 7898680,
+    "subject": "[M148] [ActorLogin] Fill strong matches only in the corresponding frames",
+    "commit_message": ""
+  },
+  "517705966": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7897501",
+    "cl_number": 7897501,
+    "subject": "[M149] Prevent UAF on duplicate RaceNetworkRequest tokens",
+    "commit_message": ""
+  },
+  "517678820": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7894135",
+    "cl_number": 7894135,
+    "subject": "[M144-LTS][PWA] Fix UAF in TabbedWebAppNavigationThrottle",
+    "commit_message": ""
+  },
+  "517644287": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7899245",
+    "cl_number": 7899245,
+    "subject": "[M149] Plugins: Check if RenderFrameHost is active in CanOpenPdfUrl()",
+    "commit_message": ""
+  },
+  "517607902": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7896936",
+    "cl_number": 7896936,
+    "subject": "[M148] Clean up audio state in #WebContentsDestroyed",
+    "commit_message": ""
+  },
+  "517585486": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7906058",
+    "cl_number": 7906058,
+    "subject": "[M148] Escape async query param in OneGoogleBar URL construction",
+    "commit_message": ""
+  },
+  "517555461": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7913909",
+    "cl_number": 7913909,
+    "subject": "[M149 7827_102] [gpu] Make OverlayImage RefCountedThreadSafe",
+    "commit_message": ""
+  },
+  "517533654": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7901520",
+    "cl_number": 7901520,
+    "subject": "[M148] Harden MojoAudioDecoderService and various implementations",
+    "commit_message": ""
+  },
+  "517531647": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7912024",
+    "cl_number": 7912024,
+    "subject": "[M149 7827_102] [gpu] Reject CopyTexImage from multisampled framebuffers",
+    "commit_message": ""
+  },
+  "517517155": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7914628",
+    "cl_number": 7914628,
+    "subject": "[M149 7827_102] [headless] Mark created hidden target process as used",
+    "commit_message": ""
+  },
+  "517486004": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7885500",
+    "cl_number": 7885500,
+    "subject": "[M148][Passwords] Add missing ChildProcessSecurityPolicy checks",
+    "commit_message": ""
+  },
+  "517418936": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7893642",
+    "cl_number": 7893642,
+    "subject": "[M148] bluetooth: Avoid double invoking callback after failed winrt call",
+    "commit_message": ""
+  },
+  "517347084": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7914723",
+    "cl_number": 7914723,
+    "subject": "[M149 7827_102] media/gpu/v4l2IP: Remove input USERPTR support",
+    "commit_message": ""
+  },
+  "517339758": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7900997",
+    "cl_number": 7900997,
+    "subject": "Revert \"Roll src/third_party/libyuv/ a7849e8a5..957f295ea (28 commits)\"",
+    "commit_message": ""
+  },
+  "517332006": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7909892",
+    "cl_number": 7909892,
+    "subject": "[M149 7827_102] [a11y] Add NOTREACHED() to exhaustive switches in AXPlatformNodeCocoa",
+    "commit_message": ""
+  },
+  "517309206": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7895707",
+    "cl_number": 7895707,
+    "subject": "[M148] Ensure the lifecycle is updated for external SVG resources",
+    "commit_message": ""
+  },
+  "517303276": null,
+  "517247333": null,
+  "517227707": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7905639",
+    "cl_number": 7905639,
+    "subject": "[M150] Assign DisplayLinkMacMojo mojo::Remote/Receiver on VSync thread",
+    "commit_message": ""
+  },
+  "517183713": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7893314",
+    "cl_number": 7893314,
+    "subject": "[M149] Fix macOS ScopedCGWindowID type confusion under delegated picker",
+    "commit_message": ""
+  },
+  "517168239": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7901387",
+    "cl_number": 7901387,
+    "subject": "[vt] Fix use after capture in OnTransitionCaptured",
+    "commit_message": ""
+  },
+  "517153191": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7914906",
+    "cl_number": 7914906,
+    "subject": "[M149 7827_102] Reject forbidden method override headers in CorsURLLoader",
+    "commit_message": ""
+  },
+  "517130229": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7902711",
+    "cl_number": 7902711,
+    "subject": "[M150] Restrict CreateNetLogExporter to browser process",
+    "commit_message": ""
+  },
+  "517129549": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7883545",
+    "cl_number": 7883545,
+    "subject": "[M149] media: Use cross-thread handles for WebCodecs callbacks",
+    "commit_message": ""
+  },
+  "517103584": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7886776",
+    "cl_number": 7886776,
+    "subject": "[M149] Ozone: Add process-global drag-and-drop state guard",
+    "commit_message": ""
+  },
+  "517086161": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7913536",
+    "cl_number": 7913536,
+    "subject": "[M149 7827_102] Fix file scheme guard bypass for proxied remote frontends.",
+    "commit_message": ""
+  },
+  "517050585": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7885896",
+    "cl_number": 7885896,
+    "subject": "[M148] [Ozone/X11] Guard against synchronous deletion in OnWindowMapped",
+    "commit_message": ""
+  },
+  "517047197": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7929606",
+    "cl_number": 7929606,
+    "subject": "[M148] Printing: Avoid a potential UAF in PrintViewManager",
+    "commit_message": ""
+  },
+  "517046249": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7882639",
+    "cl_number": 7882639,
+    "subject": "[M144-LTS][Ozone/Wayland] Fix UAF in HandleToplevelConfigure via OnActivationChanged",
+    "commit_message": ""
+  },
+  "517040438": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7886799",
+    "cl_number": 7886799,
+    "subject": "[M149] [macOS] Prevent UAF during fullscreen controller transition complete",
+    "commit_message": ""
+  },
+  "517023053": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7904141",
+    "cl_number": 7904141,
+    "subject": "[M148] [Autofill] Fix UAF in popup views due to COM reentrancy on Windows",
+    "commit_message": ""
+  },
+  "517018374": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7916226",
+    "cl_number": 7916226,
+    "subject": "[M149 7827_102] Clear ANGLE's blob cache callbacks upon context loss.",
+    "commit_message": ""
+  },
+  "517004487": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7928528",
+    "cl_number": 7928528,
+    "subject": "[M148] media: Fix UAF in MediaFoundationProtectionManager",
+    "commit_message": ""
+  },
+  "516997135": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7883544",
+    "cl_number": 7883544,
+    "subject": "[M149] media: Sync copy queue before D3D12 VEA teardown",
+    "commit_message": ""
+  },
+  "516987814": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7889035",
+    "cl_number": 7889035,
+    "subject": "[M149] bluetooth: Prevent UAF in macOS Bluetooth listeners",
+    "commit_message": ""
+  },
+  "516986556": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7900997",
+    "cl_number": 7900997,
+    "subject": "Revert \"Roll src/third_party/libyuv/ a7849e8a5..957f295ea (28 commits)\"",
+    "commit_message": ""
+  },
+  "516979551": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7902751",
+    "cl_number": 7902751,
+    "subject": "[M148] Improve temporary file creation and error handling in SimpleURLLoader",
+    "commit_message": ""
+  },
+  "516975148": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7893298",
+    "cl_number": 7893298,
+    "subject": "[M149] gamepad: Fix Use-After-Return in HidWriterWin",
+    "commit_message": ""
+  },
+  "516963272": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7884252",
+    "cl_number": 7884252,
+    "subject": "[M148] bluetooth: Fix potential UAF in Bluetooth Classic channel delegates on macOS",
+    "commit_message": ""
+  },
+  "516957738": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7882120",
+    "cl_number": 7882120,
+    "subject": "[M148] Post AuthenticateUserWithNonBiometrics call",
+    "commit_message": ""
+  },
+  "516949298": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7881948",
+    "cl_number": 7881948,
+    "subject": "Roll Dawn from 485454223457 to 9b7567fd1556 (2 revisions)",
+    "commit_message": ""
+  },
+  "516942828": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7914082",
+    "cl_number": 7914082,
+    "subject": "[M144-LTS] [DC] Fix UAF on dialog close",
+    "commit_message": ""
+  },
+  "516929496": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7919446",
+    "cl_number": 7919446,
+    "subject": "Revert \"[M149 7827_102] [Safe Browsing] Rework temp file TOCTOU vulnerability fixes\"",
+    "commit_message": ""
+  },
+  "516915337": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7895880",
+    "cl_number": 7895880,
+    "subject": "Roll Skia from 060555fd70a9 to 2c50fbfb0373 (2 revisions)",
+    "commit_message": ""
+  },
+  "516910450": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7881336",
+    "cl_number": 7881336,
+    "subject": "[M148] MimeHandlerView: Guard against malicious script execution during post message",
+    "commit_message": ""
+  },
+  "516907083": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7918134",
+    "cl_number": 7918134,
+    "subject": "Revert \"[Autofill] Use-After-Free in AutofillProgressDialogControllerImpl\"",
+    "commit_message": ""
+  },
+  "516902973": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7880856",
+    "cl_number": 7880856,
+    "subject": "[M148] FLEDGE: Fix wrong timing of microtask checkpoint execution",
+    "commit_message": ""
+  },
+  "516878683": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7882120",
+    "cl_number": 7882120,
+    "subject": "[M148] Post AuthenticateUserWithNonBiometrics call",
+    "commit_message": ""
+  },
+  "516872067": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7916107",
+    "cl_number": 7916107,
+    "subject": "[M149 7827_102] media/gpu/vaapi: Reject up-scaling in spatial layer encoding",
+    "commit_message": ""
+  },
+  "516808201": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7916289",
+    "cl_number": 7916289,
+    "subject": "[M149 7827_102] Propagate invitation flag for isolated connections",
+    "commit_message": ""
+  },
+  "516797143": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7914564",
+    "cl_number": 7914564,
+    "subject": "[M148] [Extensions] Check error pages in ExtensionFunctionDispatcher",
+    "commit_message": ""
+  },
+  "516794471": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7895332",
+    "cl_number": 7895332,
+    "subject": "[M149] Check GL errors in TexStorage2D impl before updating metadata.",
+    "commit_message": ""
+  },
+  "516731749": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7916586",
+    "cl_number": 7916586,
+    "subject": "[M149 7827_102] fix(win): prevent UAF in DirectManipulationHelper during COM calls",
+    "commit_message": ""
+  },
+  "516707881": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7888856",
+    "cl_number": 7888856,
+    "subject": "[M144-LTS] Fix for potential UAF in TabDragContextImpl::OnGestureEvent",
+    "commit_message": ""
+  },
+  "516691130": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7881333",
+    "cl_number": 7881333,
+    "subject": "[M148] Prevent Use-After-Free in RenderWidgetHostViewAura::ShowWithVisibility.",
+    "commit_message": ""
+  },
+  "516677924": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7895216",
+    "cl_number": 7895216,
+    "subject": "[M148] [FSA] Fix UAF in ShowFilePickerOnUIThread.",
+    "commit_message": ""
+  },
+  "516674532": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7885098",
+    "cl_number": 7885098,
+    "subject": "[M144-LTS][headless][linux] Safeguard headless window code against potential UAF",
+    "commit_message": ""
+  },
+  "516653777": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7881125",
+    "cl_number": 7881125,
+    "subject": "[M148] ozone/x11: Fix UAF inside X11Window::GetBoundsInPixels()",
+    "commit_message": ""
+  },
+  "516608438": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7888129",
+    "cl_number": 7888129,
+    "subject": "[M149] Early return if a nested message loop deletes the RFH.",
+    "commit_message": ""
+  },
+  "516501794": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7898875",
+    "cl_number": 7898875,
+    "subject": "[M144-LTS] wayland: Fix UAF/dangling ptr in ReleasePressedPointerButtons()",
+    "commit_message": ""
+  },
+  "516482138": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7916087",
+    "cl_number": 7916087,
+    "subject": "[M149 7827_102] Harden DevTools drag filtering",
+    "commit_message": ""
+  },
+  "516413817": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7896458",
+    "cl_number": 7896458,
+    "subject": "[M149] Fix draggable region validation bypass in GuestViewBase",
+    "commit_message": ""
+  },
+  "516311623": null,
+  "515469283": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7926679",
+    "cl_number": 7926679,
+    "subject": "[M148] [PDF] Avoid running PDFium form callbacks in PDFiumEngine dtor",
+    "commit_message": ""
+  },
+  "515465685": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7929526",
+    "cl_number": 7929526,
+    "subject": "[M148] views: Fix use-after-free in DesktopWindowTreeHostPlatform Maximize/Show",
+    "commit_message": ""
+  },
+  "515463295": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7913747",
+    "cl_number": 7913747,
+    "subject": "[M149 7827_102] [Autofill] Fix bad std::string_view",
+    "commit_message": ""
+  },
+  "515431687": null,
+  "515429352": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7880608",
+    "cl_number": 7880608,
+    "subject": "[M149] media/gpu: Validate strides fit in int in LibYUVImageProcessor",
+    "commit_message": ""
+  },
+  "515419790": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7919450",
+    "cl_number": 7919450,
+    "subject": "[M144-LTS] media/gpu: Skip storing non-decodable H.265 RASL frames in DPB",
+    "commit_message": ""
+  },
+  "515155946": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7869837",
+    "cl_number": 7869837,
+    "subject": "[M149] Make Document::ProcessBaseElement store strings rather than pointers to strings.",
+    "commit_message": ""
+  },
+  "514746176": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7874190",
+    "cl_number": 7874190,
+    "subject": "[M144-LTS] WTF: Use base::checked_cast for size casting in Vector constructors",
+    "commit_message": ""
+  },
+  "514744613": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7879021",
+    "cl_number": 7879021,
+    "subject": "[M148] Roll src/third_party/ffmpeg/ b5e18fb9d..f45bab87c (4 commits)",
+    "commit_message": ""
+  },
+  "514742747": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7929168",
+    "cl_number": 7929168,
+    "subject": "[M148] Access VideoCaptureHost receiver on I/O thread.",
+    "commit_message": ""
+  },
+  "514742327": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7871057",
+    "cl_number": 7871057,
+    "subject": "[M149] [media/midi] Synchronize access to MidiManagerAndroid ports and devices",
+    "commit_message": ""
+  },
+  "514715455": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7874231",
+    "cl_number": 7874231,
+    "subject": "[M144-LTS] blink: Make HeapBarrierCallback thread-safe by default",
+    "commit_message": ""
+  },
+  "514671098": null,
+  "514229805": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7916129",
+    "cl_number": 7916129,
+    "subject": "[M149 7827_102] Use WeakPtr for flush callbacks in VideoEncodeAcceleratorAdapter",
+    "commit_message": ""
+  },
+  "514082801": null,
+  "514063977": null,
+  "514022635": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7875242",
+    "cl_number": 7875242,
+    "subject": "[M148] [a11y] Prevent node ID collisions for tree snapshots on Android",
+    "commit_message": ""
+  },
+  "514017326": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7872257",
+    "cl_number": 7872257,
+    "subject": "Roll Skia from 7a0df4c461eb to bbe9ccc2bdbf (3 revisions)",
+    "commit_message": ""
+  },
+  "514009323": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7900393",
+    "cl_number": 7900393,
+    "subject": "[M149] Clamp EditContext bounds to visible viewport in TextInputManager.",
+    "commit_message": ""
+  },
+  "513995565": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7869102",
+    "cl_number": 7869102,
+    "subject": "[M148] android: Unbind old ImeRenderWidgetHostImpl",
+    "commit_message": ""
+  },
+  "513973560": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7861185",
+    "cl_number": 7861185,
+    "subject": "Roll Skia from c7d5748715e2 to 15ae3e3e7af9 (5 revisions)",
+    "commit_message": ""
+  },
+  "513972075": null,
+  "513948465": null,
+  "513948178": null,
+  "513947609": null,
+  "513946753": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7880827",
+    "cl_number": 7880827,
+    "subject": "[M144-LTS][GPU-Security] Fix stack-use-after-return in DawnCopyStrategy.",
+    "commit_message": ""
+  },
+  "513830374": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7883240",
+    "cl_number": 7883240,
+    "subject": "[M148] Ensure request lives long enough to call RespondToDelegate",
+    "commit_message": ""
+  },
+  "513820666": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7878641",
+    "cl_number": 7878641,
+    "subject": "Roll Skia from bb889fb115dc to 56c41deecf35 (3 revisions)",
+    "commit_message": ""
+  },
+  "513774197": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7929427",
+    "cl_number": 7929427,
+    "subject": "[M148] [WebXR] Check buffer detachment in XRFrame::fillPoses",
+    "commit_message": ""
+  },
+  "513773313": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7929586",
+    "cl_number": 7929586,
+    "subject": "[M148] bindings: add checks for whether underlying array buffer is shared when converting array views",
+    "commit_message": ""
+  },
+  "513768979": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7871897",
+    "cl_number": 7871897,
+    "subject": "[M149] Fix implicit clearing of integer renderbuffer attachments.",
+    "commit_message": ""
+  },
+  "513762354": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7927797",
+    "cl_number": 7927797,
+    "subject": "[M148] clamp renderable frame size for VP9-kSVC",
+    "commit_message": ""
+  },
+  "513754619": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7911903",
+    "cl_number": 7911903,
+    "subject": "[M144-LTS] Avoid shrinking the map via sync GC in SVGTreeScopeResources",
+    "commit_message": ""
+  },
+  "513750691": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7929271",
+    "cl_number": 7929271,
+    "subject": "[M144-LTS][webaudio] Fix race condition in OfflineAudioDestinationHandler",
+    "commit_message": ""
+  },
+  "513750089": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7865264",
+    "cl_number": 7865264,
+    "subject": "[M149] Fix Use-After-Free in AppShimApplication via Dock Menu",
+    "commit_message": ""
+  },
+  "513748868": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7884243",
+    "cl_number": 7884243,
+    "subject": "[M149] [headless][win] Safeguard message handler code for potential UAF",
+    "commit_message": ""
+  },
+  "513731890": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7896939",
+    "cl_number": 7896939,
+    "subject": "[M149] Gate renderer-supplied OpenUrlInCurrentTab by scheme",
+    "commit_message": ""
+  },
+  "513730012": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7878224",
+    "cl_number": 7878224,
+    "subject": "[M144-LTS][Passwords] Refactor server predictions storage in PasswordManager",
+    "commit_message": ""
+  },
+  "513713927": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7865903",
+    "cl_number": 7865903,
+    "subject": "[M149] Validate that CDP events have no top-level ID",
+    "commit_message": ""
+  },
+  "513702971": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7870083",
+    "cl_number": 7870083,
+    "subject": "[M149] [X11][gfx] Validate ICC profiles from X11 root window",
+    "commit_message": ""
+  },
+  "513609324": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7931286",
+    "cl_number": 7931286,
+    "subject": "[M144-LTS][Views] Prevent dangling focus preference",
+    "commit_message": ""
+  },
+  "513564337": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7926404",
+    "cl_number": 7926404,
+    "subject": "[M148] [Extensions] Fix cross-origin secret leak via request ID collisions",
+    "commit_message": ""
+  },
+  "513543143": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7870072",
+    "cl_number": 7870072,
+    "subject": "[M148] [gpu] Fix state desync in DoCopyTexImage2D",
+    "commit_message": ""
+  },
+  "513536416": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7854216",
+    "cl_number": 7854216,
+    "subject": "Roll PDFium from 9095044e26da to 55f03afc8f1f (8 revisions)",
+    "commit_message": ""
+  },
+  "513514692": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7862915",
+    "cl_number": 7862915,
+    "subject": "[M149] Ensure NavigationContext is not accessed after being freed",
+    "commit_message": ""
+  },
+  "513508128": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7866442",
+    "cl_number": 7866442,
+    "subject": "[M144-LTS][Extensions] Fix lifetime management in OffscreenCreateDocumentFunction",
+    "commit_message": ""
+  },
+  "513505927": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7867148",
+    "cl_number": 7867148,
+    "subject": "[M144-LTS] Use a WeakPtr in TabHandle",
+    "commit_message": ""
+  },
+  "513505608": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7865922",
+    "cl_number": 7865922,
+    "subject": "[M148][Passwords] Use view tracker for generation popup buttons",
+    "commit_message": ""
+  },
+  "513468021": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7869874",
+    "cl_number": 7869874,
+    "subject": "Roll ANGLE from 8006fa227663 to a82644efc269 (2 revisions)",
+    "commit_message": ""
+  },
+  "513465272": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7897560",
+    "cl_number": 7897560,
+    "subject": "[M148] Fix potential macOS UAF in re-auth",
+    "commit_message": ""
+  },
+  "513454018": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7929686",
+    "cl_number": 7929686,
+    "subject": "[M148] wayland: Fix UAF in OnTabletToolProximityIn",
+    "commit_message": ""
+  },
+  "513446116": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7880107",
+    "cl_number": 7880107,
+    "subject": "Partially revert \"Fix incorrect hostname max length check\"",
+    "commit_message": ""
+  },
+  "513445101": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7928529",
+    "cl_number": 7928529,
+    "subject": "[M148] [Printing] Fix Use-After-Free in PrintDialogLinuxPortal",
+    "commit_message": ""
+  },
+  "513424000": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7929546",
+    "cl_number": 7929546,
+    "subject": "[M148] [Service Workers] Fix re-entrancy UAF/double-free in RemoveLiveVersion",
+    "commit_message": ""
+  },
+  "513396305": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7895384",
+    "cl_number": 7895384,
+    "subject": "[M148] Use checked math before allocating ScopedAudioChannelLayout",
+    "commit_message": ""
+  },
+  "513394258": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7926284",
+    "cl_number": 7926284,
+    "subject": "[M148] Fixing a potential race condition in TouchInputInjector",
+    "commit_message": ""
+  },
+  "513364480": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7853483",
+    "cl_number": 7853483,
+    "subject": "Roll ANGLE from db169a4acad9 to 5d1013831838 (5 revisions)",
+    "commit_message": ""
+  },
+  "513362710": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7929489",
+    "cl_number": 7929489,
+    "subject": "[M148] [MediaCapture] Use Obj-C weak pointers for the takePhoto operation",
+    "commit_message": ""
+  },
+  "513340227": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7877127",
+    "cl_number": 7877127,
+    "subject": "Roll Skia from 1968ca273864 to d218592d34d6 (14 revisions)",
+    "commit_message": ""
+  },
+  "513337118": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7864805",
+    "cl_number": 7864805,
+    "subject": "Roll Skia from 9a772306b2d0 to 7ec8fa468a55 (2 revisions)",
+    "commit_message": ""
+  },
+  "513324041": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7864864",
+    "cl_number": 7864864,
+    "subject": "[M144-LTS] Fix Use-After-Free and dangling pointer in TouchEventAckQueue",
+    "commit_message": ""
+  },
+  "513321171": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7886775",
+    "cl_number": 7886775,
+    "subject": "[M148] [Extensions] Fix Site Isolation bypass in WebRequest API via EventRouter",
+    "commit_message": ""
+  },
+  "513289241": null,
+  "513268100": null,
+  "513256572": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7924609",
+    "cl_number": 7924609,
+    "subject": "[M144-LTS] WebXR: Migrate GL cleanup from destructors to pre-finalizers",
+    "commit_message": ""
+  },
+  "513249847": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7854253",
+    "cl_number": 7854253,
+    "subject": "Roll Dawn from e7eb019e0d82 to 802f147f1fb7 (11 revisions)",
+    "commit_message": ""
+  },
+  "513235131": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7863728",
+    "cl_number": 7863728,
+    "subject": "[M148] Guard against UAF in LegacyRenderWidgetHostHWND::SetBounds()",
+    "commit_message": ""
+  },
+  "513231432": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7929528",
+    "cl_number": 7929528,
+    "subject": "[M148] Synchronize WebrtcEventLogData with mutex locking",
+    "commit_message": ""
+  },
+  "513208588": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7931246",
+    "cl_number": 7931246,
+    "subject": "[M144-LTS][Interaction] Use raw_ptr during all callbacks",
+    "commit_message": ""
+  },
+  "513177826": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7877764",
+    "cl_number": 7877764,
+    "subject": "[M144-LTS][PST] Fix Use-After-Free in helper",
+    "commit_message": ""
+  },
+  "513173565": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7869609",
+    "cl_number": 7869609,
+    "subject": "[M149] media: Make GL context current before resolving shared image in MF VEA",
+    "commit_message": ""
+  },
+  "513165325": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7872213",
+    "cl_number": 7872213,
+    "subject": "[M148] Properly handle EXT_texture_norm16 formats in ReadPixels.",
+    "commit_message": ""
+  },
+  "513160681": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7929567",
+    "cl_number": 7929567,
+    "subject": "[M148] [X11] Fix Use-After-Free in GeometryCache::GetBoundsPx()",
+    "commit_message": ""
+  },
+  "513156160": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7926695",
+    "cl_number": 7926695,
+    "subject": "[M148] [Extensions] Robust lazy background page keepalive tracking",
+    "commit_message": ""
+  },
+  "513154132": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7856068",
+    "cl_number": 7856068,
+    "subject": "Roll WebRTC from 197ec9221210 to c1d536cb9084 (4 revisions)",
+    "commit_message": ""
+  },
+  "513136593": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7878225",
+    "cl_number": 7878225,
+    "subject": "[M144-LTS] Fix UAF in openscreen_platform::UdpSocket::OnReceived",
+    "commit_message": ""
+  },
+  "513135985": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7864809",
+    "cl_number": 7864809,
+    "subject": "[M149] Make Xr Luid plumbing more robust",
+    "commit_message": ""
+  },
+  "513135862": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7876619",
+    "cl_number": 7876619,
+    "subject": "Roll ANGLE from 97933d458974 to d1530ea7d8af (4 revisions)",
+    "commit_message": ""
+  },
+  "513128608": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7865185",
+    "cl_number": 7865185,
+    "subject": "[M148] [PWA][Mac] Asynchronously deactivate app on launch cancellation",
+    "commit_message": ""
+  },
+  "513054053": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7874232",
+    "cl_number": 7874232,
+    "subject": "[M144-LTS] HLS: Check matching security origin for key",
+    "commit_message": ""
+  },
+  "513049286": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7851382",
+    "cl_number": 7851382,
+    "subject": "Roll WebRTC from c5bf6f14c1d8 to 727c9f470419 (2 revisions)",
+    "commit_message": ""
+  },
+  "513046475": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7869335",
+    "cl_number": 7869335,
+    "subject": "[M149] [Webapps] Verify Webapp icon MAC in WebappAuthenticator",
+    "commit_message": ""
+  },
+  "513042859": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7851611",
+    "cl_number": 7851611,
+    "subject": "Roll Dawn from 211333b2e3e4 to db1b2ce707cb (66 revisions)",
+    "commit_message": ""
+  },
+  "513028160": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7924688",
+    "cl_number": 7924688,
+    "subject": "[M144-LTS][APC] Implement source verification for popups and avoid populating popup from multiple frames",
+    "commit_message": ""
+  },
+  "513019760": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7873757",
+    "cl_number": 7873757,
+    "subject": "[M148] media/gpu/chromeos/GLIP: Validate GpuMemoryBufferHandle",
+    "commit_message": ""
+  },
+  "513006660": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7929607",
+    "cl_number": 7929607,
+    "subject": "[M148] [Ozone/X11] Fix UAF in DispatchUiEvent during synchronous destruction",
+    "commit_message": ""
+  },
+  "513005991": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7921956",
+    "cl_number": 7921956,
+    "subject": "[M148] Print Preview: Remove PrintManagerHost.UpdatePrintSettings() dict param",
+    "commit_message": ""
+  },
+  "513003797": null,
+  "513002543": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7862258",
+    "cl_number": 7862258,
+    "subject": "[M149] Fix potential UAF in LegacyRenderWidgetHostHWND::InitOrDeleteSelf()",
+    "commit_message": ""
+  },
+  "513001309": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7858597",
+    "cl_number": 7858597,
+    "subject": "Roll Skia from 37ec3f56105b to 33b70be027e8 (1 revision)",
+    "commit_message": ""
+  },
+  "513001247": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7853483",
+    "cl_number": 7853483,
+    "subject": "Roll ANGLE from db169a4acad9 to 5d1013831838 (5 revisions)",
+    "commit_message": ""
+  },
+  "512995705": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7870155",
+    "cl_number": 7870155,
+    "subject": "Roll Skia from 0e23ccd46809 to 544395a5d9da (1 revision)",
+    "commit_message": ""
+  },
+  "512772489": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7871532",
+    "cl_number": 7871532,
+    "subject": "[M148] Protected Audience: Ignore non-finite entries in priority vector",
+    "commit_message": ""
+  },
+  "511776372": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7867529",
+    "cl_number": 7867529,
+    "subject": "[M144-LTS] Printing: Reject Fenced Frame requests in PrintViewManager",
+    "commit_message": ""
+  },
+  "511765713": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7875490",
+    "cl_number": 7875490,
+    "subject": "[M144-LTS][Extensions] Don't allow message connections from sandboxed pages",
+    "commit_message": ""
+  },
+  "511758373": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7851611",
+    "cl_number": 7851611,
+    "subject": "Roll Dawn from 211333b2e3e4 to db1b2ce707cb (66 revisions)",
+    "commit_message": ""
+  },
+  "511742228": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7869356",
+    "cl_number": 7869356,
+    "subject": "[M148] [input] Validate FrameSinkId in async hit-test responses",
+    "commit_message": ""
+  },
+  "511741396": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7870458",
+    "cl_number": 7870458,
+    "subject": "[M148] [Actor] Fix UAF in ClickDispatcher::DoMouseUp",
+    "commit_message": ""
+  },
+  "511741173": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7863010",
+    "cl_number": 7863010,
+    "subject": "[M149] [WebShare] Enforce SafeBaseName validations in Java",
+    "commit_message": ""
+  },
+  "511736002": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7894855",
+    "cl_number": 7894855,
+    "subject": "[M148] Fix re-entrant deletion crash in HTTP/2 stream delegates",
+    "commit_message": ""
+  },
+  "511732828": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7864825",
+    "cl_number": 7864825,
+    "subject": "[M148] usb: Reject forbidden Standard control transfers",
+    "commit_message": ""
+  },
+  "511732085": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7869327",
+    "cl_number": 7869327,
+    "subject": "Cherry-pick Perfetto security fixes to M149",
+    "commit_message": ""
+  },
+  "511727159": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7870434",
+    "cl_number": 7870434,
+    "subject": "Roll Dawn from 910f580897ff to e935a1b57eb8 (11 revisions)",
+    "commit_message": ""
+  },
+  "511719039": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7853404",
+    "cl_number": 7853404,
+    "subject": "Roll ANGLE from 578b09f2b95d to db169a4acad9 (3 revisions)",
+    "commit_message": ""
+  },
+  "511715166": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7868137",
+    "cl_number": 7868137,
+    "subject": "[M149] Avoid creating AwPermissionRequest for destroyed contents",
+    "commit_message": ""
+  },
+  "511714900": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7864789",
+    "cl_number": 7864789,
+    "subject": "[M148] Use raw_ptr for Android mouse cursor view",
+    "commit_message": ""
+  },
+  "511713779": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7871689",
+    "cl_number": 7871689,
+    "subject": "[M149] media: Invalidate dependent PPS when SPS is overwritten",
+    "commit_message": ""
+  },
+  "511710468": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7871709",
+    "cl_number": 7871709,
+    "subject": "[M149] Check currently used program in DoResumeTransformFeedback.",
+    "commit_message": ""
+  },
+  "511290038": null,
+  "511279942": null,
+  "511270083": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7841915",
+    "cl_number": 7841915,
+    "subject": "Add inspector-protocol test for deep serialization crash",
+    "commit_message": ""
+  },
+  "511249104": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7867230",
+    "cl_number": 7867230,
+    "subject": "[M144-LTS][ProxyResolver] Prune dirty FinalizationRegistries upon Context disposal",
+    "commit_message": ""
+  },
+  "511228272": null,
+  "511218177": null,
+  "511006880": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7847836",
+    "cl_number": 7847836,
+    "subject": "[M149] media: Fix TransferList and Attachment key value collapse",
+    "commit_message": ""
+  },
+  "509268941": null,
+  "508811477": null,
+  "508811474": null,
+  "508463705": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7865186",
+    "cl_number": 7865186,
+    "subject": "[M148] gamepad: Fix uninitialized memory access in GamepadDeviceMac",
+    "commit_message": ""
+  },
+  "508456788": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7868829",
+    "cl_number": 7868829,
+    "subject": "[M149] Do pasteboard observation on the main thread",
+    "commit_message": ""
+  },
+  "508452241": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7868136",
+    "cl_number": 7868136,
+    "subject": "[M148] Cap font sizes for popup menus on Mac",
+    "commit_message": ""
+  },
+  "508448586": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7865005",
+    "cl_number": 7865005,
+    "subject": "[M149] [iOS] Fix potential UXSS in iOS Bookmarks via TOCTOU.",
+    "commit_message": ""
+  },
+  "508289938": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7869348",
+    "cl_number": 7869348,
+    "subject": "[M148] Guard against nested run loop issues in DeviceAuthenticatorMac",
+    "commit_message": ""
+  }
+}
