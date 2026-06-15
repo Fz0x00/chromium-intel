@@ -19,7 +19,7 @@ def collect_releases():
     releases = []
     next_url = "https://chromereleases.googleblog.com/search?max-results=25"
 
-    for _ in range(MAX_POSTS // 25 + 1):
+    for page in range(MAX_POSTS // 25 + 1):
         print(f"Fetching: {next_url}")
         try:
             resp = requests.get(next_url, timeout=30, headers={
@@ -32,69 +32,71 @@ def collect_releases():
 
         soup = BeautifulSoup(resp.text, 'html.parser')
 
-        # Debug
-        print(f"  HTML length: {len(resp.text)}")
-        title_tag = soup.title.string if soup.title else 'N/A'
-        print(f"  Title: {title_tag}")
-        # Print first 300 chars of body text
-        body = soup.body
-        body_text = body.get_text(strip=True)[:300] if body else 'N/A'
-        print(f"  Body text start: {body_text}")
-        # Print all h2/h3 to find post titles
-        headings = soup.find_all(['h2', 'h3'])
-        print(f"  Headings found: {len(headings)}")
-        for h in headings[:5]:
-            print(f"    - {h.get_text(strip=True)[:80]}")
-        # Print all links with 'stable' in text
-        links = soup.find_all('a')
-        print(f"  Links found: {len(links)}")
-        stable_links = [a for a in links if 'stable' in (a.get_text() or '').lower()]
-        print(f"  Links with 'stable': {len(stable_links)}")
-        for a in stable_links[:3]:
-            print(f"    - {a.get_text(strip=True)[:80]}")
+        # Strategy: find all links, filter those that look like security update posts
+        all_links = soup.find_all('a', href=True)
+        update_links = []
+        for a in all_links:
+            text = a.get_text(strip=True).lower()
+            if any(kw in text for kw in [
+                'stable channel update',
+                'extended stable channel update',
+                'dev channel update',
+                'beta channel update',
+            ]):
+                update_links.append(a)
+                print(f"  Link text: {a.get_text(strip=True)[:100]}")
 
-        posts = soup.find_all(class_='post')
+        print(f"  Found {len(update_links)} update links")
 
-        if not posts:
-            posts = soup.find_all('article')
-        if not posts:
-            posts = soup.find_all('div', class_=re.compile(r'post|entry|blog'))
+        for a in update_links:
+            title = a.get_text(strip=True)
+            link = a['href']
+            if link.startswith('/'):
+                link = 'https://chromereleases.googleblog.com' + link
 
-        for post in posts:
-            title_el = post.find(['h2', 'h3', 'h1', 'a'], class_=re.compile(r'title|entry-title|post-title'))
-            if not title_el:
+            version = extract_version(title)
+            if not version:
                 continue
 
-            title = title_el.get_text(strip=True)
-            if not is_security_update_title(title):
-                continue
-
-            link = None
-            a = title_el.find('a') or title_el
-            if a.name == 'a':
-                link = a.get('href')
-
-            content_el = post.find(class_=re.compile(r'content|body|entry-content|post-body|snippet'))
-            content = content_el.get_text(strip=True) if content_el else ''
+            # Fetch the individual post for content
+            content = ''
+            try:
+                post_resp = requests.get(link, timeout=30, headers={
+                    'User-Agent': 'Mozilla/5.0 (compatible; ChromiumIntel/1.0)'
+                })
+                post_soup = BeautifulSoup(post_resp.text, 'html.parser')
+                body = post_soup.find(class_=re.compile(r'post-body|entry-content|content'))
+                if body:
+                    content = body.get_text(strip=True)
+                else:
+                    content = post_soup.body.get_text(strip=True) if post_soup.body else ''
+            except:
+                pass
 
             release = {
                 'title': title,
-                'published': extract_date(post),
-                'url': link or '',
-                'content': content,
-                'version': extract_version(title),
+                'published': '',
+                'url': link,
+                'content': content[:5000],
+                'version': version,
                 'cves': extract_cves(content),
                 'in_the_wild': check_in_the_wild(content),
                 'severity': extract_severity(content),
                 'platforms': extract_platforms(content),
             }
             releases.append(release)
-            print(f"  Found: {release['version']} - {len(release['cves'])} CVEs")
+            print(f"  Found: {version} - {len(release['cves'])} CVEs")
 
-        # 查找下一页
-        older = soup.find('a', string=re.compile(r'Older|Next|下一页|较早', re.IGNORECASE))
+        # Look for "Older Posts" / "Newer Posts" / pagination
+        older = None
+        for a in all_links:
+            if a.get_text(strip=True).lower() in ('older posts', 'next', '»', 'more posts'):
+                older = a
+                break
         if older and older.get('href'):
             next_url = older['href']
+            if next_url.startswith('/'):
+                next_url = 'https://chromereleases.googleblog.com' + next_url
         else:
             break
 
