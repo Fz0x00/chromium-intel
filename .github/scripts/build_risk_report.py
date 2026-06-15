@@ -288,8 +288,7 @@ def build_risk_report():
         # Tracking URLs
         bug_id = cve.get('bug_id')
         if bug_id:
-            cve['bug_url'] = f'https://issues.chromium.org/issues/{bug_id}'
-            cve['crbug_url'] = f'https://crbug.com/{bug_id}'
+            cve['bug_url'] = f'https://crbug.com/{bug_id}'
         
         # Gerrit from cache
         if bug_id and bug_id in gerrit_cache and gerrit_cache[bug_id]:
