@@ -17,7 +17,7 @@ def collect_releases():
     """从 Chrome Releases Blog HTML 页面采集漏洞公告"""
 
     releases = []
-    next_url = "https://chromereleases.googleblog.com/search?max-results=25"
+    next_url = "https://chromereleases.googleblog.com/"
 
     for page in range(MAX_POSTS // 25 + 1):
         print(f"Fetching: {next_url}")
@@ -97,15 +97,24 @@ def collect_releases():
         # Look for "Older Posts" / "Newer Posts" / pagination
         older = None
         for a in all_links:
-            if a.get_text(strip=True).lower() in ('older posts', 'next', '»', 'more posts'):
+            text = a.get_text(strip=True).lower()
+            if text in ('older posts', 'next', '»', 'more posts', 'older'):
                 older = a
+                print(f"  Pagination: {text} -> {a.get('href', '')}")
                 break
         if older and older.get('href'):
             next_url = older['href']
             if next_url.startswith('/'):
                 next_url = 'https://chromereleases.googleblog.com' + next_url
         else:
-            break
+            # Try Blogger's standard pagination
+            older_link = soup.find('a', class_=re.compile(r'blog-pager-older'))
+            if older_link:
+                print(f"  Pagination (blogger): {older_link.get_text(strip=True)[:50]} -> {older_link.get('href', '')}")
+                next_url = older_link['href']
+            else:
+                print("  No pagination found, stopping")
+                break
 
     return releases
 
