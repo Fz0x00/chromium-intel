@@ -95,17 +95,24 @@ def save_cache(cache):
 
 
 def get_bug_ids_from_cves():
-    """从 chromium-cves.json 提取 bug_id 列表"""
-    path = Path("data/chromium-cves.json")
-    if not path.exists():
-        return []
-    data = json.loads(path.read_text())
-    bug_ids = []
-    for cve in data.get("cves", []):
-        bug_id = cve.get("bug_id")
-        if bug_id and bug_id not in bug_ids:
-            bug_ids.append(bug_id)
-    return bug_ids
+    """从 risk-report.json 提取 bug_id 列表，按风险评分排序"""
+    # 优先读 risk-report，有风险评分可以排优先级
+    for path in ('data/risk-report.json', 'data/chromium-cves.json'):
+        p = Path(path)
+        if p.exists():
+            data = json.loads(p.read_text())
+            # 按 risk_score 降序排列
+            cves = data.get('cves', [])
+            cves.sort(key=lambda x: x.get('risk_score', 0), reverse=True)
+            bug_ids = []
+            for cve in cves:
+                bug_id = cve.get('bug_id')
+                if bug_id and bug_id not in bug_ids:
+                    bug_ids.append(bug_id)
+            if bug_ids:
+                print(f"  Read from {path} with risk scores")
+                return bug_ids
+    return []
 
 
 def enrich_risk_report():
@@ -160,8 +167,7 @@ def main():
     print(f"  Need to fetch: {len(to_fetch)}")
 
     if to_fetch and not dry_run:
-        # 优先查最近的（bug ID 越大越新）
-        to_fetch.sort(key=lambda x: int(x), reverse=True)
+        # 已按风险评分排序，取前 max_fetch 个
 
         # 限制每轮查询数量，避免工作流超时
         if len(to_fetch) > max_fetch:
