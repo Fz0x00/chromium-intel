@@ -31,6 +31,11 @@ def collect_releases():
             break
 
         soup = BeautifulSoup(resp.text, 'html.parser')
+
+        # Debug
+        print(f"  HTML length: {len(resp.text)}")
+        print(f"  Title: {soup.title.string if soup.title else 'N/A'}")
+
         posts = soup.find_all(class_='post')
 
         if not posts:
