@@ -315,6 +315,13 @@ def build_risk_report():
         x.get('id', '')
     ))
     
+    # Strip noise: remove empty/null fields to reduce file size
+    for cve in cves:
+        for key in list(cve.keys()):
+            if cve[key] is None or cve[key] == '' or cve[key] == [] or cve[key] == 0:
+                if key not in ('cvss', 'risk_score'):
+                    del cve[key]
+    
     # Summary
     summary = {
         'total_cves': len(cves),
@@ -332,7 +339,7 @@ def build_risk_report():
         summary['by_exploitability'][level] = summary['by_exploitability'].get(level, 0) + 1
         summary['by_component'][comp] = summary['by_component'].get(comp, 0) + 1
     
-    # Save
+    # Save - compact format for smaller file size
     output_dir = Path('data')
     output_dir.mkdir(exist_ok=True)
     
@@ -343,7 +350,7 @@ def build_risk_report():
     }
     
     output_file = output_dir / 'risk-report.json'
-    output_file.write_text(json.dumps(report, indent=2, ensure_ascii=False))
+    output_file.write_text(json.dumps(report, indent=None, ensure_ascii=False, separators=(',', ':')))
     
     print(f"\nSaved {len(cves)} CVEs to {output_file}")
     print(f"\nExploitability for Electron/CEF:")
