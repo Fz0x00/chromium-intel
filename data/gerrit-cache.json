@@ -16298,5 +16298,430 @@
     "cl_number": 1128255,
     "subject": "[AF] Don't simplify/dedupe suggestions for (partially) filled sections.",
     "commit_message": ""
+  },
+  "668645": null,
+  "666824": null,
+  "816685": null,
+  "989078": null,
+  "1004212": null,
+  "902427": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1374949",
+    "cl_number": 1374949,
+    "subject": "Filter touch events for permission dialog for security reason",
+    "commit_message": ""
+  },
+  "904182": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1344552",
+    "cl_number": 1344552,
+    "subject": "Add .desktop file to download_file_types.asciipb",
+    "commit_message": ""
+  },
+  "918470": null,
+  "893087": null,
+  "936900": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1504489",
+    "cl_number": 1504489,
+    "subject": "Extensions: Add port restriction support to CORS allow lists",
+    "commit_message": ""
+  },
+  "986043": null,
+  "1113565": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/2398884",
+    "cl_number": 2398884,
+    "subject": "[m86] Reland \"Add more checks for chrome.debugger extensions\"",
+    "commit_message": ""
+  },
+  "1106890": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/2324110",
+    "cl_number": 2324110,
+    "subject": "[FileAPI] Change BlobUrlRegistry to be per storage partition.",
+    "commit_message": ""
+  },
+  "1092518": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/2321528",
+    "cl_number": 2321528,
+    "subject": "Disable opening extensionless downloads on Windows",
+    "commit_message": ""
+  },
+  "1116444": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/2584806",
+    "cl_number": 2584806,
+    "subject": "Do not execute global commands on non-root targets",
+    "commit_message": ""
+  },
+  "1029375": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1953547",
+    "cl_number": 1953547,
+    "subject": "Add fileloc and webloc to download_file_types.asciipb",
+    "commit_message": ""
+  },
+  "714617": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1962676",
+    "cl_number": 1962676,
+    "subject": "[Extensions] Set tabs.executeScript() URLs to chrome-extension: scheme",
+    "commit_message": ""
+  },
+  "894477": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/1589246",
+    "cl_number": 1589246,
+    "subject": "[Extensions] Close opaque-origin windows opened by extensions on extension unload",
+    "commit_message": ""
+  },
+  "1064519": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/2133415",
+    "cl_number": 2133415,
+    "subject": "Roll src/third_party/devtools-frontend/src 0a34c98ea0b0..4d123409dc1a (2 commits)",
+    "commit_message": ""
+  },
+  "1104628": null,
+  "1102196": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/2388240",
+    "cl_number": 2388240,
+    "subject": "Roll src-internal from b497ca9c0cae to d44753e0e39e (1 revision)",
+    "commit_message": ""
+  },
+  "1137179": null,
+  "1115590": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/2467897",
+    "cl_number": 2467897,
+    "subject": "[CSP] Do not bypass CSP:frame-ancestors",
+    "commit_message": ""
+  },
+  "1100748": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/2617873",
+    "cl_number": 2617873,
+    "subject": "Remove CloudPrint hosted app exception now that CloudPrint is gone.",
+    "commit_message": ""
+  },
+  "1197875": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/2884106",
+    "cl_number": 2884106,
+    "subject": "Handle out-of-bounds group index when adding tab to existing group",
+    "commit_message": ""
+  },
+  "1210985": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/3059451",
+    "cl_number": 3059451,
+    "subject": "[M90-LTS][Tab Groups] Cap boundaries so tabs can't be moved across {un}/pinned.",
+    "commit_message": ""
+  },
+  "1204811": null,
+  "1209469": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/3086688",
+    "cl_number": 3086688,
+    "subject": "[M90-LTS] Fix case where an extension could open a pinned grouped tab.",
+    "commit_message": ""
+  },
+  "1176031": null,
+  "1193233": null,
+  "1291728": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/3435985",
+    "cl_number": 3435985,
+    "subject": "[M96-LTS] Replace WidgetObserver::OnWidgetClosing() with OnWidgetDestroying()",
+    "commit_message": ""
+  },
+  "1279188": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/3351102",
+    "cl_number": 3351102,
+    "subject": "Fix Security Elevation of Privilege in Chrome installer during update",
+    "commit_message": ""
+  },
+  "1289846": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/3413808",
+    "cl_number": 3413808,
+    "subject": "[Extensions] Don't allow opening a popup for a declarative-shown action",
+    "commit_message": ""
+  },
+  "1302959": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/3584544",
+    "cl_number": 3584544,
+    "subject": "[Merge m101][Extensions] Fix inadvertent leakage of info through event listeners.",
+    "commit_message": ""
+  },
+  "1236325": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/3669112",
+    "cl_number": 3669112,
+    "subject": "[M96-LTS] Only allow chrome.debugger extensions to attach to targets with same profile",
+    "commit_message": ""
+  },
+  "1310461": null,
+  "1268445": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/3594083",
+    "cl_number": 3594083,
+    "subject": "Disallow chrome.debugger connection to security interstitial.",
+    "commit_message": ""
+  },
+  "1302159": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/3565494",
+    "cl_number": 3565494,
+    "subject": "[Extensions] Ensure windows created with `focused: false` aren't on top",
+    "commit_message": ""
+  },
+  "1332392": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/3698763",
+    "cl_number": 3698763,
+    "subject": "Add download_file_types.asciipb entry for DIAGCAB",
+    "commit_message": ""
+  },
+  "1346236": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/3793834",
+    "cl_number": 3793834,
+    "subject": "[M96-LTS] Also check pending navigation entry ExtensionMayAttachToWebContents",
+    "commit_message": ""
+  },
+  "1342586": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/3828096",
+    "cl_number": 3828096,
+    "subject": "[M104] Reland \"Fix an issue extensions can be used to expose env variables\"",
+    "commit_message": ""
+  },
+  "1240065": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/3790983",
+    "cl_number": 3790983,
+    "subject": "🛃 Prevent CCT launch to JavaScript URLs.",
+    "commit_message": ""
+  },
+  "1303306": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/3760105",
+    "cl_number": 3760105,
+    "subject": "Disable VPN add button on lock and kiosk mode",
+    "commit_message": ""
+  },
+  "1350111": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/3857925",
+    "cl_number": 3857925,
+    "subject": "Validate `extension_id` in ExtensionHostMsg_OpenChannelToTab.",
+    "commit_message": ""
+  },
+  "1377165": null,
+  "1371926": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/3938522",
+    "cl_number": 3938522,
+    "subject": "Upgrade local, manifest, and scf files to DANGEROUS",
+    "commit_message": ""
+  },
+  "1045681": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/4116604",
+    "cl_number": 4116604,
+    "subject": "Fix extension fingerprinting via resource timing entry",
+    "commit_message": ""
+  },
+  "1423258": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/4372948",
+    "cl_number": 4372948,
+    "subject": "Extended DevToolsExtensionFileAccessTest to cover mixed case scheme",
+    "commit_message": ""
+  },
+  "1419732": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/4294941",
+    "cl_number": 4294941,
+    "subject": "Update test to check for file: URL without slashes after the behavior change in the crrev.com/c/4295641",
+    "commit_message": ""
+  },
+  "1426807": null,
+  "1430269": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/4396057",
+    "cl_number": 4396057,
+    "subject": "[Extensions] Truncate extension name in infobar delegate",
+    "commit_message": ""
+  },
+  "1443292": null,
+  "1467743": null,
+  "1467751": null,
+  "1464456": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/5063672",
+    "cl_number": 5063672,
+    "subject": "Fix timeout in WebUiConfig Death tests",
+    "commit_message": ""
+  },
+  "1453501": null,
+  "1471253": null,
+  "1492698": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/4985681",
+    "cl_number": 4985681,
+    "subject": "[PaymentHandler] Require Link header when fetching payment method manifests",
+    "commit_message": ""
+  },
+  "1493435": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/4970035",
+    "cl_number": 4970035,
+    "subject": "[M119] Don't open download on BYPASS_DEEP_SCANNING command",
+    "commit_message": ""
+  },
+  "1494490": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/5002369",
+    "cl_number": 5002369,
+    "subject": "[Extensions] Add case to pageCapture.saveAsMHTML apitest",
+    "commit_message": ""
+  },
+  "360520331": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/5836985",
+    "cl_number": 5836985,
+    "subject": "[ios] Delay before accepting suggestion from the payments bottom sheet",
+    "commit_message": ""
+  },
+  "379818904": null,
+  "40069571": null,
+  "328278717": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/5380457",
+    "cl_number": 5380457,
+    "subject": "[Android] Fix tests which use AutofillTestHelper.createClickActionWithFlags.",
+    "commit_message": ""
+  },
+  "40058873": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/5783625",
+    "cl_number": 5783625,
+    "subject": "Don't show user-triggered extensions that may block security dialogs",
+    "commit_message": ""
+  },
+  "40065403": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/5416053",
+    "cl_number": 5416053,
+    "subject": "Add button tap protection duration to download dialogs",
+    "commit_message": ""
+  },
+  "333940412": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/5510090",
+    "cl_number": 5510090,
+    "subject": "Add PYZ and PYZW to download_file_types.asciipb",
+    "commit_message": ""
+  },
+  "40063014": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/5605695",
+    "cl_number": 5605695,
+    "subject": "Add IQY and ZST to download_file_types.asciipb",
+    "commit_message": ""
+  },
+  "40068800": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/5605695",
+    "cl_number": 5605695,
+    "subject": "Add IQY and ZST to download_file_types.asciipb",
+    "commit_message": ""
+  },
+  "40060358": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/5692867",
+    "cl_number": 5692867,
+    "subject": "Populate initiator origin in `DragDownloadFileUI::InitiateDownload`.",
+    "commit_message": ""
+  },
+  "360642942": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/5814284",
+    "cl_number": 5814284,
+    "subject": "Disallow VerbatimMatches to open non-navigable URLs by default.",
+    "commit_message": ""
+  },
+  "328278718": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/6011314",
+    "cl_number": 6011314,
+    "subject": "[CfM-R126] Use URL from download to check if it is allowed when request initiator is empty",
+    "commit_message": ""
+  },
+  "361711121": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/5815888",
+    "cl_number": 5815888,
+    "subject": "Don't show extension popup when a payment dialog is visible",
+    "commit_message": ""
+  },
+  "40940854": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/5955634",
+    "cl_number": 5955634,
+    "subject": "Close PaymentRequest UI when picture-in-picture occludes it.",
+    "commit_message": ""
+  },
+  "376625003": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/6000132",
+    "cl_number": 6000132,
+    "subject": "Test that extensions can't get access to local file via prototype pollution",
+    "commit_message": ""
+  },
+  "359949844": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/5995850",
+    "cl_number": 5995850,
+    "subject": "Mark some dialogs as security-sensitive for extension",
+    "commit_message": ""
+  },
+  "40061026": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/6087847",
+    "cl_number": 6087847,
+    "subject": "extensions: fix an unfocused new window obscuring the old window",
+    "commit_message": ""
+  },
+  "447192722": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7027591",
+    "cl_number": 7027591,
+    "subject": "[M138-LTS] safe_browsing: Fix UAF in RendererURLLoaderThrottle",
+    "commit_message": ""
+  },
+  "40054742": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/6961403",
+    "cl_number": 6961403,
+    "subject": "[Extensions] Update debugger API entry in security FAQ",
+    "commit_message": ""
+  },
+  "430555440": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/6923585",
+    "cl_number": 6923585,
+    "subject": "Fix a clickjacking out-of-screen Autofill popup issue",
+    "commit_message": ""
+  },
+  "428397712": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/6901326",
+    "cl_number": 6901326,
+    "subject": "[Extensions] Fix devtools accesible resources issue",
+    "commit_message": ""
+  },
+  "442636157": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/6917456",
+    "cl_number": 6917456,
+    "subject": "Reset active gesture count on tab change or crash",
+    "commit_message": ""
+  },
+  "452392032": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7081862",
+    "cl_number": 7081862,
+    "subject": "[m142][mobar] Fix keyboard accessory overlap in multiwindow",
+    "commit_message": ""
+  },
+  "454354281": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7096502",
+    "cl_number": 7096502,
+    "subject": "[m142] Push browser controls update whenever bottom controls height changes",
+    "commit_message": ""
+  },
+  "392375329": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7041986",
+    "cl_number": 7041986,
+    "subject": "Protect download bubble from unintended key events",
+    "commit_message": ""
+  },
+  "376491759": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/6244912",
+    "cl_number": 6244912,
+    "subject": "Block touches in CCT until enter animation is completed",
+    "commit_message": ""
+  },
+  "362545037": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/6495694",
+    "cl_number": 6495694,
+    "subject": "[ephemraltab] Disable context menu item for data: URL",
+    "commit_message": ""
+  },
+  "388680893": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/6268722",
+    "cl_number": 6268722,
+    "subject": "[PEPC] Don't show autofill overlaps with PEPC",
+    "commit_message": ""
+  },
+  "416942878": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/6629248",
+    "cl_number": 6629248,
+    "subject": "[PDF] Perform navigations from the PDF Viewer more consistently",
+    "commit_message": ""
+  },
+  "444803530": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/6990751",
+    "cl_number": 6990751,
+    "subject": "Windows: fix bug that could re-attach dangerous extension",
+    "commit_message": ""
   }
 }
