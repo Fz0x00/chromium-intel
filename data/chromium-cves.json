@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T21:26:24.771093Z",
+  "generated_at": "2026-06-16T23:02:14.967510Z",
   "total_cves": 4761,
   "cves": [
     {
@@ -258,13 +258,11 @@
       "id": "CVE-2026-12013",
       "published": "2026-06-11T20:48:07.014Z",
       "cvss": 0,
-      "description": "Use after free in Media in Google Chrome on Windows prior to 149.0.7827.115 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
-      "versions": [
-        "149.0.7827.115"
-      ],
-      "bug_id": "514229805",
+      "description": "",
+      "versions": [],
+      "bug_id": null,
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01962725236.html"
+      "blog_url": null
     },
     {
       "id": "CVE-2026-12012",
@@ -8598,13 +8596,11 @@
       "id": "CVE-2026-8568",
       "published": "2026-05-14T19:52:32.224Z",
       "cvss": 0,
-      "description": "Insufficient policy enforcement in AI in Google Chrome prior to 148.0.7778.168 allowed a remote attacker who had compromised the renderer process to bypass Site Isolation via a crafted HTML page. (...",
-      "versions": [
-        "148.0.7778.168"
-      ],
-      "bug_id": "488728570",
+      "description": "",
+      "versions": [],
+      "bug_id": null,
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2026/05/stable-channel-update-for-desktop_12.html"
+      "blog_url": null
     },
     {
       "id": "CVE-2026-8567",
@@ -10350,13 +10346,11 @@
       "id": "CVE-2026-7936",
       "published": "2026-05-06T18:12:39.778Z",
       "cvss": 0,
-      "description": "Object lifecycle issue in V8 in Google Chrome prior to 148.0.7778.96 allowed a remote attacker to perform an out of bounds memory read via a crafted HTML page. (Chromium security severity: Medium)",
-      "versions": [
-        "148.0.7778.96"
-      ],
-      "bug_id": "490485402",
+      "description": "",
+      "versions": [],
+      "bug_id": null,
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2026/05/stable-channel-update-for-desktop.html"
+      "blog_url": null
     },
     {
       "id": "CVE-2026-7935",
@@ -11764,13 +11758,11 @@
       "id": "CVE-2026-5904",
       "published": "2026-04-08T21:21:00.932Z",
       "cvss": 0,
-      "description": "Use after free in V8 in Google Chrome prior to 147.0.7727.55 allowed an attacker who convinced a user to install a malicious extension to potentially exploit heap corruption via a crafted Chrome Ex...",
-      "versions": [
-        "147.0.7727.55"
-      ],
-      "bug_id": "483851888",
+      "description": "",
+      "versions": [],
+      "bug_id": null,
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2026/04/stable-channel-update-for-desktop.html"
+      "blog_url": null
     },
     {
       "id": "CVE-2026-5903",
@@ -13432,13 +13424,11 @@
       "id": "CVE-2026-3539",
       "published": "2026-03-04T19:24:28.417Z",
       "cvss": 0,
-      "description": "Object lifecycle issue in DevTools in Google Chrome prior to 145.0.7632.159 allowed an attacker who convinced a user to install a malicious extension to potentially exploit heap corruption via a cr...",
-      "versions": [
-        "145.0.7632.159"
-      ],
-      "bug_id": "483853098",
+      "description": "",
+      "versions": [],
+      "bug_id": null,
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop.html"
+      "blog_url": null
     },
     {
       "id": "CVE-2026-3538",
