@@ -16723,5 +16723,193 @@
     "cl_number": 6990751,
     "subject": "Windows: fix bug that could re-attach dangerous extension",
     "commit_message": ""
+  },
+  "516496659": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7929472",
+    "cl_number": 7929472,
+    "subject": "[M149] WebShare: Windows - Ensure safe threading tear-down",
+    "commit_message": ""
+  },
+  "516947912": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7902413",
+    "cl_number": 7902413,
+    "subject": "Prevent fd reuse in WebView printing",
+    "commit_message": ""
+  },
+  "519728275": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7929392",
+    "cl_number": 7929392,
+    "subject": "[M144-LTS][DC] Fix UAF in DigitalIdentityMultiStepDialog::TryShow",
+    "commit_message": ""
+  },
+  "519731619": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7920927",
+    "cl_number": 7920927,
+    "subject": "[M144-LTS] [DC] Fix UAF in DigitalIdentityRequestImpl::Get()",
+    "commit_message": ""
+  },
+  "520157118": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7916950",
+    "cl_number": 7916950,
+    "subject": "[M144-LTS][Gtk] Fix Use-After-Free in SelectFileDialogLinuxGtk destructor",
+    "commit_message": ""
+  },
+  "521950423": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7929510",
+    "cl_number": 7929510,
+    "subject": "[M150] [TouchToFill] Fix UAF in TouchToFillController during destruction",
+    "commit_message": ""
+  },
+  "522566295": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7945718",
+    "cl_number": 7945718,
+    "subject": "[M144-LTS] WebAuthn: Fix UAF in CancelAuthenticatorRequest",
+    "commit_message": ""
+  },
+  "513160088": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7919608",
+    "cl_number": 7919608,
+    "subject": "[M150] Fix potential buffer overrun in Clipboard class",
+    "commit_message": ""
+  },
+  "513199795": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7945797",
+    "cl_number": 7945797,
+    "subject": "[M148] [Extensions] Move userscript access validation after async file load",
+    "commit_message": ""
+  },
+  "513313107": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7916854",
+    "cl_number": 7916854,
+    "subject": "[M148] [Passwords] Check UiSessionId before updating suggestions",
+    "commit_message": ""
+  },
+  "513405023": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7869643",
+    "cl_number": 7869643,
+    "subject": "Roll src/third_party/libvpx/source/libvpx/ 7cdde9fee..1963b530e (10 commits)",
+    "commit_message": ""
+  },
+  "513458233": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7922174",
+    "cl_number": 7922174,
+    "subject": "[M149] Prevent shared context scope for non-main worlds",
+    "commit_message": ""
+  },
+  "513480539": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7916474",
+    "cl_number": 7916474,
+    "subject": "[M149] [remoting] Fix handle management and ObjectWatcher violation in UnprivilegedProcessDelegate",
+    "commit_message": ""
+  },
+  "514531776": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7904003",
+    "cl_number": 7904003,
+    "subject": "[M149] media: Fix incorrect CHECK for input validation",
+    "commit_message": ""
+  },
+  "514741076": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7918011",
+    "cl_number": 7918011,
+    "subject": "[M150] [DC] Add weak_this guard in Abort()",
+    "commit_message": ""
+  },
+  "515462244": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7915995",
+    "cl_number": 7915995,
+    "subject": "[M148] Schedule download removal on the UI thread for Android bridges",
+    "commit_message": ""
+  },
+  "516926968": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7919446",
+    "cl_number": 7919446,
+    "subject": "Revert \"[M149 7827_102] [Safe Browsing] Rework temp file TOCTOU vulnerability fixes\"",
+    "commit_message": ""
+  },
+  "517069848": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7921086",
+    "cl_number": 7921086,
+    "subject": "[M150] Fix for potential UAF in TabDragController::DragBrowserToNewTabStrip",
+    "commit_message": ""
+  },
+  "517153117": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7917976",
+    "cl_number": 7917976,
+    "subject": "[M150] [Extensions] Skip error documents during subframe script injection",
+    "commit_message": ""
+  },
+  "517258337": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7921760",
+    "cl_number": 7921760,
+    "subject": "[M148] Disable key events during input protection in get() password dialogs",
+    "commit_message": ""
+  },
+  "517406035": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7902694",
+    "cl_number": 7902694,
+    "subject": "[M149] serial: Isolate SerialPort caching per DOMWrapperWorld",
+    "commit_message": ""
+  },
+  "517484284": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7905308",
+    "cl_number": 7905308,
+    "subject": "[M149] Block PDF processes from accessing OPFS",
+    "commit_message": ""
+  },
+  "517727318": null,
+  "517916024": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7916448",
+    "cl_number": 7916448,
+    "subject": "[M149 7827_102] Enforce CDM API contract in MojoDecryptorService::DeinitializeDecoder.",
+    "commit_message": ""
+  },
+  "518042749": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7916511",
+    "cl_number": 7916511,
+    "subject": "[M150] [Ozone] Suppress data drag during window move loop",
+    "commit_message": ""
+  },
+  "519358344": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7934228",
+    "cl_number": 7934228,
+    "subject": "[M144-LTS] Fix Use-After-Free in ForSecurityDropFullscreen",
+    "commit_message": ""
+  },
+  "520189702": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7918273",
+    "cl_number": 7918273,
+    "subject": "[M150] Don't dump on kCouldNotCreate histogram merge results.",
+    "commit_message": ""
+  },
+  "520199394": null,
+  "520202726": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7945697",
+    "cl_number": 7945697,
+    "subject": "[M144-LTS] [Extensions] Fix UAF in developerPrivate.updateExtensionConfiguration",
+    "commit_message": ""
+  },
+  "521485244": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7926545",
+    "cl_number": 7926545,
+    "subject": "[M150] Avoid TOCTOU in UnzipUpdaterHistoryFilesImpl",
+    "commit_message": ""
+  },
+  "521618871": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7927150",
+    "cl_number": 7927150,
+    "subject": "[M148] gpu: Propagate texture clearing failures in GLES2 validating decoder",
+    "commit_message": ""
+  },
+  "516448843": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7930372",
+    "cl_number": 7930372,
+    "subject": "[M150] input: Defend against coordinate spoofing in async hit-testing",
+    "commit_message": ""
+  },
+  "517124587": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7920646",
+    "cl_number": 7920646,
+    "subject": "[M150] [Extensions] Fix CSP tokenizer discrepancy in manifest validation",
+    "commit_message": ""
   }
 }
