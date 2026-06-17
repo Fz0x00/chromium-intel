@@ -1,7 +1,403 @@
 {
-  "generated_at": "2026-06-16T23:02:14.967510Z",
-  "total_cves": 4761,
+  "generated_at": "2026-06-17T02:01:35.024093Z",
+  "total_cves": 4794,
   "cves": [
+    {
+      "id": "CVE-2026-12469",
+      "published": "2026-06-17T01:38:27.553Z",
+      "cvss": 0,
+      "description": "Uninitialized Use in GPU in Google Chrome on Android prior to 149.0.7827.155 allowed a remote attacker to leak cross-origin data via a crafted HTML page. (Chromium security severity: High)",
+      "versions": [
+        "149.0.7827.155"
+      ],
+      "bug_id": "521618871",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html"
+    },
+    {
+      "id": "CVE-2026-12468",
+      "published": "2026-06-17T01:38:26.950Z",
+      "cvss": 0,
+      "description": "Race in Updater in Google Chrome on Mac prior to 149.0.7827.155 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (...",
+      "versions": [
+        "149.0.7827.155"
+      ],
+      "bug_id": "521485244",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html"
+    },
+    {
+      "id": "CVE-2026-12467",
+      "published": "2026-06-17T01:38:26.350Z",
+      "cvss": 0,
+      "description": "Use after free in Extensions in Google Chrome prior to 149.0.7827.155 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML p...",
+      "versions": [
+        "149.0.7827.155"
+      ],
+      "bug_id": "520202726",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html"
+    },
+    {
+      "id": "CVE-2026-12466",
+      "published": "2026-06-17T01:38:25.795Z",
+      "cvss": 0,
+      "description": "Heap buffer overflow in WebRTC in Google Chrome on Windows prior to 149.0.7827.155 allowed a remote attacker to execute arbitrary code via a crafted HTML page. (Chromium security severity: High)",
+      "versions": [
+        "149.0.7827.155"
+      ],
+      "bug_id": "520199394",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html"
+    },
+    {
+      "id": "CVE-2026-12465",
+      "published": "2026-06-17T01:38:25.180Z",
+      "cvss": 0,
+      "description": "Object lifecycle issue in Metrics in Google Chrome prior to 149.0.7827.155 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted H...",
+      "versions": [
+        "149.0.7827.155"
+      ],
+      "bug_id": "520189702",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html"
+    },
+    {
+      "id": "CVE-2026-12464",
+      "published": "2026-06-17T01:38:24.579Z",
+      "cvss": 0,
+      "description": "Use after free in Browser in Google Chrome prior to 149.0.7827.155 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page...",
+      "versions": [
+        "149.0.7827.155"
+      ],
+      "bug_id": "519358344",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html"
+    },
+    {
+      "id": "CVE-2026-12463",
+      "published": "2026-06-17T01:38:24.023Z",
+      "cvss": 0,
+      "description": "Inappropriate implementation in Views in Google Chrome on Linux prior to 149.0.7827.155 allowed a remote attacker who had compromised the renderer process to inject arbitrary scripts or HTML (UXSS)...",
+      "versions": [
+        "149.0.7827.155"
+      ],
+      "bug_id": "518042749",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html"
+    },
+    {
+      "id": "CVE-2026-12462",
+      "published": "2026-06-17T01:38:23.404Z",
+      "cvss": 0,
+      "description": "Use after free in Media in Google Chrome prior to 149.0.7827.155 allowed a remote attacker who had compromised the renderer process to execute arbitrary code inside a sandbox via a crafted HTML pag...",
+      "versions": [
+        "149.0.7827.155"
+      ],
+      "bug_id": "517916024",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html"
+    },
+    {
+      "id": "CVE-2026-12461",
+      "published": "2026-06-17T01:38:22.869Z",
+      "cvss": 0,
+      "description": "Out of bounds read in WebRTC in Google Chrome on Windows prior to 149.0.7827.155 allowed a remote attacker to obtain potentially sensitive information from process memory via a crafted HTML page. (...",
+      "versions": [
+        "149.0.7827.155"
+      ],
+      "bug_id": "517727318",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html"
+    },
+    {
+      "id": "CVE-2026-12460",
+      "published": "2026-06-17T01:38:22.316Z",
+      "cvss": 0,
+      "description": "Insufficient policy enforcement in File System Access in Google Chrome prior to 149.0.7827.155 allowed a remote attacker who had compromised the renderer process to bypass site isolation via a craf...",
+      "versions": [
+        "149.0.7827.155"
+      ],
+      "bug_id": "517484284",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html"
+    },
+    {
+      "id": "CVE-2026-12459",
+      "published": "2026-06-17T01:38:21.750Z",
+      "cvss": 0,
+      "description": "Inappropriate implementation in Serial in Google Chrome prior to 149.0.7827.155 allowed a remote attacker to inject arbitrary scripts or HTML (UXSS) via a crafted HTML page. (Chromium security seve...",
+      "versions": [
+        "149.0.7827.155"
+      ],
+      "bug_id": "517406035",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html"
+    },
+    {
+      "id": "CVE-2026-12458",
+      "published": "2026-06-17T01:38:21.181Z",
+      "cvss": 0,
+      "description": "Inappropriate implementation in Passwords in Google Chrome prior to 149.0.7827.155 allowed a remote attacker who convinced a user to engage in specific UI gestures to leak cross-origin data via a c...",
+      "versions": [
+        "149.0.7827.155"
+      ],
+      "bug_id": "517258337",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html"
+    },
+    {
+      "id": "CVE-2026-12457",
+      "published": "2026-06-17T01:38:20.661Z",
+      "cvss": 0,
+      "description": "Inappropriate implementation in Extensions in Google Chrome prior to 149.0.7827.155 allowed a remote attacker who had compromised the renderer process to bypass site isolation via a crafted HTML pa...",
+      "versions": [
+        "149.0.7827.155"
+      ],
+      "bug_id": "517153117",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html"
+    },
+    {
+      "id": "CVE-2026-12456",
+      "published": "2026-06-17T01:38:19.909Z",
+      "cvss": 0,
+      "description": "Inappropriate implementation in Extensions in Google Chrome prior to 149.0.7827.155 allowed an attacker who convinced a user to install a malicious extension to bypass same origin policy via a craf...",
+      "versions": [
+        "149.0.7827.155"
+      ],
+      "bug_id": "517124587",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html"
+    },
+    {
+      "id": "CVE-2026-12455",
+      "published": "2026-06-17T01:38:19.364Z",
+      "cvss": 0,
+      "description": "Use after free in Tab Strip in Google Chrome prior to 149.0.7827.155 allowed a remote attacker who convinced a user to engage in specific UI gestures to potentially exploit heap corruption via a cr...",
+      "versions": [
+        "149.0.7827.155"
+      ],
+      "bug_id": "517069848",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html"
+    },
+    {
+      "id": "CVE-2026-12454",
+      "published": "2026-06-17T01:38:18.777Z",
+      "cvss": 0,
+      "description": "Race in Safe Browsing in Google Chrome on Mac prior to 149.0.7827.155 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML p...",
+      "versions": [
+        "149.0.7827.155"
+      ],
+      "bug_id": "516926968",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html"
+    },
+    {
+      "id": "CVE-2026-12453",
+      "published": "2026-06-17T01:38:18.173Z",
+      "cvss": 0,
+      "description": "Insufficient validation of untrusted input in Input in Google Chrome prior to 149.0.7827.155 allowed a remote attacker who had compromised the renderer process to bypass same origin policy via a cr...",
+      "versions": [
+        "149.0.7827.155"
+      ],
+      "bug_id": "516448843",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html"
+    },
+    {
+      "id": "CVE-2026-12452",
+      "published": "2026-06-17T01:38:17.559Z",
+      "cvss": 0,
+      "description": "Use after free in Downloads in Google Chrome on Android prior to 149.0.7827.155 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity...",
+      "versions": [
+        "149.0.7827.155"
+      ],
+      "bug_id": "515462244",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html"
+    },
+    {
+      "id": "CVE-2026-12451",
+      "published": "2026-06-17T01:38:17.013Z",
+      "cvss": 0,
+      "description": "Use after free in DigitalCredentials in Google Chrome prior to 149.0.7827.155 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafte...",
+      "versions": [
+        "149.0.7827.155"
+      ],
+      "bug_id": "514741076",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html"
+    },
+    {
+      "id": "CVE-2026-12450",
+      "published": "2026-06-17T01:38:16.413Z",
+      "cvss": 0,
+      "description": "Inappropriate implementation in Media in Google Chrome prior to 149.0.7827.155 allowed a remote attacker to obtain potentially sensitive information from process memory via a crafted HTML page. (Ch...",
+      "versions": [
+        "149.0.7827.155"
+      ],
+      "bug_id": "514531776",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html"
+    },
+    {
+      "id": "CVE-2026-12449",
+      "published": "2026-06-17T01:38:15.849Z",
+      "cvss": 0,
+      "description": "Use after free in Chromoting in Google Chrome on Windows prior to 149.0.7827.155 allowed a local attacker to perform OS-level privilege escalation via a malicious file. (Chromium security severity:...",
+      "versions": [
+        "149.0.7827.155"
+      ],
+      "bug_id": "513480539",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html"
+    },
+    {
+      "id": "CVE-2026-12448",
+      "published": "2026-06-17T01:38:15.234Z",
+      "cvss": 0,
+      "description": "Inappropriate implementation in WebView in Google Chrome on Android prior to 149.0.7827.155 allowed a remote attacker to perform privilege escalation via a crafted HTML page. (Chromium security sev...",
+      "versions": [
+        "149.0.7827.155"
+      ],
+      "bug_id": "513458233",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html"
+    },
+    {
+      "id": "CVE-2026-12447",
+      "published": "2026-06-17T01:38:14.680Z",
+      "cvss": 0,
+      "description": "Heap buffer overflow in WebRTC in Google Chrome prior to 149.0.7827.155 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "versions": [
+        "149.0.7827.155"
+      ],
+      "bug_id": "513405023",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html"
+    },
+    {
+      "id": "CVE-2026-12446",
+      "published": "2026-06-17T01:38:14.061Z",
+      "cvss": 0,
+      "description": "Inappropriate implementation in Passwords in Google Chrome prior to 149.0.7827.155 allowed a remote attacker to leak cross-origin data via a crafted HTML page. (Chromium security severity: High)",
+      "versions": [
+        "149.0.7827.155"
+      ],
+      "bug_id": "513313107",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html"
+    },
+    {
+      "id": "CVE-2026-12445",
+      "published": "2026-06-17T01:38:13.450Z",
+      "cvss": 0,
+      "description": "Use after free in Extensions in Google Chrome prior to 149.0.7827.155 allowed an attacker who convinced a user to install a malicious extension to potentially exploit heap corruption via a crafted ...",
+      "versions": [
+        "149.0.7827.155"
+      ],
+      "bug_id": "513199795",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html"
+    },
+    {
+      "id": "CVE-2026-12444",
+      "published": "2026-06-17T01:38:12.910Z",
+      "cvss": 0,
+      "description": "Out of bounds read in Chromoting in Google Chrome on Windows prior to 149.0.7827.155 allowed a local attacker to obtain potentially sensitive information from process memory via a malicious file. (...",
+      "versions": [
+        "149.0.7827.155"
+      ],
+      "bug_id": "513160088",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html"
+    },
+    {
+      "id": "CVE-2026-12443",
+      "published": "2026-06-17T01:38:12.354Z",
+      "cvss": 0,
+      "description": "Use after free in Web Authentication in Google Chrome prior to 149.0.7827.155 allowed a remote attacker to execute arbitrary code via a crafted HTML page. (Chromium security severity: Critical)",
+      "versions": [
+        "149.0.7827.155"
+      ],
+      "bug_id": "522566295",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html"
+    },
+    {
+      "id": "CVE-2026-12442",
+      "published": "2026-06-17T01:38:11.773Z",
+      "cvss": 0,
+      "description": "Use after free in Passwords in Google Chrome on Android prior to 149.0.7827.155 allowed a remote attacker to execute arbitrary code via a crafted HTML page. (Chromium security severity: Critical)",
+      "versions": [
+        "149.0.7827.155"
+      ],
+      "bug_id": "521950423",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html"
+    },
+    {
+      "id": "CVE-2026-12441",
+      "published": "2026-06-17T01:38:11.196Z",
+      "cvss": 0,
+      "description": "Use after free in File Input in Google Chrome on Linux prior to 149.0.7827.155 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity:...",
+      "versions": [
+        "149.0.7827.155"
+      ],
+      "bug_id": "520157118",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html"
+    },
+    {
+      "id": "CVE-2026-12440",
+      "published": "2026-06-17T01:38:10.500Z",
+      "cvss": 0,
+      "description": "Use after free in DigitalCredentials in Google Chrome on Windows prior to 149.0.7827.155 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chromium securit...",
+      "versions": [
+        "149.0.7827.155"
+      ],
+      "bug_id": "519731619",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html"
+    },
+    {
+      "id": "CVE-2026-12439",
+      "published": "2026-06-17T01:38:09.876Z",
+      "cvss": 0,
+      "description": "Use after free in Digital Credentials in Google Chrome prior to 149.0.7827.155 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity:...",
+      "versions": [
+        "149.0.7827.155"
+      ],
+      "bug_id": "519728275",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html"
+    },
+    {
+      "id": "CVE-2026-12438",
+      "published": "2026-06-17T01:38:09.098Z",
+      "cvss": 0,
+      "description": "Inappropriate implementation in WebView in Google Chrome on Android prior to 149.0.7827.155 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escap...",
+      "versions": [
+        "149.0.7827.155"
+      ],
+      "bug_id": "516947912",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html"
+    },
+    {
+      "id": "CVE-2026-12437",
+      "published": "2026-06-17T01:38:08.392Z",
+      "cvss": 0,
+      "description": "Use after free in WebShare in Google Chrome on Windows prior to 149.0.7827.155 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a craft...",
+      "versions": [
+        "149.0.7827.155"
+      ],
+      "bug_id": "516496659",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html"
+    },
     {
       "id": "CVE-2026-12035",
       "published": "2026-06-11T20:48:14.839Z",
