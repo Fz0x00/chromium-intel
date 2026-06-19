@@ -1,90 +1,87 @@
 #!/usr/bin/env python3
-"""Chrome Releases Blog 采集器（HTML 解析版）"""
+"""Chrome Releases Blog 采集器（Blogger Atom Feed API）"""
 
 import json
 import re
+import time
 from datetime import datetime
+from html import unescape
 from pathlib import Path
 
 import requests
-from bs4 import BeautifulSoup
 
-
-MAX_POSTS = 500  # 最多抓取文章数
+MAX_POSTS = 500
+FEED_URL = "https://chromereleases.googleblog.com/feeds/posts/default"
+PAGE_SIZE = 25
 
 
 def collect_releases():
-    """从 Chrome Releases Blog HTML 页面采集漏洞公告"""
+    """从 Blogger Atom Feed API 采集漏洞公告"""
 
     releases = []
-    next_url = "https://chromereleases.googleblog.com/"
+    start_index = 1
 
-    for page in range(MAX_POSTS // 25 + 1):
-        print(f"Fetching: {next_url}")
+    while len(releases) < MAX_POSTS:
+        url = f"{FEED_URL}?alt=json&max-results={PAGE_SIZE}&start-index={start_index}"
+        print(f"Fetching feed: start-index={start_index}")
+
         try:
-            resp = requests.get(next_url, timeout=30, headers={
+            resp = requests.get(url, timeout=30, headers={
                 'User-Agent': 'Mozilla/5.0 (compatible; ChromiumIntel/1.0)'
             })
             resp.raise_for_status()
+            data = resp.json()
         except Exception as e:
             print(f"  Error: {e}")
             break
 
-        soup = BeautifulSoup(resp.text, 'html.parser')
+        entries = data.get('feed', {}).get('entry', [])
+        if not entries:
+            print("  No more entries")
+            break
 
-        # Strategy: find all links, filter those that look like security update posts
-        all_links = soup.find_all('a', href=True)
-        update_links = []
-        for a in all_links:
-            text = a.get_text(strip=True).lower()
-            if 'chromeos' in text:
-                continue  # Skip ChromeOS updates
-            if any(kw in text for kw in [
-                'stable channel update',
-                'extended stable channel update',
-                'dev channel update',
-                'beta channel update',
-            ]):
-                update_links.append(a)
-                print(f"  Link text: {a.get_text(strip=True)[:100]}")
+        print(f"  Got {len(entries)} entries")
 
-        print(f"  Found {len(update_links)} update links")
+        for entry in entries:
+            title = entry.get('title', {}).get('$t', '')
+            published = entry.get('published', {}).get('$t', '')
 
-        for a in update_links:
-            title = a.get_text(strip=True)
+            # Get content
+            content = ''
+            for c in entry.get('content', []):
+                content = c.get('$t', '')
+                break
+
+            # Get link
+            link = ''
+            for l in entry.get('link', []):
+                if l.get('rel') == 'alternate':
+                    link = l.get('href', '')
+                    break
+
             # Skip ChromeOS-only posts
-            if 'chromeos' in title.lower() and 'desktop' not in title.lower():
+            t_lower = title.lower()
+            if 'chromeos' in t_lower and 'desktop' not in t_lower:
                 continue
 
-            link = a['href']
-            if link.startswith('/'):
-                link = 'https://chromereleases.googleblog.com' + link
+            # Only keep stable / extended stable updates
+            if not any(kw in t_lower for kw in [
+                'stable channel update',
+                'stable channel has been updated',
+                'extended stable',
+            ]):
+                continue
 
-            # Fetch the individual post for content and version
-            content = ''
-            try:
-                post_resp = requests.get(link, timeout=30, headers={
-                    'User-Agent': 'Mozilla/5.0 (compatible; ChromiumIntel/1.0)'
-                })
-                post_soup = BeautifulSoup(post_resp.text, 'html.parser')
-                body = post_soup.find(class_=re.compile(r'post-body|entry-content|content'))
-                if body:
-                    content = body.get_text(strip=True)
-                else:
-                    content = post_soup.body.get_text(strip=True) if post_soup.body else ''
-
-                # Extract version from post content
-                version = extract_version(title + ' ' + content)
-                if not version:
-                    continue
-            except:
+            # Extract version
+            version = extract_version(title + ' ' + content)
+            if not version:
                 continue
 
             release = {
                 'title': title,
-                'published': '',
+                'published': published,
                 'url': link,
-                'content': content[:5000],
+                'content': strip_html(content)[:5000],
                 'version': version,
                 'cves': extract_cves(content),
                 'in_the_wild': check_in_the_wild(content),
@@ -92,58 +89,24 @@ def collect_releases():
                 'platforms': extract_platforms(content),
             }
             releases.append(release)
-            print(f"  Found: {version} - {len(release['cves'])} CVEs")
+            print(f"  {version} - {len(release['cves'])} CVEs - {published[:10]}")
 
-        # Look for "Older Posts" / "Newer Posts" / pagination
-        older = None
-        for a in all_links:
-            text = a.get_text(strip=True).lower()
-            if text in ('older posts', 'next', '»', 'more posts', 'older'):
-                older = a
-                print(f"  Pagination: {text} -> {a.get('href', '')}")
-                break
-        if older and older.get('href'):
-            next_url = older['href']
-            if next_url.startswith('/'):
-                next_url = 'https://chromereleases.googleblog.com' + next_url
-        else:
-            # Try Blogger's standard pagination
-            older_link = soup.find('a', class_=re.compile(r'blog-pager-older'))
-            if older_link:
-                print(f"  Pagination (blogger): {older_link.get_text(strip=True)[:50]} -> {older_link.get('href', '')}")
-                next_url = older_link['href']
-            else:
-                print("  No pagination found, stopping")
-                break
+        start_index += PAGE_SIZE
+        time.sleep(1)  # polite delay
 
     return releases
 
 
-def is_security_update_title(title):
-    """判断是否是安全更新文章"""
-    t = title.lower()
-    return any(kw in t for kw in [
-        'stable channel has been updated',
-        'stable channel update',
-        'extended stable',
-        'dev channel',
-        'beta channel',
-    ]) and 'updated' in t
+def strip_html(html_str):
+    """去除 HTML 标签"""
+    text = re.sub(r'<[^>]+>', ' ', html_str)
+    return unescape(text).strip()
 
 
-def extract_version(title):
+def extract_version(text):
     """提取版本号"""
-    match = re.search(r'(\d+\.\d+\.\d+\.\d+)', title)
+    match = re.search(r'(\d+\.\d+\.\d+\.\d+)', text)
     return match.group(1) if match else None
-
-
-def extract_date(post):
-    """提取发布日期"""
-    date_el = post.find(['time', 'span', 'div'], class_=re.compile(r'date|time|published', re.IGNORECASE))
-    if date_el:
-        dt = date_el.get('datetime') or date_el.get_text(strip=True)
-        return dt
-    return ''
 
 
 def extract_cves(content):
