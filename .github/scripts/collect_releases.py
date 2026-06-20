@@ -43,19 +43,27 @@ def collect_releases():
         print(f"  Got {len(entries)} entries")
 
         for entry in entries:
-            title = entry.get('title', {}).get('$t', '')
-            published = entry.get('published', {}).get('$t', '')
+            # Get title - handle both {"$t": "..."} and direct string
+            title_raw = entry.get('title', '')
+            title = title_raw.get('$t', '') if isinstance(title_raw, dict) else str(title_raw)
 
-            # Get content
-            content = ''
-            for c in entry.get('content', []):
-                content = c.get('$t', '')
-                break
+            # Get published - handle both {"$t": "..."} and direct string
+            published_raw = entry.get('published', '')
+            published = published_raw.get('$t', '') if isinstance(published_raw, dict) else str(published_raw)
+
+            # Get content - handle both {"$t": "..."} and direct string
+            content_raw = entry.get('content', '')
+            if isinstance(content_raw, dict):
+                content = content_raw.get('$t', '')
+            elif isinstance(content_raw, list):
+                content = content_raw[0].get('$t', '') if content_raw else ''
+            else:
+                content = str(content_raw)
 
             # Get link
             link = ''
             for l in entry.get('link', []):
-                if l.get('rel') == 'alternate':
+                if isinstance(l, dict) and l.get('rel') == 'alternate':
                     link = l.get('href', '')
                     break
 
