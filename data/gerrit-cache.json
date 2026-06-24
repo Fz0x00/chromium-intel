@@ -16911,5 +16911,113 @@
     "cl_number": 7920646,
     "subject": "[M150] [Extensions] Fix CSP tokenizer discrepancy in manifest validation",
     "commit_message": ""
+  },
+  "511776603": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7953464",
+    "cl_number": 7953464,
+    "subject": "[M148] [dbsc] Use final URL for registration validation checks",
+    "commit_message": ""
+  },
+  "516734537": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7956340",
+    "cl_number": 7956340,
+    "subject": "[M149] Fix the state desynchronization bug in autofill manager.",
+    "commit_message": ""
+  },
+  "517080836": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7962562",
+    "cl_number": 7962562,
+    "subject": "[M149] [gpu] Check GL error before marking GLTexture/EGLImage cleared",
+    "commit_message": ""
+  },
+  "517148260": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7921975",
+    "cl_number": 7921975,
+    "subject": "[M149] Only kill renderer on DidCommit while BFCached if ACKed, evict otherwise",
+    "commit_message": ""
+  },
+  "518043569": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7956100",
+    "cl_number": 7956100,
+    "subject": "[M149] Copy devtools messages from renderer when backed by shmem",
+    "commit_message": ""
+  },
+  "519728279": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7955878",
+    "cl_number": 7955878,
+    "subject": "[M149] Fix Potential Use-After-Free in DigitalIdentitySafetyInterstitialControllerDesktop",
+    "commit_message": ""
+  },
+  "520543781": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7977798",
+    "cl_number": 7977798,
+    "subject": "[M148] Fix data race on SandboxFileSystemBackendDelegate observers",
+    "commit_message": ""
+  },
+  "520656244": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7956727",
+    "cl_number": 7956727,
+    "subject": "[M150] Add workaround reattaching depth/stencil attachments.",
+    "commit_message": ""
+  },
+  "521495992": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7952479",
+    "cl_number": 7952479,
+    "subject": "[M149] [WebAuthn] Guard for AuthenticatorCommonImpl destruction during cleanup",
+    "commit_message": ""
+  },
+  "522840723": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7944906",
+    "cl_number": 7944906,
+    "subject": "[M149] Clear PIXEL_PACK_BUFFER in CopyTextureCHROMIUM",
+    "commit_message": ""
+  },
+  "523308824": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7957957",
+    "cl_number": 7957957,
+    "subject": "[M150] Prevent use-after-free in WidgetBase::UpdateSurfaceAndScreen.",
+    "commit_message": ""
+  },
+  "523591974": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7982244",
+    "cl_number": 7982244,
+    "subject": "[M150] Rebind original FBO earlier in ClearLevelUsingGL.",
+    "commit_message": ""
+  },
+  "523677844": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7955137",
+    "cl_number": 7955137,
+    "subject": "[M144-LTS] Protected Audience: Ignore non-finite interest group priorities",
+    "commit_message": ""
+  },
+  "523699355": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7978757",
+    "cl_number": 7978757,
+    "subject": "[M150] Fix leak of grouped credentials to renderer",
+    "commit_message": ""
+  },
+  "523704570": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7968359",
+    "cl_number": 7968359,
+    "subject": "[M149] Fix Use-After-Free in BluetoothSocketMac::ReleaseChannel",
+    "commit_message": ""
+  },
+  "523711130": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7957957",
+    "cl_number": 7957957,
+    "subject": "[M150] Prevent use-after-free in WidgetBase::UpdateSurfaceAndScreen.",
+    "commit_message": ""
+  },
+  "523721871": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7957178",
+    "cl_number": 7957178,
+    "subject": "[M149] [js_sandbox] Fix JsSandboxMessagePort thread safety",
+    "commit_message": ""
+  },
+  "523740781": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7954978",
+    "cl_number": 7954978,
+    "subject": "[M150] Autofill: Fix UAF in PopupViewViews on Windows",
+    "commit_message": ""
   }
 }
