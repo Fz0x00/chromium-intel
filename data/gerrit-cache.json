@@ -17019,5 +17019,23 @@
     "cl_number": 7954978,
     "subject": "[M150] Autofill: Fix UAF in PopupViewViews on Windows",
     "commit_message": ""
+  },
+  "513138301": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7992627",
+    "cl_number": 7992627,
+    "subject": "[M149 7827_196] mojo: don't overflow computation of channel read buffer size",
+    "commit_message": ""
+  },
+  "517522620": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7994498",
+    "cl_number": 7994498,
+    "subject": "[M149 7827_196] [Autofill] Fix potential UAF in VirtualCardEnrollmentManager",
+    "commit_message": ""
+  },
+  "522561151": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7990584",
+    "cl_number": 7990584,
+    "subject": "[M149 7827_196] Properly dismiss pending AdsBlockedDialog",
+    "commit_message": ""
   }
 }
