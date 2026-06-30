@@ -83,11 +83,24 @@
     .chart-bar .ver { font-size: 11px; color: #5f6368; width: 100px; font-family: monospace; }
 
     .timeline-container { background: white; border: 1px solid #dadce0; border-radius: 8px; padding: 20px; }
-    .timeline-item { display: flex; gap: 12px; padding: 8px 0; border-bottom: 1px solid #f1f3f4; }
-    .timeline-item:last-child { border-bottom: none; }
-    .timeline-date { font-size: 11px; color: #5f6368; width: 100px; white-space: nowrap; font-family: monospace; }
-    .timeline-badge { width: 80px; }
-    .timeline-content { flex: 1; font-size: 12px; }
+    .tl-group { border: 1px solid #dadce0; border-radius: 6px; margin-bottom: 8px; overflow: hidden; }
+    .tl-group.open { border-color: #1a73e8; }
+    .tl-header { display: flex; align-items: center; gap: 12px; padding: 10px 14px; cursor: pointer; background: #fafbfc; transition: background 0.15s; }
+    .tl-header:hover { background: #e8f0fe; }
+    .tl-group.open .tl-header { background: #e8f0fe; border-bottom: 1px solid #dadce0; }
+    .tl-version { min-width: 130px; }
+    .tl-date { font-size: 11px; color: #5f6368; font-family: monospace; min-width: 80px; }
+    .tl-badges { display: flex; gap: 4px; flex-wrap: wrap; }
+    .tl-apps { font-size: 11px; color: #5f6368; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .tl-arrow { font-size: 10px; color: #80868b; transition: transform 0.2s; }
+    .tl-group.open .tl-arrow { transform: rotate(90deg); }
+    .tl-detail { display: none; padding: 8px 14px; }
+    .tl-group.open .tl-detail { display: block; }
+    .tl-cve { padding: 6px 0; border-bottom: 1px solid #f1f3f4; }
+    .tl-cve:last-child { border-bottom: none; }
+    .tl-cve-left { display: flex; align-items: center; gap: 6px; }
+    .tl-cve-right { display: flex; align-items: center; gap: 4px; margin-top: 2px; }
+    .tl-cve-desc { font-size: 11px; color: #5f6368; margin-top: 2px; line-height: 1.4; }
   </style>
 </head>
 <body>
@@ -379,25 +392,55 @@ function renderTimeline() {
       }
     }
   }
-  items.sort((a, b) => (b.published || '').localeCompare(a.published || ''));
-
-  let html = '<div class="timeline-container"><h3 style="margin-bottom:16px">High-Risk CVE Timeline (in-the-wild + CISA KEV)</h3>';
-  const shown = items.slice(0, 100);
-  for (const item of shown) {
-    let badges = '';
-    if (item.in_kev) badges += '<span class="badge b-kev">CISA</span> ';
-    if (item.in_the_wild) badges += '<span class="badge b-wild">WILD</span> ';
-    html += `<div class="timeline-item">
-      <div class="timeline-date">${item.published || '?'}</div>
-      <div class="timeline-badge">${priorityBadge(item.priority)} ${badges}</div>
-      <div class="timeline-content">
-        <strong>${item.id}</strong> — ${item.description.substring(0, 120)}<br>
-        <span class="cve-meta">Component: ${item.component} | Fixed: ${item.fixed_version} | Affects: <strong>${item.app_name}</strong> (${item.chromium})</span>
-      </div>
-    </div>`;
+  // Group by fixed_version
+  const groups = {};
+  for (const item of items) {
+    const v = item.fixed_version || 'unknown';
+    if (!groups[v]) groups[v] = { version: v, items: [], earliest: item.published, latest: item.published, apps: new Set() };
+    groups[v].items.push(item);
+    groups[v].apps.add(item.app_name);
+    if (item.published < groups[v].earliest) groups[v].earliest = item.published;
+    if (item.published > groups[v].latest) groups[v].latest = item.published;
   }
-  if (items.length === 0) {
+  const sorted = Object.values(groups).sort((a, b) => (b.earliest || '').localeCompare(a.earliest || ''));
+
+  let html = '<div class="timeline-container"><h3 style="margin-bottom:16px">High-Risk CVE Timeline — Grouped by Fix Version</h3>';
+  if (sorted.length === 0) {
     html += '<p style="color:#5f6368;padding:20px">No high-risk CVEs found for monitored assets.</p>';
+  }
+  for (let i = 0; i < sorted.length; i++) {
+    const g = sorted[i];
+    const critCount = g.items.filter(x => x.priority === 'CRITICAL').length;
+    const highCount = g.items.filter(x => x.priority === 'HIGH').length;
+    const hasKev = g.items.some(x => x.in_kev);
+    const hasWild = g.items.some(x => x.in_the_wild);
+    let badges = '';
+    if (critCount > 0) badges += `<span class="badge b-critical">${critCount} CRIT</span> `;
+    if (highCount > 0) badges += `<span class="badge b-high">${highCount} HIGH</span> `;
+    if (hasKev) badges += '<span class="badge b-kev">CISA</span> ';
+    if (hasWild) badges += '<span class="badge b-wild">WILD</span> ';
+    const appList = [...g.apps].join(', ');
+    const gid = 'tl-' + i;
+    html += `<div class="tl-group" onclick="document.getElementById('${gid}').classList.toggle('open');this.classList.toggle('open')">
+      <div class="tl-header">
+        <div class="tl-version"><span class="version-tag ver-old">${g.version}</span></div>
+        <div class="tl-date">${g.earliest || '?'}</div>
+        <div class="tl-badges">${badges}<span class="badge b-other">${g.items.length} CVEs</span></div>
+        <div class="tl-apps" title="${appList}">${appList}</div>
+        <div class="tl-arrow">▶</div>
+      </div>
+      <div class="tl-detail" id="${gid}">`;
+    for (const item of g.items) {
+      let ev = '';
+      if (item.in_kev) ev += '<span class="badge b-kev">CISA</span> ';
+      if (item.in_the_wild) ev += '<span class="badge b-wild">WILD</span> ';
+      html += `<div class="tl-cve">
+        <div class="tl-cve-left">${priorityBadge(item.priority)} <strong>${item.id}</strong> <span class="component-tag">${item.component}</span></div>
+        <div class="tl-cve-right">${ev}<span class="cve-meta">${item.app_name}</span></div>
+        <div class="tl-cve-desc">${item.description.substring(0, 150)}${item.description.length > 150 ? '…' : ''}</div>
+      </div>`;
+    }
+    html += '</div></div>';
   }
   html += '</div>';
   document.getElementById('timeline-view').innerHTML = html;
