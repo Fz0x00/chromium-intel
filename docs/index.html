@@ -41,6 +41,8 @@
     .b-na { background: #e8eaed; color: #80868b; }
     .b-kev { background: #d93025; color: white; }
     .b-wild { background: #ea8600; color: white; }
+    .b-patch-ev { background: #e6f4ea; color: #137333; }
+    .b-public { background: #e8f0fe; color: #174ea6; }
     .b-fork { background: #f3e8fd; color: #8430ce; }
 
     .component-tag { display: inline-block; padding: 1px 5px; border-radius: 3px; font-size: 10px; background: #e8f0fe; color: #1a73e8; font-weight: 600; }
@@ -152,6 +154,15 @@ function priorityBadge(p) {
   return `<span class="badge ${map[p]||'b-other'}">${p}</span>`;
 }
 
+function evidenceBadges(cve) {
+  let html = '';
+  if (cve.in_kev) html += '<span class="badge b-kev">CISA KEV</span> ';
+  if (cve.in_the_wild) html += '<span class="badge b-wild">In-the-wild</span> ';
+  if (cve.has_patch) html += '<span class="badge b-patch-ev">Patch available</span> ';
+  if (cve.bug_url) html += '<span class="badge b-public">Bug public</span> ';
+  return html || '<span style="color:#80868b;font-size:11px">—</span>';
+}
+
 function makeLinks(cve) {
   let html = '<span class="links">';
   if (cve.bug_url) html += `<a href="${cve.bug_url}" target="_blank">Issue</a>`;
@@ -228,16 +239,14 @@ function showAppDetail(name) {
       </div>
     </div>
     <table>
-      <tr><th>Priority</th><th>CVE</th><th>Component</th><th>Description</th><th>Fixed</th><th>Links</th></tr>`;
+      <tr><th>Priority</th><th>CVE</th><th>Component</th><th>Evidence</th><th>Description</th><th>Fixed</th><th>Links</th></tr>`;
 
   for (const cve of app.top_cves) {
-    let badges = '';
-    if (cve.in_kev) badges += '<span class="badge b-kev">CISA</span> ';
-    if (cve.in_the_wild) badges += '<span class="badge b-wild">WILD</span> ';
     html += `<tr>
-      <td>${priorityBadge(cve.priority)} ${badges}</td>
+      <td>${priorityBadge(cve.priority)}</td>
       <td><strong>${cve.id}</strong><br><span class="cve-meta">${cve.published}</span></td>
       <td><span class="component-tag">${cve.component}</span></td>
+      <td>${evidenceBadges(cve)}</td>
       <td class="cve-desc">${cve.description}</td>
       <td><span class="version-tag">${cve.fixed_version}</span></td>
       <td>${makeLinks(cve)}</td>
@@ -257,11 +266,16 @@ function renderCveDb(cves, page) {
     const e = cve.exploitability || {};
     const level = e.label || 'UNKNOWN';
     const cls = 'b-' + (e.level || 'Unknown').toLowerCase().replace(/\s+/g, '-').replace('not-applicable', 'na');
+    let evHtml = '';
+    if (cve.in_kev) evHtml += '<span class="badge b-kev">CISA KEV</span> ';
+    if (cve.in_the_wild) evHtml += '<span class="badge b-wild">In-the-wild</span> ';
+    if (cve.bug_url) evHtml += '<span class="badge b-public">Bug public</span> ';
+    if (!evHtml && e.reason) evHtml = '<span style="font-size:11px;color:#5f6368">' + e.reason + '</span>';
     html += '<tr>' +
       '<td><strong>' + cve.id + '</strong></td>' +
       '<td><span class="badge ' + cls + '">' + level + '</span></td>' +
       '<td><span class="component-tag">' + (cve.component || '?') + '</span></td>' +
-      '<td class="evidence">' + (e.reason || '') + '</td>' +
+      '<td>' + evHtml + '</td>' +
       '<td>' + makeLinks(cve) + '</td>' +
     '</tr>';
   }
