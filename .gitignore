@@ -5,3 +5,5 @@ data/kev-data/
 # Python
 __pycache__/
 *.pyc
+docs/asset-risk-report.json
+docs/top-data.js

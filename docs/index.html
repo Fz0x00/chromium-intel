@@ -3,147 +3,426 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chromium Intel - Electron/CEF Exploitability</title>
+  <title>Chromium Intel - Supply Chain Risk Monitor</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 1200px; margin: 0 auto; padding: 20px; background: #f8f9fa; color: #202124; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 1400px; margin: 0 auto; padding: 20px; background: #f8f9fa; color: #202124; }
     h1 { color: #1a73e8; margin-bottom: 4px; }
-    .sub { color: #5f6368; font-size: 14px; margin-bottom: 20px; }
+    .sub { color: #5f6368; font-size: 14px; margin-bottom: 16px; }
+    .tabs { display: flex; gap: 4px; margin-bottom: 16px; border-bottom: 2px solid #dadce0; }
+    .tab { padding: 10px 20px; cursor: pointer; border: none; background: none; font-size: 14px; font-weight: 500; color: #5f6368; border-bottom: 3px solid transparent; margin-bottom: -2px; }
+    .tab.active { color: #1a73e8; border-bottom-color: #1a73e8; }
+    .tab:hover { background: #f1f3f4; }
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+
     .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin-bottom: 24px; }
     .card { background: white; border: 1px solid #dadce0; border-radius: 8px; padding: 14px; text-align: center; }
     .card .num { font-size: 28px; font-weight: 700; }
     .card .label { font-size: 11px; color: #5f6368; text-transform: uppercase; margin-top: 2px; }
+    .card.critical { border-left: 4px solid #d93025; }
+    .card.critical .num { color: #d93025; }
+    .card.high { border-left: 4px solid #f9ab00; }
+    .card.high .num { color: #f9ab00; }
+
     table { border-collapse: collapse; width: 100%; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
     th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid #dadce0; font-size: 13px; }
-    th { background: #f8f9fa; font-weight: 600; color: #5f6368; }
-    .exploit-tag { display: inline-block; padding: 2px 7px; border-radius: 3px; font-size: 11px; font-weight: 700; text-transform: uppercase; white-space: nowrap; }
-    .exploit-confirmed { background: #d93025; color: white; }
-    .exploit-high { background: #f9ab00; color: #202124; }
-    .exploit-likely { background: #e8f0fe; color: #174ea6; }
-    .exploit-potential { background: #f1f3f4; color: #5f6368; }
-    .exploit-na { background: #e8eaed; color: #80868b; }
+    th { background: #f8f9fa; font-weight: 600; color: #5f6368; cursor: pointer; white-space: nowrap; }
+    th:hover { background: #e8f0fe; }
+    tr:hover { background: #f8f9fa; }
+    tr.app-row { cursor: pointer; }
+    tr.app-row:hover { background: #e8f0fe; }
+
+    .badge { display: inline-block; padding: 2px 7px; border-radius: 3px; font-size: 11px; font-weight: 700; text-transform: uppercase; white-space: nowrap; }
+    .b-critical { background: #d93025; color: white; }
+    .b-high { background: #f9ab00; color: #202124; }
+    .b-patch { background: #e8f0fe; color: #174ea6; }
+    .b-other { background: #f1f3f4; color: #5f6368; }
+    .b-na { background: #e8eaed; color: #80868b; }
+    .b-kev { background: #d93025; color: white; }
+    .b-wild { background: #ea8600; color: white; }
+    .b-fork { background: #f3e8fd; color: #8430ce; }
+
     .component-tag { display: inline-block; padding: 1px 5px; border-radius: 3px; font-size: 10px; background: #e8f0fe; color: #1a73e8; font-weight: 600; }
+    .version-tag { display: inline-block; padding: 1px 6px; border-radius: 3px; font-size: 11px; font-weight: 600; font-family: monospace; }
+    .ver-old { background: #fce8e6; color: #d93025; }
+    .ver-ok { background: #e6f4ea; color: #137333; }
+    .ver-mid { background: #fef7e0; color: #b06000; }
+
     a { color: #1a73e8; text-decoration: none; }
     a:hover { text-decoration: underline; }
     .links { display: flex; gap: 4px; flex-wrap: wrap; }
     .links a { font-size: 11px; padding: 1px 5px; border: 1px solid #dadce0; border-radius: 3px; white-space: nowrap; }
     .links a:hover { background: #e8f0fe; }
+
     #search { width: 100%; padding: 8px 14px; font-size: 14px; border: 1px solid #dadce0; border-radius: 8px; margin-bottom: 14px; }
     #search:focus { outline: none; border-color: #1a73e8; box-shadow: 0 0 0 2px rgba(26,115,232,0.2); }
+
     .pagination { display: flex; gap: 6px; margin: 14px 0; justify-content: center; }
     .pagination button { padding: 5px 14px; border: 1px solid #dadce0; background: white; border-radius: 4px; cursor: pointer; font-size: 13px; }
     .pagination button.active { background: #1a73e8; color: white; border-color: #1a73e8; }
+
+    .detail-header { background: white; border: 1px solid #dadce0; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+    .detail-header h2 { color: #1a73e8; margin-bottom: 8px; }
+    .detail-header .meta { font-size: 13px; color: #5f6368; }
+    .back-btn { padding: 6px 16px; border: 1px solid #dadce0; background: white; border-radius: 4px; cursor: pointer; font-size: 13px; margin-bottom: 12px; }
+    .back-btn:hover { background: #f1f3f4; }
+
+    .cve-desc { font-size: 12px; color: #3c4043; margin: 4px 0; }
+    .cve-meta { font-size: 11px; color: #5f6368; }
     .evidence { font-size: 11px; color: #5f6368; max-width: 220px; }
+
+    .loading { text-align: center; padding: 40px; color: #5f6368; font-size: 14px; }
+    .chart-container { background: white; border: 1px solid #dadce0; border-radius: 8px; padding: 20px; margin-bottom: 16px; }
+    .chart-bar { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; cursor: pointer; }
+    .chart-bar:hover { background: #f8f9fa; }
+    .chart-bar .label { width: 200px; font-size: 12px; text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .chart-bar .bar { height: 22px; border-radius: 3px; display: flex; align-items: center; padding-left: 6px; font-size: 11px; font-weight: 600; color: white; min-width: 30px; transition: width 0.3s; }
+    .chart-bar .ver { font-size: 11px; color: #5f6368; width: 100px; font-family: monospace; }
+
+    .timeline-container { background: white; border: 1px solid #dadce0; border-radius: 8px; padding: 20px; }
+    .timeline-item { display: flex; gap: 12px; padding: 8px 0; border-bottom: 1px solid #f1f3f4; }
+    .timeline-item:last-child { border-bottom: none; }
+    .timeline-date { font-size: 11px; color: #5f6368; width: 100px; white-space: nowrap; font-family: monospace; }
+    .timeline-badge { width: 80px; }
+    .timeline-content { flex: 1; font-size: 12px; }
   </style>
 </head>
 <body>
   <h1>Chromium Intel Dashboard</h1>
-  <p class="sub">Electron/CEF Exploitability Assessment · Generated: <span id="generated-at"></span></p>
-  <div id="summary" class="cards"></div>
-  <div id="risk-table"></div>
-  <script src="top-data.js"></script>
-  
-  <script>
-  let allCves = [];
-  let currentPage = 1;
-  const PAGE_SIZE = 50;
-  const EXPLOIT_COLORS = {'Confirmed':'#d93025','High':'#f9ab00','Likely':'#174ea6','Potential':'#5f6368','Not Applicable':'#80868b','Unknown':'#9aa0a6'};
-  
-  function makeLinks(cve) {
-    let html = '<span class="links">';
-    if (cve.bug_url) html += `<a href="${cve.bug_url}" target="_blank">Issue</a>`;
-    if (cve.gerrit_url) html += `<a href="${cve.gerrit_url}" target="_blank">Patch</a>`;
-    if (cve.blog_url) html += `<a href="${cve.blog_url}" target="_blank">Blog</a>`;
-    html += '</span>';
-    return html;
+  <p class="sub">Supply Chain Risk Monitor · CVE Database + Asset Assessment · Generated: <span id="generated-at"></span></p>
+
+  <div class="tabs">
+    <button class="tab active" onclick="showTab('assets')">Asset Risk</button>
+    <button class="tab" onclick="showTab('cve-db')">CVE Database</button>
+    <button class="tab" onclick="showTab('versions')">Version Distribution</button>
+    <button class="tab" onclick="showTab('timeline')">Timeline</button>
+  </div>
+
+  <div id="tab-assets" class="tab-content active">
+    <div id="asset-summary" class="cards"></div>
+    <div id="asset-table"></div>
+  </div>
+
+  <div id="tab-cve-db" class="tab-content">
+    <div id="cve-summary" class="cards"></div>
+    <div id="cve-table"></div>
+  </div>
+
+  <div id="tab-versions" class="tab-content">
+    <div id="version-chart"></div>
+  </div>
+
+  <div id="tab-timeline" class="tab-content">
+    <div id="timeline-view"></div>
+  </div>
+
+<script>
+let CVE_DATA = null;
+let ASSET_DATA = null;
+let currentCvePage = 1;
+const CVE_PAGE_SIZE = 50;
+
+const EXPLOIT_COLORS = {'Confirmed':'#d93025','High':'#f9ab00','Likely':'#174ea6','Potential':'#5f6368','Not Applicable':'#80868b','Unknown':'#9aa0a6'};
+
+// ===================== TAB SWITCHING =====================
+function showTab(name) {
+  document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(el => el.classList.remove('active'));
+  document.getElementById('tab-' + name).classList.add('active');
+  event.target.classList.add('active');
+}
+
+// ===================== VERSION HELPERS =====================
+function parseMajor(v) {
+  const m = /(\d+)\./.exec(v || '');
+  return m ? parseInt(m[1]) : 0;
+}
+
+function verColor(v) {
+  const major = parseMajor(v);
+  if (major === 0) return 'ver-mid';
+  if (major <= 120) return 'ver-old';
+  if (major <= 135) return 'ver-mid';
+  return 'ver-ok';
+}
+
+function priorityBadge(p) {
+  const map = {'CRITICAL':'b-critical','HIGH':'b-high','PATCH':'b-patch','OTHER':'b-other'};
+  return `<span class="badge ${map[p]||'b-other'}">${p}</span>`;
+}
+
+function makeLinks(cve) {
+  let html = '<span class="links">';
+  if (cve.bug_url) html += `<a href="${cve.bug_url}" target="_blank">Issue</a>`;
+  if (cve.gerrit_url) html += `<a href="${cve.gerrit_url}" target="_blank">Patch</a>`;
+  if (cve.blog_url) html += `<a href="${cve.blog_url}" target="_blank">Blog</a>`;
+  html += '</span>';
+  return html;
+}
+
+// ===================== ASSET RISK TAB =====================
+function renderAssets() {
+  if (!ASSET_DATA) return;
+  const d = ASSET_DATA;
+
+  // Summary cards
+  let cards = `
+    <div class="card"><div class="num">${d.total_apps}</div><div class="label">Monitored Apps</div></div>
+    <div class="card critical"><div class="num">${d.total_critical}</div><div class="label">CISA KEV</div></div>
+    <div class="card high"><div class="num">${d.total_high}</div><div class="label">In-the-wild</div></div>
+    <div class="card"><div class="num" style="color:#5f6368">${d.apps.filter(a=>a.critical===0&&a.high===0).length}</div><div class="label">No Active Exploit</div></div>
+  `;
+  document.getElementById('asset-summary').innerHTML = cards;
+
+  // Table
+  let html = `<table>
+    <tr>
+      <th onclick="sortAssets('app_name')">App</th>
+      <th onclick="sortAssets('chromium_version')">Chromium</th>
+      <th>Framework</th>
+      <th onclick="sortAssets('critical')">CRITICAL</th>
+      <th onclick="sortAssets('high')">HIGH</th>
+      <th onclick="sortAssets('total_cves')">Total</th>
+    </tr>`;
+
+  for (const app of d.apps) {
+    html += `<tr class="app-row" onclick="showAppDetail('${app.app_name.replace(/'/g,"\\'")}')">
+      <td><strong>${app.app_name}</strong> ${app.app_version ? '<span style="color:#5f6368;font-size:11px">v'+app.app_version+'</span>' : ''}</td>
+      <td><span class="version-tag ${verColor(app.chromium_version)}">${app.chromium_version}</span></td>
+      <td><span class="component-tag">${app.framework}</span></td>
+      <td>${app.critical > 0 ? '<span class="badge b-critical">'+app.critical+'</span>' : '-'}</td>
+      <td>${app.high > 0 ? '<span class="badge b-high">'+app.high+'</span>' : '-'}</td>
+      <td>${app.total_cves}</td>
+    </tr>`;
   }
-  
-  function renderTable(cves, page) {
-    const start = (page - 1) * PAGE_SIZE;
-    const slice = cves.slice(start, start + PAGE_SIZE);
-    let html = '<table><tr><th>CVE</th><th>Exploitability</th><th>Component</th><th>Evidence</th><th>Links</th></tr>';
-    for (const cve of slice) {
-      const e = cve.exploitability || {};
-      const level = e.label || 'UNKNOWN';
-      const cls = 'exploit-' + (e.level || 'Unknown').toLowerCase().replace(/\\s+/g, '-').replace('not-applicable', 'na');
-      html += '<tr>' +
-        '<td><strong>' + cve.id + '</strong></td>' +
-        '<td><span class="exploit-tag ' + cls + '">' + level + '</span></td>' +
-        '<td><span class="component-tag">' + (cve.component || '?') + '</span></td>' +
-        '<td class="evidence">' + (e.reason || '') + '</td>' +
-        '<td>' + makeLinks(cve) + '</td>' +
-      '</tr>';
+  html += '</table>';
+  document.getElementById('asset-table').innerHTML = html;
+}
+
+let assetSortKey = 'critical';
+function sortAssets(key) {
+  assetSortKey = key;
+  ASSET_DATA.apps.sort((a, b) => {
+    if (typeof a[key] === 'number') return b[key] - a[key];
+    return (a[key]||'').localeCompare(b[key]||'');
+  });
+  renderAssets();
+}
+
+function showAppDetail(name) {
+  const app = ASSET_DATA.apps.find(a => a.app_name === name);
+  if (!app) return;
+
+  let html = `<button class="back-btn" onclick="renderAssets()">← Back to overview</button>
+    <div class="detail-header">
+      <h2>${app.app_name}</h2>
+      <div class="meta">
+        App Version: <strong>${app.app_version || '?'}</strong> ·
+        Chromium: <span class="version-tag ${verColor(app.chromium_version)}">${app.chromium_version}</span> ·
+        Framework: <span class="component-tag">${app.framework}</span><br>
+        <span class="badge b-critical">${app.critical} CRITICAL</span>
+        <span class="badge b-high">${app.high} HIGH</span>
+        <span class="badge b-patch">${app.has_patch} PATCH</span>
+        Total ${app.total_cves} CVEs
+      </div>
+    </div>
+    <table>
+      <tr><th>Priority</th><th>CVE</th><th>Component</th><th>Description</th><th>Fixed</th><th>Links</th></tr>`;
+
+  for (const cve of app.top_cves) {
+    let badges = '';
+    if (cve.in_kev) badges += '<span class="badge b-kev">CISA</span> ';
+    if (cve.in_the_wild) badges += '<span class="badge b-wild">WILD</span> ';
+    html += `<tr>
+      <td>${priorityBadge(cve.priority)} ${badges}</td>
+      <td><strong>${cve.id}</strong><br><span class="cve-meta">${cve.published}</span></td>
+      <td><span class="component-tag">${cve.component}</span></td>
+      <td class="cve-desc">${cve.description}</td>
+      <td><span class="version-tag">${cve.fixed_version}</span></td>
+      <td>${makeLinks(cve)}</td>
+    </tr>`;
+  }
+  html += '</table>';
+  document.getElementById('asset-table').innerHTML = html;
+  document.getElementById('asset-summary').innerHTML = '';
+}
+
+// ===================== CVE DATABASE TAB =====================
+function renderCveDb(cves, page) {
+  const start = (page - 1) * CVE_PAGE_SIZE;
+  const slice = cves.slice(start, start + CVE_PAGE_SIZE);
+  let html = '<table><tr><th>CVE</th><th>Exploitability</th><th>Component</th><th>Evidence</th><th>Links</th></tr>';
+  for (const cve of slice) {
+    const e = cve.exploitability || {};
+    const level = e.label || 'UNKNOWN';
+    const cls = 'b-' + (e.level || 'Unknown').toLowerCase().replace(/\s+/g, '-').replace('not-applicable', 'na');
+    html += '<tr>' +
+      '<td><strong>' + cve.id + '</strong></td>' +
+      '<td><span class="badge ' + cls + '">' + level + '</span></td>' +
+      '<td><span class="component-tag">' + (cve.component || '?') + '</span></td>' +
+      '<td class="evidence">' + (e.reason || '') + '</td>' +
+      '<td>' + makeLinks(cve) + '</td>' +
+    '</tr>';
+  }
+  html += '</table>';
+  return html;
+}
+
+function renderCvePagination(total) {
+  const pages = Math.ceil(total / CVE_PAGE_SIZE);
+  let html = '<div class="pagination">';
+  for (let i = 1; i <= Math.min(pages, 10); i++) {
+    html += `<button class="${i === currentCvePage ? 'active' : ''}" onclick="changeCvePage(${i})">${i}</button>`;
+  }
+  if (pages > 10) html += '<button disabled>…</button><button onclick="changeCvePage(' + pages + ')">' + pages + '</button>';
+  html += '</div>';
+  return html;
+}
+
+function changeCvePage(p) {
+  currentCvePage = p;
+  const cves = CVE_DATA.cves || CVE_DATA.c || [];
+  document.getElementById('cve-table').innerHTML = renderCveDb(cves, p) + renderCvePagination(cves.length);
+}
+
+function doSearch(q) {
+  if (!q) { changeCvePage(1); return; }
+  const lower = q.toLowerCase();
+  const cves = CVE_DATA.cves || CVE_DATA.c || [];
+  const filtered = cves.filter(c =>
+    c.id.toLowerCase().includes(lower) ||
+    (c.description || '').toLowerCase().includes(lower) ||
+    (c.bug_id || '').includes(lower) ||
+    (c.component || '').toLowerCase().includes(lower)
+  );
+  document.getElementById('cve-table').innerHTML = renderCveDb(filtered, 1);
+}
+
+function renderCveSummary(data) {
+  const s = data.summary || data.s || {};
+  let cards = `<div class="card"><div class="num">${s.total_cves || data.cves.length}</div><div class="label">Total CVEs</div></div>`;
+  const be = s.by_exploitability || {};
+  for (const level of ['Confirmed', 'High', 'Likely', 'Potential']) {
+    const count = be[level] || 0;
+    if (count > 0) {
+      cards += `<div class="card" style="border-left:4px solid ${EXPLOIT_COLORS[level]}"><div class="num" style="color:${EXPLOIT_COLORS[level]}">${count}</div><div class="label">${level}</div></div>`;
     }
-    html += '</table>';
-    return html;
   }
-  
-  function renderPagination(total) {
-    const pages = Math.ceil(total / PAGE_SIZE);
-    let html = '<div class="pagination">';
-    for (let i = 1; i <= Math.min(pages, 10); i++) {
-      html += `<button class="${i === currentPage ? 'active' : ''}" onclick="changePage(${i})">${i}</button>`;
-    }
-    if (pages > 10) html += '<button disabled>…</button><button onclick="changePage(' + pages + ')">' + pages + '</button>';
-    html += '</div>';
-    return html;
+  document.getElementById('cve-summary').innerHTML = cards;
+}
+
+// ===================== VERSION DISTRIBUTION TAB =====================
+function renderVersionChart() {
+  if (!ASSET_DATA) return;
+  const apps = ASSET_DATA.apps;
+  const buckets = {};
+  for (const app of apps) {
+    const major = parseMajor(app.chromium_version);
+    buckets[major] = buckets[major] || [];
+    buckets[major].push(app);
   }
-  
-  function changePage(p) {
-    currentPage = p;
-    document.getElementById('risk-table').innerHTML = renderTable(allCves, p) + renderPagination(allCves.length);
-    window.scrollTo(0, 0);
+  const majors = Object.keys(buckets).map(Number).sort((a,b)=>a-b);
+  const maxCount = Math.max(...majors.map(m => buckets[m].length));
+
+  let html = '<div class="chart-container"><h3 style="margin-bottom:16px">Chromium Version Distribution</h3>';
+  for (const major of majors) {
+    const appsInBucket = buckets[major];
+    const pct = (appsInBucket.length / maxCount) * 100;
+    const color = major <= 120 ? '#d93025' : major <= 135 ? '#f9ab00' : '#137333';
+    html += `<div class="chart-bar" onclick="filterByVersion(${major})">
+      <div class="ver">v${major}.x</div>
+      <div class="bar" style="width:${Math.max(pct, 5)}%;background:${color}">${appsInBucket.length}</div>
+      <div class="label">${appsInBucket.map(a => a.app_name).join(', ').substring(0, 60)}</div>
+    </div>`;
   }
-  
-  function doSearch(q) {
-    if (!q) { changePage(1); return; }
-    const lower = q.toLowerCase();
-    const filtered = allCves.filter(c => 
-      c.id.toLowerCase().includes(lower) || 
-      (c.description || '').toLowerCase().includes(lower) ||
-      (c.bug_id || '').includes(lower) ||
-      (c.component || '').toLowerCase().includes(lower)
-    );
-    document.getElementById('risk-table').innerHTML = renderTable(filtered, 1);
-    document.getElementById('pagination').innerHTML = '';
-    document.getElementById('result-count').textContent = '(' + filtered.length + ' results)';
-  }
-  
-  fetch('risk-report.json')
-    .then(r => r.json())
-    .then(data => {
-      allCves = data.cves;
-      render(data);
-    })
-    .catch(() => {
-      // 如果 fetch 失败，用内嵌数据
-      if (window.CI && window.CI.c) render(window.CI);
-    });
-  
-  function render(data) {
-    allCves = data.c;
-    const s = data.s;
-      document.getElementById('generated-at').textContent = data.generated_at;
-      
-      let cards = '<div class="card"><div class="num">' + s.total_cves + '</div><div class="label">Total CVEs</div></div>';
-      for (const level of ['Confirmed', 'High', 'Likely', 'Potential']) {
-        const count = s.by_exploitability[level] || 0;
-        if (count > 0) {
-          cards += '<div class="card" style="border-left:4px solid ' + EXPLOIT_COLORS[level] + '">' +
-            '<div class="num" style="color:' + EXPLOIT_COLORS[level] + '">' + count + '</div>' +
-            '<div class="label">' + level + '</div></div>';
-        }
+  html += '</div>';
+  document.getElementById('version-chart').innerHTML = html;
+}
+
+function filterByVersion(major) {
+  ASSET_DATA.apps.sort((a, b) => {
+    const am = parseMajor(a.chromium_version);
+    const bm = parseMajor(b.chromium_version);
+    if (am === major && bm !== major) return -1;
+    if (bm === major && am !== major) return 1;
+    return am - bm;
+  });
+  showTab('assets');
+  document.querySelectorAll('.tab').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.tab')[0].classList.add('active');
+  renderAssets();
+}
+
+// ===================== TIMELINE TAB =====================
+function renderTimeline() {
+  if (!ASSET_DATA) return;
+  const items = [];
+  for (const app of ASSET_DATA.apps) {
+    for (const cve of app.top_cves) {
+      if (cve.priority === 'CRITICAL' || cve.priority === 'HIGH') {
+        items.push({ ...cve, app_name: app.app_name, chromium: app.chromium_version });
       }
-      cards += '<div class="card"><div class="num" style="color:#80868b">' + (s.chrome_specific || 0) + '</div><div class="label">Not Applicable</div></div>';
-      document.getElementById('summary').innerHTML = cards;
-      
-      document.getElementById('risk-table').innerHTML = `
-        <h2 style="margin-bottom:8px">Vulnerability vs Electron/CEF <span id="result-count" style="font-size:14px;color:#5f6368;font-weight:normal">(${allCves.length} total)</span></h2>
-        <input id="search" type="text" placeholder="Search CVE ID, component (V8, Skia, Blink...), or bug ID..." oninput="doSearch(this.value)"/>
-        ${renderTable(allCves, 1)}
-        <div id="pagination">${renderPagination(allCves.length)}</div>
-      `;
     }
-  </script>
+  }
+  items.sort((a, b) => (b.published || '').localeCompare(a.published || ''));
+
+  let html = '<div class="timeline-container"><h3 style="margin-bottom:16px">High-Risk CVE Timeline (in-the-wild + CISA KEV)</h3>';
+  const shown = items.slice(0, 100);
+  for (const item of shown) {
+    let badges = '';
+    if (item.in_kev) badges += '<span class="badge b-kev">CISA</span> ';
+    if (item.in_the_wild) badges += '<span class="badge b-wild">WILD</span> ';
+    html += `<div class="timeline-item">
+      <div class="timeline-date">${item.published || '?'}</div>
+      <div class="timeline-badge">${priorityBadge(item.priority)} ${badges}</div>
+      <div class="timeline-content">
+        <strong>${item.id}</strong> — ${item.description.substring(0, 120)}<br>
+        <span class="cve-meta">Component: ${item.component} | Fixed: ${item.fixed_version} | Affects: <strong>${item.app_name}</strong> (${item.chromium})</span>
+      </div>
+    </div>`;
+  }
+  if (items.length === 0) {
+    html += '<p style="color:#5f6368;padding:20px">No high-risk CVEs found for monitored assets.</p>';
+  }
+  html += '</div>';
+  document.getElementById('timeline-view').innerHTML = html;
+}
+
+// ===================== INIT =====================
+async function init() {
+  try {
+    const [cveRes, assetRes] = await Promise.all([
+      fetch('risk-report.json'),
+      fetch('asset-risk-report.json')
+    ]);
+    CVE_DATA = await cveRes.json();
+    document.getElementById('generated-at').textContent = CVE_DATA.generated_at || '';
+
+    // CVE DB tab
+    renderCveSummary(CVE_DATA);
+    const cves = CVE_DATA.cves || [];
+    document.getElementById('cve-table').innerHTML = `
+      <input id="search" type="text" placeholder="Search CVE ID, component, bug ID..." oninput="doSearch(this.value)"/>
+      ${renderCveDb(cves, 1)}
+      <div class="pagination">${renderCvePagination(cves.length)}</div>
+    `;
+
+    // Asset tab
+    try {
+      ASSET_DATA = await assetRes.json();
+      renderAssets();
+      renderVersionChart();
+      renderTimeline();
+    } catch(e) {
+      document.getElementById('asset-summary').innerHTML = '<div class="loading">No asset data uploaded yet. Run hunter scan and upload assets.json.</div>';
+    }
+  } catch(e) {
+    document.getElementById('asset-summary').innerHTML = '<div class="loading">Failed to load data: ' + e.message + '</div>';
+  }
+}
+
+init();
+</script>
 </body>
 </html>
