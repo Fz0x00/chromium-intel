@@ -392,13 +392,16 @@ function renderTimeline() {
       }
     }
   }
-  // Group by fixed_version
+  // Group by fixed_version, deduplicate CVE IDs within each group
   const groups = {};
   for (const item of items) {
     const v = item.fixed_version || 'unknown';
-    if (!groups[v]) groups[v] = { version: v, items: [], earliest: item.published, latest: item.published, apps: new Set() };
-    groups[v].items.push(item);
+    if (!groups[v]) groups[v] = { version: v, items: [], seen: new Set(), earliest: item.published, latest: item.published, apps: new Set() };
     groups[v].apps.add(item.app_name);
+    if (!groups[v].seen.has(item.id)) {
+      groups[v].seen.add(item.id);
+      groups[v].items.push(item);
+    }
     if (item.published < groups[v].earliest) groups[v].earliest = item.published;
     if (item.published > groups[v].latest) groups[v].latest = item.published;
   }
