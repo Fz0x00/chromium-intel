@@ -17037,5 +17037,1160 @@
     "cl_number": 7990584,
     "subject": "[M149 7827_196] Properly dismiss pending AdsBlockedDialog",
     "commit_message": ""
+  },
+  "511766407": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7868777",
+    "cl_number": 7868777,
+    "subject": "[M148] [GPU Security]: Fix thread-safety issues in CompoundImageBacking.",
+    "commit_message": ""
+  },
+  "513012139": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7851611",
+    "cl_number": 7851611,
+    "subject": "Roll Dawn from 211333b2e3e4 to db1b2ce707cb (66 revisions)",
+    "commit_message": ""
+  },
+  "513128566": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7852462",
+    "cl_number": 7852462,
+    "subject": "Limit Annotation extractions to 65535 characters",
+    "commit_message": ""
+  },
+  "513167952": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7851679",
+    "cl_number": 7851679,
+    "subject": "usb: harden WebUSB against Endpoint Aliasing UAF on macOS",
+    "commit_message": ""
+  },
+  "513222854": null,
+  "514769383": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7878967",
+    "cl_number": 7878967,
+    "subject": "M149: Remove buffer mapping commands from the gles2 cmd decoder",
+    "commit_message": ""
+  },
+  "516457532": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7878641",
+    "cl_number": 7878641,
+    "subject": "Roll Skia from bb889fb115dc to 56c41deecf35 (3 revisions)",
+    "commit_message": ""
+  },
+  "516683433": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7879474",
+    "cl_number": 7879474,
+    "subject": "[Fullscreen] Use WeakPtr in ExclusiveAccessManager to prevent UAF",
+    "commit_message": ""
+  },
+  "516962178": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7882246",
+    "cl_number": 7882246,
+    "subject": "Added additional `this` tracking in MenuController:OnMousePressed().",
+    "commit_message": ""
+  },
+  "516962715": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7881707",
+    "cl_number": 7881707,
+    "subject": "Track view in DropHelper::OnDragOver to guard against potential UaF.",
+    "commit_message": ""
+  },
+  "517021684": null,
+  "518007821": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7900416",
+    "cl_number": 7900416,
+    "subject": "[M148] [Ozone/Wayland] Fix Use-After-Free in SetBoundsInDIP",
+    "commit_message": ""
+  },
+  "522919313": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7932849",
+    "cl_number": 7932849,
+    "subject": "[M150] remoting: Destroy DesktopEventHandler::Delegate on the worker thread",
+    "commit_message": ""
+  },
+  "523119897": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7957126",
+    "cl_number": 7957126,
+    "subject": "[M150] [Fullscreen] Fix potential UaF in ExclusiveAccessManagerAndroid",
+    "commit_message": ""
+  },
+  "493847920": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7865385",
+    "cl_number": 7865385,
+    "subject": "[Dev] Revert \"Detach SharedImage based textures from framebuffers before deleting\"",
+    "commit_message": ""
+  },
+  "457771782": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7871641",
+    "cl_number": 7871641,
+    "subject": "[M148] Reland \"STTF: Delay sttf until related pages are finalized.\"",
+    "commit_message": ""
+  },
+  "496012368": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7856402",
+    "cl_number": 7856402,
+    "subject": "cocoa: Fix TouchBarNotificationBridge heap-use-after-free",
+    "commit_message": ""
+  },
+  "510829679": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7841426",
+    "cl_number": 7841426,
+    "subject": "[html-in-canvas] Fix cross-origin image leak in SVG masks",
+    "commit_message": ""
+  },
+  "513893425": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7858094",
+    "cl_number": 7858094,
+    "subject": "[base] Fix Windows CommandLine argument smuggling",
+    "commit_message": ""
+  },
+  "476591032": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7838361",
+    "cl_number": 7838361,
+    "subject": "Show alert before opening a shortcuts URL",
+    "commit_message": ""
+  },
+  "491894115": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7765504",
+    "cl_number": 7765504,
+    "subject": "[chromecast] Fix Potential Integer Underflow and OOB Write in AudioSocket::ParseAudio",
+    "commit_message": ""
+  },
+  "499025645": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7874988",
+    "cl_number": 7874988,
+    "subject": "[M148] Fix integer signedness flip in Starboard media backend",
+    "commit_message": ""
+  },
+  "499048914": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7954358",
+    "cl_number": 7954358,
+    "subject": "[M148] [chromecast] Fix Potential OOB Heap Read/Write in CMA via Unvalidated DecryptConfig Subsamples",
+    "commit_message": ""
+  },
+  "499252371": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7874662",
+    "cl_number": 7874662,
+    "subject": "Revert \"Roll src/net/third_party/quiche/src/ a849d35c9..083b83b39 (34 commits)\"",
+    "commit_message": ""
+  },
+  "500108770": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7848547",
+    "cl_number": 7848547,
+    "subject": "[Mojo/Ipcz] Harden isolated connections and restrict broker relays",
+    "commit_message": ""
+  },
+  "500587568": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7953599",
+    "cl_number": 7953599,
+    "subject": "[M148] [chromecast] Fix Integer overflow in CastAudioBus allocation",
+    "commit_message": ""
+  },
+  "501623322": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7849124",
+    "cl_number": 7849124,
+    "subject": "Check for MenuController(this) deletion after ShowAt() call.",
+    "commit_message": ""
+  },
+  "501669642": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7817259",
+    "cl_number": 7817259,
+    "subject": "Replace static_cast with GetAs for DataSharingUI",
+    "commit_message": ""
+  },
+  "501873032": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7767169",
+    "cl_number": 7767169,
+    "subject": "[chromecast] Fix Potential UAF in Cast media pipeline via missing StartPlayingFrom state guards",
+    "commit_message": ""
+  },
+  "502282040": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7921695",
+    "cl_number": 7921695,
+    "subject": "[M149] Move PlatformFont::Compare() to a static typeface id",
+    "commit_message": ""
+  },
+  "503333798": null,
+  "504194494": null,
+  "504221510": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7803815",
+    "cl_number": 7803815,
+    "subject": "[iOS] Filter credentials by GAIA ID and serialize migration",
+    "commit_message": ""
+  },
+  "504600482": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8008622",
+    "cl_number": 8008622,
+    "subject": "[M144-LTS][Blink] Guard user activation against empty IME events",
+    "commit_message": ""
+  },
+  "506149253": null,
+  "508293203": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7870080",
+    "cl_number": 7870080,
+    "subject": "[M149] [iOS][Lens] Filter lens-originated URLs.",
+    "commit_message": ""
+  },
+  "508462149": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7807838",
+    "cl_number": 7807838,
+    "subject": "[iOS] Enforce cross-origin checks for uncommitted WebViews",
+    "commit_message": ""
+  },
+  "511712766": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7839811",
+    "cl_number": 7839811,
+    "subject": "Check for MenuController deletion in OnMouseReleased.",
+    "commit_message": ""
+  },
+  "511722207": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7836598",
+    "cl_number": 7836598,
+    "subject": "[AdTracker] Fix potentially invalid iterator access",
+    "commit_message": ""
+  },
+  "511735715": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7853378",
+    "cl_number": 7853378,
+    "subject": "Reject scheme-less and invalid scheme URIs in SelectFileDialog",
+    "commit_message": ""
+  },
+  "511739631": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7859248",
+    "cl_number": 7859248,
+    "subject": "glic: Restrict Mojo API access to authorized guest origins.",
+    "commit_message": ""
+  },
+  "511823182": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7832200",
+    "cl_number": 7832200,
+    "subject": "Update CrossOriginNavigationObserver to handle empty eTLD+1",
+    "commit_message": ""
+  },
+  "512962749": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7862266",
+    "cl_number": 7862266,
+    "subject": "Roll ANGLE from 799ce5794481 to 4b72b39a1d78 (3 revisions)",
+    "commit_message": ""
+  },
+  "512986879": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7875933",
+    "cl_number": 7875933,
+    "subject": "Roll Skia from 5ecba665f5d1 to 2e4a568f6f0d (1 revision)",
+    "commit_message": ""
+  },
+  "513142445": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7797621",
+    "cl_number": 7797621,
+    "subject": "[html-in-canvas] Prevent drawing elements into different canvases",
+    "commit_message": ""
+  },
+  "513163011": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7886801",
+    "cl_number": 7886801,
+    "subject": "[M149] Fix tab restore id matching in GlicInstanceCoordinatorImpl",
+    "commit_message": ""
+  },
+  "513209610": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7851467",
+    "cl_number": 7851467,
+    "subject": "Roll Dawn from db1b2ce707cb to e7eb019e0d82 (2 revisions)",
+    "commit_message": ""
+  },
+  "513371963": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7853437",
+    "cl_number": 7853437,
+    "subject": "Ref-count response_code for event logging",
+    "commit_message": ""
+  },
+  "513399832": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7871171",
+    "cl_number": 7871171,
+    "subject": "[SaaS report] Add multi-profile tests for report uploaders.",
+    "commit_message": ""
+  },
+  "513727494": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7866183",
+    "cl_number": 7866183,
+    "subject": "remoting: Fix potential UAF in GnomeDisplayConfigDBusClient",
+    "commit_message": ""
+  },
+  "513781328": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7910128",
+    "cl_number": 7910128,
+    "subject": "gpu: Fix false positive dma-buf size validation on Vulkan import",
+    "commit_message": ""
+  },
+  "513822378": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7871432",
+    "cl_number": 7871432,
+    "subject": "[M148] Reland \"[headless] properly handle other WCs closing synchronously while closing a WC\"",
+    "commit_message": ""
+  },
+  "513920082": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7860750",
+    "cl_number": 7860750,
+    "subject": "Roll ANGLE from 8bd7a10552a1 to 6f2c0162c12f (5 revisions)",
+    "commit_message": ""
+  },
+  "513925114": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7878967",
+    "cl_number": 7878967,
+    "subject": "M149: Remove buffer mapping commands from the gles2 cmd decoder",
+    "commit_message": ""
+  },
+  "514338102": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7861398",
+    "cl_number": 7861398,
+    "subject": "Roll src/third_party/expat/src/ f31adfd58..9bdfbc77e (103 commits)",
+    "commit_message": ""
+  },
+  "514420555": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7859393",
+    "cl_number": 7859393,
+    "subject": "Escape 'name' part of @position-try prelude when necessary",
+    "commit_message": ""
+  },
+  "514429130": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7859556",
+    "cl_number": 7859556,
+    "subject": "Escaped idents when serializing CSS counter names",
+    "commit_message": ""
+  },
+  "514445398": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7865910",
+    "cl_number": 7865910,
+    "subject": "Make readonly attributes on CSSFontFeatureValuesRule [SameObject]",
+    "commit_message": ""
+  },
+  "514449396": null,
+  "514609778": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7880261",
+    "cl_number": 7880261,
+    "subject": "Add canvas tainting tests for patterns",
+    "commit_message": ""
+  },
+  "515467789": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7876422",
+    "cl_number": 7876422,
+    "subject": "Roll Skia from 69c8afcf9efc to 5ecba665f5d1 (2 revisions)",
+    "commit_message": ""
+  },
+  "516836297": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7957347",
+    "cl_number": 7957347,
+    "subject": "[M150] Prevent JS dialogs from non-visible WebStates",
+    "commit_message": ""
+  },
+  "516869032": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7958846",
+    "cl_number": 7958846,
+    "subject": "[M150] Discard WebUI messages if the security_origin does not match the",
+    "commit_message": ""
+  },
+  "516926115": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7879166",
+    "cl_number": 7879166,
+    "subject": "Synchronize access to `on_service_stopping_`",
+    "commit_message": ""
+  },
+  "516936863": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7928406",
+    "cl_number": 7928406,
+    "subject": "[M150] Fix UAF in PagePopupController via orphaned popup destruction teardown",
+    "commit_message": ""
+  },
+  "516999424": null,
+  "517073397": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7918272",
+    "cl_number": 7918272,
+    "subject": "[M150][CPE] Enforce strict registrable domain suffix matching in SecureHostsMatch",
+    "commit_message": ""
+  },
+  "517345069": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7950701",
+    "cl_number": 7950701,
+    "subject": "DOM: Fix connected subframe count during moveBefore()",
+    "commit_message": ""
+  },
+  "517351411": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7883474",
+    "cl_number": 7883474,
+    "subject": "remoting: Verify CRD host server privilege on Windows named pipe client",
+    "commit_message": ""
+  },
+  "517610676": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7905780",
+    "cl_number": 7905780,
+    "subject": "[M150] Use secureCoding for favicon decoding in shortcuts widget",
+    "commit_message": ""
+  },
+  "519692255": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7947398",
+    "cl_number": 7947398,
+    "subject": "[M150] FileSystemAccess: Fix content-URI authority blocklist bypass via percent-encoding",
+    "commit_message": ""
+  },
+  "522560124": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7986685",
+    "cl_number": 7986685,
+    "subject": "[M150] Move TWA Launch Queue Validation to Java",
+    "commit_message": ""
+  },
+  "523224019": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7963353",
+    "cl_number": 7963353,
+    "subject": "[M150] Replace raw pointers with raw_ptr in HistoryClustersHandler ContextInterface.",
+    "commit_message": ""
+  },
+  "523690961": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7988712",
+    "cl_number": 7988712,
+    "subject": "[M148] Ozone: Fix UAF in X11Window::DispatchUiEvent via weak_ptr tracking",
+    "commit_message": ""
+  },
+  "524395469": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7997567",
+    "cl_number": 7997567,
+    "subject": "[M149] ozone/x11: Fix potential UAF in X11Window::DispatchEvent",
+    "commit_message": ""
+  },
+  "508092634": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7809951",
+    "cl_number": 7809951,
+    "subject": "Reject SpeechRecognition requests with audio forwarder on Android",
+    "commit_message": ""
+  },
+  "479203484": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7854105",
+    "cl_number": 7854105,
+    "subject": "Fix occlusion by not overwriting z_offset in IsHitCandidateForDepthOrder",
+    "commit_message": ""
+  },
+  "507090179": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7819266",
+    "cl_number": 7819266,
+    "subject": "Roll FFmpeg from 9b84150fa4e6 to a87f87d88045 (1 revision)",
+    "commit_message": ""
+  },
+  "484756087": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7830827",
+    "cl_number": 7830827,
+    "subject": "Roll ANGLE from 336e9a1b87e5 to ab41985470ba (1 revision)",
+    "commit_message": ""
+  },
+  "495456765": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7885218",
+    "cl_number": 7885218,
+    "subject": "Convert RenderProcessHostImpl::browser_context_ to MiraclePtr.",
+    "commit_message": ""
+  },
+  "495897416": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7823260",
+    "cl_number": 7823260,
+    "subject": "[iOS] Prevent WebAuthn requests from non-secure (HTTP) origins",
+    "commit_message": ""
+  },
+  "496012495": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7868583",
+    "cl_number": 7868583,
+    "subject": "Revert \"Remove grantUriPermission() permission call in WebAppLaunchHandler.launchNewIntent()\"",
+    "commit_message": ""
+  },
+  "497090912": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7859754",
+    "cl_number": 7859754,
+    "subject": "[OIDC Enrollment] Remove deprecated OIDC enrollment method",
+    "commit_message": ""
+  },
+  "497207698": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7750269",
+    "cl_number": 7750269,
+    "subject": "Update TextSuggestionHost to be owned by the render frame.",
+    "commit_message": ""
+  },
+  "497345177": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7824224",
+    "cl_number": 7824224,
+    "subject": "Fix Geolocation permission revocation bypass for about:blank popups",
+    "commit_message": ""
+  },
+  "497453475": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7828908",
+    "cl_number": 7828908,
+    "subject": "Protect CCT multi-networking with network permissions",
+    "commit_message": ""
+  },
+  "497610642": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7831801",
+    "cl_number": 7831801,
+    "subject": "serial: Keep data pipe handles alive until pending I/O completes on Win",
+    "commit_message": ""
+  },
+  "497634837": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7864364",
+    "cl_number": 7864364,
+    "subject": "[js_sandbox] Streamline consumeNamedDataAsArrayBuffer threading",
+    "commit_message": ""
+  },
+  "497961376": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7837698",
+    "cl_number": 7837698,
+    "subject": "Ensure pre-attachment guest owner RFH updates stay within the same renderer",
+    "commit_message": ""
+  },
+  "497977983": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7865764",
+    "cl_number": 7865764,
+    "subject": "FileSystemAccess: Block sensitive paths in TWA launch",
+    "commit_message": ""
+  },
+  "498085466": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7867050",
+    "cl_number": 7867050,
+    "subject": "Fix asymmetric bounds check in `ForEachGraphemeClusters`",
+    "commit_message": ""
+  },
+  "498411773": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7854519",
+    "cl_number": 7854519,
+    "subject": "Fix TOCTOU race in ClipboardItem lazy-read",
+    "commit_message": ""
+  },
+  "498721671": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7824856",
+    "cl_number": 7824856,
+    "subject": "[gpu] Validate external fences in UpdateExternalFence",
+    "commit_message": ""
+  },
+  "498722200": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7826651",
+    "cl_number": 7826651,
+    "subject": "[SRI Message Signatures] Fail validation when signature base fails.",
+    "commit_message": ""
+  },
+  "498820206": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7851215",
+    "cl_number": 7851215,
+    "subject": "Roll ANGLE from ca1dbd0b011c to f21f7aff6fc6 (6 revisions)",
+    "commit_message": ""
+  },
+  "499007266": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7833477",
+    "cl_number": 7833477,
+    "subject": "bluetooth: Fix Use-After-Free in BluetoothSocketMac::Send",
+    "commit_message": ""
+  },
+  "499022239": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7886436",
+    "cl_number": 7886436,
+    "subject": "[Bluetooth] Fix Use-After-Unmap vulnerability in bluetooth::Socket",
+    "commit_message": ""
+  },
+  "499025880": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7877663",
+    "cl_number": 7877663,
+    "subject": "usb: Fix thread-safety in macOS SetConfiguration",
+    "commit_message": ""
+  },
+  "499100491": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7825100",
+    "cl_number": 7825100,
+    "subject": "Fix LaunchQueue vulnerability by checking HasCommitted",
+    "commit_message": ""
+  },
+  "499162550": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7831277",
+    "cl_number": 7831277,
+    "subject": "usb: Lock interface requests during pending device state changes",
+    "commit_message": ""
+  },
+  "500030250": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7903467",
+    "cl_number": 7903467,
+    "subject": "Roll ANGLE from 99d11ab5af12 to 4923c0ae463a (8 revisions)",
+    "commit_message": ""
+  },
+  "500077014": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7765498",
+    "cl_number": 7765498,
+    "subject": "[chromecast] Fix Heap buffer overflow in CreateBufferPool",
+    "commit_message": ""
+  },
+  "500474409": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7883197",
+    "cl_number": 7883197,
+    "subject": "Roll Skia from 3f20d9676d08 to 1717654ff51b (7 revisions)",
+    "commit_message": ""
+  },
+  "500475136": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7859854",
+    "cl_number": 7859854,
+    "subject": "[IWA] enforce headers on navigations and in workers.",
+    "commit_message": ""
+  },
+  "500508524": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7870447",
+    "cl_number": 7870447,
+    "subject": "[NFC] Verify requesting frame is primary main frame in Android NFCHost",
+    "commit_message": ""
+  },
+  "500566906": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7824059",
+    "cl_number": 7824059,
+    "subject": "extensions: Fix Use-After-Free in IsSafeRedirectTarget",
+    "commit_message": ""
+  },
+  "500588580": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7831745",
+    "cl_number": 7831745,
+    "subject": "[ios blink] Fix ScriptMessage construction after security_origin added",
+    "commit_message": ""
+  },
+  "501674841": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7843312",
+    "cl_number": 7843312,
+    "subject": "[iOS] Pinned Target Web Frame During Asynchronous Field Injection",
+    "commit_message": ""
+  },
+  "501729582": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7818475",
+    "cl_number": 7818475,
+    "subject": "searchbox: Encode image and icon URLs to prevent parameter injection",
+    "commit_message": ""
+  },
+  "501741117": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7824656",
+    "cl_number": 7824656,
+    "subject": "Fix ABH bypass for Advanced Protection users",
+    "commit_message": ""
+  },
+  "501820076": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7813777",
+    "cl_number": 7813777,
+    "subject": "Respect sandbox flags in Actor popup interception",
+    "commit_message": ""
+  },
+  "501877896": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7765508",
+    "cl_number": 7765508,
+    "subject": "[chromecast] Fix Potential media access permission bypass via cross-origin navigation in CastWebViewDefault",
+    "commit_message": ""
+  },
+  "501925480": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7765493",
+    "cl_number": 7765493,
+    "subject": "[chromecast] Fix Potential Renderer UAF in cast_receiver",
+    "commit_message": ""
+  },
+  "502109002": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7852999",
+    "cl_number": 7852999,
+    "subject": "Consume user activation in input.click() to show picker",
+    "commit_message": ""
+  },
+  "502374993": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7765507",
+    "cl_number": 7765507,
+    "subject": "[chromecast] Fix Potential navigation provenance laundering in CastWebViewDefault::OpenURLFromTab",
+    "commit_message": ""
+  },
+  "503585173": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7833070",
+    "cl_number": 7833070,
+    "subject": "Check UpdateUserActivationState more often.",
+    "commit_message": ""
+  },
+  "503725717": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7869562",
+    "cl_number": 7869562,
+    "subject": "[iOS] Use unique temporary directory per download task",
+    "commit_message": ""
+  },
+  "503912196": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7837659",
+    "cl_number": 7837659,
+    "subject": "bluetooth: Fix missing blocklist check for characteristic in descriptors",
+    "commit_message": ""
+  },
+  "504185807": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7818799",
+    "cl_number": 7818799,
+    "subject": "[iOS] Fix SB keypress event listening",
+    "commit_message": ""
+  },
+  "504192688": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7844876",
+    "cl_number": 7844876,
+    "subject": "[iOS] Make local reauth VC modalInPresentation",
+    "commit_message": ""
+  },
+  "504613867": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7843043",
+    "cl_number": 7843043,
+    "subject": "Roll src/third_party/libvpx/source/libvpx/ 76b080217..c1ffdaa94 (6 commits)",
+    "commit_message": ""
+  },
+  "505156685": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7837578",
+    "cl_number": 7837578,
+    "subject": "Use absolute coordinates when looking for context menu element",
+    "commit_message": ""
+  },
+  "505933538": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7802063",
+    "cl_number": 7802063,
+    "subject": "Enforce security checks in DevTools child sessions and strengthen extension trust.",
+    "commit_message": ""
+  },
+  "507231605": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7837042",
+    "cl_number": 7837042,
+    "subject": "[WebXR] Improve input suppression for cross-origin DOM Overlay",
+    "commit_message": ""
+  },
+  "508259433": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7818799",
+    "cl_number": 7818799,
+    "subject": "[iOS] Fix SB keypress event listening",
+    "commit_message": ""
+  },
+  "508273690": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7817383",
+    "cl_number": 7817383,
+    "subject": "Fix macOS password manager auth bypass by verifying right policy",
+    "commit_message": ""
+  },
+  "508275293": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7823524",
+    "cl_number": 7823524,
+    "subject": "Revert \"[iOS] Use WeakPtr for tab groups with ShareKit\"",
+    "commit_message": ""
+  },
+  "508283108": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7816358",
+    "cl_number": 7816358,
+    "subject": "[iOS] Anchor WKContentRuleList regular expressions",
+    "commit_message": ""
+  },
+  "508286935": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7818061",
+    "cl_number": 7818061,
+    "subject": "[iOS][Download] Fix path traversal in DownloadManagerCoordinator",
+    "commit_message": ""
+  },
+  "509712284": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7842832",
+    "cl_number": 7842832,
+    "subject": "[ios]Refactor OverlayRequestCoordinatorDelegate to use OverlayRequestId",
+    "commit_message": ""
+  },
+  "511249430": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7838724",
+    "cl_number": 7838724,
+    "subject": "[Extensions] Don't treat error pages as commits for script injections",
+    "commit_message": ""
+  },
+  "511722559": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7839078",
+    "cl_number": 7839078,
+    "subject": "media: Validate arguments for CopySubresourceRegion and VideoProcessorBlt",
+    "commit_message": ""
+  },
+  "511738175": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7849922",
+    "cl_number": 7849922,
+    "subject": "[dbsc] Enforce strict cross-origin registration validation",
+    "commit_message": ""
+  },
+  "511748106": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7843200",
+    "cl_number": 7843200,
+    "subject": "Taint reference filters when following currentcolor in drop-shadow",
+    "commit_message": ""
+  },
+  "511772034": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7836292",
+    "cl_number": 7836292,
+    "subject": "Disable rasterizer discard during luma emulation texture copy.",
+    "commit_message": ""
+  },
+  "511784747": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7831207",
+    "cl_number": 7831207,
+    "subject": "webview: Fix proxying restricted cookie manager trusting render process",
+    "commit_message": ""
+  },
+  "511814550": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7828909",
+    "cl_number": 7828909,
+    "subject": "Check IsInPrimaryMainFrame in NetErrorTabHelper::DownloadPageLater",
+    "commit_message": ""
+  },
+  "511826446": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7837461",
+    "cl_number": 7837461,
+    "subject": "Check wasIntentSenderChrome for tab group and multi-tabs drag drop",
+    "commit_message": ""
+  },
+  "512162479": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7859754",
+    "cl_number": 7859754,
+    "subject": "[OIDC Enrollment] Remove deprecated OIDC enrollment method",
+    "commit_message": ""
+  },
+  "512249559": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7857154",
+    "cl_number": 7857154,
+    "subject": "[DevTools] Add missing trust checks in TargetHandlerAndroid::CreateTarget",
+    "commit_message": ""
+  },
+  "512937764": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7858075",
+    "cl_number": 7858075,
+    "subject": "[glic] Use longer-lived WeakPtr in ActorNavigationThrottle",
+    "commit_message": ""
+  },
+  "512997441": null,
+  "513001690": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7850195",
+    "cl_number": 7850195,
+    "subject": "Cancel request on all cross-document navigations",
+    "commit_message": ""
+  },
+  "513006636": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7880282",
+    "cl_number": 7880282,
+    "subject": "Roll Dawn from e0a2faceeb2a to 485454223457 (25 revisions)",
+    "commit_message": ""
+  },
+  "513009005": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7863881",
+    "cl_number": 7863881,
+    "subject": "[PATCH 3/4] Revert \"compute pressure: Add OwnContributionEstimate to API.\"",
+    "commit_message": ""
+  },
+  "513044658": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7850120",
+    "cl_number": 7850120,
+    "subject": "Do not log suggestion text as it may contain password",
+    "commit_message": ""
+  },
+  "513046494": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7859712",
+    "cl_number": 7859712,
+    "subject": "[PWM] Show confirmation dialog for grouped credentials.",
+    "commit_message": ""
+  },
+  "513143921": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7871076",
+    "cl_number": 7871076,
+    "subject": "Roll src/third_party/harfbuzz/src/ fd0360d98..0a7092643 (6 commits)",
+    "commit_message": ""
+  },
+  "513149760": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7850771",
+    "cl_number": 7850771,
+    "subject": "[WebShare] Validate share URL scheme and terminate compromised renderers",
+    "commit_message": ""
+  },
+  "513158425": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7849334",
+    "cl_number": 7849334,
+    "subject": "Initialize media_session_id_ in CastMediaController",
+    "commit_message": ""
+  },
+  "513183855": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7864642",
+    "cl_number": 7864642,
+    "subject": "SiteSettings: Include separators when checking protocol prefixes",
+    "commit_message": ""
+  },
+  "513186670": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7852489",
+    "cl_number": 7852489,
+    "subject": "Capture: prevent DoS-ing real device capture by previously used virtual device.",
+    "commit_message": ""
+  },
+  "513204116": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7850514",
+    "cl_number": 7850514,
+    "subject": "Ensure is_current_color is initialized for unresolved color functions",
+    "commit_message": ""
+  },
+  "513224212": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7849762",
+    "cl_number": 7849762,
+    "subject": "Provide the correct filename for drag and drop",
+    "commit_message": ""
+  },
+  "513274039": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7866063",
+    "cl_number": 7866063,
+    "subject": "Stop using array when filtering script origin",
+    "commit_message": ""
+  },
+  "513280648": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7853507",
+    "cl_number": 7853507,
+    "subject": "[XR] Initialize stage_parameters_id_ in OpenXrRenderLoop",
+    "commit_message": ""
+  },
+  "513360781": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7874936",
+    "cl_number": 7874936,
+    "subject": "Disable GL_RASTERIZER_DISCARD during shared image clearing.",
+    "commit_message": ""
+  },
+  "513394321": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7855216",
+    "cl_number": 7855216,
+    "subject": "usb: Block SetInterfaceAlternateSetting on protected interfaces",
+    "commit_message": ""
+  },
+  "513401808": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7864061",
+    "cl_number": 7864061,
+    "subject": "LoAF: don't expose function names of double-bound functions",
+    "commit_message": ""
+  },
+  "513459192": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7868377",
+    "cl_number": 7868377,
+    "subject": "Update more places to use LoadURLParams argument",
+    "commit_message": ""
+  },
+  "513508305": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7851581",
+    "cl_number": 7851581,
+    "subject": "[CCT] Prevent potential View ID Hijacking in BottomView",
+    "commit_message": ""
+  },
+  "513515168": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7864581",
+    "cl_number": 7864581,
+    "subject": "PageInfo: Use presenter URL instead of web contents URL for permissions",
+    "commit_message": ""
+  },
+  "513553557": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7853880",
+    "cl_number": 7853880,
+    "subject": "[Extensions] Fix TOCTOU vulnerability in site access toggle",
+    "commit_message": ""
+  },
+  "513567306": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7851728",
+    "cl_number": 7851728,
+    "subject": "media: Fix buffer leak in MFAudioEncoder",
+    "commit_message": ""
+  },
+  "513609249": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7853179",
+    "cl_number": 7853179,
+    "subject": "Limit TouchEvent/WheelEvent messages about preventDefault to trusted events.",
+    "commit_message": ""
+  },
+  "513714023": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7864244",
+    "cl_number": 7864244,
+    "subject": "Limit page content capture to same site",
+    "commit_message": ""
+  },
+  "513719481": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7876392",
+    "cl_number": 7876392,
+    "subject": "[DevTools] Verify workspace path is local and does not reference parent",
+    "commit_message": ""
+  },
+  "513721370": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7884085",
+    "cl_number": 7884085,
+    "subject": "[mime_handler] Verify embedder URL in MimeHandlerStreamManager",
+    "commit_message": ""
+  },
+  "513727626": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7860751",
+    "cl_number": 7860751,
+    "subject": "Roll DevTools Frontend from 935463048033 to 2bc21270c002 (7 revisions)",
+    "commit_message": ""
+  },
+  "513735096": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7861926",
+    "cl_number": 7861926,
+    "subject": "Block prerendering of disallowed sites in WebView",
+    "commit_message": ""
+  },
+  "513737952": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7852268",
+    "cl_number": 7852268,
+    "subject": "heap: Make range-based write barrier more robust",
+    "commit_message": ""
+  },
+  "513741393": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7864242",
+    "cl_number": 7864242,
+    "subject": "History: Don't consider IP literals for \"typed\" promotion",
+    "commit_message": ""
+  },
+  "513751951": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7887319",
+    "cl_number": 7887319,
+    "subject": "[css] Use placement new in CSSSelector copy constr",
+    "commit_message": ""
+  },
+  "513762145": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7862722",
+    "cl_number": 7862722,
+    "subject": "Roll DevTools Frontend from 4d1846993996 to a7f9ce9b3f6d (4 revisions)",
+    "commit_message": ""
+  },
+  "513762962": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7850894",
+    "cl_number": 7850894,
+    "subject": "Default init member vars in overscroll_refresh",
+    "commit_message": ""
+  },
+  "513779283": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7866205",
+    "cl_number": 7866205,
+    "subject": "Fix IncreaseCapacity when FIFO is full",
+    "commit_message": ""
+  },
+  "513780208": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7886886",
+    "cl_number": 7886886,
+    "subject": "Roll Skia from b85449978364 to c0b70b7ffb46 (9 revisions)",
+    "commit_message": ""
+  },
+  "513792140": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7854801",
+    "cl_number": 7854801,
+    "subject": "Fix occlusion by not overwriting z_offset for overflow controls",
+    "commit_message": ""
+  },
+  "513832989": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7851144",
+    "cl_number": 7851144,
+    "subject": "Use correct page when committing ContentSettingBubbleModel",
+    "commit_message": ""
+  },
+  "513850475": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7876765",
+    "cl_number": 7876765,
+    "subject": "Fix 32-bit integer overflow in HFS+ B-tree parser",
+    "commit_message": ""
+  },
+  "513857658": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7860750",
+    "cl_number": 7860750,
+    "subject": "Roll ANGLE from 8bd7a10552a1 to 6f2c0162c12f (5 revisions)",
+    "commit_message": ""
+  },
+  "513858286": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7893705",
+    "cl_number": 7893705,
+    "subject": "[M144-LTS] Early detection of attempts to overwrite an in-use cache page due to database corruption. [https://issues.chromium.org/issues/513858286|Chromium 513858286].",
+    "commit_message": ""
+  },
+  "513859894": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7871551",
+    "cl_number": 7871551,
+    "subject": "Clean up HTMLStackItem creation.",
+    "commit_message": ""
+  },
+  "513866949": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7865408",
+    "cl_number": 7865408,
+    "subject": "PageInfo: Restrict side panel to google-associated domains",
+    "commit_message": ""
+  },
+  "513988889": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7875520",
+    "cl_number": 7875520,
+    "subject": "Use SVGLayoutSupport::ApplyFiltersToRect in MapToSVGRootIncludingFilter",
+    "commit_message": ""
+  },
+  "513989973": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7859853",
+    "cl_number": 7859853,
+    "subject": "[iOS] Defer native UI presentation for background specialized downloads",
+    "commit_message": ""
+  },
+  "513990408": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7859612",
+    "cl_number": 7859612,
+    "subject": "[iOS] Prevent stale ChooseFileEvent persistence in ChooseFileTabHelper",
+    "commit_message": ""
+  },
+  "514006829": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7853421",
+    "cl_number": 7853421,
+    "subject": "[Autofill]: Hoist overlap checks into PopupBaseView",
+    "commit_message": ""
+  },
+  "514009910": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7864203",
+    "cl_number": 7864203,
+    "subject": "[iOS] Fix Reader mode spoofing via misclassified navigation initiation",
+    "commit_message": ""
+  },
+  "514010404": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7870349",
+    "cl_number": 7870349,
+    "subject": "[SxS] Hide FSA bubble when tab is inactive",
+    "commit_message": ""
+  },
+  "514013849": null,
+  "514020959": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7858168",
+    "cl_number": 7858168,
+    "subject": "Verify web contents before passing presentation context",
+    "commit_message": ""
+  },
+  "514039122": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7853600",
+    "cl_number": 7853600,
+    "subject": "[Tab] Update theme color on security status change",
+    "commit_message": ""
+  },
+  "514040614": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7858611",
+    "cl_number": 7858611,
+    "subject": "Fix border-radius hit testing for visual overflow",
+    "commit_message": ""
+  },
+  "514056221": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7859418",
+    "cl_number": 7859418,
+    "subject": "PageInfo: Attach delegate and user data to loading indicator",
+    "commit_message": ""
+  },
+  "514058439": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7862906",
+    "cl_number": 7862906,
+    "subject": "Clamp touch-drag screen location to browser-observed touch point",
+    "commit_message": ""
+  },
+  "514061117": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7856913",
+    "cl_number": 7856913,
+    "subject": "[iOS] Sanitize bold and link layout tags in download/image filenames",
+    "commit_message": ""
+  },
+  "514063409": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7864509",
+    "cl_number": 7864509,
+    "subject": "[macOS] Drop redispatched events if window is no longer key",
+    "commit_message": ""
+  },
+  "514064139": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7882189",
+    "cl_number": 7882189,
+    "subject": "[M149] [PWA] Force close windows on uninstallation to prevent origin spoofing",
+    "commit_message": ""
+  },
+  "514067416": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7863624",
+    "cl_number": 7863624,
+    "subject": "[Android] Secure ThirdPartyCredentialManager against background spam",
+    "commit_message": ""
   }
 }
