@@ -43,6 +43,7 @@
     .b-wild { background: #ea8600; color: white; }
     .b-patch-ev { background: #e6f4ea; color: #137333; }
     .b-public { background: #e8f0fe; color: #174ea6; }
+    .b-poc { background: #fce8e6; color: #c5221f; border: 1px solid #ea8600; }
     .b-fork { background: #f3e8fd; color: #8430ce; }
 
     .component-tag { display: inline-block; padding: 1px 5px; border-radius: 3px; font-size: 10px; background: #e8f0fe; color: #1a73e8; font-weight: 600; }
@@ -179,6 +180,7 @@ function evidenceBadges(cve) {
   let html = '';
   if (cve.in_kev) html += '<span class="badge b-kev">CISA KEV</span> ';
   if (cve.in_the_wild) html += '<span class="badge b-wild">In-the-wild</span> ';
+  if (cve.has_poc) html += '<span class="badge b-poc">PoC</span> ';
   if (cve.has_patch) html += '<span class="badge b-patch-ev">Patch available</span> ';
   if (cve.bug_url) html += '<span class="badge b-public">Bug public</span> ';
   return html || '<span style="color:#80868b;font-size:11px">—</span>';
@@ -290,6 +292,7 @@ function renderCveDb(cves, page) {
     let evHtml = '';
     if (cve.in_kev) evHtml += '<span class="badge b-kev">CISA KEV</span> ';
     if (cve.in_the_wild) evHtml += '<span class="badge b-wild">In-the-wild</span> ';
+    if (cve.has_public_exploit || (cve.exploitability||{}).has_poc) evHtml += '<span class="badge b-poc">PoC</span> ';
     if (cve.bug_url) evHtml += '<span class="badge b-public">Bug public</span> ';
     if (!evHtml && e.reason) evHtml = '<span style="font-size:11px;color:#5f6368">' + e.reason + '</span>';
     html += '<tr>' +
@@ -319,8 +322,9 @@ function matchCveFilter(cve) {
   switch (currentCveFilter) {
     case 'kev': return !!cve.in_kev;
     case 'wild': return !!cve.in_the_wild;
+    case 'poc': return !!(cve.has_public_exploit || (cve.exploitability||{}).has_poc);
     case 'bug': return !!cve.bug_url;
-    case 'none': return !cve.in_kev && !cve.in_the_wild && !cve.bug_url;
+    case 'none': return !cve.in_kev && !cve.in_the_wild && !cve.bug_url && !(cve.has_public_exploit || (cve.exploitability||{}).has_poc);
     default: return true;
   }
 }
@@ -350,7 +354,7 @@ function refreshCveTable() {
 
 function renderCveToolbar(filteredCount) {
   const opts = [
-    ['all','All Evidence'],['kev','CISA KEV'],['wild','In-the-wild'],
+    ['all','All Evidence'],['kev','CISA KEV'],['wild','In-the-wild'],['poc','PoC public'],
     ['bug','Bug public'],['none','No evidence badge']
   ];
   return `<div class="cve-toolbar">

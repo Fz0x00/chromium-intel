@@ -100,14 +100,16 @@ def parse_cve(cve_data):
                 versions.append(lt or lte or ver)
     versions = list(set(versions))[:5]
 
-    # 提取 references：bug tracker ID / Gerrit / Release Blog
+    # 提取 references：bug tracker ID / Gerrit / Release Blog / Exploit refs
     bug_id = None
     gerrit_url = None
     blog_url = None
+    exploit_refs = []
     for ref in cna.get('references', []):
         url = ref.get('url', '')
         if not url:
             continue
+        tags = ref.get('tags', [])
         # Chromium bug tracker
         m = re.search(r'(?:crbug\.com/|issues\.chromium\.org/issues/)(\d+)', url)
         if m and not bug_id:
@@ -118,8 +120,11 @@ def parse_cve(cve_data):
         # Release blog
         if 'chromereleases.googleblog.com' in url and not blog_url:
             blog_url = url
+        # Public exploit / PoC references (NVD "Exploit" tag)
+        if 'Exploit' in tags:
+            exploit_refs.append(url)
 
-    return {
+    result = {
         'id': cve_id,
         'published': metadata.get('datePublished', ''),
         'cvss': cvss_score,
@@ -129,6 +134,10 @@ def parse_cve(cve_data):
         'gerrit_url': gerrit_url,
         'blog_url': blog_url,
     }
+    if exploit_refs:
+        result['has_public_exploit'] = True
+        result['exploit_refs'] = exploit_refs[:5]
+    return result
 
 
 def main():

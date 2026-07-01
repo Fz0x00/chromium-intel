@@ -74,6 +74,7 @@ def classify(cve, fixed_ver):
     """分类 CVE 优先级"""
     in_kev = cve.get('in_kev', False)
     in_wild = cve.get('in_the_wild', False)
+    has_poc = cve.get('has_public_exploit', False)
     has_patch = bool(cve.get('bug_url') or cve.get('gerrit_url'))
 
     if in_kev:
@@ -85,11 +86,12 @@ def classify(cve, fixed_ver):
     else:
         priority = 'OTHER'
 
-    return {
+    result = {
         'id': cve['id'],
         'priority': priority,
         'in_kev': in_kev,
         'in_the_wild': in_wild,
+        'has_poc': has_poc,
         'has_patch': has_patch,
         'component': cve.get('component', 'Unknown'),
         'published': cve.get('published', '')[:10],
@@ -99,6 +101,11 @@ def classify(cve, fixed_ver):
         'bug_url': cve.get('bug_url', ''),
         'gerrit_url': cve.get('gerrit_url', ''),
     }
+    if has_poc:
+        refs = cve.get('exploit_refs', [])
+        if refs:
+            result['exploit_refs'] = refs[:3]
+    return result
 
 
 def main():

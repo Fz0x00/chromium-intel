@@ -171,9 +171,12 @@ def assess_exploitability(cve):
     
     is_kev = cve.get('in_kev', False)
     is_wild = cve.get('in_the_wild', False)
+    has_poc = cve.get('has_public_exploit', False)
     component_type = cve.get('component_type', 'unknown')
     has_gerrit = bool(cve.get('gerrit_url'))
     has_bug = bool(cve.get('bug_url'))
+    
+    evidence = []
     
     # Chrome 专属组件 → 不适用
     if component_type == 'chrome':
@@ -181,29 +184,48 @@ def assess_exploitability(cve):
             'level': 'Not Applicable',
             'label': 'N/A',
             'order': 0,
-            'reason': 'Chrome-specific component, not in Electron/CEF'
+            'reason': ' | '.join(evidence) if evidence else 'Chrome-specific component, not in Electron/CEF',
+            'has_poc': has_poc
         }
     
     # KEV + 共享组件 → 已确认可 exploit
     if is_kev and component_type == 'shared':
-        evidence = ['CISA KEV confirmed exploitation']
+        evidence.append('CISA KEV confirmed exploitation')
         if is_wild: evidence.append('Google confirmed in-the-wild')
+        if has_poc: evidence.append('Public exploit/PoC available')
         if has_gerrit: evidence.append('Public patch available')
         if has_bug: evidence.append('Bug tracker details public')
         return {
             'level': 'Confirmed',
             'label': 'CONFIRMED',
             'order': 5,
-            'reason': ' | '.join(evidence)
+            'reason': ' | '.join(evidence),
+            'has_poc': has_poc
         }
     
     # 在野 + 共享组件 → 高可能性
     if is_wild and component_type == 'shared':
+        evidence.append('Google confirmed in-the-wild')
+        if has_poc: evidence.append('Public exploit/PoC available')
+        if has_gerrit: evidence.append('Public patch available')
         return {
             'level': 'High',
             'label': 'HIGH',
             'order': 4,
-            'reason': 'Exploited in Chrome, shared component in Electron/CEF'
+            'reason': ' | '.join(evidence) if evidence else 'Exploited in Chrome, shared component in Electron/CEF',
+            'has_poc': has_poc
+        }
+    
+    # 共享组件 + 有公开 PoC → 已有 PoC 参考（比仅有 patch 更高）
+    if component_type == 'shared' and has_poc:
+        evidence.append('Public exploit/PoC available')
+        if has_gerrit: evidence.append('Public patch available')
+        return {
+            'level': 'Likely',
+            'label': 'LIKELY',
+            'order': 3,
+            'reason': ' | '.join(evidence),
+            'has_poc': has_poc
         }
     
     # 共享组件 + 有补丁 → 已有公开 PoC 参考
@@ -212,7 +234,8 @@ def assess_exploitability(cve):
             'level': 'Likely',
             'label': 'LIKELY',
             'order': 3,
-            'reason': 'Shared component, public patch provides PoC reference'
+            'reason': 'Shared component, public patch provides PoC reference',
+            'has_poc': has_poc
         }
     
     # 共享组件 → 潜在可行
@@ -221,7 +244,8 @@ def assess_exploitability(cve):
             'level': 'Potential',
             'label': 'POTENTIAL',
             'order': 2,
-            'reason': 'Shared component, could affect Electron/CEF'
+            'reason': 'Shared component, could affect Electron/CEF',
+            'has_poc': has_poc
         }
     
     # 未知组件
@@ -229,7 +253,8 @@ def assess_exploitability(cve):
         'level': 'Unknown',
         'label': 'UNKNOWN',
         'order': 1,
-        'reason': 'Unable to determine component scope'
+        'reason': 'Unable to determine component scope',
+        'has_poc': has_poc
     }
 
 
@@ -326,6 +351,7 @@ def build_risk_report():
         'total_cves': len(cves),
         'in_kev': sum(1 for c in cves if c.get('in_kev')),
         'in_the_wild': sum(1 for c in cves if c.get('in_the_wild')),
+        'has_public_exploit': sum(1 for c in cves if c.get('has_public_exploit')),
         'by_exploitability': {},
         'by_component': {},
         'shared_components': sum(1 for c in cves if c.get('component_type') == 'shared'),
@@ -357,6 +383,7 @@ def build_risk_report():
         count = summary['by_exploitability'].get(level, 0)
         if count:
             print(f"  {level:25s}: {count}")
+    print(f"  {'Public PoC/Exploit':25s}: {summary['has_public_exploit']}")
     print(f"\nTop Components (shared vs chrome-only):")
     print(f"  Shared components: {summary['shared_components']}")
     print(f"  Chrome-specific:   {summary['chrome_specific']}")
