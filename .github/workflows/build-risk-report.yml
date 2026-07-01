@@ -32,7 +32,11 @@ jobs:
       
       - name: Enrich Gerrit links (batch 200)
         run: python .github/scripts/enrich_gerrit.py 200
-      
+
+      - name: Enrich NVD exploit references
+        run: python .github/scripts/enrich_nvd_exploits.py
+        continue-on-error: true
+
       - name: Build risk report
         run: python .github/scripts/build_risk_report.py
 
@@ -54,7 +58,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/ data/risk-report.json data/asset-risk-report.json data/gerrit-cache.json
+          git add docs/ data/risk-report.json data/asset-risk-report.json data/gerrit-cache.json data/nvd-exploit-cache.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
