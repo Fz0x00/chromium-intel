@@ -320,10 +320,7 @@ function matchCveFilter(cve) {
     case 'kev': return !!cve.in_kev;
     case 'wild': return !!cve.in_the_wild;
     case 'bug': return !!cve.bug_url;
-    case 'confirmed': return (cve.exploitability||{}).level === 'Confirmed';
-    case 'high': return (cve.exploitability||{}).level === 'High';
-    case 'likely': return (cve.exploitability||{}).level === 'Likely';
-    case 'potential': return (cve.exploitability||{}).level === 'Potential';
+    case 'none': return !cve.in_kev && !cve.in_the_wild && !cve.bug_url;
     default: return true;
   }
 }
@@ -354,8 +351,7 @@ function refreshCveTable() {
 function renderCveToolbar(filteredCount) {
   const opts = [
     ['all','All Evidence'],['kev','CISA KEV'],['wild','In-the-wild'],
-    ['bug','Bug public'],['confirmed','Confirmed'],['high','High'],
-    ['likely','Likely'],['potential','Potential']
+    ['bug','Bug public'],['none','No evidence badge']
   ];
   return `<div class="cve-toolbar">
     <input id="search" type="text" placeholder="Search CVE ID, component, bug ID..." value="${(currentCveQuery||'').replace(/"/g,'&quot;')}" oninput="doSearch(this.value)"/>
