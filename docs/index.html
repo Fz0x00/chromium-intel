@@ -60,6 +60,12 @@
     #search { width: 100%; padding: 8px 14px; font-size: 14px; border: 1px solid #dadce0; border-radius: 8px; margin-bottom: 14px; }
     #search:focus { outline: none; border-color: #1a73e8; box-shadow: 0 0 0 2px rgba(26,115,232,0.2); }
 
+    .cve-toolbar { display: flex; gap: 8px; align-items: center; margin-bottom: 14px; }
+    .cve-toolbar #search { flex: 1; margin-bottom: 0; }
+    .cve-toolbar select { padding: 8px 10px; font-size: 13px; border: 1px solid #dadce0; border-radius: 8px; background: white; cursor: pointer; }
+    .cve-toolbar select:focus { outline: none; border-color: #1a73e8; box-shadow: 0 0 0 2px rgba(26,115,232,0.2); }
+    .cve-count { font-size: 12px; color: #5f6368; white-space: nowrap; }
+
     .pagination { display: flex; gap: 6px; margin: 14px 0; justify-content: center; }
     .pagination button { padding: 5px 14px; border: 1px solid #dadce0; background: white; border-radius: 4px; cursor: pointer; font-size: 13px; }
     .pagination button.active { background: #1a73e8; color: white; border-color: #1a73e8; }
@@ -136,6 +142,8 @@
 let CVE_DATA = null;
 let ASSET_DATA = null;
 let currentCvePage = 1;
+let currentCveQuery = '';
+let currentCveFilter = 'all';
 const CVE_PAGE_SIZE = 50;
 
 const EXPLOIT_COLORS = {'Confirmed':'#d93025','High':'#f9ab00','Likely':'#174ea6','Potential':'#5f6368','Not Applicable':'#80868b','Unknown':'#9aa0a6'};
@@ -307,23 +315,84 @@ function renderCvePagination(total) {
   return html;
 }
 
+function matchCveFilter(cve) {
+  switch (currentCveFilter) {
+    case 'kev': return !!cve.in_kev;
+    case 'wild': return !!cve.in_the_wild;
+    case 'bug': return !!cve.bug_url;
+    case 'confirmed': return (cve.exploitability||{}).level === 'Confirmed';
+    case 'high': return (cve.exploitability||{}).level === 'High';
+    case 'likely': return (cve.exploitability||{}).level === 'Likely';
+    case 'potential': return (cve.exploitability||{}).level === 'Potential';
+    default: return true;
+  }
+}
+
+function getFilteredCves() {
+  const cves = CVE_DATA.cves || CVE_DATA.c || [];
+  if (!currentCveQuery && currentCveFilter === 'all') return cves;
+  const lower = currentCveQuery.toLowerCase();
+  return cves.filter(c =>
+    matchCveFilter(c) && (
+      !currentCveQuery ||
+      c.id.toLowerCase().includes(lower) ||
+      (c.description || '').toLowerCase().includes(lower) ||
+      (c.bug_id || '').includes(lower) ||
+      (c.component || '').toLowerCase().includes(lower)
+    )
+  );
+}
+
+function refreshCveTable() {
+  const filtered = getFilteredCves();
+  document.getElementById('cve-table').innerHTML =
+    renderCveToolbar(filtered.length) +
+    renderCveDb(filtered, currentCvePage) +
+    renderCvePagination(filtered.length);
+}
+
+function renderCveToolbar(filteredCount) {
+  const opts = [
+    ['all','All Evidence'],['kev','CISA KEV'],['wild','In-the-wild'],
+    ['bug','Bug public'],['confirmed','Confirmed'],['high','High'],
+    ['likely','Likely'],['potential','Potential']
+  ];
+  return `<div class="cve-toolbar">
+    <input id="search" type="text" placeholder="Search CVE ID, component, bug ID..." value="${(currentCveQuery||'').replace(/"/g,'&quot;')}" oninput="doSearch(this.value)"/>
+    <select id="evidenceFilter" onchange="doFilter(this.value)">
+      ${opts.map(([v,l])=>`<option value="${v}"${currentCveFilter===v?' selected':''}>${l}</option>`).join('')}
+    </select>
+    <span class="cve-count">${filteredCount} CVEs</span>
+  </div>`;
+}
+
 function changeCvePage(p) {
   currentCvePage = p;
-  const cves = CVE_DATA.cves || CVE_DATA.c || [];
-  document.getElementById('cve-table').innerHTML = renderCveDb(cves, p) + renderCvePagination(cves.length);
+  const filtered = getFilteredCves();
+  document.getElementById('cve-table').innerHTML =
+    renderCveToolbar(filtered.length) +
+    renderCveDb(filtered, p) +
+    renderCvePagination(filtered.length);
 }
 
 function doSearch(q) {
-  if (!q) { changeCvePage(1); return; }
-  const lower = q.toLowerCase();
-  const cves = CVE_DATA.cves || CVE_DATA.c || [];
-  const filtered = cves.filter(c =>
-    c.id.toLowerCase().includes(lower) ||
-    (c.description || '').toLowerCase().includes(lower) ||
-    (c.bug_id || '').includes(lower) ||
-    (c.component || '').toLowerCase().includes(lower)
-  );
-  document.getElementById('cve-table').innerHTML = renderCveDb(filtered, 1);
+  currentCveQuery = q;
+  currentCvePage = 1;
+  const filtered = getFilteredCves();
+  document.getElementById('cve-table').innerHTML =
+    renderCveToolbar(filtered.length) +
+    renderCveDb(filtered, 1) +
+    renderCvePagination(filtered.length);
+}
+
+function doFilter(v) {
+  currentCveFilter = v;
+  currentCvePage = 1;
+  const filtered = getFilteredCves();
+  document.getElementById('cve-table').innerHTML =
+    renderCveToolbar(filtered.length) +
+    renderCveDb(filtered, 1) +
+    renderCvePagination(filtered.length);
 }
 
 function renderCveSummary(data) {
@@ -462,11 +531,11 @@ async function init() {
     // CVE DB tab
     renderCveSummary(CVE_DATA);
     const cves = CVE_DATA.cves || [];
-    document.getElementById('cve-table').innerHTML = `
-      <input id="search" type="text" placeholder="Search CVE ID, component, bug ID..." oninput="doSearch(this.value)"/>
-      ${renderCveDb(cves, 1)}
-      <div class="pagination">${renderCvePagination(cves.length)}</div>
-    `;
+    currentCvePage = 1;
+    document.getElementById('cve-table').innerHTML =
+      renderCveToolbar(cves.length) +
+      renderCveDb(cves, 1) +
+      renderCvePagination(cves.length);
 
     // Asset tab
     try {
