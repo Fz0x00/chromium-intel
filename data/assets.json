@@ -1,19 +1,30 @@
 {
-  "scan_time": "2026-07-01T09:30:37Z",
+  "scan_time": "2026-07-02T08:43:25Z",
   "source": "hunter-ci",
   "platform": "mixed",
-  "total_apps": 1,
+  "total_apps": 2,
   "apps": [
     {
-      "app_name": "Claude",
-      "app_version": "1.17377.1",
-      "app_path": "/tmp/hunter-1462839986/extracted/Claude.app",
+      "app_name": "Rocket.Chat",
+      "app_version": "4.15.1",
+      "app_path": "/tmp/hunter-1574282383/extracted/Rocket.Chat.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.271",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-1462839986/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-1574282383/extracted/Rocket.Chat.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+    },
+    {
+      "app_name": "Claude",
+      "app_version": "1.17377.2",
+      "app_path": "/tmp/hunter-467025578/extracted/Claude.app",
+      "framework": "electron",
+      "framework_name": "Electron Framework",
+      "detection": "directory",
+      "chromium_version": "148.0.7778.271",
+      "extraction_method": "binary_strings",
+      "binary_path": "/tmp/hunter-467025578/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     }
   ]
 }
