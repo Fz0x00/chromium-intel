@@ -1,30 +1,19 @@
 {
-  "scan_time": "2026-07-07T09:25:19Z",
+  "scan_time": "2026-07-08T08:09:18Z",
   "source": "hunter-ci",
   "platform": "mixed",
-  "total_apps": 2,
+  "total_apps": 1,
   "apps": [
     {
       "app_name": "Claude",
-      "app_version": "1.18286.2",
-      "app_path": "/tmp/hunter-3244168426/extracted/Claude.app",
+      "app_version": "1.19367.0",
+      "app_path": "/tmp/hunter-2572994082/extracted/Claude.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.271",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-3244168426/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
-    },
-    {
-      "app_name": "Beekeeper Studio",
-      "app_version": "5.9.1",
-      "app_path": "/tmp/hunter-947103709/extracted/Beekeeper Studio.app",
-      "framework": "electron",
-      "framework_name": "Electron Framework",
-      "detection": "directory",
-      "chromium_version": "142.0.7444.265",
-      "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-947103709/extracted/Beekeeper Studio.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2572994082/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     }
   ]
 }
