@@ -1,19 +1,19 @@
 {
-  "scan_time": "2026-07-08T08:09:18Z",
+  "scan_time": "2026-07-09T09:22:56Z",
   "source": "hunter-ci",
   "platform": "mixed",
   "total_apps": 1,
   "apps": [
     {
-      "app_name": "Claude",
-      "app_version": "1.19367.0",
-      "app_path": "/tmp/hunter-2572994082/extracted/Claude.app",
+      "app_name": "MongoDB Compass",
+      "app_version": "1.49.11",
+      "app_path": "/tmp/hunter-2373972736/extracted/MongoDB Compass.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
-      "chromium_version": "148.0.7778.271",
+      "chromium_version": "146.0.7680.166",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2572994082/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2373972736/extracted/MongoDB Compass.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     }
   ]
 }
