@@ -1,19 +1,30 @@
 {
-  "scan_time": "2026-07-09T09:22:56Z",
+  "scan_time": "2026-07-10T09:28:05Z",
   "source": "hunter-ci",
   "platform": "mixed",
-  "total_apps": 1,
+  "total_apps": 2,
   "apps": [
     {
-      "app_name": "MongoDB Compass",
-      "app_version": "1.49.11",
-      "app_path": "/tmp/hunter-2373972736/extracted/MongoDB Compass.app",
+      "app_name": "Rocket.Chat",
+      "app_version": "4.15.3",
+      "app_path": "/tmp/hunter-1632301239/extracted/Rocket.Chat.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
-      "chromium_version": "146.0.7680.166",
+      "chromium_version": "148.0.7778.271",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2373972736/extracted/MongoDB Compass.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-1632301239/extracted/Rocket.Chat.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+    },
+    {
+      "app_name": "Claude",
+      "app_version": "1.20186.0",
+      "app_path": "/tmp/hunter-2209870521/extracted/Claude.app",
+      "framework": "electron",
+      "framework_name": "Electron Framework",
+      "detection": "directory",
+      "chromium_version": "148.0.7778.271",
+      "extraction_method": "binary_strings",
+      "binary_path": "/tmp/hunter-2209870521/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     }
   ]
 }
