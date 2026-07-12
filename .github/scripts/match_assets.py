@@ -70,12 +70,67 @@ def is_desktop_cve(cve):
     return True
 
 
-def classify(cve, fixed_ver):
-    """分类 CVE 优先级"""
+def classify(cve, fixed_ver, app_chromium_ver=''):
+    """分类 CVE 优先级，带 exploitability confidence
+
+    confidence 分级:
+      VERIFIED — exploit 在此 app 版本上已验证通过
+      LIKELY   — 组件匹配 + 有公开 PoC/补丁/已验证数据
+      RANGE    — 仅 CVE 版本号在范围内，无额外 exploit 证据
+
+    版本粒度感知：
+      对于 Blink/Skia/ANGLE 等与 Chromium release 同步的组件，
+      Chromium 版本匹配即视为充分。对于 V8 等独立开发的组件，
+      需要 V8 特定版本验证。
+    """
     in_kev = cve.get('in_kev', False)
     in_wild = cve.get('in_the_wild', False)
     has_poc = cve.get('has_public_exploit', False)
     has_patch = bool(cve.get('bug_url') or cve.get('gerrit_url'))
+
+    exploit_intel = cve.get('exploit_intel', {})
+    exploit_status = exploit_intel.get('exploit_status', {})
+    v8_range = exploit_intel.get('v8_exploit_range', {})
+    # exploit-intel 可覆盖自动标记的 granularity
+    granularity = exploit_intel.get('version_granularity') or cve.get('version_granularity', 'chromium')
+    is_exploit_verified = exploit_status.get('level', '') in ('VERIFIED', 'VERIFIED_PARTIAL')
+    tested_apps = exploit_intel.get('tested_apps', [])
+
+    # 判断此 app 是否在已验证/已失败的版本上
+    app_verified = False
+    app_bad = False
+
+    for ta in tested_apps:
+        ta_ver = ta.get('chromium', '')
+        # 模糊匹配：app chromium 版本以 tested 版本开头（如 "134.0.6998.88" 匹配 "134"）
+        if ta_ver and (app_chromium_ver or '').startswith(ta_ver):
+            result_lower = ta.get('result', '').lower()
+            if any(w in result_lower for w in ('not triggered', 'too old', 'patched', 'does not')):
+                app_bad = True
+            elif any(w in result_lower for w in ('verified', 'works', 'confirmed')):
+                app_verified = True
+
+    # Assign confidence based on granularity
+    if granularity == 'chromium':
+        # Blink/Skia/ANGLE 等：Chromium 版本匹配就够
+        if is_exploit_verified and not app_bad:
+            confidence = 'VERIFIED'
+        elif is_exploit_verified:
+            confidence = 'LIKELY'
+        elif has_poc or has_patch:
+            confidence = 'LIKELY'
+        else:
+            confidence = 'RANGE'
+    else:
+        # V8 等独立开发组件：需要 V8 版本级别验证
+        if app_verified:
+            confidence = 'VERIFIED'
+        elif is_exploit_verified and not app_bad:
+            confidence = 'LIKELY'
+        elif has_poc or has_patch:
+            confidence = 'LIKELY'
+        else:
+            confidence = 'RANGE'
 
     if in_kev:
         priority = 'CRITICAL'
@@ -89,10 +144,12 @@ def classify(cve, fixed_ver):
     result = {
         'id': cve['id'],
         'priority': priority,
+        'confidence': confidence,
         'in_kev': in_kev,
         'in_the_wild': in_wild,
         'has_poc': has_poc,
         'has_patch': has_patch,
+        'app_exploit_verified': app_verified,
         'component': cve.get('component', 'Unknown'),
         'published': cve.get('published', '')[:10],
         'description': (cve.get('description', '') or '')[:200],
@@ -101,6 +158,11 @@ def classify(cve, fixed_ver):
         'bug_url': cve.get('bug_url', ''),
         'gerrit_url': cve.get('gerrit_url', ''),
     }
+    if is_exploit_verified:
+        result['v8_range'] = v8_range.get('description', '')
+        result['v8_note'] = cve.get('exploitability', {}).get('v8_note', '')
+    if app_bad:
+        result['v8_note'] = 'Exploit verified elsewhere but version behavior differs on this app'
     if has_poc:
         refs = cve.get('exploit_refs', [])
         if refs:
@@ -145,13 +207,15 @@ def main():
 
         matched = []
         counts = {'CRITICAL': 0, 'HIGH': 0, 'PATCH': 0, 'OTHER': 0}
+        confidence_counts = {'VERIFIED': 0, 'LIKELY': 0, 'RANGE': 0}
         top_cves = []
 
         for cve in desktop_cves:
             if cmp_ver(cv, cve['_fixed']) < 0:
-                mc = classify(cve, cve['_fixed'])
+                mc = classify(cve, cve['_fixed'], cv)
                 matched.append(mc)
                 counts[mc['priority']] += 1
+                confidence_counts[mc['confidence']] += 1
                 if mc['priority'] in ('CRITICAL', 'HIGH'):
                     top_cves.append(mc)
 
@@ -169,6 +233,9 @@ def main():
             'critical': counts['CRITICAL'],
             'high': counts['HIGH'],
             'has_patch': counts['PATCH'],
+            'exploit_verified': confidence_counts['VERIFIED'],
+            'exploit_likely': confidence_counts['LIKELY'],
+            'exploit_range_only': confidence_counts['RANGE'],
             'top_cves': top_cves[:50],
         })
 
@@ -181,6 +248,7 @@ def main():
         'total_apps': len(results),
         'total_critical': sum(r['critical'] for r in results),
         'total_high': sum(r['high'] for r in results),
+        'total_verified': sum(r['exploit_verified'] for r in results),
         'apps': results,
     }
 
@@ -190,10 +258,16 @@ def main():
     print(f"  Apps: {len(results)}")
     print(f"  Critical (CISA KEV): {output['total_critical']}")
     print(f"  High (in-the-wild): {output['total_high']}")
+    print(f"  Exploit verified: {output['total_verified']}")
+    print(f"\nExploitability confidence breakdown:")
+    print(f"  VERIFIED = exploit confirmed on this V8 version")
+    print(f"  LIKELY   = component match + public PoC/patch exists")
+    print(f"  RANGE    = in CVE version range only, no exploit validation")
     print(f"\nTop 5 at-risk apps:")
     for r in results[:5]:
         print(f"  {r['app_name']:24s} Chromium {r['chromium_version']:18s} "
-              f"CRIT={r['critical']} HIGH={r['high']} TOTAL={r['total_cves']}")
+              f"CRIT={r['critical']} HIGH={r['high']} "
+              f"VERIF={r['exploit_verified']} LIKELY={r['exploit_likely']} RANGE={r['exploit_range_only']}")
 
 
 if __name__ == '__main__':

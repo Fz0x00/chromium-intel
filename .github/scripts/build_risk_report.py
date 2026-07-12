@@ -9,6 +9,11 @@ from pathlib import Path
 # 组件分类：是否影响 Electron/CEF
 SHARED_COMPONENTS = {
     'v8': 'V8',
+    'turboshaft': 'TurboShaft',
+    'turbofan': 'TurboFan',
+    'maglev': 'MagLev',
+    'sparkplug': 'Sparkplug',
+    'liftoff': 'Liftoff',
     'skia': 'Skia',
     'blink': 'Blink',
     'webrtc': 'WebRTC',
@@ -86,13 +91,49 @@ SHARED_COMPONENTS = {
     'heap': 'Heap',
     'garbage collection': 'GC',
     'jit': 'JIT',
-    'turbofan': 'TurboFan',
-    'maglev': 'MagLev',
-    'sparkplug': 'Sparkplug',
     'regexp': 'RegExp',
     'intl': 'Intl',
     'wasm gc': 'WasmGC',
 }
+
+# 组件版本粒度：标记哪些组件独立于 Chromium release 开发，
+# 需要比 Chromium 版本更细的跟踪粒度
+COMPONENT_GRANULARITY = {
+    # V8 及其子编译器 — 独立仓库，tip-of-tree 开发，cherry-pick 进 Chromium
+    'V8':           {'granularity': 'v8',       'note': 'V8 independently developed; same Chromium version may have different V8 snapshots across Chrome/Electron/self-built'},
+    'TurboShaft':   {'granularity': 'v8',       'note': 'V8 sub-compiler'},
+    'TurboFan':     {'granularity': 'v8',       'note': 'V8 sub-compiler'},
+    'MagLev':       {'granularity': 'v8',       'note': 'V8 sub-compiler'},
+    'Sparkplug':    {'granularity': 'v8',       'note': 'V8 sub-compiler'},
+    'Liftoff':      {'granularity': 'v8',       'note': 'V8 sub-compiler'},
+    'RegExp':       {'granularity': 'v8',       'note': 'V8 sub-component'},
+    'Intl':         {'granularity': 'v8',       'note': 'V8 sub-component'},
+    'JIT':          {'granularity': 'v8',       'note': 'V8 JIT infrastructure'},
+    'GC':           {'granularity': 'v8',       'note': 'V8 garbage collector'},
+    'Heap':         {'granularity': 'v8',       'note': 'V8 heap management'},
+    'WasmGC':       {'granularity': 'v8',       'note': 'V8 Wasm GC'},
+
+    # 可能有独立发布节奏的组件
+    'ANGLE':        {'granularity': 'angle',    'note': 'ANGLE has own repo but typically syncs with Chromium milestones'},
+    'Dawn':         {'granularity': 'dawn',     'note': 'Dawn/WebGPU has independent development pace'},
+    'WebRTC':       {'granularity': 'webrtc',   'note': 'WebRTC has separate release branches'},
+    'PDFium':       {'granularity': 'pdfium',   'note': 'PDFium has own repo, may lag Chromium releases'},
+    'FFmpeg':       {'granularity': 'ffmpeg',   'note': 'FFmpeg versioned independently'},
+    'FreeType':     {'granularity': 'freetype', 'note': 'FreeType versioned independently'},
+    'HarfBuzz':     {'granularity': 'harfbuzz', 'note': 'HarfBuzz versioned independently'},
+
+    # 默认：与 Chromium release 同步的组件
+    # Blink, Skia, Mojo, IPC, Network, GPU, CSS, DOM, HTML, 
+    # WebGPU, WebGL, WebAssembly, Canvas, WebAudio, IndexedDB,
+    # ServiceWorker, ScreenCapture, WebXR, PictureInPicture,
+    # Fullscreen, Notifications, Permissions, Navigation, Loader,
+    # Media, Video, Audio, Speech, Camera, Clipboard, FileSystem,
+    # Storage, Cache, Cookie, DevTools, Vulkan, OpenGL, Metal 等
+    # → 所有未显式列出的组件使用默认 granularity='chromium'
+}
+
+# 默认 granularity
+DEFAULT_GRANULARITY = 'chromium'
 
 CHROME_ONLY = {
     'extensions': 'Extensions',
@@ -267,6 +308,14 @@ def build_risk_report():
     version_history = load_json('data/version-history.json')
     gerrit_cache = load_json('data/gerrit-cache.json')
     
+    # 加载 exploit 情报数据库（已验证/已测试的 exploit 信息）
+    exploit_intel_data = load_json('data/exploit-intel.json')
+    exploit_intel_by_cve = {}
+    if isinstance(exploit_intel_data, list):
+        for ei in exploit_intel_data:
+            exploit_intel_by_cve[ei['cve_id']] = ei
+    print(f"  Exploit intel: {len(exploit_intel_by_cve)} entries")
+    
     cves = chromium_cves.get('cves', [])
     kev_list = kev.get('kev', [])
     releases_list = releases.get('releases', [])
@@ -328,8 +377,31 @@ def build_risk_report():
         cve['component'] = comp
         cve['component_type'] = comp_type
         
+        # 自动设置版本追踪粒度（基于组件类型）
+        if comp_type == 'shared' and comp in COMPONENT_GRANULARITY:
+            cve['version_granularity'] = COMPONENT_GRANULARITY[comp]['granularity']
+            cve['granularity_note'] = COMPONENT_GRANULARITY[comp]['note']
+        else:
+            cve['version_granularity'] = DEFAULT_GRANULARITY
+        
         # Exploit 性评估
         cve['exploitability'] = assess_exploitability(cve)
+        
+        # 合并 exploit 情报：已验证的 exploit 数据
+        ei = exploit_intel_by_cve.get(cve_id)
+        if ei:
+            cve['exploit_intel'] = {
+                'version_granularity': ei.get('version_granularity', 'chromium'),
+                'exploit_status': ei.get('exploit_status', {}),
+                'v8_exploit_range': ei.get('v8_exploit_range', {}),
+                'exploit_chain': ei.get('exploit_chain', {}),
+                'tested_apps': ei.get('tested_apps', []),
+                'key_findings': ei.get('key_findings', []),
+            }
+            # 提升 exploitability 级别（如有验证数据）
+            if ei.get('exploit_status', {}).get('level') == 'VERIFIED_PARTIAL':
+                cve['exploitability']['verified_exploit'] = True
+                cve['exploitability']['v8_note'] = 'Exploit verified on V8 13.9 d8; V8 13.4 does not trigger same SSE behavior'
     
     print(f"  Enriched {gerrit_count} CVEs with Gerrit links")
     
@@ -343,7 +415,7 @@ def build_risk_report():
     for cve in cves:
         for key in list(cve.keys()):
             if cve[key] is None or cve[key] == '' or cve[key] == [] or cve[key] == 0:
-                if key not in ('cvss', 'risk_score'):
+                if key not in ('cvss', 'risk_score', 'version_granularity', 'granularity_note'):
                     del cve[key]
     
     # Summary
@@ -352,6 +424,8 @@ def build_risk_report():
         'in_kev': sum(1 for c in cves if c.get('in_kev')),
         'in_the_wild': sum(1 for c in cves if c.get('in_the_wild')),
         'has_public_exploit': sum(1 for c in cves if c.get('has_public_exploit')),
+        'has_exploit_intel': sum(1 for c in cves if c.get('exploit_intel')),
+        'exploit_verified': sum(1 for c in cves if c.get('exploitability', {}).get('verified_exploit')),
         'by_exploitability': {},
         'by_component': {},
         'shared_components': sum(1 for c in cves if c.get('component_type') == 'shared'),
@@ -361,8 +435,11 @@ def build_risk_report():
     for cve in cves:
         level = cve.get('exploitability', {}).get('level', 'Unknown')
         comp = cve.get('component', 'Unknown')
+        gran = cve.get('version_granularity', 'chromium')
         summary['by_exploitability'][level] = summary['by_exploitability'].get(level, 0) + 1
         summary['by_component'][comp] = summary['by_component'].get(comp, 0) + 1
+        summary['by_granularity'] = summary.get('by_granularity', {})
+        summary['by_granularity'][gran] = summary['by_granularity'].get(gran, 0) + 1
     
     # Save - compact format for smaller file size
     output_dir = Path('data')
@@ -384,9 +461,15 @@ def build_risk_report():
         if count:
             print(f"  {level:25s}: {count}")
     print(f"  {'Public PoC/Exploit':25s}: {summary['has_public_exploit']}")
+    print(f"  {'Exploit Intel entries':25s}: {summary.get('has_exploit_intel', 0)}")
+    print(f"  {'Exploit verified':25s}: {summary.get('exploit_verified', 0)}")
     print(f"\nTop Components (shared vs chrome-only):")
     print(f"  Shared components: {summary['shared_components']}")
     print(f"  Chrome-specific:   {summary['chrome_specific']}")
+    print(f"\nVersion granularity:")
+    by_gran = summary.get('by_granularity', {})
+    for gran in sorted(by_gran.keys()):
+        print(f"  {gran:20s}: {by_gran[gran]}")
     
     return report
 

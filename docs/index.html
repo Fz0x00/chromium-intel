@@ -119,6 +119,7 @@
     <button class="tab" onclick="showTab('cve-db')">CVE Database</button>
     <button class="tab" onclick="showTab('versions')">Version Distribution</button>
     <button class="tab" onclick="showTab('timeline')">Timeline</button>
+    <button class="tab" onclick="showTab('downloads')">Downloads</button>
   </div>
 
   <div id="tab-assets" class="tab-content active">
@@ -137,6 +138,10 @@
 
   <div id="tab-timeline" class="tab-content">
     <div id="timeline-view"></div>
+  </div>
+
+  <div id="tab-downloads" class="tab-content">
+    <div id="downloads-view"></div>
   </div>
 
 <script>
@@ -552,6 +557,178 @@ async function init() {
 }
 
 init();
+
+// ===================== DOWNLOADS TAB =====================
+function renderDownloads() {
+  const html = `
+    <div style="margin-bottom:24px">
+      <h2 style="color:#1a73e8;margin-bottom:16px">Chromium Ecosystem Downloads</h2>
+      <p style="color:#5f6368;font-size:14px;margin-bottom:20px">Prebuilt binaries for vulnerability research, CTF, and development.</p>
+    </div>
+
+    <!-- d8 (V8 Developer Shell) -->
+    <div class="detail-header" style="margin-bottom:16px">
+      <h2 style="color:#1a73e8;margin-bottom:8px">d8 - V8 Developer Shell</h2>
+      <div class="meta" style="margin-bottom:12px">V8's interactive developer shell for debugging and vulnerability research.</div>
+      
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px">
+        <div style="background:#f8f9fa;padding:16px;border-radius:8px;border:1px solid #dadce0">
+          <h3 style="color:#1a73e8;margin-bottom:8px;font-size:16px">Debug Build (Recommended)</h3>
+          <p style="color:#5f6368;font-size:12px;margin-bottom:12px">Full debug symbols, sandbox disabled, optimized for vulnerability research.</p>
+          <div style="margin-bottom:12px">
+            <span class="badge b-critical" style="margin-right:8px">is_debug = true</span>
+            <span class="badge b-high" style="margin-right:8px">symbol_level = 2</span>
+            <span class="badge b-patch">v8_enable_sandbox = false</span>
+          </div>
+          <div style="display:flex;gap:8px;flex-wrap:wrap">
+            <a href="https://github.com/Fz0x00/v8-d8-builder/releases" target="_blank" style="display:inline-block;padding:8px 16px;background:#1a73e8;color:white;border-radius:4px;font-size:13px;font-weight:500;text-decoration:none">Download Debug d8</a>
+            <a href="https://github.com/Fz0x00/v8-d8-builder" target="_blank" style="display:inline-block;padding:8px 16px;background:white;color:#1a73e8;border:1px solid #1a73e8;border-radius:4px;font-size:13px;font-weight:500;text-decoration:none">Build Your Own</a>
+          </div>
+        </div>
+        
+        <div style="background:#f8f9fa;padding:16px;border-radius:8px;border:1px solid #dadce0">
+          <h3 style="color:#137333;margin-bottom:8px;font-size:16px">Release Build (Official)</h3>
+          <p style="color:#5f6368;font-size:12px;margin-bottom:12px">Google's official canary builds. Release version, not suitable for vulnerability testing.</p>
+          <div style="margin-bottom:12px">
+            <span class="badge b-patch-ev" style="margin-right:8px">is_debug = false</span>
+            <span class="badge b-other">Official Canary</span>
+          </div>
+          <div style="display:flex;gap:8px;flex-wrap:wrap">
+            <a href="https://storage.googleapis.com/chromium-v8/official/canary/" target="_blank" style="display:inline-block;padding:8px 16px;background:#137333;color:white;border-radius:4px;font-size:13px;font-weight:500;text-decoration:none">Download Release d8</a>
+          </div>
+        </div>
+      </div>
+      
+      <div style="margin-top:16px;padding:12px;background:#fff8e1;border:1px solid #f9ab00;border-radius:8px">
+        <strong style="color:#b06000">Why Debug Build?</strong>
+        <p style="color:#5f6368;font-size:12px;margin-top:4px">Debug builds include full symbols, disable sandbox, and disable optimizations - essential for vulnerability analysis and exploit development.</p>
+      </div>
+    </div>
+
+    <!-- V8 JavaScript Engine -->
+    <div class="detail-header" style="margin-bottom:16px">
+      <h2 style="color:#1a73e8;margin-bottom:8px">V8 JavaScript Engine</h2>
+      <div class="meta" style="margin-bottom:12px">High-performance JavaScript and WebAssembly engine powering Chrome and Node.js.</div>
+      
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px">
+        <div style="background:#f8f9fa;padding:16px;border-radius:8px;border:1px solid #dadce0">
+          <h3 style="color:#1a73e8;margin-bottom:8px;font-size:16px">Prebuilt Libraries</h3>
+          <p style="color:#5f6368;font-size:12px;margin-bottom:12px">Static and shared libraries for embedding V8 in your applications.</p>
+          <div style="display:flex;flex-direction:column;gap:8px">
+            <a href="https://github.com/denoland/rusty_v8/releases" target="_blank" style="display:inline-block;padding:8px 16px;background:#1a73e8;color:white;border-radius:4px;font-size:13px;font-weight:500;text-decoration:none;text-align:center">Rust V8 Bindings (denoland/rusty_v8)</a>
+            <a href="https://github.com/kuoruan/libv8/releases" target="_blank" style="display:inline-block;padding:8px 16px;background:white;color:#1a73e8;border:1px solid #1a73e8;border-radius:4px;font-size:13px;font-weight:500;text-decoration:none;text-align:center">V8 Static Libraries (kuoruan/libv8)</a>
+          </div>
+        </div>
+        
+        <div style="background:#f8f9fa;padding:16px;border-radius:8px;border:1px solid #dadce0">
+          <h3 style="color:#1a73e8;margin-bottom:8px;font-size:16px">Build From Source</h3>
+          <p style="color:#5f6368;font-size:12px;margin-bottom:12px">Compile V8 with custom configurations using Docker.</p>
+          <div style="display:flex;flex-direction:column;gap:8px">
+            <a href="https://github.com/var77/v8-docker-build" target="_blank" style="display:inline-block;padding:8px 16px;background:white;color:#1a73e8;border:1px solid #1a73e8;border-radius:4px;font-size:13px;font-weight:500;text-decoration:none;text-align:center">Docker Build Tool (var77/v8-docker-build)</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Chromium Browser -->
+    <div class="detail-header" style="margin-bottom:16px">
+      <h2 style="color:#1a73e8;margin-bottom:8px">Chromium Browser</h2>
+      <div class="meta" style="margin-bottom:12px">Open-source browser project forming the basis of Google Chrome.</div>
+      
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px">
+        <div style="background:#f8f9fa;padding:16px;border-radius:8px;border:1px solid #dadce0">
+          <h3 style="color:#1a73e8;margin-bottom:8px;font-size:16px">Official Downloads</h3>
+          <p style="color:#5f6368;font-size:12px;margin-bottom:12px">Latest Chromium builds from official sources.</p>
+          <div style="display:flex;flex-direction:column;gap:8px">
+            <a href="https://download-chromium.appspot.com/" target="_blank" style="display:inline-block;padding:8px 16px;background:#1a73e8;color:white;border-radius:4px;font-size:13px;font-weight:500;text-decoration:none;text-align:center">Chromium snapshots (download-chromium.appspot.com)</a>
+            <a href="https://www.googleapis.com/download/chromium/snapshots/" target="_blank" style="display:inline-block;padding:8px 16px;background:white;color:#1a73e8;border:1px solid #1a73e8;border-radius:4px;font-size:13px;font-weight:500;text-decoration:none;text-align:center">Chromium snapshots (googleapis)</a>
+          </div>
+        </div>
+        
+        <div style="background:#f8f9fa;padding:16px;border-radius:8px;border:1px solid #dadce0">
+          <h3 style="color:#1a73e8;margin-bottom:8px;font-size:16px">Chrome for Testing</h3>
+          <p style="color:#5f6368;font-size:12px;margin-bottom:12px">Special Chrome builds designed for automated testing.</p>
+          <div style="display:flex;flex-direction:column;gap:8px">
+            <a href="https://googlechromelabs.github.io/chrome-for-testing/" target="_blank" style="display:inline-block;padding:8px 16px;background:white;color:#1a73e8;border:1px solid #1a73e8;border-radius:4px;font-size:13px;font-weight:500;text-decoration:none;text-align:center">Chrome for Testing (stable/dev/canary)</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Google Chrome -->
+    <div class="detail-header" style="margin-bottom:16px">
+      <h2 style="color:#1a73e8;margin-bottom:8px">Google Chrome</h2>
+      <div class="meta" style="margin-bottom:12px">Google's proprietary web browser built on Chromium.</div>
+      
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px">
+        <div style="background:#f8f9fa;padding:16px;border-radius:8px;border:1px solid #dadce0">
+          <h3 style="color:#1a73e8;margin-bottom:8px;font-size:16px">Official Channels</h3>
+          <p style="color:#5f6368;font-size:12px;margin-bottom:12px">Download Chrome from official Google sources.</p>
+          <div style="display:flex;flex-direction:column;gap:8px">
+            <a href="https://www.google.com/chrome/" target="_blank" style="display:inline-block;padding:8px 16px;background:#1a73e8;color:white;border-radius:4px;font-size:13px;font-weight:500;text-decoration:none;text-align:center">Google Chrome (Stable)</a>
+            <a href="https://www.google.com/chrome/beta/" target="_blank" style="display:inline-block;padding:8px 16px;background:white;color:#1a73e8;border:1px solid #1a73e8;border-radius:4px;font-size:13px;font-weight:500;text-decoration:none;text-align:center">Chrome Beta</a>
+            <a href="https://www.google.com/chrome/canary/" target="_blank" style="display:inline-block;padding:8px 16px;background:white;color:#1a73e8;border:1px solid #1a73e8;border-radius:4px;font-size:13px;font-weight:500;text-decoration:none;text-align:center">Chrome Canary</a>
+          </div>
+        </div>
+        
+        <div style="background:#f8f9fa;padding:16px;border-radius:8px;border:1px solid #dadce0">
+          <h3 style="color:#1a73e8;margin-bottom:8px;font-size:16px">NPM Packages</h3>
+          <p style="color:#5f6368;font-size:12px;margin-bottom:12px">Install Chrome via npm for automation and testing.</p>
+          <div style="display:flex;flex-direction:column;gap:8px">
+            <code style="padding:8px 12px;background:#f1f3f4;border-radius:4px;font-size:12px;word-break:break-all">npx @puppeteer/browsers install chrome@stable</code>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Reference -->
+    <div class="detail-header">
+      <h2 style="color:#1a73e8;margin-bottom:8px">Quick Reference</h2>
+      <div class="meta" style="margin-bottom:12px">Common commands and links for quick access.</div>
+      
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(400px,1fr));gap:16px">
+        <div>
+          <h3 style="color:#5f6368;font-size:14px;margin-bottom:8px">Download Commands</h3>
+          <div style="background:#f1f3f4;padding:12px;border-radius:6px;font-family:monospace;font-size:12px;line-height:1.6">
+            <div style="margin-bottom:8px"><strong style="color:#1a73e8">Chromium (latest):</strong></div>
+            <code>npx @puppeteer/browsers install chrome@stable</code><br>
+            <code>curl -L https://download-chromium.appspot.com/dl/Linux_x64 -o chromium.zip</code>
+            
+            <div style="margin:12px 0 8px"><strong style="color:#1a73e8">d8 (debug build):</strong></div>
+            <code>gh release download v8-609a85c-debug -R Fz0x00/v8-d8-builder</code>
+            
+            <div style="margin:12px 0 8px"><strong style="color:#1a73e8">d8 (official canary):</strong></div>
+            <code>curl -L https://storage.googleapis.com/chromium-v8/official/canary/v8-linux64-rel-*.zip -o d8.zip</code>
+          </div>
+        </div>
+        
+        <div>
+          <h3 style="color:#5f6368;font-size:14px;margin-bottom:8px">Version Checking</h3>
+          <div style="background:#f1f3f4;padding:12px;border-radius:6px;font-family:monospace;font-size:12px;line-height:1.6">
+            <div style="margin-bottom:8px"><strong style="color:#1a73e8">Check Chromium version:</strong></div>
+            <code>chromium --version</code><br>
+            <code>chrome --version</code>
+            
+            <div style="margin:12px 0 8px"><strong style="color:#1a73e8">Check d8 version:</strong></div>
+            <code>./d8 --version</code><br>
+            <code>./d8 -e "print(%JavaScriptEngineVersion())"</code>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+  
+  document.getElementById('downloads-view').innerHTML = html;
+}
+
+// Call renderDownloads when Downloads tab is shown
+const originalShowTab = showTab;
+showTab = function(name) {
+  originalShowTab(name);
+  if (name === 'downloads') {
+    renderDownloads();
+  }
+};
 </script>
 </body>
 </html>
