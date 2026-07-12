@@ -19254,5 +19254,249 @@
     "cl_number": 7870210,
     "subject": "[MediaRouter] Prevent silent escalation to desktop capture in JoinRoute",
     "commit_message": ""
+  },
+  "407283320": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7997505",
+    "cl_number": 7997505,
+    "subject": "[WebApps] Add customized max shrinkage tolerance for PWA dialogs",
+    "commit_message": ""
+  },
+  "492218546": null,
+  "492410546": null,
+  "497543485": null,
+  "499006005": null,
+  "499047960": null,
+  "500305404": null,
+  "500476886": null,
+  "500505046": null,
+  "503054174": null,
+  "506212452": null,
+  "508265321": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7892127",
+    "cl_number": 7892127,
+    "subject": "Roll Dawn from fba3df91f24c to 836ae06d5a90 (14 revisions)",
+    "commit_message": ""
+  },
+  "511255112": null,
+  "511263221": null,
+  "511290389": null,
+  "511737097": null,
+  "511772608": null,
+  "512995785": null,
+  "513006745": null,
+  "513010645": null,
+  "513048822": null,
+  "513051340": null,
+  "513298483": null,
+  "513337989": null,
+  "513376037": null,
+  "513435594": null,
+  "513586956": null,
+  "513631768": null,
+  "513810921": null,
+  "513836996": null,
+  "513919827": null,
+  "513920834": null,
+  "513922055": null,
+  "513948227": null,
+  "515086856": null,
+  "515428315": null,
+  "516649133": null,
+  "516865345": null,
+  "516981393": null,
+  "517031505": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7900346",
+    "cl_number": 7900346,
+    "subject": "Roll Dawn from f07acaa26bce to 42702d6dd0a2 (38 revisions)",
+    "commit_message": ""
+  },
+  "517033235": null,
+  "517225032": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7904506",
+    "cl_number": 7904506,
+    "subject": "Roll Dawn from 7911eba5ca00 to 78a171ad2ed7 (5 revisions)",
+    "commit_message": ""
+  },
+  "517522769": null,
+  "517692772": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7906599",
+    "cl_number": 7906599,
+    "subject": "Roll Dawn from d6ac7662810e to 23cf554e645f (5 revisions)",
+    "commit_message": ""
+  },
+  "517935753": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7921710",
+    "cl_number": 7921710,
+    "subject": "Roll ANGLE from 464cb960322f to f37094693736 (2 revisions)",
+    "commit_message": ""
+  },
+  "517981277": null,
+  "520113415": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7908150",
+    "cl_number": 7908150,
+    "subject": "Roll Skia from 01e9da83b6e5 to 43f135735152 (2 revisions)",
+    "commit_message": ""
+  },
+  "520180257": null,
+  "520571816": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7909397",
+    "cl_number": 7909397,
+    "subject": "Roll Skia from c1dde7b58569 to 688ca258abd6 (4 revisions)",
+    "commit_message": ""
+  },
+  "522126182": null,
+  "523884658": null,
+  "524290062": null,
+  "503553615": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8031487",
+    "cl_number": 8031487,
+    "subject": "[7827_199] InspectorIndexedDBAgent must not use v8_session_ after disposal",
+    "commit_message": ""
+  },
+  "516899138": null,
+  "516948486": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7998278",
+    "cl_number": 7998278,
+    "subject": "[M149] [Extensions] Fix UAF in AppWindow::SetNativeWindowFullscreen",
+    "commit_message": ""
+  },
+  "517508651": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8031673",
+    "cl_number": 8031673,
+    "subject": "[M149] Handle widget destruction during Widget::SetCapture",
+    "commit_message": ""
+  },
+  "518006275": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7986787",
+    "cl_number": 7986787,
+    "subject": "ozone/wayland: Handle window destruction during surface configure",
+    "commit_message": ""
+  },
+  "520540744": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8047321",
+    "cl_number": 8047321,
+    "subject": "[M150] [Autofill] Clear native pointer in name fix-flow bridge",
+    "commit_message": ""
+  },
+  "520565945": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8021903",
+    "cl_number": 8021903,
+    "subject": "Fix AV1 hardware context invalidation on sequence tool flag changes",
+    "commit_message": ""
+  },
+  "520576676": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8031054",
+    "cl_number": 8031054,
+    "subject": "[M150] [PWA] Filter file-handling URIs based on caller permission",
+    "commit_message": ""
+  },
+  "522092013": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8025176",
+    "cl_number": 8025176,
+    "subject": "[7827_199] Fix Use-After-Free in actor::ToolExecutor and ClickTool during Cancel",
+    "commit_message": ""
+  },
+  "522568496": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8031488",
+    "cl_number": 8031488,
+    "subject": "[7827_199] [SPC] Guard SPC Controller destruction during dialog close.",
+    "commit_message": ""
+  },
+  "523238265": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7957240",
+    "cl_number": 7957240,
+    "subject": "[M150] Extend weak self checks to more places in HandleInputEvent",
+    "commit_message": ""
+  },
+  "523505418": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8068778",
+    "cl_number": 8068778,
+    "subject": "[M149] Abort pending AudioInputDeviceManager open when closed early",
+    "commit_message": ""
+  },
+  "523609602": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8035981",
+    "cl_number": 8035981,
+    "subject": "[7827_199] Guard against re-entrant RWHVA destruction",
+    "commit_message": ""
+  },
+  "523712556": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8036180",
+    "cl_number": 8036180,
+    "subject": "[7827_199] Add better handling of RtcVideoDecoderAdapter init timeout.",
+    "commit_message": ""
+  },
+  "523717219": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8035982",
+    "cl_number": 8035982,
+    "subject": "[7827_199] Cap H264 max_num_ref_frames_ by MaxLongTermReferences.",
+    "commit_message": ""
+  },
+  "523729553": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8036160",
+    "cl_number": 8036160,
+    "subject": "[7827_199] Recheck prerequisites when inserting multiple nodes into a Document.",
+    "commit_message": ""
+  },
+  "523735038": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8018562",
+    "cl_number": 8018562,
+    "subject": "[M148] Attempt to fix flakiness in SelectPasswordFallbackMetricsTest",
+    "commit_message": ""
+  },
+  "523737685": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8027718",
+    "cl_number": 8027718,
+    "subject": "[7827_199] Don't fire change event during mutations affecting disabledness",
+    "commit_message": ""
+  },
+  "523748081": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8027718",
+    "cl_number": 8027718,
+    "subject": "[7827_199] Don't fire change event during mutations affecting disabledness",
+    "commit_message": ""
+  },
+  "523752265": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8043150",
+    "cl_number": 8043150,
+    "subject": "[M150] WebGL: use per-caller resolvers for makeXRCompatible()",
+    "commit_message": ""
+  },
+  "523756329": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8027718",
+    "cl_number": 8027718,
+    "subject": "[7827_199] Don't fire change event during mutations affecting disabledness",
+    "commit_message": ""
+  },
+  "524045160": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8032002",
+    "cl_number": 8032002,
+    "subject": "[M144-LTS] [Views] avoid possible UAF in FocusManager",
+    "commit_message": ""
+  },
+  "526541544": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8031951",
+    "cl_number": 8031951,
+    "subject": "[7827_199] Restore CHECK for CanAccessOrigin().",
+    "commit_message": ""
+  },
+  "526542464": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8031292",
+    "cl_number": 8031292,
+    "subject": "[M150] content: Revert 5 reverted CHECKs",
+    "commit_message": ""
+  },
+  "527385397": null,
+  "527406824": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8063845",
+    "cl_number": 8063845,
+    "subject": "[M144] FLEDGE: fix lifetime reportWin's deprecatedUrl handler.",
+    "commit_message": ""
+  },
+  "515443146": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8036201",
+    "cl_number": 8036201,
+    "subject": "[7827_199] [DNR] Cap rulesets to 2GB to fix buffer overflow and indexing crashes",
+    "commit_message": ""
   }
 }
