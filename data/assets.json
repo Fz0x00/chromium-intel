@@ -1,10 +1,8 @@
 {
+  "scan_time": "2026-07-14T07:48:14Z",
+  "source": "hunter-ci",
   "platform": "macos",
-  "scan_time": "2026-06-30T18:16:23Z",
-  "source": "local",
-  "scope": "/Applications,/Users/fz/Applications",
-  "total_apps": 26,
-  "with_chromium_version": 26,
+  "total_apps": 30,
   "apps": [
     {
       "app_name": "BaiduNetdisk",
@@ -49,6 +47,17 @@
       "chromium_version": "146.0.7680.216",
       "extraction_method": "binary_strings",
       "binary_path": "/Applications/Clash Party.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+    },
+    {
+      "app_name": "Claude",
+      "app_version": "1.20186.9",
+      "app_path": "/tmp/hunter-2714607917/extracted/Claude.app",
+      "framework": "electron",
+      "framework_name": "Electron Framework",
+      "detection": "directory",
+      "chromium_version": "148.0.7778.271",
+      "extraction_method": "binary_strings",
+      "binary_path": "/tmp/hunter-2714607917/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "CodeBuddy CN",
@@ -126,6 +135,17 @@
       "binary_path": "/Applications/Lingma.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
+      "app_name": "Logseq",
+      "app_version": "2.0.1",
+      "app_path": "/tmp/hunter-2286716570/extracted/Logseq.app",
+      "framework": "electron",
+      "framework_name": "Electron Framework",
+      "detection": "directory",
+      "chromium_version": "148.0.7778.180",
+      "extraction_method": "binary_strings",
+      "binary_path": "/tmp/hunter-2286716570/extracted/Logseq.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+    },
+    {
       "app_name": "Notion",
       "app_version": "7.18.0",
       "app_path": "/Applications/Notion.app",
@@ -181,6 +201,28 @@
       "binary_path": "/Applications/Qianwen.app/Contents/Frameworks/Qianwen Framework.framework/Versions/3.1.5.19/Qianwen Framework"
     },
     {
+      "app_name": "Rocket.Chat",
+      "app_version": "4.15.4",
+      "app_path": "/tmp/hunter-2153718392/extracted/Rocket.Chat.app",
+      "framework": "electron",
+      "framework_name": "Electron Framework",
+      "detection": "directory",
+      "chromium_version": "148.0.7778.271",
+      "extraction_method": "binary_strings",
+      "binary_path": "/tmp/hunter-2153718392/extracted/Rocket.Chat.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+    },
+    {
+      "app_name": "SiYuan",
+      "app_version": "3.7.2",
+      "app_path": "/tmp/hunter-4109101398/extracted/SiYuan 3.7.2-arm64/SiYuan.app",
+      "framework": "electron",
+      "framework_name": "Electron Framework",
+      "detection": "directory",
+      "chromium_version": "148.0.7778.280",
+      "extraction_method": "binary_strings",
+      "binary_path": "/tmp/hunter-4109101398/extracted/SiYuan 3.7.2-arm64/SiYuan.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+    },
+    {
       "app_name": "TRAE SOLO CN",
       "app_version": "0.1.15",
       "app_path": "/Applications/TRAE SOLO CN.app",
@@ -203,17 +245,6 @@
       "binary_path": "/Applications/Tabbit.app/Contents/Frameworks/Tabbit Framework.framework/Versions/0.32.25.0/Tabbit Framework"
     },
     {
-      "app_name": "Trae CN",
-      "app_version": "3.3.69",
-      "app_path": "/Applications/Trae CN.app",
-      "framework": "electron",
-      "framework_name": "Electron Framework",
-      "detection": "directory",
-      "chromium_version": "142.0.7444.235",
-      "extraction_method": "binary_strings",
-      "binary_path": "/Applications/Trae CN.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
-    },
-    {
       "app_name": "Trae",
       "app_version": "3.5.55",
       "app_path": "/Applications/Trae.app",
@@ -223,6 +254,17 @@
       "chromium_version": "142.0.7444.235",
       "extraction_method": "binary_strings",
       "binary_path": "/Applications/Trae.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+    },
+    {
+      "app_name": "Trae CN",
+      "app_version": "3.3.69",
+      "app_path": "/Applications/Trae CN.app",
+      "framework": "electron",
+      "framework_name": "Electron Framework",
+      "detection": "directory",
+      "chromium_version": "142.0.7444.235",
+      "extraction_method": "binary_strings",
+      "binary_path": "/Applications/Trae CN.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Visual Studio Code",
