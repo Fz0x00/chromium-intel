@@ -19498,5 +19498,75 @@
     "cl_number": 8036201,
     "subject": "[7827_199] [DNR] Cap rulesets to 2GB to fix buffer overflow and indexing crashes",
     "commit_message": ""
+  },
+  "517100492": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8061517",
+    "cl_number": 8061517,
+    "subject": "[M144-LTS][ozone/wayland]Safely handle destruction during drag_finished_callback",
+    "commit_message": ""
+  },
+  "518007484": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8068557",
+    "cl_number": 8068557,
+    "subject": "[M144-LTS][Ozone/Wayland]Guard all delegate() calls with weak_this",
+    "commit_message": ""
+  },
+  "514010477": null,
+  "514748734": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8055124",
+    "cl_number": 8055124,
+    "subject": "Roll src/third_party/libyuv/ 3c5fa6ef2..8aeb3a9ca (16 commits)",
+    "commit_message": ""
+  },
+  "517931625": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8060065",
+    "cl_number": 8060065,
+    "subject": "[HiC-M150] Invalidate cached paint when content is moved into canvas",
+    "commit_message": ""
+  },
+  "519731111": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8061149",
+    "cl_number": 8061149,
+    "subject": "[M150] gtk: Sanitize theme and icon-theme names at write time",
+    "commit_message": ""
+  },
+  "524792614": null,
+  "525177160": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8078078",
+    "cl_number": 8078078,
+    "subject": "[M150] media: Validate source texture format in PerformD3DCopy",
+    "commit_message": ""
+  },
+  "525317502": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8068804",
+    "cl_number": 8068804,
+    "subject": "[M150] [agy][gpu] Fix FBO delete-while-bound bug",
+    "commit_message": ""
+  },
+  "527676561": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8074598",
+    "cl_number": 8074598,
+    "subject": "[M150] Guard against re-entrant destruction in CreateNewWindow",
+    "commit_message": ""
+  },
+  "530646115": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8054681",
+    "cl_number": 8054681,
+    "subject": "Roll Skia from c0e2b9667d91 to e5f9ed199543 (19 revisions)",
+    "commit_message": ""
+  },
+  "531319201": null,
+  "532595489": null,
+  "532929679": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8086914",
+    "cl_number": 8086914,
+    "subject": "[M150] [X11] Guard XDragDropClient and X11Window against destruction during DnD",
+    "commit_message": ""
+  },
+  "513795122": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8067416",
+    "cl_number": 8067416,
+    "subject": "[M150] Reject redirects from blob: URL navigations",
+    "commit_message": ""
   }
 }
