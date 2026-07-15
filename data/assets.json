@@ -1,9 +1,20 @@
 {
-  "scan_time": "2026-07-14T07:48:14Z",
+  "scan_time": "2026-07-15T07:52:02Z",
   "source": "hunter-ci",
   "platform": "macos",
-  "total_apps": 30,
+  "total_apps": 32,
   "apps": [
+    {
+      "app_name": "AFFiNE",
+      "app_version": "0.27.0",
+      "app_path": "/tmp/hunter-2341245635/extracted/AFFiNE.app",
+      "framework": "electron",
+      "framework_name": "Electron Framework",
+      "detection": "directory",
+      "chromium_version": "142.0.7444.265",
+      "extraction_method": "binary_strings",
+      "binary_path": "/tmp/hunter-2341245635/extracted/AFFiNE.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+    },
     {
       "app_name": "BaiduNetdisk",
       "app_version": "8.5.9",
@@ -50,14 +61,14 @@
     },
     {
       "app_name": "Claude",
-      "app_version": "1.20186.9",
-      "app_path": "/tmp/hunter-2714607917/extracted/Claude.app",
+      "app_version": "1.21459.0",
+      "app_path": "/tmp/hunter-3941626297/extracted/Claude.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.271",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2714607917/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-3941626297/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "CodeBuddy CN",
@@ -144,6 +155,17 @@
       "chromium_version": "148.0.7778.180",
       "extraction_method": "binary_strings",
       "binary_path": "/tmp/hunter-2286716570/extracted/Logseq.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+    },
+    {
+      "app_name": "MongoDB Compass",
+      "app_version": "1.49.12",
+      "app_path": "/tmp/hunter-3047420510/extracted/MongoDB Compass.app",
+      "framework": "electron",
+      "framework_name": "Electron Framework",
+      "detection": "directory",
+      "chromium_version": "146.0.7680.166",
+      "extraction_method": "binary_strings",
+      "binary_path": "/tmp/hunter-3047420510/extracted/MongoDB Compass.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Notion",
