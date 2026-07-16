@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-07-15T07:52:02Z",
+  "scan_time": "2026-07-16T07:57:10Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 32,
@@ -61,14 +61,14 @@
     },
     {
       "app_name": "Claude",
-      "app_version": "1.21459.0",
-      "app_path": "/tmp/hunter-3941626297/extracted/Claude.app",
+      "app_version": "1.21459.3",
+      "app_path": "/tmp/hunter-808765717/extracted/Claude.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.271",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-3941626297/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-808765717/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "CodeBuddy CN",
@@ -224,14 +224,14 @@
     },
     {
       "app_name": "Rocket.Chat",
-      "app_version": "4.15.4",
-      "app_path": "/tmp/hunter-2153718392/extracted/Rocket.Chat.app",
+      "app_version": "4.15.5",
+      "app_path": "/tmp/hunter-2743845050/extracted/Rocket.Chat.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.271",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2153718392/extracted/Rocket.Chat.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2743845050/extracted/Rocket.Chat.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "SiYuan",
