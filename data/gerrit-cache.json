@@ -19568,5 +19568,42 @@
     "cl_number": 8067416,
     "subject": "[M150] Reject redirects from blob: URL navigations",
     "commit_message": ""
+  },
+  "516987782": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8093784",
+    "cl_number": 8093784,
+    "subject": "[M151] [mac] Fix use-after-free in VideoCaptureDeviceApple Mojo callback",
+    "commit_message": ""
+  },
+  "523750584": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8092469",
+    "cl_number": 8092469,
+    "subject": "[7871_124] [agy][gpu] Fix active transform feedback buffer tracking",
+    "commit_message": ""
+  },
+  "533446300": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8084485",
+    "cl_number": 8084485,
+    "subject": "[M144-LTS] SimpleCache: fix problems with self-deletion in post-doom callbacks",
+    "commit_message": ""
+  },
+  "522436154": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8095283",
+    "cl_number": 8095283,
+    "subject": "[7871_124] [cast_streaming] Fix UaF in FrameInjectingDemuxer with intermediate obj",
+    "commit_message": ""
+  },
+  "531503216": null,
+  "532925350": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8091093",
+    "cl_number": 8091093,
+    "subject": "[7871_124] [Ozone/Wayland]Add window manager GetAllWindowsAsWeakPtr()",
+    "commit_message": ""
+  },
+  "532970574": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8093109",
+    "cl_number": 8093109,
+    "subject": "[7871_124] [aura] Guard against root window destruction in ScopedCursorHider",
+    "commit_message": ""
   }
 }
