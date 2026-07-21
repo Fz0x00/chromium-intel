@@ -1,7 +1,151 @@
 {
-  "generated_at": "2026-07-21T22:00:40.780568Z",
-  "total_cves": 5298,
+  "generated_at": "2026-07-21T23:02:47.697438Z",
+  "total_cves": 5310,
   "cves": [
+    {
+      "id": "CVE-2026-16424",
+      "published": "2026-07-21T22:04:11.197Z",
+      "cvss": 0,
+      "description": "Use after free in GPU in Google Chrome on Android prior to 150.0.7871.182 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HT...",
+      "versions": [
+        "150.0.7871.182"
+      ],
+      "bug_id": "534858939",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/07/stable-channel-update-for-desktop_0256605430.html"
+    },
+    {
+      "id": "CVE-2026-16423",
+      "published": "2026-07-21T22:04:10.827Z",
+      "cvss": 0,
+      "description": "Use after free in UI in Google Chrome prior to 150.0.7871.182 allowed a remote attacker who convinced a user to engage in specific UI gestures to potentially exploit heap corruption via a crafted H...",
+      "versions": [
+        "150.0.7871.182"
+      ],
+      "bug_id": "534582496",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/07/stable-channel-update-for-desktop_0256605430.html"
+    },
+    {
+      "id": "CVE-2026-16422",
+      "published": "2026-07-21T22:04:10.481Z",
+      "cvss": 0,
+      "description": "Insufficient validation of untrusted input in Certificate in Google Chrome on Linux prior to 150.0.7871.182 allowed an attacker in a privileged network position to perform domain spoofing via malic...",
+      "versions": [
+        "150.0.7871.182"
+      ],
+      "bug_id": "533515002",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/07/stable-channel-update-for-desktop_0256605430.html"
+    },
+    {
+      "id": "CVE-2026-16419",
+      "published": "2026-07-21T22:04:10.114Z",
+      "cvss": 0,
+      "description": "Out of bounds read and write in ANGLE in Google Chrome on Android prior to 150.0.7871.182 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chromium securi...",
+      "versions": [
+        "150.0.7871.182"
+      ],
+      "bug_id": "523435970",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/07/stable-channel-update-for-desktop_0256605430.html"
+    },
+    {
+      "id": "CVE-2026-16418",
+      "published": "2026-07-21T22:04:09.753Z",
+      "cvss": 0,
+      "description": "Stack buffer overflow in V8 in Google Chrome prior to 150.0.7871.182 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "versions": [
+        "150.0.7871.182"
+      ],
+      "bug_id": "522125255",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/07/stable-channel-update-for-desktop_0256605430.html"
+    },
+    {
+      "id": "CVE-2026-16417",
+      "published": "2026-07-21T22:04:09.379Z",
+      "cvss": 0,
+      "description": "Uninitialized Use in Skia in Google Chrome prior to 150.0.7871.182 allowed a remote attacker who had compromised the renderer process to leak cross-origin data via a crafted HTML page. (Chromium se...",
+      "versions": [
+        "150.0.7871.182"
+      ],
+      "bug_id": "521491024",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/07/stable-channel-update-for-desktop_0256605430.html"
+    },
+    {
+      "id": "CVE-2026-16416",
+      "published": "2026-07-21T22:04:09.007Z",
+      "cvss": 0,
+      "description": "Integer overflow in Chromecast in Google Chrome prior to 150.0.7871.182 allowed a local attacker to potentially perform a sandbox escape via malicious network traffic. (Chromium security severity: ...",
+      "versions": [
+        "150.0.7871.182"
+      ],
+      "bug_id": "520172356",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/07/stable-channel-update-for-desktop_0256605430.html"
+    },
+    {
+      "id": "CVE-2026-16415",
+      "published": "2026-07-21T22:04:08.624Z",
+      "cvss": 0,
+      "description": "Insufficient validation of untrusted input in Extensions in Google Chrome prior to 150.0.7871.182 allowed a remote attacker to spoof the contents of the Omnibox (URL bar) via a crafted HTML page. (...",
+      "versions": [
+        "150.0.7871.182"
+      ],
+      "bug_id": "519244446",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/07/stable-channel-update-for-desktop_0256605430.html"
+    },
+    {
+      "id": "CVE-2026-16414",
+      "published": "2026-07-21T22:04:08.301Z",
+      "cvss": 0,
+      "description": "Insufficient validation of untrusted input in Chromecast in Google Chrome prior to 150.0.7871.182 allowed a local attacker to potentially perform a sandbox escape via malicious network traffic. (Ch...",
+      "versions": [
+        "150.0.7871.182"
+      ],
+      "bug_id": "517651910",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/07/stable-channel-update-for-desktop_0256605430.html"
+    },
+    {
+      "id": "CVE-2026-16413",
+      "published": "2026-07-21T22:04:07.376Z",
+      "cvss": 0,
+      "description": "Out of bounds write in ANGLE in Google Chrome prior to 150.0.7871.182 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML p...",
+      "versions": [
+        "150.0.7871.182"
+      ],
+      "bug_id": "517359779",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/07/stable-channel-update-for-desktop_0256605430.html"
+    },
+    {
+      "id": "CVE-2026-16421",
+      "published": "2026-07-21T22:04:06.937Z",
+      "cvss": 0,
+      "description": "Inappropriate implementation in WebAudio in Google Chrome prior to 150.0.7871.182 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security se...",
+      "versions": [
+        "150.0.7871.182"
+      ],
+      "bug_id": "528276487",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/07/stable-channel-update-for-desktop_0256605430.html"
+    },
+    {
+      "id": "CVE-2026-16420",
+      "published": "2026-07-21T22:04:06.444Z",
+      "cvss": 0,
+      "description": "Type Confusion in WebAudio in Google Chrome prior to 150.0.7871.182 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "versions": [
+        "150.0.7871.182"
+      ],
+      "bug_id": "527930356",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/07/stable-channel-update-for-desktop_0256605430.html"
+    },
     {
       "id": "CVE-2026-15905",
       "published": "2026-07-20T22:31:25.566Z",
