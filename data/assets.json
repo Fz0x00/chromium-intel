@@ -1,19 +1,19 @@
 {
-  "scan_time": "2026-07-19T08:00:19Z",
+  "scan_time": "2026-07-21T08:08:57Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 33,
   "apps": [
     {
       "app_name": "AFFiNE",
-      "app_version": "0.27.0",
-      "app_path": "/tmp/hunter-2341245635/extracted/AFFiNE.app",
+      "app_version": "0.27.2",
+      "app_path": "/tmp/hunter-4087132139/extracted/AFFiNE.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "142.0.7444.265",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2341245635/extracted/AFFiNE.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-4087132139/extracted/AFFiNE.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "BaiduNetdisk",
@@ -235,14 +235,14 @@
     },
     {
       "app_name": "SiYuan",
-      "app_version": "3.7.2",
-      "app_path": "/tmp/hunter-4109101398/extracted/SiYuan 3.7.2-arm64/SiYuan.app",
+      "app_version": "3.7.3",
+      "app_path": "/tmp/hunter-1832093017/extracted/SiYuan 3.7.3-arm64/SiYuan.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.280",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-4109101398/extracted/SiYuan 3.7.2-arm64/SiYuan.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-1832093017/extracted/SiYuan 3.7.3-arm64/SiYuan.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "TRAE SOLO CN",
