@@ -19605,5 +19605,62 @@
     "cl_number": 8093109,
     "subject": "[7871_124] [aura] Guard against root window destruction in ScopedCursorHider",
     "commit_message": ""
+  },
+  "517359779": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8132197",
+    "cl_number": 8132197,
+    "subject": "[M151] GL decoder should fail with non-continguous bindings",
+    "commit_message": ""
+  },
+  "517651910": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8104638",
+    "cl_number": 8104638,
+    "subject": "[M151] [chromecast] Restrict Cast WebUI to known chrome:// hosts",
+    "commit_message": ""
+  },
+  "519244446": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8102246",
+    "cl_number": 8102246,
+    "subject": "[7871_124] [mime_handler] Validate URL during MIME handler fallback re-navigation",
+    "commit_message": ""
+  },
+  "520172356": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8104635",
+    "cl_number": 8104635,
+    "subject": "[M151] [chromecast] Secure AudioSocketService UDS with client UID checks",
+    "commit_message": ""
+  },
+  "521491024": null,
+  "522125255": null,
+  "523435970": null,
+  "527930356": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8108657",
+    "cl_number": 8108657,
+    "subject": "[M150] [WebAudio] Disable FTZ/DAZ during JavaScript AudioWorklet execution",
+    "commit_message": ""
+  },
+  "528276487": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8108657",
+    "cl_number": 8108657,
+    "subject": "[M150] [WebAudio] Disable FTZ/DAZ during JavaScript AudioWorklet execution",
+    "commit_message": ""
+  },
+  "533515002": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8108838",
+    "cl_number": 8108838,
+    "subject": "[M150] TrustStoreNSS: CERT_FindCertByDERCert may return a different cert",
+    "commit_message": ""
+  },
+  "534582496": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8100163",
+    "cl_number": 8100163,
+    "subject": "[7871_124] [X11] Fix potential use-after-free in X11WSML::EndMoveLoop",
+    "commit_message": ""
+  },
+  "534858939": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8108457",
+    "cl_number": 8108457,
+    "subject": "[M151] [viz] Harden SurfaceManager recursive commit to avoid re-entrancy",
+    "commit_message": ""
   }
 }
