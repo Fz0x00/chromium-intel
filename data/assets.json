@@ -1,8 +1,8 @@
 {
-  "scan_time": "2026-07-21T08:08:57Z",
+  "scan_time": "2026-07-22T08:09:35Z",
   "source": "hunter-ci",
   "platform": "macos",
-  "total_apps": 33,
+  "total_apps": 34,
   "apps": [
     {
       "app_name": "AFFiNE",
@@ -61,14 +61,14 @@
     },
     {
       "app_name": "Claude",
-      "app_version": "1.22209.3",
-      "app_path": "/tmp/hunter-1091514187/extracted/Claude.app",
+      "app_version": "1.24012.1",
+      "app_path": "/tmp/hunter-532286801/extracted/Claude.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
-      "chromium_version": "148.0.7778.271",
+      "chromium_version": "148.0.7778.280",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-1091514187/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-532286801/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "CodeBuddy CN",
@@ -155,6 +155,17 @@
       "chromium_version": "148.0.7778.180",
       "extraction_method": "binary_strings",
       "binary_path": "/tmp/hunter-2286716570/extracted/Logseq.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+    },
+    {
+      "app_name": "Mailspring",
+      "app_version": "1.23.0",
+      "app_path": "/tmp/hunter-483189618/extracted/Mailspring.app",
+      "framework": "electron",
+      "framework_name": "Electron Framework",
+      "detection": "directory",
+      "chromium_version": "146.0.7680.216",
+      "extraction_method": "binary_strings",
+      "binary_path": "/tmp/hunter-483189618/extracted/Mailspring.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "MongoDB Compass",
