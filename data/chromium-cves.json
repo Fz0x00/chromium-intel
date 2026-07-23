@@ -1,7 +1,55 @@
 {
-  "generated_at": "2026-07-23T21:35:27.687032Z",
-  "total_cves": 5310,
+  "generated_at": "2026-07-23T22:52:15.728295Z",
+  "total_cves": 5314,
   "cves": [
+    {
+      "id": "CVE-2026-16804",
+      "published": "2026-07-23T21:36:44.505Z",
+      "cvss": 0,
+      "description": "Use after free in Input in Google Chrome prior to 150.0.7871.186 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. ...",
+      "versions": [
+        "150.0.7871.186"
+      ],
+      "bug_id": "524721670",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/07/stable-channel-update-for-desktop_01320465736.html"
+    },
+    {
+      "id": "CVE-2026-16805",
+      "published": "2026-07-23T21:36:44.042Z",
+      "cvss": 0,
+      "description": "Use after free in Blink in Google Chrome prior to 150.0.7871.186 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "versions": [
+        "150.0.7871.186"
+      ],
+      "bug_id": "523292588",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/07/stable-channel-update-for-desktop_01320465736.html"
+    },
+    {
+      "id": "CVE-2026-16806",
+      "published": "2026-07-23T21:36:43.664Z",
+      "cvss": 0,
+      "description": "Use after free in WebMCP in Google Chrome prior to 150.0.7871.186 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "versions": [
+        "150.0.7871.186"
+      ],
+      "bug_id": "522064153",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/07/stable-channel-update-for-desktop_01320465736.html"
+    },
+    {
+      "id": "CVE-2026-16807",
+      "published": "2026-07-23T21:36:43.154Z",
+      "cvss": 0,
+      "description": "Out of bounds write in Codecs in Google Chrome prior to 150.0.7871.186 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)",
+      "versions": [
+        "150.0.7871.186"
+      ],
+      "bug_id": "518237034",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/07/stable-channel-update-for-desktop_01320465736.html"
+    },
     {
       "id": "CVE-2026-16424",
       "published": "2026-07-21T22:04:11.197Z",
