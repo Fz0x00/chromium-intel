@@ -1,19 +1,19 @@
 {
-  "scan_time": "2026-07-22T08:09:35Z",
+  "scan_time": "2026-07-24T08:09:13Z",
   "source": "hunter-ci",
   "platform": "macos",
-  "total_apps": 34,
+  "total_apps": 35,
   "apps": [
     {
       "app_name": "AFFiNE",
-      "app_version": "0.27.2",
-      "app_path": "/tmp/hunter-4087132139/extracted/AFFiNE.app",
+      "app_version": "0.27.3",
+      "app_path": "/tmp/hunter-683295372/extracted/AFFiNE.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "142.0.7444.265",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-4087132139/extracted/AFFiNE.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-683295372/extracted/AFFiNE.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "BaiduNetdisk",
@@ -112,6 +112,17 @@
       "detection": "combined",
       "chromium_version": "135.0.7049.72",
       "extraction_method": "framework_path"
+    },
+    {
+      "app_name": "Insomnia",
+      "app_version": "13.1.0",
+      "app_path": "/tmp/hunter-824248925/extracted/Insomnia 13.1.0-universal/Insomnia.app",
+      "framework": "electron",
+      "framework_name": "Electron Framework",
+      "detection": "directory",
+      "chromium_version": "146.0.7680.80",
+      "extraction_method": "binary_strings",
+      "binary_path": "/tmp/hunter-824248925/extracted/Insomnia 13.1.0-universal/Insomnia.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Kiro",
