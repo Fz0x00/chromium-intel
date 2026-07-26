@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-07-25T07:52:36Z",
+  "scan_time": "2026-07-26T08:09:33Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 35,
@@ -312,14 +312,14 @@
     },
     {
       "app_name": "Trilium Notes",
-      "app_version": "0.104.0",
-      "app_path": "/tmp/hunter-2799756661/extracted/Trilium Notes.app",
+      "app_version": "0.104.1",
+      "app_path": "/tmp/hunter-725464869/extracted/Trilium Notes.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.280",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2799756661/extracted/Trilium Notes.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-725464869/extracted/Trilium Notes.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Visual Studio Code",
