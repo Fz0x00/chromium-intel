@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-07-26T08:09:33Z",
+  "scan_time": "2026-07-31T08:37:45Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 35,
@@ -213,25 +213,25 @@
     },
     {
       "app_name": "Obsidian",
-      "app_version": "1.12.4",
-      "app_path": "/Applications/Obsidian.app",
+      "app_version": "1.13.4",
+      "app_path": "/tmp/hunter-3094621525/extracted/Obsidian 1.13.4-universal/Obsidian.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
-      "chromium_version": "142.0.7444.265",
+      "chromium_version": "150.0.7871.114",
       "extraction_method": "binary_strings",
-      "binary_path": "/Applications/Obsidian.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-3094621525/extracted/Obsidian 1.13.4-universal/Obsidian.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "QQ",
-      "app_version": "6.9.91",
-      "app_path": "/Applications/QQ.app",
+      "app_version": "6.9.99",
+      "app_path": "/tmp/hunter-619289419/extracted/QQ/QQ.app",
       "framework": "electron_fork",
       "framework_name": "QQNT",
       "detection": "combined",
-      "chromium_version": "138.0.7204.35",
+      "chromium_version": "144.0.7559.60",
       "extraction_method": "binary_strings",
-      "binary_path": "/Applications/QQ.app/Contents/Frameworks/QQNT.framework/Versions/A/QQNT"
+      "binary_path": "/tmp/hunter-619289419/extracted/QQ/QQ.app/Contents/Frameworks/QQNT.framework/Versions/A/QQNT"
     },
     {
       "app_name": "Qianwen",
