@@ -1,8 +1,8 @@
 {
-  "scan_time": "2026-07-31T08:37:45Z",
+  "scan_time": "2026-08-01T08:05:25Z",
   "source": "hunter-ci",
   "platform": "macos",
-  "total_apps": 35,
+  "total_apps": 36,
   "apps": [
     {
       "app_name": "AFFiNE",
@@ -25,6 +25,17 @@
       "chromium_version": "116.0.5845.179",
       "extraction_method": "binary_strings",
       "binary_path": "/Applications/BaiduNetdisk.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+    },
+    {
+      "app_name": "Beekeeper Studio",
+      "app_version": "5.9.3",
+      "app_path": "/tmp/hunter-2760444882/extracted/Beekeeper Studio.app",
+      "framework": "electron",
+      "framework_name": "Electron Framework",
+      "detection": "directory",
+      "chromium_version": "142.0.7444.265",
+      "extraction_method": "binary_strings",
+      "binary_path": "/tmp/hunter-2760444882/extracted/Beekeeper Studio.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "BlueStacks",
