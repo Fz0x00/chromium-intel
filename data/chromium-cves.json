@@ -1,7 +1,499 @@
 {
-  "generated_at": "2026-08-06T15:10:22.959111Z",
-  "total_cves": 5684,
+  "generated_at": "2026-08-07T00:38:35.962862Z",
+  "total_cves": 5725,
   "cves": [
+    {
+      "id": "CVE-2026-19177",
+      "published": "2026-08-06T20:33:57.134Z",
+      "cvss": 0,
+      "description": "Insufficient validation of untrusted input in UI in Google Chrome prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape ...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "540289900",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19176",
+      "published": "2026-08-06T20:33:56.628Z",
+      "cvss": 0,
+      "description": "Use after free in Skia in Google Chrome prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to execute arbitrary code inside a sandbox via a crafted HTML page...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "540157141",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19175",
+      "published": "2026-08-06T20:33:56.161Z",
+      "cvss": 0,
+      "description": "Use after free in Payments in Google Chrome prior to 151.0.7922.109 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "540138836",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19174",
+      "published": "2026-08-06T20:33:55.741Z",
+      "cvss": 0,
+      "description": "Integer overflow in V8 in Google Chrome prior to 151.0.7922.109 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "538378084",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19173",
+      "published": "2026-08-06T20:33:55.259Z",
+      "cvss": 0,
+      "description": "Out of bounds write in Skia in Google Chrome prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML pa...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "538332338",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19171",
+      "published": "2026-08-06T20:33:54.828Z",
+      "cvss": 0,
+      "description": "Use after free in Media in Google Chrome on Windows prior to 151.0.7922.109 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: H...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "537832446",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19167",
+      "published": "2026-08-06T20:33:54.357Z",
+      "cvss": 0,
+      "description": "Integer overflow in GPU in Google Chrome prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to leak cross-origin data via a crafted HTML page. (Chromium secu...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "536666274",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19166",
+      "published": "2026-08-06T20:33:53.955Z",
+      "cvss": 0,
+      "description": "Use after free in Web Authentication in Google Chrome prior to 151.0.7922.109 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity:...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "536584251",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19165",
+      "published": "2026-08-06T20:33:53.537Z",
+      "cvss": 0,
+      "description": "Use after free in Extensions in Google Chrome prior to 151.0.7922.109 allowed an attacker who convinced a user to install a malicious extension to execute arbitrary code inside a sandbox via a craf...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "536512612",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19164",
+      "published": "2026-08-06T20:33:53.054Z",
+      "cvss": 0,
+      "description": "Insufficient validation of untrusted input in Codecs in Google Chrome prior to 151.0.7922.109 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chromium se...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "536470854",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19163",
+      "published": "2026-08-06T20:33:52.645Z",
+      "cvss": 0,
+      "description": "Use after free in Media in Google Chrome on Windows prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted ...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "536449742",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19162",
+      "published": "2026-08-06T20:33:52.195Z",
+      "cvss": 0,
+      "description": "Out of bounds write in V8 in Google Chrome prior to 151.0.7922.109 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "536271629",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19161",
+      "published": "2026-08-06T20:33:51.773Z",
+      "cvss": 0,
+      "description": "Uninitialized Use in Skia in Google Chrome prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to leak cross-origin data via a crafted HTML page. (Chromium se...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "536165038",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19160",
+      "published": "2026-08-06T20:33:51.346Z",
+      "cvss": 0,
+      "description": "Uninitialized Use in Skia in Google Chrome prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to leak cross-origin data via a crafted HTML page. (Chromium se...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "536068737",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19159",
+      "published": "2026-08-06T20:33:50.894Z",
+      "cvss": 0,
+      "description": "Use after free in Views in Google Chrome prior to 151.0.7922.109 allowed a remote attacker who convinced a user to engage in specific UI gestures to potentially exploit heap corruption via a crafte...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "536067175",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19158",
+      "published": "2026-08-06T20:33:50.414Z",
+      "cvss": 0,
+      "description": "Use after free in Views in Google Chrome on Windows prior to 151.0.7922.109 allowed a remote attacker who convinced a user to engage in specific UI gestures to potentially exploit heap corruption v...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "535749174",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19156",
+      "published": "2026-08-06T20:33:49.988Z",
+      "cvss": 0,
+      "description": "Heap buffer overflow in Base in Google Chrome prior to 151.0.7922.109 allowed an attacker who convinced a user to install a malicious extension to potentially exploit heap corruption via a crafted ...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "533331920",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19155",
+      "published": "2026-08-06T20:33:49.528Z",
+      "cvss": 0,
+      "description": "Use after free in Payments in Google Chrome prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML pag...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "533053621",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19153",
+      "published": "2026-08-06T20:33:49.127Z",
+      "cvss": 0,
+      "description": "Insufficient validation of untrusted input in Workers in Google Chrome prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to bypass site isolation via a craf...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "532939327",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19152",
+      "published": "2026-08-06T20:33:48.684Z",
+      "cvss": 0,
+      "description": "Insufficient policy enforcement in Navigation in Google Chrome prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "531165110",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19151",
+      "published": "2026-08-06T20:33:48.225Z",
+      "cvss": 0,
+      "description": "Use after free in V8 in Google Chrome prior to 151.0.7922.109 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "530663440",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19150",
+      "published": "2026-08-06T20:33:47.781Z",
+      "cvss": 0,
+      "description": "Inappropriate implementation in V8 in Google Chrome prior to 151.0.7922.109 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "526380803",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19148",
+      "published": "2026-08-06T20:33:47.285Z",
+      "cvss": 0,
+      "description": "Out of bounds write in GPU in Google Chrome on Linux prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "524460000",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19147",
+      "published": "2026-08-06T20:33:46.809Z",
+      "cvss": 0,
+      "description": "Use after free in Aura in Google Chrome on Linux prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTM...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "524439798",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19146",
+      "published": "2026-08-06T20:33:46.380Z",
+      "cvss": 0,
+      "description": "Uninitialized Use in GPU in Google Chrome on Android prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to obtain potentially sensitive information from proc...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "523713150",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19145",
+      "published": "2026-08-06T20:33:45.930Z",
+      "cvss": 0,
+      "description": "Use after free in Translate in Google Chrome prior to 151.0.7922.109 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "521878431",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19144",
+      "published": "2026-08-06T20:33:45.343Z",
+      "cvss": 0,
+      "description": "Use after free in HTML in Google Chrome prior to 151.0.7922.109 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "520167277",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19143",
+      "published": "2026-08-06T20:33:44.854Z",
+      "cvss": 0,
+      "description": "Insufficient validation of untrusted input in WebAPKs in Google Chrome on Android prior to 151.0.7922.109 allowed a local attacker to potentially perform a sandbox escape via a malicious file. (Chr...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "517772612",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19142",
+      "published": "2026-08-06T20:33:44.311Z",
+      "cvss": 0,
+      "description": "Use after free in Views in Google Chrome prior to 151.0.7922.109 allowed a remote attacker who convinced a user to engage in specific UI gestures to potentially exploit heap corruption via a crafte...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "515428251",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19141",
+      "published": "2026-08-06T20:33:43.857Z",
+      "cvss": 0,
+      "description": "Use after free in Resources in Google Chrome on Android prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a craf...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "513602949",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19140",
+      "published": "2026-08-06T20:33:43.430Z",
+      "cvss": 0,
+      "description": "Use after free in GPU in Google Chrome prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (C...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "513044017",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19139",
+      "published": "2026-08-06T20:33:42.962Z",
+      "cvss": 0,
+      "description": "Race in CredentialProvider in Google Chrome on Windows prior to 151.0.7922.109 allowed a local attacker to perform OS-level privilege escalation via a malicious file. (Chromium security severity: H...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "511731805",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19138",
+      "published": "2026-08-06T20:33:42.549Z",
+      "cvss": 0,
+      "description": "Heap buffer overflow in CrashReporting in Google Chrome prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a craf...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "500097298",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19168",
+      "published": "2026-08-06T20:33:42.002Z",
+      "cvss": 0,
+      "description": "Inappropriate implementation in V8 in Google Chrome prior to 151.0.7922.109 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "536945254",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19169",
+      "published": "2026-08-06T20:33:41.555Z",
+      "cvss": 0,
+      "description": "Insufficient validation of untrusted input in Contextual Tasks in Google Chrome prior to 151.0.7922.109 allowed a remote attacker to perform privilege escalation via a crafted HTML page. (Chromium ...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "537390933",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19172",
+      "published": "2026-08-06T20:33:41.103Z",
+      "cvss": 0,
+      "description": "Use after free in Views in Google Chrome prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. ...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "537838324",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19170",
+      "published": "2026-08-06T20:33:40.501Z",
+      "cvss": 0,
+      "description": "Use after free in WebGL in Google Chrome on Android prior to 151.0.7922.109 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: C...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "537729021",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19157",
+      "published": "2026-08-06T20:33:40.062Z",
+      "cvss": 0,
+      "description": "Out of bounds write in ANGLE in Google Chrome on Android prior to 151.0.7922.109 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severi...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "534903095",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19154",
+      "published": "2026-08-06T20:33:39.289Z",
+      "cvss": 0,
+      "description": "Use after free in Skia in Google Chrome on Android prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted H...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "532941869",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19149",
+      "published": "2026-08-06T20:33:38.619Z",
+      "cvss": 0,
+      "description": "Use after free in Aura in Google Chrome on Linux prior to 151.0.7922.109 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: Crit...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "524824288",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
+    {
+      "id": "CVE-2026-19137",
+      "published": "2026-08-06T20:33:38.049Z",
+      "cvss": 0,
+      "description": "Use after free in WebGL in Google Chrome on Android prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted ...",
+      "versions": [
+        "151.0.7922.109"
+      ],
+      "bug_id": "499602793",
+      "gerrit_url": null,
+      "blog_url": "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html"
+    },
     {
       "id": "CVE-2026-18019",
       "published": "2026-07-30T00:26:10.716Z",
