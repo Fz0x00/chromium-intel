@@ -21691,5 +21691,206 @@
     "cl_number": 7953106,
     "subject": "permissions: Block guest contexts from device APIs",
     "commit_message": ""
+  },
+  "499602793": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8180896",
+    "cl_number": 8180896,
+    "subject": "[m152] Add GPU driver workaround reattach_texture_to_fbo_after_layer_increase",
+    "commit_message": ""
+  },
+  "500097298": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8181727",
+    "cl_number": 8181727,
+    "subject": "[M144-LTS] Update Crashpad to ad1827ddbc03f1c214030b31b380243ded660b95",
+    "commit_message": ""
+  },
+  "511731805": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8190338",
+    "cl_number": 8190338,
+    "subject": "[M150] [GCPW] Restrict GCPW's data directory to SYSTEM + Local Admin",
+    "commit_message": ""
+  },
+  "513044017": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8156406",
+    "cl_number": 8156406,
+    "subject": "[M144] Fix release fence vkSemaphore destruction",
+    "commit_message": ""
+  },
+  "513602949": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8204709",
+    "cl_number": 8204709,
+    "subject": "[M144] Guard ResourceBundle::resource_handles_ with a lock",
+    "commit_message": ""
+  },
+  "515428251": null,
+  "517772612": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8142861",
+    "cl_number": 8142861,
+    "subject": "[M151] [webapk] Restrict WebAPK URL resolution to the requested package",
+    "commit_message": ""
+  },
+  "520167277": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8183990",
+    "cl_number": 8183990,
+    "subject": "[M144] blink: Copy flat_tree_children_ before iterating in HTMLSlotElement",
+    "commit_message": ""
+  },
+  "521878431": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8150701",
+    "cl_number": 8150701,
+    "subject": "[M144-LTS][translate] Handle frame detachment during script execution",
+    "commit_message": ""
+  },
+  "523713150": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8137848",
+    "cl_number": 8137848,
+    "subject": "[M150] gpu: Unbind unpack buffer for CopyTextureCHROMIUM intermediate",
+    "commit_message": ""
+  },
+  "524439798": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8128660",
+    "cl_number": 8128660,
+    "subject": "[M151] ui/gfx/x: Peek at X11 responses in GeometryCache::GetBoundsPx()",
+    "commit_message": ""
+  },
+  "524460000": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8137620",
+    "cl_number": 8137620,
+    "subject": "[M150] Compute XShmImagePool size including row bytes",
+    "commit_message": ""
+  },
+  "524824288": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8128660",
+    "cl_number": 8128660,
+    "subject": "[M151] ui/gfx/x: Peek at X11 responses in GeometryCache::GetBoundsPx()",
+    "commit_message": ""
+  },
+  "526380803": null,
+  "530663440": null,
+  "531165110": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8152499",
+    "cl_number": 8152499,
+    "subject": "[M144-LTS] Do not preserve post_data for failed history navigations.",
+    "commit_message": ""
+  },
+  "532939327": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8192094",
+    "cl_number": 8192094,
+    "subject": "[M144] Reject unsupported redirects during worker script loading",
+    "commit_message": ""
+  },
+  "532941869": null,
+  "533053621": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8173865",
+    "cl_number": 8173865,
+    "subject": "[M144-LTS][Payments] Fix UAF in PaymentRequest::ShowErrorMessageAndAbortPayment",
+    "commit_message": ""
+  },
+  "533331920": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8157159",
+    "cl_number": 8157159,
+    "subject": "[M144] Fix heap-buffer-overflow in SubstringSetMatcher",
+    "commit_message": ""
+  },
+  "534903095": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8134556",
+    "cl_number": 8134556,
+    "subject": "[M144-LTS] Add DontChangeBaseLevelForNPOTImmutableTextures driver bug workaround.",
+    "commit_message": ""
+  },
+  "535749174": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8163689",
+    "cl_number": 8163689,
+    "subject": "[M150] Prevent a UAF in AppMenu::ZoomView",
+    "commit_message": ""
+  },
+  "536067175": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8157099",
+    "cl_number": 8157099,
+    "subject": "[M144] [Menus, Views] Avoid potential UAF due to self-deletion.",
+    "commit_message": ""
+  },
+  "536068737": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8142048",
+    "cl_number": 8142048,
+    "subject": "Roll Skia from 5fd4072db0c7 to e808d4782187 (9 revisions)",
+    "commit_message": ""
+  },
+  "536165038": null,
+  "536271629": null,
+  "536449742": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8137081",
+    "cl_number": 8137081,
+    "subject": "[M151] [media] Reorder CommandBufferHelper member in MediaFoundationVEAWin",
+    "commit_message": ""
+  },
+  "536470854": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8169242",
+    "cl_number": 8169242,
+    "subject": "[M150] media: Reject HEVC non-first slice segment when prior slice is missing",
+    "commit_message": ""
+  },
+  "536512612": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8207762",
+    "cl_number": 8207762,
+    "subject": "[M144] [Extensions] Handle context destruction during event dispatch",
+    "commit_message": ""
+  },
+  "536584251": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8188035",
+    "cl_number": 8188035,
+    "subject": "[M144] Fix UAF in AuthenticatorRequestDialogController",
+    "commit_message": ""
+  },
+  "536666274": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8165040",
+    "cl_number": 8165040,
+    "subject": "[M150] [GPU Security] Widen CompoundImageBacking content id to 64-bit.",
+    "commit_message": ""
+  },
+  "536945254": null,
+  "537390933": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8137572",
+    "cl_number": 8137572,
+    "subject": "[M150] [Contextual Tasks] Fix unvalidated chrome_host param",
+    "commit_message": ""
+  },
+  "537729021": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8180896",
+    "cl_number": 8180896,
+    "subject": "[m152] Add GPU driver workaround reattach_texture_to_fbo_after_layer_increase",
+    "commit_message": ""
+  },
+  "537832446": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8154679",
+    "cl_number": 8154679,
+    "subject": "[M150] [media] Keep ref on MemoryTypeTracker in SharedImageReadLock",
+    "commit_message": ""
+  },
+  "537838324": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8143759",
+    "cl_number": 8143759,
+    "subject": "Fix Use-After-Free in TransientWindowManager hide cascade",
+    "commit_message": ""
+  },
+  "538332338": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8205584",
+    "cl_number": 8205584,
+    "subject": "[M152] skhdr::AdaptiveGlobalToneMap: Reject invalid metadata",
+    "commit_message": ""
+  },
+  "538378084": null,
+  "540138836": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8183888",
+    "cl_number": 8183888,
+    "subject": "[M150] [payments] Avoid UAF for calls that can show an SPC modal",
+    "commit_message": ""
+  },
+  "540157141": null,
+  "540289900": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8180111",
+    "cl_number": 8180111,
+    "subject": "Reland \"Sanitize cursor theme name and size in GTK and Wayland\"",
+    "commit_message": ""
   }
 }
