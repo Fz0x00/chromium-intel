@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-08-07T07:01:12Z",
+  "scan_time": "2026-08-11T06:49:20Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 36,
@@ -224,14 +224,14 @@
     },
     {
       "app_name": "Obsidian",
-      "app_version": "1.13.4",
-      "app_path": "/tmp/hunter-3094621525/extracted/Obsidian 1.13.4-universal/Obsidian.app",
+      "app_version": "1.13.6",
+      "app_path": "/tmp/hunter-4262822975/extracted/Obsidian 1.13.6-universal/Obsidian.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
-      "chromium_version": "150.0.7871.114",
+      "chromium_version": "150.0.7871.212",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-3094621525/extracted/Obsidian 1.13.4-universal/Obsidian.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-4262822975/extracted/Obsidian 1.13.6-universal/Obsidian.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "QQ",
@@ -257,14 +257,14 @@
     },
     {
       "app_name": "Rocket.Chat",
-      "app_version": "4.15.6",
-      "app_path": "/tmp/hunter-923266702/extracted/Rocket.Chat.app",
+      "app_version": "4.16.0",
+      "app_path": "/tmp/hunter-2947709443/extracted/Rocket.Chat.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.271",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-923266702/extracted/Rocket.Chat.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2947709443/extracted/Rocket.Chat.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "SiYuan",
