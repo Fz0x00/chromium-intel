@@ -21892,5 +21892,30 @@
     "cl_number": 8180111,
     "subject": "Reland \"Sanitize cursor theme name and size in GTK and Wayland\"",
     "commit_message": ""
+  },
+  "535000102": null,
+  "534867485": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8216473",
+    "cl_number": 8216473,
+    "subject": "[M150] Protect against synchronous browser deletion for TGDDialog",
+    "commit_message": ""
+  },
+  "536676756": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8236231",
+    "cl_number": 8236231,
+    "subject": "[M144-LTS][Extensions] Prevent UAF in EventEmitter::DispatchSync",
+    "commit_message": ""
+  },
+  "540100588": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8238480",
+    "cl_number": 8238480,
+    "subject": "[M144] Add defensive copy in CollectFlattenedAssignedNodes",
+    "commit_message": ""
+  },
+  "540482895": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8183467",
+    "cl_number": 8183467,
+    "subject": "[M151] Sanitize presentation attribute cache hash using EnsureValidHash",
+    "commit_message": ""
   }
 }
