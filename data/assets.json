@@ -1,8 +1,8 @@
 {
-  "scan_time": "2026-08-12T07:09:40Z",
+  "scan_time": "2026-08-13T07:13:26Z",
   "source": "hunter-ci",
   "platform": "macos",
-  "total_apps": 36,
+  "total_apps": 37,
   "apps": [
     {
       "app_name": "AFFiNE",
@@ -190,6 +190,17 @@
       "binary_path": "/tmp/hunter-483189618/extracted/Mailspring.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
+      "app_name": "Mattermost Desktop",
+      "app_version": "6.3.0",
+      "app_path": "/tmp/hunter-2914353068/extracted/Mattermost.app",
+      "framework": "electron",
+      "framework_name": "Electron Framework",
+      "detection": "directory",
+      "chromium_version": "150.0.7871.46",
+      "extraction_method": "binary_strings",
+      "binary_path": "/tmp/hunter-2914353068/extracted/Mattermost.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+    },
+    {
       "app_name": "MongoDB Compass",
       "app_version": "1.49.14",
       "app_path": "/tmp/hunter-3062953079/extracted/MongoDB Compass.app",
@@ -224,14 +235,14 @@
     },
     {
       "app_name": "Obsidian",
-      "app_version": "1.13.6",
-      "app_path": "/tmp/hunter-4262822975/extracted/Obsidian 1.13.6-universal/Obsidian.app",
+      "app_version": "1.13.7",
+      "app_path": "/tmp/hunter-641279704/extracted/Obsidian 1.13.7-universal/Obsidian.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "150.0.7871.212",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-4262822975/extracted/Obsidian 1.13.6-universal/Obsidian.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-641279704/extracted/Obsidian 1.13.7-universal/Obsidian.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "QQ",
@@ -268,14 +279,14 @@
     },
     {
       "app_name": "SiYuan",
-      "app_version": "3.7.3",
-      "app_path": "/tmp/hunter-1832093017/extracted/SiYuan 3.7.3-arm64/SiYuan.app",
+      "app_version": "3.8.0",
+      "app_path": "/tmp/hunter-3668455520/extracted/SiYuan 3.8.0-arm64/SiYuan.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.280",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-1832093017/extracted/SiYuan 3.7.3-arm64/SiYuan.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-3668455520/extracted/SiYuan 3.8.0-arm64/SiYuan.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "TRAE SOLO CN",
