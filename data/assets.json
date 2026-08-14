@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-08-13T07:13:26Z",
+  "scan_time": "2026-08-14T07:09:53Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 37,
@@ -28,14 +28,14 @@
     },
     {
       "app_name": "Beekeeper Studio",
-      "app_version": "6.0.0",
-      "app_path": "/tmp/hunter-1072648492/extracted/Beekeeper Studio.app",
+      "app_version": "6.0.1",
+      "app_path": "/tmp/hunter-2729058432/extracted/Beekeeper Studio.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "142.0.7444.265",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-1072648492/extracted/Beekeeper Studio.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2729058432/extracted/Beekeeper Studio.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "BlueStacks",
@@ -72,14 +72,14 @@
     },
     {
       "app_name": "Claude",
-      "app_version": "1.28929.0",
-      "app_path": "/tmp/hunter-2285166439/extracted/Claude.app",
+      "app_version": "1.30096.1",
+      "app_path": "/tmp/hunter-2215288042/extracted/Claude.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.280",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2285166439/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2215288042/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "CodeBuddy CN",
