@@ -21917,5 +21917,75 @@
     "cl_number": 8183467,
     "subject": "[M151] Sanitize presentation attribute cache hash using EnsureValidHash",
     "commit_message": ""
-  }
+  },
+  "516715010": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8257213",
+    "cl_number": 8257213,
+    "subject": "[M150] Stop emulating missing decoders",
+    "commit_message": ""
+  },
+  "534923522": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8152702",
+    "cl_number": 8152702,
+    "subject": "Roll ANGLE from 81324d996b13 to c3ede28106e9 (4 revisions)",
+    "commit_message": ""
+  },
+  "536439844": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8257175",
+    "cl_number": 8257175,
+    "subject": "[M152] media: Validate av1C box and track bit depth & frame size in VT AV1 accelerator",
+    "commit_message": ""
+  },
+  "540087398": null,
+  "517612295": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8253460",
+    "cl_number": 8253460,
+    "subject": "[M150] [GCPW] Put the crashpad database in GCPW's data directory",
+    "commit_message": ""
+  },
+  "541926503": null,
+  "525167753": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8249939",
+    "cl_number": 8249939,
+    "subject": "[7922_139] [FileSystemAccess] Fix internal Content URI blocklist bypasses on Android",
+    "commit_message": ""
+  },
+  "534862220": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8258793",
+    "cl_number": 8258793,
+    "subject": "[M150] [DTC Consent] [Fortify] Fix potential UAF in ConsentDialogCoordinator::Show()",
+    "commit_message": ""
+  },
+  "540027341": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8203253",
+    "cl_number": 8203253,
+    "subject": "Roll Skia from 9eadfc448a1c to a45bdf78e33c (6 revisions)",
+    "commit_message": ""
+  },
+  "536460270": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8258353",
+    "cl_number": 8258353,
+    "subject": "[7922_139] [GPU Security] Fail CompoundImageBacking access when no latest element.",
+    "commit_message": ""
+  },
+  "539350801": null,
+  "522732244": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8228933",
+    "cl_number": 8228933,
+    "subject": "[M151] usb: Refine state change blocking and fix state machine leak",
+    "commit_message": ""
+  },
+  "543082390": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8260832",
+    "cl_number": 8260832,
+    "subject": "[M151] Validate framebufferTextureMultiviewOVR target, attachment",
+    "commit_message": ""
+  },
+  "536581050": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8254381",
+    "cl_number": 8254381,
+    "subject": "Revert \"WebView: Increase the wait time for LCP in testLargestContentfulPaint\"",
+    "commit_message": ""
+  },
+  "541251902": null
 }
