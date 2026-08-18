@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-08-15T06:21:27Z",
+  "scan_time": "2026-08-18T06:28:36Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 37,
@@ -72,14 +72,14 @@
     },
     {
       "app_name": "Claude",
-      "app_version": "1.30096.5",
-      "app_path": "/tmp/hunter-1915159028/extracted/Claude.app",
+      "app_version": "1.32352.1",
+      "app_path": "/tmp/hunter-3579253740/extracted/Claude.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.280",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-1915159028/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-3579253740/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "CodeBuddy CN",
