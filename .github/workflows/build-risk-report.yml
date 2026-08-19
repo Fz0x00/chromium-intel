@@ -58,7 +58,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/ data/risk-report.json data/asset-risk-report.json data/gerrit-cache.json data/nvd-exploit-cache.json
+          git add -A
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
