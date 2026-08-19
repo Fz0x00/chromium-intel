@@ -194,8 +194,8 @@ def main():
     if not assets_path.exists():
         print(f"WARNING: {assets_path} not found — skipping asset matching")
         return
-    assets = json.loads(assets_path.read_text())
-    apps = assets.get('apps', [])
+    assets = json.loads(assets_path.read_text()) or {}
+    apps = assets.get('apps') or []
     print(f"Loaded {len(apps)} apps from assets.json")
 
     # 匹配
