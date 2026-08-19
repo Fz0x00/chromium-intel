@@ -1,19 +1,19 @@
 {
-  "scan_time": "2026-08-18T06:28:36Z",
+  "scan_time": "2026-08-19T06:29:47Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 37,
   "apps": [
     {
       "app_name": "AFFiNE",
-      "app_version": "0.27.3",
-      "app_path": "/tmp/hunter-683295372/extracted/AFFiNE.app",
+      "app_version": "0.27.4",
+      "app_path": "/tmp/hunter-3982838339/extracted/AFFiNE.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "142.0.7444.265",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-683295372/extracted/AFFiNE.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-3982838339/extracted/AFFiNE.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "BaiduNetdisk",
@@ -28,14 +28,14 @@
     },
     {
       "app_name": "Beekeeper Studio",
-      "app_version": "6.0.1",
-      "app_path": "/tmp/hunter-2729058432/extracted/Beekeeper Studio.app",
+      "app_version": "6.0.4",
+      "app_path": "/tmp/hunter-392911405/extracted/Beekeeper Studio.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "142.0.7444.265",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2729058432/extracted/Beekeeper Studio.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-392911405/extracted/Beekeeper Studio.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "BlueStacks",
@@ -72,14 +72,14 @@
     },
     {
       "app_name": "Claude",
-      "app_version": "1.32352.1",
-      "app_path": "/tmp/hunter-3579253740/extracted/Claude.app",
+      "app_version": "1.32885.1",
+      "app_path": "/tmp/hunter-1121706770/extracted/Claude.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.280",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-3579253740/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-1121706770/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "CodeBuddy CN",
@@ -279,14 +279,14 @@
     },
     {
       "app_name": "SiYuan",
-      "app_version": "3.8.0",
-      "app_path": "/tmp/hunter-3668455520/extracted/SiYuan 3.8.0-arm64/SiYuan.app",
+      "app_version": "3.8.1",
+      "app_path": "/tmp/hunter-2081501697/extracted/SiYuan 3.8.1-arm64/SiYuan.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.280",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-3668455520/extracted/SiYuan 3.8.0-arm64/SiYuan.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2081501697/extracted/SiYuan 3.8.1-arm64/SiYuan.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "TRAE SOLO CN",
