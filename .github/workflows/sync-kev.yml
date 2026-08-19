@@ -46,6 +46,6 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "chore: update CISA KEV $(date -u +'%Y-%m-%d')"
-            git pull --rebase origin main
+            git pull --rebase -X theirs origin main
             git push
           fi
