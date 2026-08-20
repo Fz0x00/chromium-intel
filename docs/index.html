@@ -99,6 +99,11 @@
     .tl-header { display: flex; align-items: center; gap: 12px; padding: 10px 14px; cursor: pointer; background: #2f3136; transition: background 0.15s; }
     .tl-header:hover { background: #1b3a5c; }
     .tl-group.open .tl-header { background: #1b3a5c; border-bottom: 1px solid #3c4043; }
+    .timeline-axis { position: absolute; left: 92px; top: 14px; bottom: 14px; width: 3px; background: #3c4043; border-radius: 2px; }
+    .tl-group { position: relative; margin: 0 0 14px 112px; }
+    .tl-group .tl-dot { position: absolute; left: -53px; top: 13px; width: 14px; height: 14px; border-radius: 50%; background: #8ab4f8; border: 3px solid #1a1b1f; box-shadow: 0 0 0 2px #8ab4f8; }
+    .tl-group .tl-dot.crit { background: #f28b82; box-shadow: 0 0 0 2px #f28b82; }
+    .tl-version { font-family: monospace; font-weight: 700; font-size: 15px; color: #8ab4f8; min-width: 132px; }
     .tl-version { min-width: 130px; }
     .tl-date { font-size: 11px; color: #9aa0a6; font-family: monospace; min-width: 80px; }
     .tl-badges { display: flex; gap: 4px; flex-wrap: wrap; }
@@ -893,9 +898,14 @@ function renderTimeline() {
     if (item.published < groups[v].earliest) groups[v].earliest = item.published;
     if (item.published > groups[v].latest) groups[v].latest = item.published;
   }
-  const sorted = Object.values(groups).sort((a, b) => (b.earliest || '').localeCompare(a.earliest || ''));
+  const sorted = Object.values(groups).sort((a, b) => {
+    if (a.version === 'unknown') return 1;
+    if (b.version === 'unknown') return -1;
+    return cmpSemver(a.version, b.version);
+  });
 
-  let html = '<div class="timeline-container"><h3 style="margin-bottom:16px">High-Risk CVE Timeline — Grouped by Fix Version</h3>';
+  let html = '<div class="timeline-container"><h3 style="margin-bottom:16px">High-Risk CVE Timeline — by Fix Version (oldest → newest)</h3>';
+  html += '<div class="timeline-axis"></div>';
   if (sorted.length === 0) {
     html += '<p style="color:#9aa0a6;padding:20px">No high-risk CVEs found for monitored assets.</p>';
   }
@@ -913,8 +923,9 @@ function renderTimeline() {
     const appList = [...g.apps].join(', ');
     const gid = 'tl-' + i;
     html += `<div class="tl-group" onclick="document.getElementById('${gid}').classList.toggle('open');this.classList.toggle('open')">
+      <div class="tl-dot ${critCount > 0 ? 'crit' : ''}"></div>
       <div class="tl-header">
-        <div class="tl-version"><span class="version-tag ver-old">${g.version}</span></div>
+        <div class="tl-version">${g.version}</div>
         <div class="tl-date">${g.earliest || '?'}</div>
         <div class="tl-badges">${badges}<span class="badge b-other">${g.items.length} CVEs</span></div>
         <div class="tl-apps" title="${appList}">${appList}</div>
