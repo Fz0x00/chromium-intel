@@ -1,0 +1,1318 @@
+{
+  "generated_at": "2026-08-20T12:45:11.214300+00:00",
+  "source": "assets.json git history + hunter scan history",
+  "total_apps": 37,
+  "apps": {
+    "AFFiNE": {
+      "framework": "electron",
+      "platform": "",
+      "current": {
+        "app_version": "0.27.4",
+        "chromium_version": "142.0.7444.265",
+        "electron_version": "",
+        "first_seen": "2026-08-19",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "2026-01-06",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "0.27.4",
+          "chromium_version": "142.0.7444.265",
+          "electron_version": "",
+          "first_seen": "2026-08-19",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "2026-01-06",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "0.27.3",
+          "chromium_version": "142.0.7444.265",
+          "electron_version": "",
+          "first_seen": "2026-07-24",
+          "last_seen": "2026-08-18",
+          "chromium_release_date": "2026-01-06",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "0.27.2",
+          "chromium_version": "142.0.7444.265",
+          "electron_version": "",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-22",
+          "chromium_release_date": "2026-01-06",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "0.27.0",
+          "chromium_version": "142.0.7444.265",
+          "electron_version": "",
+          "first_seen": "2026-07-15",
+          "last_seen": "2026-07-19",
+          "chromium_release_date": "2026-01-06",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "BaiduNetdisk": {
+      "framework": "electron",
+      "platform": "",
+      "current": {
+        "app_version": "8.5.9",
+        "chromium_version": "116.0.5845.179",
+        "electron_version": "",
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "2023-09-05",
+        "chromium_release_cves": 4
+      },
+      "versions": [
+        {
+          "app_version": "8.5.9",
+          "chromium_version": "116.0.5845.179",
+          "electron_version": "",
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "2023-09-05",
+          "chromium_release_cves": 4
+        }
+      ]
+    },
+    "Beekeeper Studio": {
+      "framework": "electron",
+      "platform": "",
+      "current": {
+        "app_version": "6.0.4",
+        "chromium_version": "142.0.7444.265",
+        "electron_version": "",
+        "first_seen": "2026-08-19",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "2026-01-06",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "6.0.4",
+          "chromium_version": "142.0.7444.265",
+          "electron_version": "",
+          "first_seen": "2026-08-19",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "2026-01-06",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "6.0.1",
+          "chromium_version": "142.0.7444.265",
+          "electron_version": "",
+          "first_seen": "2026-08-14",
+          "last_seen": "2026-08-18",
+          "chromium_release_date": "2026-01-06",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "6.0.0",
+          "chromium_version": "142.0.7444.265",
+          "electron_version": "",
+          "first_seen": "2026-08-12",
+          "last_seen": "2026-08-13",
+          "chromium_release_date": "2026-01-06",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "5.9.3",
+          "chromium_version": "142.0.7444.265",
+          "electron_version": "",
+          "first_seen": "2026-08-01",
+          "last_seen": "2026-08-11",
+          "chromium_release_date": "2026-01-06",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "5.9.2",
+          "chromium_version": "142.0.7444.265",
+          "electron_version": "",
+          "first_seen": "2026-07-11",
+          "last_seen": "2026-07-11",
+          "chromium_release_date": "2026-01-06",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "5.9.1",
+          "chromium_version": "142.0.7444.265",
+          "electron_version": "",
+          "first_seen": "2026-07-07",
+          "last_seen": "2026-07-07",
+          "chromium_release_date": "2026-01-06",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "BlueStacks": {
+      "framework": "qt_webengine",
+      "platform": "",
+      "current": {
+        "app_version": "5.21.755",
+        "chromium_version": "118.0.5993.220",
+        "electron_version": "",
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "5.21.755",
+          "chromium_version": "118.0.5993.220",
+          "electron_version": "",
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "BlueStacksMIM": {
+      "framework": "qt_webengine",
+      "platform": "",
+      "current": {
+        "app_version": "5.21.755.7538",
+        "chromium_version": "118.0.5993.220",
+        "electron_version": "",
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "5.21.755.7538",
+          "chromium_version": "118.0.5993.220",
+          "electron_version": "",
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "Clash Party": {
+      "framework": "electron",
+      "platform": "",
+      "current": {
+        "app_version": "1.9.5",
+        "chromium_version": "146.0.7680.216",
+        "electron_version": "",
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "2026-04-28",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "1.9.5",
+          "chromium_version": "146.0.7680.216",
+          "electron_version": "",
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "2026-04-28",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "Claude": {
+      "framework": "electron",
+      "platform": "",
+      "current": {
+        "app_version": "1.32885.1",
+        "chromium_version": "148.0.7778.280",
+        "electron_version": "",
+        "first_seen": "2026-08-19",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "2026-06-23",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "1.32885.1",
+          "chromium_version": "148.0.7778.280",
+          "electron_version": "",
+          "first_seen": "2026-08-19",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "2026-06-23",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "1.32352.1",
+          "chromium_version": "148.0.7778.280",
+          "electron_version": "",
+          "first_seen": "2026-08-18",
+          "last_seen": "2026-08-18",
+          "chromium_release_date": "2026-06-23",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "1.30096.5",
+          "chromium_version": "148.0.7778.280",
+          "electron_version": "",
+          "first_seen": "2026-08-15",
+          "last_seen": "2026-08-15",
+          "chromium_release_date": "2026-06-23",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "1.30096.1",
+          "chromium_version": "148.0.7778.280",
+          "electron_version": "",
+          "first_seen": "2026-08-14",
+          "last_seen": "2026-08-14",
+          "chromium_release_date": "2026-06-23",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "1.28929.0",
+          "chromium_version": "148.0.7778.280",
+          "electron_version": "",
+          "first_seen": "2026-08-12",
+          "last_seen": "2026-08-13",
+          "chromium_release_date": "2026-06-23",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "1.26832.0",
+          "chromium_version": "148.0.7778.280",
+          "electron_version": "",
+          "first_seen": "2026-08-07",
+          "last_seen": "2026-08-11",
+          "chromium_release_date": "2026-06-23",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "1.25927.0",
+          "chromium_version": "148.0.7778.280",
+          "electron_version": "",
+          "first_seen": "2026-08-05",
+          "last_seen": "2026-08-05",
+          "chromium_release_date": "2026-06-23",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "1.24012.11",
+          "chromium_version": "148.0.7778.280",
+          "electron_version": "",
+          "first_seen": "2026-08-04",
+          "last_seen": "2026-08-04",
+          "chromium_release_date": "2026-06-23",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "1.24012.9",
+          "chromium_version": "148.0.7778.280",
+          "electron_version": "",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-08-01",
+          "chromium_release_date": "2026-06-23",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "1.24012.1",
+          "chromium_version": "148.0.7778.280",
+          "electron_version": "",
+          "first_seen": "2026-07-22",
+          "last_seen": "2026-07-24",
+          "chromium_release_date": "2026-06-23",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "1.22209.3",
+          "chromium_version": "148.0.7778.271",
+          "electron_version": "",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-21",
+          "chromium_release_date": "2026-06-16",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "1.22209.0",
+          "chromium_version": "148.0.7778.271",
+          "electron_version": "",
+          "first_seen": "2026-07-17",
+          "last_seen": "2026-07-17",
+          "chromium_release_date": "2026-06-16",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "1.21459.3",
+          "chromium_version": "148.0.7778.271",
+          "electron_version": "",
+          "first_seen": "2026-07-16",
+          "last_seen": "2026-07-16",
+          "chromium_release_date": "2026-06-16",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "1.21459.0",
+          "chromium_version": "148.0.7778.271",
+          "electron_version": "",
+          "first_seen": "2026-07-15",
+          "last_seen": "2026-07-15",
+          "chromium_release_date": "2026-06-16",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "1.20186.9",
+          "chromium_version": "148.0.7778.271",
+          "electron_version": "",
+          "first_seen": "2026-07-14",
+          "last_seen": "2026-07-14",
+          "chromium_release_date": "2026-06-16",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "1.20186.1",
+          "chromium_version": "148.0.7778.271",
+          "electron_version": "",
+          "first_seen": "2026-07-11",
+          "last_seen": "2026-07-11",
+          "chromium_release_date": "2026-06-16",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "1.20186.0",
+          "chromium_version": "148.0.7778.271",
+          "electron_version": "",
+          "first_seen": "2026-07-10",
+          "last_seen": "2026-07-10",
+          "chromium_release_date": "2026-06-16",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "1.19367.0",
+          "chromium_version": "148.0.7778.271",
+          "electron_version": "",
+          "first_seen": "2026-07-08",
+          "last_seen": "2026-07-08",
+          "chromium_release_date": "2026-06-16",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "1.18286.2",
+          "chromium_version": "148.0.7778.271",
+          "electron_version": "",
+          "first_seen": "2026-07-07",
+          "last_seen": "2026-07-07",
+          "chromium_release_date": "2026-06-16",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "1.18286.0",
+          "chromium_version": "148.0.7778.271",
+          "electron_version": "",
+          "first_seen": "2026-07-03",
+          "last_seen": "2026-07-03",
+          "chromium_release_date": "2026-06-16",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "1.17377.2",
+          "chromium_version": "148.0.7778.271",
+          "electron_version": "",
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "chromium_release_date": "2026-06-16",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "1.17377.1",
+          "chromium_version": "148.0.7778.271",
+          "electron_version": "",
+          "first_seen": "2026-07-01",
+          "last_seen": "2026-07-01",
+          "chromium_release_date": "2026-06-16",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "CodeBuddy CN": {
+      "framework": "electron",
+      "platform": "",
+      "current": {
+        "app_version": "1.100.0",
+        "chromium_version": "132.0.6834.210",
+        "electron_version": "",
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "2025-02-25",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "1.100.0",
+          "chromium_version": "132.0.6834.210",
+          "electron_version": "",
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "2025-02-25",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "Cursor": {
+      "framework": "electron",
+      "platform": "",
+      "current": {
+        "app_version": "2.6.22",
+        "chromium_version": "142.0.7444.265",
+        "electron_version": "",
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "2026-01-06",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "2.6.22",
+          "chromium_version": "142.0.7444.265",
+          "electron_version": "",
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "2026-01-06",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "Docker / Docker Desktop": {
+      "framework": "electron",
+      "platform": "",
+      "current": {
+        "app_version": "4.71.0",
+        "chromium_version": "144.0.7559.236",
+        "electron_version": "",
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "2026-03-03",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "4.71.0",
+          "chromium_version": "144.0.7559.236",
+          "electron_version": "",
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "2026-03-03",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "Doubao / Doubao Browser": {
+      "framework": "electron_fork",
+      "platform": "",
+      "current": {
+        "app_version": "135.0.7049.72",
+        "chromium_version": "135.0.7049.72",
+        "electron_version": "",
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "135.0.7049.72",
+          "chromium_version": "135.0.7049.72",
+          "electron_version": "",
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "Insomnia": {
+      "framework": "electron",
+      "platform": "",
+      "current": {
+        "app_version": "13.1.0",
+        "chromium_version": "146.0.7680.80",
+        "electron_version": "",
+        "first_seen": "2026-07-24",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "2026-03-13",
+        "chromium_release_cves": 1
+      },
+      "versions": [
+        {
+          "app_version": "13.1.0",
+          "chromium_version": "146.0.7680.80",
+          "electron_version": "",
+          "first_seen": "2026-07-24",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "2026-03-13",
+          "chromium_release_cves": 1
+        }
+      ]
+    },
+    "Kiro": {
+      "framework": "electron",
+      "platform": "",
+      "current": {
+        "app_version": "0.12.333",
+        "chromium_version": "142.0.7444.265",
+        "electron_version": "",
+        "first_seen": "2026-08-20",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "2026-01-06",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "0.12.333",
+          "chromium_version": "142.0.7444.265",
+          "electron_version": "",
+          "first_seen": "2026-08-20",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "2026-01-06",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "Lark": {
+      "framework": "electron_fork",
+      "platform": "",
+      "current": {
+        "app_version": "131.0.6778.268",
+        "chromium_version": "131.0.6778.268",
+        "electron_version": "",
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "131.0.6778.268",
+          "chromium_version": "131.0.6778.268",
+          "electron_version": "",
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "Lingma": {
+      "framework": "electron",
+      "platform": "",
+      "current": {
+        "app_version": "0.11.1",
+        "chromium_version": "138.0.7204.251",
+        "electron_version": "",
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "0.11.1",
+          "chromium_version": "138.0.7204.251",
+          "electron_version": "",
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "Logseq": {
+      "framework": "electron",
+      "platform": "",
+      "current": {
+        "app_version": "2.0.1",
+        "chromium_version": "148.0.7778.180",
+        "electron_version": "",
+        "first_seen": "2026-07-14",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "2.0.1",
+          "chromium_version": "148.0.7778.180",
+          "electron_version": "",
+          "first_seen": "2026-07-14",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "Mailspring": {
+      "framework": "electron",
+      "platform": "",
+      "current": {
+        "app_version": "1.23.0",
+        "chromium_version": "146.0.7680.216",
+        "electron_version": "",
+        "first_seen": "2026-07-22",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "2026-04-28",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "1.23.0",
+          "chromium_version": "146.0.7680.216",
+          "electron_version": "",
+          "first_seen": "2026-07-22",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "2026-04-28",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "Mattermost Desktop": {
+      "framework": "electron",
+      "platform": "",
+      "current": {
+        "app_version": "6.3.0",
+        "chromium_version": "150.0.7871.46",
+        "electron_version": "",
+        "first_seen": "2026-08-13",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "2026-06-30",
+        "chromium_release_cves": 433
+      },
+      "versions": [
+        {
+          "app_version": "6.3.0",
+          "chromium_version": "150.0.7871.46",
+          "electron_version": "",
+          "first_seen": "2026-08-13",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "2026-06-30",
+          "chromium_release_cves": 433
+        }
+      ]
+    },
+    "MongoDB Compass": {
+      "framework": "electron",
+      "platform": "",
+      "current": {
+        "app_version": "1.49.14",
+        "chromium_version": "146.0.7680.188",
+        "electron_version": "",
+        "first_seen": "2026-08-07",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "2026-04-08",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "1.49.14",
+          "chromium_version": "146.0.7680.188",
+          "electron_version": "",
+          "first_seen": "2026-08-07",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "2026-04-08",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "1.49.12",
+          "chromium_version": "146.0.7680.166",
+          "electron_version": "",
+          "first_seen": "2026-07-15",
+          "last_seen": "2026-08-05",
+          "chromium_release_date": "",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "1.49.11",
+          "chromium_version": "146.0.7680.166",
+          "electron_version": "",
+          "first_seen": "2026-07-09",
+          "last_seen": "2026-07-09",
+          "chromium_release_date": "",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "Notion": {
+      "framework": "electron",
+      "platform": "",
+      "current": {
+        "app_version": "7.18.0",
+        "chromium_version": "146.0.7680.188",
+        "electron_version": "",
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "2026-04-08",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "7.18.0",
+          "chromium_version": "146.0.7680.188",
+          "electron_version": "",
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "2026-04-08",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "O+Connect": {
+      "framework": "electron",
+      "platform": "",
+      "current": {
+        "app_version": "16.2.0",
+        "chromium_version": "116.0.5845.228",
+        "electron_version": "",
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "2023-09-28",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "16.2.0",
+          "chromium_version": "116.0.5845.228",
+          "electron_version": "",
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "2023-09-28",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "Obsidian": {
+      "framework": "electron",
+      "platform": "",
+      "current": {
+        "app_version": "1.13.7",
+        "chromium_version": "150.0.7871.212",
+        "electron_version": "",
+        "first_seen": "2026-08-13",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "2026-07-28",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "1.13.7",
+          "chromium_version": "150.0.7871.212",
+          "electron_version": "",
+          "first_seen": "2026-08-13",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "2026-07-28",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "1.13.6",
+          "chromium_version": "150.0.7871.212",
+          "electron_version": "",
+          "first_seen": "2026-08-11",
+          "last_seen": "2026-08-12",
+          "chromium_release_date": "2026-07-28",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "1.13.4",
+          "chromium_version": "150.0.7871.114",
+          "electron_version": "",
+          "first_seen": "2026-07-31",
+          "last_seen": "2026-08-07",
+          "chromium_release_date": "2026-07-08",
+          "chromium_release_cves": 27
+        },
+        {
+          "app_version": "1.12.4",
+          "chromium_version": "142.0.7444.265",
+          "electron_version": "",
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-07-26",
+          "chromium_release_date": "2026-01-06",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "QQ": {
+      "framework": "electron_fork",
+      "platform": "",
+      "current": {
+        "app_version": "6.9.99",
+        "chromium_version": "144.0.7559.60",
+        "electron_version": "",
+        "first_seen": "2026-07-31",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "6.9.99",
+          "chromium_version": "144.0.7559.60",
+          "electron_version": "",
+          "first_seen": "2026-07-31",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "6.9.91",
+          "chromium_version": "138.0.7204.35",
+          "electron_version": "",
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-07-26",
+          "chromium_release_date": "",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "Qianwen": {
+      "framework": "electron_fork",
+      "platform": "",
+      "current": {
+        "app_version": "3.3.7.70",
+        "chromium_version": "130.0.6723.44",
+        "electron_version": "",
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "3.3.7.70",
+          "chromium_version": "130.0.6723.44",
+          "electron_version": "",
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "Rocket.Chat": {
+      "framework": "electron",
+      "platform": "",
+      "current": {
+        "app_version": "4.16.0",
+        "chromium_version": "148.0.7778.271",
+        "electron_version": "",
+        "first_seen": "2026-08-11",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "2026-06-16",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "4.16.0",
+          "chromium_version": "148.0.7778.271",
+          "electron_version": "",
+          "first_seen": "2026-08-11",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "2026-06-16",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "4.15.6",
+          "chromium_version": "148.0.7778.271",
+          "electron_version": "",
+          "first_seen": "2026-07-17",
+          "last_seen": "2026-08-07",
+          "chromium_release_date": "2026-06-16",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "4.15.5",
+          "chromium_version": "148.0.7778.271",
+          "electron_version": "",
+          "first_seen": "2026-07-16",
+          "last_seen": "2026-07-16",
+          "chromium_release_date": "2026-06-16",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "4.15.4",
+          "chromium_version": "148.0.7778.271",
+          "electron_version": "",
+          "first_seen": "2026-07-14",
+          "last_seen": "2026-07-15",
+          "chromium_release_date": "2026-06-16",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "4.15.3",
+          "chromium_version": "148.0.7778.271",
+          "electron_version": "",
+          "first_seen": "2026-07-10",
+          "last_seen": "2026-07-10",
+          "chromium_release_date": "2026-06-16",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "4.15.2",
+          "chromium_version": "148.0.7778.271",
+          "electron_version": "",
+          "first_seen": "2026-07-03",
+          "last_seen": "2026-07-03",
+          "chromium_release_date": "2026-06-16",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "4.15.1",
+          "chromium_version": "148.0.7778.271",
+          "electron_version": "",
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "chromium_release_date": "2026-06-16",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "SiYuan": {
+      "framework": "electron",
+      "platform": "",
+      "current": {
+        "app_version": "3.8.1",
+        "chromium_version": "148.0.7778.280",
+        "electron_version": "",
+        "first_seen": "2026-08-19",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "2026-06-23",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "3.8.1",
+          "chromium_version": "148.0.7778.280",
+          "electron_version": "",
+          "first_seen": "2026-08-19",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "2026-06-23",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "3.8.0",
+          "chromium_version": "148.0.7778.280",
+          "electron_version": "",
+          "first_seen": "2026-08-13",
+          "last_seen": "2026-08-18",
+          "chromium_release_date": "2026-06-23",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "3.7.3",
+          "chromium_version": "148.0.7778.280",
+          "electron_version": "",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-08-12",
+          "chromium_release_date": "2026-06-23",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "3.7.2",
+          "chromium_version": "148.0.7778.280",
+          "electron_version": "",
+          "first_seen": "2026-07-14",
+          "last_seen": "2026-07-19",
+          "chromium_release_date": "2026-06-23",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "3.7.1",
+          "chromium_version": "148.0.7778.271",
+          "electron_version": "",
+          "first_seen": "2026-07-04",
+          "last_seen": "2026-07-04",
+          "chromium_release_date": "2026-06-16",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "TRAE SOLO CN": {
+      "framework": "electron",
+      "platform": "",
+      "current": {
+        "app_version": "0.1.15",
+        "chromium_version": "142.0.7444.235",
+        "electron_version": "",
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "0.1.15",
+          "chromium_version": "142.0.7444.235",
+          "electron_version": "",
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "Tabbit": {
+      "framework": "electron_fork",
+      "platform": "",
+      "current": {
+        "app_version": "0.32.25",
+        "chromium_version": "147.0.7727.56",
+        "electron_version": "",
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "0.32.25",
+          "chromium_version": "147.0.7727.56",
+          "electron_version": "",
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "Trae": {
+      "framework": "electron",
+      "platform": "",
+      "current": {
+        "app_version": "3.5.55",
+        "chromium_version": "142.0.7444.235",
+        "electron_version": "",
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "3.5.55",
+          "chromium_version": "142.0.7444.235",
+          "electron_version": "",
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "Trae CN": {
+      "framework": "electron",
+      "platform": "",
+      "current": {
+        "app_version": "3.3.69",
+        "chromium_version": "142.0.7444.235",
+        "electron_version": "",
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "3.3.69",
+          "chromium_version": "142.0.7444.235",
+          "electron_version": "",
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "Trilium Notes": {
+      "framework": "electron",
+      "platform": "",
+      "current": {
+        "app_version": "0.105.0",
+        "chromium_version": "150.0.7871.224",
+        "electron_version": "",
+        "first_seen": "2026-08-20",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "2026-08-06",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "0.105.0",
+          "chromium_version": "150.0.7871.224",
+          "electron_version": "",
+          "first_seen": "2026-08-20",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "2026-08-06",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "0.104.1",
+          "chromium_version": "148.0.7778.280",
+          "electron_version": "",
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-08-19",
+          "chromium_release_date": "2026-06-23",
+          "chromium_release_cves": 0
+        },
+        {
+          "app_version": "0.104.0",
+          "chromium_version": "148.0.7778.280",
+          "electron_version": "",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-25",
+          "chromium_release_date": "2026-06-23",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "Visual Studio Code": {
+      "framework": "electron",
+      "platform": "",
+      "current": {
+        "app_version": "1.121.0",
+        "chromium_version": "142.0.7444.265",
+        "electron_version": "",
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "2026-01-06",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "1.121.0",
+          "chromium_version": "142.0.7444.265",
+          "electron_version": "",
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "2026-01-06",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "WeChat / WeChatAppEx": {
+      "framework": "electron_fork",
+      "platform": "",
+      "current": {
+        "app_version": "2.4.3.19978",
+        "chromium_version": "132.0.6834.210",
+        "electron_version": "",
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "2025-02-25",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "2.4.3.19978",
+          "chromium_version": "132.0.6834.210",
+          "electron_version": "",
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "2025-02-25",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "Windsurf": {
+      "framework": "electron",
+      "platform": "",
+      "current": {
+        "app_version": "2.3.15",
+        "chromium_version": "142.0.7444.265",
+        "electron_version": "",
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "2026-01-06",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "2.3.15",
+          "chromium_version": "142.0.7444.265",
+          "electron_version": "",
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "2026-01-06",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "Yakit": {
+      "framework": "electron",
+      "platform": "",
+      "current": {
+        "app_version": "1.4.7-424",
+        "chromium_version": "118.0.5993.54",
+        "electron_version": "",
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "1.4.7-424",
+          "chromium_version": "118.0.5993.54",
+          "electron_version": "",
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "扣子": {
+      "framework": "electron",
+      "platform": "",
+      "current": {
+        "app_version": "1.0.3",
+        "chromium_version": "142.0.7444.235",
+        "electron_version": "",
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "1.0.3",
+          "chromium_version": "142.0.7444.235",
+          "electron_version": "",
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "讯飞听见": {
+      "framework": "electron",
+      "platform": "",
+      "current": {
+        "app_version": "26.3.2653",
+        "chromium_version": "134.0.6998.88",
+        "electron_version": "",
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-08-20",
+        "chromium_release_date": "2025-03-10",
+        "chromium_release_cves": 5
+      },
+      "versions": [
+        {
+          "app_version": "26.3.2653",
+          "chromium_version": "134.0.6998.88",
+          "electron_version": "",
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-08-20",
+          "chromium_release_date": "2025-03-10",
+          "chromium_release_cves": 5
+        }
+      ]
+    }
+  }
+}

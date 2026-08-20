@@ -44,6 +44,10 @@ jobs:
         run: python .github/scripts/match_assets.py
         continue-on-error: true
 
+      - name: Rebuild app history from git history
+        run: python .github/scripts/build_app_history.py
+        continue-on-error: true
+
       - name: Build site
         run: |
           mkdir -p docs
@@ -51,6 +55,10 @@ jobs:
           # Copy asset risk report if it exists
           if [ -f data/asset-risk-report.json ]; then
             cp data/asset-risk-report.json docs/
+          fi
+          # Copy app history if it exists
+          if [ -f data/app-history.json ]; then
+            cp data/app-history.json docs/
           fi
           # index.html is committed to repo (no longer generated inline)
 
