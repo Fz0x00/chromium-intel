@@ -41,15 +41,16 @@ def parse_date(s):
 
 def stable_date_for(build, stable_dates):
     """Best-known stable date for a chromium build: exact match first,
-    else the newest same major.minor build in the stable timeline."""
+    else the newest numerically-smaller same major.minor build in the
+    stable timeline (lexicographic compare would misorder e.g. .103 vs .69)."""
     if build in stable_dates:
         return stable_dates[build]
     prefix = ".".join(build.split(".")[:2]) + "."
     cand = [
         v for v in stable_dates
-        if v.startswith(prefix) and v < build and len(v.split(".")) == 4
+        if v.startswith(prefix) and cmp_ver(v, build) < 0 and len(v.split(".")) == 4
     ]
-    return stable_dates[max(cand)] if cand else None
+    return stable_dates[max(cand, key=lambda v: tuple(int(p) for p in v.split(".")))] if cand else None
 
 
 def cmp_ver(a, b):
@@ -91,6 +92,10 @@ def main():
             sd = parse_date(sdate)
             if sd:
                 delta = (rd - sd).days
+        if delta is not None and delta < 0:
+            # A kernel age cannot be negative: negative values only arise from
+            # date-granularity edges or missing timeline data. Treat as unknown.
+            delta = None
         versions.append([ver, date_, chrome, node, delta])
 
         major = ver.split(".")[0]
