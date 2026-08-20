@@ -124,7 +124,7 @@
     <button class="tab" onclick="showTab('versions')">Version Distribution</button>
     <button class="tab" onclick="showTab('history')">App History</button>
     <button class="tab" onclick="showTab('releases')">Chrome Releases</button>
-    <button class="tab" onclick="showTab('frameworks')">Framework Sync</button>
+    <button class="tab" onclick="showTab('frameworks')">Electron Sync</button>
     <button class="tab" onclick="showTab('timeline')">Timeline</button>
     <button class="tab" onclick="showTab('downloads')">Downloads</button>
   </div>
@@ -672,7 +672,7 @@ function releasesGoPage(p) {
   renderReleases();
 }
 
-// ===================== FRAMEWORK SYNC TAB =====================
+// ===================== ELECTRON SYNC TAB =====================
 let FRAMEWORK_DATA = null;
 let frameworkPage = 1;
 let frameworkQuery = '';
@@ -905,7 +905,7 @@ async function init() {
     // Chrome Releases tab (independent of asset data)
     loadReleases();
 
-    // Framework Sync tab: Electron -> embedded Chromium mapping
+    // Electron Sync tab: Electron -> embedded Chromium mapping
     loadFramework();
   } catch(e) {
     document.getElementById('asset-summary').innerHTML = '<div class="loading">Failed to load data: ' + e.message + '</div>';
