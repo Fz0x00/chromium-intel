@@ -211,6 +211,27 @@ def main():
         except Exception as e:
             print(f"WARNING: failed to load {osv_path.name}: {e}")
 
+    # 加载 Chromium release 历史（omaha），计算每个版本的首个分发时间
+    vh_path = data_dir / 'version-history.json'
+    release_dates = {}
+    if vh_path.exists():
+        try:
+            vh = json.loads(vh_path.read_text()) or {}
+            vh_data = vh.get('version_history') if isinstance(vh, dict) else vh
+            for data in (vh_data or {}).values():
+                for r in (data.get('releases', []) if isinstance(data, dict) else []):
+                    name = r.get('name', '')
+                    m = re.search(r'/versions/(\d+\.\d+\.\d+\.\d+)/', name)
+                    if not m:
+                        continue
+                    ver = m.group(1)
+                    t = r.get('serving', {}).get('startTime', '')
+                    if t and (ver not in release_dates or t < release_dates[ver]):
+                        release_dates[ver] = t
+            print(f"Loaded release dates for {len(release_dates)} Chromium versions")
+        except Exception as e:
+            print(f"WARNING: failed to load {vh_path.name}: {e}")
+
     # 匹配
     results = []
     for app in apps:
@@ -229,6 +250,16 @@ def main():
         for c in oa.get('cves') or []:
             sev = c.get('severity', '')
             electron_counts[sev] = electron_counts.get(sev, 0) + 1
+
+        # Chromium 版本首发时间（omaha release history）→ 判断 app 落后量
+        release_date = release_dates.get(cv, '')
+        age_days = 0
+        if release_date:
+            try:
+                rd = datetime.fromisoformat(release_date.replace('Z', '+00:00'))
+                age_days = (datetime.utcnow() - rd.replace(tzinfo=None)).days
+            except Exception:
+                age_days = 0
 
         for cve in desktop_cves:
             if cmp_ver(cv, cve['_fixed']) < 0:
@@ -262,6 +293,8 @@ def main():
             'electron_critical': electron_counts.get('critical', 0),
             'electron_high': electron_counts.get('high', 0),
             'electron_cve_list': oa.get('cves', [])[:50] if oa else [],
+            'chromium_release_date': release_date,
+            'chromium_age_days': age_days,
         })
 
     # 排序：先 CRITICAL 降序，再 HIGH，再 TOTAL
