@@ -28,9 +28,11 @@ def git_log(root):
         ['git', 'log', '--reverse', '--format=%H|%ct', '--', 'data/assets.json'],
         cwd=str(root), capture_output=True, text=True, check=True,
     )
-    for line in out.stdout.splitlines():
-        if not line.strip():
-            continue
+    lines = [l for l in out.stdout.splitlines() if l.strip()]
+    if len(lines) <= 1:
+        print('WARNING: shallow checkout or no history — app history will be '
+              'limited to the current snapshot (ensure fetch-depth: 0 for CI)')
+    for line in lines:
         sha, ctime = line.split('|')
         yield sha, datetime.fromtimestamp(int(ctime), tz=timezone.utc)
 
