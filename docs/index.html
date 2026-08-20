@@ -674,15 +674,41 @@ function releasesGoPage(p) {
 
 // ===================== ELECTRON SYNC TAB =====================
 let FRAMEWORK_DATA = null;
+let FRAMEWORK_GROUPS = null;
 let frameworkPage = 1;
 let frameworkQuery = '';
 let frameworkMainlineOnly = false;
 const FRAMEWORK_MAJOR_ONLY = v => { const p = v.split('.'); return p[1] === '0' && p[2] === '0'; };
 
+function cmpSemver(a, b) {
+  const A = a.split('.').map(Number), B = b.split('.').map(Number);
+  for (let i = 0; i < 3; i++) if ((A[i] || 0) !== (B[i] || 0)) return (A[i] || 0) - (B[i] || 0);
+  return 0;
+}
+
+function buildFrameworkGroups() {
+  const F = FRAMEWORK_DATA.electron;
+  const byMaj = {};
+  for (const r of F.versions) {
+    const m = r[0].split('.')[0];
+    (byMaj[m] = byMaj[m] || []).push(r);
+  }
+  const list = Object.entries(byMaj).map(([maj, rows]) => {
+    rows.sort((a, b) => cmpSemver(b[0], a[0]));
+    return { maj, rows, meta: F.majors[maj] || {} };
+  }).sort((a, b) => {
+    const d = (b.rows[0][1] || '').localeCompare(a.rows[0][1] || '');
+    return d !== 0 ? d : parseInt(b.maj, 10) - parseInt(a.maj, 10);
+  });
+  const index = {};
+  list.forEach((g, i) => { index[g.maj] = i; });
+  FRAMEWORK_GROUPS = { list, index };
+}
+
 function loadFramework() {
   fetch('framework-timeline.json?v=' + Date.now())
     .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-    .then(d => { FRAMEWORK_DATA = d; renderFramework(); })
+    .then(d => { FRAMEWORK_DATA = d; buildFrameworkGroups(); renderFramework(); })
     .catch(() => {
       document.getElementById('frameworks-view').innerHTML =
         '<div class="loading">Framework timeline unavailable (framework-timeline.json not found).</div>';
@@ -712,6 +738,17 @@ function fmtDelta(d, suffix) {
   return `<span class="badge ${cls}">${d}d${suffix || ''}</span>`;
 }
 
+function orderByGroup(rows) {
+  if (!FRAMEWORK_GROUPS) return rows;
+  const map = new Map(FRAMEWORK_GROUPS.list.map((g, i) => [g.maj, i]));
+  return rows.slice().sort((a, b) => {
+    const ga = map.get(a[0].split('.')[0]);
+    const gb = map.get(b[0].split('.')[0]);
+    if (ga !== gb) return ga - gb;
+    return cmpSemver(b[0], a[0]);
+  });
+}
+
 function renderFramework() {
   const el = document.getElementById('frameworks-view');
   if (!FRAMEWORK_DATA) return;
@@ -723,6 +760,7 @@ function renderFramework() {
   let rows = F.versions;
   if (frameworkMainlineOnly) rows = rows.filter(r => FRAMEWORK_MAJOR_ONLY(r[0]));
   if (q) rows = rows.filter(r => r[0].toLowerCase().includes(q) || r[2].toLowerCase().includes(q));
+  if (!frameworkMainlineOnly) rows = orderByGroup(rows);
   const count = rows.length;
   const pages = Math.max(1, Math.ceil(count / RELEASES_PAGE_SIZE));
   frameworkPage = Math.min(frameworkPage, pages);
@@ -752,10 +790,10 @@ function renderFramework() {
 
   const html = `
   <div class="cards">
-    <div class="card"><h3>Electron ${frameworkMainlineOnly ? 'mainline' : 'stable releases'}</h3><p class="stat">${count}</p><p class="sub">${frameworkMainlineOnly ? 'major first-releases (x.0.0)' : 'all stable builds'}</p></div>
+    <div class="card"><h3>Electron ${frameworkMainlineOnly ? 'mainline' : 'stable releases'}</h3><p class="stat">${count}</p><p class="sub">${frameworkMainlineOnly ? 'major first-releases (x.0.0)' : 'all stable builds · grouped by major'}</p></div>
     <div class="card"><h3>Latest Electron</h3><p class="stat">${latest[0]}</p><p class="sub">${latest[1]} · Chromium ${latest[2]}</p></div>
     <div class="card"><h3>Chrome stable (ref)</h3><p class="stat">${ref.chromium_stable || '—'}</p><p class="sub">${ref.chromium_stable_date || ''} · Electron ${stableDelta > 0 ? `${stableDelta} major${stableDelta > 1 ? 's' : ''} behind` : 'in sync'}</p></div>
-    <div class="card"><h3>Node / V8 tracked</h3><p class="stat">${Object.keys(F.majors).length}</p><p class="sub">Electron majors documented</p></div>
+    <div class="card"><h3>Supported majors</h3><p class="stat">${Object.values(F.majors).filter(m => m.support).length}</p><p class="sub">official support branches</p></div>
   </div>
   ${revHtml}
   <div class="cve-toolbar">
@@ -769,7 +807,23 @@ function renderFramework() {
   <table><tr><th>Electron</th><th>Released</th><th>Embedded Chromium</th><th>Node</th><th>Kernel age</th><th>vs Chrome stable</th></tr>`;
 
   let body = '';
+  let lastGroup = -1;
   for (const r of slice) {
+    if (!frameworkMainlineOnly && FRAMEWORK_GROUPS) {
+      const maj = r[0].split('.')[0];
+      const gi = FRAMEWORK_GROUPS.index[maj];
+      if (gi !== lastGroup) {
+        const g = FRAMEWORK_GROUPS.list[gi];
+        const meta = g.meta;
+        const sup = !!meta.support;
+        body += `<tr style="background:#2b303a"><td colspan="6" style="border:none;padding:8px 12px;font-weight:bold;color:#e8eaed">
+          Electron ${g.maj}
+          <span class="badge ${sup ? 'b-patch' : 'b-critical'}">${sup ? 'supported · EOL ' + (meta.eol || '?') : 'EOL'}</span>
+          <span class="cve-meta">${g.rows.length} releases · Chromium M${meta.chromium_major || '?'} · latest ${g.rows[0][0]} (${g.rows[0][1]})</span>
+        </td></tr>`;
+        lastGroup = gi;
+      }
+    }
     const ver = r[0], date = r[1], chromium = r[2], node = r[3], delta = r[4];
     const cmajor = parseInt(chromium.split('.')[0]);
     const gap = stableMajor !== null ? stableMajor - cmajor : null;

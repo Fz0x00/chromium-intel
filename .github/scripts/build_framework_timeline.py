@@ -75,6 +75,14 @@ def main():
         for ver, date_, *_ in tl.get("versions", {}).get("stable", []):
             stable_dates[ver] = date_
 
+    eol = {}
+    eol_path = os.path.join(DATA, "electron-eol.json")
+    if os.path.exists(eol_path):
+        with open(eol_path) as f:
+            for c in json.load(f):
+                eol[c.get("cycle")] = c
+    today = date.today().isoformat()
+
     stable = [r for r in releases if r.get("version") and "-" not in r["version"]]
     stable.sort(key=lambda r: r["date"], reverse=True)
 
@@ -111,6 +119,12 @@ def main():
         if date_ > m["latest"]:
             m["latest"] = date_
         m["chromium_major"] = chrome.split(".")[0] if chrome else ""
+        c = eol.get(major, {})
+        m["eol"] = c.get("eol", "")
+        m["support"] = bool(m["eol"] and m["eol"] >= today)
+        if c:
+            m["chrome"] = c.get("chromeVersion", "")
+            m["eol_latest"] = c.get("latest", "")
 
     ref = {"chromium_stable": max(stable_dates, key=stable_dates.get) if stable_dates else None,
            "chromium_stable_date": stable_dates.get(max(stable_dates, key=stable_dates.get)) if stable_dates else None,
