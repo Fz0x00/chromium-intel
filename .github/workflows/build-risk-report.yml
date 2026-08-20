@@ -54,6 +54,14 @@ jobs:
         run: python .github/scripts/build_releases_timeline.py
         continue-on-error: true
 
+      - name: Fetch Electron releases
+        run: python .github/scripts/fetch_electron_releases.py
+        continue-on-error: true
+
+      - name: Build framework timeline
+        run: python .github/scripts/build_framework_timeline.py
+        continue-on-error: true
+
       - name: Build site
         run: |
           mkdir -p docs
@@ -69,6 +77,10 @@ jobs:
           # Copy releases timeline if it exists
           if [ -f data/releases-timeline.json ]; then
             cp data/releases-timeline.json docs/
+          fi
+          # Copy framework timeline if it exists
+          if [ -f data/framework-timeline.json ]; then
+            cp data/framework-timeline.json docs/
           fi
           # index.html is committed to repo (no longer generated inline)
 

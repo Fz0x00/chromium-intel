@@ -124,6 +124,7 @@
     <button class="tab" onclick="showTab('versions')">Version Distribution</button>
     <button class="tab" onclick="showTab('history')">App History</button>
     <button class="tab" onclick="showTab('releases')">Chrome Releases</button>
+    <button class="tab" onclick="showTab('frameworks')">Framework Sync</button>
     <button class="tab" onclick="showTab('timeline')">Timeline</button>
     <button class="tab" onclick="showTab('downloads')">Downloads</button>
   </div>
@@ -148,6 +149,10 @@
 
   <div id="tab-releases" class="tab-content">
     <div id="releases-view"></div>
+  </div>
+
+  <div id="tab-frameworks" class="tab-content">
+    <div id="frameworks-view"></div>
   </div>
 
   <div id="tab-timeline" class="tab-content">
@@ -652,6 +657,116 @@ function releasesGoPage(p) {
   renderReleases();
 }
 
+// ===================== FRAMEWORK SYNC TAB =====================
+let FRAMEWORK_DATA = null;
+let frameworkPage = 1;
+let frameworkQuery = '';
+
+function loadFramework() {
+  fetch('framework-timeline.json?v=' + Date.now())
+    .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(d => { FRAMEWORK_DATA = d; renderFramework(); })
+    .catch(() => {
+      document.getElementById('frameworks-view').innerHTML =
+        '<div class="loading">Framework timeline unavailable (framework-timeline.json not found).</div>';
+    });
+}
+
+function frameworkSetQuery(q) {
+  frameworkQuery = (q || '').trim();
+  frameworkPage = 1;
+  renderFramework();
+}
+
+function frameworkGoPage(p) {
+  frameworkPage = p;
+  renderFramework();
+}
+
+function fmtDelta(d, suffix) {
+  if (d === null || d === undefined) return '<span style="color:#9aa0a6">—</span>';
+  const cls = d <= 30 ? 'b-patch' : d <= 90 ? 'b-high' : 'b-critical';
+  return `<span class="badge ${cls}">${d}d${suffix || ''}</span>`;
+}
+
+function renderFramework() {
+  const el = document.getElementById('frameworks-view');
+  if (!FRAMEWORK_DATA) return;
+  const F = FRAMEWORK_DATA.electron;
+  const ref = FRAMEWORK_DATA.reference || {};
+  const stableMajor = ref.chromium_stable ? parseInt(ref.chromium_stable.split('.')[0]) : null;
+
+  const q = frameworkQuery.toLowerCase();
+  let rows = F.versions;
+  if (q) rows = rows.filter(r => r[0].toLowerCase().includes(q) || r[2].toLowerCase().includes(q));
+  const count = rows.length;
+  const pages = Math.max(1, Math.ceil(count / RELEASES_PAGE_SIZE));
+  frameworkPage = Math.min(frameworkPage, pages);
+  const slice = rows.slice((frameworkPage - 1) * RELEASES_PAGE_SIZE, frameworkPage * RELEASES_PAGE_SIZE);
+
+  let revHtml = '';
+  if (q && q.includes('.')) {
+    const hits = Object.keys(F.by_chromium).filter(c => c.includes(q)).slice(0, 5);
+    if (hits.length) {
+      revHtml = `<div class="card" style="margin:12px 0"><h3>Chromium reverse lookup — matching Electron versions</h3>`;
+      for (const c of hits) {
+        const versions = F.by_chromium[c].slice(0, 20);
+        revHtml += `<p style="margin:6px 0"><b>${c}</b> → ${versions.map(v => `<span class="badge b-patch">${v}</span>`).join(' ')}${F.by_chromium[c].length > 20 ? ' …' : ''}</p>`;
+      }
+      revHtml += '</div>';
+    }
+  }
+
+  const latest = F.versions[0];
+  const stableDelta = stableMajor ? Math.max(0, stableMajor - parseInt(latest[2].split('.')[0])) : null;
+
+  const html = `
+  <div class="cards">
+    <div class="card"><h3>Electron stable releases</h3><p class="stat">${F.count}</p><p class="sub">since 2014, all channels</p></div>
+    <div class="card"><h3>Latest Electron</h3><p class="stat">${latest[0]}</p><p class="sub">${latest[1]} · Chromium ${latest[2]}</p></div>
+    <div class="card"><h3>Chrome stable (ref)</h3><p class="stat">${ref.chromium_stable || '—'}</p><p class="sub">${ref.chromium_stable_date || ''} · Electron ${stableDelta > 0 ? `${stableDelta} major${stableDelta > 1 ? 's' : ''} behind` : 'in sync'}</p></div>
+    <div class="card"><h3>Node / V8 tracked</h3><p class="stat">${Object.keys(F.majors).length}</p><p class="sub">Electron majors documented</p></div>
+  </div>
+  ${revHtml}
+  <div class="cve-toolbar">
+    <input id="framework-search" placeholder="Filter by Electron or Chromium version… e.g. 39, 142.0.7444" value="${frameworkQuery}" oninput="frameworkSetQuery(this.value)">
+    <span class="cve-count">${count} releases</span>
+  </div>
+  <table><tr><th>Electron</th><th>Released</th><th>Embedded Chromium</th><th>Node</th><th>Kernel age</th><th>vs Chrome stable</th></tr>`;
+
+  let body = '';
+  for (const r of slice) {
+    const ver = r[0], date = r[1], chromium = r[2], node = r[3], delta = r[4];
+    const cmajor = parseInt(chromium.split('.')[0]);
+    const gap = stableMajor !== null ? stableMajor - cmajor : null;
+    const gapCls = gap === null ? '' : gap <= 1 ? 'b-patch' : gap <= 3 ? 'b-high' : 'b-critical';
+    body += `<tr>
+      <td><strong>${ver}</strong></td>
+      <td><span class="cve-meta">${date || '—'}</span></td>
+      <td><strong>${chromium}</strong></td>
+      <td><span class="cve-meta">${node || '—'}</span></td>
+      <td>${fmtDelta(delta)}</td>
+      <td>${gap === null ? '<span style="color:#9aa0a6">—</span>' : `<span class="badge ${gapCls}">${gap === 0 ? 'current' : '−' + gap}</span>`}</td>
+    </tr>`;
+  }
+  let html2 = html + body + '</table>';
+  if (pages <= 15) {
+    let pg = '<div class="pagination">';
+    for (let i = 1; i <= pages; i++) pg += `<button class="${i === frameworkPage ? 'active' : ''}" onclick="frameworkGoPage(${i})">${i}</button>`;
+    pg += '</div>';
+    html2 += pg;
+  } else {
+    let pg = '<div class="pagination">';
+    const win = 4, start = Math.max(1, frameworkPage - win), end = Math.min(pages, frameworkPage + win);
+    if (start > 1) pg += `<button onclick="frameworkGoPage(1)">1</button><span style="color:#9aa0a6;align-self:center">…</span>`;
+    for (let i = start; i <= end; i++) pg += `<button class="${i === frameworkPage ? 'active' : ''}" onclick="frameworkGoPage(${i})">${i}</button>`;
+    if (end < pages) pg += `<span style="color:#9aa0a6;align-self:center">…</span><button onclick="frameworkGoPage(${pages})">${pages}</button>`;
+    pg += '</div>';
+    html2 += pg;
+  }
+  el.innerHTML = html2;
+}
+
 // ===================== TIMELINE TAB =====================
 function renderTimeline() {
   if (!ASSET_DATA) return;
@@ -755,6 +870,9 @@ async function init() {
 
     // Chrome Releases tab (independent of asset data)
     loadReleases();
+
+    // Framework Sync tab: Electron -> embedded Chromium mapping
+    loadFramework();
   } catch(e) {
     document.getElementById('asset-summary').innerHTML = '<div class="loading">Failed to load data: ' + e.message + '</div>';
   }
