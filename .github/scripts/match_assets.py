@@ -198,6 +198,19 @@ def main():
     apps = assets.get('apps') or []
     print(f"Loaded {len(apps)} apps from assets.json")
 
+    # 加载 OSV Electron 框架层 CVE 结果（hunter monitor 上报）
+    osv_path = data_dir / 'osv-electron-cves.json'
+    osv_apps = {}
+    if osv_path.exists():
+        try:
+            osv = json.loads(osv_path.read_text()) or {}
+            for a in osv.get('apps') or []:
+                if a.get('app_name'):
+                    osv_apps[a['app_name']] = a
+            print(f"Loaded OSV electron CVEs for {len(osv_apps)} apps")
+        except Exception as e:
+            print(f"WARNING: failed to load {osv_path.name}: {e}")
+
     # 匹配
     results = []
     for app in apps:
@@ -209,6 +222,13 @@ def main():
         counts = {'CRITICAL': 0, 'HIGH': 0, 'PATCH': 0, 'OTHER': 0}
         confidence_counts = {'VERIFIED': 0, 'LIKELY': 0, 'RANGE': 0}
         top_cves = []
+
+        app_name = app.get('app_name', app.get('name', '?'))
+        oa = osv_apps.get(app_name, {})
+        electron_counts = {}
+        for c in oa.get('cves') or []:
+            sev = c.get('severity', '')
+            electron_counts[sev] = electron_counts.get(sev, 0) + 1
 
         for cve in desktop_cves:
             if cmp_ver(cv, cve['_fixed']) < 0:
@@ -224,7 +244,7 @@ def main():
         top_cves.sort(key=lambda c: (priority_order[c['priority']], c['id']))
 
         results.append({
-            'app_name': app.get('app_name', app.get('name', '?')),
+            'app_name': app_name,
             'app_version': app.get('app_version', ''),
             'framework': app.get('framework', ''),
             'chromium_version': cv,
@@ -237,6 +257,11 @@ def main():
             'exploit_likely': confidence_counts['LIKELY'],
             'exploit_range_only': confidence_counts['RANGE'],
             'top_cves': top_cves[:50],
+            'electron_version': oa.get('electron_version', '') if oa else '',
+            'electron_cves': oa.get('total_cves', 0) if oa else 0,
+            'electron_critical': electron_counts.get('critical', 0),
+            'electron_high': electron_counts.get('high', 0),
+            'electron_cve_list': oa.get('cves', [])[:50] if oa else [],
         })
 
     # 排序：先 CRITICAL 降序，再 HIGH，再 TOTAL
@@ -249,6 +274,9 @@ def main():
         'total_critical': sum(r['critical'] for r in results),
         'total_high': sum(r['high'] for r in results),
         'total_verified': sum(r['exploit_verified'] for r in results),
+        'total_electron_cves': sum(r['electron_cves'] for r in results),
+        'total_electron_critical': sum(r['electron_critical'] for r in results),
+        'total_electron_high': sum(r['electron_high'] for r in results),
         'apps': results,
     }
 
@@ -259,6 +287,8 @@ def main():
     print(f"  Critical (CISA KEV): {output['total_critical']}")
     print(f"  High (in-the-wild): {output['total_high']}")
     print(f"  Exploit verified: {output['total_verified']}")
+    print(f"  Electron CVEs: {output['total_electron_cves']} "
+          f"(critical {output['total_electron_critical']}, high {output['total_electron_high']})")
     print(f"\nExploitability confidence breakdown:")
     print(f"  VERIFIED = exploit confirmed on this V8 version")
     print(f"  LIKELY   = component match + public PoC/patch exists")
