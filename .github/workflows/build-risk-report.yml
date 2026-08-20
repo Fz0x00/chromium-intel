@@ -50,6 +50,10 @@ jobs:
         run: python .github/scripts/build_app_history.py
         continue-on-error: true
 
+      - name: Build releases timeline
+        run: python .github/scripts/build_releases_timeline.py
+        continue-on-error: true
+
       - name: Build site
         run: |
           mkdir -p docs
@@ -61,6 +65,10 @@ jobs:
           # Copy app history if it exists
           if [ -f data/app-history.json ]; then
             cp data/app-history.json docs/
+          fi
+          # Copy releases timeline if it exists
+          if [ -f data/releases-timeline.json ]; then
+            cp data/releases-timeline.json docs/
           fi
           # index.html is committed to repo (no longer generated inline)
 

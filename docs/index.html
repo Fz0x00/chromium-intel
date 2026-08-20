@@ -123,6 +123,7 @@
     <button class="tab" onclick="showTab('cve-db')">CVE Database</button>
     <button class="tab" onclick="showTab('versions')">Version Distribution</button>
     <button class="tab" onclick="showTab('history')">App History</button>
+    <button class="tab" onclick="showTab('releases')">Chrome Releases</button>
     <button class="tab" onclick="showTab('timeline')">Timeline</button>
     <button class="tab" onclick="showTab('downloads')">Downloads</button>
   </div>
@@ -143,6 +144,10 @@
 
   <div id="tab-history" class="tab-content">
     <div id="history-view"></div>
+  </div>
+
+  <div id="tab-releases" class="tab-content">
+    <div id="releases-view"></div>
   </div>
 
   <div id="tab-timeline" class="tab-content">
@@ -544,6 +549,109 @@ function sortHistory(key) {
   renderHistory();
 }
 
+// ===================== CHROME RELEASES TAB =====================
+let RELEASES_DATA = null;
+let releasesChannel = 'stable';
+let releasesPage = 1;
+let releasesQuery = '';
+const RELEASES_PAGE_SIZE = 50;
+
+function loadReleases() {
+  // '?v=' busts GitHub Pages' 10-minute cache so the file is always current
+  fetch('releases-timeline.json?v=' + Date.now())
+    .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(d => { RELEASES_DATA = d; renderReleases(); })
+    .catch(() => {
+      document.getElementById('releases-view').innerHTML =
+        '<div class="loading">Releases timeline unavailable (releases-timeline.json not found).</div>';
+    });
+}
+
+function renderReleases() {
+  if (!RELEASES_DATA) return;
+  const ch = RELEASES_DATA.channels.includes(releasesChannel) ? releasesChannel : RELEASES_DATA.channels[0] || 'stable';
+  let items = RELEASES_DATA.versions[ch] || [];
+  if (releasesQuery) {
+    const q = releasesQuery.toLowerCase();
+    items = items.filter(v => v[0].toLowerCase().includes(q));
+  }
+  const count = items.length;
+  const pages = Math.max(1, Math.ceil(count / RELEASES_PAGE_SIZE));
+  releasesPage = Math.min(releasesPage, pages);
+  const slice = items.slice((releasesPage - 1) * RELEASES_PAGE_SIZE, releasesPage * RELEASES_PAGE_SIZE);
+
+  const toolbar = `<div class="cve-toolbar">
+    <select onchange="releasesSetChannel(this.value)">
+      ${RELEASES_DATA.channels.map(c => `<option value="${c}" ${c === ch ? 'selected' : ''}>${c.toUpperCase()} (${RELEASES_DATA.version_count[c]})</option>`).join('')}
+    </select>
+    <input id="releases-search" placeholder="Filter by version… e.g. 148 or 151.0.77" value="${releasesQuery}" oninput="releasesSetQuery(this.value)">
+    <span class="cve-count">${count} versions</span>
+  </div>`;
+
+  let html = toolbar + '<table><tr><th>Version</th><th>Released</th><th>Security Announcement</th><th>CVEs</th><th>Links</th></tr>';
+  for (const v of slice) {
+    const ver = v[0], date = v[1], cves = v[2], wild = v[3];
+    const ann = RELEASES_DATA.announcements[ver];
+    const annList = Array.isArray(ann) ? ann : (ann ? [ann] : []);
+    const cveCell = cves > 0
+      ? `<span class="badge ${wild ? 'b-critical' : cves >= 10 ? 'b-high' : 'b-patch'}">${cves} CVE${wild ? ' · wild' : ''}</span>`
+      : '<span style="color:#9aa0a6">—</span>';
+    const linkCell = annList.length
+      ? `<span class="links">${annList.map(a => `<a href="${a.url}" target="_blank">Blog</a>`).join('')}</span>`
+      : '<span style="color:#9aa0a6">—</span>';
+    const annCell = annList.length
+      ? `<span class="cve-desc">${annList.map(a => a.title).join('; ')}</span>`
+      : '<span style="color:#9aa0a6">—</span>';
+    html += `<tr>
+      <td><strong>${ver}</strong></td>
+      <td><span class="cve-meta">${date || '—'}</span></td>
+      <td>${annCell}</td>
+      <td>${cveCell}</td>
+      <td>${linkCell}</td>
+    </tr>`;
+  }
+  html += '</table>';
+
+  let pg = '<div class="pagination">';
+  if (pages <= 15) {
+    for (let i = 1; i <= pages; i++) {
+      pg += `<button class="${i === releasesPage ? 'active' : ''}" onclick="releasesGoPage(${i})">${i}</button>`;
+    }
+  } else {
+    const win = 4;
+    const start = Math.max(1, releasesPage - win);
+    const end = Math.min(pages, releasesPage + win);
+    if (start > 1) {
+      pg += `<button onclick="releasesGoPage(1)">1</button><span style="color:#9aa0a6;align-self:center">…</span>`;
+    }
+    for (let i = start; i <= end; i++) {
+      pg += `<button class="${i === releasesPage ? 'active' : ''}" onclick="releasesGoPage(${i})">${i}</button>`;
+    }
+    if (end < pages) {
+      pg += `<span style="color:#9aa0a6;align-self:center">…</span><button onclick="releasesGoPage(${pages})">${pages}</button>`;
+    }
+  }
+  pg += '</div>';
+  document.getElementById('releases-view').innerHTML = html + pg;
+}
+
+function releasesSetChannel(c) {
+  releasesChannel = c;
+  releasesPage = 1;
+  renderReleases();
+}
+
+function releasesSetQuery(q) {
+  releasesQuery = q;
+  releasesPage = 1;
+  renderReleases();
+}
+
+function releasesGoPage(p) {
+  releasesPage = p;
+  renderReleases();
+}
+
 // ===================== TIMELINE TAB =====================
 function renderTimeline() {
   if (!ASSET_DATA) return;
@@ -644,6 +752,9 @@ async function init() {
 
     // App History tab (independent of asset data)
     loadAppHistory();
+
+    // Chrome Releases tab (independent of asset data)
+    loadReleases();
   } catch(e) {
     document.getElementById('asset-summary').innerHTML = '<div class="loading">Failed to load data: ' + e.message + '</div>';
   }
