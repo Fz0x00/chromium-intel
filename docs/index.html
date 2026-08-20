@@ -676,7 +676,7 @@ function releasesGoPage(p) {
 let FRAMEWORK_DATA = null;
 let frameworkPage = 1;
 let frameworkQuery = '';
-let frameworkMainlineOnly = true;
+let frameworkMainlineOnly = false;
 const FRAMEWORK_MAJOR_ONLY = v => { const p = v.split('.'); return p[1] === '0' && p[2] === '0'; };
 
 function loadFramework() {
