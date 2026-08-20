@@ -475,7 +475,9 @@ let historySortKey = 'app_version';
 function renderHistory() {
   if (!APP_HISTORY) return;
   const names = Object.keys(APP_HISTORY.apps).sort();
-  const current = APP_HISTORY.currentApp || names[0];
+  const current = APP_HISTORY.currentApp
+    || names.map(n => [n, APP_HISTORY.apps[n].versions.length])
+            .sort((a, b) => b[1] - a[1])[0][0];
   const app = APP_HISTORY.apps[current];
   if (!app) return;
 
@@ -632,15 +634,27 @@ async function init() {
       renderAssets();
       renderVersionChart();
       renderTimeline();
-      fetch('app-history.json')
-        .then(r => r.json().then(d => { APP_HISTORY = d; renderHistory(); }))
-        .catch(() => { document.getElementById('history-view').innerHTML = '<div class="loading">App history unavailable (app-history.json not found).</div>'; });
     } catch(e) {
       document.getElementById('asset-summary').innerHTML = '<div class="loading">No asset data uploaded yet. Run hunter scan and upload assets.json.</div>';
     }
+
+    // App History tab (independent of asset data)
+    loadAppHistory();
   } catch(e) {
     document.getElementById('asset-summary').innerHTML = '<div class="loading">Failed to load data: ' + e.message + '</div>';
   }
+}
+
+function loadAppHistory() {
+  const fail = () => {
+    document.getElementById('history-view').innerHTML =
+      '<div class="loading">App history unavailable (app-history.json not found).<br><span style="font-size:12px;color:#80868b">Try a hard refresh (Cmd/Ctrl+Shift+R) if this persists.</span></div>';
+  };
+  // '?v=' busts GitHub Pages' 10-minute cache so the file is always current
+  fetch('app-history.json?v=' + Date.now())
+    .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(d => { APP_HISTORY = d; renderHistory(); })
+    .catch(fail);
 }
 
 init();
