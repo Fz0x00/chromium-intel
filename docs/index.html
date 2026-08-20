@@ -366,19 +366,29 @@ function matchCveFilter(cve) {
   }
 }
 
+function cveSortKey(id) {
+  const m = String(id || '').match(/^CVE-(\d{4})-(\d+)$/i);
+  return m ? parseInt(m[1], 10) * 1000000 + parseInt(m[2], 10) : 0;
+}
+
 function getFilteredCves() {
   const cves = CVE_DATA.cves || CVE_DATA.c || [];
-  if (!currentCveQuery && currentCveFilter === 'all') return cves;
-  const lower = currentCveQuery.toLowerCase();
-  return cves.filter(c =>
-    matchCveFilter(c) && (
-      !currentCveQuery ||
-      c.id.toLowerCase().includes(lower) ||
-      (c.description || '').toLowerCase().includes(lower) ||
-      (c.bug_id || '').includes(lower) ||
-      (c.component || '').toLowerCase().includes(lower)
-    )
-  );
+  let result;
+  if (!currentCveQuery && currentCveFilter === 'all') {
+    result = cves.slice();
+  } else {
+    const lower = currentCveQuery.toLowerCase();
+    result = cves.filter(c =>
+      matchCveFilter(c) && (
+        !currentCveQuery ||
+        c.id.toLowerCase().includes(lower) ||
+        (c.description || '').toLowerCase().includes(lower) ||
+        (c.bug_id || '').includes(lower) ||
+        (c.component || '').toLowerCase().includes(lower)
+      )
+    );
+  }
+  return result.sort((a, b) => cveSortKey(b.id) - cveSortKey(a.id));
 }
 
 function refreshCveTable() {
