@@ -801,34 +801,48 @@ function renderFramework() {
       <input type="checkbox" ${frameworkMainlineOnly ? 'checked' : ''} onchange="frameworkToggleMainline(this.checked)">
       mainline only (x.0.0)
     </label>
-    <input id="framework-search" placeholder="Filter by Electron or Chromium version… e.g. 39, 142.0.7444" value="${frameworkQuery}" oninput="frameworkSetQuery(this.value)">
+    <input id="framework-search" placeholder="Filter by Electron version… e.g. 39, 43.4" value="${frameworkQuery}" oninput="frameworkSetQuery(this.value)">
     <span class="cve-count">${count} releases</span>
   </div>
-  <table><tr><th>Electron</th><th>Released</th><th>Embedded Chromium</th><th>Node</th><th>Kernel age</th><th>vs Chrome stable</th></tr>`;
+  <table><tr>${frameworkMainlineOnly ? '' : '<th>Major</th>'}<th>Electron</th><th>Released</th><th>Embedded Chromium</th><th>Node</th><th>Kernel age</th><th>vs Chrome stable</th></tr>`;
 
   let body = '';
-  let lastGroup = -1;
-  for (const r of slice) {
-    if (!frameworkMainlineOnly && FRAMEWORK_GROUPS) {
-      const maj = r[0].split('.')[0];
-      const gi = FRAMEWORK_GROUPS.index[maj];
-      if (gi !== lastGroup) {
-        const g = FRAMEWORK_GROUPS.list[gi];
-        const meta = g.meta;
-        const sup = !!meta.support;
-        body += `<tr style="background:#2b303a"><td colspan="6" style="border:none;padding:8px 12px;font-weight:bold;color:#e8eaed">
-          Electron ${g.maj}
-          <span class="badge ${sup ? 'b-patch' : 'b-critical'}">${sup ? 'supported · EOL ' + (meta.eol || '?') : 'EOL'}</span>
-          <span class="cve-meta">${g.rows.length} releases · Chromium M${meta.chromium_major || '?'} · latest ${g.rows[0][0]} (${g.rows[0][1]})</span>
-        </td></tr>`;
-        lastGroup = gi;
-      }
+  const sliceGroups = [];
+  let cur = null;
+  slice.forEach((r, idx) => {
+    const maj = r[0].split('.')[0];
+    if (!cur || cur.maj !== maj) {
+      cur = { maj, gi: FRAMEWORK_GROUPS ? FRAMEWORK_GROUPS.index[maj] : -1, start: idx, len: 0 };
+      sliceGroups.push(cur);
+    }
+    cur.len++;
+  });
+  let sgIdx = 0;
+  for (let idx = 0; idx < slice.length; idx++) {
+    const r = slice[idx];
+    let sg = sliceGroups[sgIdx];
+    if (idx >= sg.start + sg.len) {
+      sgIdx++;
+      sg = sliceGroups[sgIdx];
+    }
+    const isGroupStart = idx === sg.start && !frameworkMainlineOnly && FRAMEWORK_GROUPS;
+    let majCell = '';
+    if (isGroupStart) {
+      const g = FRAMEWORK_GROUPS.list[sg.gi];
+      const meta = g.meta;
+      const sup = !!meta.support;
+      majCell = `<td rowspan="${sg.len}" style="vertical-align:top;background:#2b303a;border-right:1px solid #3c4043">
+        <strong>Electron ${g.maj}</strong><br>
+        <span class="badge ${sup ? 'b-patch' : 'b-critical'}">${sup ? 'supported' : 'EOL'}</span>
+        <span class="cve-meta" style="display:block">${g.rows.length} releases · M${meta.chromium_major || '?'}${meta.eol && sup ? ' · EOL ' + meta.eol : ''}</span>
+      </td>`;
     }
     const ver = r[0], date = r[1], chromium = r[2], node = r[3], delta = r[4];
     const cmajor = parseInt(chromium.split('.')[0]);
     const gap = stableMajor !== null ? stableMajor - cmajor : null;
     const gapCls = gap === null ? '' : gap <= 1 ? 'b-patch' : gap <= 3 ? 'b-high' : 'b-critical';
     body += `<tr>
+      ${majCell}
       <td><strong>${ver}</strong></td>
       <td><span class="cve-meta">${date || '—'}</span></td>
       <td><strong>${chromium}</strong></td>
