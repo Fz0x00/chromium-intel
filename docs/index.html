@@ -201,6 +201,14 @@ function makeLinks(cve) {
 }
 
 // ===================== ASSET RISK TAB =====================
+const VERSION_RE = /^\d+(\.\d+){1,3}([-+][0-9A-Za-z._-]*)?$/;
+function safeVersion(v) {
+  if (v === undefined || v === null) return '';
+  v = String(v).trim();
+  if (!VERSION_RE.test(v)) return '';
+  return v.length > 40 ? v.slice(0, 40) : v;
+}
+
 function renderAssets() {
   if (!ASSET_DATA) return;
   const d = ASSET_DATA;
@@ -227,7 +235,7 @@ function renderAssets() {
 
   for (const app of d.apps) {
     html += `<tr class="app-row" onclick="showAppDetail('${app.app_name.replace(/'/g,"\\'")}')">
-      <td><strong>${app.app_name}</strong> ${app.app_version ? '<span style="color:#5f6368;font-size:11px">v'+app.app_version+'</span>' : ''}</td>
+      <td><strong>${app.app_name}</strong> ${safeVersion(app.app_version) ? '<span style="color:#5f6368;font-size:11px;white-space:nowrap">v'+safeVersion(app.app_version)+'</span>' : ''}</td>
       <td><span class="version-tag ${verColor(app.chromium_version)}">${app.chromium_version}</span></td>
       <td><span class="component-tag">${app.framework}</span></td>
       <td>${app.critical > 0 ? '<span class="badge b-critical">'+app.critical+'</span>' : '-'}</td>
@@ -257,7 +265,7 @@ function showAppDetail(name) {
     <div class="detail-header">
       <h2>${app.app_name}</h2>
       <div class="meta">
-        App Version: <strong>${app.app_version || '?'}</strong> ·
+        App Version: <strong>${safeVersion(app.app_version) || '?'}</strong> ·
         Chromium: <span class="version-tag ${verColor(app.chromium_version)}">${app.chromium_version}</span> ·
         Framework: <span class="component-tag">${app.framework}</span><br>
         <span class="badge b-critical">${app.critical} CRITICAL</span>
@@ -545,6 +553,7 @@ async function init() {
     // Asset tab
     try {
       ASSET_DATA = await assetRes.json();
+      if (ASSET_DATA.apps) ASSET_DATA.apps = ASSET_DATA.apps.map(a => ({ ...a, app_version: safeVersion(a.app_version) }));
       renderAssets();
       renderVersionChart();
       renderTimeline();

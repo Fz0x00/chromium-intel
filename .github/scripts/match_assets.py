@@ -18,6 +18,7 @@ from pathlib import Path
 
 
 VER_RE = re.compile(r'(\d+)\.(\d+)\.(\d+)\.(\d+)')
+APP_VER_RE = re.compile(r'^\d+(\.\d+){1,3}([-+][0-9A-Za-z._-]+)?$')
 PRIOR_RE = re.compile(r'(?:prior to|before)\s+(\d+\.\d+\.\d+\.\d+)', re.IGNORECASE)
 ANDROID_RE = re.compile(r'on android', re.IGNORECASE)
 IOS_RE = re.compile(r'on ios|on iphone', re.IGNORECASE)
@@ -28,6 +29,13 @@ def parse_version(v):
     if not m:
         return None
     return tuple(int(x) for x in m.groups())
+
+
+def sanitize_app_version(v):
+    v = (v or '').strip()
+    if not v or not APP_VER_RE.match(v):
+        return ''
+    return v[:40]
 
 
 def cmp_ver(a, b):
@@ -276,7 +284,7 @@ def main():
 
         results.append({
             'app_name': app_name,
-            'app_version': app.get('app_version', ''),
+            'app_version': sanitize_app_version(app.get('app_version', '')),
             'framework': app.get('framework', ''),
             'chromium_version': cv,
             'platform': app.get('platform', assets.get('platform', '')),

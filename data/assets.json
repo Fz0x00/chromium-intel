@@ -137,7 +137,7 @@
     },
     {
       "app_name": "Kiro",
-      "app_version": "_\u0010\u000fCFBundleVersionZDTCompilerZDTSDKBuildYDTSDKNameWDTXcode\\DTXcodeBuild_\u0010\u0015ElectronAsarIntegrity_\u0010\u0019LSApplicationCategoryType]LSEnvironment_\u0010\u0016LSMinimumSystemVersion_\u0010\u0016NSAppTransportSecurity_\u0010\u001eNSAudioCaptureUsageDescription_\u0010!NSBluetoothAlwaysUsageDescription",
+      "app_version": "0.12.333",
       "app_path": "/Applications/Kiro.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
