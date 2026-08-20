@@ -559,6 +559,7 @@ let RELEASES_DATA = null;
 let releasesChannel = 'stable';
 let releasesPage = 1;
 let releasesQuery = '';
+let releasesMainlineOnly = true;
 const RELEASES_PAGE_SIZE = 50;
 
 function loadReleases() {
@@ -576,6 +577,10 @@ function renderReleases() {
   if (!RELEASES_DATA) return;
   const ch = RELEASES_DATA.channels.includes(releasesChannel) ? releasesChannel : RELEASES_DATA.channels[0] || 'stable';
   let items = RELEASES_DATA.versions[ch] || [];
+  if (releasesMainlineOnly) {
+    // Mainline only: versions that shipped an official blog announcement
+    items = items.filter(v => RELEASES_DATA.announcements[v[0]]);
+  }
   if (releasesQuery) {
     const q = releasesQuery.toLowerCase();
     items = items.filter(v => v[0].toLowerCase().includes(q));
@@ -589,6 +594,10 @@ function renderReleases() {
     <select onchange="releasesSetChannel(this.value)">
       ${RELEASES_DATA.channels.map(c => `<option value="${c}" ${c === ch ? 'selected' : ''}>${c.toUpperCase()} (${RELEASES_DATA.version_count[c]})</option>`).join('')}
     </select>
+    <label style="display:inline-flex;align-items:center;gap:6px;white-space:nowrap">
+      <input type="checkbox" ${releasesMainlineOnly ? 'checked' : ''} onchange="releasesToggleMainline(this.checked)">
+      announced only
+    </label>
     <input id="releases-search" placeholder="Filter by version… e.g. 148 or 151.0.77" value="${releasesQuery}" oninput="releasesSetQuery(this.value)">
     <span class="cve-count">${count} versions</span>
   </div>`;
@@ -652,6 +661,12 @@ function releasesSetQuery(q) {
   renderReleases();
 }
 
+function releasesToggleMainline(on) {
+  releasesMainlineOnly = on;
+  releasesPage = 1;
+  renderReleases();
+}
+
 function releasesGoPage(p) {
   releasesPage = p;
   renderReleases();
@@ -661,6 +676,8 @@ function releasesGoPage(p) {
 let FRAMEWORK_DATA = null;
 let frameworkPage = 1;
 let frameworkQuery = '';
+let frameworkMainlineOnly = true;
+const FRAMEWORK_MAJOR_ONLY = v => { const p = v.split('.'); return p[1] === '0' && p[2] === '0'; };
 
 function loadFramework() {
   fetch('framework-timeline.json?v=' + Date.now())
@@ -674,6 +691,12 @@ function loadFramework() {
 
 function frameworkSetQuery(q) {
   frameworkQuery = (q || '').trim();
+  frameworkPage = 1;
+  renderFramework();
+}
+
+function frameworkToggleMainline(on) {
+  frameworkMainlineOnly = on;
   frameworkPage = 1;
   renderFramework();
 }
@@ -698,6 +721,7 @@ function renderFramework() {
 
   const q = frameworkQuery.toLowerCase();
   let rows = F.versions;
+  if (frameworkMainlineOnly) rows = rows.filter(r => FRAMEWORK_MAJOR_ONLY(r[0]));
   if (q) rows = rows.filter(r => r[0].toLowerCase().includes(q) || r[2].toLowerCase().includes(q));
   const count = rows.length;
   const pages = Math.max(1, Math.ceil(count / RELEASES_PAGE_SIZE));
@@ -706,11 +730,17 @@ function renderFramework() {
 
   let revHtml = '';
   if (q && q.includes('.')) {
-    const hits = Object.keys(F.by_chromium).filter(c => c.includes(q)).slice(0, 5);
+    let hits = Object.keys(F.by_chromium).filter(c => c.includes(q));
+    if (frameworkMainlineOnly) {
+      hits = hits.filter(c => F.by_chromium[c].some(FRAMEWORK_MAJOR_ONLY));
+    }
+    hits = hits.slice(0, 5);
     if (hits.length) {
       revHtml = `<div class="card" style="margin:12px 0"><h3>Chromium reverse lookup — matching Electron versions</h3>`;
       for (const c of hits) {
-        const versions = F.by_chromium[c].slice(0, 20);
+        let versions = F.by_chromium[c];
+        if (frameworkMainlineOnly) versions = versions.filter(FRAMEWORK_MAJOR_ONLY);
+        versions = versions.slice(0, 20);
         revHtml += `<p style="margin:6px 0"><b>${c}</b> → ${versions.map(v => `<span class="badge b-patch">${v}</span>`).join(' ')}${F.by_chromium[c].length > 20 ? ' …' : ''}</p>`;
       }
       revHtml += '</div>';
@@ -722,13 +752,17 @@ function renderFramework() {
 
   const html = `
   <div class="cards">
-    <div class="card"><h3>Electron stable releases</h3><p class="stat">${F.count}</p><p class="sub">since 2014, all channels</p></div>
+    <div class="card"><h3>Electron ${frameworkMainlineOnly ? 'mainline' : 'stable releases'}</h3><p class="stat">${count}</p><p class="sub">${frameworkMainlineOnly ? 'major first-releases (x.0.0)' : 'all stable builds'}</p></div>
     <div class="card"><h3>Latest Electron</h3><p class="stat">${latest[0]}</p><p class="sub">${latest[1]} · Chromium ${latest[2]}</p></div>
     <div class="card"><h3>Chrome stable (ref)</h3><p class="stat">${ref.chromium_stable || '—'}</p><p class="sub">${ref.chromium_stable_date || ''} · Electron ${stableDelta > 0 ? `${stableDelta} major${stableDelta > 1 ? 's' : ''} behind` : 'in sync'}</p></div>
     <div class="card"><h3>Node / V8 tracked</h3><p class="stat">${Object.keys(F.majors).length}</p><p class="sub">Electron majors documented</p></div>
   </div>
   ${revHtml}
   <div class="cve-toolbar">
+    <label style="display:inline-flex;align-items:center;gap:6px;white-space:nowrap">
+      <input type="checkbox" ${frameworkMainlineOnly ? 'checked' : ''} onchange="frameworkToggleMainline(this.checked)">
+      mainline only (x.0.0)
+    </label>
     <input id="framework-search" placeholder="Filter by Electron or Chromium version… e.g. 39, 142.0.7444" value="${frameworkQuery}" oninput="frameworkSetQuery(this.value)">
     <span class="cve-count">${count} releases</span>
   </div>
