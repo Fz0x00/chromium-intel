@@ -21987,5 +21987,42 @@
     "subject": "Revert \"WebView: Increase the wait time for LCP in testLargestContentfulPaint\"",
     "commit_message": ""
   },
-  "541251902": null
+  "541251902": null,
+  "522819252": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8270216",
+    "cl_number": 8270216,
+    "subject": "[7922_139] Fix potential UAF in NegotiatingHostAuthenticator::CreateAuthenticator",
+    "commit_message": ""
+  },
+  "513757918": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8267751",
+    "cl_number": 8267751,
+    "subject": "[M144] ProfileImporter: Use mojom::BookmarkHtmlParser",
+    "commit_message": ""
+  },
+  "539032888": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8270431",
+    "cl_number": 8270431,
+    "subject": "[7922_139] Consolidate and pass file_url_support to WorkerScriptFetcher",
+    "commit_message": ""
+  },
+  "541837151": null,
+  "541854084": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8272889",
+    "cl_number": 8272889,
+    "subject": "[7922_139] Expose TrustedTypesPolicy.createParserOptions only on Window.",
+    "commit_message": ""
+  },
+  "543798025": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8268471",
+    "cl_number": 8268471,
+    "subject": "[M144] HttpCacheTransaction: fix confusion around range request w/Vary:Range",
+    "commit_message": ""
+  },
+  "545124048": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8270567",
+    "cl_number": 8270567,
+    "subject": "[7922_139] [ui/gtk] Pin gtk-modules to an empty string during initialization",
+    "commit_message": ""
+  }
 }
