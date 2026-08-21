@@ -126,6 +126,9 @@
     .dep-node-sub { font-size: 12px; color: #9aa0a6; margin-top: 3px; }
     .dep-app { background: #1b3a5c; border-color: #8ab4f8; }
     .dep-chromium { background: #2f3136; border-left: 4px solid #8ab4f8; }
+    .dep-electron { background: #2f3136; border-left: 4px solid #d18a2b; }
+    .dep-nodejs { background: #2f3136; border-left: 4px solid #6b9e3a; }
+    .dep-missing { opacity: 0.7; border-style: dashed; }
     .dep-link { width: 0; height: 22px; border-left: 2px solid #5f6368; margin-left: 18px; }
     .dep-cves { display: flex; flex-direction: column; gap: 8px; margin-top: 4px; }
     .dep-leaf { background: #1f2125; border: 1px solid #3c4043; border-radius: 6px; padding: 8px 12px; }
@@ -1007,6 +1010,44 @@ function ensureReleases(cb) {
     .catch(() => cb());
 }
 
+function ensureFramework(cb) {
+  if (FRAMEWORK_DATA) { cb(); return; }
+  fetch('framework-timeline.json?v=' + Date.now())
+    .then(r => r.ok ? r.json() : null)
+    .then(d => { if (d) FRAMEWORK_DATA = d; cb(); })
+    .catch(() => cb());
+}
+
+// Resolve Electron (+ bundled Node) for an app. Precise when asset reports
+// electron_version, otherwise inferred from the Chromium build it ships.
+function electronInfo(app) {
+  if (!FRAMEWORK_DATA) return null;
+  const F = FRAMEWORK_DATA.electron;
+  const ch = app.chromium_version || '';
+  const reported = (app.electron_version || '').trim();
+  let major = null, source = 'inferred';
+  if (reported && F.majors[reported.split('.')[0]]) {
+    major = reported.split('.')[0];
+    source = 'reported';
+  } else {
+    const exact = F.by_chromium[ch];
+    if (exact && exact.length) major = exact[0].split('.')[0];
+    else {
+      const cm = ch.split('.')[0];
+      for (const k in F.majors) if (F.majors[k].chromium_major === cm) { major = k; break; }
+    }
+  }
+  if (!major) return null;
+  const row = F.versions.find(r => r[0].split('.')[0] === major);
+  return {
+    major,
+    source,
+    electronVersion: reported || (row ? major + '.x' : '?'),
+    node: (app.node_version || (row ? row[3] : '')) || null,
+    chromium: row ? row[2] : null
+  };
+}
+
 function loadDependency() {
   const apps = (ASSET_DATA && ASSET_DATA.apps) || [];
   if (!apps.length) {
@@ -1024,6 +1065,7 @@ function renderDependency() {
   const apps = (ASSET_DATA && ASSET_DATA.apps) || [];
   const app = apps.find(a => a.app_name === DEP_APP) || apps[0];
   if (!app) return;
+  ensureFramework(() => {});
   const cves = (app.top_cves || []).slice();
   const order = { CRITICAL: 0, HIGH: 1, MEDIUM: 2, LOW: 3, OTHER: 4 };
   cves.sort((a, b) => {
@@ -1053,7 +1095,7 @@ function renderDependency() {
     <label style="white-space:nowrap">Application:
       <select onchange="DEP_APP=this.value;renderDependency()">${opts}</select>
     </label>
-    <span class="cve-count">chain: App → Chromium → components → CVEs → mainline fix</span>
+    <span class="cve-count">chain: App → Electron → Node.js → Chromium → components → CVEs → mainline fix</span>
   </div>
   <div class="dep-chain">`;
 
@@ -1063,6 +1105,33 @@ function renderDependency() {
     <div class="dep-node-sub">version ${app.app_version || '?'} · framework ${app.framework_name || app.framework || '?'}</div>
   </div>
   <div class="dep-link"></div>`;
+
+  // Electron node (precise if reported, else inferred from shipped Chromium)
+  const ei = electronInfo(app);
+  if (ei) {
+    const tag = ei.source === 'reported' ? 'collected' : 'inferred (kernel match)';
+    const nodeTxt = ei.node ? ` · Node ${ei.node}` : '';
+    html += `<div class="dep-node dep-electron">
+      <div class="dep-node-title">Electron ${ei.electronVersion}</div>
+      <div class="dep-node-sub">major ${ei.major} · ${tag}${nodeTxt}</div>
+    </div>
+    <div class="dep-link"></div>`;
+  } else {
+    html += `<div class="dep-node dep-electron dep-missing">
+      <div class="dep-node-title">Electron</div>
+      <div class="dep-node-sub">not collected — asset electron_version empty</div>
+    </div>
+    <div class="dep-link"></div>`;
+  }
+
+  // Node node (bundled runtime, when known)
+  if (ei && ei.node) {
+    html += `<div class="dep-node dep-nodejs">
+      <div class="dep-node-title">Node.js ${ei.node}</div>
+      <div class="dep-node-sub">bundled with Electron ${ei.major}</div>
+    </div>
+    <div class="dep-link"></div>`;
+  }
 
   // Chromium node
   const crDate = app.chromium_release_date ? depParseDate(app.chromium_release_date) : null;
