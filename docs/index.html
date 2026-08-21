@@ -117,6 +117,24 @@
     .tl-cve-left { display: flex; align-items: center; gap: 6px; }
     .tl-cve-right { display: flex; align-items: center; gap: 4px; margin-top: 2px; }
     .tl-cve-desc { font-size: 11px; color: #9aa0a6; margin-top: 2px; line-height: 1.4; }
+
+    /* ===================== DEPENDENCY VIEW ===================== */
+    .dep-toolbar { display: flex; align-items: center; gap: 12px; margin: 12px 0; flex-wrap: wrap; }
+    .dep-chain { background: #26282d; border: 1px solid #3c4043; border-radius: 8px; padding: 18px 20px; }
+    .dep-node { border-radius: 8px; padding: 12px 16px; border: 1px solid #3c4043; }
+    .dep-node-title { font-weight: 700; font-size: 15px; color: #e8eaed; }
+    .dep-node-sub { font-size: 12px; color: #9aa0a6; margin-top: 3px; }
+    .dep-app { background: #1b3a5c; border-color: #8ab4f8; }
+    .dep-chromium { background: #2f3136; border-left: 4px solid #8ab4f8; }
+    .dep-link { width: 0; height: 22px; border-left: 2px solid #5f6368; margin-left: 18px; }
+    .dep-cves { display: flex; flex-direction: column; gap: 8px; margin-top: 4px; }
+    .dep-leaf { background: #1f2125; border: 1px solid #3c4043; border-radius: 6px; padding: 8px 12px; }
+    .dep-leaf-head { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+    .dep-leaf-meta { font-size: 11px; color: #9aa0a6; margin-top: 3px; }
+    .dep-tl { display: flex; align-items: center; gap: 8px; margin-top: 6px; font-size: 10px; color: #9aa0a6; }
+    .dep-tl-date { font-family: monospace; white-space: nowrap; }
+    .dep-tl-bar { flex: 1; height: 4px; background: #3c4043; border-radius: 2px; position: relative; min-width: 60px; }
+    .dep-tl-fill { position: absolute; left: 0; top: 0; bottom: 0; background: #8ab4f8; border-radius: 2px; }
   </style>
 </head>
 <body>
@@ -125,6 +143,7 @@
 
   <div class="tabs">
     <button class="tab active" onclick="showTab('assets')">Asset Risk</button>
+    <button class="tab" onclick="showTab('deps')">Dependency View</button>
     <button class="tab" onclick="showTab('cve-db')">CVE Database</button>
     <button class="tab" onclick="showTab('versions')">Version Distribution</button>
     <button class="tab" onclick="showTab('history')">App History</button>
@@ -137,6 +156,10 @@
   <div id="tab-assets" class="tab-content active">
     <div id="asset-summary" class="cards"></div>
     <div id="asset-table"></div>
+  </div>
+
+  <div id="tab-deps" class="tab-content">
+    <div id="deps-view"></div>
   </div>
 
   <div id="tab-cve-db" class="tab-content">
@@ -958,6 +981,143 @@ function renderTimeline() {
   document.getElementById('timeline-view').innerHTML = html;
 }
 
+// ===================== DEPENDENCY VIEW TAB =====================
+let DEP_APP = '';
+let RELEASES_STABLE_DATES = null;
+
+function releasesDate(v) {
+  if (!RELEASES_STABLE_DATES) {
+    RELEASES_STABLE_DATES = {};
+    if (RELEASES_DATA) for (const row of (RELEASES_DATA.versions.stable || [])) RELEASES_STABLE_DATES[row[0]] = row[1];
+  }
+  return RELEASES_STABLE_DATES[v] || null;
+}
+
+function depParseDate(s) {
+  if (!s) return null;
+  const m = String(s).match(/^(\d{4}-\d{2}-\d{2})/);
+  return m ? m[1] : null;
+}
+
+function ensureReleases(cb) {
+  if (RELEASES_DATA) { cb(); return; }
+  fetch('releases-timeline.json?v=' + Date.now())
+    .then(r => r.ok ? r.json() : null)
+    .then(d => { if (d) RELEASES_DATA = d; RELEASES_STABLE_DATES = null; cb(); })
+    .catch(() => cb());
+}
+
+function loadDependency() {
+  const apps = (ASSET_DATA && ASSET_DATA.apps) || [];
+  if (!apps.length) {
+    document.getElementById('deps-view').innerHTML = '<div class="loading">Asset data unavailable.</div>';
+    return;
+  }
+  if (!DEP_APP || !apps.find(a => a.app_name === DEP_APP)) {
+    const first = apps.find(a => (a.top_cves || []).length) || apps[0];
+    DEP_APP = first.app_name;
+  }
+  renderDependency();
+}
+
+function renderDependency() {
+  const apps = (ASSET_DATA && ASSET_DATA.apps) || [];
+  const app = apps.find(a => a.app_name === DEP_APP) || apps[0];
+  if (!app) return;
+  const cves = (app.top_cves || []).slice();
+  const order = { CRITICAL: 0, HIGH: 1, MEDIUM: 2, LOW: 3, OTHER: 4 };
+  cves.sort((a, b) => {
+    const pa = order[a.priority] != null ? order[a.priority] : 9;
+    const pb = order[b.priority] != null ? order[b.priority] : 9;
+    if (pa !== pb) return pa - pb;
+    return cmpSemver(b.fixed_version || '0', a.fixed_version || '0');
+  });
+
+  const critCount = cves.filter(c => c.priority === 'CRITICAL').length;
+  const wildCount = cves.filter(c => c.in_the_wild).length;
+  const kevCount = cves.filter(c => c.in_kev).length;
+  const stillAffected = cves.filter(c => cmpSemver(app.chromium_version || '0', c.fixed_version || '0') < 0).length;
+
+  const opts = apps.map(a =>
+    `<option value="${a.app_name}" ${a.app_name === app.app_name ? 'selected' : ''}>${a.app_name}${a.top_cves && a.top_cves.length ? ` (${a.top_cves.length})` : ''}</option>`
+  ).join('');
+
+  let html = `
+  <div class="cards">
+    <div class="card"><h3>Chromium version</h3><p class="stat">${app.chromium_version || '—'}</p><p class="sub">${app.framework_name || app.framework || ''} · app ${app.app_version || ''}</p></div>
+    <div class="card"><h3>Critical / In-the-wild</h3><p class="stat">${critCount} / ${wildCount}</p><p class="sub">${kevCount} in CISA KEV</p></div>
+    <div class="card"><h3>Still affected?</h3><p class="stat">${stillAffected}</p><p class="sub">app chromium &lt; some fixed_version</p></div>
+    <div class="card"><h3>Total CVEs in chain</h3><p class="stat">${cves.length}</p><p class="sub">matched to this Chromium build</p></div>
+  </div>
+  <div class="dep-toolbar">
+    <label style="white-space:nowrap">Application:
+      <select onchange="DEP_APP=this.value;renderDependency()">${opts}</select>
+    </label>
+    <span class="cve-count">chain: App → Chromium → components → CVEs → mainline fix</span>
+  </div>
+  <div class="dep-chain">`;
+
+  // App node
+  html += `<div class="dep-node dep-app">
+    <div class="dep-node-title">App · ${app.app_name}</div>
+    <div class="dep-node-sub">version ${app.app_version || '?'} · framework ${app.framework_name || app.framework || '?'}</div>
+  </div>
+  <div class="dep-link"></div>`;
+
+  // Chromium node
+  const crDate = app.chromium_release_date ? depParseDate(app.chromium_release_date) : null;
+  const age = app.chromium_age_days != null ? app.chromium_age_days : null;
+  html += `<div class="dep-node dep-chromium">
+    <div class="dep-node-title">Chromium ${app.chromium_version || '?'}</div>
+    <div class="dep-node-sub">released ${crDate || '?'} · kernel age ${age != null ? age + 'd' : '?'}</div>
+  </div>
+  <div class="dep-link"></div>`;
+
+  // CVE leaves
+  html += '<div class="dep-cves">';
+  for (const c of cves) {
+    const comp = c.component || '?';
+    const fixed = c.fixed_version || '?';
+    const fixDate = releasesDate(fixed);
+    const disc = depParseDate(c.published);
+    const affected = cmpSemver(app.chromium_version || '0', fixed) < 0;
+    const stateCls = affected ? 'b-critical' : 'b-patch';
+    const stateTxt = affected ? 'still affected' : 'patched (≥fixed)';
+
+    // mini timeline: disclosure -> mainline fix
+    let timeline = '';
+    const d1 = disc ? new Date(disc) : null;
+    const d2 = fixDate ? new Date(fixDate) : null;
+    if (d1 && d2) {
+      const span = Math.max(1, (d2 - d1) / 86400000);
+      const fill = Math.min(100, Math.max(2, span > 1 ? 100 : (span / 30) * 100));
+      timeline = `<div class="dep-tl"><span class="dep-tl-date">${disc}</span><span class="dep-tl-bar"><span class="dep-tl-fill" style="width:${fill}%"></span></span><span class="dep-tl-date">${fixDate}</span></div>`;
+    } else {
+      timeline = `<div class="dep-tl"><span class="dep-tl-date">disclosed ${disc || '?'}</span><span class="dep-tl-bar"></span><span class="dep-tl-date">mainline fix ${fixDate || '?'}</span></div>`;
+    }
+
+    let ev = '';
+    if (c.in_kev) ev += '<span class="badge b-kev">CISA</span> ';
+    if (c.in_the_wild) ev += '<span class="badge b-wild">WILD</span> ';
+    if (c.has_poc || (c.exploitability || {}).has_poc) ev += '<span class="badge b-poc">PoC</span> ';
+
+    html += `<div class="dep-leaf">
+      <div class="dep-leaf-head">
+        <span class="component-tag">${comp}</span>
+        ${priorityBadge(c.priority)}
+        <strong>${c.id}</strong>
+        ${ev}
+        <span class="badge ${stateCls}">${stateTxt}</span>
+      </div>
+      <div class="dep-leaf-meta">fixed in Chromium ${fixed} · disclosed ${disc || '?'}</div>
+      ${timeline}
+    </div>`;
+  }
+  html += '</div></div>';
+
+  document.getElementById('deps-view').innerHTML = html;
+}
+
 // ===================== INIT =====================
 async function init() {
   try {
@@ -996,6 +1156,9 @@ async function init() {
 
     // Electron Sync tab: Electron -> embedded Chromium mapping
     loadFramework();
+
+    // Dependency View tab
+    loadDependency();
   } catch(e) {
     document.getElementById('asset-summary').innerHTML = '<div class="loading">Failed to load data: ' + e.message + '</div>';
   }
