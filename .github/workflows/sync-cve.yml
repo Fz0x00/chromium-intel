@@ -49,7 +49,10 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: update Chromium CVEs $(date -u +'%Y-%m-%d')"
-            git pull --rebase -X theirs origin main
-            git push
+            git commit -m "chore: update Chromium CVEs $(date -u +'%Y-%m-%d')" || true
+            for i in 1 2 3; do
+              git pull --rebase -X theirs --autostash origin main && git push && break
+              git rebase --abort 2>/dev/null || true
+              sleep 5
+            done
           fi
