@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-08-22T06:25:59Z",
+  "observations": [
+    {
+      "app_name": "QQ",
+      "app_version": "6.9.99",
+      "electron_version": "40.0.0",
+      "chromium_version": "144.0.7559.60",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-08-22T06:25:55Z",
+      "last_seen": "2026-08-22T06:25:55Z"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-08-20T06:29:10Z",
+  "scan_time": "2026-08-22T06:25:59Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 37,
@@ -247,13 +247,14 @@
     {
       "app_name": "QQ",
       "app_version": "6.9.99",
-      "app_path": "/tmp/hunter-619289419/extracted/QQ/QQ.app",
+      "app_path": "/tmp/hunter-2824559020/extracted/QQ/QQ.app",
       "framework": "electron_fork",
       "framework_name": "QQNT",
       "detection": "combined",
       "chromium_version": "144.0.7559.60",
+      "electron_version": "40.0.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-619289419/extracted/QQ/QQ.app/Contents/Frameworks/QQNT.framework/Versions/A/QQNT"
+      "binary_path": "/tmp/hunter-2824559020/extracted/QQ/QQ.app/Contents/Frameworks/QQNT.framework/Versions/A/QQNT"
     },
     {
       "app_name": "Qianwen",
