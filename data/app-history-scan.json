@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-08-23T06:25:00Z",
+  "generated_at": "2026-08-25T06:29:34Z",
   "observations": [
+    {
+      "app_name": "Beekeeper Studio",
+      "app_version": "6.0.5",
+      "electron_version": "39.8.10",
+      "chromium_version": "142.0.7444.265",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-08-25T06:29:30Z",
+      "last_seen": "2026-08-25T06:29:30Z"
+    },
+    {
+      "app_name": "Discord",
+      "app_version": "0.0.409",
+      "electron_version": "42.7.1",
+      "chromium_version": "148.0.7778.280",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-08-25T06:29:30Z",
+      "last_seen": "2026-08-25T06:29:30Z"
+    },
     {
       "app_name": "QQ",
       "app_version": "6.9.99",

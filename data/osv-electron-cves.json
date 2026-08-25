@@ -1,14 +1,29 @@
 {
   "generator": "hunter osv-check 0.2.0",
-  "scan_time": "2026-08-23T06:24:56Z",
+  "scan_time": "2026-08-25T06:29:30Z",
   "source": "inspect-results.json",
-  "total_apps": 0,
-  "with_electron_version": 0,
+  "total_apps": 2,
+  "with_electron_version": 2,
   "missing_electron_version": 0,
-  "checked": 0,
+  "checked": 2,
   "failed": 0,
   "with_cves": 0,
   "total_cves": 0,
   "severity_counts": {},
-  "apps": []
+  "apps": [
+    {
+      "app_name": "Discord",
+      "app_version": "0.0.409",
+      "electron_version": "42.7.1",
+      "total_cves": 0,
+      "cves": []
+    },
+    {
+      "app_name": "Beekeeper Studio",
+      "app_version": "6.0.5",
+      "electron_version": "39.8.10",
+      "total_cves": 0,
+      "cves": []
+    }
+  ]
 }

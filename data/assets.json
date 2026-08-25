@@ -1,8 +1,8 @@
 {
-  "scan_time": "2026-08-23T06:25:00Z",
+  "scan_time": "2026-08-25T06:29:34Z",
   "source": "hunter-ci",
   "platform": "macos",
-  "total_apps": 37,
+  "total_apps": 38,
   "apps": [
     {
       "app_name": "AFFiNE",
@@ -28,14 +28,15 @@
     },
     {
       "app_name": "Beekeeper Studio",
-      "app_version": "6.0.4",
-      "app_path": "/tmp/hunter-392911405/extracted/Beekeeper Studio.app",
+      "app_version": "6.0.5",
+      "app_path": "/tmp/hunter-4198897791/extracted/Beekeeper Studio.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "142.0.7444.265",
+      "electron_version": "39.8.10",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-392911405/extracted/Beekeeper Studio.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-4198897791/extracted/Beekeeper Studio.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "BlueStacks",
@@ -102,6 +103,18 @@
       "chromium_version": "142.0.7444.265",
       "extraction_method": "binary_strings",
       "binary_path": "/Applications/Cursor.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+    },
+    {
+      "app_name": "Discord",
+      "app_version": "0.0.409",
+      "app_path": "/tmp/hunter-3433506953/extracted/Discord/Discord.app",
+      "framework": "electron",
+      "framework_name": "Electron Framework",
+      "detection": "directory",
+      "chromium_version": "148.0.7778.280",
+      "electron_version": "42.7.1",
+      "extraction_method": "binary_strings",
+      "binary_path": "/tmp/hunter-3433506953/extracted/Discord/Discord.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Docker / Docker Desktop",
