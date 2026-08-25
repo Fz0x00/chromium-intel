@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T18:04:04.285601+00:00",
+  "generated_at": "2026-08-25T18:40:39.415365+00:00",
   "source": "assets.json git history + hunter scan history",
-  "total_apps": 38,
+  "total_apps": 42,
   "apps": {
     "AFFiNE": {
       "framework": "electron",
@@ -230,17 +230,26 @@
     },
     "Claude": {
       "framework": "electron",
-      "platform": "",
+      "platform": "linux",
       "current": {
-        "app_version": "1.32885.1",
+        "app_version": "1.37937.0",
         "chromium_version": "148.0.7778.280",
-        "electron_version": "",
-        "first_seen": "2026-08-19",
-        "last_seen": "2026-08-25",
+        "electron_version": "42.10.0",
+        "first_seen": "2026-08-25",
+        "last_seen": "2026-08-25T18:01:28Z",
         "chromium_release_date": "2026-06-23",
         "chromium_release_cves": 0
       },
       "versions": [
+        {
+          "app_version": "1.37937.0",
+          "chromium_version": "148.0.7778.280",
+          "electron_version": "42.10.0",
+          "first_seen": "2026-08-25",
+          "last_seen": "2026-08-25T18:01:28Z",
+          "chromium_release_date": "2026-06-23",
+          "chromium_release_cves": 0
+        },
         {
           "app_version": "1.32885.1",
           "chromium_version": "148.0.7778.280",
@@ -561,6 +570,30 @@
         }
       ]
     },
+    "Feishu": {
+      "framework": "electron_fork",
+      "platform": "linux",
+      "current": {
+        "app_version": "143.0.7499.203",
+        "chromium_version": "143.0.7499.203",
+        "electron_version": "",
+        "first_seen": "2026-08-25",
+        "last_seen": "2026-08-25T18:01:28Z",
+        "chromium_release_date": "",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "143.0.7499.203",
+          "chromium_version": "143.0.7499.203",
+          "electron_version": "",
+          "first_seen": "2026-08-25",
+          "last_seen": "2026-08-25T18:01:28Z",
+          "chromium_release_date": "",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
     "Insomnia": {
       "framework": "electron",
       "platform": "",
@@ -731,17 +764,26 @@
     },
     "MongoDB Compass": {
       "framework": "electron",
-      "platform": "",
+      "platform": "linux",
       "current": {
-        "app_version": "1.49.14",
-        "chromium_version": "146.0.7680.188",
-        "electron_version": "",
-        "first_seen": "2026-08-07",
-        "last_seen": "2026-08-25",
-        "chromium_release_date": "2026-04-08",
+        "app_version": "1.49.15",
+        "chromium_version": "150.0.7871.224",
+        "electron_version": "43.4.1",
+        "first_seen": "2026-08-25",
+        "last_seen": "2026-08-25T18:01:28Z",
+        "chromium_release_date": "2026-08-06",
         "chromium_release_cves": 0
       },
       "versions": [
+        {
+          "app_version": "1.49.15",
+          "chromium_version": "150.0.7871.224",
+          "electron_version": "43.4.1",
+          "first_seen": "2026-08-25",
+          "last_seen": "2026-08-25T18:01:28Z",
+          "chromium_release_date": "2026-08-06",
+          "chromium_release_cves": 0
+        },
         {
           "app_version": "1.49.14",
           "chromium_version": "146.0.7680.188",
@@ -927,6 +969,30 @@
         }
       ]
     },
+    "Rancher Desktop": {
+      "framework": "electron",
+      "platform": "linux",
+      "current": {
+        "app_version": "1.24.0",
+        "chromium_version": "150.0.7871.114",
+        "electron_version": "43.1.1",
+        "first_seen": "2026-08-25",
+        "last_seen": "2026-08-25T18:01:28Z",
+        "chromium_release_date": "2026-07-08",
+        "chromium_release_cves": 27
+      },
+      "versions": [
+        {
+          "app_version": "1.24.0",
+          "chromium_version": "150.0.7871.114",
+          "electron_version": "43.1.1",
+          "first_seen": "2026-08-25",
+          "last_seen": "2026-08-25T18:01:28Z",
+          "chromium_release_date": "2026-07-08",
+          "chromium_release_cves": 27
+        }
+      ]
+    },
     "Rocket.Chat": {
       "framework": "electron",
       "platform": "",
@@ -1001,6 +1067,30 @@
           "first_seen": "2026-07-02",
           "last_seen": "2026-07-02",
           "chromium_release_date": "2026-06-16",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "Session": {
+      "framework": "electron",
+      "platform": "linux",
+      "current": {
+        "app_version": "1.14.3",
+        "chromium_version": "114.0.5735.289",
+        "electron_version": "25.8.4",
+        "first_seen": "2026-08-25",
+        "last_seen": "2026-08-25T18:01:28Z",
+        "chromium_release_date": "",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "1.14.3",
+          "chromium_version": "114.0.5735.289",
+          "electron_version": "25.8.4",
+          "first_seen": "2026-08-25",
+          "last_seen": "2026-08-25T18:01:28Z",
+          "chromium_release_date": "",
           "chromium_release_cves": 0
         }
       ]
@@ -1109,6 +1199,30 @@
           "first_seen": "2026-06-30",
           "last_seen": "2026-08-25",
           "chromium_release_date": "",
+          "chromium_release_cves": 0
+        }
+      ]
+    },
+    "Tabby": {
+      "framework": "electron",
+      "platform": "linux",
+      "current": {
+        "app_version": "1.0.235",
+        "chromium_version": "140.0.7339.249",
+        "electron_version": "38.8.6",
+        "first_seen": "2026-08-25",
+        "last_seen": "2026-08-25T18:01:28Z",
+        "chromium_release_date": "2025-10-14",
+        "chromium_release_cves": 0
+      },
+      "versions": [
+        {
+          "app_version": "1.0.235",
+          "chromium_version": "140.0.7339.249",
+          "electron_version": "38.8.6",
+          "first_seen": "2026-08-25",
+          "last_seen": "2026-08-25T18:01:28Z",
+          "chromium_release_date": "2025-10-14",
           "chromium_release_cves": 0
         }
       ]
@@ -1277,17 +1391,26 @@
     },
     "Yakit": {
       "framework": "electron",
-      "platform": "",
+      "platform": "linux",
       "current": {
-        "app_version": "1.4.7-424",
+        "app_version": "1.4.8-825",
         "chromium_version": "118.0.5993.54",
-        "electron_version": "",
-        "first_seen": "2026-06-30",
-        "last_seen": "2026-08-25",
+        "electron_version": "27.0.0",
+        "first_seen": "2026-08-25",
+        "last_seen": "2026-08-25T18:01:28Z",
         "chromium_release_date": "",
         "chromium_release_cves": 0
       },
       "versions": [
+        {
+          "app_version": "1.4.8-825",
+          "chromium_version": "118.0.5993.54",
+          "electron_version": "27.0.0",
+          "first_seen": "2026-08-25",
+          "last_seen": "2026-08-25T18:01:28Z",
+          "chromium_release_date": "",
+          "chromium_release_cves": 0
+        },
         {
           "app_version": "1.4.7-424",
           "chromium_version": "118.0.5993.54",
