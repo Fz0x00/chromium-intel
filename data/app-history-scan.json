@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T06:29:34Z",
+  "generated_at": "2026-08-25T18:01:41Z",
   "observations": [
     {
       "app_name": "Beekeeper Studio",
@@ -12,6 +12,16 @@
       "last_seen": "2026-08-25T06:29:30Z"
     },
     {
+      "app_name": "Claude",
+      "app_version": "1.37937.0",
+      "electron_version": "42.10.0",
+      "chromium_version": "148.0.7778.280",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-08-25T18:01:28Z",
+      "last_seen": "2026-08-25T18:01:28Z"
+    },
+    {
       "app_name": "Discord",
       "app_version": "0.0.409",
       "electron_version": "42.7.1",
@@ -22,6 +32,25 @@
       "last_seen": "2026-08-25T06:29:30Z"
     },
     {
+      "app_name": "Feishu",
+      "app_version": "143.0.7499.203",
+      "chromium_version": "143.0.7499.203",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-08-25T18:01:28Z",
+      "last_seen": "2026-08-25T18:01:28Z"
+    },
+    {
+      "app_name": "MongoDB Compass",
+      "app_version": "1.49.15",
+      "electron_version": "43.4.1",
+      "chromium_version": "150.0.7871.224",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-08-25T18:01:28Z",
+      "last_seen": "2026-08-25T18:01:28Z"
+    },
+    {
       "app_name": "QQ",
       "app_version": "6.9.99",
       "electron_version": "40.0.0",
@@ -30,6 +59,46 @@
       "source": "inspect-list",
       "first_seen": "2026-08-22T06:25:55Z",
       "last_seen": "2026-08-22T06:25:55Z"
+    },
+    {
+      "app_name": "Rancher Desktop",
+      "app_version": "1.24.0",
+      "electron_version": "43.1.1",
+      "chromium_version": "150.0.7871.114",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-08-25T18:01:28Z",
+      "last_seen": "2026-08-25T18:01:28Z"
+    },
+    {
+      "app_name": "Session",
+      "app_version": "1.14.3",
+      "electron_version": "25.8.4",
+      "chromium_version": "114.0.5735.289",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-08-25T18:01:28Z",
+      "last_seen": "2026-08-25T18:01:28Z"
+    },
+    {
+      "app_name": "Tabby",
+      "app_version": "1.0.235",
+      "electron_version": "38.8.6",
+      "chromium_version": "140.0.7339.249",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-08-25T18:01:28Z",
+      "last_seen": "2026-08-25T18:01:28Z"
+    },
+    {
+      "app_name": "Yakit",
+      "app_version": "1.4.8-825",
+      "electron_version": "27.0.0",
+      "chromium_version": "118.0.5993.54",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-08-25T18:01:28Z",
+      "last_seen": "2026-08-25T18:01:28Z"
     }
   ]
 }

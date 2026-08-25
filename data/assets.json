@@ -1,8 +1,8 @@
 {
-  "scan_time": "2026-08-25T06:29:34Z",
+  "scan_time": "2026-08-25T18:01:41Z",
   "source": "hunter-ci",
   "platform": "macos",
-  "total_apps": 38,
+  "total_apps": 42,
   "apps": [
     {
       "app_name": "AFFiNE",
@@ -73,14 +73,15 @@
     },
     {
       "app_name": "Claude",
-      "app_version": "1.32885.1",
-      "app_path": "/tmp/hunter-1121706770/extracted/Claude.app",
+      "app_version": "1.37937.0",
+      "app_path": "/tmp/hunter-1979828795/extracted/Claude.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.280",
+      "electron_version": "42.10.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-1121706770/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-1979828795/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "CodeBuddy CN",
@@ -135,6 +136,16 @@
       "framework_name": "Doubao Browser Framework",
       "detection": "combined",
       "chromium_version": "135.0.7049.72",
+      "extraction_method": "framework_path"
+    },
+    {
+      "app_name": "Feishu",
+      "app_version": "143.0.7499.203",
+      "app_path": "/tmp/hunter-2306456291/extracted/飞书 Feishu/Lark.app",
+      "framework": "electron_fork",
+      "framework_name": "Lark Framework",
+      "detection": "combined",
+      "chromium_version": "143.0.7499.203",
       "extraction_method": "framework_path"
     },
     {
@@ -215,14 +226,15 @@
     },
     {
       "app_name": "MongoDB Compass",
-      "app_version": "1.49.14",
-      "app_path": "/tmp/hunter-3062953079/extracted/MongoDB Compass.app",
+      "app_version": "1.49.15",
+      "app_path": "/tmp/hunter-419064968/extracted/MongoDB Compass.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
-      "chromium_version": "146.0.7680.188",
+      "chromium_version": "150.0.7871.224",
+      "electron_version": "43.4.1",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-3062953079/extracted/MongoDB Compass.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-419064968/extracted/MongoDB Compass.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Notion",
@@ -281,6 +293,18 @@
       "binary_path": "/Applications/Qianwen.app/Contents/Frameworks/Qianwen Framework.framework/Versions/3.1.5.19/Qianwen Framework"
     },
     {
+      "app_name": "Rancher Desktop",
+      "app_version": "1.24.0",
+      "app_path": "/tmp/hunter-1448118840/extracted/Install Rancher Desktop 1.24.0-arm64/Rancher Desktop.app",
+      "framework": "electron",
+      "framework_name": "Electron Framework",
+      "detection": "directory",
+      "chromium_version": "150.0.7871.114",
+      "electron_version": "43.1.1",
+      "extraction_method": "binary_strings",
+      "binary_path": "/tmp/hunter-1448118840/extracted/Install Rancher Desktop 1.24.0-arm64/Rancher Desktop.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+    },
+    {
       "app_name": "Rocket.Chat",
       "app_version": "4.16.0",
       "app_path": "/tmp/hunter-2947709443/extracted/Rocket.Chat.app",
@@ -290,6 +314,18 @@
       "chromium_version": "148.0.7778.271",
       "extraction_method": "binary_strings",
       "binary_path": "/tmp/hunter-2947709443/extracted/Rocket.Chat.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+    },
+    {
+      "app_name": "Session",
+      "app_version": "1.14.3",
+      "app_path": "/tmp/hunter-785498252/extracted/Session 1.14.3/Session.app",
+      "framework": "electron",
+      "framework_name": "Electron Framework",
+      "detection": "directory",
+      "chromium_version": "114.0.5735.289",
+      "electron_version": "25.8.4",
+      "extraction_method": "binary_strings",
+      "binary_path": "/tmp/hunter-785498252/extracted/Session 1.14.3/Session.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "SiYuan",
@@ -323,6 +359,18 @@
       "chromium_version": "147.0.7727.56",
       "extraction_method": "binary_strings",
       "binary_path": "/Applications/Tabbit.app/Contents/Frameworks/Tabbit Framework.framework/Versions/0.32.25.0/Tabbit Framework"
+    },
+    {
+      "app_name": "Tabby",
+      "app_version": "1.0.235",
+      "app_path": "/tmp/hunter-1280653736/extracted/Tabby.app",
+      "framework": "electron",
+      "framework_name": "Electron Framework",
+      "detection": "directory",
+      "chromium_version": "140.0.7339.249",
+      "electron_version": "38.8.6",
+      "extraction_method": "binary_strings",
+      "binary_path": "/tmp/hunter-1280653736/extracted/Tabby.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Trae",
@@ -392,14 +440,15 @@
     },
     {
       "app_name": "Yakit",
-      "app_version": "1.4.7-424",
-      "app_path": "/Applications/Yakit.app",
+      "app_version": "1.4.8-825",
+      "app_path": "/tmp/hunter-729873885/extracted/Yakit 1.4.8-825-arm64/Yakit.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "118.0.5993.54",
+      "electron_version": "27.0.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/Applications/Yakit.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-729873885/extracted/Yakit 1.4.8-825-arm64/Yakit.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "扣子",
