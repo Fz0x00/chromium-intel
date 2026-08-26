@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T18:11:33Z",
+  "generated_at": "2026-08-26T06:32:26Z",
   "observations": [
     {
       "app_name": "Beekeeper Studio",
@@ -20,6 +20,16 @@
       "source": "inspect-list",
       "first_seen": "2026-08-25T18:01:28Z",
       "last_seen": "2026-08-25T18:01:28Z"
+    },
+    {
+      "app_name": "Claude",
+      "app_version": "1.37937.2",
+      "electron_version": "42.10.0",
+      "chromium_version": "148.0.7778.280",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-08-26T06:32:20Z",
+      "last_seen": "2026-08-26T06:32:20Z"
     },
     {
       "app_name": "Discord",

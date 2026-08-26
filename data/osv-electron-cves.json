@@ -1,14 +1,22 @@
 {
   "generator": "hunter osv-check 0.2.0",
-  "scan_time": "2026-08-25T18:11:27Z",
+  "scan_time": "2026-08-26T06:32:21Z",
   "source": "inspect-results.json",
-  "total_apps": 0,
-  "with_electron_version": 0,
+  "total_apps": 1,
+  "with_electron_version": 1,
   "missing_electron_version": 0,
-  "checked": 0,
+  "checked": 1,
   "failed": 0,
   "with_cves": 0,
   "total_cves": 0,
   "severity_counts": {},
-  "apps": []
+  "apps": [
+    {
+      "app_name": "Claude",
+      "app_version": "1.37937.2",
+      "electron_version": "42.10.0",
+      "total_cves": 0,
+      "cves": []
+    }
+  ]
 }
