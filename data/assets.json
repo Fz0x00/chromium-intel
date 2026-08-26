@@ -1,8 +1,8 @@
 {
-  "scan_time": "2026-08-26T06:32:26Z",
+  "scan_time": "2026-08-26T11:49:51Z",
   "source": "hunter-ci",
   "platform": "macos",
-  "total_apps": 42,
+  "total_apps": 43,
   "apps": [
     {
       "app_name": "AFFiNE",
@@ -141,7 +141,7 @@
     {
       "app_name": "Feishu",
       "app_version": "143.0.7499.203",
-      "app_path": "/tmp/hunter-2306456291/extracted/飞书 Feishu/Lark.app",
+      "app_path": "/tmp/hunter-176664807/extracted/飞书 Feishu/Lark.app",
       "framework": "electron_fork",
       "framework_name": "Lark Framework",
       "detection": "combined",
@@ -337,6 +337,16 @@
       "chromium_version": "148.0.7778.280",
       "extraction_method": "binary_strings",
       "binary_path": "/tmp/hunter-2081501697/extracted/SiYuan 3.8.1-arm64/SiYuan.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+    },
+    {
+      "app_name": "Spotify",
+      "app_path": "/tmp/hunter-2162487439/extracted/Spotify/Spotify.app",
+      "framework": "cef",
+      "framework_name": "Chromium Embedded Framework.framework",
+      "detection": "directory",
+      "chromium_version": "146.0.7680.179",
+      "extraction_method": "binary_strings",
+      "binary_path": "/tmp/hunter-2162487439/extracted/Spotify/Spotify.app/Contents/Frameworks/Chromium Embedded Framework.framework/Versions/A/Chromium Embedded Framework"
     },
     {
       "app_name": "TRAE SOLO CN",

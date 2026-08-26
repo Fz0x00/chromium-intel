@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T06:32:26Z",
+  "generated_at": "2026-08-26T11:49:51Z",
   "observations": [
     {
       "app_name": "Beekeeper Studio",
@@ -48,7 +48,7 @@
       "platform": "linux",
       "source": "inspect-list",
       "first_seen": "2026-08-25T18:01:28Z",
-      "last_seen": "2026-08-25T18:01:28Z"
+      "last_seen": "2026-08-26T11:49:47Z"
     },
     {
       "app_name": "MongoDB Compass",
@@ -89,6 +89,15 @@
       "source": "inspect-list",
       "first_seen": "2026-08-25T18:01:28Z",
       "last_seen": "2026-08-25T18:01:28Z"
+    },
+    {
+      "app_name": "Spotify",
+      "app_version": "",
+      "chromium_version": "146.0.7680.179",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-08-26T11:49:47Z",
+      "last_seen": "2026-08-26T11:49:47Z"
     },
     {
       "app_name": "Tabby",
