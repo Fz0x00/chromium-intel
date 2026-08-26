@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T11:11:30.619660+00:00",
+  "generated_at": "2026-08-26T12:03:31.028221+00:00",
   "source": "assets.json git history + hunter scan history",
   "total_apps": 42,
   "apps": {
@@ -587,7 +587,7 @@
         "chromium_version": "143.0.7499.203",
         "electron_version": "",
         "first_seen": "2026-08-25",
-        "last_seen": "2026-08-26",
+        "last_seen": "2026-08-26T11:49:47Z",
         "chromium_release_date": "",
         "chromium_release_cves": 0
       },
@@ -597,7 +597,7 @@
           "chromium_version": "143.0.7499.203",
           "electron_version": "",
           "first_seen": "2026-08-25",
-          "last_seen": "2026-08-26",
+          "last_seen": "2026-08-26T11:49:47Z",
           "chromium_release_date": "",
           "chromium_release_cves": 0
         }
