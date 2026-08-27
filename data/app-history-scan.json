@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T11:49:51Z",
+  "generated_at": "2026-08-27T17:07:26Z",
   "observations": [
     {
       "app_name": "Beekeeper Studio",
@@ -32,6 +32,16 @@
       "last_seen": "2026-08-26T06:32:20Z"
     },
     {
+      "app_name": "Claude",
+      "app_version": "1.37937.3",
+      "electron_version": "42.10.0",
+      "chromium_version": "148.0.7778.280",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-08-27T17:07:20Z",
+      "last_seen": "2026-08-27T17:07:20Z"
+    },
+    {
       "app_name": "Discord",
       "app_version": "0.0.409",
       "electron_version": "42.7.1",
@@ -48,7 +58,7 @@
       "platform": "linux",
       "source": "inspect-list",
       "first_seen": "2026-08-25T18:01:28Z",
-      "last_seen": "2026-08-26T11:49:47Z"
+      "last_seen": "2026-08-27T17:07:20Z"
     },
     {
       "app_name": "MongoDB Compass",
@@ -108,6 +118,16 @@
       "source": "inspect-list",
       "first_seen": "2026-08-25T18:01:28Z",
       "last_seen": "2026-08-25T18:01:28Z"
+    },
+    {
+      "app_name": "VS Code",
+      "app_version": "1.135.0",
+      "electron_version": "42.8.1",
+      "chromium_version": "148.0.7778.280",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-08-27T17:07:20Z",
+      "last_seen": "2026-08-27T17:07:20Z"
     },
     {
       "app_name": "Yakit",
