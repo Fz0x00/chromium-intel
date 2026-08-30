@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T08:58:01.631290+00:00",
+  "generated_at": "2026-08-30T14:21:39.397165+00:00",
   "source": "assets.json git history + hunter scan history",
   "total_apps": 43,
   "apps": {
@@ -11,7 +11,7 @@
         "chromium_version": "142.0.7444.265",
         "electron_version": "",
         "first_seen": "2026-08-19",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "2026-01-06",
         "chromium_release_cves": 0
       },
@@ -21,7 +21,7 @@
           "chromium_version": "142.0.7444.265",
           "electron_version": "",
           "first_seen": "2026-08-19",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "2026-01-06",
           "chromium_release_cves": 0
         },
@@ -62,7 +62,7 @@
         "chromium_version": "116.0.5845.179",
         "electron_version": "",
         "first_seen": "2026-06-30",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "2023-09-05",
         "chromium_release_cves": 4
       },
@@ -72,7 +72,7 @@
           "chromium_version": "116.0.5845.179",
           "electron_version": "",
           "first_seen": "2026-06-30",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "2023-09-05",
           "chromium_release_cves": 4
         }
@@ -86,7 +86,7 @@
         "chromium_version": "142.0.7444.265",
         "electron_version": "39.8.10",
         "first_seen": "2026-08-25",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "2026-01-06",
         "chromium_release_cves": 0
       },
@@ -96,7 +96,7 @@
           "chromium_version": "142.0.7444.265",
           "electron_version": "39.8.10",
           "first_seen": "2026-08-25",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "2026-01-06",
           "chromium_release_cves": 0
         },
@@ -164,7 +164,7 @@
         "chromium_version": "118.0.5993.220",
         "electron_version": "",
         "first_seen": "2026-06-30",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "",
         "chromium_release_cves": 0
       },
@@ -174,7 +174,7 @@
           "chromium_version": "118.0.5993.220",
           "electron_version": "",
           "first_seen": "2026-06-30",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "",
           "chromium_release_cves": 0
         }
@@ -188,7 +188,7 @@
         "chromium_version": "118.0.5993.220",
         "electron_version": "",
         "first_seen": "2026-06-30",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "",
         "chromium_release_cves": 0
       },
@@ -198,7 +198,7 @@
           "chromium_version": "118.0.5993.220",
           "electron_version": "",
           "first_seen": "2026-06-30",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "",
           "chromium_release_cves": 0
         }
@@ -212,7 +212,7 @@
         "chromium_version": "146.0.7680.216",
         "electron_version": "",
         "first_seen": "2026-06-30",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "2026-04-28",
         "chromium_release_cves": 0
       },
@@ -222,7 +222,7 @@
           "chromium_version": "146.0.7680.216",
           "electron_version": "",
           "first_seen": "2026-06-30",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "2026-04-28",
           "chromium_release_cves": 0
         }
@@ -236,7 +236,7 @@
         "chromium_version": "148.0.7778.280",
         "electron_version": "42.10.0",
         "first_seen": "2026-08-28",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "2026-06-23",
         "chromium_release_cves": 0
       },
@@ -246,7 +246,7 @@
           "chromium_version": "148.0.7778.280",
           "electron_version": "42.10.0",
           "first_seen": "2026-08-28",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "2026-06-23",
           "chromium_release_cves": 0
         },
@@ -485,7 +485,7 @@
         "chromium_version": "132.0.6834.210",
         "electron_version": "",
         "first_seen": "2026-06-30",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "2025-02-25",
         "chromium_release_cves": 0
       },
@@ -495,7 +495,7 @@
           "chromium_version": "132.0.6834.210",
           "electron_version": "",
           "first_seen": "2026-06-30",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "2025-02-25",
           "chromium_release_cves": 0
         }
@@ -509,7 +509,7 @@
         "chromium_version": "142.0.7444.265",
         "electron_version": "",
         "first_seen": "2026-06-30",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "2026-01-06",
         "chromium_release_cves": 0
       },
@@ -519,7 +519,7 @@
           "chromium_version": "142.0.7444.265",
           "electron_version": "",
           "first_seen": "2026-06-30",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "2026-01-06",
           "chromium_release_cves": 0
         }
@@ -533,7 +533,7 @@
         "chromium_version": "148.0.7778.280",
         "electron_version": "42.7.1",
         "first_seen": "2026-08-25",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "2026-06-23",
         "chromium_release_cves": 0
       },
@@ -543,7 +543,7 @@
           "chromium_version": "148.0.7778.280",
           "electron_version": "42.7.1",
           "first_seen": "2026-08-25",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "2026-06-23",
           "chromium_release_cves": 0
         }
@@ -557,7 +557,7 @@
         "chromium_version": "144.0.7559.236",
         "electron_version": "",
         "first_seen": "2026-06-30",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "2026-03-03",
         "chromium_release_cves": 0
       },
@@ -567,7 +567,7 @@
           "chromium_version": "144.0.7559.236",
           "electron_version": "",
           "first_seen": "2026-06-30",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "2026-03-03",
           "chromium_release_cves": 0
         }
@@ -581,7 +581,7 @@
         "chromium_version": "135.0.7049.72",
         "electron_version": "",
         "first_seen": "2026-06-30",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "",
         "chromium_release_cves": 0
       },
@@ -591,7 +591,7 @@
           "chromium_version": "135.0.7049.72",
           "electron_version": "",
           "first_seen": "2026-06-30",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "",
           "chromium_release_cves": 0
         }
@@ -605,7 +605,7 @@
         "chromium_version": "143.0.7499.203",
         "electron_version": "",
         "first_seen": "2026-08-25",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "",
         "chromium_release_cves": 0
       },
@@ -615,7 +615,7 @@
           "chromium_version": "143.0.7499.203",
           "electron_version": "",
           "first_seen": "2026-08-25",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "",
           "chromium_release_cves": 0
         }
@@ -629,7 +629,7 @@
         "chromium_version": "146.0.7680.80",
         "electron_version": "",
         "first_seen": "2026-07-24",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "2026-03-13",
         "chromium_release_cves": 1
       },
@@ -639,7 +639,7 @@
           "chromium_version": "146.0.7680.80",
           "electron_version": "",
           "first_seen": "2026-07-24",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "2026-03-13",
           "chromium_release_cves": 1
         }
@@ -653,7 +653,7 @@
         "chromium_version": "142.0.7444.265",
         "electron_version": "",
         "first_seen": "2026-08-20",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "2026-01-06",
         "chromium_release_cves": 0
       },
@@ -663,7 +663,7 @@
           "chromium_version": "142.0.7444.265",
           "electron_version": "",
           "first_seen": "2026-08-20",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "2026-01-06",
           "chromium_release_cves": 0
         }
@@ -677,7 +677,7 @@
         "chromium_version": "131.0.6778.268",
         "electron_version": "",
         "first_seen": "2026-06-30",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "",
         "chromium_release_cves": 0
       },
@@ -687,7 +687,7 @@
           "chromium_version": "131.0.6778.268",
           "electron_version": "",
           "first_seen": "2026-06-30",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "",
           "chromium_release_cves": 0
         }
@@ -701,7 +701,7 @@
         "chromium_version": "138.0.7204.251",
         "electron_version": "",
         "first_seen": "2026-06-30",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "",
         "chromium_release_cves": 0
       },
@@ -711,7 +711,7 @@
           "chromium_version": "138.0.7204.251",
           "electron_version": "",
           "first_seen": "2026-06-30",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "",
           "chromium_release_cves": 0
         }
@@ -725,7 +725,7 @@
         "chromium_version": "148.0.7778.180",
         "electron_version": "",
         "first_seen": "2026-07-14",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "",
         "chromium_release_cves": 0
       },
@@ -735,7 +735,7 @@
           "chromium_version": "148.0.7778.180",
           "electron_version": "",
           "first_seen": "2026-07-14",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "",
           "chromium_release_cves": 0
         }
@@ -749,7 +749,7 @@
         "chromium_version": "146.0.7680.216",
         "electron_version": "",
         "first_seen": "2026-07-22",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "2026-04-28",
         "chromium_release_cves": 0
       },
@@ -759,7 +759,7 @@
           "chromium_version": "146.0.7680.216",
           "electron_version": "",
           "first_seen": "2026-07-22",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "2026-04-28",
           "chromium_release_cves": 0
         }
@@ -773,7 +773,7 @@
         "chromium_version": "150.0.7871.46",
         "electron_version": "",
         "first_seen": "2026-08-13",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "2026-06-30",
         "chromium_release_cves": 433
       },
@@ -783,7 +783,7 @@
           "chromium_version": "150.0.7871.46",
           "electron_version": "",
           "first_seen": "2026-08-13",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "2026-06-30",
           "chromium_release_cves": 433
         }
@@ -797,7 +797,7 @@
         "chromium_version": "150.0.7871.224",
         "electron_version": "43.4.1",
         "first_seen": "2026-08-25",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "2026-08-06",
         "chromium_release_cves": 0
       },
@@ -807,7 +807,7 @@
           "chromium_version": "150.0.7871.224",
           "electron_version": "43.4.1",
           "first_seen": "2026-08-25",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "2026-08-06",
           "chromium_release_cves": 0
         },
@@ -848,7 +848,7 @@
         "chromium_version": "146.0.7680.188",
         "electron_version": "",
         "first_seen": "2026-06-30",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "2026-04-08",
         "chromium_release_cves": 0
       },
@@ -858,7 +858,7 @@
           "chromium_version": "146.0.7680.188",
           "electron_version": "",
           "first_seen": "2026-06-30",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "2026-04-08",
           "chromium_release_cves": 0
         }
@@ -872,7 +872,7 @@
         "chromium_version": "116.0.5845.228",
         "electron_version": "",
         "first_seen": "2026-06-30",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "2023-09-28",
         "chromium_release_cves": 0
       },
@@ -882,7 +882,7 @@
           "chromium_version": "116.0.5845.228",
           "electron_version": "",
           "first_seen": "2026-06-30",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "2023-09-28",
           "chromium_release_cves": 0
         }
@@ -896,7 +896,7 @@
         "chromium_version": "150.0.7871.212",
         "electron_version": "",
         "first_seen": "2026-08-13",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "2026-07-28",
         "chromium_release_cves": 0
       },
@@ -906,7 +906,7 @@
           "chromium_version": "150.0.7871.212",
           "electron_version": "",
           "first_seen": "2026-08-13",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "2026-07-28",
           "chromium_release_cves": 0
         },
@@ -947,7 +947,7 @@
         "chromium_version": "144.0.7559.60",
         "electron_version": "40.0.0",
         "first_seen": "2026-07-31",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "",
         "chromium_release_cves": 0
       },
@@ -957,7 +957,7 @@
           "chromium_version": "144.0.7559.60",
           "electron_version": "40.0.0",
           "first_seen": "2026-07-31",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "",
           "chromium_release_cves": 0
         },
@@ -980,7 +980,7 @@
         "chromium_version": "130.0.6723.44",
         "electron_version": "",
         "first_seen": "2026-06-30",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "",
         "chromium_release_cves": 0
       },
@@ -990,7 +990,7 @@
           "chromium_version": "130.0.6723.44",
           "electron_version": "",
           "first_seen": "2026-06-30",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "",
           "chromium_release_cves": 0
         }
@@ -1004,7 +1004,7 @@
         "chromium_version": "150.0.7871.114",
         "electron_version": "43.1.1",
         "first_seen": "2026-08-25",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "2026-07-08",
         "chromium_release_cves": 27
       },
@@ -1014,7 +1014,7 @@
           "chromium_version": "150.0.7871.114",
           "electron_version": "43.1.1",
           "first_seen": "2026-08-25",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "2026-07-08",
           "chromium_release_cves": 27
         }
@@ -1028,7 +1028,7 @@
         "chromium_version": "148.0.7778.271",
         "electron_version": "",
         "first_seen": "2026-08-11",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "2026-06-16",
         "chromium_release_cves": 0
       },
@@ -1038,7 +1038,7 @@
           "chromium_version": "148.0.7778.271",
           "electron_version": "",
           "first_seen": "2026-08-11",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "2026-06-16",
           "chromium_release_cves": 0
         },
@@ -1106,7 +1106,7 @@
         "chromium_version": "114.0.5735.289",
         "electron_version": "25.8.4",
         "first_seen": "2026-08-25",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "",
         "chromium_release_cves": 0
       },
@@ -1116,7 +1116,7 @@
           "chromium_version": "114.0.5735.289",
           "electron_version": "25.8.4",
           "first_seen": "2026-08-25",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "",
           "chromium_release_cves": 0
         }
@@ -1124,17 +1124,26 @@
     },
     "SiYuan": {
       "framework": "electron",
-      "platform": "",
+      "platform": "linux",
       "current": {
-        "app_version": "3.8.1",
+        "app_version": "3.8.2",
         "chromium_version": "148.0.7778.280",
-        "electron_version": "",
-        "first_seen": "2026-08-19",
-        "last_seen": "2026-08-29",
+        "electron_version": "42.9.2",
+        "first_seen": "2026-08-30",
+        "last_seen": "2026-08-30T10:56:20Z",
         "chromium_release_date": "2026-06-23",
         "chromium_release_cves": 0
       },
       "versions": [
+        {
+          "app_version": "3.8.2",
+          "chromium_version": "148.0.7778.280",
+          "electron_version": "42.9.2",
+          "first_seen": "2026-08-30",
+          "last_seen": "2026-08-30T10:56:20Z",
+          "chromium_release_date": "2026-06-23",
+          "chromium_release_cves": 0
+        },
         {
           "app_version": "3.8.1",
           "chromium_version": "148.0.7778.280",
@@ -1190,7 +1199,7 @@
         "chromium_version": "142.0.7444.235",
         "electron_version": "",
         "first_seen": "2026-06-30",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "",
         "chromium_release_cves": 0
       },
@@ -1200,7 +1209,7 @@
           "chromium_version": "142.0.7444.235",
           "electron_version": "",
           "first_seen": "2026-06-30",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "",
           "chromium_release_cves": 0
         }
@@ -1214,7 +1223,7 @@
         "chromium_version": "147.0.7727.56",
         "electron_version": "",
         "first_seen": "2026-06-30",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "",
         "chromium_release_cves": 0
       },
@@ -1224,7 +1233,7 @@
           "chromium_version": "147.0.7727.56",
           "electron_version": "",
           "first_seen": "2026-06-30",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "",
           "chromium_release_cves": 0
         }
@@ -1238,7 +1247,7 @@
         "chromium_version": "140.0.7339.249",
         "electron_version": "38.8.6",
         "first_seen": "2026-08-25",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "2025-10-14",
         "chromium_release_cves": 0
       },
@@ -1248,7 +1257,7 @@
           "chromium_version": "140.0.7339.249",
           "electron_version": "38.8.6",
           "first_seen": "2026-08-25",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "2025-10-14",
           "chromium_release_cves": 0
         }
@@ -1262,7 +1271,7 @@
         "chromium_version": "142.0.7444.235",
         "electron_version": "",
         "first_seen": "2026-06-30",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "",
         "chromium_release_cves": 0
       },
@@ -1272,7 +1281,7 @@
           "chromium_version": "142.0.7444.235",
           "electron_version": "",
           "first_seen": "2026-06-30",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "",
           "chromium_release_cves": 0
         }
@@ -1286,7 +1295,7 @@
         "chromium_version": "142.0.7444.235",
         "electron_version": "",
         "first_seen": "2026-06-30",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "",
         "chromium_release_cves": 0
       },
@@ -1296,7 +1305,7 @@
           "chromium_version": "142.0.7444.235",
           "electron_version": "",
           "first_seen": "2026-06-30",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "",
           "chromium_release_cves": 0
         }
@@ -1310,7 +1319,7 @@
         "chromium_version": "150.0.7871.224",
         "electron_version": "",
         "first_seen": "2026-08-20",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "2026-08-06",
         "chromium_release_cves": 0
       },
@@ -1320,7 +1329,7 @@
           "chromium_version": "150.0.7871.224",
           "electron_version": "",
           "first_seen": "2026-08-20",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "2026-08-06",
           "chromium_release_cves": 0
         },
@@ -1352,7 +1361,7 @@
         "chromium_version": "148.0.7778.280",
         "electron_version": "42.8.1",
         "first_seen": "2026-08-27",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "2026-06-23",
         "chromium_release_cves": 0
       },
@@ -1362,7 +1371,7 @@
           "chromium_version": "148.0.7778.280",
           "electron_version": "42.8.1",
           "first_seen": "2026-08-27",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "2026-06-23",
           "chromium_release_cves": 0
         }
@@ -1376,7 +1385,7 @@
         "chromium_version": "142.0.7444.265",
         "electron_version": "",
         "first_seen": "2026-06-30",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "2026-01-06",
         "chromium_release_cves": 0
       },
@@ -1386,7 +1395,7 @@
           "chromium_version": "142.0.7444.265",
           "electron_version": "",
           "first_seen": "2026-06-30",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "2026-01-06",
           "chromium_release_cves": 0
         }
@@ -1400,7 +1409,7 @@
         "chromium_version": "132.0.6834.210",
         "electron_version": "",
         "first_seen": "2026-06-30",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "2025-02-25",
         "chromium_release_cves": 0
       },
@@ -1410,7 +1419,7 @@
           "chromium_version": "132.0.6834.210",
           "electron_version": "",
           "first_seen": "2026-06-30",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "2025-02-25",
           "chromium_release_cves": 0
         }
@@ -1424,7 +1433,7 @@
         "chromium_version": "142.0.7444.265",
         "electron_version": "",
         "first_seen": "2026-06-30",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "2026-01-06",
         "chromium_release_cves": 0
       },
@@ -1434,7 +1443,7 @@
           "chromium_version": "142.0.7444.265",
           "electron_version": "",
           "first_seen": "2026-06-30",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "2026-01-06",
           "chromium_release_cves": 0
         }
@@ -1448,7 +1457,7 @@
         "chromium_version": "118.0.5993.54",
         "electron_version": "27.0.0",
         "first_seen": "2026-08-28",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "",
         "chromium_release_cves": 0
       },
@@ -1458,7 +1467,7 @@
           "chromium_version": "118.0.5993.54",
           "electron_version": "27.0.0",
           "first_seen": "2026-08-28",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "",
           "chromium_release_cves": 0
         },
@@ -1490,7 +1499,7 @@
         "chromium_version": "142.0.7444.235",
         "electron_version": "",
         "first_seen": "2026-06-30",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "",
         "chromium_release_cves": 0
       },
@@ -1500,7 +1509,7 @@
           "chromium_version": "142.0.7444.235",
           "electron_version": "",
           "first_seen": "2026-06-30",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "",
           "chromium_release_cves": 0
         }
@@ -1514,7 +1523,7 @@
         "chromium_version": "134.0.6998.88",
         "electron_version": "",
         "first_seen": "2026-06-30",
-        "last_seen": "2026-08-29",
+        "last_seen": "2026-08-30",
         "chromium_release_date": "2025-03-10",
         "chromium_release_cves": 5
       },
@@ -1524,7 +1533,7 @@
           "chromium_version": "134.0.6998.88",
           "electron_version": "",
           "first_seen": "2026-06-30",
-          "last_seen": "2026-08-29",
+          "last_seen": "2026-08-30",
           "chromium_release_date": "2025-03-10",
           "chromium_release_cves": 5
         }
