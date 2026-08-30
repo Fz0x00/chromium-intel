@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-08-29T11:59:32Z",
+  "scan_time": "2026-08-30T10:56:25Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 44,
@@ -329,14 +329,15 @@
     },
     {
       "app_name": "SiYuan",
-      "app_version": "3.8.1",
-      "app_path": "/tmp/hunter-2081501697/extracted/SiYuan 3.8.1-arm64/SiYuan.app",
+      "app_version": "3.8.2",
+      "app_path": "/tmp/hunter-3054495635/extracted/SiYuan 3.8.2-arm64/SiYuan.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.280",
+      "electron_version": "42.9.2",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2081501697/extracted/SiYuan 3.8.1-arm64/SiYuan.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-3054495635/extracted/SiYuan 3.8.2-arm64/SiYuan.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Spotify",
