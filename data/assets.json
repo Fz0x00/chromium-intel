@@ -1,8 +1,8 @@
 {
-  "scan_time": "2026-08-30T10:56:25Z",
+  "scan_time": "2026-09-01T10:47:41Z",
   "source": "hunter-ci",
   "platform": "macos",
-  "total_apps": 44,
+  "total_apps": 45,
   "apps": [
     {
       "app_name": "AFFiNE",
@@ -107,15 +107,15 @@
     },
     {
       "app_name": "Discord",
-      "app_version": "0.0.409",
-      "app_path": "/tmp/hunter-3433506953/extracted/Discord/Discord.app",
+      "app_version": "0.0.410",
+      "app_path": "/tmp/hunter-873791498/extracted/Discord/Discord.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.280",
-      "electron_version": "42.7.1",
+      "electron_version": "42.9.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-3433506953/extracted/Discord/Discord.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-873791498/extracted/Discord/Discord.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Docker / Docker Desktop",
@@ -306,14 +306,15 @@
     },
     {
       "app_name": "Rocket.Chat",
-      "app_version": "4.16.0",
-      "app_path": "/tmp/hunter-2947709443/extracted/Rocket.Chat.app",
+      "app_version": "4.17.0",
+      "app_path": "/tmp/hunter-3272276336/extracted/Rocket.Chat.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.271",
+      "electron_version": "42.5.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2947709443/extracted/Rocket.Chat.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-3272276336/extracted/Rocket.Chat.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Session",
@@ -338,6 +339,18 @@
       "electron_version": "42.9.2",
       "extraction_method": "binary_strings",
       "binary_path": "/tmp/hunter-3054495635/extracted/SiYuan 3.8.2-arm64/SiYuan.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+    },
+    {
+      "app_name": "Slack",
+      "app_version": "4.52.155",
+      "app_path": "/tmp/hunter-1943744635/extracted/Slack/Slack.app",
+      "framework": "electron",
+      "framework_name": "Electron Framework",
+      "detection": "directory",
+      "chromium_version": "152.0.7977.54",
+      "electron_version": "44.0.0",
+      "extraction_method": "binary_strings",
+      "binary_path": "/tmp/hunter-1943744635/extracted/Slack/Slack.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Spotify",
