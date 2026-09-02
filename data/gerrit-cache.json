@@ -23767,5 +23767,151 @@
     "subject": "[Reading List] Only open urls from the reading list",
     "commit_message": ""
   },
-  "534416978": null
+  "534416978": null,
+  "502411391": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8295939",
+    "cl_number": 8295939,
+    "subject": "[M152] Abort file picker if WebContents is hidden",
+    "commit_message": ""
+  },
+  "533534913": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8312047",
+    "cl_number": 8312047,
+    "subject": "[M144-LTS][Fortify] [CPRS] Fix UAF in ConfiguredProxyResolutionRequest::QueryComplete",
+    "commit_message": ""
+  },
+  "553117928": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8310075",
+    "cl_number": 8310075,
+    "subject": "[M144] Ignore paths from kArcVm in TranslateVMToHost()",
+    "commit_message": ""
+  },
+  "547936520": null,
+  "498725213": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8264274",
+    "cl_number": 8264274,
+    "subject": "Add kill switch for SMS OTP filtering in OtpManagerImpl",
+    "commit_message": ""
+  },
+  "498710886": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8279814",
+    "cl_number": 8279814,
+    "subject": "[M151] [FSA] Check bucket storage key when deserializing handles",
+    "commit_message": ""
+  },
+  "498850269": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8209279",
+    "cl_number": 8209279,
+    "subject": "Hardening WinHTTP Defaults by Explicitly setting WINHTTP_OPTION_AUTOLOGON_POLICY to WINHTTP_AUTOLOGON_SECURITY_LEVEL_HIGH",
+    "commit_message": ""
+  },
+  "517091927": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7896882",
+    "cl_number": 7896882,
+    "subject": "Android: Harden Snackbar system against security notice suppression",
+    "commit_message": ""
+  },
+  "521753402": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7925869",
+    "cl_number": 7925869,
+    "subject": "[Actor] Fix coordinate scaling in GetFieldIdFromPageTarget",
+    "commit_message": ""
+  },
+  "514489238": null,
+  "549311485": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8279794",
+    "cl_number": 8279794,
+    "subject": "Roll Dawn from b0713abb7699 to 15f7ba37a9ac (6 revisions)",
+    "commit_message": ""
+  },
+  "517798926": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8071450",
+    "cl_number": 8071450,
+    "subject": "Invite ChromotingHostServices clients as untrusted across all platforms",
+    "commit_message": ""
+  },
+  "522302504": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8140363",
+    "cl_number": 8140363,
+    "subject": "[Ozone] Suppress data drag during tab-detach visibility wait",
+    "commit_message": ""
+  },
+  "501679156": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7762202",
+    "cl_number": 7762202,
+    "subject": "Improve thread safety in StatsCollectingDecoder and Encoder",
+    "commit_message": ""
+  },
+  "518100026": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8124755",
+    "cl_number": 8124755,
+    "subject": "webrtc: Replace raw pointer logging with tokens in MediaStreamPowerLogger",
+    "commit_message": ""
+  },
+  "537105664": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8275504",
+    "cl_number": 8275504,
+    "subject": "[M150] Fix potential UAF in BrowserView::Show()",
+    "commit_message": ""
+  },
+  "513713427": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7998801",
+    "cl_number": 7998801,
+    "subject": "Fix BrowserTabStripController UAF on focused-group auto-close",
+    "commit_message": ""
+  },
+  "551593376": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8303114",
+    "cl_number": 8303114,
+    "subject": "[M153] gles2_implementation: Clamp the number of values returned by glGet*",
+    "commit_message": ""
+  },
+  "546260492": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8285960",
+    "cl_number": 8285960,
+    "subject": "[M152] Prevent buffer respec during paused Transform Feedback",
+    "commit_message": ""
+  },
+  "522307103": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7926580",
+    "cl_number": 7926580,
+    "subject": "[Collaboration] Fix java callback cleanup after flow finished",
+    "commit_message": ""
+  },
+  "498839176": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8138342",
+    "cl_number": 8138342,
+    "subject": "Enable kFileSystemAccessRenameRequiresParentWritePermission by default.",
+    "commit_message": ""
+  },
+  "511774376": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8293880",
+    "cl_number": 8293880,
+    "subject": "Revert \"Reland \"Use committed origin when deciding whether to dispatch navigate event\"\"",
+    "commit_message": ""
+  },
+  "503787232": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7896882",
+    "cl_number": 7896882,
+    "subject": "Android: Harden Snackbar system against security notice suppression",
+    "commit_message": ""
+  },
+  "523208474": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8299777",
+    "cl_number": 8299777,
+    "subject": "[M152] Ignore invalid and non-HTTP destination URLs in `DocumentProvider`.",
+    "commit_message": ""
+  },
+  "514006886": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7883815",
+    "cl_number": 7883815,
+    "subject": "Secure MHTML generation by introducing a Mojo Data Pipe on all platforms.",
+    "commit_message": ""
+  },
+  "514078656": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8191064",
+    "cl_number": 8191064,
+    "subject": "Roll Skia from 1a5ec8d183b9 to 2c88cbf6fba3 (2 revisions)",
+    "commit_message": ""
+  }
 }
