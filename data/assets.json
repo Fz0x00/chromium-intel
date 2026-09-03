@@ -1,8 +1,8 @@
 {
-  "scan_time": "2026-09-02T10:12:26Z",
+  "scan_time": "2026-09-03T10:24:55Z",
   "source": "hunter-ci",
   "platform": "macos",
-  "total_apps": 45,
+  "total_apps": 46,
   "apps": [
     {
       "app_name": "AFFiNE",
@@ -73,15 +73,15 @@
     },
     {
       "app_name": "Claude",
-      "app_version": "1.44121.0",
-      "app_path": "/tmp/hunter-1317893084/extracted/Claude.app",
+      "app_version": "1.44121.4",
+      "app_path": "/tmp/hunter-1155869416/extracted/Claude.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.280",
       "electron_version": "42.10.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-1317893084/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-1155869416/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "CodeBuddy CN",
@@ -147,6 +147,18 @@
       "detection": "combined",
       "chromium_version": "143.0.7499.203",
       "extraction_method": "framework_path"
+    },
+    {
+      "app_name": "GitHub Desktop",
+      "app_version": "3.6.5",
+      "app_path": "/tmp/hunter-3332867044/extracted/GitHub Desktop.app",
+      "framework": "electron",
+      "framework_name": "Electron Framework",
+      "detection": "directory",
+      "chromium_version": "148.0.7778.97",
+      "electron_version": "42.0.1",
+      "extraction_method": "binary_strings",
+      "binary_path": "/tmp/hunter-3332867044/extracted/GitHub Desktop.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Insomnia",
@@ -431,15 +443,15 @@
     },
     {
       "app_name": "VS Code",
-      "app_version": "1.135.0",
-      "app_path": "/tmp/hunter-4168197622/extracted/Visual Studio Code.app",
+      "app_version": "1.136.0",
+      "app_path": "/tmp/hunter-50583066/extracted/Visual Studio Code.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.280",
-      "electron_version": "42.8.1",
+      "electron_version": "42.10.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-4168197622/extracted/Visual Studio Code.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-50583066/extracted/Visual Studio Code.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Visual Studio Code",
