@@ -23913,5 +23913,57 @@
     "cl_number": 8191064,
     "subject": "Roll Skia from 1a5ec8d183b9 to 2c88cbf6fba3 (2 revisions)",
     "commit_message": ""
+  },
+  "553119925": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8342048",
+    "cl_number": 8342048,
+    "subject": "[M153] Prevent UAF in TargetHandler::SetAttachedTargetsOfType",
+    "commit_message": ""
+  },
+  "533502257": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8338547",
+    "cl_number": 8338547,
+    "subject": "[M152] Reset connection-based auth handlers on certificate change",
+    "commit_message": ""
+  },
+  "517482830": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8307549",
+    "cl_number": 8307549,
+    "subject": "Plumb AdditionalNavigationParams to remaining context menu open methods",
+    "commit_message": ""
+  },
+  "547819997": null,
+  "542403045": null,
+  "513790581": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7982698",
+    "cl_number": 7982698,
+    "subject": "[autofill][ios] Clamp extracted max_length to kDefaultMaxLength",
+    "commit_message": ""
+  },
+  "540357382": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8347027",
+    "cl_number": 8347027,
+    "subject": "[M153] Fix re-entrancy bug in UpdateActivationDependencies()",
+    "commit_message": ""
+  },
+  "553345874": null,
+  "549350408": null,
+  "553449113": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8334434",
+    "cl_number": 8334434,
+    "subject": "[M153] Promote DCHECK to CHECK in cc animation downcasts",
+    "commit_message": ""
+  },
+  "502304489": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8335197",
+    "cl_number": 8335197,
+    "subject": "[m153] Round up OOB stack pointers in ScanStackForPointers",
+    "commit_message": ""
+  },
+  "552689418": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8335708",
+    "cl_number": 8335708,
+    "subject": "[M152] Ensure SharedWorkers use distinct code caches based on SiteForCookies",
+    "commit_message": ""
   }
 }
