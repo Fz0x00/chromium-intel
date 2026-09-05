@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T10:11:26Z",
+  "generated_at": "2026-09-05T09:40:59Z",
   "observations": [
     {
       "app_name": "Beekeeper Studio",
@@ -80,6 +80,16 @@
       "source": "inspect-list",
       "first_seen": "2026-09-04T10:11:22Z",
       "last_seen": "2026-09-04T10:11:22Z"
+    },
+    {
+      "app_name": "Claude",
+      "app_version": "1.46388.4",
+      "electron_version": "42.10.0",
+      "chromium_version": "148.0.7778.280",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-05T09:40:54Z",
+      "last_seen": "2026-09-05T09:40:54Z"
     },
     {
       "app_name": "Discord",
@@ -278,6 +288,16 @@
       "source": "inspect-list",
       "first_seen": "2026-09-04T10:11:22Z",
       "last_seen": "2026-09-04T10:11:22Z"
+    },
+    {
+      "app_name": "Yakit",
+      "app_version": "1.4.8-905",
+      "electron_version": "27.0.0",
+      "chromium_version": "118.0.5993.54",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-05T09:40:54Z",
+      "last_seen": "2026-09-05T09:40:54Z"
     }
   ]
 }

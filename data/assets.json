@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-09-04T10:11:26Z",
+  "scan_time": "2026-09-05T09:40:59Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 46,
@@ -73,15 +73,15 @@
     },
     {
       "app_name": "Claude",
-      "app_version": "1.46388.2",
-      "app_path": "/tmp/hunter-1717141059/extracted/Claude.app",
+      "app_version": "1.46388.4",
+      "app_path": "/tmp/hunter-2985255735/extracted/Claude.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.280",
       "electron_version": "42.10.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-1717141059/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2985255735/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "CodeBuddy CN",
@@ -488,15 +488,15 @@
     },
     {
       "app_name": "Yakit",
-      "app_version": "1.4.8-904",
-      "app_path": "/tmp/hunter-3488629108/extracted/Yakit 1.4.8-904-arm64/Yakit.app",
+      "app_version": "1.4.8-905",
+      "app_path": "/tmp/hunter-61296092/extracted/Yakit 1.4.8-905-arm64/Yakit.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "118.0.5993.54",
       "electron_version": "27.0.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-3488629108/extracted/Yakit 1.4.8-904-arm64/Yakit.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-61296092/extracted/Yakit 1.4.8-905-arm64/Yakit.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "扣子",
