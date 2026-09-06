@@ -1,8 +1,8 @@
 {
-  "scan_time": "2026-09-05T09:40:59Z",
+  "scan_time": "2026-09-06T09:55:35Z",
   "source": "hunter-ci",
   "platform": "macos",
-  "total_apps": 46,
+  "total_apps": 47,
   "apps": [
     {
       "app_name": "AFFiNE",
@@ -170,6 +170,18 @@
       "chromium_version": "146.0.7680.80",
       "extraction_method": "binary_strings",
       "binary_path": "/tmp/hunter-824248925/extracted/Insomnia 13.1.0-universal/Insomnia.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+    },
+    {
+      "app_name": "Joplin",
+      "app_version": "3.7.16",
+      "app_path": "/tmp/hunter-4249771358/extracted/Joplin 3.7.16-arm64/Joplin.app",
+      "framework": "electron",
+      "framework_name": "Electron Framework",
+      "detection": "directory",
+      "chromium_version": "148.0.7778.180",
+      "electron_version": "42.3.0",
+      "extraction_method": "binary_strings",
+      "binary_path": "/tmp/hunter-4249771358/extracted/Joplin 3.7.16-arm64/Joplin.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Kiro",
