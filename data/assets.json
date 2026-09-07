@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-09-06T09:55:35Z",
+  "scan_time": "2026-09-07T11:03:49Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 47,
@@ -354,15 +354,15 @@
     },
     {
       "app_name": "SiYuan",
-      "app_version": "3.8.2",
-      "app_path": "/tmp/hunter-3054495635/extracted/SiYuan 3.8.2-arm64/SiYuan.app",
+      "app_version": "3.8.3",
+      "app_path": "/tmp/hunter-2736907498/extracted/SiYuan 3.8.3-arm64/SiYuan.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
-      "chromium_version": "148.0.7778.280",
-      "electron_version": "42.9.2",
+      "chromium_version": "152.0.7977.76",
+      "electron_version": "44.2.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-3054495635/extracted/SiYuan 3.8.2-arm64/SiYuan.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2736907498/extracted/SiYuan 3.8.3-arm64/SiYuan.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Slack",

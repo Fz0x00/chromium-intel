@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T09:55:35Z",
+  "generated_at": "2026-09-07T11:03:49Z",
   "observations": [
     {
       "app_name": "Beekeeper Studio",
@@ -209,6 +209,16 @@
       "source": "inspect-list",
       "first_seen": "2026-08-30T10:56:20Z",
       "last_seen": "2026-08-30T10:56:20Z"
+    },
+    {
+      "app_name": "SiYuan",
+      "app_version": "3.8.3",
+      "electron_version": "44.2.0",
+      "chromium_version": "152.0.7977.76",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-07T11:03:45Z",
+      "last_seen": "2026-09-07T11:03:45Z"
     },
     {
       "app_name": "Slack",

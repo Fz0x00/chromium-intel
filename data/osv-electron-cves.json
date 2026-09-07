@@ -1,36 +1,22 @@
 {
   "generator": "hunter osv-check 0.2.0",
-  "scan_time": "2026-09-06T09:55:31Z",
+  "scan_time": "2026-09-07T11:03:45Z",
   "source": "inspect-results.json",
   "total_apps": 1,
   "with_electron_version": 1,
   "missing_electron_version": 0,
   "checked": 1,
   "failed": 0,
-  "with_cves": 1,
-  "total_cves": 1,
-  "severity_counts": {
-    "medium": 1
-  },
+  "with_cves": 0,
+  "total_cves": 0,
+  "severity_counts": {},
   "apps": [
     {
-      "app_name": "Joplin",
-      "app_version": "3.7.16",
-      "electron_version": "42.3.0",
-      "total_cves": 1,
-      "cves": [
-        {
-          "id": "GHSA-r4w5-6pfg-jxp5",
-          "cve": "CVE-2026-70606",
-          "summary": "Electron: ProtocolResponse.url reuses the default session cache instead of the registering session",
-          "severity": "medium",
-          "cvss_score": "5.8",
-          "published": "2026-08-05T16:07:59Z",
-          "fix_versions": [
-            "42.5.1"
-          ]
-        }
-      ]
+      "app_name": "SiYuan",
+      "app_version": "3.8.3",
+      "electron_version": "44.2.0",
+      "total_cves": 0,
+      "cves": []
     }
   ]
 }
