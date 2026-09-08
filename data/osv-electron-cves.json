@@ -1,22 +1,14 @@
 {
   "generator": "hunter osv-check 0.2.0",
-  "scan_time": "2026-09-07T11:03:45Z",
+  "scan_time": "2026-09-08T10:18:27Z",
   "source": "inspect-results.json",
   "total_apps": 1,
-  "with_electron_version": 1,
+  "with_electron_version": 0,
   "missing_electron_version": 0,
-  "checked": 1,
+  "checked": 0,
   "failed": 0,
   "with_cves": 0,
   "total_cves": 0,
   "severity_counts": {},
-  "apps": [
-    {
-      "app_name": "SiYuan",
-      "app_version": "3.8.3",
-      "electron_version": "44.2.0",
-      "total_cves": 0,
-      "cves": []
-    }
-  ]
+  "apps": []
 }

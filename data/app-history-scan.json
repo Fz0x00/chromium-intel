@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T11:03:49Z",
+  "generated_at": "2026-09-08T10:18:31Z",
   "observations": [
     {
       "app_name": "Beekeeper Studio",
@@ -237,7 +237,7 @@
       "platform": "linux",
       "source": "inspect-list",
       "first_seen": "2026-08-26T11:49:47Z",
-      "last_seen": "2026-08-26T11:49:47Z"
+      "last_seen": "2026-09-08T10:18:27Z"
     },
     {
       "app_name": "Tabby",

@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-09-07T11:03:49Z",
+  "scan_time": "2026-09-08T10:18:31Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 47,
@@ -378,13 +378,13 @@
     },
     {
       "app_name": "Spotify",
-      "app_path": "/tmp/hunter-2162487439/extracted/Spotify/Spotify.app",
+      "app_path": "/tmp/hunter-2772993396/extracted/Spotify/Spotify.app",
       "framework": "cef",
       "framework_name": "Chromium Embedded Framework.framework",
       "detection": "directory",
       "chromium_version": "146.0.7680.179",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2162487439/extracted/Spotify/Spotify.app/Contents/Frameworks/Chromium Embedded Framework.framework/Versions/A/Chromium Embedded Framework"
+      "binary_path": "/tmp/hunter-2772993396/extracted/Spotify/Spotify.app/Contents/Frameworks/Chromium Embedded Framework.framework/Versions/A/Chromium Embedded Framework"
     },
     {
       "app_name": "TRAE SOLO CN",
