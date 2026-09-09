@@ -25040,5 +25040,160 @@
     "cl_number": 8243029,
     "subject": "Fix reentrant pending_loaders_ UAF in WebBundleManager",
     "commit_message": ""
+  },
+  "498482618": null,
+  "523091391": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7953760",
+    "cl_number": 7953760,
+    "subject": "Adjust lifecycle of ContentSettingBubbleModel to strongly match a Page",
+    "commit_message": ""
+  },
+  "501644790": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8165135",
+    "cl_number": 8165135,
+    "subject": "Avoid returning uninitialized memory from GLStringQuery",
+    "commit_message": ""
+  },
+  "513416699": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7853118",
+    "cl_number": 7853118,
+    "subject": "Make fbo state counter 64 bit",
+    "commit_message": ""
+  },
+  "521616899": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7913483",
+    "cl_number": 7913483,
+    "subject": "[win] Block drag-and-drop during caption click-hold",
+    "commit_message": ""
+  },
+  "502611474": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8160612",
+    "cl_number": 8160612,
+    "subject": "unrar: skip key derivation when no password is supplied",
+    "commit_message": ""
+  },
+  "539754136": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8163611",
+    "cl_number": 8163611,
+    "subject": "[WebAuthn] Defer AuthenticatorRequestDialogController deletion",
+    "commit_message": ""
+  },
+  "536673946": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8347607",
+    "cl_number": 8347607,
+    "subject": "[M152] [GPU Security]: Require initial data for compressed GL SharedImages.",
+    "commit_message": ""
+  },
+  "513048243": null,
+  "514055890": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8165050",
+    "cl_number": 8165050,
+    "subject": "[Downloads] Scope queued download callbacks to requesting origin",
+    "commit_message": ""
+  },
+  "534912743": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8106876",
+    "cl_number": 8106876,
+    "subject": "[agy][gpu] Clamp texture levels in decoder.",
+    "commit_message": ""
+  },
+  "550141694": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8354164",
+    "cl_number": 8354164,
+    "subject": "[M152] [HiC] Fix privacy leaks due to feature flag checks",
+    "commit_message": ""
+  },
+  "499425100": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8128514",
+    "cl_number": 8128514,
+    "subject": "Push: Check calling frame for fenced-frame PushMessaging IPCs",
+    "commit_message": ""
+  },
+  "40058710": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8166148",
+    "cl_number": 8166148,
+    "subject": "[security] drop fullscreen when showing emoji panel in BrowserView",
+    "commit_message": ""
+  },
+  "536444790": null,
+  "514023309": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8169860",
+    "cl_number": 8169860,
+    "subject": "[Download Bubble] Disable download bubble main page buttons on PiP occlusion",
+    "commit_message": ""
+  },
+  "513245072": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8158623",
+    "cl_number": 8158623,
+    "subject": "[unrar] Bound the number of key derivations per archive",
+    "commit_message": ""
+  },
+  "542146471": null,
+  "523313374": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8231402",
+    "cl_number": 8231402,
+    "subject": "Roll DevTools Frontend from f2245c966b44 to ecaa2e8404a1 (7 revisions)",
+    "commit_message": ""
+  },
+  "511754574": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8259429",
+    "cl_number": 8259429,
+    "subject": "Reland \"Custom handlers: tie extension-registered handlers to their extension\"",
+    "commit_message": ""
+  },
+  "514556469": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8162671",
+    "cl_number": 8162671,
+    "subject": "[Downloads API] hide non-exported items from id-based actions",
+    "commit_message": ""
+  },
+  "483435192": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8259849",
+    "cl_number": 8259849,
+    "subject": "Reland \"[Extensions] Close devtools when devtools extensions are unloaded\"",
+    "commit_message": ""
+  },
+  "507225626": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8118569",
+    "cl_number": 8118569,
+    "subject": "Only allow safe schemes when opening from middle click",
+    "commit_message": ""
+  },
+  "511772271": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8205905",
+    "cl_number": 8205905,
+    "subject": "Validate referrer and user gesture in DownloadURL IPC",
+    "commit_message": ""
+  },
+  "497986036": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8164176",
+    "cl_number": 8164176,
+    "subject": "[Downloads] Defer completion while content check is pending",
+    "commit_message": ""
+  },
+  "498732709": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8254718",
+    "cl_number": 8254718,
+    "subject": "[Navigation] Move redirect check bypass state to NavigationHandle",
+    "commit_message": ""
+  },
+  "517926950": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8167125",
+    "cl_number": 8167125,
+    "subject": "[mac] UDIF: handle zlib/bzip2 chunks larger than uInt",
+    "commit_message": ""
+  },
+  "499217288": null,
+  "543938457": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8259390",
+    "cl_number": 8259390,
+    "subject": "[Extensions] Enforce user site restrictions in chrome.cookies API",
+    "commit_message": ""
+  },
+  "496615345": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8353948",
+    "cl_number": 8353948,
+    "subject": "Wait for activeTab grant in extension BFCache tests",
+    "commit_message": ""
   }
 }
