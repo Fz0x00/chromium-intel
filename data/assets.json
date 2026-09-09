@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-09-08T10:18:31Z",
+  "scan_time": "2026-09-09T10:26:06Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 47,
@@ -73,15 +73,15 @@
     },
     {
       "app_name": "Claude",
-      "app_version": "1.46388.4",
-      "app_path": "/tmp/hunter-2985255735/extracted/Claude.app",
+      "app_version": "1.49585.0",
+      "app_path": "/tmp/hunter-4102427936/extracted/Claude.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
-      "chromium_version": "148.0.7778.280",
-      "electron_version": "42.10.0",
+      "chromium_version": "152.0.7977.76",
+      "electron_version": "44.2.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2985255735/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-4102427936/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "CodeBuddy CN",
@@ -107,15 +107,15 @@
     },
     {
       "app_name": "Discord",
-      "app_version": "0.0.410",
-      "app_path": "/tmp/hunter-873791498/extracted/Discord/Discord.app",
+      "app_version": "0.0.411",
+      "app_path": "/tmp/hunter-529585470/extracted/Discord/Discord.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.280",
-      "electron_version": "42.9.0",
+      "electron_version": "42.11.1",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-873791498/extracted/Discord/Discord.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-529585470/extracted/Discord/Discord.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Docker / Docker Desktop",
@@ -140,12 +140,12 @@
     },
     {
       "app_name": "Feishu",
-      "app_version": "143.0.7499.203",
-      "app_path": "/tmp/hunter-1891127147/extracted/飞书 Feishu/Lark.app",
+      "app_version": "147.0.7727.149",
+      "app_path": "/tmp/hunter-2590663623/extracted/飞书 Feishu/Lark.app",
       "framework": "electron_fork",
       "framework_name": "Lark Framework",
       "detection": "combined",
-      "chromium_version": "143.0.7499.203",
+      "chromium_version": "147.0.7727.149",
       "extraction_method": "framework_path"
     },
     {
@@ -455,15 +455,15 @@
     },
     {
       "app_name": "VS Code",
-      "app_version": "1.136.1",
-      "app_path": "/tmp/hunter-22857790/extracted/Visual Studio Code.app",
+      "app_version": "1.136.2",
+      "app_path": "/tmp/hunter-4059674888/extracted/Visual Studio Code.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.280",
       "electron_version": "42.10.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-22857790/extracted/Visual Studio Code.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-4059674888/extracted/Visual Studio Code.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Visual Studio Code",
