@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T10:26:06Z",
+  "generated_at": "2026-09-10T10:17:14Z",
   "observations": [
     {
       "app_name": "Beekeeper Studio",
@@ -317,6 +317,16 @@
       "source": "inspect-list",
       "first_seen": "2026-09-09T10:26:00Z",
       "last_seen": "2026-09-09T10:26:00Z"
+    },
+    {
+      "app_name": "VS Code",
+      "app_version": "1.137.0",
+      "electron_version": "42.10.0",
+      "chromium_version": "148.0.7778.280",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-10T10:17:10Z",
+      "last_seen": "2026-09-10T10:17:10Z"
     },
     {
       "app_name": "Yakit",
