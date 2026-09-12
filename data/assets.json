@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-09-11T10:14:54Z",
+  "scan_time": "2026-09-12T09:49:03Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 47,
@@ -73,15 +73,15 @@
     },
     {
       "app_name": "Claude",
-      "app_version": "1.52386.0",
-      "app_path": "/tmp/hunter-3771420454/extracted/Claude.app",
+      "app_version": "1.52386.4",
+      "app_path": "/tmp/hunter-1831330546/extracted/Claude.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "152.0.7977.76",
       "electron_version": "44.2.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-3771420454/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-1831330546/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "CodeBuddy CN",
@@ -173,15 +173,15 @@
     },
     {
       "app_name": "Joplin",
-      "app_version": "3.7.16",
-      "app_path": "/tmp/hunter-4249771358/extracted/Joplin 3.7.16-arm64/Joplin.app",
+      "app_version": "3.7.18",
+      "app_path": "/tmp/hunter-575635093/extracted/Joplin 3.7.18-arm64/Joplin.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.180",
       "electron_version": "42.3.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-4249771358/extracted/Joplin 3.7.16-arm64/Joplin.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-575635093/extracted/Joplin 3.7.18-arm64/Joplin.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Kiro",
@@ -500,15 +500,15 @@
     },
     {
       "app_name": "Yakit",
-      "app_version": "1.4.8-905",
-      "app_path": "/tmp/hunter-61296092/extracted/Yakit 1.4.8-905-arm64/Yakit.app",
+      "app_version": "1.4.8-911",
+      "app_path": "/tmp/hunter-2819677586/extracted/Yakit 1.4.8-911-arm64/Yakit.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "118.0.5993.54",
       "electron_version": "27.0.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-61296092/extracted/Yakit 1.4.8-905-arm64/Yakit.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2819677586/extracted/Yakit 1.4.8-911-arm64/Yakit.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "扣子",

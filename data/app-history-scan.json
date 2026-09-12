@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T10:14:54Z",
+  "generated_at": "2026-09-12T09:49:03Z",
   "observations": [
     {
       "app_name": "Beekeeper Studio",
@@ -112,6 +112,16 @@
       "last_seen": "2026-09-11T10:14:49Z"
     },
     {
+      "app_name": "Claude",
+      "app_version": "1.52386.4",
+      "electron_version": "44.2.0",
+      "chromium_version": "152.0.7977.76",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-12T09:48:59Z",
+      "last_seen": "2026-09-12T09:48:59Z"
+    },
+    {
       "app_name": "Discord",
       "app_version": "0.0.409",
       "electron_version": "42.7.1",
@@ -178,6 +188,16 @@
       "source": "inspect-list",
       "first_seen": "2026-09-06T09:55:31Z",
       "last_seen": "2026-09-06T09:55:31Z"
+    },
+    {
+      "app_name": "Joplin",
+      "app_version": "3.7.18",
+      "electron_version": "42.3.0",
+      "chromium_version": "148.0.7778.180",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-12T09:48:59Z",
+      "last_seen": "2026-09-12T09:48:59Z"
     },
     {
       "app_name": "MongoDB Compass",
@@ -377,6 +397,16 @@
       "source": "inspect-list",
       "first_seen": "2026-09-05T09:40:54Z",
       "last_seen": "2026-09-05T09:40:54Z"
+    },
+    {
+      "app_name": "Yakit",
+      "app_version": "1.4.8-911",
+      "electron_version": "27.0.0",
+      "chromium_version": "118.0.5993.54",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-12T09:48:59Z",
+      "last_seen": "2026-09-12T09:48:59Z"
     }
   ]
 }
