@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T10:49:42Z",
+  "generated_at": "2026-09-15T10:42:37Z",
   "observations": [
     {
       "app_name": "Beekeeper Studio",
@@ -10,6 +10,16 @@
       "source": "inspect-list",
       "first_seen": "2026-08-25T06:29:30Z",
       "last_seen": "2026-08-25T06:29:30Z"
+    },
+    {
+      "app_name": "Beekeeper Studio",
+      "app_version": "6.1.0",
+      "electron_version": "39.8.10",
+      "chromium_version": "142.0.7444.265",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-15T10:42:33Z",
+      "last_seen": "2026-09-15T10:42:33Z"
     },
     {
       "app_name": "Claude",
@@ -162,6 +172,16 @@
       "last_seen": "2026-09-09T10:26:00Z"
     },
     {
+      "app_name": "Discord",
+      "app_version": "0.0.412",
+      "electron_version": "42.11.1",
+      "chromium_version": "148.0.7778.280",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-15T10:42:33Z",
+      "last_seen": "2026-09-15T10:42:33Z"
+    },
+    {
       "app_name": "Feishu",
       "app_version": "143.0.7499.203",
       "chromium_version": "143.0.7499.203",
@@ -177,7 +197,7 @@
       "platform": "linux",
       "source": "inspect-list",
       "first_seen": "2026-09-09T10:26:00Z",
-      "last_seen": "2026-09-09T10:26:00Z"
+      "last_seen": "2026-09-15T10:42:33Z"
     },
     {
       "app_name": "GitHub Desktop",
@@ -218,6 +238,16 @@
       "source": "inspect-list",
       "first_seen": "2026-09-13T10:49:32Z",
       "last_seen": "2026-09-13T10:49:32Z"
+    },
+    {
+      "app_name": "Mailspring",
+      "app_version": "1.24.1",
+      "electron_version": "44.3.0",
+      "chromium_version": "152.0.7977.78",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-15T10:42:33Z",
+      "last_seen": "2026-09-15T10:42:33Z"
     },
     {
       "app_name": "MongoDB Compass",
@@ -270,6 +300,16 @@
       "last_seen": "2026-09-01T10:47:35Z"
     },
     {
+      "app_name": "Rocket.Chat",
+      "app_version": "4.17.1",
+      "electron_version": "42.5.0",
+      "chromium_version": "148.0.7778.271",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-15T10:42:33Z",
+      "last_seen": "2026-09-15T10:42:33Z"
+    },
+    {
       "app_name": "Session",
       "app_version": "1.14.3",
       "electron_version": "25.8.4",
@@ -316,7 +356,7 @@
       "platform": "linux",
       "source": "inspect-list",
       "first_seen": "2026-08-26T11:49:47Z",
-      "last_seen": "2026-09-08T10:18:27Z"
+      "last_seen": "2026-09-15T10:42:33Z"
     },
     {
       "app_name": "Tabby",
