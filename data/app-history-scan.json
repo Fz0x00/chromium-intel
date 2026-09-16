@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T10:42:37Z",
+  "generated_at": "2026-09-16T10:31:13Z",
   "observations": [
     {
       "app_name": "Beekeeper Studio",
@@ -20,6 +20,16 @@
       "source": "inspect-list",
       "first_seen": "2026-09-15T10:42:33Z",
       "last_seen": "2026-09-15T10:42:33Z"
+    },
+    {
+      "app_name": "Beekeeper Studio",
+      "app_version": "6.1.1",
+      "electron_version": "39.8.10",
+      "chromium_version": "142.0.7444.265",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-16T10:31:10Z",
+      "last_seen": "2026-09-16T10:31:10Z"
     },
     {
       "app_name": "Claude",
@@ -142,6 +152,16 @@
       "last_seen": "2026-09-13T10:49:32Z"
     },
     {
+      "app_name": "Claude",
+      "app_version": "2.110.0",
+      "electron_version": "44.2.0",
+      "chromium_version": "152.0.7977.76",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-16T10:31:10Z",
+      "last_seen": "2026-09-16T10:31:10Z"
+    },
+    {
       "app_name": "Discord",
       "app_version": "0.0.409",
       "electron_version": "42.7.1",
@@ -208,6 +228,16 @@
       "source": "inspect-list",
       "first_seen": "2026-09-03T10:24:50Z",
       "last_seen": "2026-09-03T10:24:50Z"
+    },
+    {
+      "app_name": "GitHub Desktop",
+      "app_version": "3.6.6",
+      "electron_version": "42.0.1",
+      "chromium_version": "148.0.7778.97",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-16T10:31:10Z",
+      "last_seen": "2026-09-16T10:31:10Z"
     },
     {
       "app_name": "Joplin",
@@ -417,6 +447,16 @@
       "source": "inspect-list",
       "first_seen": "2026-09-10T10:17:10Z",
       "last_seen": "2026-09-10T10:17:10Z"
+    },
+    {
+      "app_name": "VS Code",
+      "app_version": "1.138.0",
+      "electron_version": "42.10.0",
+      "chromium_version": "148.0.7778.280",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-16T10:31:10Z",
+      "last_seen": "2026-09-16T10:31:10Z"
     },
     {
       "app_name": "Yakit",
