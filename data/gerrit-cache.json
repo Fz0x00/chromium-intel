@@ -25195,5 +25195,232 @@
     "cl_number": 8353948,
     "subject": "Wait for activeTab grant in extension BFCache tests",
     "commit_message": ""
+  },
+  "553115724": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8409888",
+    "cl_number": 8409888,
+    "subject": "[M150-LTS] Abort navigation on overlapping redirect or response",
+    "commit_message": ""
+  },
+  "547815507": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8403526",
+    "cl_number": 8403526,
+    "subject": "[M152] ServiceWorker: Add feature flag to disable Code Cache",
+    "commit_message": ""
+  },
+  "553132148": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8404848",
+    "cl_number": 8404848,
+    "subject": "[M152] Guard browser lifetime during web contents reparenting",
+    "commit_message": ""
+  },
+  "558342353": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8403526",
+    "cl_number": 8403526,
+    "subject": "[M152] ServiceWorker: Add feature flag to disable Code Cache",
+    "commit_message": ""
+  },
+  "523715133": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7978778",
+    "cl_number": 7978778,
+    "subject": "Prevent issuing url access requests from inactive frames",
+    "commit_message": ""
+  },
+  "517710554": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8139521",
+    "cl_number": 8139521,
+    "subject": "Disable Autofill <select> font overrides by default",
+    "commit_message": ""
+  },
+  "558367547": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8403526",
+    "cl_number": 8403526,
+    "subject": "[M152] ServiceWorker: Add feature flag to disable Code Cache",
+    "commit_message": ""
+  },
+  "554558368": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8407330",
+    "cl_number": 8407330,
+    "subject": "[M150] Check validity of 'this' in HttpAuthCoordinator when showing http auth dialog.",
+    "commit_message": ""
+  },
+  "549225472": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8396361",
+    "cl_number": 8396361,
+    "subject": "[M153] Validate launch URIs in WebAppLaunchHandler",
+    "commit_message": ""
+  },
+  "553133215": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8409307",
+    "cl_number": 8409307,
+    "subject": "[M144-LTS] Prevent UAF during re-entrant destruction in IME callouts.",
+    "commit_message": ""
+  },
+  "542115030": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8356066",
+    "cl_number": 8356066,
+    "subject": "Mark XML fragments' scripts as already started.",
+    "commit_message": ""
+  },
+  "523470135": null,
+  "557320614": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8409965",
+    "cl_number": 8409965,
+    "subject": "[M150-LTS] Post a task from JavaScriptDialogDismissNotifier",
+    "commit_message": ""
+  },
+  "554953456": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8397287",
+    "cl_number": 8397287,
+    "subject": "[M150-LTS] Harden GestureEventQueue, MouseWheelEventQueue, and TouchpadPinchEventQueue",
+    "commit_message": ""
+  },
+  "474131239": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8026191",
+    "cl_number": 8026191,
+    "subject": "[WebInstallAPI] 6/n: Implement WebInstallFromManifestCommand",
+    "commit_message": ""
+  },
+  "552283275": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8397287",
+    "cl_number": 8397287,
+    "subject": "[M150-LTS] Harden GestureEventQueue, MouseWheelEventQueue, and TouchpadPinchEventQueue",
+    "commit_message": ""
+  },
+  "518032534": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8175875",
+    "cl_number": 8175875,
+    "subject": "[autofill] Extend accessibility suggestion availability to <select> controls",
+    "commit_message": ""
+  },
+  "556870863": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8397209",
+    "cl_number": 8397209,
+    "subject": "[M153] GPU: disable program cache on Imagination's GLES drivers.",
+    "commit_message": ""
+  },
+  "556715288": null,
+  "557206809": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8409887",
+    "cl_number": 8409887,
+    "subject": "[M150-LTS][DC] Fix UAF in in DigitalIdentityProviderDesktop::OnCableEvent",
+    "commit_message": ""
+  },
+  "543640868": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8257070",
+    "cl_number": 8257070,
+    "subject": "Implement InvalidateBuffers for video capture (cl 6/6)",
+    "commit_message": ""
+  },
+  "523554372": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8399328",
+    "cl_number": 8399328,
+    "subject": "[M153] Add integer type template parameter to base::AtomicSequenceNumber",
+    "commit_message": ""
+  },
+  "511062248": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7897641",
+    "cl_number": 7897641,
+    "subject": "Validate Manifest note_taking and lock_screen same-origin in browser",
+    "commit_message": ""
+  },
+  "540021213": null,
+  "516780835": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7958418",
+    "cl_number": 7958418,
+    "subject": "[Mojo] Limit peer trust for isolated connections",
+    "commit_message": ""
+  },
+  "552416113": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8354610",
+    "cl_number": 8354610,
+    "subject": "[M153] [Reading mode] Limit actions on non HTTP/HTTPS pages.",
+    "commit_message": ""
+  },
+  "553121008": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8407329",
+    "cl_number": 8407329,
+    "subject": "[M150] Fix slot assignment recalculation depth check and add defensive copies",
+    "commit_message": ""
+  },
+  "558036280": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8396637",
+    "cl_number": 8396637,
+    "subject": "[M154] [PDF] Prevent page unloading in PDFiumPage::PopulateAnnotationLinks()",
+    "commit_message": ""
+  },
+  "536450979": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8172265",
+    "cl_number": 8172265,
+    "subject": "Roll ANGLE from 22ba45a57477 to 2c5c60cd270d (1 revision)",
+    "commit_message": ""
+  },
+  "521951328": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8367287",
+    "cl_number": 8367287,
+    "subject": "Validate calls to UpdateAutofillDataListValues()",
+    "commit_message": ""
+  },
+  "553122373": null,
+  "546413288": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8403526",
+    "cl_number": 8403526,
+    "subject": "[M152] ServiceWorker: Add feature flag to disable Code Cache",
+    "commit_message": ""
+  },
+  "513858387": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8175357",
+    "cl_number": 8175357,
+    "subject": "Add scheme validation and webState null checks in PriceNotificationsPriceTrackingMediator",
+    "commit_message": ""
+  },
+  "516947138": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8395246",
+    "cl_number": 8395246,
+    "subject": "Revert \"[macOS] Use sandboxed subdirectories for the GPU child process\"",
+    "commit_message": ""
+  },
+  "520019273": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8395246",
+    "cl_number": 8395246,
+    "subject": "Revert \"[macOS] Use sandboxed subdirectories for the GPU child process\"",
+    "commit_message": ""
+  },
+  "558734727": null,
+  "556260782": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8399846",
+    "cl_number": 8399846,
+    "subject": "[M153] Check transfer cache entries for wrap around",
+    "commit_message": ""
+  },
+  "540016074": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8353699",
+    "cl_number": 8353699,
+    "subject": "Roll Skia from 93ac1e630d1d to 86ada7c14829 (4 revisions)",
+    "commit_message": ""
+  },
+  "558456602": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8396966",
+    "cl_number": 8396966,
+    "subject": "[M150-LTS] Fix Browser-process Heap-UAF in LockManager caused by stale SharedWorkerHost",
+    "commit_message": ""
+  },
+  "521486621": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8395246",
+    "cl_number": 8395246,
+    "subject": "Revert \"[macOS] Use sandboxed subdirectories for the GPU child process\"",
+    "commit_message": ""
+  },
+  "516893912": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8395246",
+    "cl_number": 8395246,
+    "subject": "Revert \"[macOS] Use sandboxed subdirectories for the GPU child process\"",
+    "commit_message": ""
+  },
+  "521559611": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8395246",
+    "cl_number": 8395246,
+    "subject": "Revert \"[macOS] Use sandboxed subdirectories for the GPU child process\"",
+    "commit_message": ""
   }
 }
