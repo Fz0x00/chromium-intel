@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T10:40:41Z",
+  "generated_at": "2026-09-18T10:16:19Z",
   "observations": [
     {
       "app_name": "Beekeeper Studio",
@@ -30,6 +30,16 @@
       "source": "inspect-list",
       "first_seen": "2026-09-16T10:31:10Z",
       "last_seen": "2026-09-16T10:31:10Z"
+    },
+    {
+      "app_name": "Beekeeper Studio",
+      "app_version": "6.1.2",
+      "electron_version": "39.8.10",
+      "chromium_version": "142.0.7444.265",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-18T10:16:15Z",
+      "last_seen": "2026-09-18T10:16:15Z"
     },
     {
       "app_name": "Claude",
@@ -170,6 +180,16 @@
       "source": "inspect-list",
       "first_seen": "2026-09-17T10:40:36Z",
       "last_seen": "2026-09-17T10:40:36Z"
+    },
+    {
+      "app_name": "Claude",
+      "app_version": "2.2553.1",
+      "electron_version": "44.2.0",
+      "chromium_version": "152.0.7977.76",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-18T10:16:15Z",
+      "last_seen": "2026-09-18T10:16:15Z"
     },
     {
       "app_name": "Discord",
@@ -406,7 +426,7 @@
       "platform": "linux",
       "source": "inspect-list",
       "first_seen": "2026-08-26T11:49:47Z",
-      "last_seen": "2026-09-15T10:42:33Z"
+      "last_seen": "2026-09-18T10:16:15Z"
     },
     {
       "app_name": "Tabby",
