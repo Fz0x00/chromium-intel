@@ -25422,5 +25422,81 @@
     "cl_number": 8395246,
     "subject": "Revert \"[macOS] Use sandboxed subdirectories for the GPU child process\"",
     "commit_message": ""
+  },
+  "548085797": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8372204",
+    "cl_number": 8372204,
+    "subject": "[M153] GPU: Clamp max_texture_image_units to 13 on PowerVR GPUs",
+    "commit_message": ""
+  },
+  "553132214": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8409990",
+    "cl_number": 8409990,
+    "subject": "[M152] Reland \"Return only live tabs from TabRestoreService restore operations\"",
+    "commit_message": ""
+  },
+  "500417361": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7979280",
+    "cl_number": 7979280,
+    "subject": "Roll Dawn from 88408eeeff29 to 292e993b4a84 (1 revision)",
+    "commit_message": ""
+  },
+  "550839154": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8410585",
+    "cl_number": 8410585,
+    "subject": "[M153] [etw tracing] AcceptInvitation via handle rather than name",
+    "commit_message": ""
+  },
+  "520521197": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8025811",
+    "cl_number": 8025811,
+    "subject": "Fix browser-process OOB heap read in ClipboardWin::ReadFilenamesInternal",
+    "commit_message": ""
+  },
+  "560121552": null,
+  "540051167": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8396769",
+    "cl_number": 8396769,
+    "subject": "Reland: Prevent PDF processes from binding BlobURLStore",
+    "commit_message": ""
+  },
+  "560039872": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8398448",
+    "cl_number": 8398448,
+    "subject": "[M153] [orb] Add `text/pdf` to the `opaque-blocklisted-never-sniffed` list.",
+    "commit_message": ""
+  },
+  "498411599": null,
+  "556853443": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8371895",
+    "cl_number": 8371895,
+    "subject": "Roll PDFium from 4a36628222bb to 482ed62233d7 (6 revisions)",
+    "commit_message": ""
+  },
+  "541707261": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8371895",
+    "cl_number": 8371895,
+    "subject": "Roll PDFium from 4a36628222bb to 482ed62233d7 (6 revisions)",
+    "commit_message": ""
+  },
+  "515493668": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8411465",
+    "cl_number": 8411465,
+    "subject": "Reland \"[permissions] Remove cached permission status computation\"",
+    "commit_message": ""
+  },
+  "553136980": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8414449",
+    "cl_number": 8414449,
+    "subject": "[M152] [HiC] Disallow SVG markers that are outside a canvas subtree",
+    "commit_message": ""
+  },
+  "513996595": null,
+  "553130676": null,
+  "511832293": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8327507",
+    "cl_number": 8327507,
+    "subject": "Revert \"[omnibox] Restrict rich answers and suggest images to Google\"",
+    "commit_message": ""
   }
 }
