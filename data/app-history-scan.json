@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-09-18T10:16:19Z",
+  "generated_at": "2026-09-19T09:58:42Z",
   "observations": [
+    {
+      "app_name": "Balena Etcher",
+      "app_version": "2.1.7",
+      "electron_version": "37.2.4",
+      "chromium_version": "138.0.7204.157",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-19T09:58:37Z",
+      "last_seen": "2026-09-19T09:58:37Z"
+    },
     {
       "app_name": "Beekeeper Studio",
       "app_version": "6.0.5",
@@ -547,6 +557,16 @@
       "source": "inspect-list",
       "first_seen": "2026-09-12T09:48:59Z",
       "last_seen": "2026-09-12T09:48:59Z"
+    },
+    {
+      "app_name": "Yakit",
+      "app_version": "1.4.8-919",
+      "electron_version": "27.0.0",
+      "chromium_version": "118.0.5993.54",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-19T09:58:37Z",
+      "last_seen": "2026-09-19T09:58:37Z"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
-  "scan_time": "2026-09-18T10:16:19Z",
+  "scan_time": "2026-09-19T09:58:42Z",
   "source": "hunter-ci",
   "platform": "macos",
-  "total_apps": 47,
+  "total_apps": 48,
   "apps": [
     {
       "app_name": "AFFiNE",
@@ -25,6 +25,18 @@
       "chromium_version": "116.0.5845.179",
       "extraction_method": "binary_strings",
       "binary_path": "/Applications/BaiduNetdisk.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+    },
+    {
+      "app_name": "Balena Etcher",
+      "app_version": "2.1.7",
+      "app_path": "/tmp/hunter-1818662058/extracted/balenaEtcher.app",
+      "framework": "electron",
+      "framework_name": "Electron Framework",
+      "detection": "directory",
+      "chromium_version": "138.0.7204.157",
+      "electron_version": "37.2.4",
+      "extraction_method": "binary_strings",
+      "binary_path": "/tmp/hunter-1818662058/extracted/balenaEtcher.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Beekeeper Studio",
@@ -501,15 +513,15 @@
     },
     {
       "app_name": "Yakit",
-      "app_version": "1.4.8-911",
-      "app_path": "/tmp/hunter-2819677586/extracted/Yakit 1.4.8-911-arm64/Yakit.app",
+      "app_version": "1.4.8-919",
+      "app_path": "/tmp/hunter-1510632631/extracted/Yakit 1.4.8-919-arm64/Yakit.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "118.0.5993.54",
       "electron_version": "27.0.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2819677586/extracted/Yakit 1.4.8-911-arm64/Yakit.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-1510632631/extracted/Yakit 1.4.8-919-arm64/Yakit.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "扣子",
