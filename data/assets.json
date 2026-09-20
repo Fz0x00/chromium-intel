@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-09-19T09:58:42Z",
+  "scan_time": "2026-09-20T10:20:40Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 48,
@@ -240,15 +240,15 @@
     },
     {
       "app_name": "Mailspring",
-      "app_version": "1.24.1",
-      "app_path": "/tmp/hunter-2810514492/extracted/Mailspring.app",
+      "app_version": "1.25.0",
+      "app_path": "/tmp/hunter-2704258102/extracted/Mailspring.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "152.0.7977.78",
       "electron_version": "44.3.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2810514492/extracted/Mailspring.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2704258102/extracted/Mailspring.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Mattermost Desktop",

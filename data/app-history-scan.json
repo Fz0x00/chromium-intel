@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T09:58:42Z",
+  "generated_at": "2026-09-20T10:20:40Z",
   "observations": [
     {
       "app_name": "Balena Etcher",
@@ -318,6 +318,16 @@
       "source": "inspect-list",
       "first_seen": "2026-09-15T10:42:33Z",
       "last_seen": "2026-09-15T10:42:33Z"
+    },
+    {
+      "app_name": "Mailspring",
+      "app_version": "1.25.0",
+      "electron_version": "44.3.0",
+      "chromium_version": "152.0.7977.78",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-20T10:20:35Z",
+      "last_seen": "2026-09-20T10:20:35Z"
     },
     {
       "app_name": "MongoDB Compass",
