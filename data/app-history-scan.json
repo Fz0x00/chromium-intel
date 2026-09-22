@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T11:28:21Z",
+  "generated_at": "2026-09-22T10:36:40Z",
   "observations": [
     {
       "app_name": "Balena Etcher",
@@ -242,6 +242,16 @@
       "last_seen": "2026-09-15T10:42:33Z"
     },
     {
+      "app_name": "Discord",
+      "app_version": "0.0.413",
+      "electron_version": "42.11.4",
+      "chromium_version": "148.0.7778.280",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-22T10:36:36Z",
+      "last_seen": "2026-09-22T10:36:36Z"
+    },
+    {
       "app_name": "Feishu",
       "app_version": "143.0.7499.203",
       "chromium_version": "143.0.7499.203",
@@ -257,7 +267,7 @@
       "platform": "linux",
       "source": "inspect-list",
       "first_seen": "2026-09-09T10:26:00Z",
-      "last_seen": "2026-09-15T10:42:33Z"
+      "last_seen": "2026-09-22T10:36:36Z"
     },
     {
       "app_name": "GitHub Desktop",
@@ -430,6 +440,16 @@
       "last_seen": "2026-09-17T10:40:36Z"
     },
     {
+      "app_name": "SiYuan",
+      "app_version": "3.8.5",
+      "electron_version": "44.4.1",
+      "chromium_version": "152.0.7977.78",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-22T10:36:36Z",
+      "last_seen": "2026-09-22T10:36:36Z"
+    },
+    {
       "app_name": "Slack",
       "app_version": "4.52.155",
       "electron_version": "44.0.0",
@@ -438,6 +458,16 @@
       "source": "inspect-list",
       "first_seen": "2026-09-01T10:47:35Z",
       "last_seen": "2026-09-01T10:47:35Z"
+    },
+    {
+      "app_name": "Slack",
+      "app_version": "4.52.162",
+      "electron_version": "44.3.0",
+      "chromium_version": "152.0.7977.78",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-22T10:36:36Z",
+      "last_seen": "2026-09-22T10:36:36Z"
     },
     {
       "app_name": "Spotify",
