@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T10:36:40Z",
+  "generated_at": "2026-09-23T10:30:30Z",
   "observations": [
     {
       "app_name": "Balena Etcher",
@@ -202,6 +202,16 @@
       "last_seen": "2026-09-18T10:16:15Z"
     },
     {
+      "app_name": "Claude",
+      "app_version": "2.7032.0",
+      "electron_version": "44.4.3",
+      "chromium_version": "152.0.7977.130",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-23T10:30:24Z",
+      "last_seen": "2026-09-23T10:30:24Z"
+    },
+    {
       "app_name": "Discord",
       "app_version": "0.0.409",
       "electron_version": "42.7.1",
@@ -400,6 +410,16 @@
       "last_seen": "2026-09-15T10:42:33Z"
     },
     {
+      "app_name": "Rocket.Chat",
+      "app_version": "4.17.2",
+      "electron_version": "42.5.0",
+      "chromium_version": "148.0.7778.271",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-23T10:30:24Z",
+      "last_seen": "2026-09-23T10:30:24Z"
+    },
+    {
       "app_name": "Session",
       "app_version": "1.14.3",
       "electron_version": "25.8.4",
@@ -547,6 +567,16 @@
       "source": "inspect-list",
       "first_seen": "2026-09-16T10:31:10Z",
       "last_seen": "2026-09-16T10:31:10Z"
+    },
+    {
+      "app_name": "VS Code",
+      "app_version": "1.139.0",
+      "electron_version": "43.6.0",
+      "chromium_version": "150.0.7871.250",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-23T10:30:24Z",
+      "last_seen": "2026-09-23T10:30:24Z"
     },
     {
       "app_name": "Yakit",

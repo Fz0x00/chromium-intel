@@ -1,34 +1,48 @@
 {
   "generator": "hunter osv-check 0.2.0",
-  "scan_time": "2026-09-22T10:36:36Z",
+  "scan_time": "2026-09-23T10:30:25Z",
   "source": "inspect-results.json",
-  "total_apps": 4,
-  "with_electron_version": 4,
-  "missing_electron_version": 1,
+  "total_apps": 3,
+  "with_electron_version": 3,
+  "missing_electron_version": 0,
   "checked": 3,
   "failed": 0,
-  "with_cves": 0,
-  "total_cves": 0,
-  "severity_counts": {},
+  "with_cves": 1,
+  "total_cves": 1,
+  "severity_counts": {
+    "medium": 1
+  },
   "apps": [
     {
-      "app_name": "Discord",
-      "app_version": "0.0.413",
-      "electron_version": "42.11.4",
+      "app_name": "Rocket.Chat",
+      "app_version": "4.17.2",
+      "electron_version": "42.5.0",
+      "total_cves": 1,
+      "cves": [
+        {
+          "id": "GHSA-r4w5-6pfg-jxp5",
+          "cve": "CVE-2026-70606",
+          "summary": "Electron: ProtocolResponse.url reuses the default session cache instead of the registering session",
+          "severity": "medium",
+          "cvss_score": "5.8",
+          "published": "2026-08-05T16:07:59Z",
+          "fix_versions": [
+            "42.5.1"
+          ]
+        }
+      ]
+    },
+    {
+      "app_name": "Claude",
+      "app_version": "2.7032.0",
+      "electron_version": "44.4.3",
       "total_cves": 0,
       "cves": []
     },
     {
-      "app_name": "SiYuan",
-      "app_version": "3.8.5",
-      "electron_version": "44.4.1",
-      "total_cves": 0,
-      "cves": []
-    },
-    {
-      "app_name": "Slack",
-      "app_version": "4.52.162",
-      "electron_version": "44.3.0",
+      "app_name": "VS Code",
+      "app_version": "1.139.0",
+      "electron_version": "43.6.0",
       "total_cves": 0,
       "cves": []
     }
