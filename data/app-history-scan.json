@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T10:30:30Z",
+  "generated_at": "2026-09-24T10:51:08Z",
   "observations": [
     {
       "app_name": "Balena Etcher",
@@ -300,6 +300,16 @@
       "last_seen": "2026-09-16T10:31:10Z"
     },
     {
+      "app_name": "Insomnia",
+      "app_version": "13.3.0",
+      "electron_version": "43.2.0",
+      "chromium_version": "150.0.7871.129",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-24T10:51:02Z",
+      "last_seen": "2026-09-24T10:51:02Z"
+    },
+    {
       "app_name": "Joplin",
       "app_version": "3.7.16",
       "electron_version": "42.3.0",
@@ -507,6 +517,16 @@
       "source": "inspect-list",
       "first_seen": "2026-08-25T18:01:28Z",
       "last_seen": "2026-08-25T18:01:28Z"
+    },
+    {
+      "app_name": "Tabby",
+      "app_version": "1.0.236",
+      "electron_version": "43.7.0",
+      "chromium_version": "150.0.7871.250",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-24T10:51:02Z",
+      "last_seen": "2026-09-24T10:51:02Z"
     },
     {
       "app_name": "VS Code",

@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-09-23T10:30:30Z",
+  "scan_time": "2026-09-24T10:51:08Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 48,
@@ -174,14 +174,15 @@
     },
     {
       "app_name": "Insomnia",
-      "app_version": "13.1.0",
-      "app_path": "/tmp/hunter-824248925/extracted/Insomnia 13.1.0-universal/Insomnia.app",
+      "app_version": "13.3.0",
+      "app_path": "/tmp/hunter-1655138556/extracted/Insomnia 13.3.0-universal/Insomnia.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
-      "chromium_version": "146.0.7680.80",
+      "chromium_version": "150.0.7871.129",
+      "electron_version": "43.2.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-824248925/extracted/Insomnia 13.1.0-universal/Insomnia.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-1655138556/extracted/Insomnia 13.3.0-universal/Insomnia.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Joplin",
@@ -423,15 +424,15 @@
     },
     {
       "app_name": "Tabby",
-      "app_version": "1.0.235",
-      "app_path": "/tmp/hunter-1280653736/extracted/Tabby.app",
+      "app_version": "1.0.236",
+      "app_path": "/tmp/hunter-1767145894/extracted/Tabby 1.0.236-arm64/Tabby.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
-      "chromium_version": "140.0.7339.249",
-      "electron_version": "38.8.6",
+      "chromium_version": "150.0.7871.250",
+      "electron_version": "43.7.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-1280653736/extracted/Tabby.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-1767145894/extracted/Tabby 1.0.236-arm64/Tabby.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Trae",
