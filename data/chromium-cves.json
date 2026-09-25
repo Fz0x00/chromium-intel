@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T08:27:15.186081Z",
+  "generated_at": "2026-09-25T14:03:21.199952Z",
   "total_cves": 6406,
   "cves": [
     {
@@ -1428,11 +1428,7 @@
       ],
       "bug_id": "539569491",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://issues.chromium.org/issues/539569491"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html"
     },
     {
       "id": "CVE-2026-87632",
@@ -1564,11 +1560,7 @@
       ],
       "bug_id": "532931962",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://issues.chromium.org/issues/532931962"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html"
     },
     {
       "id": "CVE-2026-87625",
@@ -1592,11 +1584,7 @@
       ],
       "bug_id": "523741272",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://issues.chromium.org/issues/523741272"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html"
     },
     {
       "id": "CVE-2026-87431",
@@ -1644,11 +1632,7 @@
       ],
       "bug_id": "521620916",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://issues.chromium.org/issues/521620916"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html"
     },
     {
       "id": "CVE-2026-87644",
@@ -1672,11 +1656,7 @@
       ],
       "bug_id": "520572550",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://issues.chromium.org/issues/520572550"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html"
     },
     {
       "id": "CVE-2026-87616",
@@ -1712,11 +1692,7 @@
       ],
       "bug_id": "520201931",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://issues.chromium.org/issues/520201931"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html"
     },
     {
       "id": "CVE-2026-87494",
@@ -1764,11 +1740,7 @@
       ],
       "bug_id": "518039263",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://issues.chromium.org/issues/518039263"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html"
     },
     {
       "id": "CVE-2026-87589",
@@ -1816,11 +1788,7 @@
       ],
       "bug_id": "517721914",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://issues.chromium.org/issues/517721914"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html"
     },
     {
       "id": "CVE-2026-87622",
@@ -1844,11 +1812,7 @@
       ],
       "bug_id": "517597701",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://issues.chromium.org/issues/517597701"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html"
     },
     {
       "id": "CVE-2026-87450",
@@ -1884,11 +1848,7 @@
       ],
       "bug_id": "517369256",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://issues.chromium.org/issues/517369256"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html"
     },
     {
       "id": "CVE-2026-87600",
@@ -2020,11 +1980,7 @@
       ],
       "bug_id": "514074827",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://issues.chromium.org/issues/514074827"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html"
     },
     {
       "id": "CVE-2026-87567",
@@ -2096,11 +2052,7 @@
       ],
       "bug_id": "514017067",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://issues.chromium.org/issues/514017067"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html"
     },
     {
       "id": "CVE-2026-87472",
@@ -2184,11 +2136,7 @@
       ],
       "bug_id": "513509804",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://issues.chromium.org/issues/513509804"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html"
     },
     {
       "id": "CVE-2026-87548",
@@ -2344,11 +2292,7 @@
       ],
       "bug_id": "511773417",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://issues.chromium.org/issues/511773417"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html"
     },
     {
       "id": "CVE-2026-87479",
@@ -2384,11 +2328,7 @@
       ],
       "bug_id": "507225626",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://issues.chromium.org/issues/507225626"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html"
     },
     {
       "id": "CVE-2026-87476",
@@ -2436,11 +2376,7 @@
       ],
       "bug_id": "504670493",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://issues.chromium.org/issues/504670493"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html"
     },
     {
       "id": "CVE-2026-87482",
@@ -2452,11 +2388,7 @@
       ],
       "bug_id": "503736006",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://issues.chromium.org/issues/503736006"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html"
     },
     {
       "id": "CVE-2026-87580",
@@ -2684,11 +2616,7 @@
       ],
       "bug_id": "497986036",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://issues.chromium.org/issues/497986036"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html"
     },
     {
       "id": "CVE-2026-87457",
@@ -2772,11 +2700,7 @@
       ],
       "bug_id": "497093426",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://issues.chromium.org/issues/497093426"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html"
     },
     {
       "id": "CVE-2026-87465",
@@ -20162,12 +20086,7 @@
       ],
       "bug_id": "473851441",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2026/01/stable-channel-update-for-desktop_20.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://issues.chromium.org/issues/473851441",
-        "https://issues.chromium.org/issues/473851441"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2026/01/stable-channel-update-for-desktop_20.html"
     },
     {
       "id": "CVE-2026-11701",
@@ -39961,12 +39880,7 @@
       ],
       "bug_id": "1486441",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2023/09/stable-channel-update-for-desktop_27.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1486441",
-        "https://crbug.com/1486441"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2023/09/stable-channel-update-for-desktop_27.html"
     },
     {
       "id": "CVE-2023-4909",
@@ -40098,15 +40012,7 @@
       ],
       "bug_id": "1479274",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2023/09/stable-channel-update-for-desktop_11.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://blog.isosceles.com/the-webp-0day/",
-        "https://news.ycombinator.com/item?id=37478403",
-        "https://sethmlarson.dev/security-developer-in-residence-weekly-report-16",
-        "https://stackdiary.com/critical-vulnerability-in-webp-codec-cve-2023-4863/",
-        "https://blog.isosceles.com/the-webp-0day/"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2023/09/stable-channel-update-for-desktop_11.html"
     },
     {
       "id": "CVE-2023-4764",
@@ -40178,14 +40084,7 @@
       ],
       "bug_id": "960109",
       "gerrit_url": null,
-      "blog_url": null,
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://bugs.chromium.org/p/chromium/issues/detail?id=960109",
-        "https://crbug.com/960109",
-        "https://bugs.chromium.org/p/chromium/issues/detail?id=960109",
-        "https://crbug.com/960109"
-      ]
+      "blog_url": null
     },
     {
       "id": "CVE-2019-13690",
@@ -40197,14 +40096,7 @@
       ],
       "bug_id": "960111",
       "gerrit_url": null,
-      "blog_url": null,
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://bugs.chromium.org/p/chromium/issues/detail?id=960111",
-        "https://crbug.com/960111",
-        "https://bugs.chromium.org/p/chromium/issues/detail?id=960111",
-        "https://crbug.com/960111"
-      ]
+      "blog_url": null
     },
     {
       "id": "CVE-2022-4452",
@@ -40552,12 +40444,7 @@
       ],
       "bug_id": "1349146",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/11/stable-channel-update-for-desktop_29.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1349146",
-        "https://crbug.com/1349146"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/11/stable-channel-update-for-desktop_29.html"
     },
     {
       "id": "CVE-2023-4078",
@@ -40701,12 +40588,7 @@
       ],
       "bug_id": "1405223",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2023/07/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1405223",
-        "https://crbug.com/1405223"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2023/07/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2023-3739",
@@ -40718,12 +40600,7 @@
       ],
       "bug_id": "1398986",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2023/07/stable-channel-update-for-chromeos.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1398986",
-        "https://crbug.com/1398986"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2023/07/stable-channel-update-for-chromeos.html"
     },
     {
       "id": "CVE-2023-3738",
@@ -42811,12 +42688,7 @@
       ],
       "bug_id": "922677",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2019/01/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/922677",
-        "https://crbug.com/922677"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2019/01/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-30558",
@@ -42828,12 +42700,7 @@
       ],
       "bug_id": "916326",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/916326",
-        "https://crbug.com/916326"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html"
     },
     {
       "id": "CVE-2021-21200",
@@ -42845,12 +42712,7 @@
       ],
       "bug_id": "1164816",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1164816",
-        "https://crbug.com/1164816"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2022-2742",
@@ -42862,12 +42724,7 @@
       ],
       "bug_id": "1319172",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/08/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1319172",
-        "https://crbug.com/1319172"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/08/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2022-2743",
@@ -42879,12 +42736,7 @@
       ],
       "bug_id": "1316960",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/08/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1316960",
-        "https://crbug.com/1316960"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/08/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2022-0801",
@@ -42908,12 +42760,7 @@
       ],
       "bug_id": "1247389",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1247389",
-        "https://crbug.com/1247389"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2022-3842",
@@ -42925,12 +42772,7 @@
       ],
       "bug_id": "1352445",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/09/stable-channel-update-for-desktop_14.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1352445",
-        "https://crbug.com/1352445"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/09/stable-channel-update-for-desktop_14.html"
     },
     {
       "id": "CVE-2022-3863",
@@ -42954,12 +42796,7 @@
       ],
       "bug_id": "1260250",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/02/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1260250",
-        "https://crbug.com/1260250"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/02/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2022-4438",
@@ -45585,12 +45422,7 @@
       ],
       "bug_id": "1315901",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/04/stable-channel-update-for-desktop_14.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1315901",
-        "https://crbug.com/1315901"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/04/stable-channel-update-for-desktop_14.html"
     },
     {
       "id": "CVE-2022-1313",
@@ -45602,12 +45434,7 @@
       ],
       "bug_id": "1270539",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/04/stable-channel-update-for-desktop_11.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1270539",
-        "https://crbug.com/1270539"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/04/stable-channel-update-for-desktop_11.html"
     },
     {
       "id": "CVE-2022-1312",
@@ -45619,12 +45446,7 @@
       ],
       "bug_id": "1311701",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/04/stable-channel-update-for-desktop_11.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1311701",
-        "https://crbug.com/1311701"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/04/stable-channel-update-for-desktop_11.html"
     },
     {
       "id": "CVE-2022-1311",
@@ -45636,12 +45458,7 @@
       ],
       "bug_id": "1310717",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/04/stable-channel-update-for-desktop_11.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1310717",
-        "https://crbug.com/1310717"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/04/stable-channel-update-for-desktop_11.html"
     },
     {
       "id": "CVE-2022-1310",
@@ -45653,12 +45470,7 @@
       ],
       "bug_id": "1307610",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/04/stable-channel-update-for-desktop_11.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1307610",
-        "https://crbug.com/1307610"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/04/stable-channel-update-for-desktop_11.html"
     },
     {
       "id": "CVE-2022-1309",
@@ -45670,12 +45482,7 @@
       ],
       "bug_id": "1106456",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/04/stable-channel-update-for-desktop_11.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1106456",
-        "https://crbug.com/1106456"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/04/stable-channel-update-for-desktop_11.html"
     },
     {
       "id": "CVE-2022-1308",
@@ -45687,12 +45494,7 @@
       ],
       "bug_id": "1283050",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/04/stable-channel-update-for-desktop_11.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1283050",
-        "https://crbug.com/1283050"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/04/stable-channel-update-for-desktop_11.html"
     },
     {
       "id": "CVE-2022-1307",
@@ -45704,12 +45506,7 @@
       ],
       "bug_id": "1301873",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/04/stable-channel-update-for-desktop_11.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1301873",
-        "https://crbug.com/1301873"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/04/stable-channel-update-for-desktop_11.html"
     },
     {
       "id": "CVE-2022-1306",
@@ -45721,12 +45518,7 @@
       ],
       "bug_id": "1299287",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/04/stable-channel-update-for-desktop_11.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1299287",
-        "https://crbug.com/1299287"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/04/stable-channel-update-for-desktop_11.html"
     },
     {
       "id": "CVE-2022-1305",
@@ -45738,12 +45530,7 @@
       ],
       "bug_id": "1285234",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/04/stable-channel-update-for-desktop_11.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1285234",
-        "https://crbug.com/1285234"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/04/stable-channel-update-for-desktop_11.html"
     },
     {
       "id": "CVE-2022-1232",
@@ -45755,12 +45542,7 @@
       ],
       "bug_id": "1311641",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/04/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1311641",
-        "https://crbug.com/1311641"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/04/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2022-1314",
@@ -45772,12 +45554,7 @@
       ],
       "bug_id": "1304658",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/04/stable-channel-update-for-desktop_11.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1304658",
-        "https://crbug.com/1304658"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/04/stable-channel-update-for-desktop_11.html"
     },
     {
       "id": "CVE-2022-1146",
@@ -45789,12 +45566,7 @@
       ],
       "bug_id": "1290150",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1290150",
-        "https://crbug.com/1290150"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html"
     },
     {
       "id": "CVE-2022-1145",
@@ -45806,12 +45578,7 @@
       ],
       "bug_id": "1304545",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1304545",
-        "https://crbug.com/1304545"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html"
     },
     {
       "id": "CVE-2022-1144",
@@ -45859,12 +45626,7 @@
       ],
       "bug_id": "1303253",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1303253",
-        "https://crbug.com/1303253"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html"
     },
     {
       "id": "CVE-2022-1139",
@@ -45876,12 +45638,7 @@
       ],
       "bug_id": "1268541",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1268541",
-        "https://crbug.com/1268541"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html"
     },
     {
       "id": "CVE-2022-1138",
@@ -45893,12 +45650,7 @@
       ],
       "bug_id": "1246188",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1246188",
-        "https://crbug.com/1246188"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html"
     },
     {
       "id": "CVE-2022-1137",
@@ -45910,12 +45662,7 @@
       ],
       "bug_id": "1289846",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1289846",
-        "https://crbug.com/1289846"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html"
     },
     {
       "id": "CVE-2022-1136",
@@ -45927,12 +45674,7 @@
       ],
       "bug_id": "1280205",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1280205",
-        "https://crbug.com/1280205"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html"
     },
     {
       "id": "CVE-2022-1135",
@@ -45944,12 +45686,7 @@
       ],
       "bug_id": "1285601",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1285601",
-        "https://crbug.com/1285601"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html"
     },
     {
       "id": "CVE-2022-1133",
@@ -45961,12 +45698,7 @@
       ],
       "bug_id": "1305776",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1305776",
-        "https://crbug.com/1305776"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html"
     },
     {
       "id": "CVE-2022-1132",
@@ -45978,12 +45710,7 @@
       ],
       "bug_id": "1303410",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1303410",
-        "https://crbug.com/1303410"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html"
     },
     {
       "id": "CVE-2022-1131",
@@ -45995,12 +45722,7 @@
       ],
       "bug_id": "1297404",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1297404",
-        "https://crbug.com/1297404"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html"
     },
     {
       "id": "CVE-2022-1130",
@@ -46012,12 +45734,7 @@
       ],
       "bug_id": "1142269",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1142269",
-        "https://crbug.com/1142269"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html"
     },
     {
       "id": "CVE-2022-1129",
@@ -46029,12 +45746,7 @@
       ],
       "bug_id": "1300253",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1300253",
-        "https://crbug.com/1300253"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html"
     },
     {
       "id": "CVE-2022-1128",
@@ -46046,12 +45758,7 @@
       ],
       "bug_id": "1301920",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1301920",
-        "https://crbug.com/1301920"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html"
     },
     {
       "id": "CVE-2022-1127",
@@ -46063,12 +45770,7 @@
       ],
       "bug_id": "1291891",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1291891",
-        "https://crbug.com/1291891"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html"
     },
     {
       "id": "CVE-2022-1125",
@@ -46080,12 +45782,7 @@
       ],
       "bug_id": "1292261",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1292261",
-        "https://crbug.com/1292261"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html"
     },
     {
       "id": "CVE-2022-1096",
@@ -46109,12 +45806,7 @@
       ],
       "bug_id": "1308360",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1308360",
-        "https://crbug.com/1308360"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html"
     },
     {
       "id": "CVE-2022-0980",
@@ -46126,12 +45818,7 @@
       ],
       "bug_id": "1302157",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_15.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1302157",
-        "https://crbug.com/1302157"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_15.html"
     },
     {
       "id": "CVE-2022-0979",
@@ -46143,12 +45830,7 @@
       ],
       "bug_id": "1302644",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_15.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1302644",
-        "https://crbug.com/1302644"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_15.html"
     },
     {
       "id": "CVE-2022-0978",
@@ -46160,12 +45842,7 @@
       ],
       "bug_id": "1299264",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_15.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1299264",
-        "https://crbug.com/1299264"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_15.html"
     },
     {
       "id": "CVE-2022-0977",
@@ -46177,12 +45854,7 @@
       ],
       "bug_id": "1299225",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_15.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1299225",
-        "https://crbug.com/1299225"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_15.html"
     },
     {
       "id": "CVE-2022-0976",
@@ -46194,12 +45866,7 @@
       ],
       "bug_id": "1296866",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_15.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1296866",
-        "https://crbug.com/1296866"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_15.html"
     },
     {
       "id": "CVE-2022-0975",
@@ -46211,12 +45878,7 @@
       ],
       "bug_id": "1295411",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_15.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1295411",
-        "https://crbug.com/1295411"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_15.html"
     },
     {
       "id": "CVE-2022-0974",
@@ -46228,12 +45890,7 @@
       ],
       "bug_id": "1291986",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_15.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1291986",
-        "https://crbug.com/1291986"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_15.html"
     },
     {
       "id": "CVE-2022-0973",
@@ -46245,12 +45902,7 @@
       ],
       "bug_id": "1297498",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_15.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1297498",
-        "https://crbug.com/1297498"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_15.html"
     },
     {
       "id": "CVE-2022-0972",
@@ -46262,12 +45914,7 @@
       ],
       "bug_id": "1301320",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_15.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1301320",
-        "https://crbug.com/1301320"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_15.html"
     },
     {
       "id": "CVE-2022-0971",
@@ -46279,12 +45926,7 @@
       ],
       "bug_id": "1299422",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_15.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1299422",
-        "https://crbug.com/1299422"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_15.html"
     },
     {
       "id": "CVE-2022-0470",
@@ -46296,12 +45938,7 @@
       ],
       "bug_id": "1269225",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/02/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1269225",
-        "https://crbug.com/1269225"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/02/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2022-0469",
@@ -46337,12 +45974,7 @@
       ],
       "bug_id": "1239496",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/02/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1239496",
-        "https://crbug.com/1239496"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/02/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2022-0466",
@@ -46714,12 +46346,7 @@
       ],
       "bug_id": "1291728",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1291728",
-        "https://crbug.com/1291728"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2022-0792",
@@ -46767,12 +46394,7 @@
       ],
       "bug_id": "1289383",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1289383",
-        "https://crbug.com/1289383"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2022-0610",
@@ -47132,12 +46754,7 @@
       ],
       "bug_id": "1262953",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1262953",
-        "https://crbug.com/1262953"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2022-0118",
@@ -47149,12 +46766,7 @@
       ],
       "bug_id": "1238631",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1238631",
-        "https://crbug.com/1238631"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2022-0117",
@@ -47166,12 +46778,7 @@
       ],
       "bug_id": "1115847",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1115847",
-        "https://crbug.com/1115847"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2022-0116",
@@ -47183,12 +46790,7 @@
       ],
       "bug_id": "1272250",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1272250",
-        "https://crbug.com/1272250"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2022-0115",
@@ -47200,12 +46802,7 @@
       ],
       "bug_id": "1268903",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1268903",
-        "https://crbug.com/1268903"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2022-0114",
@@ -47217,12 +46814,7 @@
       ],
       "bug_id": "1267627",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1267627",
-        "https://crbug.com/1267627"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2022-0113",
@@ -47234,12 +46826,7 @@
       ],
       "bug_id": "1039885",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1039885",
-        "https://crbug.com/1039885"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2022-0112",
@@ -47251,12 +46838,7 @@
       ],
       "bug_id": "1255713",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1255713",
-        "https://crbug.com/1255713"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2022-0111",
@@ -47268,12 +46850,7 @@
       ],
       "bug_id": "1241188",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1241188",
-        "https://crbug.com/1241188"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2022-0110",
@@ -47285,12 +46862,7 @@
       ],
       "bug_id": "1237310",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1237310",
-        "https://crbug.com/1237310"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2022-0109",
@@ -47302,12 +46874,7 @@
       ],
       "bug_id": "1261689",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1261689",
-        "https://crbug.com/1261689"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2022-0107",
@@ -47319,12 +46886,7 @@
       ],
       "bug_id": "1248438",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1248438",
-        "https://crbug.com/1248438"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2022-0106",
@@ -47336,12 +46898,7 @@
       ],
       "bug_id": "1278960",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1278960",
-        "https://crbug.com/1278960"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2022-0105",
@@ -47353,12 +46910,7 @@
       ],
       "bug_id": "1274376",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1274376",
-        "https://crbug.com/1274376"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2022-0104",
@@ -47406,12 +46958,7 @@
       ],
       "bug_id": "1249426",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1249426",
-        "https://crbug.com/1249426"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2022-0100",
@@ -47423,12 +46970,7 @@
       ],
       "bug_id": "1238209",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1238209",
-        "https://crbug.com/1238209"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2022-0099",
@@ -47452,12 +46994,7 @@
       ],
       "bug_id": "1273609",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1273609",
-        "https://crbug.com/1273609"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2022-0097",
@@ -47481,12 +47018,7 @@
       ],
       "bug_id": "1275020",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1275020",
-        "https://crbug.com/1275020"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-4102",
@@ -47558,12 +47090,7 @@
       ],
       "bug_id": "1248444",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1248444",
-        "https://crbug.com/1248444"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-4079",
@@ -47899,12 +47426,7 @@
       ],
       "bug_id": "1242392",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/11/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1242392",
-        "https://crbug.com/1242392"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/11/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-38012",
@@ -47964,12 +47486,7 @@
       ],
       "bug_id": "1263620",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/11/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://www.talosintelligence.com/vulnerability_reports/TALOS-2021-1398",
-        "https://www.talosintelligence.com/vulnerability_reports/TALOS-2021-1398"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/11/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-38007",
@@ -48029,12 +47546,7 @@
       ],
       "bug_id": "1263462",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/10/stable-channel-update-for-desktop_28.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1263462",
-        "https://crbug.com/1263462"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/10/stable-channel-update-for-desktop_28.html"
     },
     {
       "id": "CVE-2021-38002",
@@ -48070,12 +47582,7 @@
       ],
       "bug_id": "1249962",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/10/stable-channel-update-for-desktop_28.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1249962",
-        "https://crbug.com/1249962"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/10/stable-channel-update-for-desktop_28.html"
     },
     {
       "id": "CVE-2021-37999",
@@ -48087,12 +47594,7 @@
       ],
       "bug_id": "1251541",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/10/stable-channel-update-for-desktop_28.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1251541",
-        "https://crbug.com/1251541"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/10/stable-channel-update-for-desktop_28.html"
     },
     {
       "id": "CVE-2021-37998",
@@ -48138,12 +47640,7 @@
       ],
       "bug_id": "1078375",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2020/06/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1078375",
-        "https://crbug.com/1078375"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2020/06/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2018-6125",
@@ -48463,12 +47960,7 @@
       ],
       "bug_id": "1247260",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/10/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://www.talosintelligence.com/vulnerability_reports/TALOS-2021-1372",
-        "https://www.talosintelligence.com/vulnerability_reports/TALOS-2021-1372"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/10/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-37978",
@@ -48504,12 +47996,7 @@
       ],
       "bug_id": "1251787",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/09/stable-channel-update-for-desktop_30.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1251787",
-        "https://crbug.com/1251787"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/09/stable-channel-update-for-desktop_30.html"
     },
     {
       "id": "CVE-2021-37974",
@@ -48545,12 +48032,7 @@
       ],
       "bug_id": "1234259",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/09/stable-channel-update-for-desktop_21.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1234259",
-        "https://crbug.com/1234259"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/09/stable-channel-update-for-desktop_21.html"
     },
     {
       "id": "CVE-2021-37971",
@@ -48562,12 +48044,7 @@
       ],
       "bug_id": "1219354",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/09/stable-channel-update-for-desktop_21.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1219354",
-        "https://crbug.com/1219354"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/09/stable-channel-update-for-desktop_21.html"
     },
     {
       "id": "CVE-2021-37970",
@@ -48579,12 +48056,7 @@
       ],
       "bug_id": "1248030",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/09/stable-channel-update-for-desktop_21.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1248030",
-        "https://crbug.com/1248030"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/09/stable-channel-update-for-desktop_21.html"
     },
     {
       "id": "CVE-2021-37969",
@@ -48824,12 +48296,7 @@
       ],
       "bug_id": "1237533",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/09/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://www.talosintelligence.com/vulnerability_reports/TALOS-2021-1352",
-        "https://www.talosintelligence.com/vulnerability_reports/TALOS-2021-1352"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/09/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-37975",
@@ -49105,12 +48572,7 @@
       ],
       "bug_id": "1234829",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/08/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1234829",
-        "https://crbug.com/1234829"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/08/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-30603",
@@ -49122,12 +48584,7 @@
       ],
       "bug_id": "1233564",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/08/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1233564",
-        "https://crbug.com/1233564"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/08/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-30602",
@@ -49139,14 +48596,7 @@
       ],
       "bug_id": "1230767",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/08/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1230767",
-        "https://www.talosintelligence.com/vulnerability_reports/TALOS-2021-1348",
-        "https://crbug.com/1230767",
-        "https://www.talosintelligence.com/vulnerability_reports/TALOS-2021-1348"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/08/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-30601",
@@ -49158,12 +48608,7 @@
       ],
       "bug_id": "1234009",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/08/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1234009",
-        "https://crbug.com/1234009"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/08/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-30600",
@@ -49175,12 +48620,7 @@
       ],
       "bug_id": "1231134",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/08/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1231134",
-        "https://crbug.com/1231134"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/08/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-30599",
@@ -49204,12 +48644,7 @@
       ],
       "bug_id": "1234764",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/08/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1234764",
-        "https://crbug.com/1234764"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/08/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-30597",
@@ -49221,12 +48656,7 @@
       ],
       "bug_id": "1232617",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/08/the-stable-channel-has-been-updated-to.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1232617",
-        "https://crbug.com/1232617"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/08/the-stable-channel-has-been-updated-to.html"
     },
     {
       "id": "CVE-2021-30596",
@@ -49238,12 +48668,7 @@
       ],
       "bug_id": "1214481",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/08/the-stable-channel-has-been-updated-to.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1214481",
-        "https://crbug.com/1214481"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/08/the-stable-channel-has-been-updated-to.html"
     },
     {
       "id": "CVE-2021-30594",
@@ -49255,12 +48680,7 @@
       ],
       "bug_id": "1218468",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/08/the-stable-channel-has-been-updated-to.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1218468",
-        "https://crbug.com/1218468"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/08/the-stable-channel-has-been-updated-to.html"
     },
     {
       "id": "CVE-2021-30593",
@@ -49272,12 +48692,7 @@
       ],
       "bug_id": "1209616",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/08/the-stable-channel-has-been-updated-to.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1209616",
-        "https://crbug.com/1209616"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/08/the-stable-channel-has-been-updated-to.html"
     },
     {
       "id": "CVE-2021-30592",
@@ -49289,12 +48704,7 @@
       ],
       "bug_id": "1209469",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/08/the-stable-channel-has-been-updated-to.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1209469",
-        "https://crbug.com/1209469"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/08/the-stable-channel-has-been-updated-to.html"
     },
     {
       "id": "CVE-2021-30591",
@@ -49306,12 +48716,7 @@
       ],
       "bug_id": "1229298",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/08/the-stable-channel-has-been-updated-to.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1229298",
-        "https://crbug.com/1229298"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/08/the-stable-channel-has-been-updated-to.html"
     },
     {
       "id": "CVE-2021-30590",
@@ -49323,12 +48728,7 @@
       ],
       "bug_id": "1227777",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/08/the-stable-channel-has-been-updated-to.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1227777",
-        "https://crbug.com/1227777"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/08/the-stable-channel-has-been-updated-to.html"
     },
     {
       "id": "CVE-2021-30589",
@@ -49352,12 +48752,7 @@
       ],
       "bug_id": "1195650",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1195650",
-        "https://crbug.com/1195650"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html"
     },
     {
       "id": "CVE-2021-30587",
@@ -49369,12 +48764,7 @@
       ],
       "bug_id": "1204347",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1204347",
-        "https://crbug.com/1204347"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html"
     },
     {
       "id": "CVE-2021-30586",
@@ -49410,12 +48800,7 @@
       ],
       "bug_id": "1213350",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1213350",
-        "https://crbug.com/1213350"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html"
     },
     {
       "id": "CVE-2021-30583",
@@ -49439,12 +48824,7 @@
       ],
       "bug_id": "1205981",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1205981",
-        "https://crbug.com/1205981"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html"
     },
     {
       "id": "CVE-2021-30581",
@@ -49456,12 +48836,7 @@
       ],
       "bug_id": "1194431",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1194431",
-        "https://crbug.com/1194431"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html"
     },
     {
       "id": "CVE-2021-30580",
@@ -49485,12 +48860,7 @@
       ],
       "bug_id": "1207277",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1207277",
-        "https://crbug.com/1207277"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html"
     },
     {
       "id": "CVE-2021-30578",
@@ -49502,12 +48872,7 @@
       ],
       "bug_id": "1201074",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1201074",
-        "https://crbug.com/1201074"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html"
     },
     {
       "id": "CVE-2021-30577",
@@ -49519,12 +48884,7 @@
       ],
       "bug_id": "1204811",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1204811",
-        "https://crbug.com/1204811"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html"
     },
     {
       "id": "CVE-2021-30576",
@@ -49536,12 +48896,7 @@
       ],
       "bug_id": "1194896",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1194896",
-        "https://crbug.com/1194896"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html"
     },
     {
       "id": "CVE-2021-30575",
@@ -49553,12 +48908,7 @@
       ],
       "bug_id": "1213313",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1213313",
-        "https://crbug.com/1213313"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html"
     },
     {
       "id": "CVE-2021-30574",
@@ -49570,12 +48920,7 @@
       ],
       "bug_id": "1227315",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1227315",
-        "https://crbug.com/1227315"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html"
     },
     {
       "id": "CVE-2021-30573",
@@ -49587,12 +48932,7 @@
       ],
       "bug_id": "1216822",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1216822",
-        "https://crbug.com/1216822"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html"
     },
     {
       "id": "CVE-2021-30572",
@@ -49604,12 +48944,7 @@
       ],
       "bug_id": "1214234",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1214234",
-        "https://crbug.com/1214234"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html"
     },
     {
       "id": "CVE-2021-30571",
@@ -49621,12 +48956,7 @@
       ],
       "bug_id": "1101897",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1101897",
-        "https://crbug.com/1101897"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html"
     },
     {
       "id": "CVE-2021-30569",
@@ -49662,12 +48992,7 @@
       ],
       "bug_id": "1211326",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1211326",
-        "https://crbug.com/1211326"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html"
     },
     {
       "id": "CVE-2021-30566",
@@ -49679,12 +49004,7 @@
       ],
       "bug_id": "1202661",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1202661",
-        "https://crbug.com/1202661"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html"
     },
     {
       "id": "CVE-2021-30565",
@@ -49696,12 +49016,7 @@
       ],
       "bug_id": "1210985",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1210985",
-        "https://crbug.com/1210985"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html"
     },
     {
       "id": "CVE-2021-30564",
@@ -49749,12 +49064,7 @@
       ],
       "bug_id": "1219630",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "http://packetstormsecurity.com/files/163835/Chrome-JS-WasmJs-InstallConditionalFeatures-Object-Corruption.html",
-        "http://packetstormsecurity.com/files/163835/Chrome-JS-WasmJs-InstallConditionalFeatures-Object-Corruption.html"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-30559",
@@ -49874,12 +49184,7 @@
       ],
       "bug_id": "1216437",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/06/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1216437",
-        "https://crbug.com/1216437"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/06/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-30550",
@@ -49975,12 +49280,7 @@
       ],
       "bug_id": "1203607",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1203607",
-        "https://crbug.com/1203607"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html"
     },
     {
       "id": "CVE-2021-30542",
@@ -49992,12 +49292,7 @@
       ],
       "bug_id": "1184954",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1184954",
-        "https://crbug.com/1184954"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html"
     },
     {
       "id": "CVE-2021-30540",
@@ -50009,12 +49304,7 @@
       ],
       "bug_id": "1184147",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1184147",
-        "https://crbug.com/1184147"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html"
     },
     {
       "id": "CVE-2021-30539",
@@ -50026,12 +49316,7 @@
       ],
       "bug_id": "971231",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/971231",
-        "https://crbug.com/971231"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html"
     },
     {
       "id": "CVE-2021-30538",
@@ -50043,12 +49328,7 @@
       ],
       "bug_id": "1115045",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1115045",
-        "https://crbug.com/1115045"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html"
     },
     {
       "id": "CVE-2021-30537",
@@ -50060,12 +49340,7 @@
       ],
       "bug_id": "830101",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/830101",
-        "https://crbug.com/830101"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html"
     },
     {
       "id": "CVE-2021-30535",
@@ -50077,12 +49352,7 @@
       ],
       "bug_id": "1194899",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1194899",
-        "https://crbug.com/1194899"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html"
     },
     {
       "id": "CVE-2021-30536",
@@ -50094,12 +49364,7 @@
       ],
       "bug_id": "1194358",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1194358",
-        "https://crbug.com/1194358"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html"
     },
     {
       "id": "CVE-2021-30533",
@@ -50111,12 +49376,7 @@
       ],
       "bug_id": "1145553",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1145553",
-        "https://crbug.com/1145553"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html"
     },
     {
       "id": "CVE-2021-30534",
@@ -50128,12 +49388,7 @@
       ],
       "bug_id": "1151507",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1151507",
-        "https://crbug.com/1151507"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html"
     },
     {
       "id": "CVE-2021-30532",
@@ -50145,12 +49400,7 @@
       ],
       "bug_id": "1117687",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1117687",
-        "https://crbug.com/1117687"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html"
     },
     {
       "id": "CVE-2021-30531",
@@ -50162,12 +49412,7 @@
       ],
       "bug_id": "1115628",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1115628",
-        "https://crbug.com/1115628"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html"
     },
     {
       "id": "CVE-2021-30530",
@@ -50179,12 +49424,7 @@
       ],
       "bug_id": "1201033",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1201033",
-        "https://crbug.com/1201033"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html"
     },
     {
       "id": "CVE-2021-30529",
@@ -50196,12 +49436,7 @@
       ],
       "bug_id": "1195278",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1195278",
-        "https://crbug.com/1195278"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html"
     },
     {
       "id": "CVE-2021-30527",
@@ -50213,12 +49448,7 @@
       ],
       "bug_id": "1199198",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1199198",
-        "https://crbug.com/1199198"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html"
     },
     {
       "id": "CVE-2021-30526",
@@ -50230,12 +49460,7 @@
       ],
       "bug_id": "1198717",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1198717",
-        "https://crbug.com/1198717"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html"
     },
     {
       "id": "CVE-2021-30525",
@@ -50259,12 +49484,7 @@
       ],
       "bug_id": "1197146",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1197146",
-        "https://crbug.com/1197146"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html"
     },
     {
       "id": "CVE-2021-30523",
@@ -50276,12 +49496,7 @@
       ],
       "bug_id": "1187797",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1187797",
-        "https://crbug.com/1187797"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html"
     },
     {
       "id": "CVE-2021-30522",
@@ -50293,12 +49508,7 @@
       ],
       "bug_id": "1176218",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1176218",
-        "https://crbug.com/1176218"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html"
     },
     {
       "id": "CVE-2021-30521",
@@ -50310,12 +49520,7 @@
       ],
       "bug_id": "1208721",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1208721",
-        "https://crbug.com/1208721"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html"
     },
     {
       "id": "CVE-2021-30528",
@@ -50327,12 +49532,7 @@
       ],
       "bug_id": "1206329",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1206329",
-        "https://crbug.com/1206329"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html"
     },
     {
       "id": "CVE-2021-30520",
@@ -50344,12 +49544,7 @@
       ],
       "bug_id": "1193362",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1193362",
-        "https://crbug.com/1193362"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-30519",
@@ -50361,12 +49556,7 @@
       ],
       "bug_id": "1194058",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1194058",
-        "https://crbug.com/1194058"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-30518",
@@ -50378,12 +49568,7 @@
       ],
       "bug_id": "1203590",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1203590",
-        "https://crbug.com/1203590"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-30517",
@@ -50395,12 +49580,7 @@
       ],
       "bug_id": "1203122",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1203122",
-        "https://crbug.com/1203122"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-30516",
@@ -50412,12 +49592,7 @@
       ],
       "bug_id": "1201446",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1201446",
-        "https://crbug.com/1201446"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-30514",
@@ -50429,12 +49604,7 @@
       ],
       "bug_id": "1200766",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1200766",
-        "https://crbug.com/1200766"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-30515",
@@ -50446,12 +49616,7 @@
       ],
       "bug_id": "1201073",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1201073",
-        "https://crbug.com/1201073"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-30513",
@@ -50463,12 +49628,7 @@
       ],
       "bug_id": "1200490",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1200490",
-        "https://crbug.com/1200490"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-30511",
@@ -50480,12 +49640,7 @@
       ],
       "bug_id": "1197875",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1197875",
-        "https://crbug.com/1197875"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-30512",
@@ -50497,12 +49652,7 @@
       ],
       "bug_id": "1200019",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1200019",
-        "https://crbug.com/1200019"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-30510",
@@ -50514,12 +49664,7 @@
       ],
       "bug_id": "1197436",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1197436",
-        "https://crbug.com/1197436"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-30509",
@@ -50531,12 +49676,7 @@
       ],
       "bug_id": "1196309",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1196309",
-        "https://crbug.com/1196309"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-30508",
@@ -50548,12 +49688,7 @@
       ],
       "bug_id": "1195340",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1195340",
-        "https://crbug.com/1195340"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-30507",
@@ -50565,12 +49700,7 @@
       ],
       "bug_id": "1178202",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1178202",
-        "https://crbug.com/1178202"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-30506",
@@ -50702,12 +49832,7 @@
       ],
       "bug_id": "1195777",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/04/stable-channel-update-for-desktop_20.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1195777",
-        "https://crbug.com/1195777"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/04/stable-channel-update-for-desktop_20.html"
     },
     {
       "id": "CVE-2021-21223",
@@ -50983,14 +50108,7 @@
       ],
       "bug_id": "1196683",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/04/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "http://packetstormsecurity.com/files/162437/Google-Chrome-XOR-Typer-Out-Of-Bounds-Access-Remote-Code-Execution.html",
-        "https://crbug.com/1196683",
-        "http://packetstormsecurity.com/files/162437/Google-Chrome-XOR-Typer-Out-Of-Bounds-Access-Remote-Code-Execution.html",
-        "https://crbug.com/1196683"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/04/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-21199",
@@ -51074,12 +50192,7 @@
       ],
       "bug_id": "1181387",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop_12.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1181387",
-        "https://crbug.com/1181387"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop_12.html"
     },
     {
       "id": "CVE-2021-21193",
@@ -51103,12 +50216,7 @@
       ],
       "bug_id": "1167357",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop_12.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1167357",
-        "https://crbug.com/1167357"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop_12.html"
     },
     {
       "id": "CVE-2021-21190",
@@ -51120,12 +50228,7 @@
       ],
       "bug_id": "1166091",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1166091",
-        "https://crbug.com/1166091"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-21188",
@@ -51137,12 +50240,7 @@
       ],
       "bug_id": "1161739",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1161739",
-        "https://crbug.com/1161739"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-21189",
@@ -51190,12 +50288,7 @@
       ],
       "bug_id": "1100748",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1100748",
-        "https://crbug.com/1100748"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-21184",
@@ -51207,12 +50300,7 @@
       ],
       "bug_id": "1131929",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1131929",
-        "https://crbug.com/1131929"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-21183",
@@ -51224,12 +50312,7 @@
       ],
       "bug_id": "1105875",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1105875",
-        "https://crbug.com/1105875"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-21181",
@@ -51253,12 +50336,7 @@
       ],
       "bug_id": "1049265",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1049265",
-        "https://crbug.com/1049265"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-21180",
@@ -51270,12 +50348,7 @@
       ],
       "bug_id": "1175507",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1175507",
-        "https://crbug.com/1175507"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-21178",
@@ -51299,12 +50372,7 @@
       ],
       "bug_id": "1174943",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1174943",
-        "https://crbug.com/1174943"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-21177",
@@ -51316,12 +50384,7 @@
       ],
       "bug_id": "1173879",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1173879",
-        "https://crbug.com/1173879"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-21175",
@@ -51333,12 +50396,7 @@
       ],
       "bug_id": "1146651",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1146651",
-        "https://crbug.com/1146651"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-21176",
@@ -51350,12 +50408,7 @@
       ],
       "bug_id": "1170584",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1170584",
-        "https://crbug.com/1170584"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-21174",
@@ -51367,12 +50420,7 @@
       ],
       "bug_id": "1158010",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1158010",
-        "https://crbug.com/1158010"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-21173",
@@ -51396,12 +50444,7 @@
       ],
       "bug_id": "1150810",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1150810",
-        "https://crbug.com/1150810"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-21171",
@@ -51413,12 +50456,7 @@
       ],
       "bug_id": "1152894",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1152894",
-        "https://crbug.com/1152894"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-21170",
@@ -51430,12 +50468,7 @@
       ],
       "bug_id": "1111646",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1111646",
-        "https://crbug.com/1111646"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-21168",
@@ -51447,12 +50480,7 @@
       ],
       "bug_id": "1152226",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1152226",
-        "https://crbug.com/1152226"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-21169",
@@ -51464,12 +50492,7 @@
       ],
       "bug_id": "1166138",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1166138",
-        "https://crbug.com/1166138"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-21167",
@@ -51481,12 +50504,7 @@
       ],
       "bug_id": "1161144",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1161144",
-        "https://crbug.com/1161144"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-21165",
@@ -51498,12 +50516,7 @@
       ],
       "bug_id": "1174582",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1174582",
-        "https://crbug.com/1174582"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2021-21166",
@@ -52763,12 +51776,7 @@
       ],
       "bug_id": "1134960",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2020/10/stable-channel-update-for-desktop_20.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1134960",
-        "https://crbug.com/1134960"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2020/10/stable-channel-update-for-desktop_20.html"
     },
     {
       "id": "CVE-2020-16002",
@@ -52780,12 +51788,7 @@
       ],
       "bug_id": "1137630",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2020/10/stable-channel-update-for-desktop_20.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1137630",
-        "https://crbug.com/1137630"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2020/10/stable-channel-update-for-desktop_20.html"
     },
     {
       "id": "CVE-2020-16000",
@@ -52809,12 +51812,7 @@
       ],
       "bug_id": "1135018",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2020/10/stable-channel-update-for-desktop_20.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1135018",
-        "https://crbug.com/1135018"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2020/10/stable-channel-update-for-desktop_20.html"
     },
     {
       "id": "CVE-2020-15998",
@@ -52898,12 +51896,7 @@
       ],
       "bug_id": "1110195",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2020/10/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1110195",
-        "https://crbug.com/1110195"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2020/10/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2020-15991",
@@ -52975,12 +51968,7 @@
       ],
       "bug_id": "1099276",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2020/10/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1099276",
-        "https://crbug.com/1099276"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2020/10/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2020-15986",
@@ -53064,12 +52052,7 @@
       ],
       "bug_id": "1127319",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2020/10/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1127319",
-        "https://crbug.com/1127319"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2020/10/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2020-15978",
@@ -53081,12 +52064,7 @@
       ],
       "bug_id": "1116280",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2020/10/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1116280",
-        "https://crbug.com/1116280"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2020/10/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2020-15976",
@@ -53218,14 +52196,7 @@
       ],
       "bug_id": "1139963",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2020/10/stable-channel-update-for-desktop_20.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1139963",
-        "https://googleprojectzero.blogspot.com/p/rca-cve-2020-15999.html",
-        "https://crbug.com/1139963",
-        "https://googleprojectzero.blogspot.com/p/rca-cve-2020-15999.html"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2020/10/stable-channel-update-for-desktop_20.html"
     },
     {
       "id": "CVE-2020-15972",
@@ -53285,12 +52256,7 @@
       ],
       "bug_id": "1085315",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2020/08/stable-channel-update-for-desktop_25.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1085315",
-        "https://crbug.com/1085315"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2020/08/stable-channel-update-for-desktop_25.html"
     },
     {
       "id": "CVE-2020-6573",
@@ -53314,12 +52280,7 @@
       ],
       "bug_id": "1084699",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2020/08/stable-channel-update-for-desktop_25.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1084699",
-        "https://crbug.com/1084699"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2020/08/stable-channel-update-for-desktop_25.html"
     },
     {
       "id": "CVE-2020-6568",
@@ -53343,12 +52304,7 @@
       ],
       "bug_id": "995732",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2020/08/stable-channel-update-for-desktop_25.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/995732",
-        "https://crbug.com/995732"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2020/08/stable-channel-update-for-desktop_25.html"
     },
     {
       "id": "CVE-2020-6567",
@@ -53504,12 +52460,7 @@
       ],
       "bug_id": "1105202",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2020/08/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://www.talosintelligence.com/vulnerability_reports/TALOS-2020-1123",
-        "https://www.talosintelligence.com/vulnerability_reports/TALOS-2020-1123"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2020/08/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2020-6553",
@@ -53737,12 +52688,7 @@
       ],
       "bug_id": "1113565",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2020/09/stable-channel-update-for-desktop_21.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1113565",
-        "https://crbug.com/1113565"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2020/09/stable-channel-update-for-desktop_21.html"
     },
     {
       "id": "CVE-2020-15965",
@@ -53766,12 +52712,7 @@
       ],
       "bug_id": "1121414",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2020/09/stable-channel-update-for-desktop_21.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1121414",
-        "https://crbug.com/1121414"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2020/09/stable-channel-update-for-desktop_21.html"
     },
     {
       "id": "CVE-2020-15963",
@@ -53783,12 +52724,7 @@
       ],
       "bug_id": "1113558",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2020/09/stable-channel-update-for-desktop_21.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1113558",
-        "https://crbug.com/1113558"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2020/09/stable-channel-update-for-desktop_21.html"
     },
     {
       "id": "CVE-2020-15962",
@@ -53800,12 +52736,7 @@
       ],
       "bug_id": "1121836",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2020/09/stable-channel-update-for-desktop_21.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1121836",
-        "https://crbug.com/1121836"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2020/09/stable-channel-update-for-desktop_21.html"
     },
     {
       "id": "CVE-2020-15960",
@@ -53817,12 +52748,7 @@
       ],
       "bug_id": "1100136",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2020/09/stable-channel-update-for-desktop_21.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1100136",
-        "https://crbug.com/1100136"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2020/09/stable-channel-update-for-desktop_21.html"
     },
     {
       "id": "CVE-2020-15961",
@@ -53834,12 +52760,7 @@
       ],
       "bug_id": "1114636",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2020/09/stable-channel-update-for-desktop_21.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1114636",
-        "https://crbug.com/1114636"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2020/09/stable-channel-update-for-desktop_21.html"
     },
     {
       "id": "CVE-2020-15959",
@@ -53923,12 +52844,7 @@
       ],
       "bug_id": "1016278",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2020/07/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/1016278",
-        "https://crbug.com/1016278"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2020/07/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2020-6529",
@@ -57888,12 +56804,7 @@
       ],
       "bug_id": "952406",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2019/04/stable-channel-update-for-desktop_30.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/952406",
-        "https://crbug.com/952406"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2019/04/stable-channel-update-for-desktop_30.html"
     },
     {
       "id": "CVE-2019-5839",
@@ -58097,12 +57008,7 @@
       ],
       "bug_id": "936448",
       "gerrit_url": null,
-      "blog_url": "https://chromereleases.googleblog.com/2019/03/stable-channel-update-for-desktop.html",
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://crbug.com/936448",
-        "https://crbug.com/936448"
-      ]
+      "blog_url": "https://chromereleases.googleblog.com/2019/03/stable-channel-update-for-desktop.html"
     },
     {
       "id": "CVE-2019-5805",
@@ -66440,12 +65346,7 @@
       "versions": [],
       "bug_id": null,
       "gerrit_url": null,
-      "blog_url": null,
-      "has_public_exploit": true,
-      "exploit_refs": [
-        "https://code.google.com/p/chromium/issues/detail?id=594574",
-        "https://code.google.com/p/chromium/issues/detail?id=594574"
-      ]
+      "blog_url": null
     },
     {
       "id": "CVE-2016-1650",
