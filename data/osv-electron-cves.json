@@ -1,33 +1,78 @@
 {
   "generator": "hunter osv-check 0.2.0",
-  "scan_time": "2026-09-25T10:51:27Z",
+  "scan_time": "2026-09-26T10:32:55Z",
   "source": "inspect-results.json",
-  "total_apps": 4,
-  "with_electron_version": 4,
+  "total_apps": 5,
+  "with_electron_version": 5,
   "missing_electron_version": 0,
-  "checked": 4,
+  "checked": 5,
   "failed": 0,
-  "with_cves": 1,
-  "total_cves": 33,
+  "with_cves": 3,
+  "total_cves": 44,
   "severity_counts": {
-    "high": 6,
-    "low": 4,
-    "medium": 22,
+    "high": 8,
+    "low": 6,
+    "medium": 29,
     "unknown": 1
   },
   "apps": [
     {
-      "app_name": "Tabby",
-      "app_version": "1.0.237",
-      "electron_version": "43.7.0",
+      "app_name": "Joplin",
+      "app_version": "3.7.21",
+      "electron_version": "42.3.0",
+      "total_cves": 1,
+      "cves": [
+        {
+          "id": "GHSA-r4w5-6pfg-jxp5",
+          "cve": "CVE-2026-70606",
+          "summary": "Electron: ProtocolResponse.url reuses the default session cache instead of the registering session",
+          "severity": "medium",
+          "cvss_score": "5.8",
+          "published": "2026-08-05T16:07:59Z",
+          "fix_versions": [
+            "42.5.1"
+          ]
+        }
+      ]
+    },
+    {
+      "app_name": "Trilium Notes",
+      "app_version": "0.106.0",
+      "electron_version": "44.4.3",
       "total_cves": 0,
       "cves": []
     },
     {
-      "app_name": "Yakit",
-      "app_version": "1.4.9-925",
-      "electron_version": "27.0.0",
-      "total_cves": 33,
+      "app_name": "MongoDB Compass",
+      "app_version": "1.51.0",
+      "electron_version": "44.4.4",
+      "total_cves": 0,
+      "cves": []
+    },
+    {
+      "app_name": "Rocket.Chat",
+      "app_version": "4.17.3",
+      "electron_version": "42.5.0",
+      "total_cves": 1,
+      "cves": [
+        {
+          "id": "GHSA-r4w5-6pfg-jxp5",
+          "cve": "CVE-2026-70606",
+          "summary": "Electron: ProtocolResponse.url reuses the default session cache instead of the registering session",
+          "severity": "medium",
+          "cvss_score": "5.8",
+          "published": "2026-08-05T16:07:59Z",
+          "fix_versions": [
+            "42.5.1"
+          ]
+        }
+      ]
+    },
+    {
+      "app_name": "Baidu Netdisk",
+      "app_version": "4.11.0",
+      "electron_version": "11.3.0",
+      "total_cves": 42,
       "cves": [
         {
           "id": "GHSA-532v-xpq5-8h95",
@@ -38,6 +83,17 @@
           "published": "2026-04-03T02:42:27Z",
           "fix_versions": [
             "39.8.1"
+          ]
+        },
+        {
+          "id": "GHSA-77xc-hjv8-ww97",
+          "cve": "CVE-2022-29257",
+          "summary": "AutoUpdater module fails to validate certain nested components of the bundle",
+          "severity": "high",
+          "cvss_score": "7.2",
+          "published": "2022-06-16T23:18:47Z",
+          "fix_versions": [
+            "15.5.0"
           ]
         },
         {
@@ -82,6 +138,17 @@
           "published": "2026-08-05T15:46:08Z",
           "fix_versions": [
             "39.8.9"
+          ]
+        },
+        {
+          "id": "GHSA-qqvq-6xgj-jw8g",
+          "cve": "CVE-2023-5217",
+          "summary": "Electron affected by libvpx's heap buffer overflow in vp8 encoding",
+          "severity": "high",
+          "cvss_score": "8.7",
+          "published": "2023-09-28T18:30:45Z",
+          "fix_versions": [
+            "22.3.25"
           ]
         },
         {
@@ -148,6 +215,28 @@
           "published": "2026-04-03T02:46:16Z",
           "fix_versions": [
             "38.8.6"
+          ]
+        },
+        {
+          "id": "GHSA-7m48-wc93-9g85",
+          "cve": "CVE-2023-44402",
+          "summary": "ASAR Integrity bypass via filetype confusion in electron",
+          "severity": "medium",
+          "cvss_score": "6.2",
+          "published": "2023-12-01T21:32:06Z",
+          "fix_versions": [
+            "22.3.24"
+          ]
+        },
+        {
+          "id": "GHSA-7x97-j373-85x5",
+          "cve": "CVE-2023-39956",
+          "summary": "Electron vulnerable to out-of-package code execution when launched with arbitrary cwd",
+          "severity": "medium",
+          "cvss_score": "6.2",
+          "published": "2023-09-06T19:51:33Z",
+          "fix_versions": [
+            "22.3.19"
           ]
         },
         {
@@ -250,6 +339,17 @@
           ]
         },
         {
+          "id": "GHSA-mpjm-v997-c4h4",
+          "cve": "CVE-2021-39184",
+          "summary": "Electron's sandboxed renderers can obtain thumbnails of arbitrary files through the nativeImage API",
+          "severity": "medium",
+          "cvss_score": "6.7",
+          "published": "2021-10-12T21:59:13Z",
+          "fix_versions": [
+            "11.5.0"
+          ]
+        },
+        {
           "id": "GHSA-mwmh-mq4g-g6gr",
           "cve": "CVE-2026-34773",
           "summary": "Electron: Registry key path injection in app.setAsDefaultProtocolClient on Windows",
@@ -261,6 +361,17 @@
           ]
         },
         {
+          "id": "GHSA-p2jh-44qj-pf2v",
+          "cve": "CVE-2022-36077",
+          "summary": "Exfiltration of hashed SMB credentials on Windows via file:// redirect",
+          "severity": "medium",
+          "cvss_score": "5.3",
+          "published": "2022-11-10T12:38:57Z",
+          "fix_versions": [
+            "18.3.7"
+          ]
+        },
+        {
           "id": "GHSA-p2rr-rvmm-c5fp",
           "cve": "CVE-2026-70612",
           "summary": "Electron: Sandboxed iframes can launch external protocol handlers",
@@ -269,6 +380,17 @@
           "published": "2026-08-05T17:56:50Z",
           "fix_versions": [
             "39.8.8"
+          ]
+        },
+        {
+          "id": "GHSA-p7v2-p9m8-qqg7",
+          "cve": "CVE-2023-29198",
+          "summary": "Electron context isolation bypass via nested unserializable return value",
+          "severity": "medium",
+          "cvss_score": "5.8",
+          "published": "2023-09-06T19:50:58Z",
+          "fix_versions": [
+            "22.3.6"
           ]
         },
         {
@@ -338,6 +460,17 @@
           ]
         },
         {
+          "id": "GHSA-3p22-ghq8-v749",
+          "cve": "CVE-2022-21718",
+          "summary": "Renderers can obtain access to random bluetooth device without permission in Electron",
+          "severity": "low",
+          "cvss_score": "2.5",
+          "published": "2022-03-22T18:49:36Z",
+          "fix_versions": [
+            "13.6.6"
+          ]
+        },
+        {
           "id": "GHSA-9899-m83m-qhpj",
           "cve": "CVE-2026-34766",
           "summary": "Electron: USB device selection not validated against filtered device list",
@@ -357,6 +490,17 @@
           "published": "2026-04-07T15:52:28Z",
           "fix_versions": [
             "39.8.5"
+          ]
+        },
+        {
+          "id": "GHSA-mq8j-3h7h-p8g7",
+          "cve": "CVE-2022-29247",
+          "summary": "Compromised child renderer processes could obtain IPC access without nodeIntegrationInSubFrames being enabled",
+          "severity": "low",
+          "cvss_score": "2.7",
+          "published": "2022-06-16T23:14:33Z",
+          "fix_versions": [
+            "15.5.5"
           ]
         },
         {
@@ -392,20 +536,6 @@
           ]
         }
       ]
-    },
-    {
-      "app_name": "Claude",
-      "app_version": "2.9939.2",
-      "electron_version": "44.4.3",
-      "total_cves": 0,
-      "cves": []
-    },
-    {
-      "app_name": "VS Code",
-      "app_version": "1.139.1",
-      "electron_version": "43.6.0",
-      "total_cves": 0,
-      "cves": []
     }
   ]
 }

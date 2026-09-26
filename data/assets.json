@@ -1,8 +1,8 @@
 {
-  "scan_time": "2026-09-25T10:51:33Z",
+  "scan_time": "2026-09-26T10:33:00Z",
   "source": "hunter-ci",
   "platform": "macos",
-  "total_apps": 48,
+  "total_apps": 49,
   "apps": [
     {
       "app_name": "AFFiNE",
@@ -14,6 +14,18 @@
       "chromium_version": "142.0.7444.265",
       "extraction_method": "binary_strings",
       "binary_path": "/tmp/hunter-3982838339/extracted/AFFiNE.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+    },
+    {
+      "app_name": "Baidu Netdisk",
+      "app_version": "4.11.0",
+      "app_path": "/tmp/hunter-897457329/extracted/BaiduNetdisk_mac.app",
+      "framework": "electron",
+      "framework_name": "Electron Framework",
+      "detection": "directory",
+      "chromium_version": "87.0.4280.141",
+      "electron_version": "11.3.0",
+      "extraction_method": "binary_strings",
+      "binary_path": "/tmp/hunter-897457329/extracted/BaiduNetdisk_mac.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "BaiduNetdisk",
@@ -186,15 +198,15 @@
     },
     {
       "app_name": "Joplin",
-      "app_version": "3.7.18",
-      "app_path": "/tmp/hunter-575635093/extracted/Joplin 3.7.18-arm64/Joplin.app",
+      "app_version": "3.7.21",
+      "app_path": "/tmp/hunter-2671355980/extracted/Joplin 3.7.21-arm64/Joplin.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.180",
       "electron_version": "42.3.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-575635093/extracted/Joplin 3.7.18-arm64/Joplin.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2671355980/extracted/Joplin 3.7.21-arm64/Joplin.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Kiro",
@@ -264,15 +276,15 @@
     },
     {
       "app_name": "MongoDB Compass",
-      "app_version": "1.50.0",
-      "app_path": "/tmp/hunter-3438706899/extracted/MongoDB Compass.app",
+      "app_version": "1.51.0",
+      "app_path": "/tmp/hunter-2032750282/extracted/MongoDB Compass.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
-      "chromium_version": "150.0.7871.224",
-      "electron_version": "43.4.1",
+      "chromium_version": "152.0.7977.130",
+      "electron_version": "44.4.4",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-3438706899/extracted/MongoDB Compass.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2032750282/extracted/MongoDB Compass.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Notion",
@@ -344,15 +356,15 @@
     },
     {
       "app_name": "Rocket.Chat",
-      "app_version": "4.17.2",
-      "app_path": "/tmp/hunter-2100246756/extracted/Rocket.Chat.app",
+      "app_version": "4.17.3",
+      "app_path": "/tmp/hunter-2490689088/extracted/Rocket.Chat.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.271",
       "electron_version": "42.5.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2100246756/extracted/Rocket.Chat.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2490689088/extracted/Rocket.Chat.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Session",
@@ -458,14 +470,15 @@
     },
     {
       "app_name": "Trilium Notes",
-      "app_version": "0.105.0",
-      "app_path": "/tmp/hunter-3650068894/extracted/Trilium Notes.app",
+      "app_version": "0.106.0",
+      "app_path": "/tmp/hunter-3069480965/extracted/Trilium Notes.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
-      "chromium_version": "150.0.7871.224",
+      "chromium_version": "152.0.7977.130",
+      "electron_version": "44.4.3",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-3650068894/extracted/Trilium Notes.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-3069480965/extracted/Trilium Notes.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "VS Code",
