@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T10:33:00Z",
+  "generated_at": "2026-09-27T11:06:09Z",
   "observations": [
     {
       "app_name": "Baidu Netdisk",
@@ -10,6 +10,16 @@
       "source": "inspect-list",
       "first_seen": "2026-09-26T10:32:55Z",
       "last_seen": "2026-09-26T10:32:55Z"
+    },
+    {
+      "app_name": "Baidu Netdisk",
+      "app_version": "4.50.1",
+      "electron_version": "22.3.27",
+      "chromium_version": "108.0.5359.215",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-27T11:06:05Z",
+      "last_seen": "2026-09-27T11:06:05Z"
     },
     {
       "app_name": "Balena Etcher",

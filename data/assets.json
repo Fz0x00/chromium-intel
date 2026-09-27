@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-09-26T10:33:00Z",
+  "scan_time": "2026-09-27T11:06:09Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 49,
@@ -17,15 +17,15 @@
     },
     {
       "app_name": "Baidu Netdisk",
-      "app_version": "4.11.0",
-      "app_path": "/tmp/hunter-897457329/extracted/BaiduNetdisk_mac.app",
+      "app_version": "4.50.1",
+      "app_path": "/tmp/hunter-2993055986/extracted/BaiduNetdisk/BaiduNetdisk_mac.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
-      "chromium_version": "87.0.4280.141",
-      "electron_version": "11.3.0",
+      "chromium_version": "108.0.5359.215",
+      "electron_version": "22.3.27",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-897457329/extracted/BaiduNetdisk_mac.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2993055986/extracted/BaiduNetdisk/BaiduNetdisk_mac.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "BaiduNetdisk",
