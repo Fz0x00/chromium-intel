@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T12:23:28Z",
+  "generated_at": "2026-09-29T11:50:23Z",
   "observations": [
     {
       "app_name": "Baidu Netdisk",
@@ -70,6 +70,16 @@
       "source": "inspect-list",
       "first_seen": "2026-09-18T10:16:15Z",
       "last_seen": "2026-09-18T10:16:15Z"
+    },
+    {
+      "app_name": "Beekeeper Studio",
+      "app_version": "6.1.4",
+      "electron_version": "39.8.10",
+      "chromium_version": "142.0.7444.265",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-29T11:50:18Z",
+      "last_seen": "2026-09-29T11:50:18Z"
     },
     {
       "app_name": "Claude",
@@ -242,6 +252,16 @@
       "last_seen": "2026-09-25T10:51:27Z"
     },
     {
+      "app_name": "Claude",
+      "app_version": "2.9939.4",
+      "electron_version": "44.4.3",
+      "chromium_version": "152.0.7977.130",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-29T11:50:18Z",
+      "last_seen": "2026-09-29T11:50:18Z"
+    },
+    {
       "app_name": "Discord",
       "app_version": "0.0.409",
       "electron_version": "42.7.1",
@@ -290,6 +310,16 @@
       "source": "inspect-list",
       "first_seen": "2026-09-22T10:36:36Z",
       "last_seen": "2026-09-22T10:36:36Z"
+    },
+    {
+      "app_name": "Discord",
+      "app_version": "0.0.414",
+      "electron_version": "42.11.8",
+      "chromium_version": "148.0.7778.280",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-29T11:50:18Z",
+      "last_seen": "2026-09-29T11:50:18Z"
     },
     {
       "app_name": "Feishu",
@@ -540,6 +570,16 @@
       "last_seen": "2026-09-22T10:36:36Z"
     },
     {
+      "app_name": "SiYuan",
+      "app_version": "3.8.6",
+      "electron_version": "44.4.5",
+      "chromium_version": "152.0.7977.130",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-29T11:50:18Z",
+      "last_seen": "2026-09-29T11:50:18Z"
+    },
+    {
       "app_name": "Slack",
       "app_version": "4.52.155",
       "electron_version": "44.0.0",
@@ -558,6 +598,16 @@
       "source": "inspect-list",
       "first_seen": "2026-09-22T10:36:36Z",
       "last_seen": "2026-09-22T10:36:36Z"
+    },
+    {
+      "app_name": "Slack",
+      "app_version": "4.52.171",
+      "electron_version": "44.4.5",
+      "chromium_version": "152.0.7977.130",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-09-29T11:50:18Z",
+      "last_seen": "2026-09-29T11:50:18Z"
     },
     {
       "app_name": "Spotify",
