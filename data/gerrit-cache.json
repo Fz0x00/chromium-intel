@@ -26052,5 +26052,162 @@
     "subject": "Remove AwContentsIoThreadClient::SubFrameCreated and associated IPC",
     "commit_message": ""
   },
-  "502242455": null
+  "502242455": null,
+  "556908674": null,
+  "560062638": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8481361",
+    "cl_number": 8481361,
+    "subject": "Roll Dawn from 03db1842b89e to baf355b413b7 (12 revisions)",
+    "commit_message": ""
+  },
+  "562004351": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8428307",
+    "cl_number": 8428307,
+    "subject": "[M154] Limit ExternalVkImageBacking usage",
+    "commit_message": ""
+  },
+  "563716534": null,
+  "559727039": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8447571",
+    "cl_number": 8447571,
+    "subject": "[M155] gpu: Don't mark attachments cleared when the lazy clear fails",
+    "commit_message": ""
+  },
+  "560251736": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8423629",
+    "cl_number": 8423629,
+    "subject": "[M154] [Dialog] Fix crash with pip and dialog manager",
+    "commit_message": ""
+  },
+  "533021953": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8305754",
+    "cl_number": 8305754,
+    "subject": "[iOS][Signin]AccountConsistencyBrowserAgent checks active browser",
+    "commit_message": ""
+  },
+  "556926296": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8482552",
+    "cl_number": 8482552,
+    "subject": "[M150-LTS] bluetooth: Guard against synchronous destruction in RequestDeviceImpl",
+    "commit_message": ""
+  },
+  "556959073": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8427015",
+    "cl_number": 8427015,
+    "subject": "Roll Dawn from 1ae2ce35aa8b to b66956451936 (14 revisions)",
+    "commit_message": ""
+  },
+  "561997480": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8468292",
+    "cl_number": 8468292,
+    "subject": "[M153] Harden AnimationBuilder against layer deletions during scheduling.",
+    "commit_message": ""
+  },
+  "560867085": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8456808",
+    "cl_number": 8456808,
+    "subject": "[M154] chrome: Harden ForSecurityDropFullscreen callers (2/4)",
+    "commit_message": ""
+  },
+  "477726837": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7824241",
+    "cl_number": 7824241,
+    "subject": "[SPC] Validate RP ID when storing payment credentials",
+    "commit_message": ""
+  },
+  "559737160": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8447970",
+    "cl_number": 8447970,
+    "subject": "[M154] gpu: Fix ScopedBufferReattacher backbuffer restoration",
+    "commit_message": ""
+  },
+  "551668264": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8478751",
+    "cl_number": 8478751,
+    "subject": "[M152] Preserve origin changed state for deferred URL bar scroll requests",
+    "commit_message": ""
+  },
+  "556789073": null,
+  "514059780": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8307096",
+    "cl_number": 8307096,
+    "subject": "[TabDialogManager] Only re-enable web contents if TDM had disabled it.",
+    "commit_message": ""
+  },
+  "563351482": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8450473",
+    "cl_number": 8450473,
+    "subject": "[M154] media: Validate frame and texture format in MFVEA GPU readback",
+    "commit_message": ""
+  },
+  "560238698": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8423629",
+    "cl_number": 8423629,
+    "subject": "[M154] [Dialog] Fix crash with pip and dialog manager",
+    "commit_message": ""
+  },
+  "517312707": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8444637",
+    "cl_number": 8444637,
+    "subject": "[M152] ipcz: Correct transport trust and handle ownership for elevated peers",
+    "commit_message": ""
+  },
+  "562279351": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8451964",
+    "cl_number": 8451964,
+    "subject": "[M154] gpu: Ignore client unpack geometry on compressed texture uploads",
+    "commit_message": ""
+  },
+  "562042411": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8483471",
+    "cl_number": 8483471,
+    "subject": "[M150-LTS] Check for GL driver errors before marking SharedImage cleared in RasterDecoder",
+    "commit_message": ""
+  },
+  "554038924": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8402138",
+    "cl_number": 8402138,
+    "subject": "Enforce isolated_world_origin lock on CorsURLLoaderFactory",
+    "commit_message": ""
+  },
+  "565328105": null,
+  "559266114": null,
+  "562174487": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8423629",
+    "cl_number": 8423629,
+    "subject": "[M154] [Dialog] Fix crash with pip and dialog manager",
+    "commit_message": ""
+  },
+  "561994362": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8457812",
+    "cl_number": 8457812,
+    "subject": "[M155] [skia] Update Ganesh flush calls to propagate success",
+    "commit_message": ""
+  },
+  "560233248": null,
+  "496212975": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8191477",
+    "cl_number": 8191477,
+    "subject": "Scope WebMessageHost lifetime to DocumentUserData in JsToBrowserMessaging",
+    "commit_message": ""
+  },
+  "560536732": null,
+  "563297615": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8479731",
+    "cl_number": 8479731,
+    "subject": "[M153] Use Element.setHTML() instead of configureTrustedTypes.",
+    "commit_message": ""
+  },
+  "498793976": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8461950",
+    "cl_number": 8461950,
+    "subject": "[M152] Validate opaque origins on synchronous about:blank commits",
+    "commit_message": ""
+  },
+  "551673541": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8461704",
+    "cl_number": 8461704,
+    "subject": "[M154] Add round_up_3d_texture_size_to_pot_for_limit workaround for PowerVR",
+    "commit_message": ""
+  }
 }
