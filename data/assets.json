@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-09-30T11:36:21Z",
+  "scan_time": "2026-10-01T12:05:50Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 49,
@@ -482,15 +482,15 @@
     },
     {
       "app_name": "VS Code",
-      "app_version": "1.139.1",
-      "app_path": "/tmp/hunter-4133229202/extracted/Visual Studio Code.app",
+      "app_version": "1.140.0",
+      "app_path": "/tmp/hunter-1935328883/extracted/Visual Studio Code.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "150.0.7871.250",
-      "electron_version": "43.6.0",
+      "electron_version": "43.7.3",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-4133229202/extracted/Visual Studio Code.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-1935328883/extracted/Visual Studio Code.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Visual Studio Code",

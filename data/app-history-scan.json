@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T11:36:21Z",
+  "generated_at": "2026-10-01T12:05:50Z",
   "observations": [
     {
       "app_name": "Baidu Netdisk",
@@ -747,6 +747,16 @@
       "source": "inspect-list",
       "first_seen": "2026-09-25T10:51:27Z",
       "last_seen": "2026-09-25T10:51:27Z"
+    },
+    {
+      "app_name": "VS Code",
+      "app_version": "1.140.0",
+      "electron_version": "43.7.3",
+      "chromium_version": "150.0.7871.250",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-10-01T12:05:45Z",
+      "last_seen": "2026-10-01T12:05:45Z"
     },
     {
       "app_name": "Yakit",
