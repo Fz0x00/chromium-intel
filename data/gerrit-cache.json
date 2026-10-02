@@ -26209,5 +26209,61 @@
     "cl_number": 8461704,
     "subject": "[M154] Add round_up_3d_texture_size_to_pot_for_limit workaround for PowerVR",
     "commit_message": ""
+  },
+  "556268833": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8490492",
+    "cl_number": 8490492,
+    "subject": "[M150-LTS] cc, gpu: Widen PaintCacheId and paint cache deletion IPC to uint64_t",
+    "commit_message": ""
+  },
+  "565742179": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8496896",
+    "cl_number": 8496896,
+    "subject": "[M150] Reinsert PatternData into pattern map after reconstruction",
+    "commit_message": ""
+  },
+  "565742180": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8491261",
+    "cl_number": 8491261,
+    "subject": "[M150-LTS] Check IsContextDestroyed() before optimizing stream transfer",
+    "commit_message": ""
+  },
+  "561660166": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8483997",
+    "cl_number": 8483997,
+    "subject": "[M153] [contextual-tasks] Fix UAF in ContextualTasksComposeboxHandler callback",
+    "commit_message": ""
+  },
+  "559893859": null,
+  "553114097": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8376425",
+    "cl_number": 8376425,
+    "subject": "[M153] [FSA] Block WSL UNC paths in sensitive directory checks",
+    "commit_message": ""
+  },
+  "553147154": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8486615",
+    "cl_number": 8486615,
+    "subject": "[M154] [HiC] Disallow external SVG content referenced by href",
+    "commit_message": ""
+  },
+  "549995090": null,
+  "562038679": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8490492",
+    "cl_number": 8490492,
+    "subject": "[M150-LTS] cc, gpu: Widen PaintCacheId and paint cache deletion IPC to uint64_t",
+    "commit_message": ""
+  },
+  "557323166": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8496767",
+    "cl_number": 8496767,
+    "subject": "[M150] [FedCM] Guard against reentrancy UAF in modal dialog and desktop view",
+    "commit_message": ""
+  },
+  "567088927": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8487469",
+    "cl_number": 8487469,
+    "subject": "Roll WebRTC from 520484914d62 to 6f2034eabb8b (2 revisions)",
+    "commit_message": ""
   }
 }
