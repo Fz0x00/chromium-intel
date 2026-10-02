@@ -1,20 +1,212 @@
 {
   "generator": "hunter osv-check 0.2.0",
-  "scan_time": "2026-10-01T12:05:45Z",
+  "scan_time": "2026-10-02T11:36:29Z",
   "source": "inspect-results.json",
-  "total_apps": 1,
-  "with_electron_version": 1,
+  "total_apps": 5,
+  "with_electron_version": 4,
   "missing_electron_version": 0,
-  "checked": 1,
+  "checked": 4,
   "failed": 0,
-  "with_cves": 0,
-  "total_cves": 0,
-  "severity_counts": {},
+  "with_cves": 3,
+  "total_cves": 15,
+  "severity_counts": {
+    "high": 13,
+    "medium": 2
+  },
   "apps": [
     {
-      "app_name": "VS Code",
-      "app_version": "1.140.0",
-      "electron_version": "43.7.3",
+      "app_name": "Rocket.Chat",
+      "app_version": "4.17.4",
+      "electron_version": "42.5.0",
+      "total_cves": 6,
+      "cves": [
+        {
+          "id": "GHSA-9qh4-3jw8-366w",
+          "cve": "CVE-2026-102676",
+          "summary": "Electron: \u003cwebview\u003e can enable Node.js integration in Web Workers despite embedder restrictions",
+          "severity": "high",
+          "cvss_score": "8.3",
+          "published": "2026-09-29T18:02:18Z",
+          "fix_versions": [
+            "42.9.2"
+          ]
+        },
+        {
+          "id": "GHSA-gr2m-v5gq-v685",
+          "cve": "CVE-2026-102674",
+          "summary": "Electron: Windows opened from a sandboxed top-level document do not inherit its sandbox restrictions",
+          "severity": "high",
+          "cvss_score": "8.2",
+          "published": "2026-09-29T18:05:11Z",
+          "fix_versions": [
+            "42.9.2"
+          ]
+        },
+        {
+          "id": "GHSA-hq2x-r82h-9wj4",
+          "cve": "CVE-2026-102673",
+          "summary": "Electron drops inherited HTML sandbox restrictions for popups opened through OpenURLFromTab",
+          "severity": "high",
+          "cvss_score": "8.2",
+          "published": "2026-09-29T18:05:34Z",
+          "fix_versions": [
+            "42.5.2"
+          ]
+        },
+        {
+          "id": "GHSA-j84w-jfhq-vhvj",
+          "cve": "CVE-2026-102675",
+          "summary": "Electron: File and HTTP protocol handlers allow cross-origin reads without corsEnabled",
+          "severity": "high",
+          "cvss_score": "7.4",
+          "published": "2026-09-29T18:04:24Z",
+          "fix_versions": [
+            "42.9.2"
+          ]
+        },
+        {
+          "id": "GHSA-qmv3-fv6v-rmhq",
+          "cve": "CVE-2026-102677",
+          "summary": "Electron: Sandboxed preload code cache can be poisoned by a compromised renderer",
+          "severity": "high",
+          "cvss_score": "7.7",
+          "published": "2026-09-29T18:02:01Z",
+          "fix_versions": [
+            "42.10.0"
+          ]
+        },
+        {
+          "id": "GHSA-r4w5-6pfg-jxp5",
+          "cve": "CVE-2026-70606",
+          "summary": "Electron: ProtocolResponse.url reuses the default session cache instead of the registering session",
+          "severity": "medium",
+          "cvss_score": "5.8",
+          "published": "2026-08-05T16:07:59Z",
+          "fix_versions": [
+            "42.5.1"
+          ]
+        }
+      ]
+    },
+    {
+      "app_name": "Bitwarden",
+      "app_version": "2026.9.1",
+      "electron_version": "43.2.0",
+      "total_cves": 4,
+      "cves": [
+        {
+          "id": "GHSA-9qh4-3jw8-366w",
+          "cve": "CVE-2026-102676",
+          "summary": "Electron: \u003cwebview\u003e can enable Node.js integration in Web Workers despite embedder restrictions",
+          "severity": "high",
+          "cvss_score": "8.3",
+          "published": "2026-09-29T18:02:18Z",
+          "fix_versions": [
+            "43.4.1"
+          ]
+        },
+        {
+          "id": "GHSA-gr2m-v5gq-v685",
+          "cve": "CVE-2026-102674",
+          "summary": "Electron: Windows opened from a sandboxed top-level document do not inherit its sandbox restrictions",
+          "severity": "high",
+          "cvss_score": "8.2",
+          "published": "2026-09-29T18:05:11Z",
+          "fix_versions": [
+            "43.4.1"
+          ]
+        },
+        {
+          "id": "GHSA-j84w-jfhq-vhvj",
+          "cve": "CVE-2026-102675",
+          "summary": "Electron: File and HTTP protocol handlers allow cross-origin reads without corsEnabled",
+          "severity": "high",
+          "cvss_score": "7.4",
+          "published": "2026-09-29T18:04:24Z",
+          "fix_versions": [
+            "43.4.1"
+          ]
+        },
+        {
+          "id": "GHSA-qmv3-fv6v-rmhq",
+          "cve": "CVE-2026-102677",
+          "summary": "Electron: Sandboxed preload code cache can be poisoned by a compromised renderer",
+          "severity": "high",
+          "cvss_score": "7.7",
+          "published": "2026-09-29T18:02:01Z",
+          "fix_versions": [
+            "43.5.0"
+          ]
+        }
+      ]
+    },
+    {
+      "app_name": "MarkText",
+      "app_version": "0.20.0",
+      "electron_version": "42.1.0",
+      "total_cves": 5,
+      "cves": [
+        {
+          "id": "GHSA-9qh4-3jw8-366w",
+          "cve": "CVE-2026-102676",
+          "summary": "Electron: \u003cwebview\u003e can enable Node.js integration in Web Workers despite embedder restrictions",
+          "severity": "high",
+          "cvss_score": "8.3",
+          "published": "2026-09-29T18:02:18Z",
+          "fix_versions": [
+            "42.9.2"
+          ]
+        },
+        {
+          "id": "GHSA-gr2m-v5gq-v685",
+          "cve": "CVE-2026-102674",
+          "summary": "Electron: Windows opened from a sandboxed top-level document do not inherit its sandbox restrictions",
+          "severity": "high",
+          "cvss_score": "8.2",
+          "published": "2026-09-29T18:05:11Z",
+          "fix_versions": [
+            "42.9.2"
+          ]
+        },
+        {
+          "id": "GHSA-hq2x-r82h-9wj4",
+          "cve": "CVE-2026-102673",
+          "summary": "Electron drops inherited HTML sandbox restrictions for popups opened through OpenURLFromTab",
+          "severity": "high",
+          "cvss_score": "8.2",
+          "published": "2026-09-29T18:05:34Z",
+          "fix_versions": [
+            "42.5.2"
+          ]
+        },
+        {
+          "id": "GHSA-j84w-jfhq-vhvj",
+          "cve": "CVE-2026-102675",
+          "summary": "Electron: File and HTTP protocol handlers allow cross-origin reads without corsEnabled",
+          "severity": "high",
+          "cvss_score": "7.4",
+          "published": "2026-09-29T18:04:24Z",
+          "fix_versions": [
+            "42.9.2"
+          ]
+        },
+        {
+          "id": "GHSA-r4w5-6pfg-jxp5",
+          "cve": "CVE-2026-70606",
+          "summary": "Electron: ProtocolResponse.url reuses the default session cache instead of the registering session",
+          "severity": "medium",
+          "cvss_score": "5.8",
+          "published": "2026-08-05T16:07:59Z",
+          "fix_versions": [
+            "42.5.1"
+          ]
+        }
+      ]
+    },
+    {
+      "app_name": "Claude",
+      "app_version": "2.19675.0",
+      "electron_version": "44.4.3",
       "total_cves": 0,
       "cves": []
     }
