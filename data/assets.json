@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-10-02T11:36:35Z",
+  "scan_time": "2026-10-03T10:50:30Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 51,
@@ -52,15 +52,15 @@
     },
     {
       "app_name": "Beekeeper Studio",
-      "app_version": "6.1.4",
-      "app_path": "/tmp/hunter-3715860559/extracted/Beekeeper Studio.app",
+      "app_version": "6.1.5",
+      "app_path": "/tmp/hunter-3391264177/extracted/Beekeeper Studio.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "142.0.7444.265",
       "electron_version": "39.8.10",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-3715860559/extracted/Beekeeper Studio.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-3391264177/extracted/Beekeeper Studio.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Bitwarden",
@@ -265,15 +265,15 @@
     },
     {
       "app_name": "Mailspring",
-      "app_version": "1.25.0",
-      "app_path": "/tmp/hunter-2704258102/extracted/Mailspring.app",
+      "app_version": "1.26.0",
+      "app_path": "/tmp/hunter-252934538/extracted/Mailspring.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
-      "chromium_version": "152.0.7977.78",
-      "electron_version": "44.3.0",
+      "chromium_version": "152.0.7977.130",
+      "electron_version": "44.5.1",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2704258102/extracted/Mailspring.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-252934538/extracted/Mailspring.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "MarkText",
@@ -300,15 +300,15 @@
     },
     {
       "app_name": "MongoDB Compass",
-      "app_version": "1.51.0",
-      "app_path": "/tmp/hunter-2032750282/extracted/MongoDB Compass.app",
+      "app_version": "1.52.0",
+      "app_path": "/tmp/hunter-622902481/extracted/MongoDB Compass.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "152.0.7977.130",
-      "electron_version": "44.4.4",
+      "electron_version": "44.5.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2032750282/extracted/MongoDB Compass.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-622902481/extracted/MongoDB Compass.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Notion",
