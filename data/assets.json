@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-10-03T10:50:30Z",
+  "scan_time": "2026-10-06T12:27:20Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 51,
@@ -109,15 +109,15 @@
     },
     {
       "app_name": "Claude",
-      "app_version": "2.19675.0",
-      "app_path": "/tmp/hunter-3874199730/extracted/Claude.app",
+      "app_version": "2.19675.1",
+      "app_path": "/tmp/hunter-81226237/extracted/Claude.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "152.0.7977.130",
       "electron_version": "44.4.3",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-3874199730/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-81226237/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "CodeBuddy CN",
@@ -143,15 +143,15 @@
     },
     {
       "app_name": "Discord",
-      "app_version": "0.0.414",
-      "app_path": "/tmp/hunter-2019191417/extracted/Discord/Discord.app",
+      "app_version": "0.0.415",
+      "app_path": "/tmp/hunter-3688269123/extracted/Discord/Discord.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.280",
-      "electron_version": "42.11.8",
+      "electron_version": "42.11.10",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2019191417/extracted/Discord/Discord.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-3688269123/extracted/Discord/Discord.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Docker / Docker Desktop",
@@ -334,14 +334,15 @@
     },
     {
       "app_name": "Obsidian",
-      "app_version": "1.13.7",
-      "app_path": "/tmp/hunter-641279704/extracted/Obsidian 1.13.7-universal/Obsidian.app",
+      "app_version": "1.14.4",
+      "app_path": "/tmp/hunter-596573619/extracted/Obsidian 1.14.4-universal/Obsidian.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
-      "chromium_version": "150.0.7871.212",
+      "chromium_version": "150.0.7871.250",
+      "electron_version": "43.7.7",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-641279704/extracted/Obsidian 1.13.7-universal/Obsidian.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-596573619/extracted/Obsidian 1.14.4-universal/Obsidian.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "QQ",
@@ -416,15 +417,15 @@
     },
     {
       "app_name": "Slack",
-      "app_version": "4.52.171",
-      "app_path": "/tmp/hunter-223209173/extracted/Slack/Slack.app",
+      "app_version": "4.52.178",
+      "app_path": "/tmp/hunter-1373689533/extracted/Slack/Slack.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "152.0.7977.130",
       "electron_version": "44.4.5",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-223209173/extracted/Slack/Slack.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-1373689533/extracted/Slack/Slack.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Spotify",
