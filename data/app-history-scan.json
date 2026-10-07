@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T12:27:20Z",
+  "generated_at": "2026-10-07T12:20:24Z",
   "observations": [
     {
       "app_name": "Baidu Netdisk",
@@ -280,6 +280,16 @@
       "source": "inspect-list",
       "first_seen": "2026-09-18T10:16:15Z",
       "last_seen": "2026-09-18T10:16:15Z"
+    },
+    {
+      "app_name": "Claude",
+      "app_version": "2.26454.0",
+      "electron_version": "44.4.3",
+      "chromium_version": "152.0.7977.130",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-10-07T12:20:19Z",
+      "last_seen": "2026-10-07T12:20:19Z"
     },
     {
       "app_name": "Claude",
@@ -778,6 +788,16 @@
       "last_seen": "2026-09-25T10:51:27Z"
     },
     {
+      "app_name": "Tabby",
+      "app_version": "1.0.238",
+      "electron_version": "43.7.0",
+      "chromium_version": "150.0.7871.250",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-10-07T12:20:19Z",
+      "last_seen": "2026-10-07T12:20:19Z"
+    },
+    {
       "app_name": "Trilium Notes",
       "app_version": "0.106.0",
       "electron_version": "44.4.3",
@@ -876,6 +896,16 @@
       "source": "inspect-list",
       "first_seen": "2026-10-01T12:05:45Z",
       "last_seen": "2026-10-01T12:05:45Z"
+    },
+    {
+      "app_name": "VS Code",
+      "app_version": "1.141.0",
+      "electron_version": "43.7.7",
+      "chromium_version": "150.0.7871.250",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-10-07T12:20:19Z",
+      "last_seen": "2026-10-07T12:20:19Z"
     },
     {
       "app_name": "Yakit",
