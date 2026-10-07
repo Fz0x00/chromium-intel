@@ -27365,5 +27365,272 @@
     "commit_message": ""
   },
   "503625361": null,
-  "556213916": null
+  "556213916": null,
+  "522325665": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8368085",
+    "cl_number": 8368085,
+    "subject": "Scope Android ShareService to RenderFrameHost lifecycle",
+    "commit_message": ""
+  },
+  "514426571": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7884690",
+    "cl_number": 7884690,
+    "subject": "[WebAudio] Coarsen time resolution in AudioPlaybackStats",
+    "commit_message": ""
+  },
+  "559793873": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8480851",
+    "cl_number": 8480851,
+    "subject": "[M154] Generate Blob UUID in browser process",
+    "commit_message": ""
+  },
+  "513122002": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8323947",
+    "cl_number": 8323947,
+    "subject": "Clear selection state on PrimaryPageChanged",
+    "commit_message": ""
+  },
+  "553121488": null,
+  "552423127": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8373185",
+    "cl_number": 8373185,
+    "subject": "[Omnibox] Validate action URI schemes in OmniboxActionInSuggest",
+    "commit_message": ""
+  },
+  "503725788": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8379902",
+    "cl_number": 8379902,
+    "subject": "[ios] Strengthen validation for incoming Share Extension command URLs",
+    "commit_message": ""
+  },
+  "543082212": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8342168",
+    "cl_number": 8342168,
+    "subject": "[Media] Propagate data origin to MultiBufferDataSource",
+    "commit_message": ""
+  },
+  "530237174": null,
+  "518108937": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8333047",
+    "cl_number": 8333047,
+    "subject": "[Messages] Arm key events and click handlers with tap protection",
+    "commit_message": ""
+  },
+  "553129739": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8372909",
+    "cl_number": 8372909,
+    "subject": "Enforce IRAP picture requirement after EOS in H265Decoder",
+    "commit_message": ""
+  },
+  "523601696": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8310032",
+    "cl_number": 8310032,
+    "subject": "[Automation] Use CSPRNG for action request ID generation",
+    "commit_message": ""
+  },
+  "553150261": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8332627",
+    "cl_number": 8332627,
+    "subject": "Font Access: Deny enumeration for frames with opaque origins",
+    "commit_message": ""
+  },
+  "505186109": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8384938",
+    "cl_number": 8384938,
+    "subject": "[iOS] Ignore window.print() from background tabs",
+    "commit_message": ""
+  },
+  "502648640": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8375221",
+    "cl_number": 8375221,
+    "subject": "media: Validate request_all_screens against video stream type",
+    "commit_message": ""
+  },
+  "504227656": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8382522",
+    "cl_number": 8382522,
+    "subject": "[iOS] Upgrade HTTP redirect targets from POST navigations",
+    "commit_message": ""
+  },
+  "559097675": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8376892",
+    "cl_number": 8376892,
+    "subject": "Validate framework_version in app shim loader on macOS",
+    "commit_message": ""
+  },
+  "517801814": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8314750",
+    "cl_number": 8314750,
+    "subject": "[CE] Small refactorings to follow coding guideline",
+    "commit_message": ""
+  },
+  "566136674": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8502062",
+    "cl_number": 8502062,
+    "subject": "[M155] Avoid stale entry reference in ReconstructTheActiveFormattingElements",
+    "commit_message": ""
+  },
+  "520755056": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8489634",
+    "cl_number": 8489634,
+    "subject": "[macOS] Remove webNN permissions from gpu sandbox",
+    "commit_message": ""
+  },
+  "553336689": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8391861",
+    "cl_number": 8391861,
+    "subject": "Ensure Web Share checks tab activation and visibility before showing UI",
+    "commit_message": ""
+  },
+  "504223609": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8369962",
+    "cl_number": 8369962,
+    "subject": "[iOS] Avoid in-process image decoding when saving images",
+    "commit_message": ""
+  },
+  "502179715": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7760085",
+    "cl_number": 7760085,
+    "subject": "Remove DM token and device ID headers from redirects to non-CWS URLs.",
+    "commit_message": ""
+  },
+  "536471438": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8383109",
+    "cl_number": 8383109,
+    "subject": "Perform bounds check on web-controlled dimensions",
+    "commit_message": ""
+  },
+  "553283471": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8315500",
+    "cl_number": 8315500,
+    "subject": "[TLS Cert] Allow updates when user bypasses error notice",
+    "commit_message": ""
+  },
+  "550379413": null,
+  "477327257": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8379586",
+    "cl_number": 8379586,
+    "subject": "Fix window bounds intersection check for small window sizes",
+    "commit_message": ""
+  },
+  "567873463": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8505170",
+    "cl_number": 8505170,
+    "subject": "[M155] [PDF] Avoid using invalid destination handle in PDFiumEngine",
+    "commit_message": ""
+  },
+  "519458746": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8409409",
+    "cl_number": 8409409,
+    "subject": "Reland \"Reland \"Fix trailing dot normalization bypasses.\"\"",
+    "commit_message": ""
+  },
+  "566347711": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8519179",
+    "cl_number": 8519179,
+    "subject": "[M150] Fix bugs in MultiBuffer::OnDataProviderEvent when Prune empties UrlData",
+    "commit_message": ""
+  },
+  "513365978": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8373780",
+    "cl_number": 8373780,
+    "subject": "Replace raw pointer logging with token in media::AudioProcessor",
+    "commit_message": ""
+  },
+  "501790682": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8383798",
+    "cl_number": 8383798,
+    "subject": "Ensure PDF Save As initiator change is not applied to other embedders",
+    "commit_message": ""
+  },
+  "547065823": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8527329",
+    "cl_number": 8527329,
+    "subject": "Enable kAsyncFontconfigInitialization by default",
+    "commit_message": ""
+  },
+  "513423334": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8378851",
+    "cl_number": 8378851,
+    "subject": "Fix navigation trust escalation in Assistant AIM",
+    "commit_message": ""
+  },
+  "518076654": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8423234",
+    "cl_number": 8423234,
+    "subject": "Remove offline page request when adding to Reading List on Android",
+    "commit_message": ""
+  },
+  "513741326": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8376661",
+    "cl_number": 8376661,
+    "subject": "[Extensions] Fix cross-origin permission leaks during pending navigation in chrome.tabs.query",
+    "commit_message": ""
+  },
+  "553149001": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8320447",
+    "cl_number": 8320447,
+    "subject": "[Signin] Update extension dialog to prevent from unintended key press",
+    "commit_message": ""
+  },
+  "501914204": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8419721",
+    "cl_number": 8419721,
+    "subject": "[M155] [Contextual Tasks] Restrict guest link schemes",
+    "commit_message": ""
+  },
+  "517475258": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8400367",
+    "cl_number": 8400367,
+    "subject": "Reland \"[Autofill] Enforce constant-length obfuscation in GetObfuscatedValue\"",
+    "commit_message": ""
+  },
+  "560055258": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8398648",
+    "cl_number": 8398648,
+    "subject": "Enforce no field addition/removal in IsFormSimilarToCachedForm()",
+    "commit_message": ""
+  },
+  "502111211": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8378261",
+    "cl_number": 8378261,
+    "subject": "[signin] Update `chrome.identity.getAuthToken` to check for access",
+    "commit_message": ""
+  },
+  "553256068": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8366310",
+    "cl_number": 8366310,
+    "subject": "Prevent IWA deep-link bypass via extension chrome.history and UI",
+    "commit_message": ""
+  },
+  "502078791": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8377112",
+    "cl_number": 8377112,
+    "subject": "Reject unsupported schemes in bulk bookmark add",
+    "commit_message": ""
+  },
+  "513781133": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8304554",
+    "cl_number": 8304554,
+    "subject": "[ios] Enforce strict certificate errors for known HSTS hosts",
+    "commit_message": ""
+  },
+  "514041626": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8386996",
+    "cl_number": 8386996,
+    "subject": "Reject all allow-top-navigation* tokens in app sandbox CSP",
+    "commit_message": ""
+  },
+  "517150523": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8391560",
+    "cl_number": 8391560,
+    "subject": "Improve lifecycle and navigation handling in PostMessageHandler",
+    "commit_message": ""
+  },
+  "514072462": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8373778",
+    "cl_number": 8373778,
+    "subject": "[Extensions] Validate font ID format in fontSettings extension API",
+    "commit_message": ""
+  }
 }
