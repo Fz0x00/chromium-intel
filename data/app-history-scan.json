@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T12:29:40Z",
+  "generated_at": "2026-10-09T12:18:33Z",
   "observations": [
     {
       "app_name": "Baidu Netdisk",
@@ -313,6 +313,16 @@
     },
     {
       "app_name": "Claude",
+      "app_version": "2.31226.0",
+      "electron_version": "44.4.3",
+      "chromium_version": "152.0.7977.130",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-10-09T12:18:29Z",
+      "last_seen": "2026-10-09T12:18:29Z"
+    },
+    {
+      "app_name": "Claude",
       "app_version": "2.7032.0",
       "electron_version": "44.4.3",
       "chromium_version": "152.0.7977.130",
@@ -450,6 +460,16 @@
       "last_seen": "2026-09-16T10:31:10Z"
     },
     {
+      "app_name": "GitHub Desktop",
+      "app_version": "3.6.7",
+      "electron_version": "42.0.1",
+      "chromium_version": "148.0.7778.97",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-10-09T12:18:29Z",
+      "last_seen": "2026-10-09T12:18:29Z"
+    },
+    {
       "app_name": "Insomnia",
       "app_version": "13.3.0",
       "electron_version": "43.2.0",
@@ -458,6 +478,16 @@
       "source": "inspect-list",
       "first_seen": "2026-09-24T10:51:02Z",
       "last_seen": "2026-09-24T10:51:02Z"
+    },
+    {
+      "app_name": "Insomnia",
+      "app_version": "13.3.1",
+      "electron_version": "43.2.0",
+      "chromium_version": "150.0.7871.129",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-10-09T12:18:29Z",
+      "last_seen": "2026-10-09T12:18:29Z"
     },
     {
       "app_name": "Joplin",
@@ -548,6 +578,16 @@
       "source": "inspect-list",
       "first_seen": "2026-10-02T11:36:29Z",
       "last_seen": "2026-10-02T11:36:29Z"
+    },
+    {
+      "app_name": "MarkText",
+      "app_version": "0.21.1",
+      "electron_version": "42.1.0",
+      "chromium_version": "148.0.7778.97",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-10-09T12:18:29Z",
+      "last_seen": "2026-10-09T12:18:29Z"
     },
     {
       "app_name": "MongoDB Compass",
@@ -785,7 +825,7 @@
       "platform": "linux",
       "source": "inspect-list",
       "first_seen": "2026-10-02T11:36:29Z",
-      "last_seen": "2026-10-02T11:36:29Z"
+      "last_seen": "2026-10-09T12:18:29Z"
     },
     {
       "app_name": "Tabby",

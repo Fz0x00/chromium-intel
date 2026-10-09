@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-10-08T12:29:40Z",
+  "scan_time": "2026-10-09T12:18:33Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 51,
@@ -109,15 +109,15 @@
     },
     {
       "app_name": "Claude",
-      "app_version": "2.26454.2",
-      "app_path": "/tmp/hunter-544012028/extracted/Claude.app",
+      "app_version": "2.31226.0",
+      "app_path": "/tmp/hunter-282103774/extracted/Claude.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "152.0.7977.130",
       "electron_version": "44.4.3",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-544012028/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-282103774/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "CodeBuddy CN",
@@ -186,27 +186,27 @@
     },
     {
       "app_name": "GitHub Desktop",
-      "app_version": "3.6.6",
-      "app_path": "/tmp/hunter-3090945462/extracted/GitHub Desktop.app",
+      "app_version": "3.6.7",
+      "app_path": "/tmp/hunter-2661053093/extracted/GitHub Desktop.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.97",
       "electron_version": "42.0.1",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-3090945462/extracted/GitHub Desktop.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2661053093/extracted/GitHub Desktop.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Insomnia",
-      "app_version": "13.3.0",
-      "app_path": "/tmp/hunter-1655138556/extracted/Insomnia 13.3.0-universal/Insomnia.app",
+      "app_version": "13.3.1",
+      "app_path": "/tmp/hunter-3429257298/extracted/Insomnia 13.3.1-universal/Insomnia.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "150.0.7871.129",
       "electron_version": "43.2.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-1655138556/extracted/Insomnia 13.3.0-universal/Insomnia.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-3429257298/extracted/Insomnia 13.3.1-universal/Insomnia.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Joplin",
@@ -278,15 +278,15 @@
     },
     {
       "app_name": "MarkText",
-      "app_version": "0.20.0",
-      "app_path": "/tmp/hunter-576458332/extracted/MarkText.app",
+      "app_version": "0.21.1",
+      "app_path": "/tmp/hunter-2246405027/extracted/MarkText.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.97",
       "electron_version": "42.1.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-576458332/extracted/MarkText.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2246405027/extracted/MarkText.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Mattermost Desktop",
@@ -430,13 +430,13 @@
     },
     {
       "app_name": "Spotify",
-      "app_path": "/tmp/hunter-3708009057/extracted/Spotify/Spotify.app",
+      "app_path": "/tmp/hunter-3906440524/extracted/Spotify/Spotify.app",
       "framework": "cef",
       "framework_name": "Chromium Embedded Framework.framework",
       "detection": "directory",
       "chromium_version": "151.0.7922.138",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-3708009057/extracted/Spotify/Spotify.app/Contents/Frameworks/Chromium Embedded Framework.framework/Versions/A/Chromium Embedded Framework"
+      "binary_path": "/tmp/hunter-3906440524/extracted/Spotify/Spotify.app/Contents/Frameworks/Chromium Embedded Framework.framework/Versions/A/Chromium Embedded Framework"
     },
     {
       "app_name": "TRAE SOLO CN",
