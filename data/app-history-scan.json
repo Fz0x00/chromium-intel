@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T12:18:33Z",
+  "generated_at": "2026-10-10T11:36:16Z",
   "observations": [
     {
       "app_name": "Baidu Netdisk",
@@ -320,6 +320,16 @@
       "source": "inspect-list",
       "first_seen": "2026-10-09T12:18:29Z",
       "last_seen": "2026-10-09T12:18:29Z"
+    },
+    {
+      "app_name": "Claude",
+      "app_version": "2.31226.1",
+      "electron_version": "44.4.3",
+      "chromium_version": "152.0.7977.130",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-10-10T11:36:12Z",
+      "last_seen": "2026-10-10T11:36:12Z"
     },
     {
       "app_name": "Claude",
@@ -710,6 +720,16 @@
       "last_seen": "2026-10-02T11:36:29Z"
     },
     {
+      "app_name": "Rocket.Chat",
+      "app_version": "4.18.1",
+      "electron_version": "42.5.0",
+      "chromium_version": "148.0.7778.271",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-10-10T11:36:12Z",
+      "last_seen": "2026-10-10T11:36:12Z"
+    },
+    {
       "app_name": "Session",
       "app_version": "1.14.3",
       "electron_version": "25.8.4",
@@ -1036,6 +1056,16 @@
       "source": "inspect-list",
       "first_seen": "2026-09-19T09:58:37Z",
       "last_seen": "2026-09-19T09:58:37Z"
+    },
+    {
+      "app_name": "Yakit",
+      "app_version": "1.4.9-1010",
+      "electron_version": "27.0.0",
+      "chromium_version": "118.0.5993.54",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-10-10T11:36:12Z",
+      "last_seen": "2026-10-10T11:36:12Z"
     },
     {
       "app_name": "Yakit",
