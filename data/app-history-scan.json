@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T11:36:16Z",
+  "generated_at": "2026-10-11T11:50:01Z",
   "observations": [
     {
       "app_name": "Baidu Netdisk",
@@ -728,6 +728,16 @@
       "source": "inspect-list",
       "first_seen": "2026-10-10T11:36:12Z",
       "last_seen": "2026-10-10T11:36:12Z"
+    },
+    {
+      "app_name": "Rocket.Chat",
+      "app_version": "4.18.2",
+      "electron_version": "42.5.0",
+      "chromium_version": "148.0.7778.271",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-10-11T11:49:57Z",
+      "last_seen": "2026-10-11T11:49:57Z"
     },
     {
       "app_name": "Session",

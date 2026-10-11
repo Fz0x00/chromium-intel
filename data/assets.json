@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-10-10T11:36:16Z",
+  "scan_time": "2026-10-11T11:50:01Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 51,
@@ -382,15 +382,15 @@
     },
     {
       "app_name": "Rocket.Chat",
-      "app_version": "4.18.1",
-      "app_path": "/tmp/hunter-678656216/extracted/Rocket.Chat.app",
+      "app_version": "4.18.2",
+      "app_path": "/tmp/hunter-126394356/extracted/Rocket.Chat.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.271",
       "electron_version": "42.5.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-678656216/extracted/Rocket.Chat.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-126394356/extracted/Rocket.Chat.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Session",
