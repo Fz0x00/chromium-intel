@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-10-11T11:50:01Z",
+  "scan_time": "2026-10-12T13:56:32Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 51,
@@ -278,15 +278,15 @@
     },
     {
       "app_name": "MarkText",
-      "app_version": "0.21.1",
-      "app_path": "/tmp/hunter-2246405027/extracted/MarkText.app",
+      "app_version": "0.21.2",
+      "app_path": "/tmp/hunter-709962342/extracted/MarkText.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.97",
       "electron_version": "42.1.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2246405027/extracted/MarkText.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-709962342/extracted/MarkText.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Mattermost Desktop",

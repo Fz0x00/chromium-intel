@@ -1,6 +1,6 @@
 {
   "generator": "hunter osv-check 0.2.0",
-  "scan_time": "2026-10-11T11:49:57Z",
+  "scan_time": "2026-10-12T13:56:27Z",
   "source": "inspect-results.json",
   "total_apps": 1,
   "with_electron_version": 1,
@@ -8,17 +8,17 @@
   "checked": 1,
   "failed": 0,
   "with_cves": 1,
-  "total_cves": 6,
+  "total_cves": 5,
   "severity_counts": {
-    "high": 5,
+    "high": 4,
     "medium": 1
   },
   "apps": [
     {
-      "app_name": "Rocket.Chat",
-      "app_version": "4.18.2",
-      "electron_version": "42.5.0",
-      "total_cves": 6,
+      "app_name": "MarkText",
+      "app_version": "0.21.2",
+      "electron_version": "42.1.0",
+      "total_cves": 5,
       "cves": [
         {
           "id": "GHSA-9qh4-3jw8-366w",
@@ -62,17 +62,6 @@
           "published": "2026-09-29T18:04:24Z",
           "fix_versions": [
             "42.9.2"
-          ]
-        },
-        {
-          "id": "GHSA-qmv3-fv6v-rmhq",
-          "cve": "CVE-2026-102677",
-          "summary": "Electron: Sandboxed preload code cache can be poisoned by a compromised renderer",
-          "severity": "high",
-          "cvss_score": "7.7",
-          "published": "2026-09-29T18:02:01Z",
-          "fix_versions": [
-            "42.10.0"
           ]
         },
         {
