@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-10-12T13:56:32Z",
+  "scan_time": "2026-10-13T13:12:38Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 51,
@@ -301,15 +301,15 @@
     },
     {
       "app_name": "MongoDB Compass",
-      "app_version": "1.52.0",
-      "app_path": "/tmp/hunter-622902481/extracted/MongoDB Compass.app",
+      "app_version": "1.53.0",
+      "app_path": "/tmp/hunter-1357016495/extracted/MongoDB Compass.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "152.0.7977.130",
-      "electron_version": "44.5.0",
+      "electron_version": "44.7.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-622902481/extracted/MongoDB Compass.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-1357016495/extracted/MongoDB Compass.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Notion",

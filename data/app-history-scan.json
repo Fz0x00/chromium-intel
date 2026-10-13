@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T13:56:32Z",
+  "generated_at": "2026-10-13T13:12:38Z",
   "observations": [
     {
       "app_name": "Baidu Netdisk",
@@ -648,6 +648,16 @@
       "source": "inspect-list",
       "first_seen": "2026-10-03T10:50:24Z",
       "last_seen": "2026-10-03T10:50:24Z"
+    },
+    {
+      "app_name": "MongoDB Compass",
+      "app_version": "1.53.0",
+      "electron_version": "44.7.0",
+      "chromium_version": "152.0.7977.130",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-10-13T13:12:33Z",
+      "last_seen": "2026-10-13T13:12:33Z"
     },
     {
       "app_name": "Obsidian",
