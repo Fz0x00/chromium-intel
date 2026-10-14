@@ -27632,5 +27632,207 @@
     "cl_number": 8373778,
     "subject": "[Extensions] Validate font ID format in fontSettings extension API",
     "commit_message": ""
+  },
+  "568719364": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8569357",
+    "cl_number": 8569357,
+    "subject": "[M150-LTS][mime_handler] Return early for uncommitted navigations",
+    "commit_message": ""
+  },
+  "561997899": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8525106",
+    "cl_number": 8525106,
+    "subject": "[M150] [EncodedTransform] Disconnect RTCEncoded*UnderlyingSource on ContextDestroyed",
+    "commit_message": ""
+  },
+  "568899705": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8566037",
+    "cl_number": 8566037,
+    "subject": "[M154] shape-detection: Respond to Detect() on the binding thread",
+    "commit_message": ""
+  },
+  "568037533": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8556201",
+    "cl_number": 8556201,
+    "subject": "[M154] Fix bugs when ResourceMultiBufferDataProvider::Start fails",
+    "commit_message": ""
+  },
+  "562038980": null,
+  "568895734": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8566337",
+    "cl_number": 8566337,
+    "subject": "[M154][Media] Fail opaque 416 responses in ResourceMultiBufferDataProvider",
+    "commit_message": ""
+  },
+  "553525515": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8564218",
+    "cl_number": 8564218,
+    "subject": "[M154] [FSA] Fix use-after-free in FileSystemAccessLockManager",
+    "commit_message": ""
+  },
+  "554531101": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8446297",
+    "cl_number": 8446297,
+    "subject": "[M155] Reland \"Roll lzma_sdk to 26.03\"",
+    "commit_message": ""
+  },
+  "565252396": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8547042",
+    "cl_number": 8547042,
+    "subject": "[M156] [mojo]: Validate ipcz transport handles and sender trust",
+    "commit_message": ""
+  },
+  "562243925": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8562145",
+    "cl_number": 8562145,
+    "subject": "[M154][Passwords] Delete Credential Manager dialogs async in ResetDialog",
+    "commit_message": ""
+  },
+  "561039723": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8571977",
+    "cl_number": 8571977,
+    "subject": "[M150-LTS][Passwords] Key classifier model predictions by DriverId",
+    "commit_message": ""
+  },
+  "570050928": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8566357",
+    "cl_number": 8566357,
+    "subject": "[M154][PDF] Simplify PdfViewWebPluginClient::TextSelectionChanged()",
+    "commit_message": ""
+  },
+  "570050934": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8565857",
+    "cl_number": 8565857,
+    "subject": "[M154] Fix iteration in SVGDocumentResourceTracker::DisposeUnobserved()",
+    "commit_message": ""
+  },
+  "568437149": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8521918",
+    "cl_number": 8521918,
+    "subject": "[M150-LTS] Deschedule tabs in ThumbnailSchedulerImpl::RemoveTab",
+    "commit_message": ""
+  },
+  "561334760": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8555377",
+    "cl_number": 8555377,
+    "subject": "[M155] [InstallComponent] Stage the CRX under SystemTemp",
+    "commit_message": ""
+  },
+  "570638834": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8558202",
+    "cl_number": 8558202,
+    "subject": "[M150] Avoid synchronous PipelineController destruction in WMPI::Shutdown()",
+    "commit_message": ""
+  },
+  "567736859": null,
+  "565742182": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8566117",
+    "cl_number": 8566117,
+    "subject": "[M154][MultiBuffer] always post StopLoader",
+    "commit_message": ""
+  },
+  "570167920": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8566397",
+    "cl_number": 8566397,
+    "subject": "[M154][canvas2d] Pass precomputed image orientation into DrawImageInternal",
+    "commit_message": ""
+  },
+  "570167922": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8531329",
+    "cl_number": 8531329,
+    "subject": "Roll PDFium from 88d0b7025f18 to 00a936084c78 (8 revisions)",
+    "commit_message": ""
+  },
+  "570047270": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8565817",
+    "cl_number": 8565817,
+    "subject": "[M154] Fix observer iteration in SVGResourceDocumentContent",
+    "commit_message": ""
+  },
+  "562242421": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8556958",
+    "cl_number": 8556958,
+    "subject": "[M154][Passwords] Fix UAF in CredentialManager task",
+    "commit_message": ""
+  },
+  "564573066": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8547042",
+    "cl_number": 8547042,
+    "subject": "[M156] [mojo]: Validate ipcz transport handles and sender trust",
+    "commit_message": ""
+  },
+  "552510359": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8516217",
+    "cl_number": 8516217,
+    "subject": "[M152] Only forward a11y event data for distilled frames.",
+    "commit_message": ""
+  },
+  "568826881": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8548033",
+    "cl_number": 8548033,
+    "subject": "[M150-LTS] net: Defer proxied StreamSocket destruction in TransportClientSocketPool",
+    "commit_message": ""
+  },
+  "540499008": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8527948",
+    "cl_number": 8527948,
+    "subject": "[M150] Prevent potential UAF in the embedded search API searchbox.",
+    "commit_message": ""
+  },
+  "568831102": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8558420",
+    "cl_number": 8558420,
+    "subject": "[M154] Make DataListIndicatorElement not focusable",
+    "commit_message": ""
+  },
+  "568730794": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8565859",
+    "cl_number": 8565859,
+    "subject": "[M154] Avoid dangling reference in Element::CloneAttributesFrom()",
+    "commit_message": ""
+  },
+  "568827293": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8549915",
+    "cl_number": 8549915,
+    "subject": "[M155] NavigationEntryScreenshot waits for in-flight readbacks before release",
+    "commit_message": ""
+  },
+  "566496747": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8560143",
+    "cl_number": 8560143,
+    "subject": "[M152] Fix pre-interpolation composition with mismatched underlying values",
+    "commit_message": ""
+  },
+  "570461696": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8566477",
+    "cl_number": 8566477,
+    "subject": "[M154] Keep old UrlData alive across ResourceMultiBufferDataProvider::DidReceiveResponse()",
+    "commit_message": ""
+  },
+  "568010382": null,
+  "567088929": null,
+  "496308073": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8561900",
+    "cl_number": 8561900,
+    "subject": "[M150] Inline ToBlinkStringView() in NativeValueTraitsStringAdapter::ToStringView(), its only caller",
+    "commit_message": ""
+  },
+  "570675082": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8566338",
+    "cl_number": 8566338,
+    "subject": "[M154] Guard against reentrancy in OnPageVisibilityChanged",
+    "commit_message": ""
+  },
+  "568719352": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8565858",
+    "cl_number": 8565858,
+    "subject": "[M154] Cancel have_enough_after_lazy_load_cb_ in WebMediaPlayerImpl::Shutdown()",
+    "commit_message": ""
+  },
+  "561892119": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8541930",
+    "cl_number": 8541930,
+    "subject": "[M156] Ensure extensions only install into their own directory",
+    "commit_message": ""
   }
 }
