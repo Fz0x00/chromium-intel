@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-10-14T11:00:11Z",
+  "scan_time": "2026-10-15T10:35:23Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 51,
@@ -109,15 +109,15 @@
     },
     {
       "app_name": "Claude",
-      "app_version": "2.37337.1",
-      "app_path": "/tmp/hunter-500950947/extracted/Claude.app",
+      "app_version": "2.42304.0",
+      "app_path": "/tmp/hunter-1259881655/extracted/Claude.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
-      "chromium_version": "152.0.7977.130",
-      "electron_version": "44.7.0",
+      "chromium_version": "152.0.7977.149",
+      "electron_version": "44.7.2",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-500950947/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-1259881655/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "CodeBuddy CN",
@@ -290,14 +290,15 @@
     },
     {
       "app_name": "Mattermost Desktop",
-      "app_version": "6.3.0",
-      "app_path": "/tmp/hunter-2914353068/extracted/Mattermost.app",
+      "app_version": "6.3.1",
+      "app_path": "/tmp/hunter-3778988501/extracted/Mattermost.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "150.0.7871.46",
+      "electron_version": "43.0.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2914353068/extracted/Mattermost.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-3778988501/extracted/Mattermost.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "MongoDB Compass",
@@ -382,15 +383,15 @@
     },
     {
       "app_name": "Rocket.Chat",
-      "app_version": "4.18.2",
-      "app_path": "/tmp/hunter-126394356/extracted/Rocket.Chat.app",
+      "app_version": "4.18.3",
+      "app_path": "/tmp/hunter-1420754156/extracted/Rocket.Chat.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.271",
       "electron_version": "42.5.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-126394356/extracted/Rocket.Chat.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-1420754156/extracted/Rocket.Chat.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Session",
@@ -508,15 +509,15 @@
     },
     {
       "app_name": "VS Code",
-      "app_version": "1.141.1",
-      "app_path": "/tmp/hunter-298401439/extracted/Visual Studio Code.app",
+      "app_version": "1.142.0",
+      "app_path": "/tmp/hunter-3829152481/extracted/Visual Studio Code.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "150.0.7871.250",
       "electron_version": "43.7.7",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-298401439/extracted/Visual Studio Code.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-3829152481/extracted/Visual Studio Code.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Visual Studio Code",
