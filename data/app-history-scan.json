@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T10:35:23Z",
+  "generated_at": "2026-10-16T10:22:42Z",
   "observations": [
     {
       "app_name": "Baidu Netdisk",
@@ -100,6 +100,16 @@
       "source": "inspect-list",
       "first_seen": "2026-10-08T12:29:34Z",
       "last_seen": "2026-10-08T12:29:34Z"
+    },
+    {
+      "app_name": "Bitwarden",
+      "app_version": "2026.10.0",
+      "electron_version": "43.5.0",
+      "chromium_version": "150.0.7871.250",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-10-16T10:22:37Z",
+      "last_seen": "2026-10-16T10:22:37Z"
     },
     {
       "app_name": "Bitwarden",
@@ -935,7 +945,7 @@
       "platform": "linux",
       "source": "inspect-list",
       "first_seen": "2026-10-02T11:36:29Z",
-      "last_seen": "2026-10-09T12:18:29Z"
+      "last_seen": "2026-10-16T10:22:37Z"
     },
     {
       "app_name": "Tabby",
@@ -1176,6 +1186,16 @@
       "source": "inspect-list",
       "first_seen": "2026-10-10T11:36:12Z",
       "last_seen": "2026-10-10T11:36:12Z"
+    },
+    {
+      "app_name": "Yakit",
+      "app_version": "1.4.9-1016",
+      "electron_version": "27.0.0",
+      "chromium_version": "118.0.5993.54",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-10-16T10:22:37Z",
+      "last_seen": "2026-10-16T10:22:37Z"
     },
     {
       "app_name": "Yakit",

@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-10-15T10:35:23Z",
+  "scan_time": "2026-10-16T10:22:42Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 51,
@@ -64,15 +64,15 @@
     },
     {
       "app_name": "Bitwarden",
-      "app_version": "2026.9.1",
-      "app_path": "/tmp/hunter-3324525575/extracted/Bitwarden.app",
+      "app_version": "2026.10.0",
+      "app_path": "/tmp/hunter-2075528014/extracted/Bitwarden.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
-      "chromium_version": "150.0.7871.129",
-      "electron_version": "43.2.0",
+      "chromium_version": "150.0.7871.250",
+      "electron_version": "43.5.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-3324525575/extracted/Bitwarden.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2075528014/extracted/Bitwarden.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "BlueStacks",
@@ -431,13 +431,13 @@
     },
     {
       "app_name": "Spotify",
-      "app_path": "/tmp/hunter-3906440524/extracted/Spotify/Spotify.app",
+      "app_path": "/tmp/hunter-2646311395/extracted/Spotify/Spotify.app",
       "framework": "cef",
       "framework_name": "Chromium Embedded Framework.framework",
       "detection": "directory",
       "chromium_version": "151.0.7922.138",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-3906440524/extracted/Spotify/Spotify.app/Contents/Frameworks/Chromium Embedded Framework.framework/Versions/A/Chromium Embedded Framework"
+      "binary_path": "/tmp/hunter-2646311395/extracted/Spotify/Spotify.app/Contents/Frameworks/Chromium Embedded Framework.framework/Versions/A/Chromium Embedded Framework"
     },
     {
       "app_name": "TRAE SOLO CN",
@@ -554,15 +554,15 @@
     },
     {
       "app_name": "Yakit",
-      "app_version": "1.4.9-1010",
-      "app_path": "/tmp/hunter-2236759697/extracted/Yakit 1.4.9-1010-arm64/Yakit.app",
+      "app_version": "1.4.9-1016",
+      "app_path": "/tmp/hunter-3617444190/extracted/Yakit 1.4.9-1016-arm64/Yakit.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "118.0.5993.54",
       "electron_version": "27.0.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2236759697/extracted/Yakit 1.4.9-1010-arm64/Yakit.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-3617444190/extracted/Yakit 1.4.9-1016-arm64/Yakit.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "扣子",
