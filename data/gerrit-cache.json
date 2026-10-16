@@ -27834,5 +27834,50 @@
     "cl_number": 8541930,
     "subject": "[M156] Ensure extensions only install into their own directory",
     "commit_message": ""
+  },
+  "567638392": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8578522",
+    "cl_number": 8578522,
+    "subject": "[M150] Don't hold a reference to the id attribute across UpdateId()",
+    "commit_message": ""
+  },
+  "563194341": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8535126",
+    "cl_number": 8535126,
+    "subject": "[M155] ServiceWorker: Drop ServiceWorkerMainResourceHandle for CSP-sandboxed workers",
+    "commit_message": ""
+  },
+  "556272421": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8497455",
+    "cl_number": 8497455,
+    "subject": "[M150-LTS] Widen cc::PaintShader record shader IDs to 64 bits",
+    "commit_message": ""
+  },
+  "501886301": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8446599",
+    "cl_number": 8446599,
+    "subject": "[M155] Fail request if Google Calendar events contain invalid URLs",
+    "commit_message": ""
+  },
+  "569038297": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8573298",
+    "cl_number": 8573298,
+    "subject": "[M155] Fix stale iterators during svg resource cycle check",
+    "commit_message": ""
+  },
+  "568937999": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8584198",
+    "cl_number": 8584198,
+    "subject": "[M150-LTS] Guard TextInputManager against re-entrant destruction during notify",
+    "commit_message": ""
+  },
+  "568831769": null,
+  "569659194": null,
+  "569286602": null,
+  "568719351": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8589835",
+    "cl_number": 8589835,
+    "subject": "[M150] Guard BeginNavigation() against self-deletion during prerender checks",
+    "commit_message": ""
   }
 }
