@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-10-17T09:57:13Z",
+  "scan_time": "2026-10-19T11:35:14Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 51,
@@ -109,15 +109,15 @@
     },
     {
       "app_name": "Claude",
-      "app_version": "2.42304.0",
-      "app_path": "/tmp/hunter-1259881655/extracted/Claude.app",
+      "app_version": "2.42304.2",
+      "app_path": "/tmp/hunter-908444065/extracted/Claude.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "152.0.7977.149",
       "electron_version": "44.7.2",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-1259881655/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-908444065/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "CodeBuddy CN",
@@ -278,15 +278,15 @@
     },
     {
       "app_name": "MarkText",
-      "app_version": "0.21.2",
-      "app_path": "/tmp/hunter-709962342/extracted/MarkText.app",
+      "app_version": "0.22.0",
+      "app_path": "/tmp/hunter-1803554294/extracted/MarkText.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.97",
       "electron_version": "42.1.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-709962342/extracted/MarkText.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-1803554294/extracted/MarkText.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Mattermost Desktop",
