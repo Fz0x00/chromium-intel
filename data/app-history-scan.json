@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T10:40:28Z",
+  "generated_at": "2026-10-21T10:52:16Z",
   "observations": [
     {
       "app_name": "Baidu Netdisk",
@@ -30,6 +30,16 @@
       "source": "inspect-list",
       "first_seen": "2026-09-19T09:58:37Z",
       "last_seen": "2026-09-19T09:58:37Z"
+    },
+    {
+      "app_name": "Balena Etcher",
+      "app_version": "2.1.8",
+      "electron_version": "37.2.4",
+      "chromium_version": "138.0.7204.157",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-10-21T10:52:11Z",
+      "last_seen": "2026-10-21T10:52:11Z"
     },
     {
       "app_name": "Beekeeper Studio",
@@ -517,7 +527,7 @@
       "platform": "linux",
       "source": "inspect-list",
       "first_seen": "2026-09-09T10:26:00Z",
-      "last_seen": "2026-10-14T11:00:06Z"
+      "last_seen": "2026-10-21T10:52:11Z"
     },
     {
       "app_name": "GitHub Desktop",
@@ -650,6 +660,16 @@
       "last_seen": "2026-10-03T10:50:24Z"
     },
     {
+      "app_name": "Mailspring",
+      "app_version": "1.26.1",
+      "electron_version": "44.9.1",
+      "chromium_version": "152.0.7977.167",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-10-21T10:52:11Z",
+      "last_seen": "2026-10-21T10:52:11Z"
+    },
+    {
       "app_name": "MarkText",
       "app_version": "0.20.0",
       "electron_version": "42.1.0",
@@ -688,6 +708,16 @@
       "source": "inspect-list",
       "first_seen": "2026-10-19T11:35:09Z",
       "last_seen": "2026-10-19T11:35:09Z"
+    },
+    {
+      "app_name": "MarkText",
+      "app_version": "0.23.0",
+      "electron_version": "42.1.0",
+      "chromium_version": "148.0.7778.97",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-10-21T10:52:11Z",
+      "last_seen": "2026-10-21T10:52:11Z"
     },
     {
       "app_name": "Mattermost Desktop",
@@ -1176,6 +1206,16 @@
       "source": "inspect-list",
       "first_seen": "2026-10-15T10:35:18Z",
       "last_seen": "2026-10-15T10:35:18Z"
+    },
+    {
+      "app_name": "VS Code",
+      "app_version": "1.143.0",
+      "electron_version": "43.7.7",
+      "chromium_version": "150.0.7871.250",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-10-21T10:52:11Z",
+      "last_seen": "2026-10-21T10:52:11Z"
     },
     {
       "app_name": "Yakit",
