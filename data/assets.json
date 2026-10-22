@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-10-21T10:52:16Z",
+  "scan_time": "2026-10-22T10:55:00Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 51,
@@ -109,15 +109,15 @@
     },
     {
       "app_name": "Claude",
-      "app_version": "3.1623.0",
-      "app_path": "/tmp/hunter-4078087302/extracted/Claude.app",
+      "app_version": "3.6556.1",
+      "app_path": "/tmp/hunter-3863848199/extracted/Claude.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "152.0.7977.167",
-      "electron_version": "44.9.0",
+      "electron_version": "44.9.3",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-4078087302/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-3863848199/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "CodeBuddy CN",
@@ -383,15 +383,15 @@
     },
     {
       "app_name": "Rocket.Chat",
-      "app_version": "4.18.3",
-      "app_path": "/tmp/hunter-1420754156/extracted/Rocket.Chat.app",
+      "app_version": "4.18.4",
+      "app_path": "/tmp/hunter-2724554070/extracted/Rocket.Chat.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
-      "chromium_version": "148.0.7778.271",
-      "electron_version": "42.5.0",
+      "chromium_version": "148.0.7778.280",
+      "electron_version": "42.11.17",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-1420754156/extracted/Rocket.Chat.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2724554070/extracted/Rocket.Chat.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Session",
@@ -431,13 +431,13 @@
     },
     {
       "app_name": "Spotify",
-      "app_path": "/tmp/hunter-2646311395/extracted/Spotify/Spotify.app",
+      "app_path": "/tmp/hunter-2097421640/extracted/Spotify/Spotify.app",
       "framework": "cef",
       "framework_name": "Chromium Embedded Framework.framework",
       "detection": "directory",
       "chromium_version": "151.0.7922.138",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2646311395/extracted/Spotify/Spotify.app/Contents/Frameworks/Chromium Embedded Framework.framework/Versions/A/Chromium Embedded Framework"
+      "binary_path": "/tmp/hunter-2097421640/extracted/Spotify/Spotify.app/Contents/Frameworks/Chromium Embedded Framework.framework/Versions/A/Chromium Embedded Framework"
     },
     {
       "app_name": "TRAE SOLO CN",
