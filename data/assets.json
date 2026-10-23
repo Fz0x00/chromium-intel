@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-10-22T10:55:00Z",
+  "scan_time": "2026-10-23T10:44:15Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 51,
@@ -40,15 +40,15 @@
     },
     {
       "app_name": "Balena Etcher",
-      "app_version": "2.1.8",
-      "app_path": "/tmp/hunter-3829467447/extracted/balenaEtcher.app",
+      "app_version": "2.1.9",
+      "app_path": "/tmp/hunter-1436763689/extracted/balenaEtcher.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
-      "chromium_version": "138.0.7204.157",
-      "electron_version": "37.2.4",
+      "chromium_version": "152.0.7977.167",
+      "electron_version": "44.9.1",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-3829467447/extracted/balenaEtcher.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-1436763689/extracted/balenaEtcher.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Beekeeper Studio",
@@ -64,15 +64,15 @@
     },
     {
       "app_name": "Bitwarden",
-      "app_version": "2026.10.0",
-      "app_path": "/tmp/hunter-2075528014/extracted/Bitwarden.app",
+      "app_version": "2026.10.1",
+      "app_path": "/tmp/hunter-2299786263/extracted/Bitwarden.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "150.0.7871.250",
       "electron_version": "43.5.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2075528014/extracted/Bitwarden.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2299786263/extracted/Bitwarden.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "BlueStacks",
@@ -109,15 +109,15 @@
     },
     {
       "app_name": "Claude",
-      "app_version": "3.6556.1",
-      "app_path": "/tmp/hunter-3863848199/extracted/Claude.app",
+      "app_version": "3.6556.2",
+      "app_path": "/tmp/hunter-2138338811/extracted/Claude.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "152.0.7977.167",
       "electron_version": "44.9.3",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-3863848199/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2138338811/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "CodeBuddy CN",
@@ -143,15 +143,15 @@
     },
     {
       "app_name": "Discord",
-      "app_version": "0.0.418",
-      "app_path": "/tmp/hunter-3311385365/extracted/Discord/Discord.app",
+      "app_version": "0.0.419",
+      "app_path": "/tmp/hunter-3092619240/extracted/Discord/Discord.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.280",
       "electron_version": "42.11.15",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-3311385365/extracted/Discord/Discord.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-3092619240/extracted/Discord/Discord.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Docker / Docker Desktop",
@@ -186,15 +186,15 @@
     },
     {
       "app_name": "GitHub Desktop",
-      "app_version": "3.6.7",
-      "app_path": "/tmp/hunter-2661053093/extracted/GitHub Desktop.app",
+      "app_version": "3.6.8",
+      "app_path": "/tmp/hunter-2027907032/extracted/GitHub Desktop.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
-      "chromium_version": "148.0.7778.97",
-      "electron_version": "42.0.1",
+      "chromium_version": "152.0.7977.167",
+      "electron_version": "44.9.1",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2661053093/extracted/GitHub Desktop.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2027907032/extracted/GitHub Desktop.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Insomnia",
@@ -266,15 +266,15 @@
     },
     {
       "app_name": "Mailspring",
-      "app_version": "1.26.1",
-      "app_path": "/tmp/hunter-121849011/extracted/Mailspring.app",
+      "app_version": "1.26.2",
+      "app_path": "/tmp/hunter-3140212569/extracted/Mailspring.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "152.0.7977.167",
       "electron_version": "44.9.1",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-121849011/extracted/Mailspring.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-3140212569/extracted/Mailspring.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "MarkText",
@@ -336,15 +336,15 @@
     },
     {
       "app_name": "Obsidian",
-      "app_version": "1.14.4",
-      "app_path": "/tmp/hunter-596573619/extracted/Obsidian 1.14.4-universal/Obsidian.app",
+      "app_version": "1.14.5",
+      "app_path": "/tmp/hunter-4157969486/extracted/Obsidian 1.14.5-universal/Obsidian.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "150.0.7871.250",
-      "electron_version": "43.7.7",
+      "electron_version": "43.8.3",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-596573619/extracted/Obsidian 1.14.4-universal/Obsidian.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-4157969486/extracted/Obsidian 1.14.5-universal/Obsidian.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "QQ",
@@ -509,15 +509,15 @@
     },
     {
       "app_name": "VS Code",
-      "app_version": "1.143.0",
-      "app_path": "/tmp/hunter-2277392990/extracted/Visual Studio Code.app",
+      "app_version": "1.143.1",
+      "app_path": "/tmp/hunter-2053126939/extracted/Visual Studio Code.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "150.0.7871.250",
       "electron_version": "43.7.7",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2277392990/extracted/Visual Studio Code.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2053126939/extracted/Visual Studio Code.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Visual Studio Code",
