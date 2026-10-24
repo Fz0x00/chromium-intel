@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-10-23T10:44:15Z",
+  "scan_time": "2026-10-24T10:00:54Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 51,
@@ -186,15 +186,15 @@
     },
     {
       "app_name": "GitHub Desktop",
-      "app_version": "3.6.8",
-      "app_path": "/tmp/hunter-2027907032/extracted/GitHub Desktop.app",
+      "app_version": "3.6.9",
+      "app_path": "/tmp/hunter-369220210/extracted/GitHub Desktop.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "152.0.7977.167",
       "electron_version": "44.9.1",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2027907032/extracted/GitHub Desktop.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-369220210/extracted/GitHub Desktop.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Insomnia",
@@ -302,15 +302,15 @@
     },
     {
       "app_name": "MongoDB Compass",
-      "app_version": "1.53.0",
-      "app_path": "/tmp/hunter-1357016495/extracted/MongoDB Compass.app",
+      "app_version": "1.53.1",
+      "app_path": "/tmp/hunter-664928375/extracted/MongoDB Compass.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
-      "chromium_version": "152.0.7977.130",
-      "electron_version": "44.7.0",
+      "chromium_version": "156.0.8078.48",
+      "electron_version": "45.0.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-1357016495/extracted/MongoDB Compass.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-664928375/extracted/MongoDB Compass.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Notion",
@@ -383,15 +383,15 @@
     },
     {
       "app_name": "Rocket.Chat",
-      "app_version": "4.18.4",
-      "app_path": "/tmp/hunter-2724554070/extracted/Rocket.Chat.app",
+      "app_version": "4.18.5",
+      "app_path": "/tmp/hunter-2816358798/extracted/Rocket.Chat.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "148.0.7778.280",
       "electron_version": "42.11.17",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2724554070/extracted/Rocket.Chat.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2816358798/extracted/Rocket.Chat.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Session",
@@ -497,15 +497,15 @@
     },
     {
       "app_name": "Trilium Notes",
-      "app_version": "0.106.0",
-      "app_path": "/tmp/hunter-3069480965/extracted/Trilium Notes.app",
+      "app_version": "0.106.1",
+      "app_path": "/tmp/hunter-372619079/extracted/Trilium Notes.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "152.0.7977.130",
       "electron_version": "44.4.3",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-3069480965/extracted/Trilium Notes.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-372619079/extracted/Trilium Notes.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "VS Code",
@@ -554,15 +554,15 @@
     },
     {
       "app_name": "Yakit",
-      "app_version": "1.4.9-1016",
-      "app_path": "/tmp/hunter-3617444190/extracted/Yakit 1.4.9-1016-arm64/Yakit.app",
+      "app_version": "1.4.9-1023",
+      "app_path": "/tmp/hunter-1307038182/extracted/Yakit 1.4.9-1023-arm64/Yakit.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "118.0.5993.54",
       "electron_version": "27.0.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-3617444190/extracted/Yakit 1.4.9-1016-arm64/Yakit.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-1307038182/extracted/Yakit 1.4.9-1023-arm64/Yakit.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "扣子",
