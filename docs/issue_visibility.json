@@ -1,0 +1,3942 @@
+{
+  "generated_at": "2026-08-30T13:11:40.813046+00:00",
+  "total_issues": 272,
+  "summary": {
+    "public": 122,
+    "private": 150,
+    "unknown": 0,
+    "error": 0
+  },
+  "issues": [
+    {
+      "cve": "CVE-2019-13720",
+      "issue_id": "1019226",
+      "version": "78.0.3904.87",
+      "published": "2019-10-31T13:08:00.000-07:00",
+      "in_kev": true,
+      "has_public_exploit": true,
+      "description": "Use after free in WebAudio in Google Chrome prior to 78.0.3904.87 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1019226\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:25:55.649668+00:00"
+    },
+    {
+      "cve": "CVE-2020-15999",
+      "issue_id": "1139963",
+      "version": "86.0.4240.111",
+      "published": "2020-10-20T12:34:00.003-07:00",
+      "in_kev": true,
+      "has_public_exploit": true,
+      "description": "Heap buffer overflow in Freetype in Google Chrome prior to 86.0.4240.111 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:26:05.881349+00:00"
+    },
+    {
+      "cve": "CVE-2020-16009",
+      "issue_id": "1143772",
+      "version": "86.0.4240.183",
+      "published": "2020-11-02T10:56:00.000-08:00",
+      "in_kev": true,
+      "has_public_exploit": true,
+      "description": "Inappropriate implementation in V8 in Google Chrome prior to 86.0.4240.183 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:26:15.217616+00:00"
+    },
+    {
+      "cve": "CVE-2020-16013",
+      "issue_id": "1147206",
+      "version": "86.0.4240.198",
+      "published": "2020-11-11T12:33:00.002-08:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Inappropriate implementation in V8 in Google Chrome prior to 86.0.4240.198 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:26:25.563243+00:00"
+    },
+    {
+      "cve": "CVE-2020-16017",
+      "issue_id": "1146709",
+      "version": "86.0.4240.198",
+      "published": "2020-11-11T12:33:00.002-08:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Use after free in site isolation in Google Chrome prior to 86.0.4240.198 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTM...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:26:34.660178+00:00"
+    },
+    {
+      "cve": "CVE-2020-6418",
+      "issue_id": "1053604",
+      "version": "80.0.3987.122",
+      "published": "2020-02-24T10:25:00.000-08:00",
+      "in_kev": true,
+      "has_public_exploit": true,
+      "description": "Type confusion in V8 in Google Chrome prior to 80.0.3987.122 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1053604\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:26:44.768474+00:00"
+    },
+    {
+      "cve": "CVE-2021-21148",
+      "issue_id": "1170176",
+      "version": "88.0.4324.150",
+      "published": "2021-02-04T11:28:00.001-08:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Heap buffer overflow in V8 in Google Chrome prior to 88.0.4324.150 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:26:56.596690+00:00"
+    },
+    {
+      "cve": "CVE-2021-21166",
+      "issue_id": "1177465",
+      "version": "89.0.4389.72",
+      "published": "2021-03-02T12:29:00.006-08:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Data race in audio in Google Chrome prior to 89.0.4389.72 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:27:06.330858+00:00"
+    },
+    {
+      "cve": "CVE-2021-21193",
+      "issue_id": "1186287",
+      "version": "89.0.4389.90",
+      "published": "2021-03-12T12:27:00.000-08:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Use after free in Blink in Google Chrome prior to 89.0.4389.90 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:27:14.896637+00:00"
+    },
+    {
+      "cve": "CVE-2021-21206",
+      "issue_id": "1196781",
+      "version": "89.0.4389.128",
+      "published": "2021-04-13T14:42:00.000-07:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Use after free in Blink in Google Chrome prior to 89.0.4389.128 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1196781\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:27:27.126223+00:00"
+    },
+    {
+      "cve": "CVE-2021-21220",
+      "issue_id": "1196683",
+      "version": "89.0.4389.128",
+      "published": "2021-04-13T14:42:00.000-07:00",
+      "in_kev": true,
+      "has_public_exploit": true,
+      "description": "Insufficient validation of untrusted input in V8 in Google Chrome prior to 89.0.4389.128 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:28:10.292691+00:00"
+    },
+    {
+      "cve": "CVE-2021-21224",
+      "issue_id": "1195777",
+      "version": "90.0.4430.85",
+      "published": "2021-04-20T12:36:00.001-07:00",
+      "in_kev": true,
+      "has_public_exploit": true,
+      "description": "Type confusion in V8 in Google Chrome prior to 90.0.4430.85 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:28:20.084746+00:00"
+    },
+    {
+      "cve": "CVE-2021-30551",
+      "issue_id": "1216437",
+      "version": "91.0.4472.101",
+      "published": "2021-06-09T11:41:00.001-07:00",
+      "in_kev": true,
+      "has_public_exploit": true,
+      "description": "Type confusion in V8 in Google Chrome prior to 91.0.4472.101 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:28:30.546753+00:00"
+    },
+    {
+      "cve": "CVE-2021-30554",
+      "issue_id": "1219857",
+      "version": "91.0.4472.114",
+      "published": "2021-06-17T12:11:00.000-07:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Use after free in WebGL in Google Chrome prior to 91.0.4472.114 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:28:40.660526+00:00"
+    },
+    {
+      "cve": "CVE-2021-30563",
+      "issue_id": "1228407",
+      "version": "91.0.4472.164",
+      "published": "2021-07-15T11:42:00.000-07:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Type Confusion in V8 in Google Chrome prior to 91.0.4472.164 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1228407\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:28:51.334666+00:00"
+    },
+    {
+      "cve": "CVE-2021-30632",
+      "issue_id": "1247763",
+      "version": "93.0.4577.82",
+      "published": "2021-09-13T13:23:00.004-07:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Out of bounds write in V8 in Google Chrome prior to 93.0.4577.82 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1247763\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:29:01.503054+00:00"
+    },
+    {
+      "cve": "CVE-2021-30633",
+      "issue_id": "1247766",
+      "version": "93.0.4577.82",
+      "published": "2021-09-13T13:23:00.004-07:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Use after free in Indexed DB API in Google Chrome prior to 93.0.4577.82 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1247766\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:29:12.257119+00:00"
+    },
+    {
+      "cve": "CVE-2021-37973",
+      "issue_id": "1251727",
+      "version": "94.0.4606.61",
+      "published": "2021-09-24T07:57:00.000-07:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Use after free in Portals in Google Chrome prior to 94.0.4606.61 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:29:21.887581+00:00"
+    },
+    {
+      "cve": "CVE-2021-37975",
+      "issue_id": "1252918",
+      "version": "94.0.4606.71",
+      "published": "2021-09-30T12:13:00.002-07:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Use after free in V8 in Google Chrome prior to 94.0.4606.71 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:29:31.344307+00:00"
+    },
+    {
+      "cve": "CVE-2021-37976",
+      "issue_id": "1251787",
+      "version": "94.0.4606.71",
+      "published": "2021-09-30T12:13:00.002-07:00",
+      "in_kev": true,
+      "has_public_exploit": true,
+      "description": "Inappropriate implementation in Memory in Google Chrome prior to 94.0.4606.71 allowed a remote attacker to obtain potentially sensitive information from process memory via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:29:39.596159+00:00"
+    },
+    {
+      "cve": "CVE-2021-38000",
+      "issue_id": "1249962",
+      "version": "95.0.4638.69",
+      "published": "2021-10-28T14:00:00.003-07:00",
+      "in_kev": true,
+      "has_public_exploit": true,
+      "description": "Insufficient validation of untrusted input in Intents in Google Chrome on Android prior to 95.0.4638.69 allowed a remote attacker to arbitrarily browser to a malicious URL via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:29:49.171468+00:00"
+    },
+    {
+      "cve": "CVE-2021-38003",
+      "issue_id": "1263462",
+      "version": "95.0.4638.69",
+      "published": "2021-10-28T14:00:00.003-07:00",
+      "in_kev": true,
+      "has_public_exploit": true,
+      "description": "Inappropriate implementation in V8 in Google Chrome prior to 95.0.4638.69 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1263462\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:30:01.227485+00:00"
+    },
+    {
+      "cve": "CVE-2021-4102",
+      "issue_id": "1278387",
+      "version": "96.0.4664.110",
+      "published": "2021-12-13T12:08:00.000-08:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Use after free in V8 in Google Chrome prior to 96.0.4664.110 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:30:10.535050+00:00"
+    },
+    {
+      "cve": "CVE-2022-0609",
+      "issue_id": "1296150",
+      "version": "98.0.4758.102",
+      "published": "2022-02-14T12:52:00.005-08:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Use after free in Animation in Google Chrome prior to 98.0.4758.102 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1296150\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:30:19.586653+00:00"
+    },
+    {
+      "cve": "CVE-2022-1096",
+      "issue_id": "1309225",
+      "version": "99.0.4844.84",
+      "published": "2022-03-25T11:27:00.000-07:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Type confusion in V8 in Google Chrome prior to 99.0.4844.84 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:30:27.545953+00:00"
+    },
+    {
+      "cve": "CVE-2022-1364",
+      "issue_id": "1315901",
+      "version": "100.0.4896.127",
+      "published": "2022-04-14T14:03:00.004-07:00",
+      "in_kev": true,
+      "has_public_exploit": true,
+      "description": "Type confusion in V8 Turbofan in Google Chrome prior to 100.0.4896.127 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:30:36.319315+00:00"
+    },
+    {
+      "cve": "CVE-2022-2294",
+      "issue_id": "1341043",
+      "version": "102.0.5005.148",
+      "published": "2022-07-04T09:36:00.000-07:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Heap buffer overflow in WebRTC in Google Chrome prior to 103.0.5060.114 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:30:45.203133+00:00"
+    },
+    {
+      "cve": "CVE-2022-2856",
+      "issue_id": "1345630",
+      "version": "104.0.5112.101",
+      "published": "2022-08-16T13:56:00.002-07:00",
+      "in_kev": true,
+      "has_public_exploit": true,
+      "description": "Insufficient validation of untrusted input in Intents in Google Chrome on Android prior to 104.0.5112.101 allowed a remote attacker to arbitrarily browse to a malicious website via a crafted HTML p...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1345630\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:30:55.857281+00:00"
+    },
+    {
+      "cve": "CVE-2022-3075",
+      "issue_id": "1358134",
+      "version": "105.0.5195.102",
+      "published": "2022-09-02T14:41:00.000-07:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Insufficient data validation in Mojo in Google Chrome prior to 105.0.5195.102 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafte...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1358134\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:31:03.636789+00:00"
+    },
+    {
+      "cve": "CVE-2022-3723",
+      "issue_id": "1378239",
+      "version": "107.0.5304.87",
+      "published": "2022-10-27T13:28:00.000-07:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Type confusion in V8 in Google Chrome prior to 107.0.5304.87 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:31:12.118934+00:00"
+    },
+    {
+      "cve": "CVE-2022-4135",
+      "issue_id": "1392715",
+      "version": "107.0.5304.121",
+      "published": "2022-11-24T09:59:00.000-08:00",
+      "in_kev": true,
+      "has_public_exploit": true,
+      "description": "Heap buffer overflow in GPU in Google Chrome prior to 107.0.5304.121 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML pa...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:31:20.132650+00:00"
+    },
+    {
+      "cve": "CVE-2022-4262",
+      "issue_id": "1394403",
+      "version": "108.0.5359.94",
+      "published": "2022-12-02T12:04:00.001-08:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Type confusion in V8 in Google Chrome prior to 108.0.5359.94 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:31:29.518337+00:00"
+    },
+    {
+      "cve": "CVE-2023-2033",
+      "issue_id": "1432210",
+      "version": "112.0.5615.121",
+      "published": "2023-04-14T10:14:00.000-07:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Type confusion in V8 in Google Chrome prior to 112.0.5615.121 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1432210\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:31:39.038546+00:00"
+    },
+    {
+      "cve": "CVE-2023-2136",
+      "issue_id": "1432603",
+      "version": "112.0.5615.137",
+      "published": "2023-04-18T16:03:00.001-07:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Integer overflow in Skia in Google Chrome prior to 112.0.5615.137 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page....",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:31:48.742734+00:00"
+    },
+    {
+      "cve": "CVE-2023-3079",
+      "issue_id": "1450481",
+      "version": "114.0.5735.106",
+      "published": "2023-06-05T13:11:00.000-07:00",
+      "in_kev": true,
+      "has_public_exploit": true,
+      "description": "Type confusion in V8 in Google Chrome prior to 114.0.5735.110 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:31:57.202688+00:00"
+    },
+    {
+      "cve": "CVE-2023-4863",
+      "issue_id": "1479274",
+      "version": "116.0.5845.187",
+      "published": "2023-09-11T10:53:00.000-07:00",
+      "in_kev": true,
+      "has_public_exploit": true,
+      "description": "Heap buffer overflow in libwebp in Google Chrome prior to 116.0.5845.187 and libwebp 1.3.2 allowed a remote attacker to perform an out of bounds memory write via a crafted HTML page. (Chromium secu...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:32:07.135176+00:00"
+    },
+    {
+      "cve": "CVE-2023-5217",
+      "issue_id": "1486441",
+      "version": "117.0.5938.132",
+      "published": "2023-09-27T13:37:00.000-07:00",
+      "in_kev": true,
+      "has_public_exploit": true,
+      "description": "Heap buffer overflow in vp8 encoding in libvpx in Google Chrome prior to 117.0.5938.132 and libvpx 1.13.1 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:32:15.467159+00:00"
+    },
+    {
+      "cve": "CVE-2023-6345",
+      "issue_id": "1505053",
+      "version": "119.0.6045.199",
+      "published": "2023-11-28T11:50:00.000-08:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Integer overflow in Skia in Google Chrome prior to 119.0.6045.199 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a malicious file. (C...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:32:25.338225+00:00"
+    },
+    {
+      "cve": "CVE-2023-7024",
+      "issue_id": "1513170",
+      "version": "120.0.6099.129",
+      "published": "2023-12-20T10:06:00.000-08:00",
+      "in_kev": true,
+      "has_public_exploit": true,
+      "description": "Heap buffer overflow in WebRTC in Google Chrome prior to 120.0.6099.129 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:32:33.857906+00:00"
+    },
+    {
+      "cve": "CVE-2024-0519",
+      "issue_id": "1517354",
+      "version": "120.0.6099.234",
+      "published": "2024-01-16T10:11:00.001-08:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Out of bounds memory access in V8 in Google Chrome prior to 120.0.6099.224 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:32:43.559265+00:00"
+    },
+    {
+      "cve": "CVE-2024-4671",
+      "issue_id": "339266700",
+      "version": "124.0.6367.201",
+      "published": "2024-05-09T13:46:00.000-07:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Use after free in Visuals in Google Chrome prior to 124.0.6367.201 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:32:52.909115+00:00"
+    },
+    {
+      "cve": "CVE-2024-4761",
+      "issue_id": "339458194",
+      "version": "124.0.6367.207",
+      "published": "2024-05-13T13:49:00.000-07:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Out of bounds write in V8 in Google Chrome prior to 124.0.6367.207 allowed a remote attacker to perform an out of bounds memory write via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:33:02.014039+00:00"
+    },
+    {
+      "cve": "CVE-2024-4947",
+      "issue_id": "340221135",
+      "version": "125.0.6422.60",
+      "published": "2024-05-15T13:24:00.000-07:00",
+      "in_kev": true,
+      "has_public_exploit": true,
+      "description": "Type Confusion in V8 in Google Chrome prior to 125.0.6422.60 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(26)"
+      },
+      "checked_at": "2026-08-30T12:33:16.636070+00:00"
+    },
+    {
+      "cve": "CVE-2024-5274",
+      "issue_id": "341663589",
+      "version": "125.0.6422.112",
+      "published": "2024-05-23T16:13:00.000-07:00",
+      "in_kev": true,
+      "has_public_exploit": true,
+      "description": "Type Confusion in V8 in Google Chrome prior to 125.0.6422.112 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(26)"
+      },
+      "checked_at": "2026-08-30T12:33:29.167012+00:00"
+    },
+    {
+      "cve": "CVE-2024-7965",
+      "issue_id": "356196918",
+      "version": "128.0.6613.84",
+      "published": "2024-08-21T12:29:00.000-07:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Inappropriate implementation in V8 in Google Chrome prior to 128.0.6613.84 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(52)"
+      },
+      "checked_at": "2026-08-30T12:33:42.747451+00:00"
+    },
+    {
+      "cve": "CVE-2024-7971",
+      "issue_id": "360700873",
+      "version": "128.0.6613.84",
+      "published": "2024-08-21T12:29:00.000-07:00",
+      "in_kev": true,
+      "has_public_exploit": true,
+      "description": "Type confusion in V8 in Google Chrome prior to 128.0.6613.84 allowed a remote attacker to exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:33:52.187319+00:00"
+    },
+    {
+      "cve": "CVE-2025-10585",
+      "issue_id": "445380761",
+      "version": "140.0.7339.185",
+      "published": "2025-09-17T16:16:00.000-07:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Type confusion in V8 in Google Chrome prior to 140.0.7339.185 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:34:01.257492+00:00"
+    },
+    {
+      "cve": "CVE-2025-13223",
+      "issue_id": "460017370",
+      "version": "142.0.7444.175",
+      "published": "2025-11-17T13:00:00.000-08:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Type Confusion in V8 in Google Chrome prior to 142.0.7444.175 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:34:09.525588+00:00"
+    },
+    {
+      "cve": "CVE-2025-14174",
+      "issue_id": "466192044",
+      "version": "143.0.7499.109",
+      "published": "2025-12-10T10:25:00.000-08:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Out of bounds memory access in ANGLE in Google Chrome on Mac prior to 143.0.7499.110 allowed a remote attacker to perform out of bounds memory access via a crafted HTML page. (Chromium security sev...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(32)"
+      },
+      "checked_at": "2026-08-30T12:34:24.120446+00:00"
+    },
+    {
+      "cve": "CVE-2025-2783",
+      "issue_id": "405143032",
+      "version": "134.0.6998.177",
+      "published": "2025-03-25T14:04:00.000-07:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Incorrect handle provided in unspecified circumstances in Mojo in Google Chrome on Windows prior to 134.0.6998.177 allowed a remote attacker to perform a sandbox escape via a malicious file. (Chrom...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(11)"
+      },
+      "checked_at": "2026-08-30T12:34:37.412635+00:00"
+    },
+    {
+      "cve": "CVE-2025-5419",
+      "issue_id": "420636529",
+      "version": "137.0.7151.68",
+      "published": "2025-06-02T16:07:00.000-07:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Out of bounds read and write in V8 in Google Chrome prior to 137.0.7151.68 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(26)"
+      },
+      "checked_at": "2026-08-30T12:34:49.311176+00:00"
+    },
+    {
+      "cve": "CVE-2025-6554",
+      "issue_id": "427663123",
+      "version": "138.0.7204.96",
+      "published": "2025-06-30T14:01:00.000-07:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Type confusion in V8 in Google Chrome prior to 138.0.7204.96 allowed a remote attacker to perform arbitrary read/write via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(36)"
+      },
+      "checked_at": "2026-08-30T12:35:02.338352+00:00"
+    },
+    {
+      "cve": "CVE-2025-6558",
+      "issue_id": "427162086",
+      "version": "138.0.7204.157",
+      "published": "2025-07-15T10:12:00.000-07:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Insufficient validation of untrusted input in ANGLE and GPU in Google Chrome prior to 138.0.7204.157 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chro...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(21)"
+      },
+      "checked_at": "2026-08-30T12:35:13.970685+00:00"
+    },
+    {
+      "cve": "CVE-2026-11645",
+      "issue_id": "506689381",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Out of bounds read and write in V8 in Google Chrome prior to 149.0.7827.103 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(21)"
+      },
+      "checked_at": "2026-08-30T12:35:26.499402+00:00"
+    },
+    {
+      "cve": "CVE-2026-2441",
+      "issue_id": "483569511",
+      "version": "145.0.7632.75",
+      "published": "2026-02-13T10:26:00.000-08:00",
+      "in_kev": true,
+      "has_public_exploit": true,
+      "description": "Use after free in CSS in Google Chrome prior to 145.0.7632.75 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(31)"
+      },
+      "checked_at": "2026-08-30T12:35:39.490926+00:00"
+    },
+    {
+      "cve": "CVE-2026-3909",
+      "issue_id": "491421267",
+      "version": "146.0.7680.80",
+      "published": "2026-03-13T18:15:00.000-07:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Out of bounds write in Skia in Google Chrome prior to 146.0.7680.75 allowed a remote attacker to perform out of bounds memory access via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:35:47.366645+00:00"
+    },
+    {
+      "cve": "CVE-2026-3910",
+      "issue_id": "491410818",
+      "version": "146.0.7680.75",
+      "published": "2026-03-12T14:14:00.000-07:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Inappropriate implementation in V8 in Google Chrome prior to 146.0.7680.75 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity:...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:35:55.893764+00:00"
+    },
+    {
+      "cve": "CVE-2026-5281",
+      "issue_id": "491518608",
+      "version": "146.0.7680.177",
+      "published": "2026-03-31T12:31:00.000-07:00",
+      "in_kev": true,
+      "has_public_exploit": false,
+      "description": "Use after free in Dawn in Google Chrome prior to 146.0.7680.178 allowed a remote attacker who had compromised the renderer process to execute arbitrary code via a crafted HTML page. (Chromium secur...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(18)"
+      },
+      "checked_at": "2026-08-30T12:36:09.685284+00:00"
+    },
+    {
+      "cve": "CVE-2019-13721",
+      "issue_id": "1013868",
+      "version": "78.0.3904.87",
+      "published": "2019-10-31T13:08:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in PDFium in Google Chrome prior to 78.0.3904.87 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1013868\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:36:18.134675+00:00"
+    },
+    {
+      "cve": "CVE-2020-16000",
+      "issue_id": "1125337",
+      "version": "86.0.4240.111",
+      "published": "2020-10-20T12:34:00.003-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Inappropriate implementation in Blink in Google Chrome prior to 86.0.4240.111 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1125337\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:36:26.104985+00:00"
+    },
+    {
+      "cve": "CVE-2020-16001",
+      "issue_id": "1135018",
+      "version": "86.0.4240.111",
+      "published": "2020-10-20T12:34:00.003-07:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Use after free in media in Google Chrome prior to 86.0.4240.111 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:36:33.747090+00:00"
+    },
+    {
+      "cve": "CVE-2020-16002",
+      "issue_id": "1137630",
+      "version": "86.0.4240.111",
+      "published": "2020-10-20T12:34:00.003-07:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Use after free in PDFium in Google Chrome prior to 86.0.4240.111 allowed a remote attacker to potentially exploit heap corruption via a crafted PDF file.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:36:41.452027+00:00"
+    },
+    {
+      "cve": "CVE-2020-16003",
+      "issue_id": "1134960",
+      "version": "86.0.4240.111",
+      "published": "2020-10-20T12:34:00.003-07:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Use after free in printing in Google Chrome prior to 86.0.4240.111 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:36:49.935081+00:00"
+    },
+    {
+      "cve": "CVE-2020-16004",
+      "issue_id": "1138911",
+      "version": "86.0.4240.183",
+      "published": "2020-11-02T10:56:00.000-08:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in user interface in Google Chrome prior to 86.0.4240.183 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:36:58.097745+00:00"
+    },
+    {
+      "cve": "CVE-2020-16005",
+      "issue_id": "1139398",
+      "version": "86.0.4240.183",
+      "published": "2020-11-02T10:56:00.000-08:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Insufficient policy enforcement in ANGLE in Google Chrome prior to 86.0.4240.183 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:37:06.947941+00:00"
+    },
+    {
+      "cve": "CVE-2020-16006",
+      "issue_id": "1133527",
+      "version": "86.0.4240.183",
+      "published": "2020-11-02T10:56:00.000-08:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Inappropriate implementation in V8 in Google Chrome prior to 86.0.4240.183 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:37:14.904711+00:00"
+    },
+    {
+      "cve": "CVE-2020-16007",
+      "issue_id": "1125018",
+      "version": "86.0.4240.183",
+      "published": "2020-11-02T10:56:00.000-08:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Insufficient data validation in installer in Google Chrome prior to 86.0.4240.183 allowed a local attacker to potentially elevate privilege via a crafted filesystem.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:37:22.292252+00:00"
+    },
+    {
+      "cve": "CVE-2020-16008",
+      "issue_id": "1134107",
+      "version": "86.0.4240.183",
+      "published": "2020-11-02T10:56:00.000-08:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Stack buffer overflow in WebRTC in Google Chrome prior to 86.0.4240.183 allowed a remote attacker to potentially exploit stack corruption via a crafted WebRTC packet.",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1134107\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:37:30.414084+00:00"
+    },
+    {
+      "cve": "CVE-2020-16011",
+      "issue_id": "1144489",
+      "version": "86.0.4240.183",
+      "published": "2020-11-02T10:56:00.000-08:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Heap buffer overflow in UI in Google Chrome on Windows prior to 86.0.4240.183 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafte...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:37:38.536238+00:00"
+    },
+    {
+      "cve": "CVE-2020-6407",
+      "issue_id": "1045931",
+      "version": "80.0.3987.122",
+      "published": "2020-02-24T10:25:00.000-08:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Out of bounds memory access in streams in Google Chrome prior to 80.0.3987.122 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:37:46.549607+00:00"
+    },
+    {
+      "cve": "CVE-2021-21159",
+      "issue_id": "1171049",
+      "version": "89.0.4389.72",
+      "published": "2021-03-02T12:29:00.006-08:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Heap buffer overflow in TabStrip in Google Chrome prior to 89.0.4389.72 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:38:29.865259+00:00"
+    },
+    {
+      "cve": "CVE-2021-21160",
+      "issue_id": "1170531",
+      "version": "89.0.4389.72",
+      "published": "2021-03-02T12:29:00.006-08:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Heap buffer overflow in WebAudio in Google Chrome prior to 89.0.4389.72 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:38:40.514102+00:00"
+    },
+    {
+      "cve": "CVE-2021-21161",
+      "issue_id": "1173702",
+      "version": "89.0.4389.72",
+      "published": "2021-03-02T12:29:00.006-08:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Heap buffer overflow in TabStrip in Google Chrome prior to 89.0.4389.72 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:38:49.726319+00:00"
+    },
+    {
+      "cve": "CVE-2021-21162",
+      "issue_id": "1172054",
+      "version": "89.0.4389.72",
+      "published": "2021-03-02T12:29:00.006-08:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Use after free in WebRTC in Google Chrome prior to 89.0.4389.72 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1172054\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:38:59.387791+00:00"
+    },
+    {
+      "cve": "CVE-2021-21163",
+      "issue_id": "1111239",
+      "version": "89.0.4389.72",
+      "published": "2021-03-02T12:29:00.006-08:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Insufficient data validation in Reader Mode in Google Chrome on iOS prior to 89.0.4389.72 allowed a remote attacker to leak cross-origin data via a crafted HTML page and a malicious server.",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1111239\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:39:10.790530+00:00"
+    },
+    {
+      "cve": "CVE-2021-21164",
+      "issue_id": "1164846",
+      "version": "89.0.4389.72",
+      "published": "2021-03-02T12:29:00.006-08:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Insufficient data validation in Chrome on iOS in Google Chrome on iOS prior to 89.0.4389.72 allowed a remote attacker to leak cross-origin data via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:39:19.968911+00:00"
+    },
+    {
+      "cve": "CVE-2021-21165",
+      "issue_id": "1174582",
+      "version": "89.0.4389.72",
+      "published": "2021-03-02T12:29:00.006-08:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Data race in audio in Google Chrome prior to 89.0.4389.72 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1174582\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:39:31.126775+00:00"
+    },
+    {
+      "cve": "CVE-2021-21167",
+      "issue_id": "1161144",
+      "version": "89.0.4389.72",
+      "published": "2021-03-02T12:29:00.006-08:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Use after free in bookmarks in Google Chrome prior to 89.0.4389.72 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:39:40.665306+00:00"
+    },
+    {
+      "cve": "CVE-2021-21168",
+      "issue_id": "1152226",
+      "version": "89.0.4389.72",
+      "published": "2021-03-02T12:29:00.006-08:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Insufficient policy enforcement in appcache in Google Chrome prior to 89.0.4389.72 allowed a remote attacker to obtain potentially sensitive information from process memory via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:39:49.442516+00:00"
+    },
+    {
+      "cve": "CVE-2021-21169",
+      "issue_id": "1166138",
+      "version": "89.0.4389.72",
+      "published": "2021-03-02T12:29:00.006-08:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Out of bounds memory access in V8 in Google Chrome prior to 89.0.4389.72 allowed a remote attacker to potentially perform out of bounds memory access via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:39:58.946378+00:00"
+    },
+    {
+      "cve": "CVE-2021-21170",
+      "issue_id": "1111646",
+      "version": "89.0.4389.72",
+      "published": "2021-03-02T12:29:00.006-08:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Incorrect security UI in Loader in Google Chrome prior to 89.0.4389.72 allowed a remote attacker who had compromised the renderer process to spoof the contents of the Omnibox (URL bar) via a crafte...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:40:06.354100+00:00"
+    },
+    {
+      "cve": "CVE-2021-21171",
+      "issue_id": "1152894",
+      "version": "89.0.4389.72",
+      "published": "2021-03-02T12:29:00.006-08:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Incorrect security UI in TabStrip and Navigation in Google Chrome on Android prior to 89.0.4389.72 allowed a remote attacker to spoof the contents of the Omnibox (URL bar) via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:40:14.925560+00:00"
+    },
+    {
+      "cve": "CVE-2021-21172",
+      "issue_id": "1150810",
+      "version": "89.0.4389.72",
+      "published": "2021-03-02T12:29:00.006-08:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Insufficient policy enforcement in File System API in Google Chrome on Windows prior to 89.0.4389.72 allowed a remote attacker to bypass filesystem restrictions via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:40:24.013810+00:00"
+    },
+    {
+      "cve": "CVE-2021-21173",
+      "issue_id": "1154250",
+      "version": "89.0.4389.72",
+      "published": "2021-03-02T12:29:00.006-08:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Side-channel information leakage in Network Internals in Google Chrome prior to 89.0.4389.72 allowed a remote attacker to leak cross-origin data via a crafted HTML page.",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1154250\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:40:33.237203+00:00"
+    },
+    {
+      "cve": "CVE-2021-21174",
+      "issue_id": "1152999",
+      "version": "89.0.4389.72",
+      "published": "2021-03-02T12:29:00.006-08:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Inappropriate implementation in Referrer in Google Chrome prior to 89.0.4389.72 allowed a remote attacker to bypass navigation restrictions via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:40:42.346797+00:00"
+    },
+    {
+      "cve": "CVE-2021-21175",
+      "issue_id": "1146651",
+      "version": "89.0.4389.72",
+      "published": "2021-03-02T12:29:00.006-08:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Inappropriate implementation in Site isolation in Google Chrome prior to 89.0.4389.72 allowed a remote attacker to leak cross-origin data via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:40:50.921099+00:00"
+    },
+    {
+      "cve": "CVE-2021-21176",
+      "issue_id": "1170584",
+      "version": "89.0.4389.72",
+      "published": "2021-03-02T12:29:00.006-08:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Inappropriate implementation in full screen mode in Google Chrome prior to 89.0.4389.72 allowed a remote attacker to spoof the contents of the Omnibox (URL bar) via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:40:59.946216+00:00"
+    },
+    {
+      "cve": "CVE-2021-21177",
+      "issue_id": "1173879",
+      "version": "89.0.4389.72",
+      "published": "2021-03-02T12:29:00.006-08:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Insufficient policy enforcement in Autofill in Google Chrome prior to 89.0.4389.72 allowed a remote attacker to obtain potentially sensitive information from process memory via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:41:09.837995+00:00"
+    },
+    {
+      "cve": "CVE-2021-21178",
+      "issue_id": "1174186",
+      "version": "89.0.4389.72",
+      "published": "2021-03-02T12:29:00.006-08:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Inappropriate implementation in Compositing in Google Chrome on Linux and Windows prior to 89.0.4389.72 allowed a remote attacker to spoof the contents of the Omnibox (URL bar) via a crafted HTML p...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:41:18.171846+00:00"
+    },
+    {
+      "cve": "CVE-2021-21179",
+      "issue_id": "1174943",
+      "version": "89.0.4389.72",
+      "published": "2021-03-02T12:29:00.006-08:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Use after free in Network Internals in Google Chrome on Linux prior to 89.0.4389.72 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:41:25.951176+00:00"
+    },
+    {
+      "cve": "CVE-2021-21180",
+      "issue_id": "1175507",
+      "version": "89.0.4389.72",
+      "published": "2021-03-02T12:29:00.006-08:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Use after free in tab search in Google Chrome prior to 89.0.4389.72 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:41:34.713352+00:00"
+    },
+    {
+      "cve": "CVE-2021-21181",
+      "issue_id": "1182767",
+      "version": "89.0.4389.72",
+      "published": "2021-03-02T12:29:00.006-08:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Side-channel information leakage in autofill in Google Chrome prior to 89.0.4389.72 allowed a remote attacker to obtain potentially sensitive information from process memory via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:41:43.200602+00:00"
+    },
+    {
+      "cve": "CVE-2021-21182",
+      "issue_id": "1049265",
+      "version": "89.0.4389.72",
+      "published": "2021-03-02T12:29:00.006-08:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Insufficient policy enforcement in navigations in Google Chrome prior to 89.0.4389.72 allowed a remote attacker who had compromised the renderer process to bypass navigation restrictions via a craf...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1049265\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:41:51.873894+00:00"
+    },
+    {
+      "cve": "CVE-2021-21183",
+      "issue_id": "1105875",
+      "version": "89.0.4389.72",
+      "published": "2021-03-02T12:29:00.006-08:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Inappropriate implementation in performance APIs in Google Chrome prior to 89.0.4389.72 allowed a remote attacker to leak cross-origin data via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:42:00.964829+00:00"
+    },
+    {
+      "cve": "CVE-2021-21191",
+      "issue_id": "1167357",
+      "version": "89.0.4389.90",
+      "published": "2021-03-12T12:27:00.000-08:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Use after free in WebRTC in Google Chrome prior to 89.0.4389.90 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:42:11.017790+00:00"
+    },
+    {
+      "cve": "CVE-2021-21192",
+      "issue_id": "1181387",
+      "version": "89.0.4389.90",
+      "published": "2021-03-12T12:27:00.000-08:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Heap buffer overflow in tab groups in Google Chrome prior to 89.0.4389.90 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1181387\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:42:19.995723+00:00"
+    },
+    {
+      "cve": "CVE-2021-21222",
+      "issue_id": "1194046",
+      "version": "90.0.4430.85",
+      "published": "2021-04-20T12:36:00.001-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Heap buffer overflow in V8 in Google Chrome prior to 90.0.4430.85 allowed a remote attacker who had compromised the renderer process to bypass site isolation via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:42:28.101304+00:00"
+    },
+    {
+      "cve": "CVE-2021-21223",
+      "issue_id": "1195308",
+      "version": "90.0.4430.85",
+      "published": "2021-04-20T12:36:00.001-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Integer overflow in Mojo in Google Chrome prior to 90.0.4430.85 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:42:36.078968+00:00"
+    },
+    {
+      "cve": "CVE-2021-21225",
+      "issue_id": "1195977",
+      "version": "90.0.4430.85",
+      "published": "2021-04-20T12:36:00.001-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Out of bounds memory access in V8 in Google Chrome prior to 90.0.4430.85 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:42:44.827997+00:00"
+    },
+    {
+      "cve": "CVE-2021-21226",
+      "issue_id": "1197904",
+      "version": "90.0.4430.85",
+      "published": "2021-04-20T12:36:00.001-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in navigation in Google Chrome prior to 90.0.4430.85 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:42:54.044586+00:00"
+    },
+    {
+      "cve": "CVE-2021-30541",
+      "issue_id": "1214842",
+      "version": "91.0.4472.164",
+      "published": "2021-07-15T11:42:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in V8 in Google Chrome prior to 91.0.4472.164 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1214842\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:43:05.608697+00:00"
+    },
+    {
+      "cve": "CVE-2021-30544",
+      "issue_id": "1212618",
+      "version": "91.0.4472.101",
+      "published": "2021-06-09T11:41:00.001-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in BFCache in Google Chrome prior to 91.0.4472.101 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:43:13.740988+00:00"
+    },
+    {
+      "cve": "CVE-2021-30545",
+      "issue_id": "1201031",
+      "version": "91.0.4472.101",
+      "published": "2021-06-09T11:41:00.001-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Extensions in Google Chrome prior to 91.0.4472.101 allowed a remote attacker who had compromised the renderer process to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:43:21.446844+00:00"
+    },
+    {
+      "cve": "CVE-2021-30546",
+      "issue_id": "1206911",
+      "version": "91.0.4472.101",
+      "published": "2021-06-09T11:41:00.001-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Autofill in Google Chrome prior to 91.0.4472.101 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1206911\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:43:31.293707+00:00"
+    },
+    {
+      "cve": "CVE-2021-30547",
+      "issue_id": "1210414",
+      "version": "91.0.4472.101",
+      "published": "2021-06-09T11:41:00.001-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Out of bounds write in ANGLE in Google Chrome prior to 91.0.4472.101 allowed a remote attacker to potentially perform out of bounds memory access via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:43:40.106046+00:00"
+    },
+    {
+      "cve": "CVE-2021-30548",
+      "issue_id": "1210487",
+      "version": "91.0.4472.101",
+      "published": "2021-06-09T11:41:00.001-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Loader in Google Chrome prior to 91.0.4472.101 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1210487\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:43:51.967656+00:00"
+    },
+    {
+      "cve": "CVE-2021-30549",
+      "issue_id": "1212498",
+      "version": "91.0.4472.101",
+      "published": "2021-06-09T11:41:00.001-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Spell check in Google Chrome prior to 91.0.4472.101 allowed an attacker who convinced a user to install a malicious extension to potentially exploit heap corruption via a crafted ...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:43:59.986515+00:00"
+    },
+    {
+      "cve": "CVE-2021-30550",
+      "issue_id": "1212500",
+      "version": "91.0.4472.101",
+      "published": "2021-06-09T11:41:00.001-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Accessibility in Google Chrome prior to 91.0.4472.101 allowed an attacker who convinced a user to install a malicious extension to potentially exploit heap corruption via a crafte...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1212500\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:44:08.021991+00:00"
+    },
+    {
+      "cve": "CVE-2021-30552",
+      "issue_id": "1200679",
+      "version": "91.0.4472.101",
+      "published": "2021-06-09T11:41:00.001-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Extensions in Google Chrome prior to 91.0.4472.101 allowed an attacker who convinced a user to install a malicious extension to potentially exploit heap corruption via a crafted H...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:44:15.791954+00:00"
+    },
+    {
+      "cve": "CVE-2021-30553",
+      "issue_id": "1209769",
+      "version": "91.0.4472.101",
+      "published": "2021-06-09T11:41:00.001-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Network service in Google Chrome prior to 91.0.4472.101 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:44:23.376415+00:00"
+    },
+    {
+      "cve": "CVE-2021-30555",
+      "issue_id": "1215029",
+      "version": "91.0.4472.114",
+      "published": "2021-06-17T12:11:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Sharing in Google Chrome prior to 91.0.4472.114 allowed an attacker who convinced a user to install a malicious extension to potentially exploit heap corruption via a crafted HTML...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:44:32.165003+00:00"
+    },
+    {
+      "cve": "CVE-2021-30556",
+      "issue_id": "1212599",
+      "version": "91.0.4472.114",
+      "published": "2021-06-17T12:11:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in WebAudio in Google Chrome prior to 91.0.4472.114 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:44:42.107286+00:00"
+    },
+    {
+      "cve": "CVE-2021-30557",
+      "issue_id": "1202102",
+      "version": "91.0.4472.114",
+      "published": "2021-06-17T12:11:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in TabGroups in Google Chrome prior to 91.0.4472.114 allowed an attacker who convinced a user to install a malicious extension to potentially exploit heap corruption via a crafted HT...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:44:50.487026+00:00"
+    },
+    {
+      "cve": "CVE-2021-30559",
+      "issue_id": "1219082",
+      "version": "91.0.4472.164",
+      "published": "2021-07-15T11:42:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Out of bounds write in ANGLE in Google Chrome prior to 91.0.4472.164 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:44:58.836993+00:00"
+    },
+    {
+      "cve": "CVE-2021-30560",
+      "issue_id": "1219209",
+      "version": "91.0.4472.164",
+      "published": "2021-07-15T11:42:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Blink XSLT in Google Chrome prior to 91.0.4472.164 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1219209\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:45:08.348788+00:00"
+    },
+    {
+      "cve": "CVE-2021-30561",
+      "issue_id": "1219630",
+      "version": "91.0.4472.164",
+      "published": "2021-07-15T11:42:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Type Confusion in V8 in Google Chrome prior to 91.0.4472.164 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:45:15.754563+00:00"
+    },
+    {
+      "cve": "CVE-2021-30562",
+      "issue_id": "1220078",
+      "version": "91.0.4472.164",
+      "published": "2021-07-15T11:42:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in WebSerial in Google Chrome prior to 91.0.4472.164 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1220078\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:45:24.177120+00:00"
+    },
+    {
+      "cve": "CVE-2021-30564",
+      "issue_id": "1221309",
+      "version": "91.0.4472.164",
+      "published": "2021-07-15T11:42:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Heap buffer overflow in WebXR in Google Chrome prior to 91.0.4472.164 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1221309\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:45:35.825374+00:00"
+    },
+    {
+      "cve": "CVE-2021-30625",
+      "issue_id": "1237533",
+      "version": "93.0.4577.82",
+      "published": "2021-09-13T13:23:00.004-07:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Use after free in Selection API in Google Chrome prior to 93.0.4577.82 allowed a remote attacker who convinced the user the visit a malicious website to potentially exploit heap corruption via a cr...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:45:43.408875+00:00"
+    },
+    {
+      "cve": "CVE-2021-30626",
+      "issue_id": "1241036",
+      "version": "93.0.4577.82",
+      "published": "2021-09-13T13:23:00.004-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Out of bounds memory access in ANGLE in Google Chrome prior to 93.0.4577.82 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1241036\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:45:51.839301+00:00"
+    },
+    {
+      "cve": "CVE-2021-30627",
+      "issue_id": "1245786",
+      "version": "93.0.4577.82",
+      "published": "2021-09-13T13:23:00.004-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Type confusion in Blink layout in Google Chrome prior to 93.0.4577.82 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:46:00.833645+00:00"
+    },
+    {
+      "cve": "CVE-2021-30628",
+      "issue_id": "1241123",
+      "version": "93.0.4577.82",
+      "published": "2021-09-13T13:23:00.004-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Stack buffer overflow in ANGLE in Google Chrome prior to 93.0.4577.82 allowed a remote attacker to potentially exploit stack corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:46:08.792091+00:00"
+    },
+    {
+      "cve": "CVE-2021-30629",
+      "issue_id": "1243646",
+      "version": "93.0.4577.82",
+      "published": "2021-09-13T13:23:00.004-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Permissions in Google Chrome prior to 93.0.4577.82 allowed a remote attacker who had compromised the renderer process to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1243646\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:46:19.657783+00:00"
+    },
+    {
+      "cve": "CVE-2021-30630",
+      "issue_id": "1244568",
+      "version": "93.0.4577.82",
+      "published": "2021-09-13T13:23:00.004-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Inappropriate implementation in Blink in Google Chrome prior to 93.0.4577.82 allowed a remote attacker who had compromised the renderer process to leak cross-origin data via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:46:27.516622+00:00"
+    },
+    {
+      "cve": "CVE-2021-37974",
+      "issue_id": "1245578",
+      "version": "94.0.4606.71",
+      "published": "2021-09-30T12:13:00.002-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Safebrowsing in Google Chrome prior to 94.0.4606.71 allowed a remote attacker who had compromised the renderer process to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1245578\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:46:36.886234+00:00"
+    },
+    {
+      "cve": "CVE-2021-37997",
+      "issue_id": "1259864",
+      "version": "95.0.4638.69",
+      "published": "2021-10-28T14:00:00.003-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Sign-In in Google Chrome prior to 95.0.4638.69 allowed a remote attacker who convinced a user to sign into Chrome to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1259864\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:46:46.332307+00:00"
+    },
+    {
+      "cve": "CVE-2021-37998",
+      "issue_id": "1259587",
+      "version": "95.0.4638.69",
+      "published": "2021-10-28T14:00:00.003-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Garbage Collection in Google Chrome prior to 95.0.4638.69 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:46:54.069816+00:00"
+    },
+    {
+      "cve": "CVE-2021-37999",
+      "issue_id": "1251541",
+      "version": "95.0.4638.69",
+      "published": "2021-10-28T14:00:00.003-07:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Insufficient data validation in New Tab Page in Google Chrome prior to 95.0.4638.69 allowed a remote attacker to inject arbitrary scripts or HTML in a new browser tab via a crafted HTML page.",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1251541\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:47:04.775802+00:00"
+    },
+    {
+      "cve": "CVE-2021-38001",
+      "issue_id": "1260577",
+      "version": "95.0.4638.69",
+      "published": "2021-10-28T14:00:00.003-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Type confusion in V8 in Google Chrome prior to 95.0.4638.69 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:47:14.287144+00:00"
+    },
+    {
+      "cve": "CVE-2021-38002",
+      "issue_id": "1260940",
+      "version": "95.0.4638.69",
+      "published": "2021-10-28T14:00:00.003-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Web Transport in Google Chrome prior to 95.0.4638.69 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:47:22.695707+00:00"
+    },
+    {
+      "cve": "CVE-2021-38004",
+      "issue_id": "1227170",
+      "version": "95.0.4638.69",
+      "published": "2021-10-28T14:00:00.003-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Insufficient policy enforcement in Autofill in Google Chrome prior to 95.0.4638.69 allowed a remote attacker to leak cross-origin data via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:47:30.765877+00:00"
+    },
+    {
+      "cve": "CVE-2021-4098",
+      "issue_id": "1263457",
+      "version": "96.0.4664.110",
+      "published": "2021-12-13T12:08:00.000-08:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Insufficient data validation in Mojo in Google Chrome prior to 96.0.4664.110 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1263457\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:47:38.863791+00:00"
+    },
+    {
+      "cve": "CVE-2021-4099",
+      "issue_id": "1270658",
+      "version": "96.0.4664.110",
+      "published": "2021-12-13T12:08:00.000-08:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Swiftshader in Google Chrome prior to 96.0.4664.110 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1270658\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:47:47.489083+00:00"
+    },
+    {
+      "cve": "CVE-2021-4100",
+      "issue_id": "1272068",
+      "version": "96.0.4664.110",
+      "published": "2021-12-13T12:08:00.000-08:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Object lifecycle issue in ANGLE in Google Chrome prior to 96.0.4664.110 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:47:56.072636+00:00"
+    },
+    {
+      "cve": "CVE-2021-4101",
+      "issue_id": "1262080",
+      "version": "96.0.4664.110",
+      "published": "2021-12-13T12:08:00.000-08:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Heap buffer overflow in Swiftshader in Google Chrome prior to 96.0.4664.110 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:48:03.905424+00:00"
+    },
+    {
+      "cve": "CVE-2021-4319",
+      "issue_id": "1214199",
+      "version": "93.0.4577.82",
+      "published": "2021-09-13T13:23:00.004-07:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Use after free in Blink in Google Chrome prior to 93.0.4577.82 allowed a remote attacker to perform arbitrary read/write via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:48:14.582613+00:00"
+    },
+    {
+      "cve": "CVE-2022-0603",
+      "issue_id": "1290008",
+      "version": "98.0.4758.102",
+      "published": "2022-02-14T12:52:00.005-08:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in File Manager in Google Chrome on Chrome OS prior to 98.0.4758.102 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:48:22.099064+00:00"
+    },
+    {
+      "cve": "CVE-2022-0604",
+      "issue_id": "1273397",
+      "version": "98.0.4758.102",
+      "published": "2022-02-14T12:52:00.005-08:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Heap buffer overflow in Tab Groups in Google Chrome prior to 98.0.4758.102 allowed an attacker who convinced a user to install a malicious extension and engage in specific user interaction to poten...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1273397\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:48:31.539886+00:00"
+    },
+    {
+      "cve": "CVE-2022-0605",
+      "issue_id": "1286940",
+      "version": "98.0.4758.102",
+      "published": "2022-02-14T12:52:00.005-08:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Webstore API in Google Chrome prior to 98.0.4758.102 allowed an attacker who convinced a user to install a malicious extension and convinced a user to enage in specific user inter...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1286940\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:48:42.861312+00:00"
+    },
+    {
+      "cve": "CVE-2022-0606",
+      "issue_id": "1288020",
+      "version": "98.0.4758.102",
+      "published": "2022-02-14T12:52:00.005-08:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in ANGLE in Google Chrome prior to 98.0.4758.102 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:48:50.855755+00:00"
+    },
+    {
+      "cve": "CVE-2022-0607",
+      "issue_id": "1250655",
+      "version": "98.0.4758.102",
+      "published": "2022-02-14T12:52:00.005-08:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in GPU in Google Chrome prior to 98.0.4758.102 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:48:58.938750+00:00"
+    },
+    {
+      "cve": "CVE-2022-0608",
+      "issue_id": "1270333",
+      "version": "98.0.4758.102",
+      "published": "2022-02-14T12:52:00.005-08:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Integer overflow in Mojo in Google Chrome prior to 98.0.4758.102 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:49:07.550150+00:00"
+    },
+    {
+      "cve": "CVE-2022-0610",
+      "issue_id": "1285449",
+      "version": "98.0.4758.102",
+      "published": "2022-02-14T12:52:00.005-08:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Inappropriate implementation in Gamepad API in Google Chrome prior to 98.0.4758.102 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:49:16.460315+00:00"
+    },
+    {
+      "cve": "CVE-2022-2295",
+      "issue_id": "1336869",
+      "version": "103.0.5060.114",
+      "published": "2022-07-04T09:36:00.004-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Type confusion in V8 in Google Chrome prior to 103.0.5060.114 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:49:22.474581+00:00"
+    },
+    {
+      "cve": "CVE-2022-2296",
+      "issue_id": "1327087",
+      "version": "103.0.5060.114",
+      "published": "2022-07-04T09:36:00.004-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Chrome OS Shell in Google Chrome on Chrome OS prior to 103.0.5060.114 allowed a remote attacker who convinced a user to engage in specific user interactions to potentially exploit...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:49:31.314752+00:00"
+    },
+    {
+      "cve": "CVE-2022-2852",
+      "issue_id": "1349322",
+      "version": "104.0.5112.101",
+      "published": "2022-08-16T13:56:00.002-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in FedCM in Google Chrome prior to 104.0.5112.101 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1349322\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:49:37.392635+00:00"
+    },
+    {
+      "cve": "CVE-2022-2853",
+      "issue_id": "1350097",
+      "version": "104.0.5112.101",
+      "published": "2022-08-16T13:56:00.002-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Heap buffer overflow in Downloads in Google Chrome on Android prior to 104.0.5112.101 allowed a remote attacker who had compromised the renderer process to potentially exploit heap corruption via a...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1350097\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:49:43.700395+00:00"
+    },
+    {
+      "cve": "CVE-2022-2854",
+      "issue_id": "1337538",
+      "version": "104.0.5112.101",
+      "published": "2022-08-16T13:56:00.002-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in SwiftShader in Google Chrome prior to 104.0.5112.101 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:49:49.724560+00:00"
+    },
+    {
+      "cve": "CVE-2022-2855",
+      "issue_id": "1345042",
+      "version": "104.0.5112.101",
+      "published": "2022-08-16T13:56:00.002-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in ANGLE in Google Chrome prior to 104.0.5112.101 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:49:55.878528+00:00"
+    },
+    {
+      "cve": "CVE-2022-2857",
+      "issue_id": "1338135",
+      "version": "104.0.5112.101",
+      "published": "2022-08-16T13:56:00.002-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Blink in Google Chrome prior to 104.0.5112.101 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:50:04.663913+00:00"
+    },
+    {
+      "cve": "CVE-2022-2858",
+      "issue_id": "1341918",
+      "version": "104.0.5112.101",
+      "published": "2022-08-16T13:56:00.002-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Sign-In Flow in Google Chrome prior to 104.0.5112.101 allowed a remote attacker to potentially exploit heap corruption via specific UI interaction.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:50:12.421692+00:00"
+    },
+    {
+      "cve": "CVE-2022-2859",
+      "issue_id": "1338412",
+      "version": "104.0.5112.101",
+      "published": "2022-08-16T13:56:00.002-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Chrome OS Shell in Google Chrome prior to 104.0.5112.101 allowed a remote attacker who convinced a user to engage in specific UI interactions to potentially exploit heap corruptio...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:50:20.677614+00:00"
+    },
+    {
+      "cve": "CVE-2022-2860",
+      "issue_id": "1345193",
+      "version": "104.0.5112.101",
+      "published": "2022-08-16T13:56:00.002-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Insufficient policy enforcement in Cookies in Google Chrome prior to 104.0.5112.101 allowed a remote attacker to bypass cookie prefix restrictions via a crafted HTML page.",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:50:28.833211+00:00"
+    },
+    {
+      "cve": "CVE-2022-2998",
+      "issue_id": "1329794",
+      "version": "104.0.5112.101",
+      "published": "2022-08-16T13:56:00.002-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Browser Creation in Google Chrome prior to 104.0.5112.101 allowed a remote attacker who had convinced a user to engage in a specific UI interaction to potentially exploit heap cor...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:50:37.758798+00:00"
+    },
+    {
+      "cve": "CVE-2023-2133",
+      "issue_id": "1429197",
+      "version": "112.0.5615.137",
+      "published": "2023-04-18T16:03:00.001-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Out of bounds memory access in Service Worker API in Google Chrome prior to 112.0.5615.137 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium securi...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:50:45.722344+00:00"
+    },
+    {
+      "cve": "CVE-2023-2134",
+      "issue_id": "1429201",
+      "version": "112.0.5615.137",
+      "published": "2023-04-18T16:03:00.001-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Out of bounds memory access in Service Worker API in Google Chrome prior to 112.0.5615.137 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium securi...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1429201\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:50:54.234297+00:00"
+    },
+    {
+      "cve": "CVE-2023-2135",
+      "issue_id": "1424337",
+      "version": "112.0.5615.137",
+      "published": "2023-04-18T16:03:00.001-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in DevTools in Google Chrome prior to 112.0.5615.137 allowed a remote attacker who convinced a user to enable specific preconditions to potentially exploit heap corruption via a craf...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:51:02.395223+00:00"
+    },
+    {
+      "cve": "CVE-2023-2137",
+      "issue_id": "1430644",
+      "version": "112.0.5615.137",
+      "published": "2023-04-18T16:03:00.001-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Heap buffer overflow in sqlite in Google Chrome prior to 112.0.5615.137 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Medium)",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:51:10.383864+00:00"
+    },
+    {
+      "cve": "CVE-2023-4900",
+      "issue_id": "1430867",
+      "version": "117.0.5938.62",
+      "published": "2023-09-12T13:33:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Inappropriate implementation in Custom Tabs in Google Chrome on Android prior to 117.0.5938.62 allowed a remote attacker to obfuscate a permission prompt via a crafted HTML page. (Chromium security...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:51:19.083716+00:00"
+    },
+    {
+      "cve": "CVE-2023-4901",
+      "issue_id": "1459281",
+      "version": "117.0.5938.62",
+      "published": "2023-09-12T13:33:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Inappropriate implementation in Prompts in Google Chrome prior to 117.0.5938.62 allowed a remote attacker to potentially spoof security UI via a crafted HTML page. (Chromium security severity: Medium)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1459281\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:51:28.551340+00:00"
+    },
+    {
+      "cve": "CVE-2023-4902",
+      "issue_id": "1454515",
+      "version": "117.0.5938.62",
+      "published": "2023-09-12T13:33:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Inappropriate implementation in Input in Google Chrome prior to 117.0.5938.62 allowed a remote attacker to spoof security UI via a crafted HTML page. (Chromium security severity: Medium)",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:51:36.400125+00:00"
+    },
+    {
+      "cve": "CVE-2023-4903",
+      "issue_id": "1446709",
+      "version": "117.0.5938.62",
+      "published": "2023-09-12T13:33:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Inappropriate implementation in Custom Mobile Tabs in Google Chrome on Android prior to 117.0.5938.62 allowed a remote attacker to spoof security UI via a crafted HTML page. (Chromium security seve...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1446709\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:51:44.542365+00:00"
+    },
+    {
+      "cve": "CVE-2023-4905",
+      "issue_id": "1441228",
+      "version": "117.0.5938.62",
+      "published": "2023-09-12T13:33:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Inappropriate implementation in Prompts in Google Chrome prior to 117.0.5938.62 allowed a remote attacker to spoof security UI via a crafted HTML page. (Chromium security severity: Medium)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1441228\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:51:53.160321+00:00"
+    },
+    {
+      "cve": "CVE-2023-4906",
+      "issue_id": "1449874",
+      "version": "117.0.5938.62",
+      "published": "2023-09-12T13:33:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Insufficient policy enforcement in Autofill in Google Chrome prior to 117.0.5938.62 allowed a remote attacker to bypass Autofill restrictions via a crafted HTML page. (Chromium security severity: Low)",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:52:01.102690+00:00"
+    },
+    {
+      "cve": "CVE-2023-4907",
+      "issue_id": "1462104",
+      "version": "117.0.5938.62",
+      "published": "2023-09-12T13:33:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Inappropriate implementation in Intents in Google Chrome on Android prior to 117.0.5938.62 allowed a remote attacker to obfuscate security UI via a crafted HTML page. (Chromium security severity: Low)",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:52:08.869605+00:00"
+    },
+    {
+      "cve": "CVE-2023-4908",
+      "issue_id": "1451543",
+      "version": "117.0.5938.62",
+      "published": "2023-09-12T13:33:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Inappropriate implementation in Picture in Picture in Google Chrome prior to 117.0.5938.62 allowed a remote attacker to spoof security UI via a crafted HTML page. (Chromium security severity: Low)",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:52:17.260699+00:00"
+    },
+    {
+      "cve": "CVE-2023-4909",
+      "issue_id": "1463293",
+      "version": "117.0.5938.62",
+      "published": "2023-09-12T13:33:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Inappropriate implementation in Interstitials in Google Chrome prior to 117.0.5938.62 allowed a remote attacker to obfuscate security UI via a crafted HTML page. (Chromium security severity: Low)",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:52:24.689124+00:00"
+    },
+    {
+      "cve": "CVE-2023-5186",
+      "issue_id": "1478889",
+      "version": "117.0.5938.132",
+      "published": "2023-09-27T13:37:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Passwords in Google Chrome prior to 117.0.5938.132 allowed a remote attacker who convinced a user to engage in specific UI interaction to potentially exploit heap corruption via c...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1478889\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:52:33.097111+00:00"
+    },
+    {
+      "cve": "CVE-2023-5187",
+      "issue_id": "1475798",
+      "version": "117.0.5938.132",
+      "published": "2023-09-27T13:37:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Extensions in Google Chrome prior to 117.0.5938.132 allowed an attacker who convinced a user to install a malicious extension to potentially exploit heap corruption via a crafted ...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:52:40.385262+00:00"
+    },
+    {
+      "cve": "CVE-2023-6346",
+      "issue_id": "1500856",
+      "version": "119.0.6045.199",
+      "published": "2023-11-28T11:50:00.000-08:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in WebAudio in Google Chrome prior to 119.0.6045.199 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:52:48.391687+00:00"
+    },
+    {
+      "cve": "CVE-2023-6347",
+      "issue_id": "1494461",
+      "version": "119.0.6045.199",
+      "published": "2023-11-28T11:50:00.000-08:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Mojo in Google Chrome prior to 119.0.6045.199 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:52:59.471358+00:00"
+    },
+    {
+      "cve": "CVE-2023-6348",
+      "issue_id": "1491459",
+      "version": "119.0.6045.199",
+      "published": "2023-11-28T11:50:00.000-08:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Type Confusion in Spellcheck in Google Chrome prior to 119.0.6045.199 allowed a remote attacker who had compromised the renderer process to potentially exploit heap corruption via a crafted HTML pa...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1491459\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:53:08.739251+00:00"
+    },
+    {
+      "cve": "CVE-2023-6350",
+      "issue_id": "1501766",
+      "version": "119.0.6045.199",
+      "published": "2023-11-28T11:50:00.000-08:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in libavif in Google Chrome prior to 119.0.6045.199 allowed a remote attacker to potentially exploit heap corruption via a crafted avif file. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1501766\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T12:53:18.003676+00:00"
+    },
+    {
+      "cve": "CVE-2023-6351",
+      "issue_id": "1501770",
+      "version": "119.0.6045.199",
+      "published": "2023-11-28T11:50:00.000-08:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in libavif in Google Chrome prior to 119.0.6045.199 allowed a remote attacker to potentially exploit heap corruption via a crafted avif file. (Chromium security severity: High)",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:53:27.195631+00:00"
+    },
+    {
+      "cve": "CVE-2023-7010",
+      "issue_id": "40070891",
+      "version": "117.0.5938.62",
+      "published": "2023-09-12T13:33:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Use after free in WebRTC in Google Chrome prior to 117.0.5938.62 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Resources"
+      },
+      "checked_at": "2026-08-30T12:53:34.603786+00:00"
+    },
+    {
+      "cve": "CVE-2023-7012",
+      "issue_id": "40061509",
+      "version": "117.0.5938.62",
+      "published": "2023-09-12T13:33:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Insufficient data validation in Permission Prompts in Google Chrome prior to 117.0.5938.62 allowed an attacker who convinced a user to install a malicious app to potentially perform a sandbox escap...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(3)"
+      },
+      "checked_at": "2026-08-30T12:53:48.880481+00:00"
+    },
+    {
+      "cve": "CVE-2024-0517",
+      "issue_id": "1515930",
+      "version": "120.0.6099.234",
+      "published": "2024-01-16T10:11:00.001-08:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Out of bounds write in V8 in Google Chrome prior to 120.0.6099.224 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:53:56.761943+00:00"
+    },
+    {
+      "cve": "CVE-2024-0518",
+      "issue_id": "1507412",
+      "version": "120.0.6099.234",
+      "published": "2024-01-16T10:11:00.001-08:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Type confusion in V8 in Google Chrome prior to 120.0.6099.224 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:54:05.610311+00:00"
+    },
+    {
+      "cve": "CVE-2024-13178",
+      "issue_id": "40068607",
+      "version": "128.0.6613.84",
+      "published": "2024-08-21T12:29:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Inappropriate implementation in Fullscreen in Google Chrome prior to 128.0.6613.84 allowed a remote attacker to perform UI spoofing via a crafted HTML page. (Chromium security severity: Medium)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(8)"
+      },
+      "checked_at": "2026-08-30T12:54:19.504135+00:00"
+    },
+    {
+      "cve": "CVE-2024-3176",
+      "issue_id": "40061476",
+      "version": "117.0.5938.62",
+      "published": "2023-09-12T13:33:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Out of bounds write in SwiftShader in Google Chrome prior to 117.0.5938.62 allowed a remote attacker to perform an out of bounds memory write via a crafted HTML page. (Chromium security severity: H...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(0)"
+      },
+      "checked_at": "2026-08-30T12:54:33.722743+00:00"
+    },
+    {
+      "cve": "CVE-2024-4948",
+      "issue_id": "333414294",
+      "version": "125.0.6422.60",
+      "published": "2024-05-15T13:24:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Use after free in Dawn in Google Chrome prior to 125.0.6422.60 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(28)"
+      },
+      "checked_at": "2026-08-30T12:54:46.471785+00:00"
+    },
+    {
+      "cve": "CVE-2024-4949",
+      "issue_id": "326607001",
+      "version": "125.0.6422.60",
+      "published": "2024-05-15T13:24:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Use after free in V8 in Google Chrome prior to 125.0.6422.60 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Medium)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(19)"
+      },
+      "checked_at": "2026-08-30T12:54:56.968984+00:00"
+    },
+    {
+      "cve": "CVE-2024-7964",
+      "issue_id": "358296941",
+      "version": "128.0.6613.84",
+      "published": "2024-08-21T12:29:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Passwords in Google Chrome on Android prior to 128.0.6613.84 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity:...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(22)"
+      },
+      "checked_at": "2026-08-30T12:55:08.022666+00:00"
+    },
+    {
+      "cve": "CVE-2024-7966",
+      "issue_id": "355465305",
+      "version": "128.0.6613.84",
+      "published": "2024-08-21T12:29:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Out of bounds memory access in Skia in Google Chrome prior to 128.0.6613.84 allowed a remote attacker who had compromised the renderer process to perform out of bounds memory access via a crafted H...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(68)"
+      },
+      "checked_at": "2026-08-30T12:55:19.738629+00:00"
+    },
+    {
+      "cve": "CVE-2024-7967",
+      "issue_id": "355731798",
+      "version": "128.0.6613.84",
+      "published": "2024-08-21T12:29:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Heap buffer overflow in Fonts in Google Chrome prior to 128.0.6613.84 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(97)"
+      },
+      "checked_at": "2026-08-30T12:55:34.304788+00:00"
+    },
+    {
+      "cve": "CVE-2024-7968",
+      "issue_id": "349253666",
+      "version": "128.0.6613.84",
+      "published": "2024-08-21T12:29:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Autofill in Google Chrome prior to 128.0.6613.84 allowed a remote attacker who had convinced the user to engage in specific UI interactions to potentially exploit heap corruption ...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(5)"
+      },
+      "checked_at": "2026-08-30T12:55:49.186843+00:00"
+    },
+    {
+      "cve": "CVE-2024-7972",
+      "issue_id": "345960102",
+      "version": "128.0.6613.84",
+      "published": "2024-08-21T12:29:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Inappropriate implementation in V8 in Google Chrome prior to 128.0.6613.84 allowed a remote attacker to potentially perform out of bounds memory access via a crafted HTML page. (Chromium security s...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(10)"
+      },
+      "checked_at": "2026-08-30T12:56:00.049857+00:00"
+    },
+    {
+      "cve": "CVE-2024-7973",
+      "issue_id": "345518608",
+      "version": "128.0.6613.84",
+      "published": "2024-08-21T12:29:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Heap buffer overflow in PDFium in Google Chrome prior to 128.0.6613.84 allowed a remote attacker to perform an out of bounds memory read via a crafted PDF file. (Chromium security severity: Medium)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(17)"
+      },
+      "checked_at": "2026-08-30T12:56:13.099852+00:00"
+    },
+    {
+      "cve": "CVE-2024-7974",
+      "issue_id": "339141099",
+      "version": "128.0.6613.84",
+      "published": "2024-08-21T12:29:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Insufficient data validation in V8 API in Google Chrome prior to 128.0.6613.84 allowed a remote attacker to potentially exploit heap corruption via a crafted Chrome Extension. (Chromium security se...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(19)"
+      },
+      "checked_at": "2026-08-30T12:56:25.448054+00:00"
+    },
+    {
+      "cve": "CVE-2024-7975",
+      "issue_id": "347588491",
+      "version": "128.0.6613.84",
+      "published": "2024-08-21T12:29:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Inappropriate implementation in Permissions in Google Chrome prior to 128.0.6613.84 allowed a remote attacker to perform UI spoofing via a crafted HTML page. (Chromium security severity: Medium)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(10)"
+      },
+      "checked_at": "2026-08-30T12:56:40.381333+00:00"
+    },
+    {
+      "cve": "CVE-2024-7976",
+      "issue_id": "339654392",
+      "version": "128.0.6613.84",
+      "published": "2024-08-21T12:29:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Inappropriate implementation in FedCM in Google Chrome prior to 128.0.6613.84 allowed a remote attacker to perform UI spoofing via a crafted HTML page. (Chromium security severity: Medium)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(38)"
+      },
+      "checked_at": "2026-08-30T12:56:52.656844+00:00"
+    },
+    {
+      "cve": "CVE-2024-7977",
+      "issue_id": "324770940",
+      "version": "128.0.6613.84",
+      "published": "2024-08-21T12:29:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Insufficient data validation in Installer in Google Chrome on Windows prior to 128.0.6613.84 allowed a local attacker to perform privilege escalation via a malicious file. (Chromium security severi...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(26)"
+      },
+      "checked_at": "2026-08-30T12:57:03.868615+00:00"
+    },
+    {
+      "cve": "CVE-2024-7979",
+      "issue_id": "356064205",
+      "version": "128.0.6613.84",
+      "published": "2024-08-21T12:29:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Insufficient data validation in Installer in Google Chrome on Windows prior to 128.0.6613.84 allowed a local attacker to perform privilege escalation via a crafted symbolic link. (Chromium security...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(24)"
+      },
+      "checked_at": "2026-08-30T12:57:15.750084+00:00"
+    },
+    {
+      "cve": "CVE-2024-7980",
+      "issue_id": "356328460",
+      "version": "128.0.6613.84",
+      "published": "2024-08-21T12:29:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Insufficient data validation in Installer in Google Chrome on Windows prior to 128.0.6613.84 allowed a local attacker to perform privilege escalation via a crafted symbolic link. (Chromium security...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(21)"
+      },
+      "checked_at": "2026-08-30T12:57:28.785527+00:00"
+    },
+    {
+      "cve": "CVE-2024-7981",
+      "issue_id": "40067456",
+      "version": "128.0.6613.84",
+      "published": "2024-08-21T12:29:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Inappropriate implementation in Views in Google Chrome prior to 128.0.6613.84 allowed a remote attacker to perform UI spoofing via a crafted HTML page. (Chromium security severity: Low)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(2)"
+      },
+      "checked_at": "2026-08-30T12:57:41.444516+00:00"
+    },
+    {
+      "cve": "CVE-2024-8033",
+      "issue_id": "350256139",
+      "version": "128.0.6613.84",
+      "published": "2024-08-21T12:29:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Inappropriate implementation in WebApp Installs in Google Chrome on Windows prior to 128.0.6613.84 allowed an attacker who convinced a user to install a malicious application to perform UI spoofing...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(10)"
+      },
+      "checked_at": "2026-08-30T12:57:54.883965+00:00"
+    },
+    {
+      "cve": "CVE-2024-8034",
+      "issue_id": "353858776",
+      "version": "128.0.6613.84",
+      "published": "2024-08-21T12:29:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Inappropriate implementation in Custom Tabs in Google Chrome on Android prior to 128.0.6613.84 allowed a remote attacker to perform UI spoofing via a crafted HTML page. (Chromium security severity:...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T12:58:02.813613+00:00"
+    },
+    {
+      "cve": "CVE-2024-8035",
+      "issue_id": "40059470",
+      "version": "128.0.6613.84",
+      "published": "2024-08-21T12:29:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Inappropriate implementation in Extensions in Google Chrome on Windows prior to 128.0.6613.84 allowed a remote attacker to perform UI spoofing via a crafted HTML page. (Chromium security severity: ...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Resources"
+      },
+      "checked_at": "2026-08-30T12:58:08.988182+00:00"
+    },
+    {
+      "cve": "CVE-2025-10500",
+      "issue_id": "435875050",
+      "version": "140.0.7339.185",
+      "published": "2025-09-17T16:16:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Dawn in Google Chrome prior to 140.0.7339.185 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(7)"
+      },
+      "checked_at": "2026-08-30T12:58:21.003890+00:00"
+    },
+    {
+      "cve": "CVE-2025-10501",
+      "issue_id": "440737137",
+      "version": "140.0.7339.185",
+      "published": "2025-09-17T16:16:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in WebRTC in Google Chrome prior to 140.0.7339.185 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(16)"
+      },
+      "checked_at": "2026-08-30T12:58:33.055313+00:00"
+    },
+    {
+      "cve": "CVE-2025-10502",
+      "issue_id": "438038775",
+      "version": "140.0.7339.185",
+      "published": "2025-09-17T16:16:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Heap buffer overflow in ANGLE in Google Chrome prior to 140.0.7339.185 allowed a remote attacker to potentially exploit heap corruption via malicious network traffic. (Chromium security severity: H...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(17)"
+      },
+      "checked_at": "2026-08-30T12:58:43.996925+00:00"
+    },
+    {
+      "cve": "CVE-2025-13224",
+      "issue_id": "450328966",
+      "version": "142.0.7444.175",
+      "published": "2025-11-17T13:00:00.000-08:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Type Confusion in V8 in Google Chrome prior to 142.0.7444.175 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(29)"
+      },
+      "checked_at": "2026-08-30T12:58:56.994801+00:00"
+    },
+    {
+      "cve": "CVE-2025-14372",
+      "issue_id": "460599518",
+      "version": "143.0.7499.109",
+      "published": "2025-12-10T10:25:00.000-08:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Password Manager in Google Chrome prior to 143.0.7499.110 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: M...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(15)"
+      },
+      "checked_at": "2026-08-30T12:59:09.647556+00:00"
+    },
+    {
+      "cve": "CVE-2025-14373",
+      "issue_id": "461532432",
+      "version": "143.0.7499.109",
+      "published": "2025-12-10T10:25:00.000-08:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Inappropriate implementation in Toolbar in Google Chrome on Android prior to 143.0.7499.110 allowed a remote attacker to perform domain spoofing via a crafted HTML page. (Chromium security severity...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(7)"
+      },
+      "checked_at": "2026-08-30T12:59:22.251727+00:00"
+    },
+    {
+      "cve": "CVE-2025-1920",
+      "issue_id": "398065918",
+      "version": "134.0.6998.88",
+      "published": "2025-03-10T13:04:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Type Confusion in V8 in Google Chrome prior to 134.0.6998.88 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(20)"
+      },
+      "checked_at": "2026-08-30T12:59:33.638852+00:00"
+    },
+    {
+      "cve": "CVE-2025-2135",
+      "issue_id": "400052777",
+      "version": "134.0.6998.88",
+      "published": "2025-03-10T13:04:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Type Confusion in V8 in Google Chrome prior to 134.0.6998.88 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(18)"
+      },
+      "checked_at": "2026-08-30T12:59:46.172480+00:00"
+    },
+    {
+      "cve": "CVE-2025-2136",
+      "issue_id": "395032416",
+      "version": "134.0.6998.88",
+      "published": "2025-03-10T13:04:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Inspector in Google Chrome prior to 134.0.6998.88 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Medium)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(9)"
+      },
+      "checked_at": "2026-08-30T12:59:55.930068+00:00"
+    },
+    {
+      "cve": "CVE-2025-2137",
+      "issue_id": "398999390",
+      "version": "134.0.6998.88",
+      "published": "2025-03-10T13:04:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Out of bounds read in V8 in Google Chrome prior to 134.0.6998.88 allowed a remote attacker to perform out of bounds memory access via a crafted HTML page. (Chromium security severity: Medium)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(9)"
+      },
+      "checked_at": "2026-08-30T13:00:08.043891+00:00"
+    },
+    {
+      "cve": "CVE-2025-4609",
+      "issue_id": "412578726",
+      "version": "136.0.7103.113",
+      "published": "2025-05-14T09:52:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Incorrect handle provided in unspecified circumstances in Mojo in Google Chrome on Windows prior to 136.0.7103.113 allowed a remote attacker to potentially perform a sandbox escape via a malicious ...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(10)"
+      },
+      "checked_at": "2026-08-30T13:00:21.048861+00:00"
+    },
+    {
+      "cve": "CVE-2025-4664",
+      "issue_id": "415810136",
+      "version": "136.0.7103.113",
+      "published": "2025-05-14T09:52:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Insufficient policy enforcement in Loader in Google Chrome prior to 136.0.7103.113 allowed a remote attacker to leak cross-origin data via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(31)"
+      },
+      "checked_at": "2026-08-30T13:00:33.111113+00:00"
+    },
+    {
+      "cve": "CVE-2025-5068",
+      "issue_id": "409059706",
+      "version": "137.0.7151.68",
+      "published": "2025-06-02T16:07:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Blink in Google Chrome prior to 137.0.7151.68 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Medium)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(46)"
+      },
+      "checked_at": "2026-08-30T13:00:57.114145+00:00"
+    },
+    {
+      "cve": "CVE-2025-7656",
+      "issue_id": "425583995",
+      "version": "138.0.7204.157",
+      "published": "2025-07-15T10:12:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Integer overflow in V8 in Google Chrome prior to 138.0.7204.157 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(15)"
+      },
+      "checked_at": "2026-08-30T13:01:08.609582+00:00"
+    },
+    {
+      "cve": "CVE-2025-7657",
+      "issue_id": "427681143",
+      "version": "138.0.7204.157",
+      "published": "2025-07-15T10:12:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in WebRTC in Google Chrome prior to 138.0.7204.157 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(17)"
+      },
+      "checked_at": "2026-08-30T13:01:20.431372+00:00"
+    },
+    {
+      "cve": "CVE-2026-11628",
+      "issue_id": "516501794",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Ozone in Google Chrome prior to 149.0.7827.103 allowed a local attacker to potentially exploit heap corruption via physical access to the device. (Chromium security severity: Crit...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T13:01:27.906838+00:00"
+    },
+    {
+      "cve": "CVE-2026-11629",
+      "issue_id": "516674532",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Ozone in Google Chrome prior to 149.0.7827.103 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Critical)",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T13:01:36.295793+00:00"
+    },
+    {
+      "cve": "CVE-2026-11630",
+      "issue_id": "516677924",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in File Input in Google Chrome prior to 149.0.7827.103 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Critical)",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T13:01:44.162023+00:00"
+    },
+    {
+      "cve": "CVE-2026-11631",
+      "issue_id": "516691130",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Aura in Google Chrome on Windows prior to 149.0.7827.103 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted H...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T13:01:52.112438+00:00"
+    },
+    {
+      "cve": "CVE-2026-11632",
+      "issue_id": "516707881",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in TabStrip in Google Chrome prior to 149.0.7827.103 allowed a remote attacker who convinced a user to engage in specific UI gestures to execute arbitrary code via a crafted HTML pag...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T13:01:59.935876+00:00"
+    },
+    {
+      "cve": "CVE-2026-11633",
+      "issue_id": "516963272",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Bluetooth in Google Chrome on Mac prior to 149.0.7827.103 allowed a remote attacker to execute arbitrary code via a malicious peripheral. (Chromium security severity: Critical)",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T13:02:07.978532+00:00"
+    },
+    {
+      "cve": "CVE-2026-11634",
+      "issue_id": "516975148",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Gamepad in Google Chrome on Windows prior to 149.0.7827.103 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity:...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T13:02:15.472806+00:00"
+    },
+    {
+      "cve": "CVE-2026-11635",
+      "issue_id": "516987814",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Bluetooth in Google Chrome on Mac prior to 149.0.7827.103 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted ...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T13:02:23.556942+00:00"
+    },
+    {
+      "cve": "CVE-2026-11636",
+      "issue_id": "517023053",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Autofill in Google Chrome on Windows prior to 149.0.7827.103 allowed a remote attacker who convinced a user to engage in specific UI gestures to potentially exploit heap corruptio...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T13:02:32.017458+00:00"
+    },
+    {
+      "cve": "CVE-2026-11637",
+      "issue_id": "517040438",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Views in Google Chrome on Mac prior to 149.0.7827.103 allowed a remote attacker to execute arbitrary code via a crafted HTML page. (Chromium security severity: Critical)",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T13:02:39.933648+00:00"
+    },
+    {
+      "cve": "CVE-2026-11638",
+      "issue_id": "517047197",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Printing in Google Chrome prior to 149.0.7827.103 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: Critical)",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T13:02:48.350953+00:00"
+    },
+    {
+      "cve": "CVE-2026-11639",
+      "issue_id": "517227707",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Compositing in Google Chrome on Mac prior to 149.0.7827.103 allowed a remote attacker to execute arbitrary code via a crafted HTML page. (Chromium security severity: Critical)",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T13:02:56.705859+00:00"
+    },
+    {
+      "cve": "CVE-2026-11640",
+      "issue_id": "517339758",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Integer overflow in libyuv in Google Chrome prior to 149.0.7827.103 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML pag...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T13:03:04.297940+00:00"
+    },
+    {
+      "cve": "CVE-2026-11641",
+      "issue_id": "517418936",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Bluetooth in Google Chrome on Windows prior to 149.0.7827.103 allowed a remote attacker who convinced a user to engage in specific UI gestures to execute arbitrary code via a craf...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T13:03:11.999739+00:00"
+    },
+    {
+      "cve": "CVE-2026-11642",
+      "issue_id": "517678820",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Web Apps in Google Chrome prior to 149.0.7827.103 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML pag...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T13:03:20.377778+00:00"
+    },
+    {
+      "cve": "CVE-2026-11643",
+      "issue_id": "518006379",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Proxy in Google Chrome prior to 149.0.7827.103 allowed a remote attacker to execute arbitrary code via malicious network traffic. (Chromium security severity: Critical)",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T13:03:28.107444+00:00"
+    },
+    {
+      "cve": "CVE-2026-11644",
+      "issue_id": "518043597",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Views in Google Chrome on Linux prior to 149.0.7827.103 allowed an attacker who convinced a user to install a malicious extension to execute arbitrary code via a crafted Chrome Ex...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T13:03:36.449077+00:00"
+    },
+    {
+      "cve": "CVE-2026-11646",
+      "issue_id": "517168239",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in ViewTransitions in Google Chrome prior to 149.0.7827.103 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity:...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T13:03:44.388974+00:00"
+    },
+    {
+      "cve": "CVE-2026-11647",
+      "issue_id": "502156940",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Printing in Google Chrome on Android prior to 149.0.7827.103 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a craft...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(9)"
+      },
+      "checked_at": "2026-08-30T13:03:59.000935+00:00"
+    },
+    {
+      "cve": "CVE-2026-11648",
+      "issue_id": "506684534",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in FullScreen in Google Chrome on Windows prior to 149.0.7827.103 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severit...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(12)"
+      },
+      "checked_at": "2026-08-30T13:04:12.216237+00:00"
+    },
+    {
+      "cve": "CVE-2026-11649",
+      "issue_id": "511270083",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in V8 in Google Chrome prior to 149.0.7827.103 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(15)"
+      },
+      "checked_at": "2026-08-30T13:04:26.411472+00:00"
+    },
+    {
+      "cve": "CVE-2026-11650",
+      "issue_id": "511279942",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in V8 in Google Chrome prior to 149.0.7827.103 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(16)"
+      },
+      "checked_at": "2026-08-30T13:04:40.994891+00:00"
+    },
+    {
+      "cve": "CVE-2026-11651",
+      "issue_id": "511736002",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Network in Google Chrome prior to 149.0.7827.103 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T13:04:48.321863+00:00"
+    },
+    {
+      "cve": "CVE-2026-11652",
+      "issue_id": "513156160",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Extensions in Google Chrome prior to 149.0.7827.103 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML p...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(23)"
+      },
+      "checked_at": "2026-08-30T13:05:00.993254+00:00"
+    },
+    {
+      "cve": "CVE-2026-11653",
+      "issue_id": "513321171",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Inappropriate implementation in Extensions in Google Chrome prior to 149.0.7827.103 allowed a remote attacker who had compromised the renderer process to bypass site isolation via a crafted HTML pa...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T13:05:08.768254+00:00"
+    },
+    {
+      "cve": "CVE-2026-11654",
+      "issue_id": "513362710",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in CameraCapture in Google Chrome on Mac prior to 149.0.7827.103 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severit...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T13:05:16.516834+00:00"
+    },
+    {
+      "cve": "CVE-2026-11655",
+      "issue_id": "513396305",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Integer overflow in Media in Google Chrome on Mac prior to 149.0.7827.103 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HT...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T13:05:24.705121+00:00"
+    },
+    {
+      "cve": "CVE-2026-11656",
+      "issue_id": "513424000",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in ServiceWorker in Google Chrome prior to 149.0.7827.103 allowed an attacker who convinced a user to install a malicious extension to potentially perform a sandbox escape via a craf...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(9)"
+      },
+      "checked_at": "2026-08-30T13:05:38.608122+00:00"
+    },
+    {
+      "cve": "CVE-2026-11657",
+      "issue_id": "513465272",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Payments in Google Chrome on Mac prior to 149.0.7827.103 allowed a remote attacker to execute arbitrary code via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T13:05:48.099787+00:00"
+    },
+    {
+      "cve": "CVE-2026-11658",
+      "issue_id": "513564337",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Insufficient validation of untrusted input in Extensions in Google Chrome prior to 149.0.7827.103 allowed a remote attacker who had compromised the renderer process to bypass site isolation via a c...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T13:05:56.153832+00:00"
+    },
+    {
+      "cve": "CVE-2026-11659",
+      "issue_id": "513702971",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Integer overflow in UI in Google Chrome on Linux prior to 149.0.7827.103 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(15)"
+      },
+      "checked_at": "2026-08-30T13:06:09.323183+00:00"
+    },
+    {
+      "cve": "CVE-2026-11660",
+      "issue_id": "513731890",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Insufficient validation of untrusted input in New Tab Page in Google Chrome prior to 149.0.7827.103 allowed a remote attacker who had compromised the renderer process to potentially perform a sandb...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T13:06:18.674379+00:00"
+    },
+    {
+      "cve": "CVE-2026-11661",
+      "issue_id": "513748868",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Views in Google Chrome on Windows prior to 149.0.7827.103 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted ...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T13:06:26.417387+00:00"
+    },
+    {
+      "cve": "CVE-2026-11662",
+      "issue_id": "513773313",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Type Confusion in Bindings in Google Chrome prior to 149.0.7827.103 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(10)"
+      },
+      "checked_at": "2026-08-30T13:06:38.937560+00:00"
+    },
+    {
+      "cve": "CVE-2026-11663",
+      "issue_id": "513820666",
+      "version": "149.0.7827.102",
+      "published": "2026-06-08T13:39:23.113-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Skia in Google Chrome prior to 149.0.7827.103 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T13:06:46.764451+00:00"
+    },
+    {
+      "cve": "CVE-2026-5272",
+      "issue_id": "491732188",
+      "version": "146.0.7680.177",
+      "published": "2026-03-31T12:31:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Heap buffer overflow in GPU in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to execute arbitrary code via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T13:06:54.530160+00:00"
+    },
+    {
+      "cve": "CVE-2026-5273",
+      "issue_id": "493952652",
+      "version": "146.0.7680.177",
+      "published": "2026-03-31T12:31:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in CSS in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(30)"
+      },
+      "checked_at": "2026-08-30T13:07:06.404107+00:00"
+    },
+    {
+      "cve": "CVE-2026-5274",
+      "issue_id": "488596746",
+      "version": "146.0.7680.177",
+      "published": "2026-03-31T12:31:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Integer overflow in Codecs in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to perform arbitrary read/write via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(18)"
+      },
+      "checked_at": "2026-08-30T13:07:18.204961+00:00"
+    },
+    {
+      "cve": "CVE-2026-5275",
+      "issue_id": "489494022",
+      "version": "146.0.7680.177",
+      "published": "2026-03-31T12:31:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Heap buffer overflow in ANGLE in Google Chrome on Mac prior to 146.0.7680.178 allowed a remote attacker to execute arbitrary code via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(30)"
+      },
+      "checked_at": "2026-08-30T13:07:36.139844+00:00"
+    },
+    {
+      "cve": "CVE-2026-5276",
+      "issue_id": "489711638",
+      "version": "146.0.7680.177",
+      "published": "2026-03-31T12:31:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Insufficient policy enforcement in WebUSB in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to obtain potentially sensitive information from process memory via a crafted HTML page....",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(37)"
+      },
+      "checked_at": "2026-08-30T13:07:49.938820+00:00"
+    },
+    {
+      "cve": "CVE-2026-5277",
+      "issue_id": "489791424",
+      "version": "146.0.7680.177",
+      "published": "2026-03-31T12:31:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Integer overflow in ANGLE in Google Chrome on Windows prior to 146.0.7680.178 allowed a remote attacker who had compromised the renderer process to perform an out of bounds memory write via a craft...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(15)"
+      },
+      "checked_at": "2026-08-30T13:08:02.391275+00:00"
+    },
+    {
+      "cve": "CVE-2026-5278",
+      "issue_id": "490254128",
+      "version": "146.0.7680.177",
+      "published": "2026-03-31T12:31:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Web MIDI in Google Chrome on Android prior to 146.0.7680.178 allowed a remote attacker to execute arbitrary code via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(19)"
+      },
+      "checked_at": "2026-08-30T13:08:13.701491+00:00"
+    },
+    {
+      "cve": "CVE-2026-5279",
+      "issue_id": "490642836",
+      "version": "146.0.7680.177",
+      "published": "2026-03-31T12:31:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Object corruption in V8 in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(41)"
+      },
+      "checked_at": "2026-08-30T13:08:26.413218+00:00"
+    },
+    {
+      "cve": "CVE-2026-5280",
+      "issue_id": "491515787",
+      "version": "146.0.7680.177",
+      "published": "2026-03-31T12:31:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in WebCodecs in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(36)"
+      },
+      "checked_at": "2026-08-30T13:08:38.547876+00:00"
+    },
+    {
+      "cve": "CVE-2026-5282",
+      "issue_id": "491655161",
+      "version": "146.0.7680.177",
+      "published": "2026-03-31T12:31:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Out of bounds read in WebCodecs in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to perform an out of bounds memory read via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(40)"
+      },
+      "checked_at": "2026-08-30T13:08:51.091900+00:00"
+    },
+    {
+      "cve": "CVE-2026-5283",
+      "issue_id": "492131521",
+      "version": "146.0.7680.177",
+      "published": "2026-03-31T12:31:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Inappropriate implementation in ANGLE in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to leak cross-origin data via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(12)"
+      },
+      "checked_at": "2026-08-30T13:09:03.512971+00:00"
+    },
+    {
+      "cve": "CVE-2026-5284",
+      "issue_id": "492139412",
+      "version": "146.0.7680.177",
+      "published": "2026-03-31T12:31:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Dawn in Google Chrome prior to 146.0.7680.178 allowed a remote attacker who had compromised the renderer process to execute arbitrary code via a crafted HTML page. (Chromium secur...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(33)"
+      },
+      "checked_at": "2026-08-30T13:09:15.330413+00:00"
+    },
+    {
+      "cve": "CVE-2026-5285",
+      "issue_id": "492228019",
+      "version": "146.0.7680.177",
+      "published": "2026-03-31T12:31:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in WebGL in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(21)"
+      },
+      "checked_at": "2026-08-30T13:09:27.278218+00:00"
+    },
+    {
+      "cve": "CVE-2026-5286",
+      "issue_id": "493900619",
+      "version": "146.0.7680.177",
+      "published": "2026-03-31T12:31:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Dawn in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to execute arbitrary code via a crafted HTML page. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(9)"
+      },
+      "checked_at": "2026-08-30T13:09:38.848545+00:00"
+    },
+    {
+      "cve": "CVE-2026-5287",
+      "issue_id": "494644471",
+      "version": "146.0.7680.177",
+      "published": "2026-03-31T12:31:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in PDF in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted PDF file. (Chromium security severity: High)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(21)"
+      },
+      "checked_at": "2026-08-30T13:09:50.111686+00:00"
+    },
+    {
+      "cve": "CVE-2026-5288",
+      "issue_id": "495507390",
+      "version": "146.0.7680.177",
+      "published": "2026-03-31T12:31:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in WebView in Google Chrome on Android prior to 146.0.7680.178 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafte...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(7)"
+      },
+      "checked_at": "2026-08-30T13:10:00.888925+00:00"
+    },
+    {
+      "cve": "CVE-2026-5289",
+      "issue_id": "495931147",
+      "version": "146.0.7680.177",
+      "published": "2026-03-31T12:31:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Navigation in Google Chrome prior to 146.0.7680.178 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML p...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(41)"
+      },
+      "checked_at": "2026-08-30T13:10:17.555533+00:00"
+    },
+    {
+      "cve": "CVE-2026-5290",
+      "issue_id": "496205576",
+      "version": "146.0.7680.177",
+      "published": "2026-03-31T12:31:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Use after free in Compositing in Google Chrome prior to 146.0.7680.178 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML ...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(28)"
+      },
+      "checked_at": "2026-08-30T13:10:29.694895+00:00"
+    },
+    {
+      "cve": "CVE-2026-5291",
+      "issue_id": "490118036",
+      "version": "146.0.7680.177",
+      "published": "2026-03-31T12:31:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Inappropriate implementation in WebGL in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to obtain potentially sensitive information from process memory via a crafted HTML page. (Ch...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(20)"
+      },
+      "checked_at": "2026-08-30T13:10:42.448278+00:00"
+    },
+    {
+      "cve": "CVE-2026-5292",
+      "issue_id": "492213293",
+      "version": "146.0.7680.177",
+      "published": "2026-03-31T12:31:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Out of bounds read in WebCodecs in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to perform an out of bounds memory read via a crafted HTML page. (Chromium security severity: Medium)",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(27)"
+      },
+      "checked_at": "2026-08-30T13:10:54.433923+00:00"
+    },
+    {
+      "cve": "CVE-2022-2861",
+      "issue_id": "1346236",
+      "version": "104.0.5112.101",
+      "published": "2022-08-16T13:56:00.002-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Inappropriate implementation in Extensions API in Google Chrome prior to 104.0.5112.101 allowed an attacker who convinced a user to install a malicious extension to inject arbitrary scripts into We...",
+      "check_result": {
+        "status": "private",
+        "accessible": false
+      },
+      "checked_at": "2026-08-30T13:11:02.603701+00:00"
+    },
+    {
+      "cve": "CVE-2023-4904",
+      "issue_id": "1453501",
+      "version": "117.0.5938.62",
+      "published": "2023-09-12T13:33:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Insufficient policy enforcement in Downloads in Google Chrome prior to 117.0.5938.62 allowed a remote attacker to bypass Enterprise policy restrictions via a crafted download. (Chromium security se...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "Issue 1453501\nChromium Issue Tracker\nPowered by Google\n|\nPrivacy\n|\nTerms\n|Code of Conduct"
+      },
+      "checked_at": "2026-08-30T13:11:11.311578+00:00"
+    },
+    {
+      "cve": "CVE-2024-4950",
+      "issue_id": "40065403",
+      "version": "125.0.6422.60",
+      "published": "2024-05-15T13:24:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": true,
+      "description": "Inappropriate implementation in Downloads in Google Chrome prior to 125.0.6422.60 allowed a remote attacker who convinced a user to engage in specific UI gestures to perform UI spoofing via a craft...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(5)"
+      },
+      "checked_at": "2026-08-30T13:11:27.065665+00:00"
+    },
+    {
+      "cve": "CVE-2024-7978",
+      "issue_id": "40060358",
+      "version": "128.0.6613.84",
+      "published": "2024-08-21T12:29:00.000-07:00",
+      "in_kev": false,
+      "has_public_exploit": false,
+      "description": "Insufficient policy enforcement in Data Transfer in Google Chrome prior to 128.0.6613.84 allowed a remote attacker who convinced a user to engage in specific UI gestures to leak cross-origin data v...",
+      "check_result": {
+        "status": "public",
+        "accessible": true,
+        "title": "(13)"
+      },
+      "checked_at": "2026-08-30T13:11:39.754302+00:00"
+    }
+  ]
+}

@@ -2,6 +2,7 @@
 """构建风险报告 - 按 Electron/CEF exploit 性重新评估"""
 
 import json
+import re
 from datetime import datetime
 from pathlib import Path
 
@@ -173,6 +174,19 @@ CHROME_ONLY = {
 }
 
 
+def resolve_in_the_wild(release, cve_id):
+    """per-CVE 在野判定（2026-10 修复）。
+
+    collect_releases.py 新版生成 release 级 `in_the_wild_cves` 列表，
+    逐 CVE 精确匹配；旧版 releases.json 没有该字段时回退到整批布尔，
+    避免在 CI 重新采集前造成行为突变。
+    """
+    itw_cves = release.get('in_the_wild_cves')
+    if itw_cves is not None:
+        return cve_id in itw_cves
+    return release.get('in_the_wild', False)
+
+
 def load_json(filepath):
     path = Path(filepath)
     if not path.exists():
@@ -182,28 +196,46 @@ def load_json(filepath):
 
 
 def extract_component(description):
-    """从 CVE 描述中提取受影响的 Chromium 组件"""
-    desc = (description or '').lower()
-    
-    # 检查共享组件
+    """从 CVE 描述中提取受影响的 Chromium 组件
+
+    2026-10 修复：先按句法切出 '<Component> in Google Chrome' 的组件短语，
+    再在短语内做关键词匹配。避免整段（小写后的）描述文本误命中
+    'sandbox' / 'html' 这类影响措辞——它们来自
+    "inside the sandbox via a crafted HTML page"，不是组件名。
+    """
+    desc = description or ''
+    m = re.search(r'\bin\s+([A-Za-z0-9][A-Za-z0-9 /+_.:-]*?)\s+in Google Chrome', desc)
+    phrase = m.group(1).strip() if m else ''
+
+    if phrase:
+        phrase_low = phrase.lower()
+        for kw, comp in SHARED_COMPONENTS.items():
+            if kw in phrase_low:
+                return comp, 'shared'
+        for kw, comp in CHROME_ONLY.items():
+            if kw in phrase_low:
+                return comp, 'chrome'
+        # 短语本身即组件名（如 CameraCapture / Paint / Turbolev / Transactions Platform）
+        if len(phrase) < 40:
+            return phrase, 'shared'
+        return phrase, 'unknown'
+
+    # 兜底：无标准句式时退回整段关键词扫描（维持老数据的覆盖面）
+    low = desc.lower()
     for kw, comp in SHARED_COMPONENTS.items():
-        if kw in desc:
+        if kw in low:
             return comp, 'shared'
-    
-    # 检查浏览器专属
     for kw, comp in CHROME_ONLY.items():
-        if kw in desc:
+        if kw in low:
             return comp, 'chrome'
-    
-    # 从描述中尝试匹配通用模式
-    if ' in ' in desc:
-        parts = desc.split(' in ')
+    if ' in ' in low:
+        parts = low.split(' in ')
         if len(parts) >= 2:
             context = parts[-2] if len(parts) > 2 else parts[0]
             context = context.split('prior')[0].strip()
-            if len(context) < 40:
+            # 排除影响措辞（2026 起的新描述句式）
+            if len(context) < 40 and context not in ('inside the sandbox', 'outside the sandbox', 'the'):
                 return context, 'shared'
-    
     return 'Unknown', 'unknown'
 
 
@@ -353,7 +385,7 @@ def build_risk_report():
         # Releases
         release_info = releases_by_cve.get(cve_id, [])
         if release_info:
-            cve['in_the_wild'] = release_info[0].get('in_the_wild', False)
+            cve['in_the_wild'] = resolve_in_the_wild(release_info[0], cve_id)
             if not cve.get('blog_url'):
                 cve['blog_url'] = release_info[0].get('url', '')
         else:

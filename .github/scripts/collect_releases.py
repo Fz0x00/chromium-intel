@@ -85,6 +85,7 @@ def collect_releases():
             if not version:
                 continue
 
+            itw_cves = extract_itw_cves(content)
             release = {
                 'title': title,
                 'published': published,
@@ -92,7 +93,8 @@ def collect_releases():
                 'content': strip_html(content)[:5000],
                 'version': version,
                 'cves': extract_cves(content),
-                'in_the_wild': check_in_the_wild(content),
+                'in_the_wild_cves': itw_cves,
+                'in_the_wild': bool(itw_cves),
                 'severity': extract_severity(content),
                 'platforms': extract_platforms(content),
             }
@@ -123,10 +125,22 @@ def extract_cves(content):
     return list(set(cves))
 
 
-def check_in_the_wild(content):
-    """检查是否有在野利用"""
-    c = content.lower()
-    return 'in the wild' in c or 'exploited' in c
+def extract_itw_cves(content):
+    """按句提取"在野利用"涉及的 CVE。
+
+    2026-10 修复：旧逻辑（check_in_the_wild）只看公告全文有没有
+    "in the wild"/"exploited"，导致整批 CVE 都被误标为在野。
+    现在只在包含该措辞的句子内收集 CVE 编号，实现 per-CVE 精确标记。
+    """
+    text = strip_html(content)
+    itw_cves = set()
+    for sentence in re.split(r'(?<=[.!?])\s+', text):
+        low = sentence.lower()
+        if 'in the wild' not in low and 'exploited' not in low:
+            continue
+        for cve_id in re.findall(r'CVE-\d{4}-\d+', sentence):
+            itw_cves.add(cve_id)
+    return sorted(itw_cves)
 
 
 def extract_severity(content):
