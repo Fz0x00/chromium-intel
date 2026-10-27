@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-10-26T11:58:56Z",
+  "scan_time": "2026-10-27T11:21:37Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 51,
@@ -143,15 +143,15 @@
     },
     {
       "app_name": "Discord",
-      "app_version": "0.0.419",
-      "app_path": "/tmp/hunter-3092619240/extracted/Discord/Discord.app",
+      "app_version": "0.0.420",
+      "app_path": "/tmp/hunter-3193846677/extracted/Discord/Discord.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
-      "chromium_version": "148.0.7778.280",
-      "electron_version": "42.11.15",
+      "chromium_version": "152.0.7977.167",
+      "electron_version": "44.9.3",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-3092619240/extracted/Discord/Discord.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-3193846677/extracted/Discord/Discord.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Docker / Docker Desktop",
@@ -186,15 +186,15 @@
     },
     {
       "app_name": "GitHub Desktop",
-      "app_version": "3.6.9",
-      "app_path": "/tmp/hunter-369220210/extracted/GitHub Desktop.app",
+      "app_version": "3.6.10",
+      "app_path": "/tmp/hunter-2560733616/extracted/GitHub Desktop.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "152.0.7977.167",
       "electron_version": "44.9.1",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-369220210/extracted/GitHub Desktop.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2560733616/extracted/GitHub Desktop.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Insomnia",
@@ -419,15 +419,15 @@
     },
     {
       "app_name": "Slack",
-      "app_version": "4.52.182",
-      "app_path": "/tmp/hunter-3309501585/extracted/Slack/Slack.app",
+      "app_version": "4.53.269",
+      "app_path": "/tmp/hunter-504208180/extracted/Slack/Slack.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
-      "chromium_version": "152.0.7977.167",
-      "electron_version": "44.9.1",
+      "chromium_version": "156.0.8078.48",
+      "electron_version": "45.0.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-3309501585/extracted/Slack/Slack.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-504208180/extracted/Slack/Slack.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Spotify",

@@ -1,14 +1,36 @@
 {
   "generator": "hunter osv-check 0.2.0",
-  "scan_time": "2026-10-26T11:58:51Z",
+  "scan_time": "2026-10-27T11:21:30Z",
   "source": "inspect-results.json",
-  "total_apps": 0,
-  "with_electron_version": 0,
+  "total_apps": 3,
+  "with_electron_version": 3,
   "missing_electron_version": 0,
-  "checked": 0,
+  "checked": 3,
   "failed": 0,
   "with_cves": 0,
   "total_cves": 0,
   "severity_counts": {},
-  "apps": []
+  "apps": [
+    {
+      "app_name": "Slack",
+      "app_version": "4.53.269",
+      "electron_version": "45.0.0",
+      "total_cves": 0,
+      "cves": []
+    },
+    {
+      "app_name": "Discord",
+      "app_version": "0.0.420",
+      "electron_version": "44.9.3",
+      "total_cves": 0,
+      "cves": []
+    },
+    {
+      "app_name": "GitHub Desktop",
+      "app_version": "3.6.10",
+      "electron_version": "44.9.1",
+      "total_cves": 0,
+      "cves": []
+    }
+  ]
 }
