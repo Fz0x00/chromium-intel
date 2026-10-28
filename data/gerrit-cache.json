@@ -29842,5 +29842,277 @@
     "subject": "linux sandbox: Reject sys_old_mmap on i386 in baseline policy",
     "commit_message": ""
   },
-  "561926123": null
+  "561926123": null,
+  "574101376": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8626969",
+    "cl_number": 8626969,
+    "subject": "[M150-LTS] Limit image request in HTMLPlugInElement::CustomStyleForLayoutObject",
+    "commit_message": ""
+  },
+  "568348290": null,
+  "571156746": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8641638",
+    "cl_number": 8641638,
+    "subject": "[M150-LTS] Defer entry removal until database scan iterator is destroyed",
+    "commit_message": ""
+  },
+  "570675085": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8665679",
+    "cl_number": 8665679,
+    "subject": "[M150] Ensure gradient data pointers remain safe to use",
+    "commit_message": ""
+  },
+  "574791952": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8659400",
+    "cl_number": 8659400,
+    "subject": "[M150] Make timed elements inserted into <use> shadow trees inert",
+    "commit_message": ""
+  },
+  "576133777": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8657421",
+    "cl_number": 8657421,
+    "subject": "[M157] [Android] Normalize content URI handling in SelectFileDialog",
+    "commit_message": ""
+  },
+  "574516887": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8634693",
+    "cl_number": 8634693,
+    "subject": "Revert \"[M156] views: Defer MenuRunnerImpl destruction in OnMenuClosed\"",
+    "commit_message": ""
+  },
+  "573938968": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8632114",
+    "cl_number": 8632114,
+    "subject": "[M157] media: Fix UAF when MojoCdm is destroyed during OnConnectionError",
+    "commit_message": ""
+  },
+  "540025369": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8395606",
+    "cl_number": 8395606,
+    "subject": "Disable FEDisplacementMap acting as a backdrop-filter",
+    "commit_message": ""
+  },
+  "574032795": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8616029",
+    "cl_number": 8616029,
+    "subject": "Cherry-pick libaom 016144ea8b8b to m156",
+    "commit_message": ""
+  },
+  "574803484": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8627469",
+    "cl_number": 8627469,
+    "subject": "[M156] [Android] Consistently extract absolute file paths in SelectFileDialog",
+    "commit_message": ""
+  },
+  "575184164": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8626969",
+    "cl_number": 8626969,
+    "subject": "[M150-LTS] Limit image request in HTMLPlugInElement::CustomStyleForLayoutObject",
+    "commit_message": ""
+  },
+  "574223268": null,
+  "568730797": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8653829",
+    "cl_number": 8653829,
+    "subject": "[M150] [CE]Prevent crash when frame is detached during capability element registration",
+    "commit_message": ""
+  },
+  "565133743": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8620274",
+    "cl_number": 8620274,
+    "subject": "[M156] Roll src/third_party/icu/ 19dfb44a6..4fe960221 (2 commits)",
+    "commit_message": ""
+  },
+  "576194994": null,
+  "568894515": null,
+  "568937139": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8613480",
+    "cl_number": 8613480,
+    "subject": "[M156] [Android] Harden OnSelectionEvent against synchronous teardown",
+    "commit_message": ""
+  },
+  "568895029": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8575438",
+    "cl_number": 8575438,
+    "subject": "Manual roll ANGLE from 25078a7740fd to c1d961037f41 (13 revisions)",
+    "commit_message": ""
+  },
+  "572878518": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8614187",
+    "cl_number": 8614187,
+    "subject": "[M156] [HLS] Disallow file:// HLS content",
+    "commit_message": ""
+  },
+  "570927027": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8611397",
+    "cl_number": 8611397,
+    "subject": "Roll WebRTC from 4fdd50a57b79 to b1cf37fb21df (22 revisions)",
+    "commit_message": ""
+  },
+  "568900535": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8548491",
+    "cl_number": 8548491,
+    "subject": "Roll ANGLE from f65a434b6b3d to bdd330893ae2 (4 revisions)",
+    "commit_message": ""
+  },
+  "575090745": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8641596",
+    "cl_number": 8641596,
+    "subject": "[M156] [ChroMenu] Fix potential UAF when updating zoom label text",
+    "commit_message": ""
+  },
+  "572193211": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8666440",
+    "cl_number": 8666440,
+    "subject": "[M150-LTS] Avoid UAFs in BlobStorageContext",
+    "commit_message": ""
+  },
+  "574030524": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8672458",
+    "cl_number": 8672458,
+    "subject": "[M150] Change ImageContext access failure",
+    "commit_message": ""
+  },
+  "571147583": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8614539",
+    "cl_number": 8614539,
+    "subject": "Cherry-pick libvpx de61454cf to m156",
+    "commit_message": ""
+  },
+  "574027204": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8654798",
+    "cl_number": 8654798,
+    "subject": "[M150-LTS] blink: Fix ImageCaptureFrameGrabber UAF in OnVideoFrame",
+    "commit_message": ""
+  },
+  "574606539": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8620455",
+    "cl_number": 8620455,
+    "subject": "[M156] Harden PersistentSystemProfile against corrupt segment sizes",
+    "commit_message": ""
+  },
+  "572111820": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8622278",
+    "cl_number": 8622278,
+    "subject": "[M150-LTS][headless] Do not mutate process CommandLine in ProcessHeadlessCommands",
+    "commit_message": ""
+  },
+  "569286605": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8659538",
+    "cl_number": 8659538,
+    "subject": "[M150] Copy ListedElements before iterating in ConstructEntryList",
+    "commit_message": ""
+  },
+  "575826638": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8644469",
+    "cl_number": 8644469,
+    "subject": "[M156] Disable FEDisplacementMap for animated CSS backdrop-filter",
+    "commit_message": ""
+  },
+  "567645136": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8669880",
+    "cl_number": 8669880,
+    "subject": "[M150] Update animation when setting currentTime with null timeline",
+    "commit_message": ""
+  },
+  "568936530": null,
+  "574911701": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8628528",
+    "cl_number": 8628528,
+    "subject": "[M150-LTS] Ensure OomInterventionImpl is alive during Check()",
+    "commit_message": ""
+  },
+  "574412629": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8628527",
+    "cl_number": 8628527,
+    "subject": "[M150-LTS][webvtt] Make text-track pseudo-elements read-only",
+    "commit_message": ""
+  },
+  "573389782": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8670178",
+    "cl_number": 8670178,
+    "subject": "[M150-LTS] Fix UAF in reading list side panel context menu",
+    "commit_message": ""
+  },
+  "574852698": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8659518",
+    "cl_number": 8659518,
+    "subject": "[M150] [layout] Add move constructor and assignment operator to Shelf.",
+    "commit_message": ""
+  },
+  "574061024": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8612537",
+    "cl_number": 8612537,
+    "subject": "Roll PDFium from a50f1a595326 to 0a42f6e64f28 (4 revisions)",
+    "commit_message": ""
+  },
+  "574382050": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8653502",
+    "cl_number": 8653502,
+    "subject": "[M157] Fix CopyOutputRequest check with OffsetTags",
+    "commit_message": ""
+  },
+  "574911589": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8624673",
+    "cl_number": 8624673,
+    "subject": "[M150-LTS] [FSA] Prevent synchronous lock promotion UAF during manager teardown",
+    "commit_message": ""
+  },
+  "574776938": null,
+  "567129324": null,
+  "570825067": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8573983",
+    "cl_number": 8573983,
+    "subject": "Roll Skia from a21aae83d6e4 to ea6781c5b6d1 (7 revisions)",
+    "commit_message": ""
+  },
+  "569674221": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8613840",
+    "cl_number": 8613840,
+    "subject": "[M156] HttpCache: prevent lock timeout overtaking explicit restart",
+    "commit_message": ""
+  },
+  "572312175": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8628669",
+    "cl_number": 8628669,
+    "subject": "[M150-LTS] Do not reuse non-CORS StyleImage data with a CORS request",
+    "commit_message": ""
+  },
+  "568936430": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8594748",
+    "cl_number": 8594748,
+    "subject": "Roll Skia from 39cb0df20cd2 to 44cf4fd447b1 (6 revisions)",
+    "commit_message": ""
+  },
+  "570638833": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8615799",
+    "cl_number": 8615799,
+    "subject": "[M150] [Editing] Copy id attribute when undoing a split",
+    "commit_message": ""
+  },
+  "575851252": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8659478",
+    "cl_number": 8659478,
+    "subject": "[M150] Forbid modifying weak LinkedHashSet during iteration",
+    "commit_message": ""
+  },
+  "562191732": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8624673",
+    "cl_number": 8624673,
+    "subject": "[M150-LTS] [FSA] Prevent synchronous lock promotion UAF during manager teardown",
+    "commit_message": ""
+  },
+  "572191610": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8666745",
+    "cl_number": 8666745,
+    "subject": "[M150-LTS][WebAudio] Stop paused destination and guard automatic pull on close",
+    "commit_message": ""
+  },
+  "573378812": null,
+  "572422506": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8666842",
+    "cl_number": 8666842,
+    "subject": "[M150-LTS][Payment Handler] Avoid UAF when synchronously failing window size check",
+    "commit_message": ""
+  }
 }
