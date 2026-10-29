@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T11:51:59Z",
+  "generated_at": "2026-10-29T12:00:03Z",
   "observations": [
     {
       "app_name": "Baidu Netdisk",
@@ -120,6 +120,16 @@
       "source": "inspect-list",
       "first_seen": "2026-10-08T12:29:34Z",
       "last_seen": "2026-10-08T12:29:34Z"
+    },
+    {
+      "app_name": "Beekeeper Studio",
+      "app_version": "6.2.0",
+      "electron_version": "44.3.0",
+      "chromium_version": "152.0.7977.78",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-10-29T11:59:58Z",
+      "last_seen": "2026-10-29T11:59:58Z"
     },
     {
       "app_name": "Bitwarden",
@@ -680,6 +690,16 @@
       "last_seen": "2026-10-09T12:18:29Z"
     },
     {
+      "app_name": "Insomnia",
+      "app_version": "13.4.0",
+      "electron_version": "43.2.0",
+      "chromium_version": "150.0.7871.129",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-10-29T11:59:58Z",
+      "last_seen": "2026-10-29T11:59:58Z"
+    },
+    {
       "app_name": "Joplin",
       "app_version": "3.7.16",
       "electron_version": "42.3.0",
@@ -708,6 +728,16 @@
       "source": "inspect-list",
       "first_seen": "2026-09-26T10:32:55Z",
       "last_seen": "2026-09-26T10:32:55Z"
+    },
+    {
+      "app_name": "Joplin",
+      "app_version": "3.7.22",
+      "electron_version": "42.11.18",
+      "chromium_version": "148.0.7778.280",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-10-29T11:59:58Z",
+      "last_seen": "2026-10-29T11:59:58Z"
     },
     {
       "app_name": "Logseq",
@@ -1140,6 +1170,16 @@
       "last_seen": "2026-10-20T10:40:23Z"
     },
     {
+      "app_name": "SiYuan",
+      "app_version": "3.8.9",
+      "electron_version": "44.10.0",
+      "chromium_version": "152.0.7977.169",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-10-29T11:59:58Z",
+      "last_seen": "2026-10-29T11:59:58Z"
+    },
+    {
       "app_name": "Slack",
       "app_version": "4.52.155",
       "electron_version": "44.0.0",
@@ -1416,6 +1456,16 @@
       "source": "inspect-list",
       "first_seen": "2026-10-23T10:44:11Z",
       "last_seen": "2026-10-23T10:44:11Z"
+    },
+    {
+      "app_name": "VS Code",
+      "app_version": "1.144.0",
+      "electron_version": "43.8.3",
+      "chromium_version": "150.0.7871.250",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-10-29T11:59:58Z",
+      "last_seen": "2026-10-29T11:59:58Z"
     },
     {
       "app_name": "Yakit",
