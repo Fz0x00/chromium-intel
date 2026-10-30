@@ -30114,5 +30114,116 @@
     "cl_number": 8666842,
     "subject": "[M150-LTS][Payment Handler] Avoid UAF when synchronously failing window size check",
     "commit_message": ""
+  },
+  "573264074": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8660119",
+    "cl_number": 8660119,
+    "subject": "[M157] Avoid re-entry when draining pending error events",
+    "commit_message": ""
+  },
+  "574213633": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8625256",
+    "cl_number": 8625256,
+    "subject": "Roll Skia from 637dce57fdbc to c64a7d30b87c (25 revisions)",
+    "commit_message": ""
+  },
+  "574660146": null,
+  "575143870": null,
+  "575150692": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8613134",
+    "cl_number": 8613134,
+    "subject": "Roll Dawn from 48bfcb1d7037 to 1b3c9587bd5d (29 revisions)",
+    "commit_message": ""
+  },
+  "575201795": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8664093",
+    "cl_number": 8664093,
+    "subject": "[M150] [Quota] Remove obsolete QuotaDatabase::MoveLegacyDatabase()",
+    "commit_message": ""
+  },
+  "575202553": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8673061",
+    "cl_number": 8673061,
+    "subject": "[M150] Avoid CopyDirectory fallback in StorageDirectory::DoomPath",
+    "commit_message": ""
+  },
+  "576203565": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8669144",
+    "cl_number": 8669144,
+    "subject": "[M150-LTS] Don't hold references to name or id across UpdateName()/UpdateId()",
+    "commit_message": ""
+  },
+  "576984708": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8662618",
+    "cl_number": 8662618,
+    "subject": "[M156] [highlights] Keep hit-test range pointers stable",
+    "commit_message": ""
+  },
+  "577072000": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8668554",
+    "cl_number": 8668554,
+    "subject": "[M157] Correct cross-origin check for relatedTarget to handle null execution context.",
+    "commit_message": ""
+  },
+  "577333729": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8663851",
+    "cl_number": 8663851,
+    "subject": "[M157] [CacheStorage] Remove obsolete legacy cache_dir migration",
+    "commit_message": ""
+  },
+  "577403270": null,
+  "569012543": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8675644",
+    "cl_number": 8675644,
+    "subject": "[M150-LTS] FSA: Add missing sensitive paths to the blocklist",
+    "commit_message": ""
+  },
+  "576215540": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8667758",
+    "cl_number": 8667758,
+    "subject": "[M150-LTS][MediaStream] Fix UAF in MediaStream(Audio|Video)Track::StopAndNotify",
+    "commit_message": ""
+  },
+  "559780982": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8675644",
+    "cl_number": 8675644,
+    "subject": "[M150-LTS] FSA: Add missing sensitive paths to the blocklist",
+    "commit_message": ""
+  },
+  "568894475": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8669078",
+    "cl_number": 8669078,
+    "subject": "[M156] [CacheStorage] Persist has_range_requested on cached responses",
+    "commit_message": ""
+  },
+  "569012015": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8675644",
+    "cl_number": 8675644,
+    "subject": "[M150-LTS] FSA: Add missing sensitive paths to the blocklist",
+    "commit_message": ""
+  },
+  "572055997": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8666225",
+    "cl_number": 8666225,
+    "subject": "[M156] HttpCache::Transaction reject overlong range responses",
+    "commit_message": ""
+  },
+  "572269631": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8675644",
+    "cl_number": 8675644,
+    "subject": "[M150-LTS] FSA: Add missing sensitive paths to the blocklist",
+    "commit_message": ""
+  },
+  "572556403": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8668554",
+    "cl_number": 8668554,
+    "subject": "[M157] Correct cross-origin check for relatedTarget to handle null execution context.",
+    "commit_message": ""
+  },
+  "567673200": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8610146",
+    "cl_number": 8610146,
+    "subject": "[OTP] Enforce field-level and form-level OTP eligibility checks (base)",
+    "commit_message": ""
   }
 }
