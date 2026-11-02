@@ -1,8 +1,8 @@
 {
-  "scan_time": "2026-10-31T11:26:57Z",
+  "scan_time": "2026-11-02T14:14:11Z",
   "source": "hunter-ci",
   "platform": "macos",
-  "total_apps": 51,
+  "total_apps": 52,
   "apps": [
     {
       "app_name": "AFFiNE",
@@ -165,6 +165,16 @@
       "binary_path": "/Applications/Docker.app/Contents/MacOS/Docker Desktop.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
+      "app_name": "Doubao",
+      "app_version": "2.34.6",
+      "app_path": "/tmp/hunter-898455676/extracted/豆包：你的 AI 智能助手/Doubao.app/Contents/Helpers/Doubao Browser.app",
+      "framework": "electron_fork",
+      "framework_name": "Doubao Browser Framework",
+      "detection": "combined",
+      "chromium_version": "147.0.7727.149",
+      "extraction_method": "framework_path"
+    },
+    {
       "app_name": "Doubao / Doubao Browser",
       "app_version": "135.0.7049.72",
       "app_path": "/Applications/Doubao.app/Contents/Helpers/Doubao Browser.app",
@@ -177,7 +187,7 @@
     {
       "app_name": "Feishu",
       "app_version": "147.0.7727.149",
-      "app_path": "/tmp/hunter-1876532415/extracted/飞书 Feishu/Lark.app",
+      "app_path": "/tmp/hunter-2818128665/extracted/飞书 Feishu/Lark.app",
       "framework": "electron_fork",
       "framework_name": "Lark Framework",
       "detection": "combined",
@@ -290,15 +300,15 @@
     },
     {
       "app_name": "Mattermost Desktop",
-      "app_version": "6.3.1",
-      "app_path": "/tmp/hunter-3778988501/extracted/Mattermost.app",
+      "app_version": "6.3.2",
+      "app_path": "/tmp/hunter-3429039475/extracted/Mattermost.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
-      "chromium_version": "150.0.7871.46",
-      "electron_version": "43.0.0",
+      "chromium_version": "150.0.7871.250",
+      "electron_version": "43.8.3",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-3778988501/extracted/Mattermost.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-3429039475/extracted/Mattermost.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "MongoDB Compass",

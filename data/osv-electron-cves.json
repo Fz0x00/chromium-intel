@@ -1,14 +1,22 @@
 {
   "generator": "hunter osv-check 0.2.0",
-  "scan_time": "2026-10-31T11:26:53Z",
+  "scan_time": "2026-11-02T14:14:06Z",
   "source": "inspect-results.json",
-  "total_apps": 0,
-  "with_electron_version": 0,
-  "missing_electron_version": 0,
-  "checked": 0,
+  "total_apps": 3,
+  "with_electron_version": 3,
+  "missing_electron_version": 2,
+  "checked": 1,
   "failed": 0,
   "with_cves": 0,
   "total_cves": 0,
   "severity_counts": {},
-  "apps": []
+  "apps": [
+    {
+      "app_name": "Mattermost Desktop",
+      "app_version": "6.3.2",
+      "electron_version": "43.8.3",
+      "total_cves": 0,
+      "cves": []
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T11:26:57Z",
+  "generated_at": "2026-11-02T14:14:11Z",
   "observations": [
     {
       "app_name": "Baidu Netdisk",
@@ -612,6 +612,15 @@
       "last_seen": "2026-10-27T11:21:30Z"
     },
     {
+      "app_name": "Doubao",
+      "app_version": "2.34.6",
+      "chromium_version": "147.0.7727.149",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-02T14:14:06Z",
+      "last_seen": "2026-11-02T14:14:06Z"
+    },
+    {
       "app_name": "Feishu",
       "app_version": "143.0.7499.203",
       "chromium_version": "143.0.7499.203",
@@ -627,7 +636,7 @@
       "platform": "linux",
       "source": "inspect-list",
       "first_seen": "2026-09-09T10:26:00Z",
-      "last_seen": "2026-10-21T10:52:11Z"
+      "last_seen": "2026-11-02T14:14:06Z"
     },
     {
       "app_name": "GitHub Desktop",
@@ -888,6 +897,16 @@
       "source": "inspect-list",
       "first_seen": "2026-10-15T10:35:18Z",
       "last_seen": "2026-10-15T10:35:18Z"
+    },
+    {
+      "app_name": "Mattermost Desktop",
+      "app_version": "6.3.2",
+      "electron_version": "43.8.3",
+      "chromium_version": "150.0.7871.250",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-02T14:14:06Z",
+      "last_seen": "2026-11-02T14:14:06Z"
     },
     {
       "app_name": "MongoDB Compass",
