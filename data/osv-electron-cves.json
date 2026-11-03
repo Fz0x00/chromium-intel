@@ -1,19 +1,126 @@
 {
   "generator": "hunter osv-check 0.2.0",
-  "scan_time": "2026-11-02T14:14:06Z",
+  "scan_time": "2026-11-03T13:16:49Z",
   "source": "inspect-results.json",
   "total_apps": 3,
   "with_electron_version": 3,
-  "missing_electron_version": 2,
-  "checked": 1,
+  "missing_electron_version": 0,
+  "checked": 3,
   "failed": 0,
-  "with_cves": 0,
-  "total_cves": 0,
-  "severity_counts": {},
+  "with_cves": 1,
+  "total_cves": 8,
+  "severity_counts": {
+    "high": 1,
+    "low": 3,
+    "medium": 4
+  },
   "apps": [
     {
-      "app_name": "Mattermost Desktop",
-      "app_version": "6.3.2",
+      "app_name": "Obsidian",
+      "app_version": "1.15.0",
+      "electron_version": "43.8.4",
+      "total_cves": 0,
+      "cves": []
+    },
+    {
+      "app_name": "Bitwarden",
+      "app_version": "2026.10.3",
+      "electron_version": "43.5.0",
+      "total_cves": 8,
+      "cves": [
+        {
+          "id": "GHSA-jr5w-w6x2-84p9",
+          "cve": "CVE-2026-115570",
+          "summary": "Electron: Mitigation for compromised eMudhra intermediate certificates",
+          "severity": "high",
+          "cvss_score": "7.4",
+          "published": "2026-10-23T20:53:41Z",
+          "fix_versions": [
+            "43.8.1"
+          ]
+        },
+        {
+          "id": "GHSA-2p8c-gr87-2676",
+          "cve": "CVE-2026-113796",
+          "summary": "Electron: SameSite cookie restrictions are not applied to windows opened from links",
+          "severity": "medium",
+          "cvss_score": "4.1",
+          "published": "2026-10-22T16:47:54Z",
+          "fix_versions": [
+            "43.7.0"
+          ]
+        },
+        {
+          "id": "GHSA-997q-gvvc-jwmx",
+          "cve": "CVE-2026-114121",
+          "summary": "Electron: openExternal permission requests can be attributed to the wrong origin",
+          "severity": "medium",
+          "cvss_score": "5.3",
+          "published": "2026-10-22T16:43:59Z",
+          "fix_versions": [
+            "43.7.0"
+          ]
+        },
+        {
+          "id": "GHSA-fw47-9c62-h3vw",
+          "cve": "CVE-2026-113800",
+          "summary": "Electron: HID and USB permission checks can be attributed to the wrong origin",
+          "severity": "medium",
+          "cvss_score": "5.3",
+          "published": "2026-10-21T17:21:51Z",
+          "fix_versions": [
+            "43.7.0"
+          ]
+        },
+        {
+          "id": "GHSA-x562-297c-g43g",
+          "cve": "CVE-2026-113798",
+          "summary": "Electron: Pointer lock permission requests can be attributed to the wrong frame",
+          "severity": "medium",
+          "cvss_score": "5.3",
+          "published": "2026-10-22T16:47:15Z",
+          "fix_versions": [
+            "43.7.6"
+          ]
+        },
+        {
+          "id": "GHSA-3qxv-5xgr-q7w9",
+          "cve": "CVE-2026-114122",
+          "summary": "Electron: Frame subscription trusts GPU-supplied frame geometry",
+          "severity": "low",
+          "cvss_score": "3.4",
+          "published": "2026-10-22T16:46:06Z",
+          "fix_versions": [
+            "43.7.3"
+          ]
+        },
+        {
+          "id": "GHSA-98mx-cjp9-gchm",
+          "cve": "CVE-2026-113797",
+          "summary": "Electron: Extension tabs.query returns tab URLs and titles without the tabs permission",
+          "severity": "low",
+          "cvss_score": "3.0",
+          "published": "2026-10-22T16:46:33Z",
+          "fix_versions": [
+            "43.5.1"
+          ]
+        },
+        {
+          "id": "GHSA-h3v5-h239-pg29",
+          "cve": "CVE-2026-114124",
+          "summary": "Electron: Off-screen rendering on macOS trusts GPU-supplied frame geometry",
+          "severity": "low",
+          "cvss_score": "3.4",
+          "published": "2026-10-22T16:44:33Z",
+          "fix_versions": [
+            "43.7.3"
+          ]
+        }
+      ]
+    },
+    {
+      "app_name": "VS Code",
+      "app_version": "1.144.1",
       "electron_version": "43.8.3",
       "total_cves": 0,
       "cves": []

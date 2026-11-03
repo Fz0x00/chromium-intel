@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T14:14:11Z",
+  "generated_at": "2026-11-03T13:16:53Z",
   "observations": [
     {
       "app_name": "Baidu Netdisk",
@@ -160,6 +160,16 @@
       "source": "inspect-list",
       "first_seen": "2026-10-30T11:54:25Z",
       "last_seen": "2026-10-30T11:54:25Z"
+    },
+    {
+      "app_name": "Bitwarden",
+      "app_version": "2026.10.3",
+      "electron_version": "43.5.0",
+      "chromium_version": "150.0.7871.250",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-03T13:16:48Z",
+      "last_seen": "2026-11-03T13:16:48Z"
     },
     {
       "app_name": "Bitwarden",
@@ -999,6 +1009,16 @@
       "last_seen": "2026-10-23T10:44:11Z"
     },
     {
+      "app_name": "Obsidian",
+      "app_version": "1.15.0",
+      "electron_version": "43.8.4",
+      "chromium_version": "150.0.7871.250",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-03T13:16:48Z",
+      "last_seen": "2026-11-03T13:16:48Z"
+    },
+    {
       "app_name": "QQ",
       "app_version": "6.9.99",
       "electron_version": "40.0.0",
@@ -1515,6 +1535,16 @@
       "source": "inspect-list",
       "first_seen": "2026-10-29T11:59:58Z",
       "last_seen": "2026-10-29T11:59:58Z"
+    },
+    {
+      "app_name": "VS Code",
+      "app_version": "1.144.1",
+      "electron_version": "43.8.3",
+      "chromium_version": "150.0.7871.250",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-03T13:16:48Z",
+      "last_seen": "2026-11-03T13:16:48Z"
     },
     {
       "app_name": "Yakit",

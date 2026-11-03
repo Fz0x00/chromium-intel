@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-11-02T14:14:11Z",
+  "scan_time": "2026-11-03T13:16:53Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 52,
@@ -64,15 +64,15 @@
     },
     {
       "app_name": "Bitwarden",
-      "app_version": "2026.10.2",
-      "app_path": "/tmp/hunter-3998211875/extracted/Bitwarden.app",
+      "app_version": "2026.10.3",
+      "app_path": "/tmp/hunter-4070243340/extracted/Bitwarden.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "150.0.7871.250",
       "electron_version": "43.5.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-3998211875/extracted/Bitwarden.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-4070243340/extracted/Bitwarden.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "BlueStacks",
@@ -346,15 +346,15 @@
     },
     {
       "app_name": "Obsidian",
-      "app_version": "1.14.5",
-      "app_path": "/tmp/hunter-4157969486/extracted/Obsidian 1.14.5-universal/Obsidian.app",
+      "app_version": "1.15.0",
+      "app_path": "/tmp/hunter-1548272698/extracted/Obsidian 1.15.0-universal/Obsidian.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "150.0.7871.250",
-      "electron_version": "43.8.3",
+      "electron_version": "43.8.4",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-4157969486/extracted/Obsidian 1.14.5-universal/Obsidian.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-1548272698/extracted/Obsidian 1.15.0-universal/Obsidian.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "QQ",
@@ -519,15 +519,15 @@
     },
     {
       "app_name": "VS Code",
-      "app_version": "1.144.0",
-      "app_path": "/tmp/hunter-2018378606/extracted/Visual Studio Code.app",
+      "app_version": "1.144.1",
+      "app_path": "/tmp/hunter-4164108445/extracted/Visual Studio Code.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "150.0.7871.250",
       "electron_version": "43.8.3",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2018378606/extracted/Visual Studio Code.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-4164108445/extracted/Visual Studio Code.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Visual Studio Code",
