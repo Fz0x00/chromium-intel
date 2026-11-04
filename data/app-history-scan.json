@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T13:16:53Z",
+  "generated_at": "2026-11-04T13:29:58Z",
   "observations": [
     {
       "app_name": "Baidu Netdisk",
@@ -130,6 +130,16 @@
       "source": "inspect-list",
       "first_seen": "2026-10-29T11:59:58Z",
       "last_seen": "2026-10-29T11:59:58Z"
+    },
+    {
+      "app_name": "Beekeeper Studio",
+      "app_version": "6.2.1",
+      "electron_version": "44.3.0",
+      "chromium_version": "152.0.7977.78",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-04T13:29:54Z",
+      "last_seen": "2026-11-04T13:29:54Z"
     },
     {
       "app_name": "Bitwarden",
@@ -490,6 +500,16 @@
       "source": "inspect-list",
       "first_seen": "2026-10-23T10:44:11Z",
       "last_seen": "2026-10-23T10:44:11Z"
+    },
+    {
+      "app_name": "Claude",
+      "app_version": "4.16336.0",
+      "electron_version": "44.9.3",
+      "chromium_version": "152.0.7977.167",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-04T13:29:54Z",
+      "last_seen": "2026-11-04T13:29:54Z"
     },
     {
       "app_name": "Claude",
@@ -1309,6 +1329,16 @@
       "last_seen": "2026-10-30T11:54:25Z"
     },
     {
+      "app_name": "Slack",
+      "app_version": "4.53.280",
+      "electron_version": "45.2.1",
+      "chromium_version": "156.0.8078.75",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-04T13:29:54Z",
+      "last_seen": "2026-11-04T13:29:54Z"
+    },
+    {
       "app_name": "Spotify",
       "app_version": "",
       "chromium_version": "146.0.7680.179",
@@ -1545,6 +1575,16 @@
       "source": "inspect-list",
       "first_seen": "2026-11-03T13:16:48Z",
       "last_seen": "2026-11-03T13:16:48Z"
+    },
+    {
+      "app_name": "VS Code",
+      "app_version": "1.145.0",
+      "electron_version": "43.8.3",
+      "chromium_version": "150.0.7871.250",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-04T13:29:54Z",
+      "last_seen": "2026-11-04T13:29:54Z"
     },
     {
       "app_name": "Yakit",

@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-11-03T13:16:53Z",
+  "scan_time": "2026-11-04T13:29:58Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 52,
@@ -52,15 +52,15 @@
     },
     {
       "app_name": "Beekeeper Studio",
-      "app_version": "6.2.0",
-      "app_path": "/tmp/hunter-2663167328/extracted/Beekeeper Studio.app",
+      "app_version": "6.2.1",
+      "app_path": "/tmp/hunter-2714267864/extracted/Beekeeper Studio.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "152.0.7977.78",
       "electron_version": "44.3.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2663167328/extracted/Beekeeper Studio.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2714267864/extracted/Beekeeper Studio.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Bitwarden",
@@ -109,15 +109,15 @@
     },
     {
       "app_name": "Claude",
-      "app_version": "4.4212.0",
-      "app_path": "/tmp/hunter-3011572669/extracted/Claude.app",
+      "app_version": "4.16336.0",
+      "app_path": "/tmp/hunter-1929501826/extracted/Claude.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "152.0.7977.167",
       "electron_version": "44.9.3",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-3011572669/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-1929501826/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "CodeBuddy CN",
@@ -429,15 +429,15 @@
     },
     {
       "app_name": "Slack",
-      "app_version": "4.53.276",
-      "app_path": "/tmp/hunter-1292929932/extracted/Slack/Slack.app",
+      "app_version": "4.53.280",
+      "app_path": "/tmp/hunter-1762843711/extracted/Slack/Slack.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
-      "chromium_version": "156.0.8078.49",
-      "electron_version": "45.1.0",
+      "chromium_version": "156.0.8078.75",
+      "electron_version": "45.2.1",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-1292929932/extracted/Slack/Slack.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-1762843711/extracted/Slack/Slack.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Spotify",
@@ -519,15 +519,15 @@
     },
     {
       "app_name": "VS Code",
-      "app_version": "1.144.1",
-      "app_path": "/tmp/hunter-4164108445/extracted/Visual Studio Code.app",
+      "app_version": "1.145.0",
+      "app_path": "/tmp/hunter-3833717989/extracted/Visual Studio Code.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "150.0.7871.250",
       "electron_version": "43.8.3",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-4164108445/extracted/Visual Studio Code.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-3833717989/extracted/Visual Studio Code.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Visual Studio Code",
