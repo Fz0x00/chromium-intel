@@ -31290,5 +31290,90 @@
     "cl_number": 8480911,
     "subject": "Synchronize form control autofill state with suggested values",
     "commit_message": ""
+  },
+  "511768565": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8514684",
+    "cl_number": 8514684,
+    "subject": "Roll minigbm from 9d21b5cb5896 to a2d42f09d696 (32 revisions)",
+    "commit_message": ""
+  },
+  "567672825": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8561557",
+    "cl_number": 8561557,
+    "subject": "[Focus] Fix Crash when Ungrouping Focused Ephemeral Tab Group",
+    "commit_message": ""
+  },
+  "553171097": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8478091",
+    "cl_number": 8478091,
+    "subject": "[payments] Fix [Continue] button input protection",
+    "commit_message": ""
+  },
+  "507351304": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8479531",
+    "cl_number": 8479531,
+    "subject": "[Extensions] Update controlled content settings when extension state change",
+    "commit_message": ""
+  },
+  "553138801": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8525586",
+    "cl_number": 8525586,
+    "subject": "Reland \"extensions: Absorb the mime_types_handler warning into all hosts\"",
+    "commit_message": ""
+  },
+  "517448378": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8398229",
+    "cl_number": 8398229,
+    "subject": "[AIM] Never send a precise fix to approximate-only sites in X-Geo",
+    "commit_message": ""
+  },
+  "562957377": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8486067",
+    "cl_number": 8486067,
+    "subject": "[CE] Only use FocusTrigger::kUserGesture for kActivation",
+    "commit_message": ""
+  },
+  "550245671": null,
+  "514078071": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8498854",
+    "cl_number": 8498854,
+    "subject": "[Extensions] Re-terminate BiDi formatting in truncated debugger warning",
+    "commit_message": ""
+  },
+  "514542988": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8421639",
+    "cl_number": 8421639,
+    "subject": "Extensions: Management: Restrict enabling of non-allowlisted extensions",
+    "commit_message": ""
+  },
+  "566935544": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8467990",
+    "cl_number": 8467990,
+    "subject": "Use base::WeakPtr for callbacks in address save/update views",
+    "commit_message": ""
+  },
+  "577719868": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8682884",
+    "cl_number": 8682884,
+    "subject": "[M150-LTS] Fix UAF in BookmarksPageHandler",
+    "commit_message": ""
+  },
+  "570029913": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8578062",
+    "cl_number": 8578062,
+    "subject": "[OTP] Verify frame token in OtpManagerLegacyImpl::MaybeShowOtpSuggestionsForSms",
+    "commit_message": ""
+  },
+  "572991399": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8682121",
+    "cl_number": 8682121,
+    "subject": "[M156] Fix UAF in WindowsUpdateFunction::UpdateWindowState()",
+    "commit_message": ""
+  },
+  "540020706": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8549773",
+    "cl_number": 8549773,
+    "subject": "[Autofill AI] Block primary order/shipment suggestions in cross-origin iframes",
+    "commit_message": ""
   }
 }
