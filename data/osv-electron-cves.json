@@ -1,90 +1,27 @@
 {
   "generator": "hunter osv-check 0.2.0",
-  "scan_time": "2026-11-04T13:29:54Z",
+  "scan_time": "2026-11-05T13:45:08Z",
   "source": "inspect-results.json",
-  "total_apps": 4,
-  "with_electron_version": 4,
+  "total_apps": 2,
+  "with_electron_version": 2,
   "missing_electron_version": 0,
-  "checked": 4,
+  "checked": 2,
   "failed": 0,
-  "with_cves": 1,
-  "total_cves": 4,
-  "severity_counts": {
-    "high": 1,
-    "low": 2,
-    "medium": 1
-  },
+  "with_cves": 0,
+  "total_cves": 0,
+  "severity_counts": {},
   "apps": [
     {
-      "app_name": "Beekeeper Studio",
-      "app_version": "6.2.1",
-      "electron_version": "44.3.0",
-      "total_cves": 4,
-      "cves": [
-        {
-          "id": "GHSA-jr5w-w6x2-84p9",
-          "cve": "CVE-2026-115570",
-          "summary": "Electron: Mitigation for compromised eMudhra intermediate certificates",
-          "severity": "high",
-          "cvss_score": "7.4",
-          "published": "2026-10-23T20:53:41Z",
-          "fix_versions": [
-            "44.9.1"
-          ]
-        },
-        {
-          "id": "GHSA-x562-297c-g43g",
-          "cve": "CVE-2026-113798",
-          "summary": "Electron: Pointer lock permission requests can be attributed to the wrong frame",
-          "severity": "medium",
-          "cvss_score": "5.3",
-          "published": "2026-10-22T16:47:15Z",
-          "fix_versions": [
-            "44.5.0"
-          ]
-        },
-        {
-          "id": "GHSA-3qxv-5xgr-q7w9",
-          "cve": "CVE-2026-114122",
-          "summary": "Electron: Frame subscription trusts GPU-supplied frame geometry",
-          "severity": "low",
-          "cvss_score": "3.4",
-          "published": "2026-10-22T16:46:06Z",
-          "fix_versions": [
-            "44.4.3"
-          ]
-        },
-        {
-          "id": "GHSA-h3v5-h239-pg29",
-          "cve": "CVE-2026-114124",
-          "summary": "Electron: Off-screen rendering on macOS trusts GPU-supplied frame geometry",
-          "severity": "low",
-          "cvss_score": "3.4",
-          "published": "2026-10-22T16:44:33Z",
-          "fix_versions": [
-            "44.4.3"
-          ]
-        }
-      ]
-    },
-    {
-      "app_name": "Claude",
-      "app_version": "4.16336.0",
-      "electron_version": "44.9.3",
+      "app_name": "Discord",
+      "app_version": "0.0.421",
+      "electron_version": "44.10.0",
       "total_cves": 0,
       "cves": []
     },
     {
-      "app_name": "Slack",
-      "app_version": "4.53.280",
-      "electron_version": "45.2.1",
-      "total_cves": 0,
-      "cves": []
-    },
-    {
-      "app_name": "VS Code",
-      "app_version": "1.145.0",
-      "electron_version": "43.8.3",
+      "app_name": "Rocket.Chat",
+      "app_version": "4.19.1",
+      "electron_version": "43.8.1",
       "total_cves": 0,
       "cves": []
     }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T13:29:58Z",
+  "generated_at": "2026-11-05T13:45:13Z",
   "observations": [
     {
       "app_name": "Baidu Netdisk",
@@ -642,6 +642,16 @@
       "last_seen": "2026-10-27T11:21:30Z"
     },
     {
+      "app_name": "Discord",
+      "app_version": "0.0.421",
+      "electron_version": "44.10.0",
+      "chromium_version": "152.0.7977.169",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-05T13:45:07Z",
+      "last_seen": "2026-11-05T13:45:07Z"
+    },
+    {
       "app_name": "Doubao",
       "app_version": "2.34.6",
       "chromium_version": "147.0.7727.149",
@@ -1167,6 +1177,16 @@
       "source": "inspect-list",
       "first_seen": "2026-10-28T11:51:54Z",
       "last_seen": "2026-10-28T11:51:54Z"
+    },
+    {
+      "app_name": "Rocket.Chat",
+      "app_version": "4.19.1",
+      "electron_version": "43.8.1",
+      "chromium_version": "150.0.7871.250",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-05T13:45:07Z",
+      "last_seen": "2026-11-05T13:45:07Z"
     },
     {
       "app_name": "Session",

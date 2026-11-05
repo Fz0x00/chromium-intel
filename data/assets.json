@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-11-04T13:29:58Z",
+  "scan_time": "2026-11-05T13:45:13Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 52,
@@ -143,15 +143,15 @@
     },
     {
       "app_name": "Discord",
-      "app_version": "0.0.420",
-      "app_path": "/tmp/hunter-3193846677/extracted/Discord/Discord.app",
+      "app_version": "0.0.421",
+      "app_path": "/tmp/hunter-2992980144/extracted/Discord/Discord.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
-      "chromium_version": "152.0.7977.167",
-      "electron_version": "44.9.3",
+      "chromium_version": "152.0.7977.169",
+      "electron_version": "44.10.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-3193846677/extracted/Discord/Discord.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2992980144/extracted/Discord/Discord.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Docker / Docker Desktop",
@@ -393,15 +393,15 @@
     },
     {
       "app_name": "Rocket.Chat",
-      "app_version": "4.19.0",
-      "app_path": "/tmp/hunter-625916275/extracted/Rocket.Chat.app",
+      "app_version": "4.19.1",
+      "app_path": "/tmp/hunter-3440201666/extracted/Rocket.Chat.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "150.0.7871.250",
       "electron_version": "43.8.1",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-625916275/extracted/Rocket.Chat.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-3440201666/extracted/Rocket.Chat.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Session",
