@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-11-06T13:28:28Z",
+  "scan_time": "2026-11-07T12:07:51Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 52,
@@ -52,15 +52,15 @@
     },
     {
       "app_name": "Beekeeper Studio",
-      "app_version": "6.2.1",
-      "app_path": "/tmp/hunter-2714267864/extracted/Beekeeper Studio.app",
+      "app_version": "6.2.2",
+      "app_path": "/tmp/hunter-2214576896/extracted/Beekeeper Studio.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "152.0.7977.78",
       "electron_version": "44.3.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2714267864/extracted/Beekeeper Studio.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2214576896/extracted/Beekeeper Studio.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Bitwarden",
@@ -441,13 +441,13 @@
     },
     {
       "app_name": "Spotify",
-      "app_path": "/tmp/hunter-2097421640/extracted/Spotify/Spotify.app",
+      "app_path": "/tmp/hunter-630875690/extracted/Spotify/Spotify.app",
       "framework": "cef",
       "framework_name": "Chromium Embedded Framework.framework",
       "detection": "directory",
       "chromium_version": "151.0.7922.138",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2097421640/extracted/Spotify/Spotify.app/Contents/Frameworks/Chromium Embedded Framework.framework/Versions/A/Chromium Embedded Framework"
+      "binary_path": "/tmp/hunter-630875690/extracted/Spotify/Spotify.app/Contents/Frameworks/Chromium Embedded Framework.framework/Versions/A/Chromium Embedded Framework"
     },
     {
       "app_name": "TRAE SOLO CN",
