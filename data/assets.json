@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-11-07T12:07:51Z",
+  "scan_time": "2026-11-09T14:45:11Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 52,
@@ -166,8 +166,8 @@
     },
     {
       "app_name": "Doubao",
-      "app_version": "2.34.6",
-      "app_path": "/tmp/hunter-898455676/extracted/豆包：你的 AI 智能助手/Doubao.app/Contents/Helpers/Doubao Browser.app",
+      "app_version": "2.35.8",
+      "app_path": "/tmp/hunter-3541413396/extracted/豆包：你的 AI 智能助手/Doubao.app/Contents/Helpers/Doubao Browser.app",
       "framework": "electron_fork",
       "framework_name": "Doubao Browser Framework",
       "detection": "combined",
@@ -187,7 +187,7 @@
     {
       "app_name": "Feishu",
       "app_version": "147.0.7727.149",
-      "app_path": "/tmp/hunter-2818128665/extracted/飞书 Feishu/Lark.app",
+      "app_path": "/tmp/hunter-4018565233/extracted/飞书 Feishu/Lark.app",
       "framework": "electron_fork",
       "framework_name": "Lark Framework",
       "detection": "combined",
@@ -507,15 +507,15 @@
     },
     {
       "app_name": "Trilium Notes",
-      "app_version": "0.106.1",
-      "app_path": "/tmp/hunter-372619079/extracted/Trilium Notes.app",
+      "app_version": "0.107.0",
+      "app_path": "/tmp/hunter-1417788040/extracted/Trilium Notes.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
-      "chromium_version": "152.0.7977.130",
-      "electron_version": "44.4.3",
+      "chromium_version": "156.0.8078.80",
+      "electron_version": "45.2.3",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-372619079/extracted/Trilium Notes.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-1417788040/extracted/Trilium Notes.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "VS Code",
@@ -564,15 +564,15 @@
     },
     {
       "app_name": "Yakit",
-      "app_version": "1.4.9-1106",
-      "app_path": "/tmp/hunter-4164921969/extracted/Yakit 1.4.9-1106-arm64/Yakit.app",
+      "app_version": "1.4.9-1109",
+      "app_path": "/tmp/hunter-3831192116/extracted/Yakit 1.4.9-1109-arm64/Yakit.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "118.0.5993.54",
       "electron_version": "27.0.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-4164921969/extracted/Yakit 1.4.9-1106-arm64/Yakit.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-3831192116/extracted/Yakit 1.4.9-1109-arm64/Yakit.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "扣子",
