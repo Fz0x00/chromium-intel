@@ -31375,5 +31375,54 @@
     "cl_number": 8549773,
     "subject": "[Autofill AI] Block primary order/shipment suggestions in cross-origin iframes",
     "commit_message": ""
+  },
+  "582442907": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8759138",
+    "cl_number": 8759138,
+    "subject": "Traverse xslt data structures better when normalizing indexes and clearing caches.",
+    "commit_message": ""
+  },
+  "566384898": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8526899",
+    "cl_number": 8526899,
+    "subject": "gpu: Check GL errors before marking passthrough shared image cleared",
+    "commit_message": ""
+  },
+  "561998123": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8749664",
+    "cl_number": 8749664,
+    "subject": "Reland \"viz: Don't propose the same rounded-display mask candidate twice\"",
+    "commit_message": ""
+  },
+  "568893995": null,
+  "550525698": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8772287",
+    "cl_number": 8772287,
+    "subject": "[M150-LTS] GPU: Check graphics reset status before delivering readback results",
+    "commit_message": ""
+  },
+  "572578603": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8759138",
+    "cl_number": 8759138,
+    "subject": "Traverse xslt data structures better when normalizing indexes and clearing caches.",
+    "commit_message": ""
+  },
+  "561996724": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8675644",
+    "cl_number": 8675644,
+    "subject": "[M150-LTS] FSA: Add missing sensitive paths to the blocklist",
+    "commit_message": ""
+  },
+  "563358700": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8524425",
+    "cl_number": 8524425,
+    "subject": "Manual roll Dawn from 074d0e5ea441 to aabbf5b672b7 (39 revisions)",
+    "commit_message": ""
+  },
+  "536663516": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8450359",
+    "cl_number": 8450359,
+    "subject": "Don't support partial clearing in WritePixels",
+    "commit_message": ""
   }
 }
