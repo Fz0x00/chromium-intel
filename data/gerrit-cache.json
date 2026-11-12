@@ -31424,5 +31424,393 @@
     "cl_number": 8450359,
     "subject": "Don't support partial clearing in WritePixels",
     "commit_message": ""
+  },
+  "578664961": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8778753",
+    "cl_number": 8778753,
+    "subject": "[M156] HttpCache::Transaction: avoid stale bits in response_ after restarts",
+    "commit_message": ""
+  },
+  "580865537": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8715454",
+    "cl_number": 8715454,
+    "subject": "Roll Skia from 145614f7ff9f to 942afe3464d6 (4 revisions)",
+    "commit_message": ""
+  },
+  "574209539": null,
+  "578322433": null,
+  "576944655": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8693648",
+    "cl_number": 8693648,
+    "subject": "Roll Skia from c0c46ee9f938 to a81d78d7049a (5 revisions)",
+    "commit_message": ""
+  },
+  "574795295": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8761831",
+    "cl_number": 8761831,
+    "subject": "[M158] Treat recorderer snap() failure as a failure",
+    "commit_message": ""
+  },
+  "580857377": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8719211",
+    "cl_number": 8719211,
+    "subject": "Roll Skia from 8c2937c32aa1 to 49ec2655bf51 (7 revisions)",
+    "commit_message": ""
+  },
+  "572988453": null,
+  "578685477": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8761224",
+    "cl_number": 8761224,
+    "subject": "Roll Skia from f533d4034900 to be4196b7f537 (9 revisions)",
+    "commit_message": ""
+  },
+  "579313193": null,
+  "580853808": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8772569",
+    "cl_number": 8772569,
+    "subject": "[M157] Disallow differing origins in most synchronous about:blank commits",
+    "commit_message": ""
+  },
+  "574792758": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8723248",
+    "cl_number": 8723248,
+    "subject": "[M150-LTS][a11y] Skip nested child updates while iterating children",
+    "commit_message": ""
+  },
+  "580846651": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8764225",
+    "cl_number": 8764225,
+    "subject": "[M157] Fix re-entrancy UAF in WebMediaPlayerMS audio and video reload",
+    "commit_message": ""
+  },
+  "573263421": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8725597",
+    "cl_number": 8725597,
+    "subject": "Roll Skia from a0b70455064a to 15213bd615dc (1 revision)",
+    "commit_message": ""
+  },
+  "578655807": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8771667",
+    "cl_number": 8771667,
+    "subject": "[M150-LTS][html-in-canvas] Fix display-locked painting in PaintReplaced",
+    "commit_message": ""
+  },
+  "579300424": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8797085",
+    "cl_number": 8797085,
+    "subject": "[M156] [ImageCapture] Scope device session lookups to the requesting frame",
+    "commit_message": ""
+  },
+  "577260644": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8724767",
+    "cl_number": 8724767,
+    "subject": "[M150-LTS] SimpleCache: fix cleanup bug on key collision (at file level)",
+    "commit_message": ""
+  },
+  "578656869": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8713744",
+    "cl_number": 8713744,
+    "subject": "Roll Skia from c34cccf420d6 to c733ad3e37cb (15 revisions)",
+    "commit_message": ""
+  },
+  "575937643": null,
+  "563340397": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8722211",
+    "cl_number": 8722211,
+    "subject": "[M150-LTS] FSA: Reject symlinks in macOS copy-on-write swap file creation",
+    "commit_message": ""
+  },
+  "581785712": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8772988",
+    "cl_number": 8772988,
+    "subject": "[M156] [FSA] Match sensitive-path blocklist rules case-insensitively",
+    "commit_message": ""
+  },
+  "577171064": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8731522",
+    "cl_number": 8731522,
+    "subject": "[M156] [MSE] Don't open a MediaSource whose context died mid-attachment",
+    "commit_message": ""
+  },
+  "574381704": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8746988",
+    "cl_number": 8746988,
+    "subject": "[M157] [navigation] Match MHTML MIME types case-insensitively in the browser",
+    "commit_message": ""
+  },
+  "575312521": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8672720",
+    "cl_number": 8672720,
+    "subject": "[M157] Retain SVGImage across SVGImageForContainer::CreateViewInfo",
+    "commit_message": ""
+  },
+  "567827593": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8791816",
+    "cl_number": 8791816,
+    "subject": "[M150-LTS] Roll src/third_party/icu/ 2a51536df..c670d12 (2 commits)",
+    "commit_message": ""
+  },
+  "573335176": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8740862",
+    "cl_number": 8740862,
+    "subject": "[M150-LTS] Avoid re-entrant slot assignment recalc",
+    "commit_message": ""
+  },
+  "575086736": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8696155",
+    "cl_number": 8696155,
+    "subject": "[M158] Fix unnecessary a11y alerts on app menu zoom event",
+    "commit_message": ""
+  },
+  "580867734": null,
+  "575533210": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8722709",
+    "cl_number": 8722709,
+    "subject": "[M150-LTS] Prevent dirty slot assignments during layout and frame rect updates",
+    "commit_message": ""
+  },
+  "568906910": null,
+  "574218401": null,
+  "577376424": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8673063",
+    "cl_number": 8673063,
+    "subject": "[M156] [FSA] Block /run in sensitive path blocklist",
+    "commit_message": ""
+  },
+  "576439987": null,
+  "574222006": null,
+  "576664769": null,
+  "577377985": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8753240",
+    "cl_number": 8753240,
+    "subject": "Roll Dawn from 0f50426acc3e to 77ca1f229d3f (20 revisions)",
+    "commit_message": ""
+  },
+  "572312779": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8710454",
+    "cl_number": 8710454,
+    "subject": "[M156] Don't send Connection-Allowlist reports for history navigations",
+    "commit_message": ""
+  },
+  "576736463": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8722709",
+    "cl_number": 8722709,
+    "subject": "[M150-LTS] Prevent dirty slot assignments during layout and frame rect updates",
+    "commit_message": ""
+  },
+  "577366752": null,
+  "575038730": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8733364",
+    "cl_number": 8733364,
+    "subject": "[M156] [media] Preserve current_sequence_header_ across AV1Decoder::Reset()",
+    "commit_message": ""
+  },
+  "578685706": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8780990",
+    "cl_number": 8780990,
+    "subject": "Roll Skia from 9c3d43d8a04b to 7e1b95ec3c00 (4 revisions)",
+    "commit_message": ""
+  },
+  "578659604": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8713272",
+    "cl_number": 8713272,
+    "subject": "[M156] Prevent UAF in LegacyRenderWidgetHostHWND after UpdateTooltip",
+    "commit_message": ""
+  },
+  "576949530": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8713744",
+    "cl_number": 8713744,
+    "subject": "Roll Skia from c34cccf420d6 to c733ad3e37cb (15 revisions)",
+    "commit_message": ""
+  },
+  "568699166": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8771467",
+    "cl_number": 8771467,
+    "subject": "[M150-LTS] Defer WorkerProcessHandle destruction via DeleteSoon in EmbeddedWorkerInstance",
+    "commit_message": ""
+  },
+  "567611696": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8768998",
+    "cl_number": 8768998,
+    "subject": "[M150-LTS] Avoid iterating mutated trigger maps during snapshot update",
+    "commit_message": ""
+  },
+  "567611698": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8723741",
+    "cl_number": 8723741,
+    "subject": "[M150-LTS] Copy timelines before servicing animations",
+    "commit_message": ""
+  },
+  "577461556": null,
+  "560620348": null,
+  "581629247": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8779152",
+    "cl_number": 8779152,
+    "subject": "[M156] MSE: Ensure merged GOPs are split or removed on continuation appends",
+    "commit_message": ""
+  },
+  "575939904": null,
+  "578656065": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8764225",
+    "cl_number": 8764225,
+    "subject": "[M157] Fix re-entrancy UAF in WebMediaPlayerMS audio and video reload",
+    "commit_message": ""
+  },
+  "579278668": null,
+  "576950618": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8669940",
+    "cl_number": 8669940,
+    "subject": "Roll Skia from 597c159c5d15 to 3b51f6ec65fb (20 revisions)",
+    "commit_message": ""
+  },
+  "575524700": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8766878",
+    "cl_number": 8766878,
+    "subject": "[M150-LTS] Don't expose nested pseudo-elements as snap event targets",
+    "commit_message": ""
+  },
+  "575524702": null,
+  "578656106": null,
+  "574216555": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8679276",
+    "cl_number": 8679276,
+    "subject": "Roll Skia from 4ecd22a4a1d0 to 1c0becf918d1 (9 revisions)",
+    "commit_message": ""
+  },
+  "583122799": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8791574",
+    "cl_number": 8791574,
+    "subject": "[M150] Copy attributes before applying them",
+    "commit_message": ""
+  },
+  "574409610": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8687744",
+    "cl_number": 8687744,
+    "subject": "[M157] [CSS] Run the marking barrier when switching a CSSSelector to RareData",
+    "commit_message": ""
+  },
+  "579818899": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8773695",
+    "cl_number": 8773695,
+    "subject": "[M150] [PDF] Prevent page unloading in PDFiumPage::GenerateThumbnail()",
+    "commit_message": ""
+  },
+  "580867480": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8744418",
+    "cl_number": 8744418,
+    "subject": "[M156] [WebShare] Do not follow links when storing shared files",
+    "commit_message": ""
+  },
+  "574035865": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8779832",
+    "cl_number": 8779832,
+    "subject": "[M157] WebGL2: Suppress framebuffer-render-to-layer.html on Windows D3D11",
+    "commit_message": ""
+  },
+  "574410140": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8791954",
+    "cl_number": 8791954,
+    "subject": "[M150-LTS] cc: Don't cache record shaders that use SharedImages",
+    "commit_message": ""
+  },
+  "577305517": null,
+  "574791611": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8733922",
+    "cl_number": 8733922,
+    "subject": "[M157] [MFVEA] Validate D3D11 texture format and copy bounds in mf_helpers",
+    "commit_message": ""
+  },
+  "579313083": null,
+  "572501958": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8738708",
+    "cl_number": 8738708,
+    "subject": "[M156] [Passwords] Fix auto sign-in toast menu lifetime",
+    "commit_message": ""
+  },
+  "574059463": null,
+  "580921803": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8755081",
+    "cl_number": 8755081,
+    "subject": "[a11y] Swap or copy children instead of guarding child loops",
+    "commit_message": ""
+  },
+  "569286603": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8779533",
+    "cl_number": 8779533,
+    "subject": "[M156] Remove SK_LEGACY_ALPHA_RUNS",
+    "commit_message": ""
+  },
+  "580875215": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8777367",
+    "cl_number": 8777367,
+    "subject": "[M156] Prevent duplicate render pass ids",
+    "commit_message": ""
+  },
+  "577346516": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8715454",
+    "cl_number": 8715454,
+    "subject": "Roll Skia from 145614f7ff9f to 942afe3464d6 (4 revisions)",
+    "commit_message": ""
+  },
+  "579276256": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8679276",
+    "cl_number": 8679276,
+    "subject": "Roll Skia from 4ecd22a4a1d0 to 1c0becf918d1 (9 revisions)",
+    "commit_message": ""
+  },
+  "574025697": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8791816",
+    "cl_number": 8791816,
+    "subject": "[M150-LTS] Roll src/third_party/icu/ 2a51536df..c670d12 (2 commits)",
+    "commit_message": ""
+  },
+  "577242082": null,
+  "576855527": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8742673",
+    "cl_number": 8742673,
+    "subject": "[M156] Swap pending snap sets before iterating in ExecutePendingSnapUpdates()",
+    "commit_message": ""
+  },
+  "569674220": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8777279",
+    "cl_number": 8777279,
+    "subject": "[M157] [Extensions] Fix UAF in PostMessageSupport::PostJavaScriptMessage",
+    "commit_message": ""
+  },
+  "581903854": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8742264",
+    "cl_number": 8742264,
+    "subject": "Roll Skia from 3df5df010221 to a5aacd103e68 (11 revisions)",
+    "commit_message": ""
+  },
+  "580869107": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8779574",
+    "cl_number": 8779574,
+    "subject": "[M150-LTS][a11y-image-desc] Guard AXImageAnnotator::OnImageAnnotated re-entrancy",
+    "commit_message": ""
+  },
+  "577341943": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8708753",
+    "cl_number": 8708753,
+    "subject": "Roll Skia from 7a70dae42574 to c34cccf420d6 (12 revisions)",
+    "commit_message": ""
+  },
+  "576943246": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8772461",
+    "cl_number": 8772461,
+    "subject": "[M156] [Extensions] Restrict mimeHandlerPrivate to allowlisted extensions",
+    "commit_message": ""
+  },
+  "577336494": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8719888",
+    "cl_number": 8719888,
+    "subject": "[M156] [Extensions] Guard against synchronous destruction on AX events",
+    "commit_message": ""
+  },
+  "578693038": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8733962",
+    "cl_number": 8733962,
+    "subject": "[M156] [Extensions] Avoid copy fallback in final install move",
+    "commit_message": ""
   }
 }
