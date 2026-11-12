@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T13:13:46Z",
+  "generated_at": "2026-11-12T14:17:45Z",
   "observations": [
     {
       "app_name": "Baidu Netdisk",
@@ -735,7 +735,7 @@
       "platform": "linux",
       "source": "inspect-list",
       "first_seen": "2026-09-09T10:26:00Z",
-      "last_seen": "2026-11-09T14:45:06Z"
+      "last_seen": "2026-11-12T14:17:40Z"
     },
     {
       "app_name": "GitHub Desktop",
@@ -1466,6 +1466,14 @@
       "source": "inspect-list",
       "first_seen": "2026-11-10T13:59:37Z",
       "last_seen": "2026-11-10T13:59:37Z"
+    },
+    {
+      "app_name": "Spotify",
+      "app_version": "",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-12T14:17:40Z",
+      "last_seen": "2026-11-12T14:17:40Z"
     },
     {
       "app_name": "Spotify",
