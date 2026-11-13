@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T14:17:45Z",
+  "generated_at": "2026-11-13T13:41:29Z",
   "observations": [
     {
       "app_name": "Baidu Netdisk",
@@ -573,6 +573,16 @@
     },
     {
       "app_name": "Claude",
+      "app_version": "5.11492.2",
+      "electron_version": "45.2.1",
+      "chromium_version": "156.0.8078.75",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-13T13:41:24Z",
+      "last_seen": "2026-11-13T13:41:24Z"
+    },
+    {
+      "app_name": "Claude",
       "app_version": "5.1231.2",
       "electron_version": "45.2.1",
       "chromium_version": "156.0.8078.75",
@@ -712,6 +722,15 @@
     },
     {
       "app_name": "Doubao",
+      "app_version": "2.35.12",
+      "chromium_version": "147.0.7727.149",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-13T13:41:24Z",
+      "last_seen": "2026-11-13T13:41:24Z"
+    },
+    {
+      "app_name": "Doubao",
       "app_version": "2.35.8",
       "chromium_version": "147.0.7727.149",
       "platform": "linux",
@@ -755,7 +774,7 @@
       "platform": "linux",
       "source": "inspect-list",
       "first_seen": "2026-11-11T13:13:41Z",
-      "last_seen": "2026-11-11T13:13:41Z"
+      "last_seen": "2026-11-13T13:41:24Z"
     },
     {
       "app_name": "GitHub Desktop",
@@ -1118,6 +1137,16 @@
       "last_seen": "2026-11-03T13:16:48Z"
     },
     {
+      "app_name": "Obsidian",
+      "app_version": "1.15.1",
+      "electron_version": "43.8.9",
+      "chromium_version": "150.0.7871.250",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-13T13:41:24Z",
+      "last_seen": "2026-11-13T13:41:24Z"
+    },
+    {
       "app_name": "QQ",
       "app_version": "6.9.99",
       "electron_version": "40.0.0",
@@ -1276,6 +1305,16 @@
       "source": "inspect-list",
       "first_seen": "2026-11-10T13:59:37Z",
       "last_seen": "2026-11-10T13:59:37Z"
+    },
+    {
+      "app_name": "Rocket.Chat",
+      "app_version": "4.19.3",
+      "electron_version": "43.8.1",
+      "chromium_version": "150.0.7871.250",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-13T13:41:24Z",
+      "last_seen": "2026-11-13T13:41:24Z"
     },
     {
       "app_name": "Session",
@@ -1872,6 +1911,16 @@
       "source": "inspect-list",
       "first_seen": "2026-11-09T14:45:06Z",
       "last_seen": "2026-11-09T14:45:06Z"
+    },
+    {
+      "app_name": "Yakit",
+      "app_version": "1.4.9-1113",
+      "electron_version": "27.0.0",
+      "chromium_version": "118.0.5993.54",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-13T13:41:24Z",
+      "last_seen": "2026-11-13T13:41:24Z"
     },
     {
       "app_name": "Yakit",
