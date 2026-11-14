@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T13:41:29Z",
+  "generated_at": "2026-11-14T12:44:41Z",
   "observations": [
     {
       "app_name": "Baidu Netdisk",
@@ -583,6 +583,16 @@
     },
     {
       "app_name": "Claude",
+      "app_version": "5.11492.5",
+      "electron_version": "45.2.1",
+      "chromium_version": "156.0.8078.75",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-14T12:44:37Z",
+      "last_seen": "2026-11-14T12:44:37Z"
+    },
+    {
+      "app_name": "Claude",
       "app_version": "5.1231.2",
       "electron_version": "45.2.1",
       "chromium_version": "156.0.8078.75",
@@ -712,6 +722,16 @@
       "last_seen": "2026-11-05T13:45:07Z"
     },
     {
+      "app_name": "Discord",
+      "app_version": "0.0.422",
+      "electron_version": "44.10.2",
+      "chromium_version": "152.0.7977.169",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-14T12:44:37Z",
+      "last_seen": "2026-11-14T12:44:37Z"
+    },
+    {
       "app_name": "Doubao",
       "app_version": "2.34.6",
       "chromium_version": "147.0.7727.149",
@@ -774,7 +794,7 @@
       "platform": "linux",
       "source": "inspect-list",
       "first_seen": "2026-11-11T13:13:41Z",
-      "last_seen": "2026-11-13T13:41:24Z"
+      "last_seen": "2026-11-14T12:44:37Z"
     },
     {
       "app_name": "GitHub Desktop",
