@@ -1,34 +1,20 @@
 {
   "generator": "hunter osv-check 0.2.0",
-  "scan_time": "2026-11-14T12:44:37Z",
+  "scan_time": "2026-11-15T13:11:18Z",
   "source": "inspect-results.json",
-  "total_apps": 3,
-  "with_electron_version": 3,
+  "total_apps": 1,
+  "with_electron_version": 1,
   "missing_electron_version": 0,
-  "checked": 3,
+  "checked": 1,
   "failed": 0,
   "with_cves": 0,
   "total_cves": 0,
   "severity_counts": {},
   "apps": [
     {
-      "app_name": "Discord",
-      "app_version": "0.0.422",
-      "electron_version": "44.10.2",
-      "total_cves": 0,
-      "cves": []
-    },
-    {
-      "app_name": "Claude",
-      "app_version": "5.11492.5",
-      "electron_version": "45.2.1",
-      "total_cves": 0,
-      "cves": []
-    },
-    {
-      "app_name": "GitHub Desktop",
-      "app_version": "3.6.11",
-      "electron_version": "44.9.1",
+      "app_name": "Pear Desktop",
+      "app_version": "3.12.1",
+      "electron_version": "45.3.2",
       "total_cves": 0,
       "cves": []
     }

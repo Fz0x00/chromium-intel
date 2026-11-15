@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T12:44:41Z",
+  "generated_at": "2026-11-15T13:11:22Z",
   "observations": [
     {
       "app_name": "Baidu Netdisk",
@@ -1165,6 +1165,16 @@
       "source": "inspect-list",
       "first_seen": "2026-11-13T13:41:24Z",
       "last_seen": "2026-11-13T13:41:24Z"
+    },
+    {
+      "app_name": "Pear Desktop",
+      "app_version": "3.12.1",
+      "electron_version": "45.3.2",
+      "chromium_version": "156.0.8078.100",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-15T13:11:17Z",
+      "last_seen": "2026-11-15T13:11:17Z"
     },
     {
       "app_name": "QQ",
