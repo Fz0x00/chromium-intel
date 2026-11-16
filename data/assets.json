@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-11-15T13:11:22Z",
+  "scan_time": "2026-11-16T14:19:25Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 53,
@@ -166,8 +166,8 @@
     },
     {
       "app_name": "Doubao",
-      "app_version": "2.35.12",
-      "app_path": "/tmp/hunter-1043301963/extracted/豆包：你的 AI 智能助手/Doubao.app/Contents/Helpers/Doubao Browser.app",
+      "app_version": "2.36.8",
+      "app_path": "/tmp/hunter-531260348/extracted/豆包：你的 AI 智能助手/Doubao.app/Contents/Helpers/Doubao Browser.app",
       "framework": "electron_fork",
       "framework_name": "Doubao Browser Framework",
       "detection": "combined",

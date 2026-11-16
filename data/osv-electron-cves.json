@@ -1,22 +1,14 @@
 {
   "generator": "hunter osv-check 0.2.0",
-  "scan_time": "2026-11-15T13:11:18Z",
+  "scan_time": "2026-11-16T14:19:20Z",
   "source": "inspect-results.json",
   "total_apps": 1,
   "with_electron_version": 1,
-  "missing_electron_version": 0,
-  "checked": 1,
+  "missing_electron_version": 1,
+  "checked": 0,
   "failed": 0,
   "with_cves": 0,
   "total_cves": 0,
   "severity_counts": {},
-  "apps": [
-    {
-      "app_name": "Pear Desktop",
-      "app_version": "3.12.1",
-      "electron_version": "45.3.2",
-      "total_cves": 0,
-      "cves": []
-    }
-  ]
+  "apps": []
 }

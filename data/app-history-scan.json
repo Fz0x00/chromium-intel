@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T13:11:22Z",
+  "generated_at": "2026-11-16T14:19:25Z",
   "observations": [
     {
       "app_name": "Baidu Netdisk",
@@ -757,6 +757,15 @@
       "source": "inspect-list",
       "first_seen": "2026-11-09T14:45:06Z",
       "last_seen": "2026-11-09T14:45:06Z"
+    },
+    {
+      "app_name": "Doubao",
+      "app_version": "2.36.8",
+      "chromium_version": "147.0.7727.149",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-16T14:19:20Z",
+      "last_seen": "2026-11-16T14:19:20Z"
     },
     {
       "app_name": "Feishu",
