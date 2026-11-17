@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-11-16T14:19:25Z",
+  "scan_time": "2026-11-17T15:17:12Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 53,
@@ -52,15 +52,15 @@
     },
     {
       "app_name": "Beekeeper Studio",
-      "app_version": "6.2.2",
-      "app_path": "/tmp/hunter-2214576896/extracted/Beekeeper Studio.app",
+      "app_version": "6.3.0",
+      "app_path": "/tmp/hunter-2763342199/extracted/Beekeeper Studio.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
-      "chromium_version": "152.0.7977.78",
-      "electron_version": "44.3.0",
+      "chromium_version": "152.0.7977.167",
+      "electron_version": "44.9.1",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2214576896/extracted/Beekeeper Studio.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2763342199/extracted/Beekeeper Studio.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Bitwarden",
@@ -166,8 +166,8 @@
     },
     {
       "app_name": "Doubao",
-      "app_version": "2.36.8",
-      "app_path": "/tmp/hunter-531260348/extracted/豆包：你的 AI 智能助手/Doubao.app/Contents/Helpers/Doubao Browser.app",
+      "app_version": "2.36.10",
+      "app_path": "/tmp/hunter-4029351055/extracted/豆包：你的 AI 智能助手/Doubao.app/Contents/Helpers/Doubao Browser.app",
       "framework": "electron_fork",
       "framework_name": "Doubao Browser Framework",
       "detection": "combined",
@@ -300,15 +300,15 @@
     },
     {
       "app_name": "Mattermost Desktop",
-      "app_version": "6.3.2",
-      "app_path": "/tmp/hunter-3429039475/extracted/Mattermost.app",
+      "app_version": "6.4.0",
+      "app_path": "/tmp/hunter-615365303/extracted/Mattermost.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
-      "chromium_version": "150.0.7871.250",
-      "electron_version": "43.8.3",
+      "chromium_version": "156.0.8078.75",
+      "electron_version": "45.2.1",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-3429039475/extracted/Mattermost.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-615365303/extracted/Mattermost.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "MongoDB Compass",
@@ -441,15 +441,15 @@
     },
     {
       "app_name": "Slack",
-      "app_version": "4.53.287",
-      "app_path": "/tmp/hunter-224861249/extracted/Slack/Slack.app",
+      "app_version": "4.53.292",
+      "app_path": "/tmp/hunter-2932793358/extracted/Slack/Slack.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
-      "chromium_version": "156.0.8078.80",
-      "electron_version": "45.2.3",
+      "chromium_version": "156.0.8078.100",
+      "electron_version": "45.3.2",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-224861249/extracted/Slack/Slack.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2932793358/extracted/Slack/Slack.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Spotify",

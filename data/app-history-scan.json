@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T14:19:25Z",
+  "generated_at": "2026-11-17T15:17:12Z",
   "observations": [
     {
       "app_name": "Baidu Netdisk",
@@ -150,6 +150,16 @@
       "source": "inspect-list",
       "first_seen": "2026-11-07T12:07:46Z",
       "last_seen": "2026-11-07T12:07:46Z"
+    },
+    {
+      "app_name": "Beekeeper Studio",
+      "app_version": "6.3.0",
+      "electron_version": "44.9.1",
+      "chromium_version": "152.0.7977.167",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-17T15:17:07Z",
+      "last_seen": "2026-11-17T15:17:07Z"
     },
     {
       "app_name": "Bitwarden",
@@ -760,6 +770,15 @@
     },
     {
       "app_name": "Doubao",
+      "app_version": "2.36.10",
+      "chromium_version": "147.0.7727.149",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-17T15:17:07Z",
+      "last_seen": "2026-11-17T15:17:07Z"
+    },
+    {
+      "app_name": "Doubao",
       "app_version": "2.36.8",
       "chromium_version": "147.0.7727.149",
       "platform": "linux",
@@ -1064,6 +1083,16 @@
       "source": "inspect-list",
       "first_seen": "2026-11-02T14:14:06Z",
       "last_seen": "2026-11-02T14:14:06Z"
+    },
+    {
+      "app_name": "Mattermost Desktop",
+      "app_version": "6.4.0",
+      "electron_version": "45.2.1",
+      "chromium_version": "156.0.8078.75",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-17T15:17:07Z",
+      "last_seen": "2026-11-17T15:17:07Z"
     },
     {
       "app_name": "MongoDB Compass",
@@ -1544,6 +1573,16 @@
       "source": "inspect-list",
       "first_seen": "2026-11-10T13:59:37Z",
       "last_seen": "2026-11-10T13:59:37Z"
+    },
+    {
+      "app_name": "Slack",
+      "app_version": "4.53.292",
+      "electron_version": "45.3.2",
+      "chromium_version": "156.0.8078.100",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-17T15:17:07Z",
+      "last_seen": "2026-11-17T15:17:07Z"
     },
     {
       "app_name": "Spotify",

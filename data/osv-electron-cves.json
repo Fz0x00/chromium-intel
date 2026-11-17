@@ -1,14 +1,36 @@
 {
   "generator": "hunter osv-check 0.2.0",
-  "scan_time": "2026-11-16T14:19:20Z",
+  "scan_time": "2026-11-17T15:17:07Z",
   "source": "inspect-results.json",
-  "total_apps": 1,
-  "with_electron_version": 1,
+  "total_apps": 4,
+  "with_electron_version": 4,
   "missing_electron_version": 1,
-  "checked": 0,
+  "checked": 3,
   "failed": 0,
   "with_cves": 0,
   "total_cves": 0,
   "severity_counts": {},
-  "apps": []
+  "apps": [
+    {
+      "app_name": "Mattermost Desktop",
+      "app_version": "6.4.0",
+      "electron_version": "45.2.1",
+      "total_cves": 0,
+      "cves": []
+    },
+    {
+      "app_name": "Beekeeper Studio",
+      "app_version": "6.3.0",
+      "electron_version": "44.9.1",
+      "total_cves": 0,
+      "cves": []
+    },
+    {
+      "app_name": "Slack",
+      "app_version": "4.53.292",
+      "electron_version": "45.3.2",
+      "total_cves": 0,
+      "cves": []
+    }
+  ]
 }
