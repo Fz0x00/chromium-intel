@@ -31812,5 +31812,1075 @@
     "cl_number": 8733962,
     "subject": "[M156] [Extensions] Avoid copy fallback in final install move",
     "commit_message": ""
+  },
+  "574376000": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8608391",
+    "cl_number": 8608391,
+    "subject": "[svg] Fall back to masking when SVG clip path union fails",
+    "commit_message": ""
+  },
+  "568979550": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8579865",
+    "cl_number": 8579865,
+    "subject": "Reland \"Update DevTools forbidden extension origins on search engine change\"",
+    "commit_message": ""
+  },
+  "521476204": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8629349",
+    "cl_number": 8629349,
+    "subject": "[PWM] Validate frame URL in UserModifiedNonPasswordField",
+    "commit_message": ""
+  },
+  "576579698": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8643078",
+    "cl_number": 8643078,
+    "subject": "Roll ANGLE from 192af4dd12ae to 48e22c0ca56f (3 revisions)",
+    "commit_message": ""
+  },
+  "553152636": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8572565",
+    "cl_number": 8572565,
+    "subject": "Roll DevTools Frontend from b0d3487640f4 to 00c8c49be80f (54 revisions)",
+    "commit_message": ""
+  },
+  "513329281": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8644573",
+    "cl_number": 8644573,
+    "subject": "Don't treat a 1xx response followed by a socket close as a success.",
+    "commit_message": ""
+  },
+  "574642315": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8630098",
+    "cl_number": 8630098,
+    "subject": "[TabModel] Use GetTabModelForTabAndroid in HandlePopupNavigation",
+    "commit_message": ""
+  },
+  "574967987": null,
+  "575201475": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8608808",
+    "cl_number": 8608808,
+    "subject": "Make singleton Persistents in css/ thread local",
+    "commit_message": ""
+  },
+  "553263303": null,
+  "569129183": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8560859",
+    "cl_number": 8560859,
+    "subject": "[Fullscreen] Assert WebContents alive across tab fullscreen exit",
+    "commit_message": ""
+  },
+  "575506658": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8620877",
+    "cl_number": 8620877,
+    "subject": "views: guard MenuController hot-tracked button paths against AX re-entrancy",
+    "commit_message": ""
+  },
+  "573591801": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8575585",
+    "cl_number": 8575585,
+    "subject": "Printing: Copy data in PdfConverterImpl::GetMetaFileFromMapping()",
+    "commit_message": ""
+  },
+  "513198336": null,
+  "569010448": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8577138",
+    "cl_number": 8577138,
+    "subject": "Android: Scale custom cursor bitmaps and hotspots to view DIP scale",
+    "commit_message": ""
+  },
+  "568908052": null,
+  "575318301": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8608188",
+    "cl_number": 8608188,
+    "subject": "[IWA] Parse headers for all worker script requests",
+    "commit_message": ""
+  },
+  "568576341": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8579258",
+    "cl_number": 8579258,
+    "subject": "[DevTools] Check origin access permissions in StorageHandler",
+    "commit_message": ""
+  },
+  "575156577": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8602616",
+    "cl_number": 8602616,
+    "subject": "Android: Validate selected file paths in OpenFileSelectListener",
+    "commit_message": ""
+  },
+  "574781794": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8613071",
+    "cl_number": 8613071,
+    "subject": "Re-enable WebrtcTransportTest on Mac and fix data channel open race",
+    "commit_message": ""
+  },
+  "574200170": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8599238",
+    "cl_number": 8599238,
+    "subject": "[Wayland] Fix UAF in WaylandZwpLinuxDmabuf::NotifyRequestCreateBufferDone",
+    "commit_message": ""
+  },
+  "579027312": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8748121",
+    "cl_number": 8748121,
+    "subject": "[M158] android: Disable app zygote after DFM install",
+    "commit_message": ""
+  },
+  "574759287": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8639479",
+    "cl_number": 8639479,
+    "subject": "[html-in-canvas] Fix filter dirty bit clearing",
+    "commit_message": ""
+  },
+  "392139161": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8603655",
+    "cl_number": 8603655,
+    "subject": "[css] Reset element sheet when <meta name=\"referrer\"> changes policy",
+    "commit_message": ""
+  },
+  "573262234": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8665152",
+    "cl_number": 8665152,
+    "subject": "[Media] Align MultiBuffer redirect handling with Blink loading stack",
+    "commit_message": ""
+  },
+  "568973728": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8563803",
+    "cl_number": 8563803,
+    "subject": "[iOS] Verify current item URL for back-forward app-specific navigations",
+    "commit_message": ""
+  },
+  "574378401": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8595191",
+    "cl_number": 8595191,
+    "subject": "[a11y] Guard against re-entrancy during Windows accessibility updates",
+    "commit_message": ""
+  },
+  "474737096": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8461944",
+    "cl_number": 8461944,
+    "subject": "[LNA] fix Local Network Access bypass for <link rel=\"prerender\">",
+    "commit_message": ""
+  },
+  "568891853": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8706313",
+    "cl_number": 8706313,
+    "subject": "[M158] [gl] Check gl reset status for 0 glGen texture ids",
+    "commit_message": ""
+  },
+  "574640593": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8614664",
+    "cl_number": 8614664,
+    "subject": "[M157] [HiC] Fix IsInCanvasSubtree bookkeeping for slotted reinsertion",
+    "commit_message": ""
+  },
+  "569197056": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8609070",
+    "cl_number": 8609070,
+    "subject": "[M156] XR: Reuse GraphicsDelegateAndroid Framebuffer",
+    "commit_message": ""
+  },
+  "572682755": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8792294",
+    "cl_number": 8792294,
+    "subject": "[M150-LTS][event-timing] Fix target frame attribution and verify source window in CanExposeNode",
+    "commit_message": ""
+  },
+  "568967707": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8558061",
+    "cl_number": 8558061,
+    "subject": "[Android][PwdMgr] Do not show credential leak dialog for hidden tabs",
+    "commit_message": ""
+  },
+  "572312093": null,
+  "573981230": null,
+  "582218292": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8813534",
+    "cl_number": 8813534,
+    "subject": "[M150] Zero-initialize allocations in ZstdSourceStream::customMalloc",
+    "commit_message": ""
+  },
+  "569008693": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8687960",
+    "cl_number": 8687960,
+    "subject": "[M158] Require a left mouse press on the web contents for renderer mouse drags",
+    "commit_message": ""
+  },
+  "568896063": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8595144",
+    "cl_number": 8595144,
+    "subject": "Roll ANGLE from 57869b0a9d3a to 33f8caff4b77 (3 revisions)",
+    "commit_message": ""
+  },
+  "567765567": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8543104",
+    "cl_number": 8543104,
+    "subject": "Keep browser controls locked across tab hide during navigation",
+    "commit_message": ""
+  },
+  "574788166": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8608809",
+    "cl_number": 8608809,
+    "subject": "[IWA] Isolate PrepareInstallInfoJob install page in a unique process",
+    "commit_message": ""
+  },
+  "577245772": null,
+  "504552032": null,
+  "574757499": null,
+  "572721812": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8574233",
+    "cl_number": 8574233,
+    "subject": "[ReadAloud] Don't call back into MediaSession from suspend/resume",
+    "commit_message": ""
+  },
+  "572308124": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8665152",
+    "cl_number": 8665152,
+    "subject": "[Media] Align MultiBuffer redirect handling with Blink loading stack",
+    "commit_message": ""
+  },
+  "562227882": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8559717",
+    "cl_number": 8559717,
+    "subject": "[iOS] Defer WebUI creation until after policy deciders",
+    "commit_message": ""
+  },
+  "562000561": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8486489",
+    "cl_number": 8486489,
+    "subject": "[WebView] Add unit test for destroying AwPacProcessor with pending jobs",
+    "commit_message": ""
+  },
+  "569017013": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8572565",
+    "cl_number": 8572565,
+    "subject": "Roll DevTools Frontend from b0d3487640f4 to 00c8c49be80f (54 revisions)",
+    "commit_message": ""
+  },
+  "574311093": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8613831",
+    "cl_number": 8613831,
+    "subject": "Fix uninitialized pixel reads in ConvertVideoFrameToRGBPixels()",
+    "commit_message": ""
+  },
+  "574212789": null,
+  "513841847": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8579163",
+    "cl_number": 8579163,
+    "subject": "[extensions] Block debugger attachment to inner PDF frames",
+    "commit_message": ""
+  },
+  "577401536": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8684781",
+    "cl_number": 8684781,
+    "subject": "[M158] [Views] Guard live menu updates against malicious AX callbacks",
+    "commit_message": ""
+  },
+  "568937157": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8738496",
+    "cl_number": 8738496,
+    "subject": "[gpu] Check GrContext flush success instead of semaphores",
+    "commit_message": ""
+  },
+  "536599243": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8613567",
+    "cl_number": 8613567,
+    "subject": "Roll ANGLE from e63337a7cfc6 to 7f60c15c1106 (3 revisions)",
+    "commit_message": ""
+  },
+  "575048405": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8615561",
+    "cl_number": 8615561,
+    "subject": "[AutoPiP] Only allow auto picture-in-picture from primary main frame",
+    "commit_message": ""
+  },
+  "562957022": null,
+  "576387815": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8632495",
+    "cl_number": 8632495,
+    "subject": "[User Education] Restructure ShowPromoInPage for memory safety",
+    "commit_message": ""
+  },
+  "577366760": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8684942",
+    "cl_number": 8684942,
+    "subject": "[M158] [WebAudio] Guard chunk rendering state during promise resolution",
+    "commit_message": ""
+  },
+  "574302978": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8602268",
+    "cl_number": 8602268,
+    "subject": "Roll PDFium from 7c55203ed66b to a50f1a595326 (8 revisions)",
+    "commit_message": ""
+  },
+  "576131851": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8714648",
+    "cl_number": 8714648,
+    "subject": "Roll Dawn from 3954eba4bd3a to 915b5e33bc56 (19 revisions)",
+    "commit_message": ""
+  },
+  "518998812": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8469876",
+    "cl_number": 8469876,
+    "subject": "[Cast] Register ChromeOS desktop mirroring as screen access",
+    "commit_message": ""
+  },
+  "566377256": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8619575",
+    "cl_number": 8619575,
+    "subject": "PagePopup: Fix dangling WebPagePopupImpl::opener_web_view_",
+    "commit_message": ""
+  },
+  "576203570": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8778594",
+    "cl_number": 8778594,
+    "subject": "[M158] Avoid stale-lifecycle state when computing intersections",
+    "commit_message": ""
+  },
+  "553136985": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8563821",
+    "cl_number": 8563821,
+    "subject": "Clear DevTools reload script when navigation encounters an error",
+    "commit_message": ""
+  },
+  "572574561": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8652382",
+    "cl_number": 8652382,
+    "subject": "[M157] [canvas] Prevent reentrant context replacement in getContext",
+    "commit_message": ""
+  },
+  "574512015": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8614996",
+    "cl_number": 8614996,
+    "subject": "[DomStorage] Validate namespace IDs from the renderer",
+    "commit_message": ""
+  },
+  "577305505": null,
+  "576312229": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8615847",
+    "cl_number": 8615847,
+    "subject": "[html-in-canvas] Disallow canvas-external SVG filters",
+    "commit_message": ""
+  },
+  "561099685": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8622782",
+    "cl_number": 8622782,
+    "subject": "Do not create ServiceWorkerMainResourceHandle for PDF navigations",
+    "commit_message": ""
+  },
+  "574897062": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8613831",
+    "cl_number": 8613831,
+    "subject": "Fix uninitialized pixel reads in ConvertVideoFrameToRGBPixels()",
+    "commit_message": ""
+  },
+  "553151406": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8687960",
+    "cl_number": 8687960,
+    "subject": "[M158] Require a left mouse press on the web contents for renderer mouse drags",
+    "commit_message": ""
+  },
+  "569127860": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8592462",
+    "cl_number": 8592462,
+    "subject": "Fix holding AtomicString reference across script call when detecting framework versions.",
+    "commit_message": ""
+  },
+  "552672183": null,
+  "568896486": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8595144",
+    "cl_number": 8595144,
+    "subject": "Roll ANGLE from 57869b0a9d3a to 33f8caff4b77 (3 revisions)",
+    "commit_message": ""
+  },
+  "571722742": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8559025",
+    "cl_number": 8559025,
+    "subject": "[Sanitizer] Sanitize is= attribute on document element.",
+    "commit_message": ""
+  },
+  "562230299": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8615707",
+    "cl_number": 8615707,
+    "subject": "[WebApp] Require committed nav for WebAppUrlLoader DidFinishLoad",
+    "commit_message": ""
+  },
+  "573760540": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8639131",
+    "cl_number": 8639131,
+    "subject": "Roll src/third_party/libvpx/source/libvpx/ 37f48364a..fb1279dcc (4 commits)",
+    "commit_message": ""
+  },
+  "577371168": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8701440",
+    "cl_number": 8701440,
+    "subject": "[M157] [gpu] Fail insertRecording on context loss",
+    "commit_message": ""
+  },
+  "576132156": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8631794",
+    "cl_number": 8631794,
+    "subject": "[Android] Data sharing: Align LoadUrlParams for reopened tabs",
+    "commit_message": ""
+  },
+  "580867132": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8776000",
+    "cl_number": 8776000,
+    "subject": "[M156] [FedCM] Close the dialog in a separate task for the close button",
+    "commit_message": ""
+  },
+  "568986689": null,
+  "524422213": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8589596",
+    "cl_number": 8589596,
+    "subject": "Mitigate TOCTOU and pre-creation LPE vulnerabilities in GCPW",
+    "commit_message": ""
+  },
+  "577403973": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8701440",
+    "cl_number": 8701440,
+    "subject": "[M157] [gpu] Fail insertRecording on context loss",
+    "commit_message": ""
+  },
+  "574686297": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8634642",
+    "cl_number": 8634642,
+    "subject": "[gc] Defer CalculationValue handle decrements from ~Length()",
+    "commit_message": ""
+  },
+  "514008162": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8627880",
+    "cl_number": 8627880,
+    "subject": "[Passwords] Show site-provided credential fields on a single line",
+    "commit_message": ""
+  },
+  "576859257": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8646789",
+    "cl_number": 8646789,
+    "subject": "Skip loading system libspeechd.so.2 under MemorySanitizer",
+    "commit_message": ""
+  },
+  "564769937": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8623571",
+    "cl_number": 8623571,
+    "subject": "Partition image annotation cache and requests by parent origin",
+    "commit_message": ""
+  },
+  "574221485": null,
+  "574508216": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8596405",
+    "cl_number": 8596405,
+    "subject": "[Android] Tab group sync: Align LoadUrlParams for synced tabs",
+    "commit_message": ""
+  },
+  "568972475": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8538707",
+    "cl_number": 8538707,
+    "subject": "[iOS] Block renderer and subframe navigations to about://newtab/",
+    "commit_message": ""
+  },
+  "502803648": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8537528",
+    "cl_number": 8537528,
+    "subject": "[DevTools] Enforce URL policy on frame and Android navigations",
+    "commit_message": ""
+  },
+  "574643395": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8615493",
+    "cl_number": 8615493,
+    "subject": "Exclude <select> autofill preview text from copy and drag",
+    "commit_message": ""
+  },
+  "554558674": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8668204",
+    "cl_number": 8668204,
+    "subject": "Roll DevTools Frontend from 8e0d50d50e2d to 5bca92f45dbe (4 revisions)",
+    "commit_message": ""
+  },
+  "561073365": null,
+  "513340629": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8410291",
+    "cl_number": 8410291,
+    "subject": "android_webview: Make AwPacProcessor.destroy() thread-safe",
+    "commit_message": ""
+  },
+  "572237022": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8660719",
+    "cl_number": 8660719,
+    "subject": "[M157] [a11y] Defer restoring parents of aria-owned children during removal",
+    "commit_message": ""
+  },
+  "572237023": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8564744",
+    "cl_number": 8564744,
+    "subject": "[HiC] Fix slot assignment iteration during SetIsInCanvasSubtree",
+    "commit_message": ""
+  },
+  "579867878": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8792913",
+    "cl_number": 8792913,
+    "subject": "[M150-LTS] Snapshot srcdoc value during NavigationRequest creation",
+    "commit_message": ""
+  },
+  "563348727": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8559957",
+    "cl_number": 8559957,
+    "subject": "[iOS] Restrict external favicons and subresources on app-specific pages",
+    "commit_message": ""
+  },
+  "575712513": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8625770",
+    "cl_number": 8625770,
+    "subject": "Roll ANGLE from acc2f85e7a6a to 9b8cd3d0d011 (22 revisions)",
+    "commit_message": ""
+  },
+  "573265164": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8613828",
+    "cl_number": 8613828,
+    "subject": "[Media] Require consistent resource length and don't retry SW failures",
+    "commit_message": ""
+  },
+  "562971921": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8507175",
+    "cl_number": 8507175,
+    "subject": "Align chrome.csi() and chrome.loadTimes() with web-exposed Performance values",
+    "commit_message": ""
+  },
+  "574231826": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8620600",
+    "cl_number": 8620600,
+    "subject": "[PWA] Prevent cross-app LaunchParams leak and app_id desync",
+    "commit_message": ""
+  },
+  "574858526": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8624487",
+    "cl_number": 8624487,
+    "subject": "[mac] Restrict renderer sandbox process-info-pidinfo to self",
+    "commit_message": ""
+  },
+  "571153713": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8564058",
+    "cl_number": 8564058,
+    "subject": "Make Skia's shared context current before pruning transfer cache.",
+    "commit_message": ""
+  },
+  "574909775": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8628497",
+    "cl_number": 8628497,
+    "subject": "[Android] Reject virtual document paths in SelectFileDialog",
+    "commit_message": ""
+  },
+  "550780268": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8638932",
+    "cl_number": 8638932,
+    "subject": "[Tab Capture] Respect incognito access in tabCapture.getMediaStreamId()",
+    "commit_message": ""
+  },
+  "567944558": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8575561",
+    "cl_number": 8575561,
+    "subject": "Roll src/third_party/libaom/source/libaom/ 8fbd65b2f..d6e868f44 (9 commits)",
+    "commit_message": ""
+  },
+  "574643577": null,
+  "574639489": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8615081",
+    "cl_number": 8615081,
+    "subject": "Prevent cross-origin pixels in ImageDocument copy commands",
+    "commit_message": ""
+  },
+  "576812420": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8787646",
+    "cl_number": 8787646,
+    "subject": "[M156] mojo: Harden Windows pipe adoption and IO completions",
+    "commit_message": ""
+  },
+  "502048148": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8503982",
+    "cl_number": 8503982,
+    "subject": "Strip unrendered head tags from sanitized clipboard markup",
+    "commit_message": ""
+  },
+  "573263262": null,
+  "574199198": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8592406",
+    "cl_number": 8592406,
+    "subject": "hid: Prevent UAF in OnPermissionRevoked",
+    "commit_message": ""
+  },
+  "572882344": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8792294",
+    "cl_number": 8792294,
+    "subject": "[M150-LTS][event-timing] Fix target frame attribution and verify source window in CanExposeNode",
+    "commit_message": ""
+  },
+  "575090111": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8620921",
+    "cl_number": 8620921,
+    "subject": "[chromium-bidi] Prefer browser Fetch metadata for network requests",
+    "commit_message": ""
+  },
+  "574299586": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8594906",
+    "cl_number": 8594906,
+    "subject": "Revoke Directory capability after unzip and harden extension unpack",
+    "commit_message": ""
+  },
+  "514409956": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8579997",
+    "cl_number": 8579997,
+    "subject": "Stop all matching clients in `VideoCaptureController::StopSession`.",
+    "commit_message": ""
+  },
+  "576812539": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8787646",
+    "cl_number": 8787646,
+    "subject": "[M156] mojo: Harden Windows pipe adoption and IO completions",
+    "commit_message": ""
+  },
+  "574901760": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8621975",
+    "cl_number": 8621975,
+    "subject": "Reland \"Require a per-window, single-use touch for renderer touch drags\"",
+    "commit_message": ""
+  },
+  "574508556": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8597769",
+    "cl_number": 8597769,
+    "subject": "[Android] Resolve picker file paths before forwarding to native",
+    "commit_message": ""
+  },
+  "568974861": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8521561",
+    "cl_number": 8521561,
+    "subject": "VT: Don't paint view transition content under SVG reference filters",
+    "commit_message": ""
+  },
+  "576812570": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8643078",
+    "cl_number": 8643078,
+    "subject": "Roll ANGLE from 192af4dd12ae to 48e22c0ca56f (3 revisions)",
+    "commit_message": ""
+  },
+  "573244957": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8609866",
+    "cl_number": 8609866,
+    "subject": "Skip HTML interchange and style markup inside foreign content on copy",
+    "commit_message": ""
+  },
+  "573285920": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8615747",
+    "cl_number": 8615747,
+    "subject": "[PWA] Harden browser reuse in navigation capturing redirects",
+    "commit_message": ""
+  },
+  "569191970": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8642752",
+    "cl_number": 8642752,
+    "subject": "Roll ANGLE from b64f67868464 to fb01175b33c5 (6 revisions)",
+    "commit_message": ""
+  },
+  "574907939": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8615747",
+    "cl_number": 8615747,
+    "subject": "[PWA] Harden browser reuse in navigation capturing redirects",
+    "commit_message": ""
+  },
+  "573128234": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8573281",
+    "cl_number": 8573281,
+    "subject": "media: Add regression test for mov_read_trun buffer overflow",
+    "commit_message": ""
+  },
+  "571856431": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8562038",
+    "cl_number": 8562038,
+    "subject": "[EyeDropper] Respect captured frame row stride",
+    "commit_message": ""
+  },
+  "518239793": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8430557",
+    "cl_number": 8430557,
+    "subject": "[mac] Reject overlapping Open() calls in NativeScreenCapturePickerMac",
+    "commit_message": ""
+  },
+  "583188056": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8777589",
+    "cl_number": 8777589,
+    "subject": "[DirectShow] Harden sink filter lifetime and COM contract handling Follow-up to the DirectShow teardown order fix. It fixes a related use-after-free where a Receive() call is still in flight while the device is torn down, makes the sink side robust against upstream filters that keep calling into it from their own threads, and fixes several COM contract violations found while reviewing it. Teardown: - ~VideoCaptureDeviceWin() first detaches itself from the sink pin.   SinkInputPin::Receive() holds a lock for its whole duration, including   its calls into the IMediaSample and the observer, so once   SinkFilter::Shutdown() returns, no streaming thread is inside   Receive() and later samples are dropped. This covers filters whose   Stop() returns while a Receive() call is still in flight. - The destructor releases the capture filter after its other references.   If Release() reports that it is still referenced, its streaming thread   may outlive the device, so the (now inert) sink filter is leaked rather   than freed under it. The count is only a hint, so this is best effort. - Otherwise the input pin's pointer to the sink filter is cleared while   the filter is still referenced, so QueryPinInfo() on a retained pin   can't race with the filter's destruction. Thread safety: - FilterBase is now RefCountedThreadSafe and guards its state with a   lock, as streaming threads can reach the filter through QueryPinInfo().   It no longer holds a reference to its graph, per the JoinFilterGraph()   contract. - PinBase and SinkInputPin guard their connection and format state with   locks. The lock order and blocking behavior are documented. COM contract fixes: - PinBase stores a deep copy of the connection media type, and   ConnectionMediaType() returns a deep copy owned by the caller.   Previously it handed out a format block it didn't own, which a caller   freeing it with FreeMediaType() would double free. - PinBase::ReceiveConnection() returns VFW_E_ALREADY_CONNECTED while   connected; PinBase::Connect() returns E_UNEXPECTED (input pins only). - IEnumPins::Next() and IEnumMediaTypes::Next() return E_INVALIDARG for   a null |fetched| when more than one element is requested.   PinEnumerator::Skip() no longer fails when skipping exactly the   remaining pins, and no longer rewinds on failure. - Return E_POINTER for null out parameters, clear the out parameter on   E_NOINTERFACE, and answer QueryInterface(IID_IBaseFilter). Input validation and state: - Media type validation checks the format block size and rejects invalid   or oversized frame dimensions, and no longer changes state: the format   (including |flip_y_|) is stored only once the connection is   established. This fixes flipped frames after restarting following an   RGB32 session. - SinkInputPin::Disconnect() resets the negotiated format, so samples   arriving while disconnected are dropped. Tests cover late and in-flight delivery during teardown, an externally referenced capture filter, delivery to a still-connected pin after destruction, restarting with another format, a retained input pin, observer shutdown, accepted and rejected media types, reconnection attempts, ConnectionMediaType() ownership and the pin enumerator contract. The fakes refuse to disconnect running pins, disconnect pins in RemoveFilter() and implement IMediaControl on the graph object.",
+    "commit_message": ""
+  },
+  "574232164": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8810914",
+    "cl_number": 8810914,
+    "subject": "[webapps] Add cross-UID TWA security and sandbox E2E tests [4/N]",
+    "commit_message": ""
+  },
+  "574211718": null,
+  "574789298": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8785780",
+    "cl_number": 8785780,
+    "subject": "[M157] Avoid dangling AtomicString refs across WillModifyAttribute",
+    "commit_message": ""
+  },
+  "551065275": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8583841",
+    "cl_number": 8583841,
+    "subject": "Roll ANGLE from a33b086f5784 to afa978f8ca67 (7 revisions)",
+    "commit_message": ""
+  },
+  "573257409": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8573959",
+    "cl_number": 8573959,
+    "subject": "[HiC] Invalidate visited link colors when IsInCanvasSubtree changes",
+    "commit_message": ""
+  },
+  "575088323": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8603650",
+    "cl_number": 8603650,
+    "subject": "[Android] Align LoadUrlParams for fallback tab restoration",
+    "commit_message": ""
+  },
+  "540124890": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8466827",
+    "cl_number": 8466827,
+    "subject": "hid: Filter reports with top-level collection",
+    "commit_message": ""
+  },
+  "551608036": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8278213",
+    "cl_number": 8278213,
+    "subject": "Compare full origin for hosts without eTLD+1 in password change",
+    "commit_message": ""
+  },
+  "576306917": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8640391",
+    "cl_number": 8640391,
+    "subject": "[dbsc] Return early if AIK generation deletes the fetcher",
+    "commit_message": ""
+  },
+  "543907563": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8624330",
+    "cl_number": 8624330,
+    "subject": "Roll DevTools Frontend from a2e9fb892cda to 53ed3a0325df (5 revisions)",
+    "commit_message": ""
+  },
+  "577369844": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8701440",
+    "cl_number": 8701440,
+    "subject": "[M157] [gpu] Fail insertRecording on context loss",
+    "commit_message": ""
+  },
+  "574310133": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8615677",
+    "cl_number": 8615677,
+    "subject": "Roll Dawn from b8efbbd7c5b9 to 962c7197b949 (8 revisions)",
+    "commit_message": ""
+  },
+  "575315727": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8617646",
+    "cl_number": 8617646,
+    "subject": "Add some hardening around PAC-related C++ strings passed to v8.",
+    "commit_message": ""
+  },
+  "568831763": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8792158",
+    "cl_number": 8792158,
+    "subject": "[M157] [Canvas2d] Inline Canvas2DRecorderContext::DrawInternal into Draw",
+    "commit_message": ""
+  },
+  "530046745": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8638169",
+    "cl_number": 8638169,
+    "subject": "[iOS] Ignore pending item while on the empty window open item",
+    "commit_message": ""
+  },
+  "572307225": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8685646",
+    "cl_number": 8685646,
+    "subject": "[Media] Re-enable kDisallowMixedOpaqueMediaResponses by default",
+    "commit_message": ""
+  },
+  "575201060": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8608808",
+    "cl_number": 8608808,
+    "subject": "Make singleton Persistents in css/ thread local",
+    "commit_message": ""
+  },
+  "577369904": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8701440",
+    "cl_number": 8701440,
+    "subject": "[M157] [gpu] Fail insertRecording on context loss",
+    "commit_message": ""
+  },
+  "569659189": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8667670",
+    "cl_number": 8667670,
+    "subject": "Use owned iterators in XML parser xml_ffi",
+    "commit_message": ""
+  },
+  "562909022": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8486487",
+    "cl_number": 8486487,
+    "subject": "[CE] Prune expired disable reasons before returning on indefinite ones",
+    "commit_message": ""
+  },
+  "574312303": null,
+  "571348848": null,
+  "497098609": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8615707",
+    "cl_number": 8615707,
+    "subject": "[WebApp] Require committed nav for WebAppUrlLoader DidFinishLoad",
+    "commit_message": ""
+  },
+  "581367663": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8800817",
+    "cl_number": 8800817,
+    "subject": "[remoting] Extend remoting_crashpad_tester to Linux and fix DB viewer",
+    "commit_message": ""
+  },
+  "570703733": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8606106",
+    "cl_number": 8606106,
+    "subject": "[M157] [IntersectionObserver] Skip geometry computation for a throttled frame",
+    "commit_message": ""
+  },
+  "577410943": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8787646",
+    "cl_number": 8787646,
+    "subject": "[M156] mojo: Harden Windows pipe adoption and IO completions",
+    "commit_message": ""
+  },
+  "576991116": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8779676",
+    "cl_number": 8779676,
+    "subject": "[M156] [FedCM] Return early in RedirectTo() if the navigation destroys it",
+    "commit_message": ""
+  },
+  "574922639": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8613007",
+    "cl_number": 8613007,
+    "subject": "[Reading mode] Add more IsErrorDocument checks.",
+    "commit_message": ""
+  },
+  "501901218": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8424262",
+    "cl_number": 8424262,
+    "subject": "[Workers] Plumb SanitizeScriptErrors state through worker error reporting",
+    "commit_message": ""
+  },
+  "574640036": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8614470",
+    "cl_number": 8614470,
+    "subject": "Prevent tainted canvas image exports through the clipboard",
+    "commit_message": ""
+  },
+  "576225189": null,
+  "574412712": null,
+  "536479671": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8825909",
+    "cl_number": 8825909,
+    "subject": "Roll ANGLE from 46005797c554 to f5a720128fb8 (6 revisions)",
+    "commit_message": ""
+  },
+  "566347710": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8717728",
+    "cl_number": 8717728,
+    "subject": "[M157] Handle reentrant destruction from clients in `mojo::DataPipeDrainer`",
+    "commit_message": ""
+  },
+  "581064654": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8813395",
+    "cl_number": 8813395,
+    "subject": "[M150] Prevent out-of-bounds marker reads during highlight painting",
+    "commit_message": ""
+  },
+  "553154509": null,
+  "576954321": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8701440",
+    "cl_number": 8701440,
+    "subject": "[M157] [gpu] Fail insertRecording on context loss",
+    "commit_message": ""
+  },
+  "576944087": null,
+  "553152493": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8436776",
+    "cl_number": 8436776,
+    "subject": "[Glic] Remove legacy drag-and-drop drag source plumbing",
+    "commit_message": ""
+  },
+  "581351423": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8751781",
+    "cl_number": 8751781,
+    "subject": "[M158] Use std::ranges::fill and base::span in PartitionRoot",
+    "commit_message": ""
+  },
+  "576501766": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8628389",
+    "cl_number": 8628389,
+    "subject": "Expire GEOLOCATION_WITH_OPTIONS one-time grants on suspend",
+    "commit_message": ""
+  },
+  "574795880": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8771768",
+    "cl_number": 8771768,
+    "subject": "[M158] [EVP] Hide bottom sheet on failed show request",
+    "commit_message": ""
+  },
+  "560339053": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8563898",
+    "cl_number": 8563898,
+    "subject": "[Extensions] Prevent accessor execution during global property lookup",
+    "commit_message": ""
+  },
+  "568989951": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8546635",
+    "cl_number": 8546635,
+    "subject": "[Payments] Don't leak web app manifest URL on Android",
+    "commit_message": ""
+  },
+  "511803678": null,
+  "580868423": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8796731",
+    "cl_number": 8796731,
+    "subject": "[M150-LTS][sync] Validate preference source for kLocalSyncBackendDir",
+    "commit_message": ""
+  },
+  "519999855": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8574062",
+    "cl_number": 8574062,
+    "subject": "[Extensions] Disallow error pages from allowlisting DNR frames",
+    "commit_message": ""
+  },
+  "573266324": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8579778",
+    "cl_number": 8579778,
+    "subject": "Ignore non-committing navigations in AndroidAutofillProvider",
+    "commit_message": ""
+  },
+  "497744349": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8547765",
+    "cl_number": 8547765,
+    "subject": "[DNR] Require host permissions for response header value matching rules",
+    "commit_message": ""
+  },
+  "512778726": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/7857190",
+    "cl_number": 7857190,
+    "subject": "renderer: Fix Use-After-Free in CastBindings",
+    "commit_message": ""
+  },
+  "579037685": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8715871",
+    "cl_number": 8715871,
+    "subject": "[M158] [OE] Prevent UAF during Omnibox Everywhere preference resets",
+    "commit_message": ""
+  },
+  "574587405": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8604632",
+    "cl_number": 8604632,
+    "subject": "Cancel Android Autofill session when SessionId is recycled",
+    "commit_message": ""
+  },
+  "567673370": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8738001",
+    "cl_number": 8738001,
+    "subject": "Simplify OmniboxEverywhereUIManager lifecycle by removing DestroyWidget",
+    "commit_message": ""
+  },
+  "576129731": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8710493",
+    "cl_number": 8710493,
+    "subject": "[M158] [OE] Suppress renderer data drags during pre-threshold window drag hold",
+    "commit_message": ""
+  },
+  "562910021": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8584536",
+    "cl_number": 8584536,
+    "subject": "Add security note to HttpHeaderInjection policy description",
+    "commit_message": ""
+  },
+  "571284298": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8828911",
+    "cl_number": 8828911,
+    "subject": "[M159] Reland \"[aim-drive] Verify Drive consent with the backend before granting it\"",
+    "commit_message": ""
+  },
+  "556213137": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8617178",
+    "cl_number": 8617178,
+    "subject": "[sync] Enforce Nigori key continuity for inline keybag updates",
+    "commit_message": ""
+  },
+  "497617812": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8413733",
+    "cl_number": 8413733,
+    "subject": "[Download] Ignore late FrameHTMLSerializerHandler messages",
+    "commit_message": ""
+  },
+  "574594013": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8617317",
+    "cl_number": 8617317,
+    "subject": "[Android][MFill] Ignore hidden WebContents in manual filling state",
+    "commit_message": ""
+  },
+  "574639084": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8604632",
+    "cl_number": 8604632,
+    "subject": "Cancel Android Autofill session when SessionId is recycled",
+    "commit_message": ""
+  },
+  "583617538": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8775054",
+    "cl_number": 8775054,
+    "subject": "[M158] [Views] Spot-protect button updates in dialogs.",
+    "commit_message": ""
+  },
+  "553159779": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8560819",
+    "cl_number": 8560819,
+    "subject": "Fix UAF when AppWindow is destroyed during Show()",
+    "commit_message": ""
+  },
+  "566504721": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8542094",
+    "cl_number": 8542094,
+    "subject": "[Extensions] Reject blob/filesystem URL in extension popups",
+    "commit_message": ""
+  },
+  "575810899": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8620453",
+    "cl_number": 8620453,
+    "subject": "[experimentalAiData] Prevent incognito tab access in all API functions",
+    "commit_message": ""
+  },
+  "574502257": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8615008",
+    "cl_number": 8615008,
+    "subject": "Revert \"[Passwords] Deduplicate TransformToRootCoordinates()\"",
+    "commit_message": ""
+  },
+  "506142100": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8575662",
+    "cl_number": 8575662,
+    "subject": "Extensions: WAR: Share generated path URL helpers",
+    "commit_message": ""
+  },
+  "575395237": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8795808",
+    "cl_number": 8795808,
+    "subject": "[M156] [SPC] Own SecurePaymentConfirmationAppFactory::Request on UI thread",
+    "commit_message": ""
+  },
+  "567397860": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8582246",
+    "cl_number": 8582246,
+    "subject": "[DBSC] Fix UAF when registration fetcher is destroyed mid-flight",
+    "commit_message": ""
+  },
+  "573263397": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8580202",
+    "cl_number": 8580202,
+    "subject": "Fix UAF in SynchronousFormCache",
+    "commit_message": ""
   }
 }
