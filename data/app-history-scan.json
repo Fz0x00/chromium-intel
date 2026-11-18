@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T15:17:12Z",
+  "generated_at": "2026-11-18T14:51:45Z",
   "observations": [
     {
       "app_name": "Baidu Netdisk",
@@ -160,6 +160,16 @@
       "source": "inspect-list",
       "first_seen": "2026-11-17T15:17:07Z",
       "last_seen": "2026-11-17T15:17:07Z"
+    },
+    {
+      "app_name": "Beekeeper Studio",
+      "app_version": "6.3.2",
+      "electron_version": "44.9.1",
+      "chromium_version": "152.0.7977.167",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-18T14:51:40Z",
+      "last_seen": "2026-11-18T14:51:40Z"
     },
     {
       "app_name": "Bitwarden",
@@ -610,6 +620,16 @@
       "source": "inspect-list",
       "first_seen": "2026-11-11T13:13:41Z",
       "last_seen": "2026-11-11T13:13:41Z"
+    },
+    {
+      "app_name": "Claude",
+      "app_version": "6.6395.0",
+      "electron_version": "45.3.3",
+      "chromium_version": "156.0.8078.100",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-18T14:51:40Z",
+      "last_seen": "2026-11-18T14:51:40Z"
     },
     {
       "app_name": "Discord",
@@ -1869,6 +1889,16 @@
       "source": "inspect-list",
       "first_seen": "2026-11-11T13:13:41Z",
       "last_seen": "2026-11-11T13:13:41Z"
+    },
+    {
+      "app_name": "VS Code",
+      "app_version": "1.147.0",
+      "electron_version": "43.8.9",
+      "chromium_version": "150.0.7871.250",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-18T14:51:40Z",
+      "last_seen": "2026-11-18T14:51:40Z"
     },
     {
       "app_name": "Yakit",
