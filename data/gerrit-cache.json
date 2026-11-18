@@ -32882,5 +32882,23 @@
     "cl_number": 8580202,
     "subject": "Fix UAF in SynchronousFormCache",
     "commit_message": ""
+  },
+  "565839464": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8458650",
+    "cl_number": 8458650,
+    "subject": "Do not hold RenderFrame pointers across synchronous layout updates",
+    "commit_message": ""
+  },
+  "574801551": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8604636",
+    "cl_number": 8604636,
+    "subject": "Refresh suggestions directly in BatchDataListOptionChange()",
+    "commit_message": ""
+  },
+  "574635898": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8606209",
+    "cl_number": 8606209,
+    "subject": "Hide stale datalist popup when active field or session changes",
+    "commit_message": ""
   }
 }
