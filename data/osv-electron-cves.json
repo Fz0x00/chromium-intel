@@ -1,20 +1,69 @@
 {
   "generator": "hunter osv-check 0.2.0",
-  "scan_time": "2026-11-19T14:56:34Z",
+  "scan_time": "2026-11-20T14:38:14Z",
   "source": "inspect-results.json",
-  "total_apps": 2,
-  "with_electron_version": 1,
+  "total_apps": 8,
+  "with_electron_version": 8,
   "missing_electron_version": 0,
-  "checked": 1,
+  "checked": 8,
   "failed": 0,
   "with_cves": 0,
   "total_cves": 0,
   "severity_counts": {},
   "apps": [
     {
+      "app_name": "Joplin",
+      "app_version": "3.7.24",
+      "electron_version": "42.11.18",
+      "total_cves": 0,
+      "cves": []
+    },
+    {
+      "app_name": "Discord",
+      "app_version": "0.0.423",
+      "electron_version": "44.10.2",
+      "total_cves": 0,
+      "cves": []
+    },
+    {
+      "app_name": "MongoDB Compass",
+      "app_version": "1.53.3",
+      "electron_version": "45.3.2",
+      "total_cves": 0,
+      "cves": []
+    },
+    {
       "app_name": "Claude",
-      "app_version": "6.6395.1",
+      "app_version": "6.28899.2",
       "electron_version": "45.3.3",
+      "total_cves": 0,
+      "cves": []
+    },
+    {
+      "app_name": "GitHub Desktop",
+      "app_version": "3.7.0",
+      "electron_version": "44.9.1",
+      "total_cves": 0,
+      "cves": []
+    },
+    {
+      "app_name": "Beekeeper Studio",
+      "app_version": "6.3.3",
+      "electron_version": "44.9.1",
+      "total_cves": 0,
+      "cves": []
+    },
+    {
+      "app_name": "SiYuan",
+      "app_version": "3.8.11",
+      "electron_version": "44.10.0",
+      "total_cves": 0,
+      "cves": []
+    },
+    {
+      "app_name": "Yakit",
+      "app_version": "1.4.9-1120",
+      "electron_version": "44.11.3",
       "total_cves": 0,
       "cves": []
     }

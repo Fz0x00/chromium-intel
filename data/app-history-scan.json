@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T14:56:39Z",
+  "generated_at": "2026-11-20T14:38:19Z",
   "observations": [
     {
       "app_name": "Baidu Netdisk",
@@ -170,6 +170,16 @@
       "source": "inspect-list",
       "first_seen": "2026-11-18T14:51:40Z",
       "last_seen": "2026-11-18T14:51:40Z"
+    },
+    {
+      "app_name": "Beekeeper Studio",
+      "app_version": "6.3.3",
+      "electron_version": "44.9.1",
+      "chromium_version": "152.0.7977.167",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-20T14:38:14Z",
+      "last_seen": "2026-11-20T14:38:14Z"
     },
     {
       "app_name": "Bitwarden",
@@ -623,6 +633,16 @@
     },
     {
       "app_name": "Claude",
+      "app_version": "6.28899.2",
+      "electron_version": "45.3.3",
+      "chromium_version": "156.0.8078.100",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-20T14:38:14Z",
+      "last_seen": "2026-11-20T14:38:14Z"
+    },
+    {
+      "app_name": "Claude",
       "app_version": "6.6395.0",
       "electron_version": "45.3.3",
       "chromium_version": "156.0.8078.100",
@@ -772,6 +792,16 @@
       "last_seen": "2026-11-14T12:44:37Z"
     },
     {
+      "app_name": "Discord",
+      "app_version": "0.0.423",
+      "electron_version": "44.10.2",
+      "chromium_version": "152.0.7977.169",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-20T14:38:14Z",
+      "last_seen": "2026-11-20T14:38:14Z"
+    },
+    {
       "app_name": "Doubao",
       "app_version": "2.34.6",
       "chromium_version": "147.0.7727.149",
@@ -905,6 +935,16 @@
       "last_seen": "2026-10-24T10:00:49Z"
     },
     {
+      "app_name": "GitHub Desktop",
+      "app_version": "3.7.0",
+      "electron_version": "44.9.1",
+      "chromium_version": "152.0.7977.167",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-20T14:38:14Z",
+      "last_seen": "2026-11-20T14:38:14Z"
+    },
+    {
       "app_name": "Insomnia",
       "app_version": "13.3.0",
       "electron_version": "43.2.0",
@@ -973,6 +1013,16 @@
       "source": "inspect-list",
       "first_seen": "2026-10-29T11:59:58Z",
       "last_seen": "2026-10-29T11:59:58Z"
+    },
+    {
+      "app_name": "Joplin",
+      "app_version": "3.7.24",
+      "electron_version": "42.11.18",
+      "chromium_version": "148.0.7778.280",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-20T14:38:14Z",
+      "last_seen": "2026-11-20T14:38:14Z"
     },
     {
       "app_name": "Logseq",
@@ -1193,6 +1243,16 @@
       "source": "inspect-list",
       "first_seen": "2026-10-28T11:51:54Z",
       "last_seen": "2026-10-28T11:51:54Z"
+    },
+    {
+      "app_name": "MongoDB Compass",
+      "app_version": "1.53.3",
+      "electron_version": "45.3.2",
+      "chromium_version": "156.0.8078.100",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-20T14:38:14Z",
+      "last_seen": "2026-11-20T14:38:14Z"
     },
     {
       "app_name": "Obsidian",
@@ -1433,6 +1493,16 @@
       "source": "inspect-list",
       "first_seen": "2026-11-10T13:59:37Z",
       "last_seen": "2026-11-10T13:59:37Z"
+    },
+    {
+      "app_name": "SiYuan",
+      "app_version": "3.8.11",
+      "electron_version": "44.10.0",
+      "chromium_version": "152.0.7977.169",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-20T14:38:14Z",
+      "last_seen": "2026-11-20T14:38:14Z"
     },
     {
       "app_name": "SiYuan",
@@ -2039,6 +2109,16 @@
       "source": "inspect-list",
       "first_seen": "2026-11-13T13:41:24Z",
       "last_seen": "2026-11-13T13:41:24Z"
+    },
+    {
+      "app_name": "Yakit",
+      "app_version": "1.4.9-1120",
+      "electron_version": "44.11.3",
+      "chromium_version": "152.0.7977.169",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-20T14:38:14Z",
+      "last_seen": "2026-11-20T14:38:14Z"
     },
     {
       "app_name": "Yakit",
