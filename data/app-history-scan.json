@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T16:53:03Z",
+  "generated_at": "2026-11-24T16:44:49Z",
   "observations": [
     {
       "app_name": "Baidu Netdisk",
@@ -890,7 +890,7 @@
       "platform": "linux",
       "source": "inspect-list",
       "first_seen": "2026-09-09T10:26:00Z",
-      "last_seen": "2026-11-12T14:17:40Z"
+      "last_seen": "2026-11-24T16:44:43Z"
     },
     {
       "app_name": "GitHub Desktop",
@@ -1503,6 +1503,16 @@
       "last_seen": "2026-11-13T13:41:24Z"
     },
     {
+      "app_name": "Rocket.Chat",
+      "app_version": "4.19.4",
+      "electron_version": "43.8.1",
+      "chromium_version": "150.0.7871.250",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-24T16:44:43Z",
+      "last_seen": "2026-11-24T16:44:43Z"
+    },
+    {
       "app_name": "Session",
       "app_version": "1.14.3",
       "electron_version": "25.8.4",
@@ -1531,6 +1541,16 @@
       "source": "inspect-list",
       "first_seen": "2026-11-20T14:38:14Z",
       "last_seen": "2026-11-20T14:38:14Z"
+    },
+    {
+      "app_name": "SiYuan",
+      "app_version": "3.8.12",
+      "electron_version": "44.11.5",
+      "chromium_version": "152.0.7977.169",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-24T16:44:43Z",
+      "last_seen": "2026-11-24T16:44:43Z"
     },
     {
       "app_name": "SiYuan",

@@ -1,14 +1,29 @@
 {
   "generator": "hunter osv-check 0.2.0",
-  "scan_time": "2026-11-23T16:52:57Z",
+  "scan_time": "2026-11-24T16:44:43Z",
   "source": "inspect-results.json",
-  "total_apps": 1,
-  "with_electron_version": 1,
+  "total_apps": 3,
+  "with_electron_version": 3,
   "missing_electron_version": 1,
-  "checked": 0,
+  "checked": 2,
   "failed": 0,
   "with_cves": 0,
   "total_cves": 0,
   "severity_counts": {},
-  "apps": []
+  "apps": [
+    {
+      "app_name": "Rocket.Chat",
+      "app_version": "4.19.4",
+      "electron_version": "43.8.1",
+      "total_cves": 0,
+      "cves": []
+    },
+    {
+      "app_name": "SiYuan",
+      "app_version": "3.8.12",
+      "electron_version": "44.11.5",
+      "total_cves": 0,
+      "cves": []
+    }
+  ]
 }

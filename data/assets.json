@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-11-23T16:53:03Z",
+  "scan_time": "2026-11-24T16:44:49Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 53,
@@ -187,7 +187,7 @@
     {
       "app_name": "Feishu",
       "app_version": "147.0.7727.149",
-      "app_path": "/tmp/hunter-1113484194/extracted/飞书 Feishu/Lark.app",
+      "app_path": "/tmp/hunter-1102035842/extracted/飞书 Feishu/Lark.app",
       "framework": "electron_fork",
       "framework_name": "Lark Framework",
       "detection": "combined",
@@ -405,15 +405,15 @@
     },
     {
       "app_name": "Rocket.Chat",
-      "app_version": "4.19.3",
-      "app_path": "/tmp/hunter-42148413/extracted/Rocket.Chat.app",
+      "app_version": "4.19.4",
+      "app_path": "/tmp/hunter-1241697425/extracted/Rocket.Chat.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "150.0.7871.250",
       "electron_version": "43.8.1",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-42148413/extracted/Rocket.Chat.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-1241697425/extracted/Rocket.Chat.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Session",
@@ -429,15 +429,15 @@
     },
     {
       "app_name": "SiYuan",
-      "app_version": "3.8.11",
-      "app_path": "/tmp/hunter-728752220/extracted/SiYuan 3.8.11-arm64/SiYuan.app",
+      "app_version": "3.8.12",
+      "app_path": "/tmp/hunter-2063835044/extracted/SiYuan 3.8.12-arm64/SiYuan.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "152.0.7977.169",
-      "electron_version": "44.10.0",
+      "electron_version": "44.11.5",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-728752220/extracted/SiYuan 3.8.11-arm64/SiYuan.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2063835044/extracted/SiYuan 3.8.12-arm64/SiYuan.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Slack",
