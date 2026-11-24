@@ -32900,5 +32900,11 @@
     "cl_number": 8606209,
     "subject": "Hide stale datalist popup when active field or session changes",
     "commit_message": ""
+  },
+  "554051967": {
+    "gerrit_url": "https://chromium-review.googlesource.com/c/chromium/src/+/8855995",
+    "cl_number": 8855995,
+    "subject": "[M159] Disable VariationsService HTTP fallback by default",
+    "commit_message": ""
   }
 }
