@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-11-24T16:44:49Z",
+  "scan_time": "2026-11-25T16:28:59Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 53,
@@ -109,15 +109,15 @@
     },
     {
       "app_name": "Claude",
-      "app_version": "6.28899.6",
-      "app_path": "/tmp/hunter-2785530112/extracted/Claude.app",
+      "app_version": "7.37095.0",
+      "app_path": "/tmp/hunter-3669072091/extracted/Claude.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "156.0.8078.100",
       "electron_version": "45.3.3",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2785530112/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-3669072091/extracted/Claude.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "CodeBuddy CN",
@@ -208,15 +208,15 @@
     },
     {
       "app_name": "Insomnia",
-      "app_version": "13.4.0",
-      "app_path": "/tmp/hunter-1640727924/extracted/Insomnia 13.4.0-universal/Insomnia.app",
+      "app_version": "13.5.0",
+      "app_path": "/tmp/hunter-2618614753/extracted/Insomnia 13.5.0-universal/Insomnia.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "150.0.7871.129",
       "electron_version": "43.2.0",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-1640727924/extracted/Insomnia 13.4.0-universal/Insomnia.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2618614753/extracted/Insomnia 13.5.0-universal/Insomnia.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Joplin",
@@ -530,15 +530,15 @@
     },
     {
       "app_name": "VS Code",
-      "app_version": "1.147.0",
-      "app_path": "/tmp/hunter-571627983/extracted/Visual Studio Code.app",
+      "app_version": "1.148.0",
+      "app_path": "/tmp/hunter-2665184726/extracted/Visual Studio Code.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "150.0.7871.250",
-      "electron_version": "43.8.9",
+      "electron_version": "43.8.10",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-571627983/extracted/Visual Studio Code.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2665184726/extracted/Visual Studio Code.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Visual Studio Code",
