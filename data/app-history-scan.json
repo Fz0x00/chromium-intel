@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T16:28:59Z",
+  "generated_at": "2026-11-26T16:04:21Z",
   "observations": [
     {
       "app_name": "Baidu Netdisk",
@@ -822,6 +822,16 @@
       "last_seen": "2026-11-20T14:38:14Z"
     },
     {
+      "app_name": "Discord",
+      "app_version": "0.0.424",
+      "electron_version": "44.11.4",
+      "chromium_version": "152.0.7977.169",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-26T16:04:16Z",
+      "last_seen": "2026-11-26T16:04:16Z"
+    },
+    {
       "app_name": "Doubao",
       "app_version": "2.34.6",
       "chromium_version": "147.0.7727.149",
@@ -883,6 +893,15 @@
       "source": "inspect-list",
       "first_seen": "2026-11-23T16:52:57Z",
       "last_seen": "2026-11-23T16:52:57Z"
+    },
+    {
+      "app_name": "Doubao",
+      "app_version": "2.37.18",
+      "chromium_version": "147.0.7727.149",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-26T16:04:16Z",
+      "last_seen": "2026-11-26T16:04:16Z"
     },
     {
       "app_name": "Feishu",

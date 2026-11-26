@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-11-25T16:28:59Z",
+  "scan_time": "2026-11-26T16:04:21Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 53,
@@ -143,15 +143,15 @@
     },
     {
       "app_name": "Discord",
-      "app_version": "0.0.423",
-      "app_path": "/tmp/hunter-4261795512/extracted/Discord/Discord.app",
+      "app_version": "0.0.424",
+      "app_path": "/tmp/hunter-2271765661/extracted/Discord/Discord.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "152.0.7977.169",
-      "electron_version": "44.10.2",
+      "electron_version": "44.11.4",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-4261795512/extracted/Discord/Discord.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-2271765661/extracted/Discord/Discord.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Docker / Docker Desktop",
@@ -166,8 +166,8 @@
     },
     {
       "app_name": "Doubao",
-      "app_version": "2.37.16",
-      "app_path": "/tmp/hunter-2287548050/extracted/豆包：你的 AI 智能助手/Doubao.app/Contents/Helpers/Doubao Browser.app",
+      "app_version": "2.37.18",
+      "app_path": "/tmp/hunter-2259920738/extracted/豆包：你的 AI 智能助手/Doubao.app/Contents/Helpers/Doubao Browser.app",
       "framework": "electron_fork",
       "framework_name": "Doubao Browser Framework",
       "detection": "combined",
