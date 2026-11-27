@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T16:04:21Z",
+  "generated_at": "2026-11-27T15:51:07Z",
   "observations": [
     {
       "app_name": "Baidu Netdisk",
@@ -919,7 +919,7 @@
       "platform": "linux",
       "source": "inspect-list",
       "first_seen": "2026-09-09T10:26:00Z",
-      "last_seen": "2026-11-24T16:44:43Z"
+      "last_seen": "2026-11-27T15:51:02Z"
     },
     {
       "app_name": "GitHub Desktop",
@@ -1000,6 +1000,16 @@
       "source": "inspect-list",
       "first_seen": "2026-11-20T14:38:14Z",
       "last_seen": "2026-11-20T14:38:14Z"
+    },
+    {
+      "app_name": "GitHub Desktop",
+      "app_version": "3.7.1",
+      "electron_version": "44.11.2",
+      "chromium_version": "152.0.7977.169",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-27T15:51:02Z",
+      "last_seen": "2026-11-27T15:51:02Z"
     },
     {
       "app_name": "Insomnia",
@@ -1777,7 +1787,7 @@
       "platform": "linux",
       "source": "inspect-list",
       "first_seen": "2026-11-12T14:17:40Z",
-      "last_seen": "2026-11-19T14:56:34Z"
+      "last_seen": "2026-11-27T15:51:02Z"
     },
     {
       "app_name": "Spotify",
@@ -2216,6 +2226,16 @@
       "source": "inspect-list",
       "first_seen": "2026-11-20T14:38:14Z",
       "last_seen": "2026-11-20T14:38:14Z"
+    },
+    {
+      "app_name": "Yakit",
+      "app_version": "1.4.9-1127",
+      "electron_version": "44.11.3",
+      "chromium_version": "152.0.7977.169",
+      "platform": "linux",
+      "source": "inspect-list",
+      "first_seen": "2026-11-27T15:51:02Z",
+      "last_seen": "2026-11-27T15:51:02Z"
     },
     {
       "app_name": "Yakit",

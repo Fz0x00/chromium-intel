@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-11-26T16:04:21Z",
+  "scan_time": "2026-11-27T15:51:07Z",
   "source": "hunter-ci",
   "platform": "macos",
   "total_apps": 53,
@@ -187,7 +187,7 @@
     {
       "app_name": "Feishu",
       "app_version": "147.0.7727.149",
-      "app_path": "/tmp/hunter-1102035842/extracted/飞书 Feishu/Lark.app",
+      "app_path": "/tmp/hunter-1013970416/extracted/飞书 Feishu/Lark.app",
       "framework": "electron_fork",
       "framework_name": "Lark Framework",
       "detection": "combined",
@@ -196,15 +196,15 @@
     },
     {
       "app_name": "GitHub Desktop",
-      "app_version": "3.7.0",
-      "app_path": "/tmp/hunter-2838389235/extracted/GitHub Desktop.app",
+      "app_version": "3.7.1",
+      "app_path": "/tmp/hunter-1966306710/extracted/GitHub Desktop.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
-      "chromium_version": "152.0.7977.167",
-      "electron_version": "44.9.1",
+      "chromium_version": "152.0.7977.169",
+      "electron_version": "44.11.2",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-2838389235/extracted/GitHub Desktop.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-1966306710/extracted/GitHub Desktop.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "Insomnia",
@@ -453,12 +453,12 @@
     },
     {
       "app_name": "Spotify",
-      "app_path": "/tmp/hunter-3419318934/extracted/Spotify/Spotify.app",
+      "app_path": "/tmp/hunter-504178161/extracted/Spotify/Spotify.app",
       "framework": "cef",
       "framework_name": "Chromium Embedded Framework.framework",
       "detection": "directory",
       "extraction_method": "unknown",
-      "binary_path": "/tmp/hunter-3419318934/extracted/Spotify/Spotify.app/Contents/Frameworks/Chromium Embedded Framework.framework/Versions/A/Chromium Embedded Framework"
+      "binary_path": "/tmp/hunter-504178161/extracted/Spotify/Spotify.app/Contents/Frameworks/Chromium Embedded Framework.framework/Versions/A/Chromium Embedded Framework"
     },
     {
       "app_name": "TRAE SOLO CN",
@@ -575,15 +575,15 @@
     },
     {
       "app_name": "Yakit",
-      "app_version": "1.4.9-1120",
-      "app_path": "/tmp/hunter-404840434/extracted/Yakit 1.4.9-1120-arm64/Yakit.app",
+      "app_version": "1.4.9-1127",
+      "app_path": "/tmp/hunter-3950642699/extracted/Yakit 1.4.9-1127-arm64/Yakit.app",
       "framework": "electron",
       "framework_name": "Electron Framework",
       "detection": "directory",
       "chromium_version": "152.0.7977.169",
       "electron_version": "44.11.3",
       "extraction_method": "binary_strings",
-      "binary_path": "/tmp/hunter-404840434/extracted/Yakit 1.4.9-1120-arm64/Yakit.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+      "binary_path": "/tmp/hunter-3950642699/extracted/Yakit 1.4.9-1127-arm64/Yakit.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
     },
     {
       "app_name": "扣子",
